@@ -1,14 +1,68 @@
 {
- "run": 1,
- "run_started": "2026-10-29T19:36:48Z",
- "last_update": "2026-10-29T20:07:44Z",
- "code_version": "b39cfdcec335",
- "private_raw_storage": false,
+ "run": 2,
+ "run_started": "2026-10-29T20:08:05Z",
+ "last_update": "2026-10-29T20:08:20Z",
+ "code_version": "a3d97f4e9322",
+ "private_raw_storage": true,
+ "odds_api_keys": {
+  "ODDS_API_KEY_1": {
+   "valid": true,
+   "remaining": 500,
+   "used": 0
+  },
+  "ODDS_API_KEY_2": {
+   "valid": true,
+   "remaining": 500,
+   "used": 0
+  },
+  "ODDS_API_KEY_3": {
+   "valid": true,
+   "remaining": 500,
+   "used": 0
+  },
+  "ODDS_API_KEY_4": {
+   "valid": true,
+   "remaining": 500,
+   "used": 0
+  },
+  "ODDS_API_KEY_5": {
+   "valid": true,
+   "remaining": 500,
+   "used": 0
+  }
+ },
  "games_tracked": 4,
  "games_in_window": 3,
- "checks": 63,
+ "checks": 3,
  "errors": 0,
- "raw_snapshots": 0,
- "results_pushes": 2,
- "raw_pushes": 0
+ "raw_snapshots": 3,
+ "results_pushes": 0,
+ "raw_pushes": 0,
+ "odds_keys": {
+  "ODDS_API_KEY_1": {
+   "valid": true,
+   "remaining": 500,
+   "used": 0
+  },
+  "ODDS_API_KEY_2": {
+   "valid": true,
+   "remaining": 500,
+   "used": 0
+  },
+  "ODDS_API_KEY_3": {
+   "valid": true,
+   "remaining": 500,
+   "used": 0
+  },
+  "ODDS_API_KEY_4": {
+   "valid": true,
+   "remaining": 500,
+   "used": 0
+  },
+  "ODDS_API_KEY_5": {
+   "valid": true,
+   "remaining": 500,
+   "used": 0
+  }
+ }
 }
