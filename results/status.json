@@ -1,14 +1,14 @@
 {
  "run": 1,
  "run_started": "2026-10-29T19:36:48Z",
- "last_update": "2026-10-29T19:57:15Z",
+ "last_update": "2026-10-29T20:07:44Z",
  "code_version": "b39cfdcec335",
  "private_raw_storage": false,
- "games_tracked": 3,
- "games_in_window": 0,
- "checks": 15,
+ "games_tracked": 4,
+ "games_in_window": 3,
+ "checks": 63,
  "errors": 0,
  "raw_snapshots": 0,
- "results_pushes": 1,
+ "results_pushes": 2,
  "raw_pushes": 0
 }
