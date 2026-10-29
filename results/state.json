@@ -1,0 +1,17 @@
+{
+ "cash": {
+  "PM": 1000.0,
+  "KS": 1000.0
+ },
+ "start_cash": {
+  "PM": 1000.0,
+  "KS": 1000.0
+ },
+ "open": [],
+ "consumed": {},
+ "started": "2026-10-29T19:36:48Z",
+ "n_trades": 0,
+ "n_settled": 0,
+ "realized_pnl": 0.0,
+ "runs": 1
+}
