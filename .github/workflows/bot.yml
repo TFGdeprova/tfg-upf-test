@@ -20,6 +20,9 @@ permissions:
 
 jobs:
   bot:
+    # On/off switch: the bot only runs when the repository variable BOT_ENABLED is "true"
+    # (Settings -> Secrets and variables -> Actions -> Variables). Without it, every run is skipped at once.
+    if: vars.BOT_ENABLED == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 355
     env:

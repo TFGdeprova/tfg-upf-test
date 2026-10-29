@@ -27,6 +27,10 @@ it *would* have made, then settles them with the venues' official results.
 
 Raw order-book snapshots are stored in a private research repository, not here.
 
+## Switching it on and off
+The bot runs only while the repository variable `BOT_ENABLED` is `true` (Settings → Secrets and variables → Actions →
+Variables). A run that is already going can be stopped from the Actions tab (Cancel workflow run).
+
 ## Running locally
 ```
 pip install -r requirements.txt
