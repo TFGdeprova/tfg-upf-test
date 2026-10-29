@@ -32,7 +32,7 @@ US = ("nba", "nfl", "nhl")
 GRIDS = {}
 LOCK = threading.Lock()                  # games are checked in parallel threads: file appends must not interleave
 STATUS = {"checks": 0, "errors": 0, "raw_snapshots": 0, "results_pushes": 0, "raw_pushes": 0}
-ODDS_KEYS = {i: os.environ.get(f"ODDS_API_KEY_{i}", "").strip() for i in (1, 2, 3)}   # GitHub secrets; never logged
+ODDS_KEYS = {i: os.environ.get(f"ODDS_API_KEY_{i}", "").strip() for i in range(1, 6)}  # GitHub secrets; never logged
 
 
 def log(*a): print(iso(now()), *a, flush=True)
