@@ -1,4 +1,4 @@
-# Paper-trading bot: status at 2026-10-29T20:48:21Z
+# Paper-trading bot: status at 2026-10-29T20:58:20Z
 
 Started 2026-10-29T19:36:48Z with $2,000 (fictional; Polymarket $1,000, Kalshi $1,000).
 
@@ -10,7 +10,7 @@ Started 2026-10-29T19:36:48Z with $2,000 (fictional; Polymarket $1,000, Kalshi $
 | Open positions (cost) | $0.00 |
 | Cash: Polymarket / Kalshi | $1,000.00 / $1,000.00 |
 | Equity (cash + open at cost) | $2,000.00 |
-| Return so far (realised / start) | 0.000% over 0.0 days |
+| Return so far (realised / start) | 0.000% over 0.1 days |
 
 Gaps above the threshold seen by the bot: none yet.
 
