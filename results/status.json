@@ -1,7 +1,7 @@
 {
  "run": 2,
  "run_started": "2026-10-29T20:08:05Z",
- "last_update": "2026-10-29T20:28:19Z",
+ "last_update": "2026-10-29T20:48:21Z",
  "code_version": "a3d97f4e9322",
  "private_raw_storage": true,
  "odds_api_keys": {
@@ -31,13 +31,13 @@
    "used": 0
   }
  },
- "games_tracked": 4,
- "games_in_window": 3,
- "checks": 123,
+ "games_tracked": 11,
+ "games_in_window": 4,
+ "checks": 280,
  "errors": 0,
- "raw_snapshots": 15,
- "results_pushes": 1,
- "raw_pushes": 1,
+ "raw_snapshots": 31,
+ "results_pushes": 2,
+ "raw_pushes": 2,
  "odds_keys": {
   "ODDS_API_KEY_1": {
    "valid": true,
