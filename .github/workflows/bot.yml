@@ -50,6 +50,9 @@ jobs:
           MAX_RUNTIME_MIN: "335"
           BOT_RAW_DIR: ${{ env.HAS_PRIVATE == 'true' && 'private/data/bot_raw' || '' }}
           BOT_RAW_REPO: ${{ env.HAS_PRIVATE == 'true' && 'private' || '' }}
+          ODDS_API_KEY_1: ${{ secrets.ODDS_API_KEY_1 }}
+          ODDS_API_KEY_2: ${{ secrets.ODDS_API_KEY_2 }}
+          ODDS_API_KEY_3: ${{ secrets.ODDS_API_KEY_3 }}
         run: |
           git config user.name "tfg-paper-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

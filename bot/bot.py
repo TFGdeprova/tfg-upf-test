@@ -14,7 +14,7 @@ Outputs (results/): trades.jsonl, trades.csv, opportunities.csv, polls/<date>.cs
 import os, sys, json, csv, math, time, gzip, subprocess, threading, traceback, datetime as dt
 from concurrent.futures import ThreadPoolExecutor
 import numpy as np
-from .common import get, GAMMA, KS, now, iso, parse, pm_books, ks_quote, solve, KS_FEE
+from .common import get, GAMMA, KS, now, iso, parse, pm_books, ks_quote, solve, KS_FEE, odds_key_check
 from . import markets_us, markets_fb
 from .grid_us import USGrid, unique_rows
 
@@ -32,6 +32,7 @@ US = ("nba", "nfl", "nhl")
 GRIDS = {}
 LOCK = threading.Lock()                  # games are checked in parallel threads: file appends must not interleave
 STATUS = {"checks": 0, "errors": 0, "raw_snapshots": 0, "results_pushes": 0, "raw_pushes": 0}
+ODDS_KEYS = {i: os.environ.get(f"ODDS_API_KEY_{i}", "").strip() for i in (1, 2, 3)}   # GitHub secrets; never logged
 
 
 def log(*a): print(iso(now()), *a, flush=True)
@@ -333,7 +334,7 @@ def write_status(st, games, start_code, t_start):
     """Public health file (no secrets): lets the run be checked without access to the Actions logs."""
     json.dump({"run": st["runs"], "run_started": iso(dt.datetime.fromtimestamp(t_start, dt.timezone.utc)),
                "last_update": iso(now()), "code_version": (start_code[0] or "")[:12],
-               "private_raw_storage": bool(RAW), "games_tracked": len(games),
+               "private_raw_storage": bool(RAW), "odds_api_keys": STATUS.get("odds_keys", {}), "games_tracked": len(games),
                "games_in_window": sum(1 for g in games.values() if g.ko - dt.timedelta(hours=WINDOW_H) <= now() < g.ko),
                **STATUS}, open(os.path.join(RES, "status.json"), "w"), indent=1)
 
@@ -343,6 +344,7 @@ def main():
     st = load_state(); st["runs"] += 1; t_start = time.time()
     games, last_disc, last_commit, last_settle, last_code = {}, 0.0, 0.0, 0.0, time.time()
     start_code = code_id("HEAD")
+    STATUS["odds_keys"] = {f"ODDS_API_KEY_{i}": (odds_key_check(k) if k else "not set") for i, k in ODDS_KEYS.items()}
     log(f"run {st['runs']} | window {WINDOW_H} h | poll {POLL_SEC} s | threshold {100 * THRESH:.2f}% | cap ${CAP_PER_TRADE:.0f}"
         f" | private raw storage: {'yes' if RAW else 'no'}")
     pool = ThreadPoolExecutor(int(os.environ.get("WORKERS", 8)))

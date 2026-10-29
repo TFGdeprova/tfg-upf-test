@@ -73,6 +73,20 @@ def ks_quote(m):
     return (ya if ya and 0 < ya < 1 else None, ys, na if na and 0 < na < 1 else None, bs)
 
 
+def odds_key_check(key):
+    """Validity and remaining credits of a The Odds API key, via the free /sports endpoint (costs no credits).
+    The key itself is never logged or returned."""
+    try:
+        req = urllib.request.Request(f"https://api.the-odds-api.com/v4/sports?apiKey={key}", headers=UA)
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return {"valid": True, "remaining": int(float(r.headers.get("x-requests-remaining", -1))),
+                    "used": int(float(r.headers.get("x-requests-used", -1)))}
+    except urllib.error.HTTPError as e:
+        return {"valid": False, "http_status": e.code}
+    except Exception:
+        return {"valid": None, "error": "network"}
+
+
 def solve(R):
     """max t s.t. R x >= 1 + t (every state), sum x = 1, x >= 0.  R: states x tickets gross returns per unit invested."""
     if R.shape[1] < 2: return np.nan, None
