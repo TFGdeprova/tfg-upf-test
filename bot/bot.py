@@ -15,7 +15,7 @@ import os, sys, json, csv, math, time, gzip, subprocess, threading, traceback, d
 from concurrent.futures import ThreadPoolExecutor
 import numpy as np
 from .common import get, GAMMA, KS, now, iso, parse, pm_books, ks_quote, solve, KS_FEE, odds_key_check
-from . import markets_us, markets_fb
+from . import markets_us, markets_fb, books as bk
 from .grid_us import USGrid, unique_rows
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
@@ -27,11 +27,12 @@ MAX_RUNTIME_MIN, COMMIT_MIN = E("MAX_RUNTIME_MIN", 340), E("COMMIT_MIN", 20)
 THRESH, MIN_PROFIT, CAP_PER_TRADE = E("THRESH", 0.002), E("MIN_PROFIT", 0.02), E("CAP_PER_TRADE", 250.0)
 START_CASH = {"PM": E("CASH_PM", 1000.0), "KS": E("CASH_KS", 1000.0)}
 RAW_EVERY = E("RAW_EVERY", 10)          # raw snapshot every 10th check of a game (~5 min) + every check with t* > -0.5%
+CAP_BOOK_LEG = E("CAP_BOOK_LEG", 250.0)  # assumed bookmaker stake limit per leg (measurement only, no paper fills)
 SETTLE_AFTER_H = {"nba": 3.0, "nhl": 3.0, "nfl": 4.0, "football": 2.5}
 US = ("nba", "nfl", "nhl")
 GRIDS = {}
 LOCK = threading.Lock()                  # games are checked in parallel threads: file appends must not interleave
-STATUS = {"checks": 0, "errors": 0, "raw_snapshots": 0, "results_pushes": 0, "raw_pushes": 0}
+STATUS = {"checks": 0, "errors": 0, "raw_snapshots": 0, "results_pushes": 0, "raw_pushes": 0, "book_calls": 0, "book_games": 0}
 ODDS_KEYS = {i: os.environ.get(f"ODDS_API_KEY_{i}", "").strip() for i in range(1, 6)}  # GitHub secrets; never logged
 
 
@@ -111,6 +112,7 @@ def code_updated(start):
 class Game:
     def __init__(self, meta):
         self.m = meta; self.pm, self.pm_t, self.pend, self._sig, self._pay, self.n = [], 0.0, None, None, None, 0
+        self.book = None                                  # bookmaker snapshot waiting to be combined with PM/KS prices
 
     @property
     def ko(self): return parse(self.m["kickoff"])
@@ -126,7 +128,9 @@ class Game:
         sig = tuple((c["kind"], c.get("side"), c.get("line"), c.get("lo"), c.get("hi"), c.get("counts_so")) for c in contracts)
         if sig != self._sig:
             g = GRIDS.get(self.m["sport"]) or GRIDS.setdefault(self.m["sport"], USGrid(self.m["sport"]))
-            self._pay, self._sig = unique_rows(np.column_stack([g.payoff(c) for c in contracts])), sig
+            C = np.empty((g.H.size, len(contracts)), np.uint8)                  # codes 0 / 1 / 2 = pays 0 / 0.5 / 1
+            for j, c in enumerate(contracts): C[:, j] = np.rint(g.payoff(c) * 2)
+            self._pay, self._sig = unique_rows(C, codes=True) / 2.0, sig
         return self._pay
 
 
@@ -187,11 +191,81 @@ def check(game, st):
     if game.n % RAW_EVERY == 1 or (np.isfinite(t_star) and t_star > -0.005):
         raw_write(game.m, {c["token"]: books.get(c["token"]) for c in game.pm}, {c["id"]: ks_quote(c["market"]) for c in ks})
     if W is None: return None
+    if game.book is not None:
+        try: books_check(game, contracts, T, P, t_star)
+        except Exception: log("books error", game.m["id"], traceback.format_exc(limit=2)); STATUS["errors"] += 1
     row = {"time": iso(now()), "game": game.m["id"], "title": game.m["title"], "min_to_ko": round((game.ko - now()).total_seconds() / 60, 1),
            "n_pm": len(game.pm), "n_ks": len(ks), "n_states": P.shape[0], "n_tickets": len(T),
            "t_star": round(t_star, 6) if np.isfinite(t_star) else ""}
     append_csv(os.path.join(RES, "polls", now().strftime("%Y-%m-%d") + ".csv"), row)
     return t_star, x, T, W, contracts
+
+
+# ---------------------------------------------------------------- bookmakers (measurement only)
+def fetch_books(games, keys, st):
+    """One The Odds API call per sport when one of its games is 8-30 minutes from kick-off (each kick-off time once)."""
+    if not keys.keys: return
+    slots = st.setdefault("book_slots", {})
+    due = {}
+    for g in games.values():
+        mins = (g.ko - now()).total_seconds() / 60
+        slot = f"{g.m['league']}|{g.m['kickoff'][:16]}"
+        if bk.SNAP_MIN <= mins <= bk.SNAP_MAX and slot not in slots and g.m["league"] in bk.SPORTS:
+            due.setdefault(g.m["league"], []).append((slot, g))
+    for lg, items in due.items():
+        markets, regions = bk.params(lg)
+        data, msg = keys.call(bk.SPORTS[lg], markets, regions, bk.cost(lg))
+        log(f"odds {lg}: {msg}")                                  # msg never contains a key
+        for slot, g in items: slots[slot] = iso(now())
+        if data is None: continue
+        STATUS["book_calls"] += 1
+        with LOCK: bk.raw_write(RAW, bk.SPORTS[lg], data)
+        for slot, g in items:
+            ev, side = bk.match_event(g.m, data, markets_fb.sim)
+            if ev: g.book = (ev, side)
+            else: log("odds: game not found at the bookmakers", g.m["id"])
+    old = (now() - dt.timedelta(days=2)).strftime("%Y-%m-%d")
+    st["book_slots"] = {k: v for k, v in slots.items() if v >= old}
+
+
+def books_check(game, contracts, T, P, t_pmks):
+    """Combine the bookmaker snapshot with this minute's Polymarket/Kalshi prices (one LP), log the result."""
+    ev, side = game.book; game.book = None
+    lines = bk.best_lines(ev, side)
+    if game.m["sport"] == "football":
+        bl = [(L, v) for L in lines if (v := bk.payoff_football(L)) is not None]
+        if not bl: return
+        Pc, B = P, np.column_stack([v for _, v in bl])
+    else:
+        g = GRIDS.get(game.m["sport"]) or GRIDS.setdefault(game.m["sport"], USGrid(game.m["sport"]))
+        bl = [(L, v) for L in lines if (v := bk.payoff_us(L, g)) is not None]
+        if not bl: return
+        nc = len(contracts); C = np.empty((g.H.size, nc + len(bl)), np.uint8)
+        for j, c in enumerate(contracts): C[:, j] = np.rint(g.payoff(c) * 2)
+        for k, (L, v) in enumerate(bl): C[:, nc + k] = np.where(v == 0, 0, np.where(v == 1.0, 1, 2))
+        U = unique_rows(C, codes=True)
+        Pc = U[:, :nc] / 2.0
+        B = np.column_stack([np.where(U[:, nc + k] == 0, 0.0, np.where(U[:, nc + k] == 1, 1.0, L["eff"])) for k, (L, _) in enumerate(bl)])
+    Wt = np.column_stack([Pc[:, j] if s == "YES" else 1.0 - Pc[:, j] for j, s, *_ in T])
+    cost = np.array([t[2] for t in T] + [1.0] * B.shape[1])
+    t_all, x = solve(np.column_stack([Wt, B]) / cost)
+    with LOCK: STATUS["book_games"] += 1
+    legs, caps = [], []
+    if x is not None and np.isfinite(t_all) and t_all > THRESH:
+        for i in np.where(x > 1e-6)[0]:
+            if i < len(T):
+                j, s, allin, px, sz, fee, venue, cid, mn = T[i]
+                legs.append(f"{venue} {s} {px:.3f} x{x[i]:.3f} {contracts[j]['label']}"); caps.append(sz * allin / x[i])
+            else:
+                L = bl[i - len(T)][0]
+                legs.append(f"{L['book']} {L['market']} {L['outcome']} {'' if L['point'] is None else L['point']} @{L['odds']} x{x[i]:.3f}")
+                caps.append(CAP_BOOK_LEG / x[i])
+    cap = min(caps) if caps else 0.0
+    append_csv(os.path.join(RES, "opportunities_books.csv"), {
+        "time": iso(now()), "game": game.m["id"], "title": game.m["title"], "league": game.m["league"],
+        "min_to_ko": round((game.ko - now()).total_seconds() / 60, 1), "book_lines": B.shape[1],
+        "t_pm_ks": round(t_pmks, 6) if np.isfinite(t_pmks) else "", "t_with_books": round(t_all, 6) if np.isfinite(t_all) else "",
+        "capacity_usd": round(cap, 2) if legs else "", "paper_profit_usd": round(t_all * cap, 2) if legs else "", "legs": " | ".join(legs)})
 
 
 # ---------------------------------------------------------------- paper execution
@@ -321,6 +395,15 @@ def report(st):
              "Gaps above the threshold seen by the bot: " + (", ".join(f"{k} {v}" for k, v in sorted(acts.items())) or "none yet") + ".", "",
              "`seen` = first sighting; `executed` = still there at the next check and filled; `vanished` = gone at the next check;",
              "`below_min_size` / `rounding` / `no_cash` = too small to fill, or no cash left on a venue.", ""]
+    ob = os.path.join(RES, "opportunities_books.csv")
+    if os.path.exists(ob):
+        bo = list(csv.DictReader(open(ob)))
+        pos = [r for r in bo if r["legs"]]
+        best = max((float(r["t_with_books"]) for r in pos), default=None)
+        lines += ["## Bookmakers (measurement only, no paper fills)", "",
+                  f"Snapshots combined with Polymarket/Kalshi prices: {len(bo)} games. Gaps above {100 * THRESH:.1f}% including "
+                  f"bookmaker odds: {len(pos)}" + (f" (best {100 * best:+.2f}%, paper profit at ${CAP_BOOK_LEG:.0f} per bookmaker leg: "
+                  f"${sum(float(r['paper_profit_usd'] or 0) for r in pos):,.2f})." if pos else "."), ""]
     if rows:
         lines += ["## Last trades", "", "| # | time (UTC) | game | min to KO | gap | cost | guaranteed profit | status | P&L |", "|---|---|---|---|---|---|---|---|---|"]
         for t in sorted(trades.values(), key=lambda t: -t["trade_id"])[:25]:
@@ -334,9 +417,12 @@ def write_status(st, games, start_code, t_start):
     """Public health file (no secrets): lets the run be checked without access to the Actions logs."""
     json.dump({"run": st["runs"], "run_started": iso(dt.datetime.fromtimestamp(t_start, dt.timezone.utc)),
                "last_update": iso(now()), "code_version": (start_code[0] or "")[:12],
-               "private_raw_storage": bool(RAW), "odds_api_keys": STATUS.get("odds_keys", {}), "games_tracked": len(games),
+               "private_raw_storage": bool(RAW), "odds_api_keys": STATUS.get("odds_keys", {}),
+               "odds_credits_remaining": {f"ODDS_API_KEY_{i}": r for i, r in sorted(st.get("odds", {}).get("remaining", {}).items())},
+               "odds_credits_spent_today": st.get("odds", {}).get("spent", {}).get(now().strftime("%Y-%m-%d"), 0),
+               "games_tracked": len(games),
                "games_in_window": sum(1 for g in games.values() if g.ko - dt.timedelta(hours=WINDOW_H) <= now() < g.ko),
-               **STATUS}, open(os.path.join(RES, "status.json"), "w"), indent=1)
+               **{k: v for k, v in STATUS.items() if k != "odds_keys"}}, open(os.path.join(RES, "status.json"), "w"), indent=1)
 
 
 # ---------------------------------------------------------------- main
@@ -345,6 +431,9 @@ def main():
     games, last_disc, last_commit, last_settle, last_code = {}, 0.0, 0.0, 0.0, time.time()
     start_code = code_id("HEAD")
     STATUS["odds_keys"] = {f"ODDS_API_KEY_{i}": (odds_key_check(k) if k else "not set") for i, k in ODDS_KEYS.items()}
+    keys = bk.Keys(st)
+    for i, r in STATUS["odds_keys"].items():                 # start from the true remaining credits of each key
+        if isinstance(r, dict) and r.get("valid"): keys.st["remaining"][i.rsplit("_", 1)[1]] = r["remaining"]
     log(f"run {st['runs']} | window {WINDOW_H} h | poll {POLL_SEC} s | threshold {100 * THRESH:.2f}% | cap ${CAP_PER_TRADE:.0f}"
         f" | private raw storage: {'yes' if RAW else 'no'}")
     pool = ThreadPoolExecutor(int(os.environ.get("WORKERS", 8)))
@@ -352,6 +441,7 @@ def main():
         t0 = time.time(); active = []
         try:
             if t0 - last_disc > DISCOVER_MIN * 60: discover(games); last_disc = t0
+            fetch_books(games, keys, st)
             active = [g for g in games.values() if g.ko - dt.timedelta(hours=WINDOW_H) <= now() < g.ko - dt.timedelta(minutes=1)]
             for g, res in zip(active, pool.map(lambda g: check(g, st), active)):
                 try: handle(g, st, res)

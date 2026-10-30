@@ -61,15 +61,17 @@ class USGrid:
         return {j: U[:, k] for k, j in enumerate(idx)}, U.shape[0]
 
 
-_W = np.random.default_rng(12345).integers(1, 2 ** 62, size=4096, dtype=np.int64)
+_W1 = np.random.default_rng(12345).integers(1, 2 ** 62, size=8192, dtype=np.int64)
+_W2 = np.random.default_rng(54321).integers(1, 2 ** 62, size=8192, dtype=np.int64)
 
 
-def unique_rows(P):
-    """Distinct rows of a payoff matrix with values in {0, 0.5, 1}: rows are hashed (two independent 64-bit hashes),
-    which is much faster than a lexicographic np.unique on wide matrices."""
-    codes = np.rint(P * 2).astype(np.int64)                    # 0, 1, 2
-    n = codes.shape[1]
-    w1, w2 = _W[:n] if n <= 2048 else np.resize(_W, n), _W[2048:2048 + n] if n <= 2048 else np.resize(_W[::-1], n)
-    h = (codes * w1).sum(axis=1) * 1000003 + (codes * w2).sum(axis=1)
-    _, first = np.unique(h, return_index=True)
+def unique_rows(P, codes=False):
+    """Distinct rows of a payoff matrix (values 0, 0.5, 1; or integer codes 0..255 with codes=True). Rows are hashed
+    with two independent 64-bit hashes, column block by column block, so memory stays small even for NBA grids."""
+    n = P.shape[1]; h1 = np.zeros(P.shape[0], np.int64); h2 = np.zeros(P.shape[0], np.int64)
+    W1, W2 = np.resize(_W1, n), np.resize(_W2[::-1], n)
+    for s in range(0, n, 64):
+        c = P[:, s:s + 64].astype(np.int64) if codes else np.rint(P[:, s:s + 64] * 2).astype(np.int64)
+        h1 += (c * W1[s:s + 64]).sum(axis=1); h2 += (c * W2[s:s + 64]).sum(axis=1)
+    _, first = np.unique(h1 * 1000003 + h2, return_index=True)
     return P[np.sort(first)]

@@ -17,11 +17,16 @@ it *would* have made, then settles them with the venues' official results.
    gone), at least the venue's minimum order size, at most $250 per trade, and only with the cash it holds on each
    venue (fictional $1,000 on Polymarket and $1,000 on Kalshi; money cannot move between venues).
 4. After the game, positions are settled from the official resolutions and the cash returns to each venue.
+5. Bookmakers (measurement only): 8–30 minutes before each kick-off the bot takes one snapshot of bookmaker odds
+   (The Odds API: winner and totals for football; winner, spreads and totals for the US leagues) and solves the same
+   linear program with Polymarket, Kalshi and the best bookmaker odds together. These are logged separately and not
+   paper-traded: one snapshot cannot pass the persistence check, and bookmaker stake limits are unknown.
 
 ## Results
 - [`results/summary.md`](results/summary.md): balances, trades and realised profit (updated every 20 minutes)
 - `results/trades.csv` / `trades.jsonl`: every paper trade with its legs, prices, sizes and fees
 - `results/opportunities.csv`: every gap above the threshold (seen / executed / vanished / too small)
+- `results/opportunities_books.csv`: each bookmaker snapshot combined with Polymarket and Kalshi (gaps above 0.2% listed with their legs)
 - `results/polls/<date>.csv`: the best guaranteed return found at every check of every game
 - `results/status.json`: health of the current run (checks, errors, pushes)
 
