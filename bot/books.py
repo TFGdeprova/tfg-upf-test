@@ -24,7 +24,8 @@ SKIP_BOOKS = ("kalshi", "polymarket")                          # already covered
 E = lambda k, d: type(d)(os.environ.get(k, d))
 RESERVE = E("ODDS_RESERVE", 20)                                # never spend the last credits of a key
 RESET_DAY = E("ODDS_RESET_DAY", 29)                            # day of the month the free credits renew
-SNAP_MIN, SNAP_MAX = E("BOOK_SNAP_MIN", 8), E("BOOK_SNAP_MAX", 30)   # snapshot window: minutes before kick-off
+OFFSETS = [int(x) for x in os.environ.get("BOOK_OFFSETS", "180,120,60,30,15,5").split(",")]  # snapshots: minutes before KO
+LATE = (30, 15, 5)                      # kept when credits would run out within 3 days (earliest snapshots dropped first)
 
 
 def params(league):
@@ -44,15 +45,20 @@ class Keys:
 
     def remaining(self): return {i: self.st["remaining"].get(i, 500) for i in self.keys}
 
-    def daily_cap(self):
-        t = now().date()
-        nxt = t.replace(day=RESET_DAY) if t.day < RESET_DAY else (t.replace(day=1) + dt.timedelta(days=32)).replace(day=RESET_DAY)
-        left = sum(max(0, r - RESERVE) for r in self.remaining().values())
-        return max(8, int(1.5 * left / max(1, (nxt - t).days)))
+    def usable(self): return sum(max(0, r - RESERVE) for r in self.remaining().values())
+
+    def pace(self):
+        """Average credits spent per day over the last 3 days (today counts only for the hours elapsed)."""
+        t = now(); days = [(t - dt.timedelta(days=d)).strftime("%Y-%m-%d") for d in range(3)]
+        spent = sum(self.st["spent"].get(d, 0) for d in days)
+        span = 2 + (t.hour * 60 + t.minute) / 1440 if any(self.st["spent"].get(d) for d in days[1:]) else max(0.25, (t.hour * 60 + t.minute) / 1440)
+        return spent / span
+
+    def days_left(self):
+        p = self.pace(); return self.usable() / p if p > 0 else float("inf")
 
     def call(self, sport, markets, regions, credits):
         today = now().strftime("%Y-%m-%d")
-        if self.st["spent"].get(today, 0) + credits > self.daily_cap(): return None, "daily budget reached"
         cands = [(r, i) for i, r in self.remaining().items() if r - credits >= RESERVE]
         if not cands: return None, "no credits left"
         i = max(cands)[1]

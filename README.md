@@ -15,9 +15,9 @@ it *would* have made, then settles them with the venues' official results.
 3. A gap above 0.2 % must still be there at the next check (one polling interval of reaction time). The bot then
    "buys" at that moment's best prices, never more than the displayed size (liquidity it already took is treated as
    gone), at least the venue's minimum order size, at most $250 per trade, and only with the cash it holds on each
-   venue (fictional $1,000 on Polymarket and $1,000 on Kalshi; money cannot move between venues).
+   venue (fictional $5,800 on Polymarket and $5,800 on Kalshi, about €10,000 in total).
 4. After the game, positions are settled from the official resolutions and the cash returns to each venue.
-5. Bookmakers (measurement only): 8–30 minutes before each kick-off the bot takes one snapshot of bookmaker odds
+5. Bookmakers (measurement only for now): 3 h, 2 h, 1 h, 30, 15 and 5 minutes before each kick-off the bot takes a snapshot of bookmaker odds
    (The Odds API: winner and totals for football; winner, spreads and totals for the US leagues) and solves the same
    linear program with Polymarket, Kalshi and the best bookmaker odds together. These are logged separately and not
    paper-traded: one snapshot cannot pass the persistence check, and bookmaker stake limits are unknown.

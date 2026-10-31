@@ -25,7 +25,8 @@ E = lambda k, d: type(d)(os.environ.get(k, d))
 POLL_SEC, WINDOW_H, DISCOVER_MIN = E("POLL_SEC", 30), E("WINDOW_H", 3.0), E("DISCOVER_MIN", 10)
 MAX_RUNTIME_MIN, COMMIT_MIN = E("MAX_RUNTIME_MIN", 340), E("COMMIT_MIN", 20)
 THRESH, MIN_PROFIT, CAP_PER_TRADE = E("THRESH", 0.002), E("MIN_PROFIT", 0.02), E("CAP_PER_TRADE", 250.0)
-START_CASH = {"PM": E("CASH_PM", 1000.0), "KS": E("CASH_KS", 1000.0)}
+FX = E("EUR_USD", 1.16)                 # reporting only: the venues trade in US dollars
+START_CASH = {"PM": E("CASH_PM", 5800.0), "KS": E("CASH_KS", 5800.0)}   # = EUR 10,000 at 1.16
 RAW_EVERY = E("RAW_EVERY", 10)          # raw snapshot every 10th check of a game (~5 min) + every check with t* > -0.5%
 CAP_BOOK_LEG = E("CAP_BOOK_LEG", 250.0)  # assumed bookmaker stake limit per leg (measurement only, no paper fills)
 SETTLE_AFTER_H = {"nba": 3.0, "nhl": 3.0, "nfl": 4.0, "football": 2.5}
@@ -42,7 +43,10 @@ def log(*a): print(iso(now()), *a, flush=True)
 # ---------------------------------------------------------------- persistence
 def load_state():
     p = os.path.join(RES, "state.json")
-    if os.path.exists(p): return json.load(open(p))
+    if os.path.exists(p):
+        st = json.load(open(p))
+        if st.get("n_trades", 0) > 0 or st.get("start_cash") == START_CASH: return st
+        log("starting capital changed and no trade yet: fresh state")      # e.g. test runs before the real start
     return {"cash": dict(START_CASH), "start_cash": dict(START_CASH), "open": [], "consumed": {}, "started": iso(now()),
             "n_trades": 0, "n_settled": 0, "realized_pnl": 0.0, "runs": 0}
 
@@ -202,25 +206,36 @@ def check(game, st):
 
 
 # ---------------------------------------------------------------- bookmakers (measurement only)
+BOOK_CACHE = {}                          # league -> (time, data): one call serves every game of that league due now
+
+
 def fetch_books(games, keys, st):
-    """One The Odds API call per sport when one of its games is 8-30 minutes from kick-off (each kick-off time once)."""
+    """Bookmaker snapshots at fixed minutes before each kick-off (bk.OFFSETS); one call per sport serves all its games.
+    If the credits left would last less than 3 days at the current pace, only the late snapshots are taken."""
     if not keys.keys: return
     slots = st.setdefault("book_slots", {})
+    offsets = bk.OFFSETS if keys.days_left() >= 3 else [o for o in bk.OFFSETS if o in bk.LATE]
     due = {}
     for g in games.values():
         mins = (g.ko - now()).total_seconds() / 60
-        slot = f"{g.m['league']}|{g.m['kickoff'][:16]}"
-        if bk.SNAP_MIN <= mins <= bk.SNAP_MAX and slot not in slots and g.m["league"] in bk.SPORTS:
-            due.setdefault(g.m["league"], []).append((slot, g))
+        if g.m["league"] not in bk.SPORTS: continue
+        for o in offsets:
+            slot = f"{g.m['league']}|{g.m['kickoff'][:16]}|{o}"
+            if o - 8 < mins <= o and slot not in slots: due.setdefault(g.m["league"], []).append((slot, g))
     for lg, items in due.items():
-        markets, regions = bk.params(lg)
-        data, msg = keys.call(bk.SPORTS[lg], markets, regions, bk.cost(lg))
+        cached = BOOK_CACHE.get(lg)
+        if cached and time.time() - cached[0] < 180:
+            data, msg = cached[1], "reused a snapshot taken less than 3 minutes ago"
+        else:
+            markets, regions = bk.params(lg)
+            data, msg = keys.call(bk.SPORTS[lg], markets, regions, bk.cost(lg))
+            if data is not None:
+                BOOK_CACHE[lg] = (time.time(), data); STATUS["book_calls"] += 1
+                with LOCK: bk.raw_write(RAW, bk.SPORTS[lg], data)
         log(f"odds {lg}: {msg}")                                  # msg never contains a key
         for slot, g in items: slots[slot] = iso(now())
         if data is None: continue
-        STATUS["book_calls"] += 1
-        with LOCK: bk.raw_write(RAW, bk.SPORTS[lg], data)
-        for slot, g in items:
+        for slot, g in {id(g): (slot, g) for slot, g in items}.values():
             ev, side = bk.match_event(g.m, data, markets_fb.sim)
             if ev: g.book = (ev, side)
             else: log("odds: game not found at the bookmakers", g.m["id"])
@@ -383,18 +398,24 @@ def report(st):
     equity = sum(st["cash"].values()) + locked
     start = sum(st["start_cash"].values())
     days = max(1e-9, (now() - parse(st["started"])).total_seconds() / 86400)
+    eur = lambda usd: f"€{usd / FX:,.0f}"
     lines = [f"# Paper-trading bot: status at {iso(now())}", "",
-             f"Started {st['started']} with ${start:,.0f} (fictional; Polymarket ${st['start_cash']['PM']:,.0f}, Kalshi ${st['start_cash']['KS']:,.0f}).", "",
+             f"Started {st['started']} with ${start:,.0f} ≈ {eur(start)} (fictional; Polymarket ${st['start_cash']['PM']:,.0f}, "
+             f"Kalshi ${st['start_cash']['KS']:,.0f}; euro amounts at {FX} USD/EUR).", "",
              "| | |", "|---|---|",
              f"| Trades executed | {st['n_trades']} |", f"| Trades settled | {st['n_settled']} |",
-             f"| Realised profit | ${st['realized_pnl']:,.2f} |",
+             f"| Realised profit | ${st['realized_pnl']:,.2f} ≈ €{st['realized_pnl'] / FX:,.2f} |",
              f"| Open positions (cost) | ${locked:,.2f} |",
              f"| Cash: Polymarket / Kalshi | ${st['cash']['PM']:,.2f} / ${st['cash']['KS']:,.2f} |",
-             f"| Equity (cash + open at cost) | ${equity:,.2f} |",
+             f"| Equity (cash + open at cost) | ${equity:,.2f} ≈ {eur(equity)} |",
              f"| Return so far (realised / start) | {100 * st['realized_pnl'] / start:.3f}% over {days:.1f} days |", "",
              "Gaps above the threshold seen by the bot: " + (", ".join(f"{k} {v}" for k, v in sorted(acts.items())) or "none yet") + ".", "",
              "`seen` = first sighting; `executed` = still there at the next check and filled; `vanished` = gone at the next check;",
              "`below_min_size` / `rounding` / `no_cash` = too small to fill, or no cash left on a venue.", ""]
+    dl = STATUS.get("odds_days_left")
+    if STATUS.get("odds_credits_usable") is not None:
+        lines += [f"The Odds API credits left: {STATUS['odds_credits_usable']:,}" + (f" (about {dl:.1f} days at the current pace)" if dl else "")
+                  + (". **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**" if dl is not None and dl < 4 else "."), ""]
     ob = os.path.join(RES, "opportunities_books.csv")
     if os.path.exists(ob):
         bo = list(csv.DictReader(open(ob)))
@@ -420,6 +441,7 @@ def write_status(st, games, start_code, t_start):
                "private_raw_storage": bool(RAW), "odds_api_keys": STATUS.get("odds_keys", {}),
                "odds_credits_remaining": {f"ODDS_API_KEY_{i}": r for i, r in sorted(st.get("odds", {}).get("remaining", {}).items())},
                "odds_credits_spent_today": st.get("odds", {}).get("spent", {}).get(now().strftime("%Y-%m-%d"), 0),
+               "odds_credits_days_left_at_current_pace": STATUS.get("odds_days_left"),
                "games_tracked": len(games),
                "games_in_window": sum(1 for g in games.values() if g.ko - dt.timedelta(hours=WINDOW_H) <= now() < g.ko),
                **{k: v for k, v in STATUS.items() if k != "odds_keys"}}, open(os.path.join(RES, "status.json"), "w"), indent=1)
@@ -442,6 +464,8 @@ def main():
         try:
             if t0 - last_disc > DISCOVER_MIN * 60: discover(games); last_disc = t0
             fetch_books(games, keys, st)
+            d = keys.days_left(); STATUS["odds_credits_usable"] = keys.usable()
+            STATUS["odds_days_left"] = round(d, 1) if d != float("inf") else None
             active = [g for g in games.values() if g.ko - dt.timedelta(hours=WINDOW_H) <= now() < g.ko - dt.timedelta(minutes=1)]
             for g, res in zip(active, pool.map(lambda g: check(g, st), active)):
                 try: handle(g, st, res)
