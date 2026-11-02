@@ -15,7 +15,7 @@ import os, sys, json, csv, math, time, gzip, subprocess, threading, traceback, d
 from concurrent.futures import ThreadPoolExecutor
 import numpy as np
 from .common import get, GAMMA, KS, now, iso, parse, pm_books, ks_quote, solve, KS_FEE, odds_key_check
-from . import markets_us, markets_fb, books as bk
+from . import markets_us, markets_fb, books as bk, accounts as ac
 from .grid_us import USGrid, unique_rows
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
@@ -28,12 +28,15 @@ THRESH, MIN_PROFIT, CAP_PER_TRADE = E("THRESH", 0.002), E("MIN_PROFIT", 0.02), E
 FX = E("EUR_USD", 1.16)                 # reporting only: the venues trade in US dollars
 START_CASH = {"PM": E("CASH_PM", 5800.0), "KS": E("CASH_KS", 5800.0)}   # = EUR 10,000 at 1.16
 RAW_EVERY = E("RAW_EVERY", 10)          # raw snapshot every 10th check of a game (~5 min) + every check with t* > -0.5%
-CAP_BOOK_LEG = E("CAP_BOOK_LEG", 250.0)  # assumed bookmaker stake limit per leg (measurement only, no paper fills)
+CONFIRM_SEC = E("CONFIRM_SEC", 60)       # a gap that uses a bookmaker is re-checked with fresh odds this much later
+MIN_BOOK_STAKE = E("MIN_BOOK_STAKE", 1.0)
 SETTLE_AFTER_H = {"nba": 3.0, "nhl": 3.0, "nfl": 4.0, "football": 2.5}
 US = ("nba", "nfl", "nhl")
 GRIDS = {}
 LOCK = threading.Lock()                  # games are checked in parallel threads: file appends must not interleave
-STATUS = {"checks": 0, "errors": 0, "raw_snapshots": 0, "results_pushes": 0, "raw_pushes": 0, "book_calls": 0, "book_games": 0}
+STATUS = {"checks": 0, "errors": 0, "raw_snapshots": 0, "results_pushes": 0, "raw_pushes": 0, "book_calls": 0, "book_games": 0,
+          "book_confirm_calls": 0, "score_calls": 0}
+CONFIRM = {}                             # league -> time after which a confirmation snapshot is taken
 ODDS_KEYS = {i: os.environ.get(f"ODDS_API_KEY_{i}", "").strip() for i in range(1, 6)}  # GitHub secrets; never logged
 
 
@@ -45,10 +48,13 @@ def load_state():
     p = os.path.join(RES, "state.json")
     if os.path.exists(p):
         st = json.load(open(p))
-        if st.get("n_trades", 0) > 0 or st.get("start_cash") == START_CASH: return st
+        same = all(st.get("start_cash", {}).get(v) == START_CASH[v] for v in START_CASH)
+        if st.get("n_trades", 0) > 0 or same:
+            ac.init(st, START_CASH); return st
         log("starting capital changed and no trade yet: fresh state")      # e.g. test runs before the real start
-    return {"cash": dict(START_CASH), "start_cash": dict(START_CASH), "open": [], "consumed": {}, "started": iso(now()),
-            "n_trades": 0, "n_settled": 0, "realized_pnl": 0.0, "runs": 0}
+    st = {"cash": dict(START_CASH), "start_cash": dict(START_CASH), "open": [], "consumed": {}, "started": iso(now()),
+          "n_trades": 0, "n_settled": 0, "realized_pnl": 0.0, "runs": 0}
+    ac.init(st, START_CASH); return st
 
 
 def save_state(st):
@@ -117,6 +123,7 @@ class Game:
     def __init__(self, meta):
         self.m = meta; self.pm, self.pm_t, self.pend, self._sig, self._pay, self.n = [], 0.0, None, None, None, 0
         self.book = None                                  # bookmaker snapshot waiting to be combined with PM/KS prices
+        self.book_pend = None                             # gap with a bookmaker waiting for its confirmation snapshot
 
     @property
     def ko(self): return parse(self.m["kickoff"])
@@ -195,66 +202,81 @@ def check(game, st):
     if game.n % RAW_EVERY == 1 or (np.isfinite(t_star) and t_star > -0.005):
         raw_write(game.m, {c["token"]: books.get(c["token"]) for c in game.pm}, {c["id"]: ks_quote(c["market"]) for c in ks})
     if W is None: return None
+    book_res = None
     if game.book is not None:
-        try: books_check(game, contracts, T, P, t_star)
+        try: book_res = books_eval(game, contracts, T, P, t_star)
         except Exception: log("books error", game.m["id"], traceback.format_exc(limit=2)); STATUS["errors"] += 1
     row = {"time": iso(now()), "game": game.m["id"], "title": game.m["title"], "min_to_ko": round((game.ko - now()).total_seconds() / 60, 1),
            "n_pm": len(game.pm), "n_ks": len(ks), "n_states": P.shape[0], "n_tickets": len(T),
            "t_star": round(t_star, 6) if np.isfinite(t_star) else ""}
     append_csv(os.path.join(RES, "polls", now().strftime("%Y-%m-%d") + ".csv"), row)
-    return t_star, x, T, W, contracts
+    return t_star, x, T, W, contracts, book_res
 
 
-# ---------------------------------------------------------------- bookmakers (measurement only)
+# ---------------------------------------------------------------- bookmakers
 BOOK_CACHE = {}                          # league -> (time, data): one call serves every game of that league due now
 
 
 def fetch_books(games, keys, st):
-    """Bookmaker snapshots at fixed minutes before each kick-off (bk.OFFSETS); one call per sport serves all its games.
-    If the credits left would last less than 3 days at the current pace, only the late snapshots are taken."""
+    """Bookmaker snapshots at fixed minutes before each kick-off (bk.OFFSETS), plus confirmation snapshots about a minute
+    after a gap that uses a bookmaker. One call per sport serves all its games. If the credits left would last less than
+    3 days at the current pace, only the late scheduled snapshots are taken (confirmations are always taken)."""
     if not keys.keys: return
     slots = st.setdefault("book_slots", {})
     offsets = bk.OFFSETS if keys.days_left() >= 3 else [o for o in bk.OFFSETS if o in bk.LATE]
     due = {}
     for g in games.values():
         mins = (g.ko - now()).total_seconds() / 60
-        if g.m["league"] not in bk.SPORTS: continue
+        if g.m["league"] not in bk.SPORTS or mins < 1: continue
         for o in offsets:
             slot = f"{g.m['league']}|{g.m['kickoff'][:16]}|{o}"
-            if o - 8 < mins <= o and slot not in slots: due.setdefault(g.m["league"], []).append((slot, g))
+            if o - 8 < mins <= o and slot not in slots: due.setdefault(g.m["league"], []).append((slot, g, False))
+        if g.book_pend and g.m["league"] in CONFIRM and time.time() >= CONFIRM[g.m["league"]]:
+            due.setdefault(g.m["league"], []).append((None, g, True))
     for lg, items in due.items():
+        confirm = any(c for _, _, c in items)
         cached = BOOK_CACHE.get(lg)
-        if cached and time.time() - cached[0] < 180:
+        if cached and time.time() - cached[0] < 180 and not (confirm and cached[0] < CONFIRM.get(lg, 0) - 5):
             data, msg = cached[1], "reused a snapshot taken less than 3 minutes ago"
         else:
             markets, regions = bk.params(lg)
             data, msg = keys.call(bk.SPORTS[lg], markets, regions, bk.cost(lg))
             if data is not None:
                 BOOK_CACHE[lg] = (time.time(), data); STATUS["book_calls"] += 1
+                if confirm: STATUS["book_confirm_calls"] += 1
                 with LOCK: bk.raw_write(RAW, bk.SPORTS[lg], data)
-        log(f"odds {lg}: {msg}")                                  # msg never contains a key
-        for slot, g in items: slots[slot] = iso(now())
-        if data is None: continue
-        for slot, g in {id(g): (slot, g) for slot, g in items}.values():
+        log(f"odds {lg}{' (confirmation)' if confirm else ''}: {msg}")     # msg never contains a key
+        if confirm: CONFIRM.pop(lg, None)
+        for slot, g, c in items:
+            if slot: slots[slot] = iso(now())
+        if data is None:
+            for _, g, c in items:
+                if c: g.book_pend = None
+            continue
+        for slot, g, c in {id(g): (slot, g, c) for slot, g, c in sorted(items, key=lambda z: z[2])}.values():
             ev, side = bk.match_event(g.m, data, markets_fb.sim)
-            if ev: g.book = (ev, side)
-            else: log("odds: game not found at the bookmakers", g.m["id"])
+            if ev: g.book = (ev, side, c)
+            else:
+                log("odds: game not found at the bookmakers", g.m["id"])
+                if c: g.book_pend = None
     old = (now() - dt.timedelta(days=2)).strftime("%Y-%m-%d")
     st["book_slots"] = {k: v for k, v in slots.items() if v >= old}
 
 
-def books_check(game, contracts, T, P, t_pmks):
-    """Combine the bookmaker snapshot with this minute's Polymarket/Kalshi prices (one LP), log the result."""
-    ev, side = game.book; game.book = None
+def books_eval(game, contracts, T, P, t_pmks):
+    """Combine the bookmaker snapshot with this minute's Polymarket/Kalshi prices in one LP (no state is changed here:
+    the main thread decides what to do with the result)."""
+    ev, side, confirm = game.book; game.book = None
     lines = bk.best_lines(ev, side)
-    if game.m["sport"] == "football":
+    football = game.m["sport"] == "football"
+    if football:
         bl = [(L, v) for L in lines if (v := bk.payoff_football(L)) is not None]
-        if not bl: return
+        if not bl: return None
         Pc, B = P, np.column_stack([v for _, v in bl])
     else:
         g = GRIDS.get(game.m["sport"]) or GRIDS.setdefault(game.m["sport"], USGrid(game.m["sport"]))
         bl = [(L, v) for L in lines if (v := bk.payoff_us(L, g)) is not None]
-        if not bl: return
+        if not bl: return None
         nc = len(contracts); C = np.empty((g.H.size, nc + len(bl)), np.uint8)
         for j, c in enumerate(contracts): C[:, j] = np.rint(g.payoff(c) * 2)
         for k, (L, v) in enumerate(bl): C[:, nc + k] = np.where(v == 0, 0, np.where(v == 1.0, 1, 2))
@@ -265,22 +287,100 @@ def books_check(game, contracts, T, P, t_pmks):
     cost = np.array([t[2] for t in T] + [1.0] * B.shape[1])
     t_all, x = solve(np.column_stack([Wt, B]) / cost)
     with LOCK: STATUS["book_games"] += 1
+    for L, _ in bl: L["three_way"] = football
+    return {"t_all": t_all, "x": x, "Wt": Wt, "B": B, "bl": [L for L, _ in bl], "T": T, "contracts": contracts,
+            "confirm": confirm, "t_pmks": t_pmks, "ev": {"id": ev["id"], "sport": ev.get("sport_key"), "home": ev["home_team"],
+            "away": ev["away_team"]}}
+
+
+def handle_books(game, st, r):
+    """Main thread: a gap that uses a bookmaker is first 'seen'; a confirmation snapshot is requested; if the gap is still
+    there in the confirmation, the bot bets."""
+    if r is None: return
+    t_all, x, T, bl = r["t_all"], r["x"], r["T"], r["bl"]
+    uses_book = x is not None and np.isfinite(t_all) and any(x[len(T) + k] > 1e-6 for k in range(len(bl)))
+    gap = uses_book and t_all > THRESH
+    if r["confirm"]:
+        if gap: action, tr = execute_books(game, st, r)
+        else: action, tr = "vanished", None
+        game.book_pend = None
+    elif gap:
+        game.book_pend = {"ts": time.time(), "t": t_all}; CONFIRM[game.m["league"]] = time.time() + CONFIRM_SEC
+        action = "seen"
+    else:
+        action = "no gap"
     legs, caps = [], []
-    if x is not None and np.isfinite(t_all) and t_all > THRESH:
+    if x is not None and (gap or r["confirm"]):
         for i in np.where(x > 1e-6)[0]:
             if i < len(T):
-                j, s, allin, px, sz, fee, venue, cid, mn = T[i]
-                legs.append(f"{venue} {s} {px:.3f} x{x[i]:.3f} {contracts[j]['label']}"); caps.append(sz * allin / x[i])
+                j, s_, allin, px, sz, fee, venue, cid, mn = T[i]
+                legs.append(f"{venue} {s_} {px:.3f} x{x[i]:.3f} {r['contracts'][j]['label']}"); caps.append(sz * allin / x[i])
             else:
-                L = bl[i - len(T)][0]
+                L = bl[i - len(T)]
                 legs.append(f"{L['book']} {L['market']} {L['outcome']} {'' if L['point'] is None else L['point']} @{L['odds']} x{x[i]:.3f}")
-                caps.append(CAP_BOOK_LEG / x[i])
-    cap = min(caps) if caps else 0.0
     append_csv(os.path.join(RES, "opportunities_books.csv"), {
         "time": iso(now()), "game": game.m["id"], "title": game.m["title"], "league": game.m["league"],
-        "min_to_ko": round((game.ko - now()).total_seconds() / 60, 1), "book_lines": B.shape[1],
-        "t_pm_ks": round(t_pmks, 6) if np.isfinite(t_pmks) else "", "t_with_books": round(t_all, 6) if np.isfinite(t_all) else "",
-        "capacity_usd": round(cap, 2) if legs else "", "paper_profit_usd": round(t_all * cap, 2) if legs else "", "legs": " | ".join(legs)})
+        "min_to_ko": round((game.ko - now()).total_seconds() / 60, 1), "snapshot": "confirmation" if r["confirm"] else "scheduled",
+        "book_lines": len(bl), "t_pm_ks": round(r["t_pmks"], 6) if np.isfinite(r["t_pmks"]) else "",
+        "t_with_books": round(t_all, 6) if np.isfinite(t_all) else "", "action": action,
+        "pm_ks_capacity_usd": round(min(caps), 2) if caps else "", "legs": " | ".join(legs)})
+
+
+def execute_books(game, st, r):
+    """Paper bet on a confirmed gap that uses bookmakers: Polymarket/Kalshi legs at the best prices (displayed size,
+    minimum order sizes, exact fees), bookmaker legs at the confirmation odds (stake limited by the bookmaker account)."""
+    t_all, x, T, bl, Wt, B = r["t_all"], r["x"], r["T"], r["bl"], r["Wt"], r["B"]
+    nT = len(T)
+    used = [i for i in range(len(x)) if x[i] > 1e-6]
+    for i in used:
+        if i >= nT: ac.open_book(st, bl[i - nT]["book"])
+    allin = lambda i: T[i][2] if i < nT else 1.0
+    venue = lambda i: T[i][6] if i < nT else f"BK:{bl[i - nT]['book']}"
+    caps = [T[i][4] * T[i][2] / x[i] for i in used if i < nT]                 # displayed size on Polymarket/Kalshi
+    share = {}
+    for i in used: share[venue(i)] = share.get(venue(i), 0.0) + x[i]
+    cash = [st["cash"][v] / s_ for v, s_ in share.items() if s_ > 1e-9]
+    need = max((T[i][8] * T[i][2] / x[i]) if i < nT else MIN_BOOK_STAKE / x[i] for i in used)
+    S = min([CAP_PER_TRADE] + caps + cash)
+    if S < need:
+        if need <= min(caps + cash): S = need
+        else: return ("no_cash" if need <= min(caps or [float("inf")]) else "below_min_size"), None
+    legs, payout, total = [], np.zeros(Wt.shape[0]), 0.0
+    for i in used:
+        if i < nT:
+            j, side, al, px, sz, fee, v, cid, mn = T[i]
+            n = math.floor(S * x[i] / al * 100) / 100 if v == "PM" else math.floor(S * x[i] / al)
+            if n < mn: return "below_min_size", None
+            f = round(fee * n * px * (1 - px), 5) if v == "PM" else ks_fee(n, px)
+            c = n * px + f; total += c; payout += n * Wt[:, i]
+            legs.append({"venue": v, "id": cid, "label": r["contracts"][j]["label"], "side": side, "price": px, "shares": n,
+                         "fee": round(f, 5), "cost": round(c, 4)})
+        else:
+            L = bl[i - nT]; stake = math.floor(S * x[i] * 100) / 100
+            if stake < MIN_BOOK_STAKE: return "below_min_size", None
+            total += stake; payout += stake * B[:, i - nT]
+            legs.append({"venue": f"BK:{L['book']}", "book": L["book"], "market": L["market"], "outcome": L["outcome"],
+                         "side": L["side"], "point": L["point"], "odds": L["odds"], "eff": L["eff"],
+                         "three_way": L.get("three_way", False), "stake": stake, "cost": stake,
+                         "label": f"{L['market']} {L['outcome']} {'' if L['point'] is None else L['point']} @{L['odds']}"})
+    guaranteed = float(payout.min())
+    if guaranteed - total < MIN_PROFIT: return "rounding", None
+    for L in legs:
+        ac.lock(st, L["venue"], L["cost"])
+        if not L["venue"].startswith("BK:"):
+            k = f"{L['venue']}|{L['id']}|{L['side']}|{L['price']:.4f}"
+            st["consumed"][k] = {"n": st["consumed"].get(k, {}).get("n", 0.0) + L["shares"], "t": iso(now())}
+    st["n_trades"] += 1
+    tr = {"trade_id": st["n_trades"], "time": iso(now()), "game": game.m["id"], "title": game.m["title"], "league": game.m["league"],
+          "kickoff": game.m["kickoff"], "min_to_ko": round((game.ko - now()).total_seconds() / 60, 1), "t_lp": round(t_all, 6),
+          "with_books": True, "books": sorted({L["book"] for L in legs if "book" in L}),
+          "spain_only": all(L["book"] in bk.SPAIN for L in legs if "book" in L), "event": r["ev"],
+          "cost": round(total, 4), "guaranteed_payout": round(guaranteed, 4), "guaranteed_profit": round(guaranteed - total, 4),
+          "legs": legs, "status": "open"}
+    st["open"].append(tr)
+    with open(os.path.join(RES, "trades.jsonl"), "a") as f: f.write(json.dumps(tr) + "\n")
+    log(f"TRADE #{tr['trade_id']} (with bookmakers) {game.m['title']} cost ${total:.2f} guaranteed +${guaranteed - total:.2f} ({100 * t_all:.2f}%)")
+    return "executed", tr
 
 
 # ---------------------------------------------------------------- paper execution
@@ -308,7 +408,7 @@ def execute(game, st, t_star, x, T, W, contracts):
     guaranteed = float(payout.min())
     if guaranteed - total < MIN_PROFIT: return "rounding", None
     for L in legs:
-        st["cash"][L["venue"]] -= L["cost"]
+        ac.lock(st, L["venue"], L["cost"])
         k = f"{L['venue']}|{L['id']}|{L['side']}|{L['price']:.4f}"
         st["consumed"][k] = {"n": st["consumed"].get(k, {}).get("n", 0.0) + L["shares"], "t": iso(now())}
     st["n_trades"] += 1
@@ -324,7 +424,9 @@ def execute(game, st, t_star, x, T, W, contracts):
 
 def handle(game, st, res):
     if res is None: return
-    t_star, x, T, W, contracts = res
+    t_star, x, T, W, contracts, book_res = res
+    try: handle_books(game, st, book_res)
+    except Exception: log("books handling error", game.m["id"], traceback.format_exc(limit=2)); STATUS["errors"] += 1
     if not (np.isfinite(t_star) and t_star > THRESH):
         if game.pend: opp(game, game.pend["t"], "vanished", T, x)
         game.pend = None; return
@@ -362,16 +464,28 @@ def resolution(leg):
         return None
 
 
-def settle(st):
+def leg_payout(L, tr, keys):
+    """Payout of one leg once known, else None. Polymarket/Kalshi: official resolution; bookmakers: final score."""
+    if not L["venue"].startswith("BK:"):
+        p = resolution(L)
+        return None if p is None else L["shares"] * (p if L["side"] == "YES" else 1 - p)
+    ev = tr.get("event") or {}
+    if not keys or not keys.keys or not ev.get("sport"): return None
+    events = bk.scores(keys, ev["sport"], time.time())
+    sc = bk.final_score(events, ev["id"], ev["home"], ev["away"])
+    return None if sc is None else L["stake"] * bk.leg_return(L, sc[0], sc[1])
+
+
+def settle(st, keys=None):
     keep = []
     for tr in st["open"]:
         sport = "football" if tr["league"] not in US else tr["league"]
         if now() < parse(tr["kickoff"]) + dt.timedelta(hours=SETTLE_AFTER_H[sport]): keep.append(tr); continue
-        pays = [resolution(L) for L in tr["legs"]]
+        pays = [leg_payout(L, tr, keys) for L in tr["legs"]]
         if any(p is None for p in pays): keep.append(tr); continue
         total = 0.0
-        for L, p in zip(tr["legs"], pays):
-            v = L["shares"] * (p if L["side"] == "YES" else 1 - p); total += v; st["cash"][L["venue"]] += v
+        for L, v in zip(tr["legs"], pays):
+            total += v; ac.unlock(st, L["venue"], L["cost"], v)
         tr.update(status="settled", settled=iso(now()), payout=round(total, 4), pnl=round(total - tr["cost"], 4),
                   check="ok" if total >= tr["guaranteed_payout"] - 1e-6 else "BELOW_GUARANTEE")
         st["n_settled"] += 1; st["realized_pnl"] += total - tr["cost"]
@@ -386,62 +500,81 @@ def report(st):
     p = os.path.join(RES, "trades.jsonl")
     if os.path.exists(p):
         for line in open(p): t = json.loads(line); trades[t["trade_id"]] = t
-    rows = [{k: v for k, v in t.items() if k != "legs"} | {"n_legs": len(t["legs"])} for t in trades.values()]
+    rows = [{k: v for k, v in t.items() if k not in ("legs", "event")} | {"n_legs": len(t["legs"])} for t in trades.values()]
     if rows:
         cols = list(dict.fromkeys(k for r in rows for k in r))
         with open(os.path.join(RES, "trades.csv"), "w", newline="") as f:
             w = csv.DictWriter(f, fieldnames=cols); w.writeheader(); w.writerows(rows)
-    opps = list(csv.DictReader(open(os.path.join(RES, "opportunities.csv")))) if os.path.exists(os.path.join(RES, "opportunities.csv")) else []
-    acts = {}
-    for o in opps: acts[o["action"]] = acts.get(o["action"], 0) + 1
-    locked = sum(t["cost"] for t in st["open"])
-    equity = sum(st["cash"].values()) + locked
-    start = sum(st["start_cash"].values())
+    count = lambda path: (lambda rs: {a: sum(1 for r in rs if r["action"] == a) for a in sorted({r["action"] for r in rs})})(
+        list(csv.DictReader(open(path))) if os.path.exists(path) else [])
+    acts, bacts = count(os.path.join(RES, "opportunities.csv")), count(os.path.join(RES, "opportunities_books.csv"))
+    usd = lambda v: f"${v:,.2f}"
+    eur = lambda v: f"€{v / FX:,.2f}"
+    start = sum(st["start_cash"].values()); locked = sum(st["locked"].values()); transit = ac.in_transit(st)
+    equity = sum(st["cash"].values()) + locked + transit
     days = max(1e-9, (now() - parse(st["started"])).total_seconds() / 86400)
-    eur = lambda usd: f"€{usd / FX:,.0f}"
+    books = sorted(v for v in st["start_cash"] if v.startswith("BK:"))
+    done = [t for t in trades.values() if t["status"] == "settled"]
+    pnl = lambda ts: sum(t.get("pnl", 0.0) for t in ts)
+    wb = [t for t in done if t.get("with_books")]; sp = [t for t in wb if t.get("spain_only")]
     lines = [f"# Paper-trading bot: status at {iso(now())}", "",
-             f"Started {st['started']} with ${start:,.0f} ≈ {eur(start)} (fictional; Polymarket ${st['start_cash']['PM']:,.0f}, "
-             f"Kalshi ${st['start_cash']['KS']:,.0f}; euro amounts at {FX} USD/EUR).", "",
+             f"Started {st['started']}. Fictional capital: Polymarket {usd(st['start_cash']['PM'])} + Kalshi "
+             f"{usd(st['start_cash']['KS'])} (≈ €10,000) and €{ac.BOOK_START / FX:,.0f} at each bookmaker the bot has used "
+             f"({len(books)} so far): {usd(start)} ≈ {eur(start)} in total. Euro amounts at {FX} USD/EUR.", "",
              "| | |", "|---|---|",
-             f"| Trades executed | {st['n_trades']} |", f"| Trades settled | {st['n_settled']} |",
-             f"| Realised profit | ${st['realized_pnl']:,.2f} ≈ €{st['realized_pnl'] / FX:,.2f} |",
-             f"| Open positions (cost) | ${locked:,.2f} |",
-             f"| Cash: Polymarket / Kalshi | ${st['cash']['PM']:,.2f} / ${st['cash']['KS']:,.2f} |",
-             f"| Equity (cash + open at cost) | ${equity:,.2f} ≈ {eur(equity)} |",
-             f"| Return so far (realised / start) | {100 * st['realized_pnl'] / start:.3f}% over {days:.1f} days |", "",
-             "Gaps above the threshold seen by the bot: " + (", ".join(f"{k} {v}" for k, v in sorted(acts.items())) or "none yet") + ".", "",
-             "`seen` = first sighting; `executed` = still there at the next check and filled; `vanished` = gone at the next check;",
-             "`below_min_size` / `rounding` / `no_cash` = too small to fill, or no cash left on a venue.", ""]
+             f"| Trades executed / settled | {st['n_trades']} / {st['n_settled']} |",
+             f"| Realised profit | {usd(st['realized_pnl'])} ≈ {eur(st['realized_pnl'])} |",
+             f"| … Polymarket/Kalshi only | {usd(pnl([t for t in done if not t.get('with_books')]))} |",
+             f"| … with bookmakers (all) | {usd(pnl(wb))} |",
+             f"| … with bookmakers licensed in Spain only | {usd(pnl(sp))} |",
+             f"| Open positions (cost) | {usd(locked)} |",
+             f"| Money in transit between accounts | {usd(transit)} |",
+             f"| Equity (cash + open at cost + in transit) | {usd(equity)} ≈ {eur(equity)} |",
+             f"| Return so far (realised / capital) | {100 * st['realized_pnl'] / start:.3f}% over {days:.1f} days |", "",
+             "Polymarket/Kalshi gaps above the threshold: " + (", ".join(f"{k} {v}" for k, v in acts.items()) or "none yet") + ".",
+             "Gaps using bookmakers: " + (", ".join(f"{k} {v}" for k, v in bacts.items() if k != "no gap") or "none yet") +
+             f" (snapshots combined with Polymarket/Kalshi: {sum(bacts.values())}).", "",
+             "`seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation",
+             "snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to",
+             "fill, or not enough cash on an account.", ""]
     dl = STATUS.get("odds_days_left")
     if STATUS.get("odds_credits_usable") is not None:
         lines += [f"The Odds API credits left: {STATUS['odds_credits_usable']:,}" + (f" (about {dl:.1f} days at the current pace)" if dl else "")
                   + (". **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**" if dl is not None and dl < 4 else "."), ""]
-    ob = os.path.join(RES, "opportunities_books.csv")
-    if os.path.exists(ob):
-        bo = list(csv.DictReader(open(ob)))
-        pos = [r for r in bo if r["legs"]]
-        best = max((float(r["t_with_books"]) for r in pos), default=None)
-        lines += ["## Bookmakers (measurement only, no paper fills)", "",
-                  f"Snapshots combined with Polymarket/Kalshi prices: {len(bo)} games. Gaps above {100 * THRESH:.1f}% including "
-                  f"bookmaker odds: {len(pos)}" + (f" (best {100 * best:+.2f}%, paper profit at ${CAP_BOOK_LEG:.0f} per bookmaker leg: "
-                  f"${sum(float(r['paper_profit_usd'] or 0) for r in pos):,.2f})." if pos else "."), ""]
+    lines += ["## Capital by account", "", "Peak in use = the most money that was tied up in open positions at the same time.",
+              "", "| account | start | cash now | in open positions | peak in use | lowest cash |", "|---|---|---|---|---|---|"]
+    for v in ["PM", "KS"] + books:
+        name = {"PM": "Polymarket", "KS": "Kalshi"}.get(v, v[3:] + (" (Spain)" if v[3:] in bk.SPAIN else ""))
+        lines.append(f"| {name} | {usd(st['start_cash'][v])} | {usd(st['cash'][v])} | {usd(st['locked'].get(v, 0.0))} | "
+                     f"{usd(st['peak_locked'].get(v, 0.0))} | {usd(st['min_cash'].get(v, st['cash'][v]))} |")
+    ts = st["transfer_stats"]
+    lines += ["", f"Peak money in use across all accounts at the same time: {usd(st['peak_total_locked'])} ≈ "
+              f"{eur(st['peak_total_locked'])}.", "",
+              f"Transfers between accounts: {ts['count']} ({usd(ts['moved'])} moved, {usd(ts['fees'])} in fees; "
+              f"{len(st['transfers'])} still in transit). Delays used: Polymarket out instantly, in 15 min; Kalshi crypto 30 min "
+              "each way; bookmakers in instantly, out 24 h; dollars↔euros 2 h and 0.5% (see `bot/accounts.py`).", ""]
     if rows:
-        lines += ["## Last trades", "", "| # | time (UTC) | game | min to KO | gap | cost | guaranteed profit | status | P&L |", "|---|---|---|---|---|---|---|---|---|"]
+        lines += ["## Last trades", "", "| # | time (UTC) | game | min to KO | with bookmakers | gap | cost | guaranteed profit | status | P&L |",
+                  "|---|---|---|---|---|---|---|---|---|---|"]
         for t in sorted(trades.values(), key=lambda t: -t["trade_id"])[:25]:
-            pnl = "" if t.get("pnl") is None else f"${t['pnl']:+.2f}"
-            lines.append(f"| {t['trade_id']} | {t['time'][5:16]} | {t['title']} | {t['min_to_ko']} | {100 * t['t_lp']:.2f}% | ${t['cost']:.2f} | "
-                         f"${t['guaranteed_profit']:.2f} | {t['status']} | {pnl} |")
+            pl = "" if t.get("pnl") is None else f"${t['pnl']:+.2f}"
+            wbk = ", ".join(t.get("books", [])) if t.get("with_books") else "no"
+            lines.append(f"| {t['trade_id']} | {t['time'][5:16]} | {t['title']} | {t['min_to_ko']} | {wbk} | {100 * t['t_lp']:.2f}% | "
+                         f"${t['cost']:.2f} | ${t['guaranteed_profit']:.2f} | {t['status']} | {pl} |")
     open(os.path.join(RES, "summary.md"), "w").write("\n".join(lines) + "\n")
 
 
 def write_status(st, games, start_code, t_start):
     """Public health file (no secrets): lets the run be checked without access to the Actions logs."""
+    STATUS["score_calls"] = bk.SCORE_CALLS[0]
     json.dump({"run": st["runs"], "run_started": iso(dt.datetime.fromtimestamp(t_start, dt.timezone.utc)),
                "last_update": iso(now()), "code_version": (start_code[0] or "")[:12],
                "private_raw_storage": bool(RAW), "odds_api_keys": STATUS.get("odds_keys", {}),
                "odds_credits_remaining": {f"ODDS_API_KEY_{i}": r for i, r in sorted(st.get("odds", {}).get("remaining", {}).items())},
                "odds_credits_spent_today": st.get("odds", {}).get("spent", {}).get(now().strftime("%Y-%m-%d"), 0),
                "odds_credits_days_left_at_current_pace": STATUS.get("odds_days_left"),
+               "bookmaker_accounts_opened": sum(1 for v in st["start_cash"] if v.startswith("BK:")),
+               "transfers_in_transit": len(st["transfers"]),
                "games_tracked": len(games),
                "games_in_window": sum(1 for g in games.values() if g.ko - dt.timedelta(hours=WINDOW_H) <= now() < g.ko),
                **{k: v for k, v in STATUS.items() if k != "odds_keys"}}, open(os.path.join(RES, "status.json"), "w"), indent=1)
@@ -470,8 +603,15 @@ def main():
             for g, res in zip(active, pool.map(lambda g: check(g, st), active)):
                 try: handle(g, st, res)
                 except Exception: log("handle error", g.m["id"], traceback.format_exc(limit=2)); STATUS["errors"] += 1
+            for t in ac.arrive(st, time.time()):
+                log(f"transfer arrived: {t['src']} -> {t['dst']} ${t['amount'] - t['fee']:,.2f}")
             if t0 - last_settle > 600:
-                settle(st); last_settle = t0
+                settle(st, keys); last_settle = t0
+                for t in ac.rebalance(st, time.time()):
+                    log(f"transfer started: {t['src']} -> {t['dst']} ${t['amount']:,.2f} (fee ${t['fee']:,.2f}, "
+                        f"{(t['arrive'] - t['depart']) / 3600:.2f} h)")
+                    append_csv(os.path.join(RES, "transfers.csv"), {"time": iso(now()), "from": t["src"], "to": t["dst"],
+                               "amount_usd": t["amount"], "fee_usd": t["fee"], "hours": round((t["arrive"] - t["depart"]) / 3600, 2)})
                 old = now() - dt.timedelta(hours=12)                      # liquidity "taken" by the bot expires
                 st["consumed"] = {k: v for k, v in st["consumed"].items() if parse(v["t"]) > old}
             save_state(st)
@@ -487,7 +627,7 @@ def main():
             time.sleep(max(POLL_SEC, min(300, nxt)))
         else:
             time.sleep(max(1.0, POLL_SEC - (time.time() - t0)))
-    settle(st); save_state(st); report(st); write_status(st, games, start_code, t_start); git_commit(f"bot: end of run {iso(now())}")
+    settle(st, keys); save_state(st); report(st); write_status(st, games, start_code, t_start); git_commit(f"bot: end of run {iso(now())}")
     log("done")
 
 

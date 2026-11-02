@@ -1,8 +1,8 @@
-"""Bookmaker odds (The Odds API) for the games the bot follows: one snapshot per sport shortly before each kick-off.
+"""Bookmaker odds (The Odds API) for the games the bot follows: snapshots at fixed minutes before each kick-off.
 
-Bookmaker legs are a *measurement*, not paper trades: one snapshot per kick-off cannot pass the bot's persistence check,
-stake limits are unknown and several books are offshore. Each snapshot is combined with the Polymarket and Kalshi prices
-of the same minute and the result is logged separately (results/opportunities_books.csv).
+Each snapshot is combined with the Polymarket and Kalshi prices of the same minute (one linear program). A gap that uses
+a bookmaker must still be there in a confirmation snapshot taken about a minute later; the bot then bets at that moment's
+odds (EUR 500 per bookmaker account). Bets are settled from the final scores (The Odds API /scores).
 
 Credits: one /odds call per sport returns every upcoming event of that sport and costs (markets x regions) credits.
 Keys: ODDS_API_KEY_1..5 (GitHub secrets). They are never printed: request URLs and exceptions are not logged.
@@ -21,6 +21,11 @@ SPORTS = {"epl": "soccer_epl", "lal": "soccer_spain_la_liga", "sea": "soccer_ita
 US = ("nba", "nfl", "nhl")
 COMMISSION = {"betfair_ex_uk": 0.05, "betfair_ex_eu": 0.05, "betfair_ex_au": 0.05, "matchbook": 0.02, "smarkets": 0.02}
 SKIP_BOOKS = ("kalshi", "polymarket")                          # already covered directly by the bot
+# Odds-API bookmakers whose operator holds a Spanish DGOJ licence (list of 78 licensed operators, 31 Oct 2026).
+# Approximate mapping: the Spanish sites of these operators may quote slightly different odds (Betfair Spain runs a
+# separate exchange).
+SPAIN = {"williamhill", "sport888", "betway", "leovegas", "marathonbet", "casumo", "winamax_fr", "winamax_de",
+         "betfair_ex_eu", "betfair_ex_uk", "betfair_sb_uk", "interwetten"}
 E = lambda k, d: type(d)(os.environ.get(k, d))
 RESERVE = E("ODDS_RESERVE", 20)                                # never spend the last credits of a key
 RESET_DAY = E("ODDS_RESET_DAY", 29)                            # day of the month the free credits renew
@@ -58,12 +63,14 @@ class Keys:
         p = self.pace(); return self.usable() / p if p > 0 else float("inf")
 
     def call(self, sport, markets, regions, credits):
+        return self.request(f"sports/{sport}/odds?regions={regions}&markets={markets}&oddsFormat=decimal", credits)
+
+    def request(self, path, credits):
         today = now().strftime("%Y-%m-%d")
         cands = [(r, i) for i, r in self.remaining().items() if r - credits >= RESERVE]
         if not cands: return None, "no credits left"
         i = max(cands)[1]
-        url = (f"https://api.the-odds-api.com/v4/sports/{sport}/odds?regions={regions}&markets={markets}"
-               f"&oddsFormat=decimal&apiKey={self.keys[i]}")
+        url = f"https://api.the-odds-api.com/v4/{path}{'&' if '?' in path else '?'}apiKey={self.keys[i]}"
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=40) as r:
                 data = json.loads(r.read())
@@ -151,3 +158,43 @@ def payoff_us(L, g):
         diff = (mine - other) + (float(L["point"]) if L["market"] == "spreads" and L["point"] is not None else 0.0)
         if L["market"] == "spreads" and L["point"] is None: return None
     return np.where(diff > 1e-9, L["eff"], np.where(np.abs(diff) <= 1e-9, 1.0, 0.0))
+
+
+SCORES = {}                                      # sport -> (time, events)
+SCORE_CALLS = [0]
+
+
+def scores(keys, sport, now_ts, max_age=1800):
+    """Completed games of the last 3 days with their final scores (2 credits per call, cached 30 minutes)."""
+    c = SCORES.get(sport)
+    if c and now_ts - c[0] < max_age: return c[1]
+    data, msg = keys.request(f"sports/{sport}/scores?daysFrom=3", 2)
+    if data is not None: SCORES[sport] = (now_ts, data); SCORE_CALLS[0] += 1
+    return data
+
+
+def final_score(events, ev_id, home_team, away_team):
+    """(home goals/points, away goals/points) of a completed event, else None."""
+    for e in events or []:
+        if e.get("id") != ev_id or not e.get("completed") or not e.get("scores"): continue
+        sc = {x["name"]: x["score"] for x in e["scores"]}
+        try: return float(sc[home_team]), float(sc[away_team])
+        except (KeyError, TypeError, ValueError): return None
+    return None
+
+
+def leg_return(L, h, a):
+    """Gross return per 1 staked of a bookmaker bet given the final score (stake included; pushes refund the stake).
+    Football winner bets are three-way (a draw loses a home/away bet); US winner bets push on a tie."""
+    eff = float(L["eff"])
+    grade = lambda diff: eff if diff > 1e-9 else (1.0 if abs(diff) <= 1e-9 else 0.0)
+    if L["market"] == "totals":
+        p = float(L["point"]); sgn = 1 if L["side"] == "over" else -1; q = p * 4
+        if abs(q - round(q)) < 1e-9 and round(q) % 2 == 1:           # quarter line: half on each neighbouring line
+            return (grade((h + a - (p - 0.25)) * sgn) + grade((h + a - (p + 0.25)) * sgn)) / 2
+        return grade((h + a - p) * sgn)
+    if L["market"] == "h2h" and L["side"] == "draw": return eff if h == a else 0.0
+    mine, other = (h, a) if L["side"] == "home" else (a, h)
+    diff = (mine - other) + (float(L["point"]) if L["market"] == "spreads" else 0.0)
+    if L["market"] == "h2h" and L.get("three_way") and abs(diff) <= 1e-9: return 0.0
+    return grade(diff)
