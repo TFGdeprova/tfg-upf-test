@@ -42,7 +42,7 @@ LOCK = threading.Lock()                  # games are checked in parallel threads
 STATUS = {"checks": 0, "errors": 0, "raw_snapshots": 0, "results_pushes": 0, "raw_pushes": 0, "book_calls": 0, "book_games": 0,
           "book_confirm_calls": 0, "score_calls": 0, "watches": 0, "rechecks": 0, "depth_rows": 0, "ks_depth_calls": 0}
 CONFIRM = {}                             # league -> time after which a confirmation snapshot is taken
-ODDS_KEYS = {i: os.environ.get(f"ODDS_API_KEY_{i}", "").strip() for i in range(1, 6)}  # GitHub secrets; never logged
+ODDS_KEYS = {i: os.environ.get(f"ODDS_API_KEY_{i}", "").strip() for i in range(1, 11)}  # GitHub secrets; never logged
 
 
 def log(*a): print(iso(now()), *a, flush=True)

@@ -5,7 +5,7 @@ a bookmaker must still be there in a confirmation snapshot taken about a minute 
 odds (EUR 500 per bookmaker account). Bets are settled from the final scores (The Odds API /scores).
 
 Credits: one /odds call per sport returns every upcoming event of that sport and costs (markets x regions) credits.
-Keys: ODDS_API_KEY_1..5 (GitHub secrets). They are never printed: request URLs and exceptions are not logged.
+Keys: ODDS_API_KEY_1..10 (GitHub secrets; empty ones are ignored). They are never printed: request URLs and exceptions are not logged.
 Raw odds go only to the private repository (The Odds API terms forbid redistributing raw data); the public results
 contain only the few odds used in a detected opportunity (derived data, which the terms allow).
 """
@@ -42,9 +42,9 @@ def cost(league):
 
 
 class Keys:
-    """The five keys, their remaining credits (persisted in state.json) and a daily budget."""
+    """The keys (up to ten), their remaining credits (persisted in state.json) and a daily budget."""
     def __init__(self, st):
-        self.keys = {str(i): os.environ.get(f"ODDS_API_KEY_{i}", "").strip() for i in range(1, 6)}
+        self.keys = {str(i): os.environ.get(f"ODDS_API_KEY_{i}", "").strip() for i in range(1, 11)}
         self.keys = {i: k for i, k in self.keys.items() if k}
         self.st = st.setdefault("odds", {"remaining": {}, "spent": {}})
 
