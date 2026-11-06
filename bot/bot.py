@@ -7,15 +7,18 @@ Loop (until MAX_RUNTIME_MIN):
   * a gap above THRESH must still be there at the next check (one polling interval of reaction time); the bot then
     "buys" at that moment's best prices, never more than the displayed size (minus what it already took), at least the
     venue's minimum order size, at most CAP_PER_TRADE, and only with the cash it has on each venue;
-  * positions settle from the venues' official resolutions; cash returns to each venue.
+  * positions settle from the venues' official resolutions; cash returns to each venue;
+  * every gap above WATCH_THRESH (traded or not) is followed: the same portfolio is re-priced RECHECK_SEC later and the
+    order-book depth of its contracts gives the guaranteed profit at larger sizes (rechecks.csv, depth.csv).
 No order is ever sent: this is a simulation on live public data.
-Outputs (results/): trades.jsonl, trades.csv, opportunities.csv, polls/<date>.csv, state.json, summary.md
+Outputs (results/): trades.jsonl, trades.csv, opportunities.csv, opportunities_books.csv, rechecks.csv, depth.csv,
+transfers.csv, polls/<date>.csv, state.json, status.json, summary.md
 """
 import os, sys, json, csv, math, time, gzip, subprocess, threading, traceback, datetime as dt
 from concurrent.futures import ThreadPoolExecutor
 import numpy as np
-from .common import get, GAMMA, KS, now, iso, parse, pm_books, ks_quote, solve, KS_FEE, odds_key_check
-from . import markets_us, markets_fb, books as bk, accounts as ac
+from .common import get, GAMMA, KS, now, iso, parse, pm_books, ks_quote, ks_ladders, solve, KS_FEE, odds_key_check
+from . import markets_us, markets_fb, books as bk, accounts as ac, depth as dp
 from .grid_us import USGrid, unique_rows
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
@@ -30,12 +33,14 @@ START_CASH = {"PM": E("CASH_PM", 5800.0), "KS": E("CASH_KS", 5800.0)}   # = EUR 
 RAW_EVERY = E("RAW_EVERY", 10)          # raw snapshot every 10th check of a game (~5 min) + every check with t* > -0.5%
 CONFIRM_SEC = E("CONFIRM_SEC", 60)       # a gap that uses a bookmaker is re-checked with fresh odds this much later
 MIN_BOOK_STAKE = E("MIN_BOOK_STAKE", 1.0)
+WATCH_THRESH = E("WATCH_THRESH", 0.001)  # gaps above 0.1% are followed (re-checks and depth), whether traded or not
+RECHECK_SEC = [int(v) for v in os.environ.get("RECHECK_SEC", "30,60,120,300").split(",")]  # re-check delays (seconds)
 SETTLE_AFTER_H = {"nba": 3.0, "nhl": 3.0, "nfl": 4.0, "football": 2.5}
 US = ("nba", "nfl", "nhl")
 GRIDS = {}
 LOCK = threading.Lock()                  # games are checked in parallel threads: file appends must not interleave
 STATUS = {"checks": 0, "errors": 0, "raw_snapshots": 0, "results_pushes": 0, "raw_pushes": 0, "book_calls": 0, "book_games": 0,
-          "book_confirm_calls": 0, "score_calls": 0}
+          "book_confirm_calls": 0, "score_calls": 0, "watches": 0, "rechecks": 0, "depth_rows": 0, "ks_depth_calls": 0}
 CONFIRM = {}                             # league -> time after which a confirmation snapshot is taken
 ODDS_KEYS = {i: os.environ.get(f"ODDS_API_KEY_{i}", "").strip() for i in range(1, 6)}  # GitHub secrets; never logged
 
@@ -62,12 +67,19 @@ def save_state(st):
     json.dump(st, open(os.path.join(RES, "state.json"), "w"), indent=1)
 
 
+HEADERS = {}                             # csv path -> column order (rows are always written in the file's own order)
+
+
 def append_csv(path, row):
     with LOCK:
-        new = not os.path.exists(path)
+        new = not os.path.exists(path) or os.path.getsize(path) == 0
+        if new: HEADERS[path] = list(row)
+        elif path not in HEADERS:
+            with open(path, newline="") as f: HEADERS[path] = next(csv.reader(f), None) or list(row)
         os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, "a", newline="") as f:
-            w = csv.DictWriter(f, fieldnames=list(row)); new and w.writeheader(); w.writerow(row)
+            w = csv.DictWriter(f, fieldnames=HEADERS[path], restval="", extrasaction="ignore")
+            new and w.writeheader(); w.writerow(row)
 
 
 def raw_write(game, pm, ks):
@@ -124,6 +136,10 @@ class Game:
         self.m = meta; self.pm, self.pm_t, self.pend, self._sig, self._pay, self.n = [], 0.0, None, None, None, 0
         self.book = None                                  # bookmaker snapshot waiting to be combined with PM/KS prices
         self.book_pend = None                             # gap with a bookmaker waiting for its confirmation snapshot
+        self.depth, self.ksm = {}, {}                     # last poll: Polymarket ladders by token, Kalshi markets by ticker
+        self.qage = {}                                    # (venue, id, side) -> (price, time the price was first seen)
+        self.t_first = None                               # first check of the game (price ages cannot be longer)
+        self.watches, self.wid = [], None                 # gaps being followed; id of the current Polymarket/Kalshi episode
 
     @property
     def ko(self): return parse(self.m["kickoff"])
@@ -163,7 +179,9 @@ def snapshot(game):
     mod = markets_fb if game.m["sport"] == "football" else markets_us
     try: ks = sorted(mod.ks_contracts(game.m), key=lambda c: c["id"])     # stable order keeps the payoff cache valid
     except Exception as e: log("ks error", game.m["id"], e); ks = []
-    books = pm_books([c["token"] for c in game.pm]) if game.pm else {}
+    dep = {}
+    books = pm_books([c["token"] for c in game.pm], dep) if game.pm else {}
+    game.depth, game.ksm = dep, {c["id"]: c["market"] for c in ks}
     return ks, books
 
 
@@ -193,6 +211,11 @@ def check(game, st):
     contracts, T = tickets(game, ks, books, st["consumed"])
     game.n += 1
     with LOCK: STATUS["checks"] += 1
+    tq = time.time()
+    if game.t_first is None: game.t_first = tq
+    for t in T:                                                   # how long each best price has been unchanged
+        k = (t[6], t[7], t[1])
+        if k not in game.qage or game.qage[k][0] != t[3]: game.qage[k] = (t[3], tq)
     t_star, x, W = np.nan, None, None
     if len(T) >= 2:
         P = game.payoffs(contracts)                               # states x contracts
@@ -201,6 +224,14 @@ def check(game, st):
         t_star, x = solve(W / cost)
     if game.n % RAW_EVERY == 1 or (np.isfinite(t_star) and t_star > -0.005):
         raw_write(game.m, {c["token"]: books.get(c["token"]) for c in game.pm}, {c["id"]: ks_quote(c["market"]) for c in ks})
+    try:                                                          # follow gaps above WATCH_THRESH (traded or not)
+        run_watches(game, t_star)
+        if np.isfinite(t_star) and t_star > WATCH_THRESH and x is not None:
+            if game.wid is None: game.wid = watch_start(game, "pm_ks", t_star, x, T, W, contracts)
+        else: game.wid = None
+    except Exception:
+        log("watch error", game.m["id"], traceback.format_exc(limit=2))
+        with LOCK: STATUS["errors"] += 1
     if W is None: return None
     book_res = None
     if game.book is not None:
@@ -288,9 +319,19 @@ def books_eval(game, contracts, T, P, t_pmks):
     t_all, x = solve(np.column_stack([Wt, B]) / cost)
     with LOCK: STATUS["book_games"] += 1
     for L, _ in bl: L["three_way"] = football
+    wid = None
+    try:                     # earlier gaps with bookmakers: same bets re-priced at this snapshot; then follow a new gap
+        for w in [w for w in game.watches if w["kind"] == "with_books"]:
+            measure(game, w, time.time() - w["ts"], ["confirmation" if confirm else "scheduled"], "recheck", t_all, ev, side)
+        uses = x is not None and np.isfinite(t_all) and any(x[len(T) + k] > 1e-6 for k in range(len(bl)))
+        if uses and t_all > WATCH_THRESH and not confirm:
+            wid = watch_start(game, "with_books", t_all, x, T, Wt, contracts, [L for L, _ in bl], B)
+    except Exception:
+        log("book watch error", game.m["id"], traceback.format_exc(limit=2))
+        with LOCK: STATUS["errors"] += 1
     return {"t_all": t_all, "x": x, "Wt": Wt, "B": B, "bl": [L for L, _ in bl], "T": T, "contracts": contracts,
-            "confirm": confirm, "t_pmks": t_pmks, "ev": {"id": ev["id"], "sport": ev.get("sport_key"), "home": ev["home_team"],
-            "away": ev["away_team"]}}
+            "confirm": confirm, "t_pmks": t_pmks, "watch": wid, "ev": {"id": ev["id"], "sport": ev.get("sport_key"),
+            "home": ev["home_team"], "away": ev["away_team"]}}
 
 
 def handle_books(game, st, r):
@@ -323,7 +364,7 @@ def handle_books(game, st, r):
         "min_to_ko": round((game.ko - now()).total_seconds() / 60, 1), "snapshot": "confirmation" if r["confirm"] else "scheduled",
         "book_lines": len(bl), "t_pm_ks": round(r["t_pmks"], 6) if np.isfinite(r["t_pmks"]) else "",
         "t_with_books": round(t_all, 6) if np.isfinite(t_all) else "", "action": action,
-        "pm_ks_capacity_usd": round(min(caps), 2) if caps else "", "legs": " | ".join(legs)})
+        "pm_ks_capacity_usd": round(min(caps), 2) if caps else "", "watch": r.get("watch") or "", "legs": " | ".join(legs)})
 
 
 def execute_books(game, st, r):
@@ -442,7 +483,136 @@ def opp(game, t_star, action, T, x):
     append_csv(os.path.join(RES, "opportunities.csv"), {
         "time": iso(now()), "game": game.m["id"], "title": game.m["title"], "league": game.m["league"],
         "min_to_ko": round((game.ko - now()).total_seconds() / 60, 1), "t_lp": round(t_star, 6), "capacity_usd": round(cap, 2),
-        "action": action, "legs": " | ".join(f"{T[i][6]} {T[i][1]} {T[i][3]:.3f} x{x[i]:.3f} {T[i][7]}" for i in used)})
+        "action": action, "watch": game.wid or "",
+        "legs": " | ".join(f"{T[i][6]} {T[i][1]} {T[i][3]:.3f} x{x[i]:.3f} {T[i][7]}" for i in used)})
+
+
+# ---------------------------------------------------------------- following a gap: re-checks and order-book depth
+def rescale(v, e0, e1):
+    """Payoff per unit staked with a bookmaker at new odds: win e0 -> e1, half win (1+e0)/2 -> (1+e1)/2."""
+    out = v.copy()
+    out[np.isclose(v, e0)] = e1
+    out[np.isclose(v, (1 + e0) / 2)] = (1 + e1) / 2
+    return out
+
+
+def watch_start(game, kind, t0, x, T, W, contracts, bl=(), B=None):
+    """Follow a gap found now: the SAME portfolio (same shares, same stakes) is re-priced later (re-checks, the
+    ex-ante test) and its order-book depth is measured now and at every re-check. Returns the gap's id."""
+    nT, legs, cols = len(T), [], []
+    for i in [i for i in range(len(x)) if x[i] > 1e-6]:
+        if i < nT:
+            j, side, allin, px, sz, fee, venue, cid, mn = T[i]
+            L = {"venue": venue, "id": cid, "side": side, "n": float(x[i] / allin), "px0": px, "fee": fee,
+                 "label": contracts[j]["label"]}
+            if venue == "PM": L["token"] = contracts[j]["token"]
+            legs.append(L); cols.append(W[:, i])
+        else:
+            b = bl[i - nT]
+            legs.append({"venue": f"BK:{b['book']}", "book": b["book"], "market": b["market"], "side": b["side"],
+                         "point": b["point"], "n": float(x[i]), "eff0": b["eff"], "odds0": b["odds"],
+                         "label": f"{b['market']} {b['outcome']} {'' if b['point'] is None else b['point']} @{b['odds']}"})
+            cols.append(B[:, i - nT])
+    W0 = np.column_stack(cols).astype(float)                   # payoff per share / per unit staked, in every state
+    n = np.array([L["n"] for L in legs])
+    w = {"id": f"{game.m['id']}|{iso(now())}|{kind}", "kind": kind, "t0": float(t0), "ts": time.time(),
+         "detected": iso(now()), "legs": legs, "W0": W0, "g0": float((W0 @ n).min()),
+         "lags": list(RECHECK_SEC) if kind == "pm_ks" else []}
+    game.watches.append(w)
+    with LOCK: STATUS["watches"] += 1
+    measure(game, w, 0.0, [], "detection", float(t0))
+    return w["id"]
+
+
+def leg_now(game, L, ev=None, side=None):
+    """Current best all-in price and order-book ladder of one leg (bookmaker legs: current odds), or None if the leg
+    is no longer quoted. Polymarket ladders come from this poll's books; Kalshi ladders cost one request."""
+    if L["venue"] == "PM":
+        lad = (game.depth.get(L["token"]) or {}).get(L["side"]) or []
+        if not lad: return None
+        p = lad[0][0]
+        return {"allin": p + L["fee"] * p * (1 - p), "price": p, "ladder": lad, "fee": dp.fee_pm(L["fee"])}
+    if L["venue"] == "KS":
+        m = game.ksm.get(L["id"])
+        if m is None: return None
+        ya, ys, na, ns = ks_quote(m); p = ya if L["side"] == "YES" else na
+        if p is None: return None
+        try:
+            lad = ks_ladders(L["id"])[L["side"]]
+            with LOCK: STATUS["ks_depth_calls"] += 1
+        except Exception: lad = None
+        return {"allin": p + KS_FEE * p * (1 - p), "price": p, "ladder": lad, "fee": dp.fee_ks}
+    if ev is None: return {"eff": L["eff0"], "odds": L["odds0"]}           # bookmaker leg at detection
+    return bk.book_line(ev, side, L["book"], L["market"], L["side"], L["point"])
+
+
+def measure(game, w, lag, targets, label, t_reopt, ev=None, side=None):
+    """Price the followed portfolio now: guaranteed return at the best prices (t_fixed) and, walking the order books,
+    the guaranteed profit at larger sizes. Writes rechecks.csv (one row per re-check delay due) and depth.csv."""
+    tnow, cur = time.time(), [leg_now(game, L, ev, side) for L in w["legs"]]
+    ok = all(c is not None for c in cur)
+    t_fixed = g = None
+    if ok:
+        cols = w["W0"].copy()
+        for k, (L, c) in enumerate(zip(w["legs"], cur)):
+            if L["venue"].startswith("BK:"): cols[:, k] = rescale(w["W0"][:, k], L["eff0"], c["eff"])
+        g = float((cols @ np.array([L["n"] for L in w["legs"]])).min())          # guaranteed payout per unit
+        cost = sum(L["n"] * c.get("allin", 1.0) for L, c in zip(w["legs"], cur))  # stakes cost 1 per unit
+        t_fixed = g / cost - 1
+    ages = [tnow - game.qage[k][1] for L in w["legs"] if (k := (L["venue"], L["id"] if "id" in L else "", L["side"])) in game.qage]
+    base = {"time": iso(now()), "watch": w["id"], "kind": w["kind"], "game": game.m["id"], "title": game.m["title"],
+            "league": game.m["league"], "min_to_ko": round((game.ko - now()).total_seconds() / 60, 1), "lag_s": round(lag, 1)}
+    for tg in targets:
+        append_csv(os.path.join(RES, "rechecks.csv"), {**base, "detected": w["detected"], "recheck": tg, "t_detected": round(w["t0"], 6),
+                   "t_same_portfolio": "" if t_fixed is None else round(t_fixed, 6),
+                   "legs_quoted": f"{sum(c is not None for c in cur)}/{len(cur)}",
+                   "t_best_now": round(t_reopt, 6) if t_reopt is not None and np.isfinite(t_reopt) else "",
+                   "still_profitable": "" if t_fixed is None else t_fixed > 0, "above_threshold": "" if t_fixed is None else t_fixed > THRESH,
+                   "status": "ok" if ok else "leg_not_quoted"})
+        with LOCK: STATUS["rechecks"] += 1
+    row = {**base, "measure": label, "t_same_portfolio": "" if t_fixed is None else round(t_fixed, 6)}
+    if ok and all(c.get("ladder") is not None or "eff" in c for c in cur):
+        legs = [{"n": L["n"], "ladder": None, "price": 1.0} if "eff" in c else {"n": L["n"], "ladder": c["ladder"], "fee": c["fee"]}
+                for L, c in zip(w["legs"], cur)]
+        row.update(dp.curve(legs, g))
+    else:
+        row.update(dp.EMPTY)
+    row.update(max_quote_age_s=round(max(ages), 1) if ages else "", min_quote_age_s=round(min(ages), 1) if ages else "",
+               game_watched_s=round(tnow - game.t_first, 1) if game.t_first else "", n_legs=len(w["legs"]), legs=" | ".join(f"{L['venue']} {L['side']} x{L['n']:.4f} {L['label']}" for L in w["legs"]))
+    append_csv(os.path.join(RES, "depth.csv"), row)
+    with LOCK: STATUS["depth_rows"] += 1
+    if RAW:                                                         # full ladders: private repository only
+        rec = {"t": iso(now()), "watch": w["id"], "lag_s": round(lag, 1), "measure": label,
+               "legs": [{"venue": L["venue"], "id": L.get("id") or L.get("book"), "side": L["side"],
+                         "price": c.get("price") if c else None, "ladder": c.get("ladder") if c else None,
+                         "odds": c.get("odds") if c else None} for L, c in zip(w["legs"], cur)]}
+        with LOCK:
+            d = os.path.join(RAW, now().strftime("%Y-%m-%d")); os.makedirs(d, exist_ok=True)
+            with gzip.open(os.path.join(d, "depth_" + now().strftime("%H") + ".jsonl.gz"), "at") as f: f.write(json.dumps(rec) + "\n")
+
+
+def run_watches(game, t_reopt):
+    """Re-check the followed Polymarket/Kalshi gaps of this game whose next delay (30 s, 1, 2, 5 min) has come."""
+    for w in [w for w in game.watches if w["kind"] == "pm_ks"]:
+        el = time.time() - w["ts"]
+        due = [l for l in w["lags"] if el >= l - 5]
+        if not due: continue
+        w["lags"] = [l for l in w["lags"] if l not in due]
+        measure(game, w, el, due, "recheck", t_reopt)
+        if not w["lags"]: game.watches.remove(w)
+
+
+def close_watches(game, reason):
+    """The game left the window (kick-off) or the run ended: delays not reached are recorded as censored."""
+    for w in game.watches:
+        for l in w["lags"]:
+            append_csv(os.path.join(RES, "rechecks.csv"), {"time": iso(now()), "watch": w["id"], "kind": w["kind"],
+                       "game": game.m["id"], "title": game.m["title"], "league": game.m["league"],
+                       "min_to_ko": round((game.ko - now()).total_seconds() / 60, 1), "lag_s": round(time.time() - w["ts"], 1),
+                       "detected": w["detected"], "recheck": l, "t_detected": round(w["t0"], 6), "t_same_portfolio": "",
+                       "legs_quoted": "", "t_best_now": "", "still_profitable": "", "above_threshold": "",
+                       "status": f"censored ({reason})"})
+    game.watches, game.wid = [], None
 
 
 # ---------------------------------------------------------------- settlement
@@ -553,6 +723,7 @@ def report(st):
               f"Transfers between accounts: {ts['count']} ({usd(ts['moved'])} moved, {usd(ts['fees'])} in fees; "
               f"{len(st['transfers'])} still in transit). Delays used: Polymarket out instantly, in 15 min; Kalshi crypto 30 min "
               "each way; bookmakers in instantly, out 24 h; dollars↔euros 2 h and 0.5% (see `bot/accounts.py`).", ""]
+    lines += follow_summary()
     if rows:
         lines += ["## Last trades", "", "| # | time (UTC) | game | min to KO | with bookmakers | gap | cost | guaranteed profit | status | P&L |",
                   "|---|---|---|---|---|---|---|---|---|---|"]
@@ -562,6 +733,35 @@ def report(st):
             lines.append(f"| {t['trade_id']} | {t['time'][5:16]} | {t['title']} | {t['min_to_ko']} | {wbk} | {100 * t['t_lp']:.2f}% | "
                          f"${t['cost']:.2f} | ${t['guaranteed_profit']:.2f} | {t['status']} | {pl} |")
     open(os.path.join(RES, "summary.md"), "w").write("\n".join(lines) + "\n")
+
+
+def follow_summary():
+    """Followed gaps: how many are still profitable when the same portfolio is re-priced later, and their depth."""
+    read = lambda n: list(csv.DictReader(open(os.path.join(RES, n)))) if os.path.exists(os.path.join(RES, n)) else []
+    rc, det = read("rechecks.csv"), [r for r in read("depth.csv") if r["measure"] == "detection"]
+    if not det: return []
+    lines = ["## Gaps followed: the same portfolio re-checked later, and order-book depth", "",
+             f"Gaps above {100 * WATCH_THRESH:.1f}% followed: {sum(r['kind'] == 'pm_ks' for r in det)} Polymarket/Kalshi and "
+             f"{sum(r['kind'] == 'with_books' for r in det)} with bookmakers. A re-check prices the same shares and stakes at the "
+             "later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.", "",
+             "| re-check | measured | still profitable | above 0.2% | a leg no longer offered | censored |", "|---|---|---|---|---|---|"]
+    names = {**{str(l): (f"+{l} s" if l < 60 else f"+{l // 60} min") for l in RECHECK_SEC},
+             "confirmation": "bookmaker confirmation (~1 min)", "scheduled": "next bookmaker snapshot"}
+    for tg, name in names.items():
+        rows = [r for r in rc if r["recheck"] == tg]
+        if not rows: continue
+        ok = [r for r in rows if r["status"] == "ok"]
+        lines.append(f"| {name} | {len(ok)} | {sum(r['still_profitable'] == 'True' for r in ok)} | "
+                     f"{sum(r['above_threshold'] == 'True' for r in ok)} | {sum(r['status'] == 'leg_not_quoted' for r in rows)} | "
+                     f"{sum(r['status'].startswith('censored') for r in rows)} |")
+    med = lambda v: sorted(v)[len(v) // 2] if v else None
+    caps = [float(r["capacity"]) for r in det if r["capacity"] not in ("", None)]
+    bp = [float(r["best_profit"]) for r in det if r["best_profit"] not in ("", None)]
+    if caps:
+        lines += ["", f"Depth at detection ({len(caps)} gaps with full order books): median capacity (largest size still "
+                  f"profitable after walking the order books) ${med(caps):,.0f}; median largest guaranteed profit "
+                  f"${med(bp):,.2f}. Details: `results/rechecks.csv`, `results/depth.csv`."]
+    return lines + [""]
 
 
 def write_status(st, games, start_code, t_start):
@@ -603,6 +803,8 @@ def main():
             for g, res in zip(active, pool.map(lambda g: check(g, st), active)):
                 try: handle(g, st, res)
                 except Exception: log("handle error", g.m["id"], traceback.format_exc(limit=2)); STATUS["errors"] += 1
+            for g in games.values():                                  # followed gaps of games that left the window
+                if g.watches and g not in active: close_watches(g, "kick-off")
             for t in ac.arrive(st, time.time()):
                 log(f"transfer arrived: {t['src']} -> {t['dst']} ${t['amount'] - t['fee']:,.2f}")
             if t0 - last_settle > 600:
@@ -627,6 +829,8 @@ def main():
             time.sleep(max(POLL_SEC, min(300, nxt)))
         else:
             time.sleep(max(1.0, POLL_SEC - (time.time() - t0)))
+    for g in games.values():
+        if g.watches: close_watches(g, "end of run")
     settle(st, keys); save_state(st); report(st); write_status(st, games, start_code, t_start); git_commit(f"bot: end of run {iso(now())}")
     log("done")
 

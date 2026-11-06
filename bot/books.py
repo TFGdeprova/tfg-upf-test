@@ -137,6 +137,22 @@ def best_lines(ev, side):
     return list(best.values())
 
 
+def book_line(ev, side, book, market, sd, point):
+    """Current odds of one bookmaker for one outcome, after exchange commission: {"odds", "eff"} or None."""
+    for bk in ev.get("bookmakers", []):
+        if bk["key"] != book: continue
+        c = COMMISSION.get(bk["key"], 0.0)
+        for mk in bk.get("markets", []):
+            if mk["key"] != market: continue
+            for o in mk.get("outcomes", []):
+                s = side.get(o["name"]) if market != "totals" else o["name"].lower()
+                if market == "h2h" and o["name"].lower() == "draw": s = "draw"
+                if s != sd or o.get("point") != point: continue
+                d = float(o.get("price") or 0)
+                if d > 1.0: return {"odds": d, "eff": 1 + (d - 1) * (1 - c)}
+    return None
+
+
 def payoff_football(L):
     """Gross return per 1 staked over the football score grid (169 states)."""
     if L["market"] == "h2h":

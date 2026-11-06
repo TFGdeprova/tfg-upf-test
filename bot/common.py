@@ -41,8 +41,22 @@ def iso(t): return t.strftime("%Y-%m-%dT%H:%M:%SZ")
 def parse(s): return dt.datetime.fromisoformat(s.replace("Z", "+00:00").replace(" ", "T"))
 
 
-def pm_books(tokens):
-    """Best ask / best bid (price, size) of Polymarket tokens: {token: (ask, ask_size, bid, bid_size)}."""
+DEPTH_LEVELS, DEPTH_USD = 60, 20000.0     # depth kept per side: up to 60 price levels or USD 20,000 of contracts
+
+
+def trim(levels):
+    """Price ladder [(price paid per share, shares)], cheapest first, cut at DEPTH_LEVELS levels or DEPTH_USD."""
+    out, cum = [], 0.0
+    for p, s in levels:
+        if s <= 0 or not 0.0 < p < 1.0: continue
+        out.append((round(p, 4), round(s, 2))); cum += p * s
+        if len(out) >= DEPTH_LEVELS or cum >= DEPTH_USD: break
+    return out
+
+
+def pm_books(tokens, depth=None):
+    """Best ask / best bid (price, size) of Polymarket tokens: {token: (ask, ask_size, bid, bid_size)}.
+    If `depth` is a dict, it also receives the full ladders {token: {"YES": asks, "NO": 1 - bids}} (price paid, shares)."""
     out = {}
     for i in range(0, len(tokens), 50):
         try: books = post(f"{CLOB}/books", [{"token_id": t} for t in tokens[i:i + 50]])
@@ -51,7 +65,17 @@ def pm_books(tokens):
             asks = sorted(((float(x["price"]), float(x["size"])) for x in b.get("asks", [])), key=lambda z: z[0])
             bids = sorted(((float(x["price"]), float(x["size"])) for x in b.get("bids", [])), key=lambda z: -z[0])
             out[b.get("asset_id")] = (asks[0] if asks else (None, 0.0)) + (bids[0] if bids else (None, 0.0))
+            if depth is not None: depth[b.get("asset_id")] = {"YES": trim(asks), "NO": trim([(1 - p, s) for p, s in bids])}
     return out
+
+
+def ks_ladders(ticker):
+    """Kalshi depth of one market: {"YES": ladder, "NO": ladder} (price paid, contracts), cheapest first. Buying YES
+    takes the resting NO bids (price 1 - bid) and buying NO takes the YES bids."""
+    ob = get(f"{KS}/markets/{ticker}/orderbook", retries=1, timeout=10).get("orderbook_fp") or {}
+    yb = sorted(((float(p), float(q)) for p, q in ob.get("yes_dollars") or []), key=lambda z: -z[0])
+    nb = sorted(((float(p), float(q)) for p, q in ob.get("no_dollars") or []), key=lambda z: -z[0])
+    return {"YES": trim([(1 - p, q) for p, q in nb]), "NO": trim([(1 - p, q) for p, q in yb])}
 
 
 def ks_event_markets(event_ticker):

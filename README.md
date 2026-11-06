@@ -23,6 +23,17 @@ it *would* have made, then settles them with the venues' official results.
    the money in that bookmaker account) together with the Polymarket/Kalshi legs.
 5. After the game, positions are settled from the official resolutions (Polymarket, Kalshi) and final scores
    (bookmakers), and the money returns to each account.
+6. Every gap above 0.1 %, traded or not, is **followed** (the tests used in the finance literature on arbitrage):
+   - *Re-checks (ex-ante test):* the same portfolio (same shares, same bookmaker stakes) is priced again 30 seconds and
+     1, 2 and 5 minutes later; gaps that use a bookmaker are re-priced at that bookmaker's odds in the confirmation
+     snapshot and in the next scheduled snapshot. A re-check that the kick-off or the end of a run comes before is
+     recorded as *censored*.
+   - *Depth (slippage and capacity):* at detection and at every re-check the bot reads the order books of the
+     portfolio's contracts (Polymarket: every price level; Kalshi: the market's order book) and computes the guaranteed
+     profit if $50, $100, $250, $500, $1,000, $2,500, $5,000 or $10,000 were invested, walking down the books with each
+     venue's fee at every level; also the size with the largest profit and the largest size still profitable
+     (capacity). Bookmaker bets are taken at fixed odds (no public depth).
+   - *Freshness:* how long each price in the portfolio had been unchanged when the gap was seen.
 
 ## Money and transfers (all fictional)
 - Starting capital: $5,800 on Polymarket and $5,800 on Kalshi (about €10,000), and €500 at each bookmaker, opened the
@@ -41,14 +52,20 @@ it *would* have made, then settles them with the venues' official results.
 - `results/opportunities.csv`: every gap above the threshold (seen / executed / vanished / too small)
 - `results/opportunities_books.csv`: each bookmaker snapshot combined with Polymarket and Kalshi (seen / executed / vanished)
 - `results/transfers.csv`: every transfer between accounts (amount, fee, delay)
+- `results/rechecks.csv`: each followed gap re-priced later (same portfolio): delay, return then, still profitable or
+  not, best return available then, censored re-checks
+- `results/depth.csv`: each followed gap at detection and at every re-check: guaranteed profit and return at each size,
+  best size, capacity, age of the prices
 - `results/polls/<date>.csv`: the best guaranteed return found at every check of every game
 - `results/status.json`: health of the current run (checks, errors, pushes)
 
-Raw order-book snapshots are stored in a private research repository, not here.
+Raw order-book snapshots (including the full depth of every followed gap) are stored in a private research
+repository, not here.
 
 ## Switching it on and off
-The bot runs only while the repository variable `BOT_ENABLED` is `true` (Settings → Secrets and variables → Actions →
-Variables). A run that is already going can be stopped from the Actions tab (Cancel workflow run).
+The bot runs unless the repository variable `BOT_ENABLED` is `false` (Settings → Secrets and variables → Actions →
+Variables). To stop it, create that variable with the value `false` and cancel the run in progress from the Actions tab
+(Cancel workflow run), or disable the workflow in the Actions tab.
 
 ## Running locally
 ```
