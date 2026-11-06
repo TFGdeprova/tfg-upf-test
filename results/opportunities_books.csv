@@ -8,3 +8,7 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-06T23:03:07Z,nhl:26NOV06CBJBUF,CBJ at BUF,nhl,56.9,scheduled,6,-0.016442,-0.007893,no gap,,,
 2026-11-06T23:03:07Z,nhl:26NOV06SJMIN,SJ at MIN,nhl,116.9,scheduled,6,-0.011921,-0.011921,no gap,,,
 2026-11-06T23:03:07Z,nhl:26NOV06ANACGY,ANA at CGY,nhl,116.9,scheduled,6,-0.011612,-0.011612,no gap,,,
+2026-11-06T23:30:24Z,nba:26NOV06WASATL,WAS at ATL,nba,29.6,scheduled,16,-0.013148,-0.013148,no gap,,,
+2026-11-06T23:30:24Z,nba:26NOV06BOSCHA,BOS at CHA,nba,29.6,scheduled,14,-0.012746,-0.004316,no gap,,,
+2026-11-06T23:30:24Z,nba:26NOV06PHICLE,PHI at CLE,nba,59.6,scheduled,8,-0.009032,-0.00826,no gap,,,
+2026-11-06T23:30:24Z,nhl:26NOV06CBJBUF,CBJ at BUF,nhl,29.6,scheduled,6,-0.017453,-0.017453,no gap,,,
