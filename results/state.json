@@ -1,0 +1,47 @@
+{
+ "cash": {
+  "PM": 5800.0,
+  "KS": 5800.0
+ },
+ "start_cash": {
+  "PM": 5800.0,
+  "KS": 5800.0
+ },
+ "open": [],
+ "consumed": {},
+ "started": "2026-11-06T22:51:30Z",
+ "n_trades": 0,
+ "n_settled": 0,
+ "realized_pnl": 0.0,
+ "runs": 1,
+ "locked": {
+  "PM": 0.0,
+  "KS": 0.0
+ },
+ "peak_locked": {
+  "PM": 0.0,
+  "KS": 0.0
+ },
+ "min_cash": {
+  "PM": 5800.0,
+  "KS": 5800.0
+ },
+ "transfers": [],
+ "transfer_stats": {
+  "count": 0,
+  "moved": 0.0,
+  "fees": 0.0
+ },
+ "peak_total_locked": 0.0,
+ "odds": {
+  "remaining": {
+   "1": 500,
+   "2": 500,
+   "3": 500,
+   "4": 500,
+   "5": 500
+  },
+  "spent": {}
+ },
+ "book_slots": {}
+}
