@@ -52,3 +52,5 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-07T01:00:22Z,nba:26NOV06SASSAC,SAS at SAC,nba,119.6,scheduled,8,-0.012854,-0.009669,no gap,,,
 2026-11-07T02:00:22Z,nba:26NOV06PORLAL,POR at LAL,nba,59.6,scheduled,10,-0.01698,-0.01698,no gap,,,
 2026-11-07T02:00:22Z,nba:26NOV06SASSAC,SAS at SAC,nba,59.6,scheduled,8,-0.007397,-0.006342,no gap,,,
+2026-11-07T02:30:22Z,nba:26NOV06PORLAL,POR at LAL,nba,29.6,scheduled,12,-0.019328,-0.014844,no gap,,,
+2026-11-07T02:30:22Z,nba:26NOV06SASSAC,SAS at SAC,nba,29.6,scheduled,8,-0.004587,-0.004587,no gap,,,
