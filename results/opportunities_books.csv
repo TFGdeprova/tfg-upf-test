@@ -54,3 +54,8 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-07T02:00:22Z,nba:26NOV06SASSAC,SAS at SAC,nba,59.6,scheduled,8,-0.007397,-0.006342,no gap,,,
 2026-11-07T02:30:22Z,nba:26NOV06PORLAL,POR at LAL,nba,29.6,scheduled,12,-0.019328,-0.014844,no gap,,,
 2026-11-07T02:30:22Z,nba:26NOV06SASSAC,SAS at SAC,nba,29.6,scheduled,8,-0.004587,-0.004587,no gap,,,
+2026-11-07T02:45:22Z,nba:26NOV06PORLAL,POR at LAL,nba,14.6,scheduled,12,-0.01698,-0.014166,no gap,,,
+2026-11-07T02:45:22Z,nba:26NOV06SASSAC,SAS at SAC,nba,14.6,scheduled,10,-0.006114,-0.005476,no gap,,,
+2026-11-07T02:55:22Z,nba:26NOV06PORLAL,POR at LAL,nba,4.6,scheduled,12,-0.014511,0.032027,seen,387.59,nba:26NOV06PORLAL|2026-11-07T02:55:22Z|with_books,KS YES 0.420 x0.451 Over 235.5 points | betrivers totals Under 235.5 @1.88 x0.549
+2026-11-07T02:55:22Z,nba:26NOV06SASSAC,SAS at SAC,nba,4.6,scheduled,8,-0.005622,-0.005476,no gap,,,
+2026-11-07T02:56:52Z,nba:26NOV06PORLAL,POR at LAL,nba,3.1,confirmation,10,-0.014511,-0.014511,vanished,110.61,,KS YES 0.040 x0.042 Los Angeles L wins by over 26.5 points | KS NO 0.970 x0.958 Los Angeles L wins by over 26.5 points
