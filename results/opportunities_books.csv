@@ -59,3 +59,7 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-07T02:55:22Z,nba:26NOV06PORLAL,POR at LAL,nba,4.6,scheduled,12,-0.014511,0.032027,seen,387.59,nba:26NOV06PORLAL|2026-11-07T02:55:22Z|with_books,KS YES 0.420 x0.451 Over 235.5 points | betrivers totals Under 235.5 @1.88 x0.549
 2026-11-07T02:55:22Z,nba:26NOV06SASSAC,SAS at SAC,nba,4.6,scheduled,8,-0.005622,-0.005476,no gap,,,
 2026-11-07T02:56:52Z,nba:26NOV06PORLAL,POR at LAL,nba,3.1,confirmation,10,-0.014511,-0.014511,vanished,110.61,,KS YES 0.040 x0.042 Los Angeles L wins by over 26.5 points | KS NO 0.970 x0.958 Los Angeles L wins by over 26.5 points
+2026-11-07T09:30:02Z,epl:26NOV07LEETOT,Leeds United FC v Tottenham Hotspur FC,epl,180.0,scheduled,5,-0.009032,0.001286,no gap,,epl:26NOV07LEETOT|2026-11-07T09:30:02Z|with_books,
+2026-11-07T09:30:05Z,elc:26NOV07WREWOL,Wrexham AFC v Wolverhampton Wanderers FC,elc,179.9,scheduled,5,-0.015761,-0.011376,no gap,,,
+2026-11-07T09:30:05Z,elc:26NOV07BRCNOR,Bristol City FC v Norwich City FC,elc,179.9,scheduled,5,-0.015761,0.001119,no gap,,elc:26NOV07BRCNOR|2026-11-07T09:30:02Z|with_books,
+2026-11-07T09:30:05Z,elc:26NOV07PORSTK,Portsmouth FC v Stoke City FC,elc,179.9,scheduled,7,-0.013623,-0.005883,no gap,,,
