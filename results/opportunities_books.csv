@@ -270,3 +270,9 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-07T15:30:42Z,lal:26NOV07OSAATH,CA Osasuna v Athletic Club,lal,119.3,scheduled,7,-0.011921,-0.005488,no gap,,,
 2026-11-07T15:30:44Z,bun:26NOV07VFBSVW,VfB Stuttgart v SV Werder Bremen,bun,119.3,scheduled,7,-0.013232,0.001005,no gap,,bun:26NOV07VFBSVW|2026-11-07T15:30:44Z|with_books,
 2026-11-07T15:32:03Z,epl:26NOV07NFOMCI,Nottingham Forest FC v Manchester City FC,epl,117.9,confirmation,7,-0.011921,0.011807,executed,,,onexbet h2h Manchester City  @1.78 x0.568 | matchbook h2h Nottingham Forest  @5.3 x0.194 | onexbet h2h Draw  @4.26 x0.238
+2026-11-07T15:45:37Z,ere:26NOV07ADOSPA,ADO Den Haag v Sparta Rotterdam,ere,119.4,scheduled,9,-0.015761,-0.011866,no gap,,,
+2026-11-07T15:45:37Z,scop:26NOV07ABEHIB,Aberdeen FC v Hibernian FC,scop,119.4,scheduled,5,-0.015761,-0.015549,no gap,,,
+2026-11-07T16:00:34Z,nhl:26NOV07STLNSH,STL at NSH,nhl,119.4,scheduled,10,-0.011921,-0.00208,no gap,,,
+2026-11-07T16:00:38Z,sea:26NOV07PARBFC,Parma Calcio 1913 v Bologna FC 1909,sea,59.4,scheduled,7,-0.011921,-0.006444,no gap,,,
+2026-11-07T16:00:38Z,fl1:26NOV07AUXPAR,AJ Auxerre v Paris FC,fl1,119.4,scheduled,7,-0.011921,0.004549,seen,,fl1:26NOV07AUXPAR|2026-11-07T16:00:34Z|with_books,smarkets h2h Auxerre  @5.1 x0.200 | leovegas_se h2h Paris FC  @1.79 x0.561 | onexbet h2h Draw  @4.21 x0.239
+2026-11-07T16:02:07Z,fl1:26NOV07AUXPAR,AJ Auxerre v Paris FC,fl1,117.9,confirmation,7,-0.011921,0.004549,executed,,,smarkets h2h Auxerre  @5.1 x0.200 | leovegas_se h2h Paris FC  @1.79 x0.561 | onexbet h2h Draw  @4.21 x0.239

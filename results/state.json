@@ -2,11 +2,11 @@
  "cash": {
   "PM": 5800.0,
   "KS": 5632.9,
-  "BK:smarkets": 580.0,
+  "BK:smarkets": 79.52999999999997,
   "BK:pinnacle": 0.0,
-  "BK:onexbet": -2708.0,
+  "BK:onexbet": -3304.52,
   "BK:matchbook": -1620.9899999999998,
-  "BK:leovegas_se": 680.9276799999999,
+  "BK:leovegas_se": -722.0723200000001,
   "BK:gtbets": 580.0,
   "BK:winamax_de": 547.39,
   "BK:grosvenor": 580.0,
@@ -373,6 +373,77 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 9,
+   "time": "2026-11-07T16:02:07Z",
+   "game": "fl1:26NOV07AUXPAR",
+   "title": "AJ Auxerre v Paris FC",
+   "league": "fl1",
+   "kickoff": "2026-11-07T18:00:00Z",
+   "min_to_ko": 117.9,
+   "t_lp": 0.004549,
+   "with_books": true,
+   "books": [
+    "leovegas_se",
+    "onexbet",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "8553a80cf1ae5cbe3e7a69b76ce8167f",
+    "sport": "soccer_france_ligue_one",
+    "home": "Auxerre",
+    "away": "Paris FC"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2511.3492,
+   "guaranteed_profit": 11.3592,
+   "legs": [
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Auxerre",
+     "side": "home",
+     "point": null,
+     "odds": 5.1,
+     "eff": 5.018,
+     "three_way": true,
+     "stake": 500.47,
+     "cost": 500.47,
+     "label": "h2h Auxerre  @5.1"
+    },
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Paris FC",
+     "side": "away",
+     "point": null,
+     "odds": 1.79,
+     "eff": 1.79,
+     "three_way": true,
+     "stake": 1403.0,
+     "cost": 1403.0,
+     "label": "h2h Paris FC  @1.79"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.21,
+     "eff": 4.21,
+     "three_way": true,
+     "stake": 596.52,
+     "cost": 596.52,
+     "label": "h2h Draw  @4.21"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -382,18 +453,18 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 8,
+ "n_trades": 9,
  "n_settled": 3,
  "realized_pnl": 13.513679999999795,
  "runs": 5,
  "locked": {
   "PM": 0.0,
   "KS": 167.1,
-  "BK:smarkets": 34.860000000000014,
+  "BK:smarkets": 535.33,
   "BK:pinnacle": 0.0,
-  "BK:onexbet": 2857.01,
+  "BK:onexbet": 3453.53,
   "BK:matchbook": 1690.02,
-  "BK:leovegas_se": 0.0,
+  "BK:leovegas_se": 1403.0,
   "BK:gtbets": 0.0,
   "BK:winamax_de": 32.61,
   "BK:grosvenor": 0.0,
@@ -411,9 +482,9 @@
   "KS": 167.1,
   "BK:smarkets": 580.0,
   "BK:pinnacle": 580.0,
-  "BK:onexbet": 2857.01,
+  "BK:onexbet": 3453.53,
   "BK:matchbook": 1690.02,
-  "BK:leovegas_se": 579.99,
+  "BK:leovegas_se": 1403.0,
   "BK:gtbets": 0.0,
   "BK:winamax_de": 32.61,
   "BK:grosvenor": 292.3,
@@ -431,9 +502,9 @@
   "KS": 5632.9,
   "BK:smarkets": 1.4210854715202004e-14,
   "BK:pinnacle": 0.0,
-  "BK:onexbet": -2708.0,
+  "BK:onexbet": -3304.52,
   "BK:matchbook": -1620.9899999999998,
-  "BK:leovegas_se": 0.009999999999990905,
+  "BK:leovegas_se": -722.0723200000001,
   "BK:gtbets": 580.0,
   "BK:winamax_de": 547.39,
   "BK:grosvenor": 287.7,
@@ -485,18 +556,18 @@
   "moved": 1399.686,
   "fees": 0.0
  },
- "peak_total_locked": 7432.26,
+ "peak_total_locked": 9932.25,
  "odds": {
   "remaining": {
-   "1": 408,
-   "2": 409,
-   "3": 411,
-   "4": 407,
-   "5": 407
+   "1": 405,
+   "2": 405,
+   "3": 403,
+   "4": 403,
+   "5": 403
   },
   "spent": {
    "2026-11-06": 27,
-   "2026-11-07": 425
+   "2026-11-07": 448
   }
  },
  "book_slots": {
@@ -595,6 +666,11 @@
   "nhl|2026-11-07T17:30|120": "2026-11-07T15:30:23Z",
   "epl|2026-11-07T17:30|120": "2026-11-07T15:30:24Z",
   "lal|2026-11-07T17:30|120": "2026-11-07T15:30:25Z",
-  "bun|2026-11-07T17:30|120": "2026-11-07T15:30:33Z"
+  "bun|2026-11-07T17:30|120": "2026-11-07T15:30:33Z",
+  "ere|2026-11-07T17:45|120": "2026-11-07T15:45:26Z",
+  "scop|2026-11-07T17:45|120": "2026-11-07T15:45:26Z",
+  "nhl|2026-11-07T18:00|120": "2026-11-07T16:00:26Z",
+  "sea|2026-11-07T17:00|60": "2026-11-07T16:00:26Z",
+  "fl1|2026-11-07T18:00|120": "2026-11-07T16:00:27Z"
  }
 }
