@@ -5,10 +5,12 @@
   "BK:smarkets": 1.4210854715202004e-14,
   "BK:pinnacle": 0.0,
   "BK:onexbet": 0.0,
-  "BK:matchbook": 233.95,
+  "BK:matchbook": 0.0,
   "BK:leovegas_se": 0.009999999999990905,
   "BK:gtbets": 580.0,
-  "BK:winamax_de": 547.39
+  "BK:winamax_de": 547.39,
+  "BK:grosvenor": 287.7,
+  "BK:unibet_se": 580.0
  },
  "start_cash": {
   "PM": 5800.0,
@@ -19,7 +21,9 @@
   "BK:matchbook": 580.0,
   "BK:leovegas_se": 580.0,
   "BK:gtbets": 580.0,
-  "BK:winamax_de": 580.0
+  "BK:winamax_de": 580.0,
+  "BK:grosvenor": 580.0,
+  "BK:unibet_se": 580.0
  },
  "open": [
   {
@@ -304,11 +308,67 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 5,
+   "time": "2026-11-07T12:02:13Z",
+   "game": "elc:26NOV07WREWOL",
+   "title": "Wrexham AFC v Wolverhampton Wanderers FC",
+   "league": "elc",
+   "kickoff": "2026-11-07T12:30:00Z",
+   "min_to_ko": 27.8,
+   "t_lp": 0.010914,
+   "with_books": true,
+   "books": [
+    "grosvenor",
+    "matchbook"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "a88341ac02c8103eedc594a2ceb3a400",
+    "sport": "soccer_efl_champ",
+    "home": "Wrexham AFC",
+    "away": "Wolverhampton Wanderers"
+   },
+   "cost": 526.25,
+   "guaranteed_payout": 531.986,
+   "guaranteed_profit": 5.736,
+   "legs": [
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 2.5,
+     "odds": 2.3,
+     "eff": 2.274,
+     "three_way": true,
+     "stake": 233.95,
+     "cost": 233.95,
+     "label": "totals Over 2.5 @2.3"
+    },
+    {
+     "venue": "BK:grosvenor",
+     "book": "grosvenor",
+     "market": "totals",
+     "outcome": "Under",
+     "side": "under",
+     "point": 2.5,
+     "odds": 1.82,
+     "eff": 1.82,
+     "three_way": true,
+     "stake": 292.3,
+     "cost": 292.3,
+     "label": "totals Under 2.5 @1.82"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {},
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 4,
+ "n_trades": 5,
  "n_settled": 0,
  "realized_pnl": 0.0,
  "runs": 4,
@@ -318,10 +378,12 @@
   "BK:smarkets": 580.0,
   "BK:pinnacle": 580.0,
   "BK:onexbet": 580.0,
-  "BK:matchbook": 346.05,
+  "BK:matchbook": 580.0,
   "BK:leovegas_se": 579.99,
   "BK:gtbets": 0.0,
-  "BK:winamax_de": 32.61
+  "BK:winamax_de": 32.61,
+  "BK:grosvenor": 292.3,
+  "BK:unibet_se": 0.0
  },
  "peak_locked": {
   "PM": 0.0,
@@ -329,10 +391,12 @@
   "BK:smarkets": 580.0,
   "BK:pinnacle": 580.0,
   "BK:onexbet": 580.0,
-  "BK:matchbook": 346.05,
+  "BK:matchbook": 580.0,
   "BK:leovegas_se": 579.99,
   "BK:gtbets": 0.0,
-  "BK:winamax_de": 32.61
+  "BK:winamax_de": 32.61,
+  "BK:grosvenor": 292.3,
+  "BK:unibet_se": 0.0
  },
  "min_cash": {
   "PM": 5800.0,
@@ -340,10 +404,12 @@
   "BK:smarkets": 1.4210854715202004e-14,
   "BK:pinnacle": 0.0,
   "BK:onexbet": 0.0,
-  "BK:matchbook": 233.95,
+  "BK:matchbook": 0.0,
   "BK:leovegas_se": 0.009999999999990905,
   "BK:gtbets": 580.0,
-  "BK:winamax_de": 547.39
+  "BK:winamax_de": 547.39,
+  "BK:grosvenor": 287.7,
+  "BK:unibet_se": 580.0
  },
  "transfers": [],
  "transfer_stats": {
@@ -351,18 +417,18 @@
   "moved": 0.0,
   "fees": 0.0
  },
- "peak_total_locked": 2698.65,
+ "peak_total_locked": 3224.9,
  "odds": {
   "remaining": {
-   "1": 477,
-   "2": 473,
-   "3": 473,
-   "4": 474,
-   "5": 474
+   "1": 465,
+   "2": 465,
+   "3": 465,
+   "4": 466,
+   "5": 466
   },
   "spent": {
    "2026-11-06": 27,
-   "2026-11-07": 96
+   "2026-11-07": 140
   }
  },
  "book_slots": {
@@ -401,6 +467,15 @@
   "sea|2026-11-07T14:00|180": "2026-11-07T11:00:21Z",
   "epl|2026-11-07T12:30|60": "2026-11-07T11:30:20Z",
   "elc|2026-11-07T12:30|60": "2026-11-07T11:30:20Z",
-  "bun|2026-11-07T14:30|180": "2026-11-07T11:30:21Z"
+  "bun|2026-11-07T14:30|180": "2026-11-07T11:30:21Z",
+  "epl|2026-11-07T12:30|30": "2026-11-07T12:00:25Z",
+  "epl|2026-11-07T15:00|180": "2026-11-07T12:00:25Z",
+  "elc|2026-11-07T12:30|30": "2026-11-07T12:00:26Z",
+  "elc|2026-11-07T15:00|180": "2026-11-07T12:00:26Z",
+  "sea|2026-11-07T14:00|120": "2026-11-07T12:00:27Z",
+  "scop|2026-11-07T15:00|180": "2026-11-07T12:00:27Z",
+  "epl|2026-11-07T12:30|15": "2026-11-07T12:15:30Z",
+  "elc|2026-11-07T12:30|15": "2026-11-07T12:15:30Z",
+  "lal|2026-11-07T15:15|180": "2026-11-07T12:15:30Z"
  }
 }

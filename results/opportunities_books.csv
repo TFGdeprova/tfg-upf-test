@@ -84,3 +84,32 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-07T11:32:01Z,bun:26NOV07M05BMU,1. FSV Mainz 05 v FC Bayern München,bun,178.0,confirmation,11,-0.011921,0.008851,no_cash,,,gtbets h2h Bayern Munich  @1.33 x0.759 | smarkets h2h FSV Mainz 05  @10.0 x0.103 | smarkets h2h Draw  @7.4 x0.139
 2026-11-07T11:32:03Z,bun:26NOV07RBLFCA,RB Leipzig v FC Augsburg,bun,177.9,confirmation,11,-0.011921,0.008353,executed,,,matchbook h2h Augsburg  @6.8 x0.151 | onexbet h2h RB Leipzig  @1.5 x0.672 | winamax_de h2h Draw  @5.7 x0.177
 2026-11-07T11:32:03Z,bun:26NOV07BVBSVE,BV Borussia 09 Dortmund v SV 07 Elversberg,bun,177.9,confirmation,7,-0.007434,0.008308,no_cash,,,onexbet h2h Borussia Dortmund  @1.37 x0.736 | smarkets h2h Elversberg  @10.0 x0.103 | winamax_de h2h Draw  @6.25 x0.161
+2026-11-07T12:00:36Z,epl:26NOV07LEETOT,Leeds United FC v Tottenham Hotspur FC,epl,29.4,scheduled,5,-0.011921,-0.001254,no gap,,,
+2026-11-07T12:00:40Z,elc:26NOV07WREWOL,Wrexham AFC v Wolverhampton Wanderers FC,elc,29.3,scheduled,7,-0.013232,0.007021,seen,,elc:26NOV07WREWOL|2026-11-07T12:00:40Z|with_books,matchbook totals Over 2.5 @2.28 x0.447 | grosvenor totals Under 2.5 @1.82 x0.553
+2026-11-07T12:00:40Z,elc:26NOV07BRCNOR,Bristol City FC v Norwich City FC,elc,29.3,scheduled,5,-0.015761,-0.009831,no gap,,,
+2026-11-07T12:00:40Z,elc:26NOV07PORSTK,Portsmouth FC v Stoke City FC,elc,29.3,scheduled,9,-0.013232,-0.000213,no gap,,,
+2026-11-07T12:00:40Z,sea:26NOV07CAGFRO,Cagliari Calcio v Frosinone Calcio,sea,119.3,scheduled,11,-0.013232,0.005269,seen,,sea:26NOV07CAGFRO|2026-11-07T12:00:40Z|with_books,matchbook h2h Cagliari  @3.3 x0.309 | unibet_se h2h Frosinone  @2.32 x0.433 | unibet_se h2h Draw  @3.9 x0.258
+2026-11-07T12:00:40Z,sea:26NOV07TORLEC,Torino FC v US Lecce,sea,119.3,scheduled,5,-0.012286,-0.005697,no gap,,,
+2026-11-07T12:00:50Z,epl:26NOV07ARSHUL,Arsenal FC v Hull City AFC,epl,179.2,scheduled,11,-0.004588,0.004415,seen,1145.9,epl:26NOV07ARSHUL|2026-11-07T12:00:50Z|with_books,PM YES 0.038 x0.040 Will Hull City AFC win on 2026-11-07? | onexbet h2h Arsenal  @1.18 x0.851 | smarkets h2h Draw  @9.4 x0.109
+2026-11-07T12:00:50Z,epl:26NOV07FULNEW,Fulham FC v Newcastle United FC,epl,179.2,scheduled,9,-0.011921,0.001479,no gap,,epl:26NOV07FULNEW|2026-11-07T12:00:50Z|with_books,
+2026-11-07T12:00:50Z,elc:26NOV07PNESOU,Preston North End FC v Southampton FC,elc,179.2,scheduled,11,-0.011921,-0.006209,no gap,,,
+2026-11-07T12:00:50Z,elc:26NOV07BCSWA,Birmingham City FC v Swansea City AFC,elc,179.2,scheduled,5,-0.01698,0.001279,no gap,,elc:26NOV07BCSWA|2026-11-07T12:00:48Z|with_books,
+2026-11-07T12:00:50Z,elc:26NOV07CHASHU,Charlton Athletic FC v Sheffield United FC,elc,179.2,scheduled,5,-0.013232,-0.013232,no gap,,,
+2026-11-07T12:00:50Z,elc:26NOV07BLAWHU,Blackburn Rovers FC v West Ham United FC,elc,179.2,scheduled,9,-0.011921,-0.001498,no gap,,,
+2026-11-07T12:00:53Z,elc:26NOV07CARBUR,Cardiff City FC v Burnley FC,elc,179.1,scheduled,11,-0.014511,-0.008472,no gap,,,
+2026-11-07T12:00:53Z,elc:26NOV07WATMID,Watford FC v Middlesbrough FC,elc,179.1,scheduled,11,-0.011921,0.003387,seen,,elc:26NOV07WATMID|2026-11-07T12:00:53Z|with_books,leovegas_se h2h Middlesbrough  @1.51 x0.664 | smarkets h2h Watford  @7.2 x0.142 | pinnacle h2h Draw  @5.18 x0.194
+2026-11-07T12:00:57Z,elc:26NOV07WBAMIL,West Bromwich Albion FC v Millwall FC,elc,179.0,scheduled,5,-0.021558,-0.006697,no gap,,,
+2026-11-07T12:00:59Z,elc:26NOV07QPRLIC,Queens Park Rangers FC v Lincoln City FC,elc,179.0,scheduled,5,-0.011921,0.009144,seen,1920.07,elc:26NOV07QPRLIC|2026-11-07T12:00:59Z|with_books,PM YES 0.170 x0.179 Will Lincoln City FC win on 2026-11-07? | leovegas_se h2h Queens Park Rangers  @1.73 x0.583 | pinnacle h2h Draw  @4.24 x0.238
+2026-11-07T12:00:59Z,scop:26NOV07DUUMOT,Dundee United FC v Motherwell FC,scop,179.0,scheduled,11,-0.015761,-0.004881,no gap,,,
+2026-11-07T12:00:59Z,scop:26NOV07JOHDUN,St Johnstone FC v Dundee FC,scop,179.0,scheduled,7,-0.01698,-0.009884,no gap,,,
+2026-11-07T12:02:13Z,elc:26NOV07WREWOL,Wrexham AFC v Wolverhampton Wanderers FC,elc,27.8,confirmation,7,-0.013232,0.010914,executed,,,matchbook totals Over 2.5 @2.3 x0.445 | grosvenor totals Under 2.5 @1.82 x0.555
+2026-11-07T12:02:19Z,sea:26NOV07CAGFRO,Cagliari Calcio v Frosinone Calcio,sea,117.7,confirmation,11,-0.013232,0.005269,no_cash,,,matchbook h2h Cagliari  @3.3 x0.309 | unibet_se h2h Frosinone  @2.32 x0.433 | unibet_se h2h Draw  @3.9 x0.258
+2026-11-07T12:02:27Z,epl:26NOV07ARSHUL,Arsenal FC v Hull City AFC,epl,177.5,confirmation,11,-0.004588,0.004415,no_cash,1103.26,,PM YES 0.038 x0.040 Will Hull City AFC win on 2026-11-07? | onexbet h2h Arsenal  @1.18 x0.851 | smarkets h2h Draw  @9.4 x0.109
+2026-11-07T12:02:38Z,elc:26NOV07WATMID,Watford FC v Middlesbrough FC,elc,177.4,confirmation,11,-0.011921,0.003387,no_cash,,,leovegas_se h2h Middlesbrough  @1.51 x0.664 | smarkets h2h Watford  @7.2 x0.142 | pinnacle h2h Draw  @5.18 x0.194
+2026-11-07T12:02:38Z,elc:26NOV07QPRLIC,Queens Park Rangers FC v Lincoln City FC,elc,177.4,confirmation,5,-0.011921,0.009144,no_cash,1920.07,,PM YES 0.170 x0.179 Will Lincoln City FC win on 2026-11-07? | leovegas_se h2h Queens Park Rangers  @1.73 x0.583 | pinnacle h2h Draw  @4.24 x0.238
+2026-11-07T12:15:39Z,epl:26NOV07LEETOT,Leeds United FC v Tottenham Hotspur FC,epl,14.3,scheduled,5,-0.011921,0.002108,seen,,epl:26NOV07LEETOT|2026-11-07T12:15:39Z|with_books,coolbet h2h Leeds United  @2.92 x0.343 | pinnacle h2h Tottenham Hotspur  @2.67 x0.375 | onexbet h2h Draw  @3.56 x0.281
+2026-11-07T12:15:39Z,elc:26NOV07WREWOL,Wrexham AFC v Wolverhampton Wanderers FC,elc,14.3,scheduled,7,-0.013232,-0.00788,no gap,,,
+2026-11-07T12:15:41Z,elc:26NOV07BRCNOR,Bristol City FC v Norwich City FC,elc,14.3,scheduled,5,-0.015741,-0.010103,no gap,,,
+2026-11-07T12:15:41Z,elc:26NOV07PORSTK,Portsmouth FC v Stoke City FC,elc,14.3,scheduled,9,-0.013232,-0.008457,no gap,,,
+2026-11-07T12:16:02Z,lal:26NOV07ESPDEP,RCD Espanyol de Barcelona v RC Deportivo A Coruña,lal,179.0,scheduled,5,-0.014511,-0.003366,no gap,,,
+2026-11-07T12:16:48Z,epl:26NOV07LEETOT,Leeds United FC v Tottenham Hotspur FC,epl,13.2,confirmation,5,-0.011921,-0.002705,vanished,,,coolbet h2h Leeds United  @2.92 x0.342 | pinnacle h2h Tottenham Hotspur  @2.67 x0.374 | unibet_nl h2h Draw  @3.5 x0.285
