@@ -127,3 +127,21 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-07T12:31:56Z,bun:26NOV07PADSGE,SC Paderborn 07 v Eintracht Frankfurt,bun,118.1,confirmation,11,-0.011921,0.004025,no_cash,,,pinnacle h2h Eintracht Frankfurt  @2.47 x0.406 | unibet_se h2h SC Paderborn  @2.9 x0.346 | onexbet h2h Draw  @4.06 x0.247
 2026-11-07T12:31:58Z,bun:26NOV07M05BMU,1. FSV Mainz 05 v FC Bayern München,bun,118.0,confirmation,11,-0.009648,0.013801,no_cash,,,gtbets h2h Bayern Munich  @1.33 x0.762 | matchbook h2h FSV Mainz 05  @10.5 x0.098 | smarkets h2h Draw  @7.4 x0.139
 2026-11-07T12:31:58Z,bun:26NOV07BVBSVE,BV Borussia 09 Dortmund v SV 07 Elversberg,bun,118.0,confirmation,7,-0.009728,0.006998,no_cash,,,onexbet h2h Borussia Dortmund  @1.37 x0.735 | smarkets h2h Elversberg  @10.0 x0.103 | tipico_de h2h Draw  @6.2 x0.162
+2026-11-07T13:00:31Z,sea:26NOV07CAGFRO,Cagliari Calcio v Frosinone Calcio,sea,59.5,scheduled,11,-0.013934,0.002752,seen,,sea:26NOV07CAGFRO|2026-11-07T13:00:31Z|with_books,unibet_se totals Over 3.5 @2.28 x0.440 | onexbet totals Under 3.5 @1.79 x0.560
+2026-11-07T13:00:31Z,sea:26NOV07TORLEC,Torino FC v US Lecce,sea,59.5,scheduled,5,-0.012286,-0.000626,no gap,,,
+2026-11-07T13:00:31Z,epl:26NOV07ARSHUL,Arsenal FC v Hull City AFC,epl,119.5,scheduled,11,-0.004588,0.001808,no gap,,epl:26NOV07ARSHUL|2026-11-07T13:00:29Z|with_books,
+2026-11-07T13:00:31Z,epl:26NOV07FULNEW,Fulham FC v Newcastle United FC,epl,119.5,scheduled,9,-0.011921,0.00127,no gap,,epl:26NOV07FULNEW|2026-11-07T13:00:31Z|with_books,
+2026-11-07T13:00:37Z,elc:26NOV07PNESOU,Preston North End FC v Southampton FC,elc,119.4,scheduled,11,-0.011921,-0.010924,no gap,,,
+2026-11-07T13:00:44Z,elc:26NOV07BCSWA,Birmingham City FC v Swansea City AFC,elc,119.3,scheduled,5,-0.01698,-0.001322,no gap,,,
+2026-11-07T13:00:44Z,elc:26NOV07CHASHU,Charlton Athletic FC v Sheffield United FC,elc,119.3,scheduled,5,-0.013232,-0.013232,no gap,,,
+2026-11-07T13:00:44Z,elc:26NOV07BLAWHU,Blackburn Rovers FC v West Ham United FC,elc,119.3,scheduled,9,-0.011921,-0.006139,no gap,,,
+2026-11-07T13:00:44Z,elc:26NOV07CARBUR,Cardiff City FC v Burnley FC,elc,119.3,scheduled,11,-0.014511,-0.009064,no gap,,,
+2026-11-07T13:00:44Z,elc:26NOV07WATMID,Watford FC v Middlesbrough FC,elc,119.3,scheduled,11,-0.011921,0.007236,seen,,elc:26NOV07WATMID|2026-11-07T13:00:44Z|with_books,leovegas_se h2h Middlesbrough  @1.51 x0.667 | matchbook h2h Watford  @7.4 x0.139 | pinnacle h2h Draw  @5.18 x0.194
+2026-11-07T13:00:44Z,elc:26NOV07WBAMIL,West Bromwich Albion FC v Millwall FC,elc,119.3,scheduled,5,-0.021558,-0.006697,no gap,,,
+2026-11-07T13:00:44Z,elc:26NOV07QPRLIC,Queens Park Rangers FC v Lincoln City FC,elc,119.3,scheduled,5,-0.011921,0.002321,seen,,elc:26NOV07QPRLIC|2026-11-07T13:00:42Z|with_books,smarkets h2h Lincoln City  @5.6 x0.182 | leovegas_se h2h Queens Park Rangers  @1.73 x0.579 | pinnacle h2h Draw  @4.2 x0.239
+2026-11-07T13:00:46Z,scop:26NOV07DUUMOT,Dundee United FC v Motherwell FC,scop,119.2,scheduled,11,-0.015761,-0.004881,no gap,,,
+2026-11-07T13:00:46Z,scop:26NOV07JOHDUN,St Johnstone FC v Dundee FC,scop,119.2,scheduled,7,-0.01698,-0.009789,no gap,,,
+2026-11-07T13:02:01Z,sea:26NOV07CAGFRO,Cagliari Calcio v Frosinone Calcio,sea,58.0,confirmation,11,-0.013934,0.002752,no_cash,,,unibet_se totals Over 3.5 @2.28 x0.440 | onexbet totals Under 3.5 @1.79 x0.560
+2026-11-07T13:02:17Z,elc:26NOV07WATMID,Watford FC v Middlesbrough FC,elc,117.7,confirmation,11,-0.011921,0.007236,no_cash,,,leovegas_se h2h Middlesbrough  @1.51 x0.667 | matchbook h2h Watford  @7.4 x0.139 | pinnacle h2h Draw  @5.18 x0.194
+2026-11-07T13:02:17Z,elc:26NOV07QPRLIC,Queens Park Rangers FC v Lincoln City FC,elc,117.7,confirmation,5,-0.011921,0.002321,no_cash,,,smarkets h2h Lincoln City  @5.6 x0.182 | leovegas_se h2h Queens Park Rangers  @1.73 x0.579 | pinnacle h2h Draw  @4.2 x0.239
+2026-11-07T13:15:34Z,lal:26NOV07ESPDEP,RCD Espanyol de Barcelona v RC Deportivo A Coruña,lal,119.4,scheduled,5,-0.014511,-0.004653,no gap,,,
