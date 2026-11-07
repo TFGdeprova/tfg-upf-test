@@ -2,9 +2,9 @@
  "cash": {
   "PM": 5800.0,
   "KS": 5632.9,
-  "BK:smarkets": -316.16,
+  "BK:smarkets": -591.1400000000001,
   "BK:pinnacle": -1226.6,
-  "BK:onexbet": -10302.535800000001,
+  "BK:onexbet": -9884.471300000001,
   "BK:matchbook": -1882.3599999999997,
   "BK:leovegas_se": -722.0723200000001,
   "BK:gtbets": -912.98,
@@ -17,7 +17,8 @@
   "BK:marathonbet": 580.0,
   "BK:coral": 754.0,
   "BK:betfair_ex_uk": 580.0,
-  "BK:betfred_uk": 580.0
+  "BK:betfred_uk": 580.0,
+  "BK:betfair_ex_eu": 453.07
  },
  "start_cash": {
   "PM": 5800.0,
@@ -37,80 +38,10 @@
   "BK:marathonbet": 580.0,
   "BK:coral": 580.0,
   "BK:betfair_ex_uk": 580.0,
-  "BK:betfred_uk": 580.0
+  "BK:betfred_uk": 580.0,
+  "BK:betfair_ex_eu": 580.0
  },
  "open": [
-  {
-   "trade_id": 7,
-   "time": "2026-11-07T15:27:05Z",
-   "game": "ere:26NOV07FORTEL",
-   "title": "Fortuna Sittard v Telstar 1963",
-   "league": "ere",
-   "kickoff": "2026-11-07T15:30:00Z",
-   "min_to_ko": 2.9,
-   "t_lp": 0.006466,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "onexbet",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "33c5cad848eb423e163a9bf5631ccefe",
-    "sport": "soccer_netherlands_eredivisie",
-    "home": "Fortuna Sittard",
-    "away": "SC Telstar"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2516.1345,
-   "guaranteed_profit": 16.1545,
-   "legs": [
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Fortuna Sittard",
-     "side": "home",
-     "point": null,
-     "odds": 2.24,
-     "eff": 2.2152000000000003,
-     "three_way": true,
-     "stake": 1135.86,
-     "cost": 1135.86,
-     "label": "h2h Fortuna Sittard  @2.24"
-    },
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "SC Telstar",
-     "side": "away",
-     "point": null,
-     "odds": 3.75,
-     "eff": 3.75,
-     "three_way": true,
-     "stake": 670.97,
-     "cost": 670.97,
-     "label": "h2h SC Telstar  @3.75"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.63,
-     "eff": 3.63,
-     "three_way": true,
-     "stake": 693.15,
-     "cost": 693.15,
-     "label": "h2h Draw  @3.63"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 8,
    "time": "2026-11-07T15:32:03Z",
@@ -604,6 +535,77 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 15,
+   "time": "2026-11-07T18:06:57Z",
+   "game": "fl1:26NOV07PSGEST",
+   "title": "Paris Saint-Germain FC v ES Troyes AC",
+   "league": "fl1",
+   "kickoff": "2026-11-07T20:05:00Z",
+   "min_to_ko": 118.0,
+   "t_lp": 0.015471,
+   "with_books": true,
+   "books": [
+    "betfair_ex_eu",
+    "onexbet",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "f7b240389fa5ec055c58a48ab153dcdd",
+    "sport": "soccer_france_ligue_one",
+    "home": "Paris Saint Germain",
+    "away": "Troyes"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2538.6,
+   "guaranteed_profit": 38.62,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Paris Saint Germain",
+     "side": "home",
+     "point": null,
+     "odds": 1.21,
+     "eff": 1.21,
+     "three_way": true,
+     "stake": 2098.07,
+     "cost": 2098.07,
+     "label": "h2h Paris Saint Germain  @1.21"
+    },
+    {
+     "venue": "BK:betfair_ex_eu",
+     "book": "betfair_ex_eu",
+     "market": "h2h",
+     "outcome": "Troyes",
+     "side": "away",
+     "point": null,
+     "odds": 21.0,
+     "eff": 20.0,
+     "three_way": true,
+     "stake": 126.93,
+     "cost": 126.93,
+     "label": "h2h Troyes  @21.0"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 9.4,
+     "eff": 9.232,
+     "three_way": true,
+     "stake": 274.98,
+     "cost": 274.98,
+     "label": "h2h Draw  @9.4"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -613,17 +615,17 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 14,
- "n_settled": 6,
- "realized_pnl": 22.597879999999748,
+ "n_trades": 15,
+ "n_settled": 7,
+ "realized_pnl": 38.75237999999939,
  "runs": 5,
  "locked": {
   "PM": 0.0,
   "KS": 0.0,
-  "BK:smarkets": 896.1600000000001,
+  "BK:smarkets": 1171.14,
   "BK:pinnacle": 1226.6,
-  "BK:onexbet": 10590.230000000003,
-  "BK:matchbook": 1882.3600000000001,
+  "BK:onexbet": 11995.150000000003,
+  "BK:matchbook": 746.5000000000002,
   "BK:leovegas_se": 1403.0,
   "BK:gtbets": 1492.98,
   "BK:winamax_de": 402.48,
@@ -631,18 +633,19 @@
   "BK:unibet_se": 0.0,
   "BK:tipico_de": 486.19,
   "BK:coolbet": 0.0,
-  "BK:unibet_nl": 1619.88,
+  "BK:unibet_nl": 948.9100000000001,
   "BK:marathonbet": 0.0,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 0.0,
-  "BK:betfred_uk": 0.0
+  "BK:betfred_uk": 0.0,
+  "BK:betfair_ex_eu": 126.93
  },
  "peak_locked": {
   "PM": 0.0,
   "KS": 167.1,
-  "BK:smarkets": 896.1600000000001,
+  "BK:smarkets": 1171.14,
   "BK:pinnacle": 1226.6,
-  "BK:onexbet": 10590.230000000003,
+  "BK:onexbet": 11995.150000000003,
   "BK:matchbook": 1882.3600000000001,
   "BK:leovegas_se": 1403.0,
   "BK:gtbets": 1492.98,
@@ -655,12 +658,13 @@
   "BK:marathonbet": 0.0,
   "BK:coral": 580.0,
   "BK:betfair_ex_uk": 0.0,
-  "BK:betfred_uk": 0.0
+  "BK:betfred_uk": 0.0,
+  "BK:betfair_ex_eu": 126.93
  },
  "min_cash": {
   "PM": 5800.0,
   "KS": 5632.9,
-  "BK:smarkets": -316.16,
+  "BK:smarkets": -591.1400000000001,
   "BK:pinnacle": -1226.6,
   "BK:onexbet": -10302.535800000001,
   "BK:matchbook": -1882.3599999999997,
@@ -675,7 +679,8 @@
   "BK:marathonbet": 580.0,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 580.0,
-  "BK:betfred_uk": 580.0
+  "BK:betfred_uk": 580.0,
+  "BK:betfair_ex_eu": 453.07
  },
  "transfers": [
   {
@@ -720,14 +725,14 @@
  "odds": {
   "remaining": {
    "1": 366,
-   "2": 369,
-   "3": 367,
+   "2": 363,
+   "3": 363,
    "4": 365,
    "5": 365
   },
   "spent": {
    "2026-11-06": 27,
-   "2026-11-07": 635
+   "2026-11-07": 645
   }
  },
  "book_slots": {
@@ -875,6 +880,7 @@
   "fl1|2026-11-07T18:00|5": "2026-11-07T17:55:22Z",
   "lal|2026-11-07T20:00|120": "2026-11-07T18:00:22Z",
   "ere|2026-11-07T20:00|120": "2026-11-07T18:00:22Z",
-  "scop|2026-11-07T20:00|120": "2026-11-07T18:00:23Z"
+  "scop|2026-11-07T20:00|120": "2026-11-07T18:00:23Z",
+  "fl1|2026-11-07T20:05|120": "2026-11-07T18:05:22Z"
  }
 }
