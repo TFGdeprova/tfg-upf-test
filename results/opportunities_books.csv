@@ -364,3 +364,8 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-07T20:00:28Z,fl1:26NOV07PSGEST,Paris Saint-Germain FC v ES Troyes AC,fl1,4.5,scheduled,9,-0.004496,-0.000938,no gap,,,
 2026-11-07T20:00:28Z,nba:26NOV07DENIND,DEN at IND,nba,119.5,scheduled,12,-0.013824,-0.013824,no gap,,,
 2026-11-07T20:00:28Z,nhl:26NOV07NYRSEA,NYR at SEA,nhl,119.5,scheduled,6,-0.018371,-0.013501,no gap,,,
+2026-11-07T21:00:20Z,nba:26NOV07DENIND,DEN at IND,nba,59.7,scheduled,14,-0.008264,-0.008264,no gap,,,
+2026-11-07T21:00:20Z,nhl:26NOV07NYRSEA,NYR at SEA,nhl,59.7,scheduled,6,-0.018371,-0.015794,no gap,,,
+2026-11-07T21:00:20Z,nhl:26NOV07MTLTOR,MTL at TOR,nhl,179.7,scheduled,6,-0.01126,-0.01126,no gap,,,
+2026-11-07T21:00:20Z,nhl:26NOV07UTAOTT,UTA at OTT,nhl,179.7,scheduled,6,-0.01126,-0.01126,no gap,,,
+2026-11-07T21:00:20Z,nhl:26NOV07NJNYI,NJ at NYI,nhl,179.7,scheduled,8,-0.011921,-0.011921,no gap,,,
