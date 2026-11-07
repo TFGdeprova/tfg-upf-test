@@ -1,7 +1,7 @@
-trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_only,cost,guaranteed_payout,guaranteed_profit,status,n_legs
-1,2026-11-07T10:31:55Z,epl:26NOV07LEETOT,Leeds United FC v Tottenham Hotspur FC,epl,2026-11-07T12:30:00Z,118.1,0.00261,True,"['onexbet', 'pinnacle', 'smarkets']",False,1556.13,1560.1838,4.0538,open,3
-2,2026-11-07T10:31:55Z,elc:26NOV07BRCNOR,Bristol City FC v Norwich City FC,elc,2026-11-07T12:30:00Z,118.1,0.004318,True,"['leovegas_se', 'matchbook']",False,857.01,860.6975,3.6875,open,3
-3,2026-11-07T11:32:01Z,bun:26NOV07PADSGE,SC Paderborn 07 v Eintracht Frankfurt,bun,2026-11-07T14:30:00Z,178.0,0.006506,True,"['matchbook', 'onexbet', 'smarkets']",False,101.15,101.7842,0.6342,open,3
-4,2026-11-07T11:32:03Z,bun:26NOV07RBLFCA,RB Leipzig v FC Augsburg,bun,2026-11-07T14:30:00Z,177.9,0.008353,True,"['matchbook', 'onexbet', 'winamax_de']",False,184.36,185.877,1.517,open,3
-5,2026-11-07T12:02:13Z,elc:26NOV07WREWOL,Wrexham AFC v Wolverhampton Wanderers FC,elc,2026-11-07T12:30:00Z,27.8,0.010914,True,"['grosvenor', 'matchbook']",False,526.25,531.986,5.736,open,2
-6,2026-11-07T14:26:49Z,bun:26NOV07M05BMU,1. FSV Mainz 05 v FC Bayern München,bun,2026-11-07T14:30:00Z,3.2,0.009241,True,['coral'],False,747.1,754.0,6.9,open,2
+trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_only,cost,guaranteed_payout,guaranteed_profit,status,settled,payout,pnl,check,n_legs
+1,2026-11-07T10:31:55Z,epl:26NOV07LEETOT,Leeds United FC v Tottenham Hotspur FC,epl,2026-11-07T12:30:00Z,118.1,0.00261,True,"['onexbet', 'pinnacle', 'smarkets']",False,1556.13,1560.1838,4.0538,settled,2026-11-07T15:01:53Z,1560.1907,4.0607,ok,3
+2,2026-11-07T10:31:55Z,elc:26NOV07BRCNOR,Bristol City FC v Norwich City FC,elc,2026-11-07T12:30:00Z,118.1,0.004318,True,"['leovegas_se', 'matchbook']",False,857.01,860.6975,3.6875,settled,2026-11-07T15:01:53Z,860.727,3.717,ok,3
+3,2026-11-07T11:32:01Z,bun:26NOV07PADSGE,SC Paderborn 07 v Eintracht Frankfurt,bun,2026-11-07T14:30:00Z,178.0,0.006506,True,"['matchbook', 'onexbet', 'smarkets']",False,101.15,101.7842,0.6342,open,,,,,3
+4,2026-11-07T11:32:03Z,bun:26NOV07RBLFCA,RB Leipzig v FC Augsburg,bun,2026-11-07T14:30:00Z,177.9,0.008353,True,"['matchbook', 'onexbet', 'winamax_de']",False,184.36,185.877,1.517,open,,,,,3
+5,2026-11-07T12:02:13Z,elc:26NOV07WREWOL,Wrexham AFC v Wolverhampton Wanderers FC,elc,2026-11-07T12:30:00Z,27.8,0.010914,True,"['grosvenor', 'matchbook']",False,526.25,531.986,5.736,settled,2026-11-07T15:01:53Z,531.986,5.736,ok,2
+6,2026-11-07T14:26:49Z,bun:26NOV07M05BMU,1. FSV Mainz 05 v FC Bayern München,bun,2026-11-07T14:30:00Z,3.2,0.009241,True,['coral'],False,747.1,754.0,6.9,open,,,,,2

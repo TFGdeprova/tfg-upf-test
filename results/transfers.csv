@@ -1,0 +1,5 @@
+time,from,to,amount_usd,fee_usd,hours
+2026-11-07T15:01:53Z,BK:smarkets,BK:pinnacle,580.0,0.0,24.05
+2026-11-07T15:01:53Z,BK:smarkets,BK:onexbet,400.19,0.0,24.05
+2026-11-07T15:01:53Z,BK:leovegas_se,BK:onexbet,179.81,0.0,24.05
+2026-11-07T15:01:53Z,BK:grosvenor,BK:matchbook,239.69,0.0,24.05

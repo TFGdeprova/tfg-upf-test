@@ -257,3 +257,9 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-07T14:56:52Z,epl:26NOV07FULNEW,Fulham FC v Newcastle United FC,epl,3.1,confirmation,9,-0.011921,-0.001249,vanished,,,gtbets h2h Fulham  @2.05 x0.487 | matchbook h2h Newcastle United  @3.9 x0.260 | betonlineag h2h Draw  @3.95 x0.253
 2026-11-07T14:57:01Z,elc:26NOV07WBAMIL,West Bromwich Albion FC v Millwall FC,elc,3.0,confirmation,5,-0.01698,0.010337,no_cash,,,onexbet h2h Millwall  @4.23 x0.239 | leovegas_se h2h West Bromwich Albion  @2.07 x0.488 | pinnacle h2h Draw  @3.7 x0.273
 2026-11-07T14:57:09Z,scop:26NOV07DUUMOT,Dundee United FC v Motherwell FC,scop,2.8,confirmation,11,-0.014511,0.002018,no_cash,9.98,,KS NO 0.700 x0.716 Motherwell | onexbet h2h Motherwell  @3.53 x0.284
+2026-11-07T15:00:44Z,lal:26NOV07ESPDEP,RCD Espanyol de Barcelona v RC Deportivo A Coruña,lal,14.3,scheduled,5,-0.013232,-0.001312,no gap,,,
+2026-11-07T15:00:46Z,ere:26NOV07FORTEL,Fortuna Sittard v Telstar 1963,ere,29.2,scheduled,9,-0.014511,-0.006515,no gap,,,
+2026-11-07T15:00:46Z,sea:26NOV07PARBFC,Parma Calcio 1913 v Bologna FC 1909,sea,119.2,scheduled,7,-0.011921,-0.000891,no gap,,,
+2026-11-07T15:00:49Z,nhl:26NOV07STLNSH,STL at NSH,nhl,179.2,scheduled,10,-0.019379,-0.01335,no gap,,,
+2026-11-07T15:10:33Z,lal:26NOV07ESPDEP,RCD Espanyol de Barcelona v RC Deportivo A Coruña,lal,4.4,scheduled,5,-0.013232,0.001967,no gap,,lal:26NOV07ESPDEP|2026-11-07T15:10:33Z|with_books,
+2026-11-07T15:15:33Z,ere:26NOV07FORTEL,Fortuna Sittard v Telstar 1963,ere,14.4,scheduled,9,-0.014511,-0.001321,no gap,,,
