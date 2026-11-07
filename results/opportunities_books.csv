@@ -162,3 +162,33 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-07T13:55:20Z,sea:26NOV07CAGFRO,Cagliari Calcio v Frosinone Calcio,sea,4.7,scheduled,11,-0.011921,-0.002867,no gap,,,
 2026-11-07T13:55:20Z,sea:26NOV07TORLEC,Torino FC v US Lecce,sea,4.7,scheduled,5,-0.011921,0.006452,seen,,sea:26NOV07TORLEC|2026-11-07T13:55:20Z|with_books,onexbet totals Over 2.5 @2.08 x0.484 | betanysports totals Under 2.5 @1.95 x0.516
 2026-11-07T13:56:50Z,sea:26NOV07TORLEC,Torino FC v US Lecce,sea,3.2,confirmation,5,-0.011921,0.005236,no_cash,,,pinnacle h2h Lecce  @5.4 x0.186 | unibet_se h2h Torino  @1.83 x0.549 | unibet_se h2h Draw  @3.8 x0.265
+2026-11-07T14:00:49Z,bun:26NOV07PADSGE,SC Paderborn 07 v Eintracht Frankfurt,bun,29.2,scheduled,11,-0.011921,0.006302,seen,,bun:26NOV07PADSGE|2026-11-07T14:00:49Z|with_books,unibet_se h2h Eintracht Frankfurt  @2.38 x0.423 | pinnacle h2h SC Paderborn  @3.05 x0.330 | onexbet h2h Draw  @4.07 x0.247
+2026-11-07T14:00:49Z,bun:26NOV07M05BMU,1. FSV Mainz 05 v FC Bayern München,bun,29.2,scheduled,11,-0.009466,0.022698,seen,,bun:26NOV07M05BMU|2026-11-07T14:00:49Z|with_books,gtbets h2h Bayern Munich  @1.33 x0.769 | smarkets h2h FSV Mainz 05  @11.0 x0.095 | unibet_nl h2h Draw  @7.5 x0.136
+2026-11-07T14:00:49Z,bun:26NOV07RBLFCA,RB Leipzig v FC Augsburg,bun,29.2,scheduled,11,-0.008786,0.013695,seen,,bun:26NOV07RBLFCA|2026-11-07T14:00:49Z|with_books,matchbook h2h Augsburg  @7.2 x0.143 | gtbets h2h RB Leipzig  @1.48 x0.685 | winamax_de h2h Draw  @5.9 x0.172
+2026-11-07T14:00:51Z,bun:26NOV07BVBSVE,BV Borussia 09 Dortmund v SV 07 Elversberg,bun,29.1,scheduled,7,-0.009728,-0.003251,no gap,,,
+2026-11-07T14:00:51Z,epl:26NOV07ARSHUL,Arsenal FC v Hull City AFC,epl,59.1,scheduled,11,-0.004588,-0.002839,no gap,,,
+2026-11-07T14:00:53Z,epl:26NOV07FULNEW,Fulham FC v Newcastle United FC,epl,59.1,scheduled,9,-0.011921,-0.001543,no gap,,,
+2026-11-07T14:00:53Z,elc:26NOV07PNESOU,Preston North End FC v Southampton FC,elc,59.1,scheduled,11,-0.011921,-0.011328,no gap,,,
+2026-11-07T14:00:53Z,elc:26NOV07BCSWA,Birmingham City FC v Swansea City AFC,elc,59.1,scheduled,5,-0.01698,-0.005368,no gap,,,
+2026-11-07T14:00:59Z,elc:26NOV07CHASHU,Charlton Athletic FC v Sheffield United FC,elc,59.0,scheduled,5,-0.011489,0.01061,seen,,elc:26NOV07CHASHU|2026-11-07T14:00:59Z|with_books,smarkets h2h Charlton Athletic  @4.4 x0.233 | leovegas_se h2h Sheffield United  @2.06 x0.491 | pinnacle h2h Draw  @3.66 x0.276
+2026-11-07T14:00:59Z,elc:26NOV07BLAWHU,Blackburn Rovers FC v West Ham United FC,elc,59.0,scheduled,9,-0.013967,-0.005727,no gap,,,
+2026-11-07T14:01:01Z,elc:26NOV07CARBUR,Cardiff City FC v Burnley FC,elc,59.0,scheduled,11,-0.014511,-0.007869,no gap,,,
+2026-11-07T14:01:01Z,elc:26NOV07WATMID,Watford FC v Middlesbrough FC,elc,59.0,scheduled,9,-0.011921,-0.003324,no gap,,,
+2026-11-07T14:01:01Z,elc:26NOV07WBAMIL,West Bromwich Albion FC v Millwall FC,elc,59.0,scheduled,5,-0.012097,0.0119,seen,,elc:26NOV07WBAMIL|2026-11-07T14:01:01Z|with_books,smarkets h2h Millwall  @4.2 x0.245 | leovegas_se h2h West Bromwich Albion  @2.1 x0.482 | leovegas_se h2h Draw  @3.7 x0.273
+2026-11-07T14:01:01Z,elc:26NOV07QPRLIC,Queens Park Rangers FC v Lincoln City FC,elc,59.0,scheduled,5,-0.011921,-0.007823,no gap,,,
+2026-11-07T14:01:05Z,scop:26NOV07DUUMOT,Dundee United FC v Motherwell FC,scop,58.9,scheduled,11,-0.014511,-0.012955,no gap,,,
+2026-11-07T14:01:05Z,scop:26NOV07JOHDUN,St Johnstone FC v Dundee FC,scop,58.9,scheduled,7,-0.01698,-0.014843,no gap,,,
+2026-11-07T14:01:08Z,sea:26NOV07PARBFC,Parma Calcio 1913 v Bologna FC 1909,sea,178.9,scheduled,7,-0.011336,-0.000891,no gap,,,
+2026-11-07T14:02:20Z,bun:26NOV07PADSGE,SC Paderborn 07 v Eintracht Frankfurt,bun,27.7,confirmation,11,-0.011921,0.006302,no_cash,,,unibet_se h2h Eintracht Frankfurt  @2.38 x0.423 | pinnacle h2h SC Paderborn  @3.05 x0.330 | onexbet h2h Draw  @4.07 x0.247
+2026-11-07T14:02:20Z,bun:26NOV07M05BMU,1. FSV Mainz 05 v FC Bayern München,bun,27.7,confirmation,11,-0.009466,0.030819,no_cash,,,gtbets h2h Bayern Munich  @1.33 x0.775 | matchbook h2h FSV Mainz 05  @12.0 x0.088 | unibet_nl h2h Draw  @7.5 x0.137
+2026-11-07T14:02:20Z,bun:26NOV07RBLFCA,RB Leipzig v FC Augsburg,bun,27.7,confirmation,11,-0.008783,0.013695,no_cash,,,matchbook h2h Augsburg  @7.2 x0.143 | gtbets h2h RB Leipzig  @1.48 x0.685 | winamax_de h2h Draw  @5.9 x0.172
+2026-11-07T14:02:28Z,elc:26NOV07CHASHU,Charlton Athletic FC v Sheffield United FC,elc,57.5,confirmation,5,-0.011489,0.01326,no_cash,,,smarkets h2h Charlton Athletic  @4.4 x0.234 | leovegas_se h2h Sheffield United  @2.06 x0.492 | smarkets h2h Draw  @3.75 x0.274
+2026-11-07T14:02:32Z,elc:26NOV07WBAMIL,West Bromwich Albion FC v Millwall FC,elc,57.5,confirmation,5,-0.012097,0.0119,no_cash,,,smarkets h2h Millwall  @4.2 x0.245 | leovegas_se h2h West Bromwich Albion  @2.1 x0.482 | leovegas_se h2h Draw  @3.7 x0.273
+2026-11-07T14:15:34Z,bun:26NOV07PADSGE,SC Paderborn 07 v Eintracht Frankfurt,bun,14.4,scheduled,11,-0.011921,0.012292,seen,,bun:26NOV07PADSGE|2026-11-07T14:15:34Z|with_books,matchbook totals Over 3.5 @2.34 x0.438 | coolbet totals Under 3.5 @1.8 x0.562
+2026-11-07T14:15:34Z,bun:26NOV07M05BMU,1. FSV Mainz 05 v FC Bayern München,bun,14.4,scheduled,11,-0.009466,0.012706,seen,,bun:26NOV07M05BMU|2026-11-07T14:15:34Z|with_books,onexbet h2h Bayern Munich  @1.3 x0.779 | matchbook h2h FSV Mainz 05  @12.0 x0.086 | unibet_nl h2h Draw  @7.5 x0.135
+2026-11-07T14:15:34Z,bun:26NOV07RBLFCA,RB Leipzig v FC Augsburg,bun,14.4,scheduled,11,-0.008579,0.013695,seen,,bun:26NOV07RBLFCA|2026-11-07T14:15:34Z|with_books,matchbook h2h Augsburg  @7.2 x0.143 | gtbets h2h RB Leipzig  @1.48 x0.685 | winamax_de h2h Draw  @5.9 x0.172
+2026-11-07T14:15:36Z,bun:26NOV07BVBSVE,BV Borussia 09 Dortmund v SV 07 Elversberg,bun,14.4,scheduled,7,-0.009391,-0.007622,no gap,,,
+2026-11-07T14:15:51Z,lal:26NOV07ESPDEP,RCD Espanyol de Barcelona v RC Deportivo A Coruña,lal,59.1,scheduled,5,-0.015761,-0.008777,no gap,,,
+2026-11-07T14:17:04Z,bun:26NOV07PADSGE,SC Paderborn 07 v Eintracht Frankfurt,bun,12.9,confirmation,11,-0.011921,0.012292,no_cash,,,matchbook totals Over 3.5 @2.34 x0.438 | coolbet totals Under 3.5 @1.8 x0.562
+2026-11-07T14:17:04Z,bun:26NOV07M05BMU,1. FSV Mainz 05 v FC Bayern München,bun,12.9,confirmation,11,-0.009466,0.012706,no_cash,,,onexbet h2h Bayern Munich  @1.3 x0.779 | matchbook h2h FSV Mainz 05  @12.0 x0.086 | unibet_nl h2h Draw  @7.5 x0.135
+2026-11-07T14:17:06Z,bun:26NOV07RBLFCA,RB Leipzig v FC Augsburg,bun,12.9,confirmation,11,-0.011921,0.013695,no_cash,,,matchbook h2h Augsburg  @7.2 x0.143 | gtbets h2h RB Leipzig  @1.48 x0.685 | winamax_de h2h Draw  @5.9 x0.172

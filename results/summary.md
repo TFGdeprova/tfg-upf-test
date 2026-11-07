@@ -1,6 +1,6 @@
-# Paper-trading bot: status at 2026-11-07T13:58:13Z
+# Paper-trading bot: status at 2026-11-07T14:18:21Z
 
-Started 2026-11-06T22:51:30Z. Fictional capital: Polymarket $5,800.00 + Kalshi $5,800.00 (≈ €10,000) and €500 at each bookmaker the bot has used (11 so far): $17,980.00 ≈ €15,500.00 in total. Euro amounts at 1.16 USD/EUR.
+Started 2026-11-06T22:51:30Z. Fictional capital: Polymarket $5,800.00 + Kalshi $5,800.00 (≈ €10,000) and €500 at each bookmaker the bot has used (12 so far): $18,560.00 ≈ €16,000.00 in total. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
@@ -11,17 +11,17 @@ Started 2026-11-06T22:51:30Z. Fictional capital: Polymarket $5,800.00 + Kalshi $
 | … with bookmakers licensed in Spain only | $0.00 |
 | Open positions (cost) | $3,224.90 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $17,980.00 ≈ €15,500.00 |
+| Equity (cash + open at cost + in transit) | $18,560.00 ≈ €16,000.00 |
 | Return so far (realised / capital) | 0.000% over 0.6 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 1, seen 2, vanished 1.
-Gaps using bookmakers: executed 5, no_cash 19, seen 29, vanished 5 (snapshots combined with Polymarket/Kalshi: 163).
+Gaps using bookmakers: executed 5, no_cash 27, seen 37, vanished 5 (snapshots combined with Polymarket/Kalshi: 193).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 2,135 (about 21.3 days at the current pace).
+The Odds API credits left: 2,095 (about 18.2 days at the current pace).
 
 ## Capital by account
 
@@ -40,6 +40,7 @@ Peak in use = the most money that was tied up in open positions at the same time
 | pinnacle | $580.00 | $0.00 | $580.00 | $580.00 | $0.00 |
 | smarkets | $580.00 | $0.00 | $580.00 | $580.00 | $0.00 |
 | tipico_de | $580.00 | $580.00 | $0.00 | $0.00 | $580.00 |
+| unibet_nl | $580.00 | $580.00 | $0.00 | $0.00 | $580.00 |
 | unibet_se | $580.00 | $580.00 | $0.00 | $0.00 | $580.00 |
 | winamax_de (Spain) | $580.00 | $547.39 | $32.61 | $32.61 | $547.39 |
 
@@ -49,7 +50,7 @@ Transfers between accounts: 0 ($0.00 moved, $0.00 in fees; 0 still in transit). 
 
 ## Gaps followed: the same portfolio re-checked later, and order-book depth
 
-Gaps above 0.1% followed: 7 Polymarket/Kalshi and 36 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
+Gaps above 0.1% followed: 7 Polymarket/Kalshi and 44 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
 
 | re-check | measured | still profitable | above 0.2% | a leg no longer offered | censored |
 |---|---|---|---|---|---|
@@ -57,10 +58,10 @@ Gaps above 0.1% followed: 7 Polymarket/Kalshi and 36 with bookmakers. A re-check
 | +1 min | 6 | 4 | 0 | 0 | 1 |
 | +2 min | 6 | 5 | 0 | 0 | 1 |
 | +5 min | 6 | 3 | 0 | 0 | 1 |
-| bookmaker confirmation (~1 min) | 49 | 21 | 21 | 2 | 0 |
-| next bookmaker snapshot | 45 | 2 | 2 | 0 | 0 |
+| bookmaker confirmation (~1 min) | 74 | 32 | 32 | 2 | 0 |
+| next bookmaker snapshot | 75 | 5 | 5 | 0 | 0 |
 
-Depth at detection (43 gaps with full order books): median capacity (largest size still profitable after walking the order books) $20,000; median largest guaranteed profit $67.74. Details: `results/rechecks.csv`, `results/depth.csv`.
+Depth at detection (51 gaps with full order books): median capacity (largest size still profitable after walking the order books) $20,000; median largest guaranteed profit $98.01. Details: `results/rechecks.csv`, `results/depth.csv`.
 
 ## Last trades
 
