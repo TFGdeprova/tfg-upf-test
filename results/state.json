@@ -2,20 +2,20 @@
  "cash": {
   "PM": 5800.0,
   "KS": 5632.9,
-  "BK:smarkets": -591.1400000000001,
+  "BK:smarkets": -1196.23,
   "BK:pinnacle": -1226.6,
-  "BK:onexbet": -9884.471300000001,
-  "BK:matchbook": -1882.3599999999997,
+  "BK:onexbet": -11724.4413,
+  "BK:matchbook": -2831.3899999999994,
   "BK:leovegas_se": -722.0723200000001,
   "BK:gtbets": -912.98,
-  "BK:winamax_de": 144.90999999999997,
+  "BK:winamax_de": -258.41,
   "BK:grosvenor": 580.0,
   "BK:unibet_se": 580.0,
   "BK:tipico_de": 93.81,
-  "BK:coolbet": 580.0,
-  "BK:unibet_nl": -1039.88,
+  "BK:coolbet": -89.73000000000002,
+  "BK:unibet_nl": -2123.79,
   "BK:marathonbet": 580.0,
-  "BK:coral": 754.0,
+  "BK:coral": -1194.91,
   "BK:betfair_ex_uk": 580.0,
   "BK:betfred_uk": 580.0,
   "BK:betfair_ex_eu": 453.07
@@ -606,6 +606,219 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 16,
+   "time": "2026-11-07T18:46:57Z",
+   "game": "sea:26NOV07ROMSAS",
+   "title": "AS Roma v US Sassuolo Calcio",
+   "league": "sea",
+   "kickoff": "2026-11-07T19:45:00Z",
+   "min_to_ko": 58.0,
+   "t_lp": 0.008308,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "smarkets",
+    "winamax_de"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "f110107bca066ac1a598c89661c88fa3",
+    "sport": "soccer_italy_serie_a",
+    "home": "AS Roma",
+    "away": "Sassuolo"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2520.6958,
+   "guaranteed_profit": 20.7158,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "AS Roma",
+     "side": "home",
+     "point": null,
+     "odds": 1.37,
+     "eff": 1.37,
+     "three_way": true,
+     "stake": 1839.97,
+     "cost": 1839.97,
+     "label": "h2h AS Roma  @1.37"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Sassuolo",
+     "side": "away",
+     "point": null,
+     "odds": 10.0,
+     "eff": 9.82,
+     "three_way": true,
+     "stake": 256.69,
+     "cost": 256.69,
+     "label": "h2h Sassuolo  @10.0"
+    },
+    {
+     "venue": "BK:winamax_de",
+     "book": "winamax_de",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 6.25,
+     "eff": 6.25,
+     "three_way": true,
+     "stake": 403.32,
+     "cost": 403.32,
+     "label": "h2h Draw  @6.25"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 17,
+   "time": "2026-11-07T19:01:59Z",
+   "game": "lal:26NOV07VCFRMA",
+   "title": "Valencia CF v Real Madrid CF",
+   "league": "lal",
+   "kickoff": "2026-11-07T20:00:00Z",
+   "min_to_ko": 58.0,
+   "t_lp": 0.013434,
+   "with_books": true,
+   "books": [
+    "coral",
+    "smarkets",
+    "unibet_nl"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "5b386dfdf6f76705116fbb4120ee8493",
+    "sport": "soccer_spain_la_liga",
+    "home": "Valencia",
+    "away": "Real Madrid"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2533.5,
+   "guaranteed_profit": 33.51,
+   "legs": [
+    {
+     "venue": "BK:coral",
+     "book": "coral",
+     "market": "h2h",
+     "outcome": "Real Madrid",
+     "side": "away",
+     "point": null,
+     "odds": 1.3,
+     "eff": 1.3,
+     "three_way": true,
+     "stake": 1948.91,
+     "cost": 1948.91,
+     "label": "h2h Real Madrid  @1.3"
+    },
+    {
+     "venue": "BK:unibet_nl",
+     "book": "unibet_nl",
+     "market": "h2h",
+     "outcome": "Valencia",
+     "side": "home",
+     "point": null,
+     "odds": 12.5,
+     "eff": 12.5,
+     "three_way": true,
+     "stake": 202.68,
+     "cost": 202.68,
+     "label": "h2h Valencia  @12.5"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 7.4,
+     "eff": 7.272,
+     "three_way": true,
+     "stake": 348.4,
+     "cost": 348.4,
+     "label": "h2h Draw  @7.4"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 18,
+   "time": "2026-11-07T19:01:59Z",
+   "game": "ere:26NOV07EXCGAE",
+   "title": "SBV Excelsior v Go Ahead Eagles",
+   "league": "ere",
+   "kickoff": "2026-11-07T20:00:00Z",
+   "min_to_ko": 58.0,
+   "t_lp": 0.004605,
+   "with_books": true,
+   "books": [
+    "coolbet",
+    "matchbook",
+    "unibet_nl"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "5d4dbfdacb0b931ba7b8d771bfed5e0e",
+    "sport": "soccer_netherlands_eredivisie",
+    "home": "Excelsior",
+    "away": "Go Ahead Eagles"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2511.4875,
+   "guaranteed_profit": 11.4975,
+   "legs": [
+    {
+     "venue": "BK:unibet_nl",
+     "book": "unibet_nl",
+     "market": "h2h",
+     "outcome": "Excelsior",
+     "side": "home",
+     "point": null,
+     "odds": 2.85,
+     "eff": 2.85,
+     "three_way": true,
+     "stake": 881.23,
+     "cost": 881.23,
+     "label": "h2h Excelsior  @2.85"
+    },
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Go Ahead Eagles",
+     "side": "away",
+     "point": null,
+     "odds": 2.68,
+     "eff": 2.6464,
+     "three_way": true,
+     "stake": 949.03,
+     "cost": 949.03,
+     "label": "h2h Go Ahead Eagles  @2.68"
+    },
+    {
+     "venue": "BK:coolbet",
+     "book": "coolbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.75,
+     "eff": 3.75,
+     "three_way": true,
+     "stake": 669.73,
+     "cost": 669.73,
+     "label": "h2h Draw  @3.75"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -615,27 +828,27 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 15,
+ "n_trades": 18,
  "n_settled": 7,
  "realized_pnl": 38.75237999999939,
  "runs": 5,
  "locked": {
   "PM": 0.0,
   "KS": 0.0,
-  "BK:smarkets": 1171.14,
+  "BK:smarkets": 1776.23,
   "BK:pinnacle": 1226.6,
-  "BK:onexbet": 11995.150000000003,
-  "BK:matchbook": 746.5000000000002,
+  "BK:onexbet": 13835.120000000003,
+  "BK:matchbook": 1695.5300000000002,
   "BK:leovegas_se": 1403.0,
   "BK:gtbets": 1492.98,
-  "BK:winamax_de": 402.48,
+  "BK:winamax_de": 805.8,
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 0.0,
   "BK:tipico_de": 486.19,
-  "BK:coolbet": 0.0,
-  "BK:unibet_nl": 948.9100000000001,
+  "BK:coolbet": 669.73,
+  "BK:unibet_nl": 2032.8200000000002,
   "BK:marathonbet": 0.0,
-  "BK:coral": 0.0,
+  "BK:coral": 1948.91,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 126.93
@@ -643,20 +856,20 @@
  "peak_locked": {
   "PM": 0.0,
   "KS": 167.1,
-  "BK:smarkets": 1171.14,
+  "BK:smarkets": 1776.23,
   "BK:pinnacle": 1226.6,
-  "BK:onexbet": 11995.150000000003,
+  "BK:onexbet": 13835.120000000003,
   "BK:matchbook": 1882.3600000000001,
   "BK:leovegas_se": 1403.0,
   "BK:gtbets": 1492.98,
-  "BK:winamax_de": 402.48,
+  "BK:winamax_de": 805.8,
   "BK:grosvenor": 292.3,
   "BK:unibet_se": 0.0,
   "BK:tipico_de": 486.19,
-  "BK:coolbet": 0.0,
-  "BK:unibet_nl": 1619.88,
+  "BK:coolbet": 669.73,
+  "BK:unibet_nl": 2032.8200000000002,
   "BK:marathonbet": 0.0,
-  "BK:coral": 580.0,
+  "BK:coral": 1948.91,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 126.93
@@ -664,20 +877,20 @@
  "min_cash": {
   "PM": 5800.0,
   "KS": 5632.9,
-  "BK:smarkets": -591.1400000000001,
+  "BK:smarkets": -1196.23,
   "BK:pinnacle": -1226.6,
-  "BK:onexbet": -10302.535800000001,
-  "BK:matchbook": -1882.3599999999997,
+  "BK:onexbet": -11724.4413,
+  "BK:matchbook": -2831.3899999999994,
   "BK:leovegas_se": -722.0723200000001,
   "BK:gtbets": -912.98,
-  "BK:winamax_de": 144.90999999999997,
+  "BK:winamax_de": -258.41,
   "BK:grosvenor": 287.7,
   "BK:unibet_se": 580.0,
   "BK:tipico_de": 93.81,
-  "BK:coolbet": 580.0,
-  "BK:unibet_nl": -1039.88,
+  "BK:coolbet": -89.73000000000002,
+  "BK:unibet_nl": -2123.79,
   "BK:marathonbet": 580.0,
-  "BK:coral": 0.0,
+  "BK:coral": -1194.91,
   "BK:betfair_ex_uk": 580.0,
   "BK:betfred_uk": 580.0,
   "BK:betfair_ex_eu": 453.07
@@ -721,18 +934,18 @@
   "moved": 1399.686,
   "fees": 0.0
  },
- "peak_total_locked": 21399.570000000003,
+ "peak_total_locked": 28899.530000000002,
  "odds": {
   "remaining": {
-   "1": 366,
-   "2": 363,
-   "3": 363,
-   "4": 365,
-   "5": 365
+   "1": 359,
+   "2": 359,
+   "3": 355,
+   "4": 357,
+   "5": 358
   },
   "spent": {
    "2026-11-06": 27,
-   "2026-11-07": 645
+   "2026-11-07": 679
   }
  },
  "book_slots": {
@@ -881,6 +1094,12 @@
   "lal|2026-11-07T20:00|120": "2026-11-07T18:00:22Z",
   "ere|2026-11-07T20:00|120": "2026-11-07T18:00:22Z",
   "scop|2026-11-07T20:00|120": "2026-11-07T18:00:23Z",
-  "fl1|2026-11-07T20:05|120": "2026-11-07T18:05:22Z"
+  "fl1|2026-11-07T20:05|120": "2026-11-07T18:05:22Z",
+  "sea|2026-11-07T19:45|60": "2026-11-07T18:45:22Z",
+  "lal|2026-11-07T20:00|60": "2026-11-07T19:00:23Z",
+  "ere|2026-11-07T20:00|60": "2026-11-07T19:00:23Z",
+  "scop|2026-11-07T20:00|60": "2026-11-07T19:00:24Z",
+  "nba|2026-11-07T22:00|180": "2026-11-07T19:00:25Z",
+  "nhl|2026-11-07T22:00|180": "2026-11-07T19:00:25Z"
  }
 }
