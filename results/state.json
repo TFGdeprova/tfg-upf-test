@@ -4,9 +4,9 @@
   "KS": 5632.9,
   "BK:smarkets": -2181.58,
   "BK:pinnacle": -1226.6,
-  "BK:onexbet": -17708.4893,
+  "BK:onexbet": -15193.8623,
   "BK:matchbook": -1396.3121799999994,
-  "BK:leovegas_se": -722.0723200000001,
+  "BK:leovegas_se": 1789.2976799999997,
   "BK:gtbets": -912.98,
   "BK:winamax_de": -258.41,
   "BK:grosvenor": 580.0,
@@ -46,77 +46,6 @@
   "BK:skybet": 580.0
  },
  "open": [
-  {
-   "trade_id": 9,
-   "time": "2026-11-07T16:02:07Z",
-   "game": "fl1:26NOV07AUXPAR",
-   "title": "AJ Auxerre v Paris FC",
-   "league": "fl1",
-   "kickoff": "2026-11-07T18:00:00Z",
-   "min_to_ko": 117.9,
-   "t_lp": 0.004549,
-   "with_books": true,
-   "books": [
-    "leovegas_se",
-    "onexbet",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "8553a80cf1ae5cbe3e7a69b76ce8167f",
-    "sport": "soccer_france_ligue_one",
-    "home": "Auxerre",
-    "away": "Paris FC"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2511.3492,
-   "guaranteed_profit": 11.3592,
-   "legs": [
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Auxerre",
-     "side": "home",
-     "point": null,
-     "odds": 5.1,
-     "eff": 5.018,
-     "three_way": true,
-     "stake": 500.47,
-     "cost": 500.47,
-     "label": "h2h Auxerre  @5.1"
-    },
-    {
-     "venue": "BK:leovegas_se",
-     "book": "leovegas_se",
-     "market": "h2h",
-     "outcome": "Paris FC",
-     "side": "away",
-     "point": null,
-     "odds": 1.79,
-     "eff": 1.79,
-     "three_way": true,
-     "stake": 1403.0,
-     "cost": 1403.0,
-     "label": "h2h Paris FC  @1.79"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.21,
-     "eff": 4.21,
-     "three_way": true,
-     "stake": 596.52,
-     "cost": 596.52,
-     "label": "h2h Draw  @4.21"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 11,
    "time": "2026-11-07T17:06:59Z",
@@ -183,77 +112,6 @@
      "stake": 261.43,
      "cost": 261.43,
      "label": "h2h Draw  @10.0"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 13,
-   "time": "2026-11-07T17:42:01Z",
-   "game": "ere:26NOV07ADOSPA",
-   "title": "ADO Den Haag v Sparta Rotterdam",
-   "league": "ere",
-   "kickoff": "2026-11-07T17:45:00Z",
-   "min_to_ko": 3.0,
-   "t_lp": 0.005855,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "pinnacle",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "da066424422bbd4438e5000312b822fd",
-    "sport": "soccer_netherlands_eredivisie",
-    "home": "ADO Den Haag",
-    "away": "Sparta Rotterdam"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2514.6099,
-   "guaranteed_profit": 14.6299,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "ADO Den Haag",
-     "side": "home",
-     "point": null,
-     "odds": 2.79,
-     "eff": 2.79,
-     "three_way": true,
-     "stake": 901.3,
-     "cost": 901.3,
-     "label": "h2h ADO Den Haag  @2.79"
-    },
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Sparta Rotterdam",
-     "side": "away",
-     "point": null,
-     "odds": 2.65,
-     "eff": 2.65,
-     "three_way": true,
-     "stake": 948.91,
-     "cost": 948.91,
-     "label": "h2h Sparta Rotterdam  @2.65"
-    },
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.87,
-     "eff": 3.87,
-     "three_way": true,
-     "stake": 649.77,
-     "cost": 649.77,
-     "label": "h2h Draw  @3.87"
     }
    ],
    "status": "open"
@@ -1185,24 +1043,24 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 26,
- "n_settled": 10,
- "realized_pnl": 134.5102000000001,
+ "n_settled": 12,
+ "realized_pnl": 160.53720000000015,
  "runs": 5,
  "locked": {
   "PM": 140.8037,
   "KS": 0.0,
-  "BK:smarkets": 2761.58,
-  "BK:pinnacle": 649.7699999999999,
-  "BK:onexbet": 17898.4,
+  "BK:smarkets": 2261.1099999999997,
+  "BK:pinnacle": 0.0,
+  "BK:onexbet": 16400.58,
   "BK:matchbook": 2304.79,
-  "BK:leovegas_se": 1403.0,
+  "BK:leovegas_se": 0.0,
   "BK:gtbets": 0.0,
   "BK:winamax_de": 805.8,
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 1879.37,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 669.73,
-  "BK:unibet_nl": 4157.51,
+  "BK:unibet_nl": 3208.6000000000004,
   "BK:marathonbet": 1986.36,
   "BK:coral": 1948.91,
   "BK:betfair_ex_uk": 0.0,
@@ -1302,12 +1160,12 @@
    "1": 336,
    "2": 336,
    "3": 335,
-   "4": 337,
-   "5": 336
+   "4": 335,
+   "5": 334
   },
   "spent": {
    "2026-11-06": 27,
-   "2026-11-07": 787
+   "2026-11-07": 791
   }
  },
  "book_slots": {

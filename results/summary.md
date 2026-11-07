@@ -1,18 +1,18 @@
-# Paper-trading bot: status at 2026-11-07T20:22:54Z
+# Paper-trading bot: status at 2026-11-07T20:43:05Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 26 / 10 |
-| Realised profit | $134.51 ≈ €115.96 |
+| Trades executed / settled | 26 / 12 |
+| Realised profit | $160.54 ≈ €138.39 |
 | … Polymarket/Kalshi only | $0.00 |
-| … with bookmakers (all) | $134.51 |
+| … with bookmakers (all) | $160.54 |
 | … with bookmakers licensed in Spain only | $0.00 |
-| Open positions (cost) | $37,788.01 |
+| Open positions (cost) | $32,788.04 |
 | Money in transit between accounts | $1,399.69 |
-| Equity (cash + open at cost + in transit) | $22,754.51 ≈ €19,615.96 |
-| Return so far (realised / peak money in use) | 0.288% over 0.9 days |
+| Equity (cash + open at cost + in transit) | $22,780.54 ≈ €19,638.40 |
+| Return so far (realised / peak money in use) | 0.344% over 0.9 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 1, seen 2, vanished 1.
 Gaps using bookmakers: executed 26, no_cash 41, seen 79, vanished 12 (snapshots combined with Polymarket/Kalshi: 365).
@@ -21,7 +21,7 @@ Gaps using bookmakers: executed 26, no_cash 41, seen 79, vanished 12 (snapshots 
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 1,580 (about 5.5 days at the current pace).
+The Odds API credits left: 1,576 (about 5.5 days at the current pace).
 
 ## Capital by account
 
@@ -39,15 +39,15 @@ Peak in use = the most money that was tied up in open positions at the same time
 | coral | $580.00 | $-1,194.91 | $1,948.91 | $1,948.91 | $-1,194.91 |
 | grosvenor | $580.00 | $580.00 | $0.00 | $292.30 | $287.70 |
 | gtbets | $580.00 | $-912.98 | $0.00 | $1,492.98 | $-912.98 |
-| leovegas_se | $580.00 | $-722.07 | $1,403.00 | $1,403.00 | $-722.07 |
+| leovegas_se | $580.00 | $1,789.30 | $0.00 | $1,403.00 | $-722.07 |
 | marathonbet (Spain) | $580.00 | $-1,406.36 | $1,986.36 | $1,986.36 | $-1,406.36 |
 | matchbook | $580.00 | $-1,396.31 | $2,304.79 | $2,789.92 | $-3,925.78 |
-| onexbet | $580.00 | $-17,708.49 | $17,898.40 | $22,357.23 | $-20,246.55 |
-| pinnacle | $580.00 | $-1,226.60 | $649.77 | $1,226.60 | $-1,226.60 |
+| onexbet | $580.00 | $-15,193.86 | $16,400.58 | $22,357.23 | $-20,246.55 |
+| pinnacle | $580.00 | $-1,226.60 | $0.00 | $1,226.60 | $-1,226.60 |
 | skybet | $580.00 | $192.56 | $387.44 | $387.44 | $192.56 |
-| smarkets | $580.00 | $-2,181.58 | $2,761.58 | $2,761.58 | $-2,181.58 |
+| smarkets | $580.00 | $-2,181.58 | $2,261.11 | $2,761.58 | $-2,181.58 |
 | tipico_de | $580.00 | $2,622.00 | $0.00 | $486.19 | $93.81 |
-| unibet_nl | $580.00 | $-4,248.48 | $4,157.51 | $4,157.51 | $-4,248.48 |
+| unibet_nl | $580.00 | $-4,248.48 | $3,208.60 | $4,157.51 | $-4,248.48 |
 | unibet_se | $580.00 | $-1,299.37 | $1,879.37 | $1,879.37 | $-1,299.37 |
 | winamax_de (Spain) | $580.00 | $-258.41 | $805.80 | $805.80 | $-258.41 |
 
@@ -87,11 +87,11 @@ Depth at detection (98 gaps with full order books): median capacity (largest siz
 | 16 | 11-07T18:46 | AS Roma v US Sassuolo Calcio | 58.0 | onexbet, smarkets, winamax_de | 0.83% | $2499.98 | $20.72 | open |  |
 | 15 | 11-07T18:06 | Paris Saint-Germain FC v ES Troyes AC | 118.0 | betfair_ex_eu, onexbet, smarkets | 1.55% | $2499.98 | $38.62 | open |  |
 | 14 | 11-07T17:47 | AS Roma v US Sassuolo Calcio | 118.0 | matchbook, onexbet, winamax_de | 0.62% | $2499.98 | $15.44 | open |  |
-| 13 | 11-07T17:42 | ADO Den Haag v Sparta Rotterdam | 3.0 | onexbet, pinnacle, unibet_nl | 0.59% | $2499.98 | $14.63 | open |  |
+| 13 | 11-07T17:42 | ADO Den Haag v Sparta Rotterdam | 3.0 | onexbet, pinnacle, unibet_nl | 0.59% | $2499.98 | $14.63 | settled | $+14.65 |
 | 12 | 11-07T17:27 | Nottingham Forest FC v Manchester City FC | 3.0 | gtbets, onexbet, pinnacle | 1.52% | $2499.99 | $38.06 | settled | $+38.07 |
 | 11 | 11-07T17:06 | Paris Saint-Germain FC v ES Troyes AC | 178.0 | onexbet, smarkets | 2.69% | $2499.99 | $67.09 | open |  |
 | 10 | 11-07T16:31 | Nottingham Forest FC v Manchester City FC | 58.3 | onexbet, tipico_de | 1.13% | $2499.99 | $28.19 | settled | $+28.20 |
-| 9 | 11-07T16:02 | AJ Auxerre v Paris FC | 117.9 | leovegas_se, onexbet, smarkets | 0.45% | $2499.99 | $11.36 | open |  |
+| 9 | 11-07T16:02 | AJ Auxerre v Paris FC | 117.9 | leovegas_se, onexbet, smarkets | 0.45% | $2499.99 | $11.36 | settled | $+11.38 |
 | 8 | 11-07T15:32 | Nottingham Forest FC v Manchester City FC | 117.9 | matchbook, onexbet | 1.18% | $2499.98 | $29.49 | settled | $+29.49 |
 | 7 | 11-07T15:27 | Fortuna Sittard v Telstar 1963 | 2.9 | matchbook, onexbet, unibet_nl | 0.65% | $2499.98 | $16.15 | settled | $+16.15 |
 | 6 | 11-07T14:26 | 1. FSV Mainz 05 v FC Bayern München | 3.2 | coral | 0.92% | $747.10 | $6.90 | settled | $+6.90 |
