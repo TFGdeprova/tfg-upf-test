@@ -4,11 +4,11 @@
   "KS": 5632.9,
   "BK:smarkets": -316.16,
   "BK:pinnacle": -1226.6,
-  "BK:onexbet": -8466.4058,
-  "BK:matchbook": -1620.9899999999998,
+  "BK:onexbet": -10302.535800000001,
+  "BK:matchbook": -1882.3599999999997,
   "BK:leovegas_se": -722.0723200000001,
   "BK:gtbets": -912.98,
-  "BK:winamax_de": 547.39,
+  "BK:winamax_de": 144.90999999999997,
   "BK:grosvenor": 580.0,
   "BK:unibet_se": 580.0,
   "BK:tipico_de": 93.81,
@@ -533,6 +533,77 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 14,
+   "time": "2026-11-07T17:47:01Z",
+   "game": "sea:26NOV07ROMSAS",
+   "title": "AS Roma v US Sassuolo Calcio",
+   "league": "sea",
+   "kickoff": "2026-11-07T19:45:00Z",
+   "min_to_ko": 118.0,
+   "t_lp": 0.006204,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "onexbet",
+    "winamax_de"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "f110107bca066ac1a598c89661c88fa3",
+    "sport": "soccer_italy_serie_a",
+    "home": "AS Roma",
+    "away": "Sassuolo"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2515.4249,
+   "guaranteed_profit": 15.4449,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "AS Roma",
+     "side": "home",
+     "point": null,
+     "odds": 1.37,
+     "eff": 1.37,
+     "three_way": true,
+     "stake": 1836.13,
+     "cost": 1836.13,
+     "label": "h2h AS Roma  @1.37"
+    },
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Sassuolo",
+     "side": "away",
+     "point": null,
+     "odds": 9.8,
+     "eff": 9.624,
+     "three_way": true,
+     "stake": 261.37,
+     "cost": 261.37,
+     "label": "h2h Sassuolo  @9.8"
+    },
+    {
+     "venue": "BK:winamax_de",
+     "book": "winamax_de",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 6.25,
+     "eff": 6.25,
+     "three_way": true,
+     "stake": 402.48,
+     "cost": 402.48,
+     "label": "h2h Draw  @6.25"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -542,7 +613,7 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 13,
+ "n_trades": 14,
  "n_settled": 6,
  "realized_pnl": 22.597879999999748,
  "runs": 5,
@@ -551,11 +622,11 @@
   "KS": 0.0,
   "BK:smarkets": 896.1600000000001,
   "BK:pinnacle": 1226.6,
-  "BK:onexbet": 8754.100000000002,
-  "BK:matchbook": 1620.99,
+  "BK:onexbet": 10590.230000000003,
+  "BK:matchbook": 1882.3600000000001,
   "BK:leovegas_se": 1403.0,
   "BK:gtbets": 1492.98,
-  "BK:winamax_de": 0.0,
+  "BK:winamax_de": 402.48,
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 0.0,
   "BK:tipico_de": 486.19,
@@ -571,11 +642,11 @@
   "KS": 167.1,
   "BK:smarkets": 896.1600000000001,
   "BK:pinnacle": 1226.6,
-  "BK:onexbet": 8754.100000000002,
-  "BK:matchbook": 1690.02,
+  "BK:onexbet": 10590.230000000003,
+  "BK:matchbook": 1882.3600000000001,
   "BK:leovegas_se": 1403.0,
   "BK:gtbets": 1492.98,
-  "BK:winamax_de": 32.61,
+  "BK:winamax_de": 402.48,
   "BK:grosvenor": 292.3,
   "BK:unibet_se": 0.0,
   "BK:tipico_de": 486.19,
@@ -591,11 +662,11 @@
   "KS": 5632.9,
   "BK:smarkets": -316.16,
   "BK:pinnacle": -1226.6,
-  "BK:onexbet": -8466.4058,
-  "BK:matchbook": -1620.9899999999998,
+  "BK:onexbet": -10302.535800000001,
+  "BK:matchbook": -1882.3599999999997,
   "BK:leovegas_se": -722.0723200000001,
   "BK:gtbets": -912.98,
-  "BK:winamax_de": 547.39,
+  "BK:winamax_de": 144.90999999999997,
   "BK:grosvenor": 287.7,
   "BK:unibet_se": 580.0,
   "BK:tipico_de": 93.81,
@@ -645,18 +716,18 @@
   "moved": 1399.686,
   "fees": 0.0
  },
- "peak_total_locked": 18899.59,
+ "peak_total_locked": 21399.570000000003,
  "odds": {
   "remaining": {
-   "1": 374,
-   "2": 375,
-   "3": 371,
-   "4": 373,
-   "5": 373
+   "1": 366,
+   "2": 369,
+   "3": 367,
+   "4": 365,
+   "5": 365
   },
   "spent": {
    "2026-11-06": 27,
-   "2026-11-07": 601
+   "2026-11-07": 635
   }
  },
  "book_slots": {
@@ -796,6 +867,14 @@
   "ere|2026-11-07T17:45|15": "2026-11-07T17:30:22Z",
   "scop|2026-11-07T17:45|15": "2026-11-07T17:30:23Z",
   "ere|2026-11-07T17:45|5": "2026-11-07T17:40:22Z",
-  "scop|2026-11-07T17:45|5": "2026-11-07T17:40:22Z"
+  "scop|2026-11-07T17:45|5": "2026-11-07T17:40:22Z",
+  "nhl|2026-11-07T18:00|15": "2026-11-07T17:45:22Z",
+  "fl1|2026-11-07T18:00|15": "2026-11-07T17:45:22Z",
+  "sea|2026-11-07T19:45|120": "2026-11-07T17:45:22Z",
+  "nhl|2026-11-07T18:00|5": "2026-11-07T17:55:22Z",
+  "fl1|2026-11-07T18:00|5": "2026-11-07T17:55:22Z",
+  "lal|2026-11-07T20:00|120": "2026-11-07T18:00:22Z",
+  "ere|2026-11-07T20:00|120": "2026-11-07T18:00:22Z",
+  "scop|2026-11-07T20:00|120": "2026-11-07T18:00:23Z"
  }
 }

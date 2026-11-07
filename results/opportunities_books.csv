@@ -317,3 +317,12 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-07T17:40:33Z,ere:26NOV07ADOSPA,ADO Den Haag v Sparta Rotterdam,ere,4.4,scheduled,11,-0.015761,0.0092,seen,,ere:26NOV07ADOSPA|2026-11-07T17:40:29Z|with_books,onexbet h2h ADO Den Haag  @2.79 x0.362 | unibet_nl h2h Sparta Rotterdam  @2.65 x0.381 | pinnacle h2h Draw  @3.92 x0.257
 2026-11-07T17:40:33Z,scop:26NOV07ABEHIB,Aberdeen FC v Hibernian FC,scop,4.4,scheduled,5,-0.015761,-0.009767,no gap,,,
 2026-11-07T17:42:01Z,ere:26NOV07ADOSPA,ADO Den Haag v Sparta Rotterdam,ere,3.0,confirmation,11,-0.015761,0.005855,executed,,,onexbet h2h ADO Den Haag  @2.79 x0.361 | unibet_nl h2h Sparta Rotterdam  @2.65 x0.380 | pinnacle h2h Draw  @3.87 x0.260
+2026-11-07T17:45:29Z,nhl:26NOV07STLNSH,STL at NSH,nhl,14.5,scheduled,8,-0.014839,-0.014504,no gap,,,
+2026-11-07T17:45:29Z,fl1:26NOV07AUXPAR,AJ Auxerre v Paris FC,fl1,14.5,scheduled,9,-0.011921,-0.005363,no gap,,,
+2026-11-07T17:45:29Z,sea:26NOV07ROMSAS,AS Roma v US Sassuolo Calcio,sea,119.5,scheduled,7,-0.013232,0.006204,seen,,sea:26NOV07ROMSAS|2026-11-07T17:45:29Z|with_books,onexbet h2h AS Roma  @1.37 x0.734 | matchbook h2h Sassuolo  @9.8 x0.105 | winamax_de h2h Draw  @6.25 x0.161
+2026-11-07T17:47:01Z,sea:26NOV07ROMSAS,AS Roma v US Sassuolo Calcio,sea,118.0,confirmation,7,-0.013232,0.006204,executed,,,onexbet h2h AS Roma  @1.37 x0.734 | matchbook h2h Sassuolo  @9.8 x0.105 | winamax_de h2h Draw  @6.25 x0.161
+2026-11-07T17:55:27Z,nhl:26NOV07STLNSH,STL at NSH,nhl,4.5,scheduled,8,-0.014839,-0.014504,no gap,,,
+2026-11-07T17:55:29Z,fl1:26NOV07AUXPAR,AJ Auxerre v Paris FC,fl1,4.5,scheduled,9,-0.011921,0.000146,no gap,,,
+2026-11-07T18:00:28Z,lal:26NOV07VCFRMA,Valencia CF v Real Madrid CF,lal,119.5,scheduled,11,-0.011308,0.00045,no gap,,,
+2026-11-07T18:00:28Z,ere:26NOV07EXCGAE,SBV Excelsior v Go Ahead Eagles,ere,119.5,scheduled,9,-0.015761,-0.007622,no gap,,,
+2026-11-07T18:00:28Z,scop:26NOV07MIRRFC,St Mirren FC v Rangers FC,scop,119.5,scheduled,9,-0.019026,-0.008802,no gap,,,
