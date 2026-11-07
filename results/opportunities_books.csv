@@ -222,3 +222,38 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-07T14:32:01Z,elc:26NOV07WATMID,Watford FC v Middlesbrough FC,elc,28.0,confirmation,9,-0.011921,0.001158,vanished,,,leovegas_se h2h Middlesbrough  @1.55 x0.646 | matchbook h2h Watford  @7.0 x0.146 | leovegas h2h Draw  @4.8 x0.209
 2026-11-07T14:32:17Z,epl:26NOV07NFOMCI,Nottingham Forest FC v Manchester City FC,epl,177.7,confirmation,7,-0.011921,0.00547,no_cash,,,onexbet h2h Manchester City  @1.78 x0.565 | coolbet h2h Nottingham Forest  @5.05 x0.199 | onexbet h2h Draw  @4.26 x0.236
 2026-11-07T14:32:17Z,lal:26NOV07OSAATH,CA Osasuna v Athletic Club,lal,177.7,confirmation,7,-0.011921,0.009795,no_cash,,,onexbet h2h Athletic Bilbao  @2.18 x0.463 | smarkets h2h CA Osasuna  @4.0 x0.256 | unibet_se h2h Draw  @3.6 x0.280
+2026-11-07T14:45:39Z,epl:26NOV07ARSHUL,Arsenal FC v Hull City AFC,epl,14.3,scheduled,11,-0.004404,0.005014,seen,,epl:26NOV07ARSHUL|2026-11-07T14:45:39Z|with_books,gtbets h2h Arsenal  @1.17 x0.859 | smarkets h2h Hull City  @28.01 x0.037 | smarkets h2h Draw  @9.8 x0.104
+2026-11-07T14:45:39Z,epl:26NOV07FULNEW,Fulham FC v Newcastle United FC,epl,14.3,scheduled,9,-0.011921,-0.004747,no gap,,,
+2026-11-07T14:45:39Z,elc:26NOV07PNESOU,Preston North End FC v Southampton FC,elc,14.3,scheduled,9,-0.011921,-0.010283,no gap,,,
+2026-11-07T14:45:39Z,elc:26NOV07BCSWA,Birmingham City FC v Swansea City AFC,elc,14.3,scheduled,5,-0.01698,-0.010033,no gap,,,
+2026-11-07T14:45:39Z,elc:26NOV07CHASHU,Charlton Athletic FC v Sheffield United FC,elc,14.3,scheduled,5,-0.015108,0.007728,seen,,elc:26NOV07CHASHU|2026-11-07T14:45:37Z|with_books,matchbook h2h Charlton Athletic  @4.7 x0.218 | leovegas_se h2h Sheffield United  @1.96 x0.514 | pinnacle h2h Draw  @3.76 x0.268
+2026-11-07T14:45:39Z,elc:26NOV07BLAWHU,Blackburn Rovers FC v West Ham United FC,elc,14.3,scheduled,9,-0.015761,-0.007231,no gap,,,
+2026-11-07T14:45:39Z,elc:26NOV07CARBUR,Cardiff City FC v Burnley FC,elc,14.3,scheduled,9,-0.023495,0.011415,seen,,elc:26NOV07CARBUR|2026-11-07T14:45:37Z|with_books,smarkets h2h Burnley  @3.8 x0.270 | leovegas_se h2h Cardiff City  @2.06 x0.491 | smarkets h2h Draw  @4.3 x0.239
+2026-11-07T14:45:39Z,elc:26NOV07WATMID,Watford FC v Middlesbrough FC,elc,14.3,scheduled,9,-0.011921,-0.001035,no gap,,,
+2026-11-07T14:45:47Z,elc:26NOV07WBAMIL,West Bromwich Albion FC v Millwall FC,elc,14.2,scheduled,5,-0.01698,0.016051,seen,,elc:26NOV07WBAMIL|2026-11-07T14:45:47Z|with_books,matchbook h2h Millwall  @4.4 x0.235 | leovegas_se h2h West Bromwich Albion  @2.07 x0.491 | pinnacle h2h Draw  @3.7 x0.275
+2026-11-07T14:45:47Z,elc:26NOV07QPRLIC,Queens Park Rangers FC v Lincoln City FC,elc,14.2,scheduled,5,-0.011921,0.00157,no gap,,elc:26NOV07QPRLIC|2026-11-07T14:45:47Z|with_books,
+2026-11-07T14:45:47Z,scop:26NOV07DUUMOT,Dundee United FC v Motherwell FC,scop,14.2,scheduled,11,-0.014511,-0.012862,no gap,,,
+2026-11-07T14:45:51Z,scop:26NOV07JOHDUN,St Johnstone FC v Dundee FC,scop,14.1,scheduled,7,-0.01698,-0.012179,no gap,,,
+2026-11-07T14:45:51Z,lal:26NOV07ESPDEP,RCD Espanyol de Barcelona v RC Deportivo A Coruña,lal,29.1,scheduled,5,-0.014511,-0.001312,no gap,,,
+2026-11-07T14:45:58Z,ere:26NOV07ADOSPA,ADO Den Haag v Sparta Rotterdam,ere,179.0,scheduled,9,-0.018169,-0.011866,no gap,,,
+2026-11-07T14:45:58Z,scop:26NOV07ABEHIB,Aberdeen FC v Hibernian FC,scop,179.0,scheduled,5,-0.015761,-0.015549,no gap,,,
+2026-11-07T14:47:09Z,epl:26NOV07ARSHUL,Arsenal FC v Hull City AFC,epl,12.8,confirmation,11,-0.004404,0.005014,no_cash,,,gtbets h2h Arsenal  @1.17 x0.859 | smarkets h2h Hull City  @28.01 x0.037 | smarkets h2h Draw  @9.8 x0.104
+2026-11-07T14:47:11Z,elc:26NOV07CHASHU,Charlton Athletic FC v Sheffield United FC,elc,12.8,confirmation,5,-0.015108,0.007728,no_cash,,,matchbook h2h Charlton Athletic  @4.7 x0.218 | leovegas_se h2h Sheffield United  @1.96 x0.514 | pinnacle h2h Draw  @3.76 x0.268
+2026-11-07T14:47:11Z,elc:26NOV07CARBUR,Cardiff City FC v Burnley FC,elc,12.8,confirmation,9,-0.023495,0.011415,no_cash,,,smarkets h2h Burnley  @3.8 x0.270 | leovegas_se h2h Cardiff City  @2.06 x0.491 | smarkets h2h Draw  @4.3 x0.239
+2026-11-07T14:47:24Z,elc:26NOV07WBAMIL,West Bromwich Albion FC v Millwall FC,elc,12.6,confirmation,5,-0.01698,0.004882,no_cash,,,smarkets h2h Millwall  @4.2 x0.243 | leovegas_se h2h West Bromwich Albion  @2.07 x0.485 | pinnacle h2h Draw  @3.7 x0.272
+2026-11-07T14:55:23Z,epl:26NOV07ARSHUL,Arsenal FC v Hull City AFC,epl,4.6,scheduled,11,-0.005624,0.003884,seen,,epl:26NOV07ARSHUL|2026-11-07T14:55:23Z|with_books,marathonbet h2h Arsenal  @1.17 x0.858 | betfair_ex_eu h2h Hull City  @28.0 x0.038 | smarkets h2h Draw  @9.8 x0.104
+2026-11-07T14:55:23Z,epl:26NOV07FULNEW,Fulham FC v Newcastle United FC,epl,4.6,scheduled,9,-0.011921,0.003614,seen,,epl:26NOV07FULNEW|2026-11-07T14:55:23Z|with_books,unibet_se totals Over 2.5 @1.7 x0.590 | onexbet totals Under 2.5 @2.45 x0.410
+2026-11-07T14:55:23Z,elc:26NOV07PNESOU,Preston North End FC v Southampton FC,elc,4.6,scheduled,9,-0.011921,-0.010283,no gap,,,
+2026-11-07T14:55:25Z,elc:26NOV07BCSWA,Birmingham City FC v Swansea City AFC,elc,4.6,scheduled,5,-0.01698,-0.006203,no gap,,,
+2026-11-07T14:55:25Z,elc:26NOV07CHASHU,Charlton Athletic FC v Sheffield United FC,elc,4.6,scheduled,5,-0.015108,-0.001892,no gap,,,
+2026-11-07T14:55:25Z,elc:26NOV07BLAWHU,Blackburn Rovers FC v West Ham United FC,elc,4.6,scheduled,9,-0.015761,-0.008194,no gap,,,
+2026-11-07T14:55:25Z,elc:26NOV07CARBUR,Cardiff City FC v Burnley FC,elc,4.6,scheduled,9,-0.014511,-0.0008,no gap,,,
+2026-11-07T14:55:25Z,elc:26NOV07WATMID,Watford FC v Middlesbrough FC,elc,4.6,scheduled,9,-0.011921,-0.011407,no gap,,,
+2026-11-07T14:55:33Z,elc:26NOV07WBAMIL,West Bromwich Albion FC v Millwall FC,elc,4.4,scheduled,5,-0.01698,0.010337,seen,,elc:26NOV07WBAMIL|2026-11-07T14:55:33Z|with_books,onexbet h2h Millwall  @4.23 x0.239 | leovegas_se h2h West Bromwich Albion  @2.07 x0.488 | pinnacle h2h Draw  @3.7 x0.273
+2026-11-07T14:55:37Z,elc:26NOV07QPRLIC,Queens Park Rangers FC v Lincoln City FC,elc,4.4,scheduled,5,-0.011921,-0.001392,no gap,,,
+2026-11-07T14:55:37Z,scop:26NOV07DUUMOT,Dundee United FC v Motherwell FC,scop,4.4,scheduled,11,-0.014511,0.002018,seen,9.98,scop:26NOV07DUUMOT|2026-11-07T14:55:35Z|with_books,KS NO 0.700 x0.716 Motherwell | onexbet h2h Motherwell  @3.53 x0.284
+2026-11-07T14:55:37Z,scop:26NOV07JOHDUN,St Johnstone FC v Dundee FC,scop,4.4,scheduled,7,-0.01698,-0.007778,no gap,,,
+2026-11-07T14:56:50Z,epl:26NOV07ARSHUL,Arsenal FC v Hull City AFC,epl,3.2,confirmation,11,-0.006566,0.003641,no_cash,,,betfred_uk h2h Arsenal  @1.17 x0.858 | matchbook h2h Hull City  @27.0 x0.038 | smarkets h2h Draw  @9.8 x0.104
+2026-11-07T14:56:52Z,epl:26NOV07FULNEW,Fulham FC v Newcastle United FC,epl,3.1,confirmation,9,-0.011921,-0.001249,vanished,,,gtbets h2h Fulham  @2.05 x0.487 | matchbook h2h Newcastle United  @3.9 x0.260 | betonlineag h2h Draw  @3.95 x0.253
+2026-11-07T14:57:01Z,elc:26NOV07WBAMIL,West Bromwich Albion FC v Millwall FC,elc,3.0,confirmation,5,-0.01698,0.010337,no_cash,,,onexbet h2h Millwall  @4.23 x0.239 | leovegas_se h2h West Bromwich Albion  @2.07 x0.488 | pinnacle h2h Draw  @3.7 x0.273
+2026-11-07T14:57:09Z,scop:26NOV07DUUMOT,Dundee United FC v Motherwell FC,scop,2.8,confirmation,11,-0.014511,0.002018,no_cash,9.98,,KS NO 0.700 x0.716 Motherwell | onexbet h2h Motherwell  @3.53 x0.284
