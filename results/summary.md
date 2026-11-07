@@ -1,4 +1,4 @@
-# Paper-trading bot: status at 2026-11-07T12:37:59Z
+# Paper-trading bot: status at 2026-11-07T12:57:52Z
 
 Started 2026-11-06T22:51:30Z. Fictional capital: Polymarket $5,800.00 + Kalshi $5,800.00 (≈ €10,000) and €500 at each bookmaker the bot has used (10 so far): $17,400.00 ≈ €15,000.00 in total. Euro amounts at 1.16 USD/EUR.
 
@@ -21,7 +21,7 @@ Gaps using bookmakers: executed 5, no_cash 11, seen 20, vanished 4 (snapshots co
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 2,199 (about 28.5 days at the current pace).
+The Odds API credits left: 2,199 (about 28.6 days at the current pace).
 
 ## Capital by account
 
