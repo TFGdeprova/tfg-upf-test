@@ -4,8 +4,8 @@
   "KS": 5632.9,
   "BK:smarkets": -2181.58,
   "BK:pinnacle": -1226.6,
-  "BK:onexbet": -10157.6053,
-  "BK:matchbook": -1396.3121799999994,
+  "BK:onexbet": 2567.0244000000007,
+  "BK:matchbook": 3632.14494,
   "BK:leovegas_se": 1789.2976799999997,
   "BK:gtbets": -912.98,
   "BK:winamax_de": -258.41,
@@ -14,8 +14,8 @@
   "BK:tipico_de": 2621.998,
   "BK:coolbet": -89.73000000000002,
   "BK:unibet_nl": -4248.48,
-  "BK:marathonbet": -1406.36,
-  "BK:coral": -1194.91,
+  "BK:marathonbet": 1116.3172000000002,
+  "BK:coral": 1338.673,
   "BK:betfair_ex_uk": 580.0,
   "BK:betfred_uk": 580.0,
   "BK:betfair_ex_eu": 453.07,
@@ -46,289 +46,6 @@
   "BK:skybet": 580.0
  },
  "open": [
-  {
-   "trade_id": 11,
-   "time": "2026-11-07T17:06:59Z",
-   "game": "fl1:26NOV07PSGEST",
-   "title": "Paris Saint-Germain FC v ES Troyes AC",
-   "league": "fl1",
-   "kickoff": "2026-11-07T20:05:00Z",
-   "min_to_ko": 178.0,
-   "t_lp": 0.026899,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "f7b240389fa5ec055c58a48ab153dcdd",
-    "sport": "soccer_france_ligue_one",
-    "home": "Paris Saint Germain",
-    "away": "Troyes"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2567.0781,
-   "guaranteed_profit": 67.0881,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Paris Saint Germain",
-     "side": "home",
-     "point": null,
-     "odds": 1.22,
-     "eff": 1.22,
-     "three_way": true,
-     "stake": 2104.3,
-     "cost": 2104.3,
-     "label": "h2h Paris Saint Germain  @1.22"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Troyes",
-     "side": "away",
-     "point": null,
-     "odds": 19.49,
-     "eff": 19.120199999999997,
-     "three_way": true,
-     "stake": 134.26,
-     "cost": 134.26,
-     "label": "h2h Troyes  @19.49"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 10.0,
-     "eff": 9.82,
-     "three_way": true,
-     "stake": 261.43,
-     "cost": 261.43,
-     "label": "h2h Draw  @10.0"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 15,
-   "time": "2026-11-07T18:06:57Z",
-   "game": "fl1:26NOV07PSGEST",
-   "title": "Paris Saint-Germain FC v ES Troyes AC",
-   "league": "fl1",
-   "kickoff": "2026-11-07T20:05:00Z",
-   "min_to_ko": 118.0,
-   "t_lp": 0.015471,
-   "with_books": true,
-   "books": [
-    "betfair_ex_eu",
-    "onexbet",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "f7b240389fa5ec055c58a48ab153dcdd",
-    "sport": "soccer_france_ligue_one",
-    "home": "Paris Saint Germain",
-    "away": "Troyes"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2538.6,
-   "guaranteed_profit": 38.62,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Paris Saint Germain",
-     "side": "home",
-     "point": null,
-     "odds": 1.21,
-     "eff": 1.21,
-     "three_way": true,
-     "stake": 2098.07,
-     "cost": 2098.07,
-     "label": "h2h Paris Saint Germain  @1.21"
-    },
-    {
-     "venue": "BK:betfair_ex_eu",
-     "book": "betfair_ex_eu",
-     "market": "h2h",
-     "outcome": "Troyes",
-     "side": "away",
-     "point": null,
-     "odds": 21.0,
-     "eff": 20.0,
-     "three_way": true,
-     "stake": 126.93,
-     "cost": 126.93,
-     "label": "h2h Troyes  @21.0"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 9.4,
-     "eff": 9.232,
-     "three_way": true,
-     "stake": 274.98,
-     "cost": 274.98,
-     "label": "h2h Draw  @9.4"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 17,
-   "time": "2026-11-07T19:01:59Z",
-   "game": "lal:26NOV07VCFRMA",
-   "title": "Valencia CF v Real Madrid CF",
-   "league": "lal",
-   "kickoff": "2026-11-07T20:00:00Z",
-   "min_to_ko": 58.0,
-   "t_lp": 0.013434,
-   "with_books": true,
-   "books": [
-    "coral",
-    "smarkets",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "5b386dfdf6f76705116fbb4120ee8493",
-    "sport": "soccer_spain_la_liga",
-    "home": "Valencia",
-    "away": "Real Madrid"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2533.5,
-   "guaranteed_profit": 33.51,
-   "legs": [
-    {
-     "venue": "BK:coral",
-     "book": "coral",
-     "market": "h2h",
-     "outcome": "Real Madrid",
-     "side": "away",
-     "point": null,
-     "odds": 1.3,
-     "eff": 1.3,
-     "three_way": true,
-     "stake": 1948.91,
-     "cost": 1948.91,
-     "label": "h2h Real Madrid  @1.3"
-    },
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Valencia",
-     "side": "home",
-     "point": null,
-     "odds": 12.5,
-     "eff": 12.5,
-     "three_way": true,
-     "stake": 202.68,
-     "cost": 202.68,
-     "label": "h2h Valencia  @12.5"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 7.4,
-     "eff": 7.272,
-     "three_way": true,
-     "stake": 348.4,
-     "cost": 348.4,
-     "label": "h2h Draw  @7.4"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 18,
-   "time": "2026-11-07T19:01:59Z",
-   "game": "ere:26NOV07EXCGAE",
-   "title": "SBV Excelsior v Go Ahead Eagles",
-   "league": "ere",
-   "kickoff": "2026-11-07T20:00:00Z",
-   "min_to_ko": 58.0,
-   "t_lp": 0.004605,
-   "with_books": true,
-   "books": [
-    "coolbet",
-    "matchbook",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "5d4dbfdacb0b931ba7b8d771bfed5e0e",
-    "sport": "soccer_netherlands_eredivisie",
-    "home": "Excelsior",
-    "away": "Go Ahead Eagles"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2511.4875,
-   "guaranteed_profit": 11.4975,
-   "legs": [
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Excelsior",
-     "side": "home",
-     "point": null,
-     "odds": 2.85,
-     "eff": 2.85,
-     "three_way": true,
-     "stake": 881.23,
-     "cost": 881.23,
-     "label": "h2h Excelsior  @2.85"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Go Ahead Eagles",
-     "side": "away",
-     "point": null,
-     "odds": 2.68,
-     "eff": 2.6464,
-     "three_way": true,
-     "stake": 949.03,
-     "cost": 949.03,
-     "label": "h2h Go Ahead Eagles  @2.68"
-    },
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.75,
-     "eff": 3.75,
-     "three_way": true,
-     "stake": 669.73,
-     "cost": 669.73,
-     "label": "h2h Draw  @3.75"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 19,
    "time": "2026-11-07T19:07:00Z",
@@ -386,288 +103,6 @@
      "stake": 247.54,
      "cost": 247.54,
      "label": "h2h Paris Saint Germain  @1.19"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 20,
-   "time": "2026-11-07T19:32:01Z",
-   "game": "lal:26NOV07VCFRMA",
-   "title": "Valencia CF v Real Madrid CF",
-   "league": "lal",
-   "kickoff": "2026-11-07T20:00:00Z",
-   "min_to_ko": 28.0,
-   "t_lp": 0.014765,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "5b386dfdf6f76705116fbb4120ee8493",
-    "sport": "soccer_spain_la_liga",
-    "home": "Valencia",
-    "away": "Real Madrid"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2536.82,
-   "guaranteed_profit": 36.84,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Real Madrid",
-     "side": "away",
-     "point": null,
-     "odds": 1.29,
-     "eff": 1.29,
-     "three_way": true,
-     "stake": 1966.59,
-     "cost": 1966.59,
-     "label": "h2h Real Madrid  @1.29"
-    },
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Valencia",
-     "side": "home",
-     "point": null,
-     "odds": 13.0,
-     "eff": 13.0,
-     "three_way": true,
-     "stake": 195.14,
-     "cost": 195.14,
-     "label": "h2h Valencia  @13.0"
-    },
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 7.5,
-     "eff": 7.5,
-     "three_way": true,
-     "stake": 338.25,
-     "cost": 338.25,
-     "label": "h2h Draw  @7.5"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 21,
-   "time": "2026-11-07T19:32:03Z",
-   "game": "ere:26NOV07EXCGAE",
-   "title": "SBV Excelsior v Go Ahead Eagles",
-   "league": "ere",
-   "kickoff": "2026-11-07T20:00:00Z",
-   "min_to_ko": 27.9,
-   "t_lp": 0.006779,
-   "with_books": true,
-   "books": [
-    "betonlineag",
-    "matchbook",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "5d4dbfdacb0b931ba7b8d771bfed5e0e",
-    "sport": "soccer_netherlands_eredivisie",
-    "home": "Excelsior",
-    "away": "Go Ahead Eagles"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2516.9274,
-   "guaranteed_profit": 16.9374,
-   "legs": [
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Excelsior",
-     "side": "home",
-     "point": null,
-     "odds": 2.75,
-     "eff": 2.75,
-     "three_way": true,
-     "stake": 915.25,
-     "cost": 915.25,
-     "label": "h2h Excelsior  @2.75"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Go Ahead Eagles",
-     "side": "away",
-     "point": null,
-     "odds": 2.78,
-     "eff": 2.7443999999999997,
-     "three_way": true,
-     "stake": 917.12,
-     "cost": 917.12,
-     "label": "h2h Go Ahead Eagles  @2.78"
-    },
-    {
-     "venue": "BK:betonlineag",
-     "book": "betonlineag",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.77,
-     "eff": 3.77,
-     "three_way": true,
-     "stake": 667.62,
-     "cost": 667.62,
-     "label": "h2h Draw  @3.77"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 22,
-   "time": "2026-11-07T19:37:00Z",
-   "game": "fl1:26NOV07PSGEST",
-   "title": "Paris Saint-Germain FC v ES Troyes AC",
-   "league": "fl1",
-   "kickoff": "2026-11-07T20:05:00Z",
-   "min_to_ko": 28.0,
-   "t_lp": 0.013629,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "f7b240389fa5ec055c58a48ab153dcdd",
-    "sport": "soccer_france_ligue_one",
-    "home": "Paris Saint Germain",
-    "away": "Troyes"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2534.004,
-   "guaranteed_profit": 34.014,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Paris Saint Germain",
-     "side": "home",
-     "point": null,
-     "odds": 1.17,
-     "eff": 1.17,
-     "three_way": true,
-     "stake": 2165.87,
-     "cost": 2165.87,
-     "label": "h2h Paris Saint Germain  @1.17"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Troyes",
-     "side": "away",
-     "point": null,
-     "odds": 25.97,
-     "eff": 25.470599999999997,
-     "three_way": true,
-     "stake": 99.49,
-     "cost": 99.49,
-     "label": "h2h Troyes  @25.97"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 11.0,
-     "eff": 10.8,
-     "three_way": true,
-     "stake": 234.63,
-     "cost": 234.63,
-     "label": "h2h Draw  @11.0"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 24,
-   "time": "2026-11-07T19:46:58Z",
-   "game": "lal:26NOV07VCFRMA",
-   "title": "Valencia CF v Real Madrid CF",
-   "league": "lal",
-   "kickoff": "2026-11-07T20:00:00Z",
-   "min_to_ko": 13.0,
-   "t_lp": 0.019103,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "smarkets",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "5b386dfdf6f76705116fbb4120ee8493",
-    "sport": "soccer_spain_la_liga",
-    "home": "Valencia",
-    "away": "Real Madrid"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2547.7004,
-   "guaranteed_profit": 47.7104,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Real Madrid",
-     "side": "away",
-     "point": null,
-     "odds": 1.29,
-     "eff": 1.29,
-     "three_way": true,
-     "stake": 1975.0,
-     "cost": 1975.0,
-     "label": "h2h Real Madrid  @1.29"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Valencia",
-     "side": "home",
-     "point": null,
-     "odds": 14.01,
-     "eff": 13.749799999999999,
-     "three_way": true,
-     "stake": 185.29,
-     "cost": 185.29,
-     "label": "h2h Valencia  @14.01"
-    },
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 7.5,
-     "eff": 7.5,
-     "three_way": true,
-     "stake": 339.7,
-     "cost": 339.7,
-     "label": "h2h Draw  @7.5"
     }
    ],
    "status": "open"
@@ -737,77 +172,6 @@
     }
    ],
    "status": "open"
-  },
-  {
-   "trade_id": 26,
-   "time": "2026-11-07T19:56:58Z",
-   "game": "lal:26NOV07VCFRMA",
-   "title": "Valencia CF v Real Madrid CF",
-   "league": "lal",
-   "kickoff": "2026-11-07T20:00:00Z",
-   "min_to_ko": 3.0,
-   "t_lp": 0.009073,
-   "with_books": true,
-   "books": [
-    "marathonbet",
-    "matchbook",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "5b386dfdf6f76705116fbb4120ee8493",
-    "sport": "soccer_spain_la_liga",
-    "home": "Valencia",
-    "away": "Real Madrid"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2522.5521,
-   "guaranteed_profit": 22.5721,
-   "legs": [
-    {
-     "venue": "BK:marathonbet",
-     "book": "marathonbet",
-     "market": "h2h",
-     "outcome": "Real Madrid",
-     "side": "away",
-     "point": null,
-     "odds": 1.27,
-     "eff": 1.27,
-     "three_way": true,
-     "stake": 1986.36,
-     "cost": 1986.36,
-     "label": "h2h Real Madrid  @1.27"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Valencia",
-     "side": "home",
-     "point": null,
-     "odds": 14.5,
-     "eff": 14.23,
-     "three_way": true,
-     "stake": 177.27,
-     "cost": 177.27,
-     "label": "h2h Valencia  @14.5"
-    },
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 7.5,
-     "eff": 7.5,
-     "three_way": true,
-     "stake": 336.35,
-     "cost": 336.35,
-     "label": "h2h Draw  @7.5"
-    }
-   ],
-   "status": "open"
   }
  ],
  "consumed": {
@@ -830,30 +194,30 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 26,
- "n_settled": 15,
- "realized_pnl": 215.20000000000067,
+ "n_settled": 24,
+ "realized_pnl": 524.6670200000017,
  "runs": 6,
  "locked": {
   "PM": 140.8037,
   "KS": 0.0,
-  "BK:smarkets": 1771.2399999999996,
+  "BK:smarkets": 232.7599999999995,
   "BK:pinnacle": 0.0,
-  "BK:onexbet": 12724.480000000001,
-  "BK:matchbook": 2043.42,
+  "BK:onexbet": 2414.6500000000005,
+  "BK:matchbook": 8.526512829121202e-14,
   "BK:leovegas_se": 0.0,
   "BK:gtbets": 0.0,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 0.0,
   "BK:tipico_de": 0.0,
-  "BK:coolbet": 669.73,
-  "BK:unibet_nl": 3208.6000000000004,
-  "BK:marathonbet": 1986.36,
-  "BK:coral": 1948.91,
+  "BK:coolbet": 0.0,
+  "BK:unibet_nl": 6.252776074688882e-13,
+  "BK:marathonbet": 0.0,
+  "BK:coral": 0.0,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
-  "BK:betfair_ex_eu": 126.93,
-  "BK:betonlineag": 667.62,
+  "BK:betfair_ex_eu": 0.0,
+  "BK:betonlineag": 0.0,
   "BK:skybet": 0.0
  },
  "peak_locked": {
@@ -944,15 +308,15 @@
  "peak_total_locked": 46687.663700000005,
  "odds": {
   "remaining": {
-   "1": 330,
+   "1": 327,
    "2": 328,
-   "3": 329,
-   "4": 329,
-   "5": 328
+   "3": 327,
+   "4": 327,
+   "5": 326
   },
   "spent": {
    "2026-11-06": 27,
-   "2026-11-07": 823
+   "2026-11-07": 832
   }
  },
  "book_slots": {
@@ -1138,6 +502,8 @@
   "nhl|2026-11-07T22:00|5": "2026-11-07T21:55:16Z",
   "nhl|2026-11-08T00:00|120": "2026-11-07T22:00:16Z",
   "nhl|2026-11-08T01:00|180": "2026-11-07T22:00:16Z",
-  "nba|2026-11-08T01:00|180": "2026-11-07T22:00:16Z"
+  "nba|2026-11-08T01:00|180": "2026-11-07T22:00:16Z",
+  "nba|2026-11-08T00:30|120": "2026-11-07T22:30:16Z",
+  "nba|2026-11-08T01:30|180": "2026-11-07T22:30:16Z"
  }
 }
