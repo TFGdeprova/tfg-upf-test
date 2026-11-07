@@ -1,4 +1,4 @@
-# Paper-trading bot: status at 2026-11-07T15:19:07Z
+# Paper-trading bot: status at 2026-11-07T15:21:55Z
 
 Started 2026-11-06T22:51:30Z. Fictional capital: Polymarket $5,800.00 + Kalshi $5,800.00 (≈ €10,000) and €500 at each bookmaker the bot has used (16 so far): $20,880.00 ≈ €18,000.00 in total. Euro amounts at 1.16 USD/EUR.
 
