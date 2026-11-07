@@ -69,3 +69,5 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-07T10:30:25Z,elc:26NOV07PORSTK,Portsmouth FC v Stoke City FC,elc,119.6,scheduled,9,-0.018169,-0.007773,no gap,,,
 2026-11-07T10:31:55Z,epl:26NOV07LEETOT,Leeds United FC v Tottenham Hotspur FC,epl,118.1,confirmation,5,-0.009032,0.00261,executed,,,smarkets h2h Leeds United  @2.9 x0.350 | pinnacle h2h Tottenham Hotspur  @2.69 x0.373 | onexbet h2h Draw  @3.62 x0.277
 2026-11-07T10:31:55Z,elc:26NOV07BRCNOR,Bristol City FC v Norwich City FC,elc,118.1,confirmation,5,-0.015761,0.004318,executed,,,matchbook h2h Bristol City  @3.15 x0.323 | leovegas_se h2h Norwich City  @2.55 x0.394 | leovegas_se h2h Draw  @3.55 x0.283
+2026-11-07T11:00:28Z,sea:26NOV07CAGFRO,Cagliari Calcio v Frosinone Calcio,sea,179.5,scheduled,11,-0.013232,5.5e-05,no gap,,,
+2026-11-07T11:00:28Z,sea:26NOV07TORLEC,Torino FC v US Lecce,sea,179.5,scheduled,5,-0.012286,-0.001277,no gap,,,
