@@ -2,9 +2,9 @@
  "cash": {
   "PM": 5800.0,
   "KS": 5632.9,
-  "BK:smarkets": 79.52999999999997,
+  "BK:smarkets": -316.16,
   "BK:pinnacle": 0.0,
-  "BK:onexbet": -5318.320000000001,
+  "BK:onexbet": -7134.925800000001,
   "BK:matchbook": -1620.9899999999998,
   "BK:leovegas_se": -722.0723200000001,
   "BK:gtbets": 580.0,
@@ -15,7 +15,7 @@
   "BK:coolbet": 580.0,
   "BK:unibet_nl": -90.97000000000003,
   "BK:marathonbet": 580.0,
-  "BK:coral": 0.0,
+  "BK:coral": 754.0,
   "BK:betfair_ex_uk": 580.0,
   "BK:betfred_uk": 580.0
  },
@@ -40,199 +40,6 @@
   "BK:betfred_uk": 580.0
  },
  "open": [
-  {
-   "trade_id": 3,
-   "time": "2026-11-07T11:32:01Z",
-   "game": "bun:26NOV07PADSGE",
-   "title": "SC Paderborn 07 v Eintracht Frankfurt",
-   "league": "bun",
-   "kickoff": "2026-11-07T14:30:00Z",
-   "min_to_ko": 178.0,
-   "t_lp": 0.006506,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "onexbet",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "4ca4c7a2a1c15e9121f9a7eaa7f42ddb",
-    "sport": "soccer_germany_bundesliga",
-    "home": "SC Paderborn",
-    "away": "Eintracht Frankfurt"
-   },
-   "cost": 101.15,
-   "guaranteed_payout": 101.7842,
-   "guaranteed_profit": 0.6342,
-   "legs": [
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Eintracht Frankfurt",
-     "side": "away",
-     "point": null,
-     "odds": 2.5,
-     "eff": 2.4699999999999998,
-     "three_way": true,
-     "stake": 41.22,
-     "cost": 41.22,
-     "label": "h2h Eintracht Frankfurt  @2.5"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "SC Paderborn",
-     "side": "home",
-     "point": null,
-     "odds": 2.96,
-     "eff": 2.9208,
-     "three_way": true,
-     "stake": 34.86,
-     "cost": 34.86,
-     "label": "h2h SC Paderborn  @2.96"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.06,
-     "eff": 4.06,
-     "three_way": true,
-     "stake": 25.07,
-     "cost": 25.07,
-     "label": "h2h Draw  @4.06"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 4,
-   "time": "2026-11-07T11:32:03Z",
-   "game": "bun:26NOV07RBLFCA",
-   "title": "RB Leipzig v FC Augsburg",
-   "league": "bun",
-   "kickoff": "2026-11-07T14:30:00Z",
-   "min_to_ko": 177.9,
-   "t_lp": 0.008353,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "onexbet",
-    "winamax_de"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "cdb5f9dd39e79db69659c76cd96d0bbe",
-    "sport": "soccer_germany_bundesliga",
-    "home": "RB Leipzig",
-    "away": "Augsburg"
-   },
-   "cost": 184.36,
-   "guaranteed_payout": 185.877,
-   "guaranteed_profit": 1.517,
-   "legs": [
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Augsburg",
-     "side": "away",
-     "point": null,
-     "odds": 6.8,
-     "eff": 6.684,
-     "three_way": true,
-     "stake": 27.81,
-     "cost": 27.81,
-     "label": "h2h Augsburg  @6.8"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "RB Leipzig",
-     "side": "home",
-     "point": null,
-     "odds": 1.5,
-     "eff": 1.5,
-     "three_way": true,
-     "stake": 123.94,
-     "cost": 123.94,
-     "label": "h2h RB Leipzig  @1.5"
-    },
-    {
-     "venue": "BK:winamax_de",
-     "book": "winamax_de",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 5.7,
-     "eff": 5.7,
-     "three_way": true,
-     "stake": 32.61,
-     "cost": 32.61,
-     "label": "h2h Draw  @5.7"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 6,
-   "time": "2026-11-07T14:26:49Z",
-   "game": "bun:26NOV07M05BMU",
-   "title": "1. FSV Mainz 05 v FC Bayern M\u00fcnchen",
-   "league": "bun",
-   "kickoff": "2026-11-07T14:30:00Z",
-   "min_to_ko": 3.2,
-   "t_lp": 0.009241,
-   "with_books": true,
-   "books": [
-    "coral"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "fe97f5adf397dd6b0a8a9e0a5272f307",
-    "sport": "soccer_germany_bundesliga",
-    "home": "FSV Mainz 05",
-    "away": "Bayern Munich"
-   },
-   "cost": 747.1,
-   "guaranteed_payout": 754.0,
-   "guaranteed_profit": 6.9,
-   "legs": [
-    {
-     "venue": "KS",
-     "id": "KXBUNDESLIGAGAME-26NOV07M05BMU-BMU",
-     "label": "Bayern Munich",
-     "side": "NO",
-     "price": 0.21,
-     "shares": 754,
-     "fee": 8.76,
-     "cost": 167.1
-    },
-    {
-     "venue": "BK:coral",
-     "book": "coral",
-     "market": "h2h",
-     "outcome": "Bayern Munich",
-     "side": "away",
-     "point": null,
-     "odds": 1.3,
-     "eff": 1.3,
-     "three_way": true,
-     "stake": 580.0,
-     "cost": 580.0,
-     "label": "h2h Bayern Munich  @1.3"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 7,
    "time": "2026-11-07T15:27:05Z",
@@ -514,6 +321,76 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 11,
+   "time": "2026-11-07T17:06:59Z",
+   "game": "fl1:26NOV07PSGEST",
+   "title": "Paris Saint-Germain FC v ES Troyes AC",
+   "league": "fl1",
+   "kickoff": "2026-11-07T20:05:00Z",
+   "min_to_ko": 178.0,
+   "t_lp": 0.026899,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "f7b240389fa5ec055c58a48ab153dcdd",
+    "sport": "soccer_france_ligue_one",
+    "home": "Paris Saint Germain",
+    "away": "Troyes"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2567.0781,
+   "guaranteed_profit": 67.0881,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Paris Saint Germain",
+     "side": "home",
+     "point": null,
+     "odds": 1.22,
+     "eff": 1.22,
+     "three_way": true,
+     "stake": 2104.3,
+     "cost": 2104.3,
+     "label": "h2h Paris Saint Germain  @1.22"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Troyes",
+     "side": "away",
+     "point": null,
+     "odds": 19.49,
+     "eff": 19.120199999999997,
+     "three_way": true,
+     "stake": 134.26,
+     "cost": 134.26,
+     "label": "h2h Troyes  @19.49"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 10.0,
+     "eff": 9.82,
+     "three_way": true,
+     "stake": 261.43,
+     "cost": 261.43,
+     "label": "h2h Draw  @10.0"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -523,36 +400,36 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 10,
- "n_settled": 3,
- "realized_pnl": 13.513679999999795,
+ "n_trades": 11,
+ "n_settled": 6,
+ "realized_pnl": 22.597879999999748,
  "runs": 5,
  "locked": {
   "PM": 0.0,
-  "KS": 167.1,
-  "BK:smarkets": 535.33,
+  "KS": 0.0,
+  "BK:smarkets": 896.1600000000001,
   "BK:pinnacle": 0.0,
-  "BK:onexbet": 5467.330000000001,
-  "BK:matchbook": 1690.02,
+  "BK:onexbet": 7422.620000000002,
+  "BK:matchbook": 1620.99,
   "BK:leovegas_se": 1403.0,
   "BK:gtbets": 0.0,
-  "BK:winamax_de": 32.61,
+  "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 0.0,
   "BK:tipico_de": 486.19,
   "BK:coolbet": 0.0,
   "BK:unibet_nl": 670.97,
   "BK:marathonbet": 0.0,
-  "BK:coral": 580.0,
+  "BK:coral": 0.0,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0
  },
  "peak_locked": {
   "PM": 0.0,
   "KS": 167.1,
-  "BK:smarkets": 580.0,
+  "BK:smarkets": 896.1600000000001,
   "BK:pinnacle": 580.0,
-  "BK:onexbet": 5467.330000000001,
+  "BK:onexbet": 7422.620000000002,
   "BK:matchbook": 1690.02,
   "BK:leovegas_se": 1403.0,
   "BK:gtbets": 0.0,
@@ -570,9 +447,9 @@
  "min_cash": {
   "PM": 5800.0,
   "KS": 5632.9,
-  "BK:smarkets": 1.4210854715202004e-14,
+  "BK:smarkets": -316.16,
   "BK:pinnacle": 0.0,
-  "BK:onexbet": -5318.320000000001,
+  "BK:onexbet": -7134.925800000001,
   "BK:matchbook": -1620.9899999999998,
   "BK:leovegas_se": -722.0723200000001,
   "BK:gtbets": 580.0,
@@ -626,18 +503,18 @@
   "moved": 1399.686,
   "fees": 0.0
  },
- "peak_total_locked": 12432.240000000002,
+ "peak_total_locked": 13899.620000000003,
  "odds": {
   "remaining": {
-   "1": 390,
-   "2": 390,
-   "3": 391,
-   "4": 391,
-   "5": 391
+   "1": 382,
+   "2": 383,
+   "3": 383,
+   "4": 383,
+   "5": 381
   },
   "spent": {
    "2026-11-06": 27,
-   "2026-11-07": 514
+   "2026-11-07": 555
   }
  },
  "book_slots": {
@@ -760,6 +637,13 @@
   "bun|2026-11-07T17:30|30": "2026-11-07T17:00:37Z",
   "fl1|2026-11-07T18:00|60": "2026-11-07T17:00:48Z",
   "ere|2026-11-07T20:00|180": "2026-11-07T17:00:48Z",
-  "scop|2026-11-07T20:00|180": "2026-11-07T17:00:49Z"
+  "scop|2026-11-07T20:00|180": "2026-11-07T17:00:49Z",
+  "fl1|2026-11-07T20:05|180": "2026-11-07T17:05:13Z",
+  "nhl|2026-11-07T17:30|15": "2026-11-07T17:15:17Z",
+  "epl|2026-11-07T17:30|15": "2026-11-07T17:15:17Z",
+  "lal|2026-11-07T17:30|15": "2026-11-07T17:15:17Z",
+  "bun|2026-11-07T17:30|15": "2026-11-07T17:15:18Z",
+  "ere|2026-11-07T17:45|30": "2026-11-07T17:15:18Z",
+  "scop|2026-11-07T17:45|30": "2026-11-07T17:15:18Z"
  }
 }

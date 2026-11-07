@@ -295,3 +295,13 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-07T17:01:03Z,ere:26NOV07EXCGAE,SBV Excelsior v Go Ahead Eagles,ere,178.9,scheduled,9,-0.015761,-0.011908,no gap,,,
 2026-11-07T17:01:06Z,scop:26NOV07MIRRFC,St Mirren FC v Rangers FC,scop,178.9,scheduled,9,-0.019026,-0.009142,no gap,,,
 2026-11-07T17:02:18Z,fl1:26NOV07AUXPAR,AJ Auxerre v Paris FC,fl1,57.7,confirmation,7,-0.011921,-0.006274,vanished,,,betfair_ex_eu h2h Auxerre  @5.8 x0.179 | onexbet h2h Paris FC  @1.69 x0.588 | onexbet h2h Draw  @4.26 x0.233
+2026-11-07T17:05:29Z,fl1:26NOV07PSGEST,Paris Saint-Germain FC v ES Troyes AC,fl1,179.5,scheduled,7,-0.00585,0.026899,seen,,fl1:26NOV07PSGEST|2026-11-07T17:05:29Z|with_books,onexbet h2h Paris Saint Germain  @1.22 x0.842 | smarkets h2h Troyes  @19.49 x0.054 | smarkets h2h Draw  @10.0 x0.105
+2026-11-07T17:06:59Z,fl1:26NOV07PSGEST,Paris Saint-Germain FC v ES Troyes AC,fl1,178.0,confirmation,7,-0.005762,0.026899,executed,,,onexbet h2h Paris Saint Germain  @1.22 x0.842 | smarkets h2h Troyes  @19.49 x0.054 | smarkets h2h Draw  @10.0 x0.105
+2026-11-07T17:15:23Z,nhl:26NOV07FLAWSH,FLA at WSH,nhl,14.6,scheduled,10,-0.01665,-0.007804,no gap,,,
+2026-11-07T17:15:25Z,epl:26NOV07NFOMCI,Nottingham Forest FC v Manchester City FC,epl,14.6,scheduled,9,-0.011388,-0.002248,no gap,,,
+2026-11-07T17:15:27Z,lal:26NOV07OSAATH,CA Osasuna v Athletic Club,lal,14.5,scheduled,7,-0.010169,0.003399,seen,,lal:26NOV07OSAATH|2026-11-07T17:15:27Z|with_books,onexbet h2h Athletic Bilbao  @2.11 x0.476 | matchbook h2h CA Osasuna  @4.2 x0.243 | onexbet h2h Draw  @3.56 x0.282
+2026-11-07T17:15:29Z,bun:26NOV07VFBSVW,VfB Stuttgart v SV Werder Bremen,bun,14.5,scheduled,7,-0.011921,0.007113,seen,,bun:26NOV07VFBSVW|2026-11-07T17:15:29Z|with_books,unibet_se h2h VfB Stuttgart  @1.91 x0.527 | smarkets h2h Werder Bremen  @4.1 x0.249 | onexbet h2h Draw  @4.51 x0.223
+2026-11-07T17:15:29Z,ere:26NOV07ADOSPA,ADO Den Haag v Sparta Rotterdam,ere,29.5,scheduled,9,-0.015761,0.001783,no gap,,ere:26NOV07ADOSPA|2026-11-07T17:15:27Z|with_books,
+2026-11-07T17:15:29Z,scop:26NOV07ABEHIB,Aberdeen FC v Hibernian FC,scop,29.5,scheduled,5,-0.015761,-0.015549,no gap,,,
+2026-11-07T17:16:56Z,lal:26NOV07OSAATH,CA Osasuna v Athletic Club,lal,13.1,confirmation,7,-0.010169,-0.004321,vanished,,,pinnacle h2h Athletic Bilbao  @2.09 x0.476 | matchbook h2h CA Osasuna  @4.2 x0.241 | onexbet h2h Draw  @3.52 x0.283
+2026-11-07T17:16:56Z,bun:26NOV07VFBSVW,VfB Stuttgart v SV Werder Bremen,bun,13.1,confirmation,7,-0.011247,0.001522,vanished,,,unibet_se h2h VfB Stuttgart  @1.91 x0.524 | smarkets h2h Werder Bremen  @4.1 x0.248 | marathonbet h2h Draw  @4.4 x0.228
