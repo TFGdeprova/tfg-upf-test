@@ -1,27 +1,27 @@
-# Paper-trading bot: status at 2026-11-07T21:58:09Z
+# Paper-trading bot: status at 2026-11-07T22:18:09Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 26 / 12 |
-| Realised profit | $160.54 ≈ €138.39 |
+| Trades executed / settled | 26 / 15 |
+| Realised profit | $215.20 ≈ €185.52 |
 | … Polymarket/Kalshi only | $0.00 |
-| … with bookmakers (all) | $160.54 |
+| … with bookmakers (all) | $215.20 |
 | … with bookmakers licensed in Spain only | $0.00 |
-| Open positions (cost) | $32,788.04 |
+| Open positions (cost) | $25,288.09 |
 | Money in transit between accounts | $1,399.69 |
-| Equity (cash + open at cost + in transit) | $22,780.54 ≈ €19,638.40 |
-| Return so far (realised / peak money in use) | 0.344% over 1.0 days |
+| Equity (cash + open at cost + in transit) | $22,835.20 ≈ €19,685.52 |
+| Return so far (realised / peak money in use) | 0.461% over 1.0 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 1, seen 2, vanished 1.
-Gaps using bookmakers: executed 26, no_cash 41, seen 79, vanished 12 (snapshots combined with Polymarket/Kalshi: 377).
+Gaps using bookmakers: executed 26, no_cash 41, seen 79, vanished 12 (snapshots combined with Polymarket/Kalshi: 385).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 1,552 (about 5.4 days at the current pace).
+The Odds API credits left: 1,546 (about 5.3 days at the current pace).
 
 ## Capital by account
 
@@ -41,15 +41,15 @@ Peak in use = the most money that was tied up in open positions at the same time
 | gtbets | $580.00 | $-912.98 | $0.00 | $1,492.98 | $-912.98 |
 | leovegas_se | $580.00 | $1,789.30 | $0.00 | $1,403.00 | $-722.07 |
 | marathonbet (Spain) | $580.00 | $-1,406.36 | $1,986.36 | $1,986.36 | $-1,406.36 |
-| matchbook | $580.00 | $-1,396.31 | $2,304.79 | $2,789.92 | $-3,925.78 |
-| onexbet | $580.00 | $-15,193.86 | $16,400.58 | $22,357.23 | $-20,246.55 |
+| matchbook | $580.00 | $-1,396.31 | $2,043.42 | $2,789.92 | $-3,925.78 |
+| onexbet | $580.00 | $-10,157.61 | $12,724.48 | $22,357.23 | $-20,246.55 |
 | pinnacle | $580.00 | $-1,226.60 | $0.00 | $1,226.60 | $-1,226.60 |
-| skybet | $580.00 | $192.56 | $387.44 | $387.44 | $192.56 |
-| smarkets | $580.00 | $-2,181.58 | $2,261.11 | $2,761.58 | $-2,181.58 |
+| skybet | $580.00 | $192.56 | $0.00 | $387.44 | $192.56 |
+| smarkets | $580.00 | $-2,181.58 | $1,771.24 | $2,761.58 | $-2,181.58 |
 | tipico_de | $580.00 | $2,622.00 | $0.00 | $486.19 | $93.81 |
 | unibet_nl | $580.00 | $-4,248.48 | $3,208.60 | $4,157.51 | $-4,248.48 |
-| unibet_se | $580.00 | $-1,299.37 | $1,879.37 | $1,879.37 | $-1,299.37 |
-| winamax_de (Spain) | $580.00 | $-258.41 | $805.80 | $805.80 | $-258.41 |
+| unibet_se | $580.00 | $1,218.99 | $0.00 | $1,879.37 | $-1,299.37 |
+| winamax_de (Spain) | $580.00 | $-258.41 | $0.00 | $805.80 | $-258.41 |
 
 Peak money in use across all accounts at the same time: $46,687.66 ≈ €40,247.99.
 
@@ -77,16 +77,16 @@ Depth at detection (98 gaps with full order books): median capacity (largest siz
 | 26 | 11-07T19:56 | Valencia CF v Real Madrid CF | 3.0 | marathonbet, matchbook, unibet_nl | 0.91% | $2499.98 | $22.57 | open |  |
 | 25 | 11-07T19:52 | Paris Saint-Germain FC v ES Troyes AC | 13.0 | onexbet, smarkets | 0.55% | $2499.99 | $13.82 | open |  |
 | 24 | 11-07T19:46 | Valencia CF v Real Madrid CF | 13.0 | onexbet, smarkets, unibet_nl | 1.91% | $2499.99 | $47.71 | open |  |
-| 23 | 11-07T19:42 | AS Roma v US Sassuolo Calcio | 3.0 | skybet, smarkets, unibet_se | 0.73% | $2499.99 | $18.35 | open |  |
+| 23 | 11-07T19:42 | AS Roma v US Sassuolo Calcio | 3.0 | skybet, smarkets, unibet_se | 0.73% | $2499.99 | $18.35 | settled | $+18.37 |
 | 22 | 11-07T19:37 | Paris Saint-Germain FC v ES Troyes AC | 28.0 | onexbet, smarkets | 1.36% | $2499.99 | $34.01 | open |  |
 | 21 | 11-07T19:32 | SBV Excelsior v Go Ahead Eagles | 27.9 | betonlineag, matchbook, unibet_nl | 0.68% | $2499.99 | $16.94 | open |  |
 | 20 | 11-07T19:32 | Valencia CF v Real Madrid CF | 28.0 | onexbet, unibet_nl | 1.48% | $2499.98 | $36.84 | open |  |
 | 19 | 11-07T19:07 | Paris Saint-Germain FC v ES Troyes AC | 58.0 | onexbet | 2.20% | $288.22 | $6.35 | open |  |
 | 18 | 11-07T19:01 | SBV Excelsior v Go Ahead Eagles | 58.0 | coolbet, matchbook, unibet_nl | 0.46% | $2499.99 | $11.50 | open |  |
 | 17 | 11-07T19:01 | Valencia CF v Real Madrid CF | 58.0 | coral, smarkets, unibet_nl | 1.34% | $2499.99 | $33.51 | open |  |
-| 16 | 11-07T18:46 | AS Roma v US Sassuolo Calcio | 58.0 | onexbet, smarkets, winamax_de | 0.83% | $2499.98 | $20.72 | open |  |
+| 16 | 11-07T18:46 | AS Roma v US Sassuolo Calcio | 58.0 | onexbet, smarkets, winamax_de | 0.83% | $2499.98 | $20.72 | settled | $+20.78 |
 | 15 | 11-07T18:06 | Paris Saint-Germain FC v ES Troyes AC | 118.0 | betfair_ex_eu, onexbet, smarkets | 1.55% | $2499.98 | $38.62 | open |  |
-| 14 | 11-07T17:47 | AS Roma v US Sassuolo Calcio | 118.0 | matchbook, onexbet, winamax_de | 0.62% | $2499.98 | $15.44 | open |  |
+| 14 | 11-07T17:47 | AS Roma v US Sassuolo Calcio | 118.0 | matchbook, onexbet, winamax_de | 0.62% | $2499.98 | $15.44 | settled | $+15.52 |
 | 13 | 11-07T17:42 | ADO Den Haag v Sparta Rotterdam | 3.0 | onexbet, pinnacle, unibet_nl | 0.59% | $2499.98 | $14.63 | settled | $+14.65 |
 | 12 | 11-07T17:27 | Nottingham Forest FC v Manchester City FC | 3.0 | gtbets, onexbet, pinnacle | 1.52% | $2499.99 | $38.06 | settled | $+38.07 |
 | 11 | 11-07T17:06 | Paris Saint-Germain FC v ES Troyes AC | 178.0 | onexbet, smarkets | 2.69% | $2499.99 | $67.09 | open |  |

@@ -4,13 +4,13 @@
   "KS": 5632.9,
   "BK:smarkets": -2181.58,
   "BK:pinnacle": -1226.6,
-  "BK:onexbet": -15193.8623,
+  "BK:onexbet": -10157.6053,
   "BK:matchbook": -1396.3121799999994,
   "BK:leovegas_se": 1789.2976799999997,
   "BK:gtbets": -912.98,
   "BK:winamax_de": -258.41,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -1299.37,
+  "BK:unibet_se": 1218.9858,
   "BK:tipico_de": 2621.998,
   "BK:coolbet": -89.73000000000002,
   "BK:unibet_nl": -4248.48,
@@ -117,77 +117,6 @@
    "status": "open"
   },
   {
-   "trade_id": 14,
-   "time": "2026-11-07T17:47:01Z",
-   "game": "sea:26NOV07ROMSAS",
-   "title": "AS Roma v US Sassuolo Calcio",
-   "league": "sea",
-   "kickoff": "2026-11-07T19:45:00Z",
-   "min_to_ko": 118.0,
-   "t_lp": 0.006204,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "onexbet",
-    "winamax_de"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "f110107bca066ac1a598c89661c88fa3",
-    "sport": "soccer_italy_serie_a",
-    "home": "AS Roma",
-    "away": "Sassuolo"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2515.4249,
-   "guaranteed_profit": 15.4449,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "AS Roma",
-     "side": "home",
-     "point": null,
-     "odds": 1.37,
-     "eff": 1.37,
-     "three_way": true,
-     "stake": 1836.13,
-     "cost": 1836.13,
-     "label": "h2h AS Roma  @1.37"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Sassuolo",
-     "side": "away",
-     "point": null,
-     "odds": 9.8,
-     "eff": 9.624,
-     "three_way": true,
-     "stake": 261.37,
-     "cost": 261.37,
-     "label": "h2h Sassuolo  @9.8"
-    },
-    {
-     "venue": "BK:winamax_de",
-     "book": "winamax_de",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 6.25,
-     "eff": 6.25,
-     "three_way": true,
-     "stake": 402.48,
-     "cost": 402.48,
-     "label": "h2h Draw  @6.25"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 15,
    "time": "2026-11-07T18:06:57Z",
    "game": "fl1:26NOV07PSGEST",
@@ -254,77 +183,6 @@
      "stake": 274.98,
      "cost": 274.98,
      "label": "h2h Draw  @9.4"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 16,
-   "time": "2026-11-07T18:46:57Z",
-   "game": "sea:26NOV07ROMSAS",
-   "title": "AS Roma v US Sassuolo Calcio",
-   "league": "sea",
-   "kickoff": "2026-11-07T19:45:00Z",
-   "min_to_ko": 58.0,
-   "t_lp": 0.008308,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "smarkets",
-    "winamax_de"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "f110107bca066ac1a598c89661c88fa3",
-    "sport": "soccer_italy_serie_a",
-    "home": "AS Roma",
-    "away": "Sassuolo"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2520.6958,
-   "guaranteed_profit": 20.7158,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "AS Roma",
-     "side": "home",
-     "point": null,
-     "odds": 1.37,
-     "eff": 1.37,
-     "three_way": true,
-     "stake": 1839.97,
-     "cost": 1839.97,
-     "label": "h2h AS Roma  @1.37"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Sassuolo",
-     "side": "away",
-     "point": null,
-     "odds": 10.0,
-     "eff": 9.82,
-     "three_way": true,
-     "stake": 256.69,
-     "cost": 256.69,
-     "label": "h2h Sassuolo  @10.0"
-    },
-    {
-     "venue": "BK:winamax_de",
-     "book": "winamax_de",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 6.25,
-     "eff": 6.25,
-     "three_way": true,
-     "stake": 403.32,
-     "cost": 403.32,
-     "label": "h2h Draw  @6.25"
     }
    ],
    "status": "open"
@@ -744,77 +602,6 @@
    "status": "open"
   },
   {
-   "trade_id": 23,
-   "time": "2026-11-07T19:42:00Z",
-   "game": "sea:26NOV07ROMSAS",
-   "title": "AS Roma v US Sassuolo Calcio",
-   "league": "sea",
-   "kickoff": "2026-11-07T19:45:00Z",
-   "min_to_ko": 3.0,
-   "t_lp": 0.007346,
-   "with_books": true,
-   "books": [
-    "skybet",
-    "smarkets",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "f110107bca066ac1a598c89661c88fa3",
-    "sport": "soccer_italy_serie_a",
-    "home": "AS Roma",
-    "away": "Sassuolo"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2518.344,
-   "guaranteed_profit": 18.354,
-   "legs": [
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "AS Roma",
-     "side": "home",
-     "point": null,
-     "odds": 1.34,
-     "eff": 1.34,
-     "three_way": true,
-     "stake": 1879.37,
-     "cost": 1879.37,
-     "label": "h2h AS Roma  @1.34"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Sassuolo",
-     "side": "away",
-     "point": null,
-     "odds": 11.0,
-     "eff": 10.8,
-     "three_way": true,
-     "stake": 233.18,
-     "cost": 233.18,
-     "label": "h2h Sassuolo  @11.0"
-    },
-    {
-     "venue": "BK:skybet",
-     "book": "skybet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 6.5,
-     "eff": 6.5,
-     "three_way": true,
-     "stake": 387.44,
-     "cost": 387.44,
-     "label": "h2h Draw  @6.5"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 24,
    "time": "2026-11-07T19:46:58Z",
    "game": "lal:26NOV07VCFRMA",
@@ -1043,21 +830,21 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 26,
- "n_settled": 12,
- "realized_pnl": 160.53720000000015,
+ "n_settled": 15,
+ "realized_pnl": 215.20000000000067,
  "runs": 6,
  "locked": {
   "PM": 140.8037,
   "KS": 0.0,
-  "BK:smarkets": 2261.1099999999997,
+  "BK:smarkets": 1771.2399999999996,
   "BK:pinnacle": 0.0,
-  "BK:onexbet": 16400.58,
-  "BK:matchbook": 2304.79,
+  "BK:onexbet": 12724.480000000001,
+  "BK:matchbook": 2043.42,
   "BK:leovegas_se": 0.0,
   "BK:gtbets": 0.0,
-  "BK:winamax_de": 805.8,
+  "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 1879.37,
+  "BK:unibet_se": 0.0,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 669.73,
   "BK:unibet_nl": 3208.6000000000004,
@@ -1067,7 +854,7 @@
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 126.93,
   "BK:betonlineag": 667.62,
-  "BK:skybet": 387.44
+  "BK:skybet": 0.0
  },
  "peak_locked": {
   "PM": 140.8037,
@@ -1158,14 +945,14 @@
  "odds": {
   "remaining": {
    "1": 330,
-   "2": 330,
-   "3": 332,
+   "2": 328,
+   "3": 329,
    "4": 329,
-   "5": 331
+   "5": 328
   },
   "spent": {
    "2026-11-06": 27,
-   "2026-11-07": 815
+   "2026-11-07": 823
   }
  },
  "book_slots": {
@@ -1348,6 +1135,9 @@
   "nba|2026-11-07T22:00|15": "2026-11-07T21:45:16Z",
   "nhl|2026-11-07T22:00|15": "2026-11-07T21:45:16Z",
   "nba|2026-11-07T22:00|5": "2026-11-07T21:55:16Z",
-  "nhl|2026-11-07T22:00|5": "2026-11-07T21:55:16Z"
+  "nhl|2026-11-07T22:00|5": "2026-11-07T21:55:16Z",
+  "nhl|2026-11-08T00:00|120": "2026-11-07T22:00:16Z",
+  "nhl|2026-11-08T01:00|180": "2026-11-07T22:00:16Z",
+  "nba|2026-11-08T01:00|180": "2026-11-07T22:00:16Z"
  }
 }
