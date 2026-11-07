@@ -1,10 +1,10 @@
 {
  "cash": {
-  "PM": 5800.0,
+  "PM": 5759.3174,
   "KS": 5632.9,
   "BK:smarkets": -1196.23,
   "BK:pinnacle": -1226.6,
-  "BK:onexbet": -11724.4413,
+  "BK:onexbet": -11971.981300000001,
   "BK:matchbook": -2831.3899999999994,
   "BK:leovegas_se": -722.0723200000001,
   "BK:gtbets": -912.98,
@@ -819,25 +819,94 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 19,
+   "time": "2026-11-07T19:07:00Z",
+   "game": "fl1:26NOV07PSGEST",
+   "title": "Paris Saint-Germain FC v ES Troyes AC",
+   "league": "fl1",
+   "kickoff": "2026-11-07T20:05:00Z",
+   "min_to_ko": 58.0,
+   "t_lp": 0.022032,
+   "with_books": true,
+   "books": [
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "f7b240389fa5ec055c58a48ab153dcdd",
+    "sport": "soccer_france_ligue_one",
+    "home": "Paris Saint Germain",
+    "away": "Troyes"
+   },
+   "cost": 288.2226,
+   "guaranteed_payout": 294.57,
+   "guaranteed_profit": 6.3474,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x2908845effd120fb16822c05ff549e432a4b3178290caaab5fbab4dc7707623a",
+     "label": "Will ES Troyes AC win on 2026-11-07?",
+     "side": "YES",
+     "price": 0.042,
+     "shares": 294.58,
+     "fee": 0.59264,
+     "cost": 12.965
+    },
+    {
+     "venue": "PM",
+     "id": "0x6557d4a85169abfdb3f52baf6b2ba152d517807547a6f116fa33933e8de51121",
+     "label": "Will Paris Saint-Germain FC vs. ES Troyes AC end in a draw?",
+     "side": "YES",
+     "price": 0.09,
+     "shares": 294.57,
+     "fee": 1.20626,
+     "cost": 27.7176
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Paris Saint Germain",
+     "side": "home",
+     "point": null,
+     "odds": 1.19,
+     "eff": 1.19,
+     "three_way": true,
+     "stake": 247.54,
+     "cost": 247.54,
+     "label": "h2h Paris Saint Germain  @1.19"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
   "KS|KXBUNDESLIGAGAME-26NOV07M05BMU-BMU|NO|0.2100": {
    "n": 754.0,
    "t": "2026-11-07T14:26:49Z"
+  },
+  "PM|0x2908845effd120fb16822c05ff549e432a4b3178290caaab5fbab4dc7707623a|YES|0.0420": {
+   "n": 294.58,
+   "t": "2026-11-07T19:07:00Z"
+  },
+  "PM|0x6557d4a85169abfdb3f52baf6b2ba152d517807547a6f116fa33933e8de51121|YES|0.0900": {
+   "n": 294.57,
+   "t": "2026-11-07T19:07:00Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 18,
+ "n_trades": 19,
  "n_settled": 7,
  "realized_pnl": 38.75237999999939,
  "runs": 5,
  "locked": {
-  "PM": 0.0,
+  "PM": 40.6826,
   "KS": 0.0,
   "BK:smarkets": 1776.23,
   "BK:pinnacle": 1226.6,
-  "BK:onexbet": 13835.120000000003,
+  "BK:onexbet": 14082.660000000003,
   "BK:matchbook": 1695.5300000000002,
   "BK:leovegas_se": 1403.0,
   "BK:gtbets": 1492.98,
@@ -854,11 +923,11 @@
   "BK:betfair_ex_eu": 126.93
  },
  "peak_locked": {
-  "PM": 0.0,
+  "PM": 40.6826,
   "KS": 167.1,
   "BK:smarkets": 1776.23,
   "BK:pinnacle": 1226.6,
-  "BK:onexbet": 13835.120000000003,
+  "BK:onexbet": 14082.660000000003,
   "BK:matchbook": 1882.3600000000001,
   "BK:leovegas_se": 1403.0,
   "BK:gtbets": 1492.98,
@@ -875,11 +944,11 @@
   "BK:betfair_ex_eu": 126.93
  },
  "min_cash": {
-  "PM": 5800.0,
+  "PM": 5759.3174,
   "KS": 5632.9,
   "BK:smarkets": -1196.23,
   "BK:pinnacle": -1226.6,
-  "BK:onexbet": -11724.4413,
+  "BK:onexbet": -11971.981300000001,
   "BK:matchbook": -2831.3899999999994,
   "BK:leovegas_se": -722.0723200000001,
   "BK:gtbets": -912.98,
@@ -934,18 +1003,18 @@
   "moved": 1399.686,
   "fees": 0.0
  },
- "peak_total_locked": 28899.530000000002,
+ "peak_total_locked": 29187.752600000003,
  "odds": {
   "remaining": {
-   "1": 359,
-   "2": 359,
+   "1": 355,
+   "2": 355,
    "3": 355,
    "4": 357,
-   "5": 358
+   "5": 354
   },
   "spent": {
    "2026-11-06": 27,
-   "2026-11-07": 679
+   "2026-11-07": 691
   }
  },
  "book_slots": {
@@ -1100,6 +1169,8 @@
   "ere|2026-11-07T20:00|60": "2026-11-07T19:00:23Z",
   "scop|2026-11-07T20:00|60": "2026-11-07T19:00:24Z",
   "nba|2026-11-07T22:00|180": "2026-11-07T19:00:25Z",
-  "nhl|2026-11-07T22:00|180": "2026-11-07T19:00:25Z"
+  "nhl|2026-11-07T22:00|180": "2026-11-07T19:00:25Z",
+  "fl1|2026-11-07T20:05|60": "2026-11-07T19:05:23Z",
+  "sea|2026-11-07T19:45|30": "2026-11-07T19:15:23Z"
  }
 }
