@@ -276,3 +276,9 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-07T16:00:38Z,sea:26NOV07PARBFC,Parma Calcio 1913 v Bologna FC 1909,sea,59.4,scheduled,7,-0.011921,-0.006444,no gap,,,
 2026-11-07T16:00:38Z,fl1:26NOV07AUXPAR,AJ Auxerre v Paris FC,fl1,119.4,scheduled,7,-0.011921,0.004549,seen,,fl1:26NOV07AUXPAR|2026-11-07T16:00:34Z|with_books,smarkets h2h Auxerre  @5.1 x0.200 | leovegas_se h2h Paris FC  @1.79 x0.561 | onexbet h2h Draw  @4.21 x0.239
 2026-11-07T16:02:07Z,fl1:26NOV07AUXPAR,AJ Auxerre v Paris FC,fl1,117.9,confirmation,7,-0.011921,0.004549,executed,,,smarkets h2h Auxerre  @5.1 x0.200 | leovegas_se h2h Paris FC  @1.79 x0.561 | onexbet h2h Draw  @4.21 x0.239
+2026-11-07T16:30:12Z,nhl:26NOV07FLAWSH,FLA at WSH,nhl,59.8,scheduled,10,-0.00348,-0.00348,no gap,,,
+2026-11-07T16:30:14Z,epl:26NOV07NFOMCI,Nottingham Forest FC v Manchester City FC,epl,59.8,scheduled,9,-0.006606,0.016804,seen,,epl:26NOV07NFOMCI|2026-11-07T16:30:14Z|with_books,onexbet h2h Manchester City  @1.78 x0.571 | matchbook h2h Nottingham Forest  @5.3 x0.195 | unibet_nl h2h Draw  @4.35 x0.234
+2026-11-07T16:30:14Z,lal:26NOV07OSAATH,CA Osasuna v Athletic Club,lal,59.8,scheduled,7,-0.011921,-0.000916,no gap,,,
+2026-11-07T16:30:15Z,sea:26NOV07PARBFC,Parma Calcio 1913 v Bologna FC 1909,sea,29.7,scheduled,7,-0.011921,-0.000641,no gap,,,
+2026-11-07T16:30:17Z,bun:26NOV07VFBSVW,VfB Stuttgart v SV Werder Bremen,bun,59.7,scheduled,7,-0.013232,0.000963,no gap,,,
+2026-11-07T16:31:39Z,epl:26NOV07NFOMCI,Nottingham Forest FC v Manchester City FC,epl,58.3,confirmation,9,-0.006606,0.011279,executed,,,onexbet h2h Manchester City  @1.78 x0.568 | tipico_de h2h Nottingham Forest  @5.2 x0.194 | onexbet h2h Draw  @4.26 x0.237
