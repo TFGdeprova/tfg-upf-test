@@ -4,14 +4,14 @@
   "KS": 5632.9,
   "BK:smarkets": -2181.58,
   "BK:pinnacle": -1226.6,
-  "BK:onexbet": -20246.551300000003,
-  "BK:matchbook": -3925.7799999999993,
+  "BK:onexbet": -17708.4893,
+  "BK:matchbook": -1396.3121799999994,
   "BK:leovegas_se": -722.0723200000001,
   "BK:gtbets": -912.98,
   "BK:winamax_de": -258.41,
   "BK:grosvenor": 580.0,
   "BK:unibet_se": -1299.37,
-  "BK:tipico_de": 93.81,
+  "BK:tipico_de": 2621.998,
   "BK:coolbet": -89.73000000000002,
   "BK:unibet_nl": -4248.48,
   "BK:marathonbet": -1406.36,
@@ -46,76 +46,6 @@
   "BK:skybet": 580.0
  },
  "open": [
-  {
-   "trade_id": 8,
-   "time": "2026-11-07T15:32:03Z",
-   "game": "epl:26NOV07NFOMCI",
-   "title": "Nottingham Forest FC v Manchester City FC",
-   "league": "epl",
-   "kickoff": "2026-11-07T17:30:00Z",
-   "min_to_ko": 117.9,
-   "t_lp": 0.011807,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "59c5f635cfe11613c07e9a5520ced5c1",
-    "sport": "soccer_epl",
-    "home": "Nottingham Forest",
-    "away": "Manchester City"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2529.4678,
-   "guaranteed_profit": 29.4878,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Manchester City",
-     "side": "away",
-     "point": null,
-     "odds": 1.78,
-     "eff": 1.78,
-     "three_way": true,
-     "stake": 1421.07,
-     "cost": 1421.07,
-     "label": "h2h Manchester City  @1.78"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Nottingham Forest",
-     "side": "home",
-     "point": null,
-     "odds": 5.3,
-     "eff": 5.2139999999999995,
-     "three_way": true,
-     "stake": 485.13,
-     "cost": 485.13,
-     "label": "h2h Nottingham Forest  @5.3"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.26,
-     "eff": 4.26,
-     "three_way": true,
-     "stake": 593.78,
-     "cost": 593.78,
-     "label": "h2h Draw  @4.26"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 9,
    "time": "2026-11-07T16:02:07Z",
@@ -188,76 +118,6 @@
    "status": "open"
   },
   {
-   "trade_id": 10,
-   "time": "2026-11-07T16:31:39Z",
-   "game": "epl:26NOV07NFOMCI",
-   "title": "Nottingham Forest FC v Manchester City FC",
-   "league": "epl",
-   "kickoff": "2026-11-07T17:30:00Z",
-   "min_to_ko": 58.3,
-   "t_lp": 0.011279,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "tipico_de"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "59c5f635cfe11613c07e9a5520ced5c1",
-    "sport": "soccer_epl",
-    "home": "Nottingham Forest",
-    "away": "Manchester City"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2528.1822,
-   "guaranteed_profit": 28.1922,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Manchester City",
-     "side": "away",
-     "point": null,
-     "odds": 1.78,
-     "eff": 1.78,
-     "three_way": true,
-     "stake": 1420.33,
-     "cost": 1420.33,
-     "label": "h2h Manchester City  @1.78"
-    },
-    {
-     "venue": "BK:tipico_de",
-     "book": "tipico_de",
-     "market": "h2h",
-     "outcome": "Nottingham Forest",
-     "side": "home",
-     "point": null,
-     "odds": 5.2,
-     "eff": 5.2,
-     "three_way": true,
-     "stake": 486.19,
-     "cost": 486.19,
-     "label": "h2h Nottingham Forest  @5.2"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.26,
-     "eff": 4.26,
-     "three_way": true,
-     "stake": 593.47,
-     "cost": 593.47,
-     "label": "h2h Draw  @4.26"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 11,
    "time": "2026-11-07T17:06:59Z",
    "game": "fl1:26NOV07PSGEST",
@@ -323,77 +183,6 @@
      "stake": 261.43,
      "cost": 261.43,
      "label": "h2h Draw  @10.0"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 12,
-   "time": "2026-11-07T17:27:01Z",
-   "game": "epl:26NOV07NFOMCI",
-   "title": "Nottingham Forest FC v Manchester City FC",
-   "league": "epl",
-   "kickoff": "2026-11-07T17:30:00Z",
-   "min_to_ko": 3.0,
-   "t_lp": 0.015229,
-   "with_books": true,
-   "books": [
-    "gtbets",
-    "onexbet",
-    "pinnacle"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "59c5f635cfe11613c07e9a5520ced5c1",
-    "sport": "soccer_epl",
-    "home": "Nottingham Forest",
-    "away": "Manchester City"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2538.052,
-   "guaranteed_profit": 38.062,
-   "legs": [
-    {
-     "venue": "BK:gtbets",
-     "book": "gtbets",
-     "market": "h2h",
-     "outcome": "Manchester City",
-     "side": "away",
-     "point": null,
-     "odds": 1.7,
-     "eff": 1.7,
-     "three_way": true,
-     "stake": 1492.98,
-     "cost": 1492.98,
-     "label": "h2h Manchester City  @1.7"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Nottingham Forest",
-     "side": "home",
-     "point": null,
-     "odds": 5.9,
-     "eff": 5.9,
-     "three_way": true,
-     "stake": 430.18,
-     "cost": 430.18,
-     "label": "h2h Nottingham Forest  @5.9"
-    },
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.4,
-     "eff": 4.4,
-     "three_way": true,
-     "stake": 576.83,
-     "cost": 576.83,
-     "label": "h2h Draw  @4.4"
     }
    ],
    "status": "open"
@@ -1396,22 +1185,22 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 26,
- "n_settled": 7,
- "realized_pnl": 38.75237999999939,
+ "n_settled": 10,
+ "realized_pnl": 134.5102000000001,
  "runs": 5,
  "locked": {
   "PM": 140.8037,
   "KS": 0.0,
   "BK:smarkets": 2761.58,
-  "BK:pinnacle": 1226.6,
-  "BK:onexbet": 22357.230000000003,
-  "BK:matchbook": 2789.92,
+  "BK:pinnacle": 649.7699999999999,
+  "BK:onexbet": 17898.4,
+  "BK:matchbook": 2304.79,
   "BK:leovegas_se": 1403.0,
-  "BK:gtbets": 1492.98,
+  "BK:gtbets": 0.0,
   "BK:winamax_de": 805.8,
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 1879.37,
-  "BK:tipico_de": 486.19,
+  "BK:tipico_de": 0.0,
   "BK:coolbet": 669.73,
   "BK:unibet_nl": 4157.51,
   "BK:marathonbet": 1986.36,
@@ -1514,11 +1303,11 @@
    "2": 336,
    "3": 335,
    "4": 337,
-   "5": 338
+   "5": 336
   },
   "spent": {
    "2026-11-06": 27,
-   "2026-11-07": 785
+   "2026-11-07": 787
   }
  },
  "book_slots": {
