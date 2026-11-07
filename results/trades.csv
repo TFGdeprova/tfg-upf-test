@@ -10,3 +10,5 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 9,2026-11-07T16:02:07Z,fl1:26NOV07AUXPAR,AJ Auxerre v Paris FC,fl1,2026-11-07T18:00:00Z,117.9,0.004549,True,"['leovegas_se', 'onexbet', 'smarkets']",False,2499.99,2511.3492,11.3592,open,,,,,3
 10,2026-11-07T16:31:39Z,epl:26NOV07NFOMCI,Nottingham Forest FC v Manchester City FC,epl,2026-11-07T17:30:00Z,58.3,0.011279,True,"['onexbet', 'tipico_de']",False,2499.99,2528.1822,28.1922,open,,,,,3
 11,2026-11-07T17:06:59Z,fl1:26NOV07PSGEST,Paris Saint-Germain FC v ES Troyes AC,fl1,2026-11-07T20:05:00Z,178.0,0.026899,True,"['onexbet', 'smarkets']",False,2499.99,2567.0781,67.0881,open,,,,,3
+12,2026-11-07T17:27:01Z,epl:26NOV07NFOMCI,Nottingham Forest FC v Manchester City FC,epl,2026-11-07T17:30:00Z,3.0,0.015229,True,"['gtbets', 'onexbet', 'pinnacle']",False,2499.99,2538.052,38.062,open,,,,,3
+13,2026-11-07T17:42:01Z,ere:26NOV07ADOSPA,ADO Den Haag v Sparta Rotterdam,ere,2026-11-07T17:45:00Z,3.0,0.005855,True,"['onexbet', 'pinnacle', 'unibet_nl']",False,2499.98,2514.6099,14.6299,open,,,,,3
