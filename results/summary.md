@@ -1,6 +1,6 @@
-# Paper-trading bot: status at 2026-11-07T15:21:55Z
+# Paper-trading bot: status at 2026-11-07T15:22:49Z
 
-Started 2026-11-06T22:51:30Z. Fictional capital: Polymarket $5,800.00 + Kalshi $5,800.00 (≈ €10,000) and €500 at each bookmaker the bot has used (16 so far): $20,880.00 ≈ €18,000.00 in total. Euro amounts at 1.16 USD/EUR.
+Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
@@ -12,7 +12,7 @@ Started 2026-11-06T22:51:30Z. Fictional capital: Polymarket $5,800.00 + Kalshi $
 | Open positions (cost) | $1,032.61 |
 | Money in transit between accounts | $1,399.69 |
 | Equity (cash + open at cost + in transit) | $20,893.52 ≈ €18,011.65 |
-| Return so far (realised / capital) | 0.065% over 0.7 days |
+| Return so far (realised / peak money in use) | 0.340% over 0.7 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 1, seen 2, vanished 1.
 Gaps using bookmakers: executed 6, no_cash 41, seen 54, vanished 7 (snapshots combined with Polymarket/Kalshi: 264).
