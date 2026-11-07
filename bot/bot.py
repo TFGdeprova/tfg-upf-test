@@ -28,6 +28,11 @@ E = lambda k, d: type(d)(os.environ.get(k, d))
 POLL_SEC, WINDOW_H, DISCOVER_MIN = E("POLL_SEC", 30), E("WINDOW_H", 3.0), E("DISCOVER_MIN", 10)
 MAX_RUNTIME_MIN, COMMIT_MIN = E("MAX_RUNTIME_MIN", 340), E("COMMIT_MIN", 20)
 THRESH, MIN_PROFIT, CAP_PER_TRADE = E("THRESH", 0.002), E("MIN_PROFIT", 0.02), E("CAP_PER_TRADE", 2500.0)
+# Unlimited capital (default, for the test of the opportunities): cash never limits a trade. Polymarket/Kalshi trades
+# take the full size shown at the best prices; trades that use bookmakers (which publish no depth) are capped at
+# CAP_BOOK_TRADE in total. The capital needed is then a result: the peak money in use per account. UNLIMITED_CAPITAL=0
+# restores the bankroll design (EUR 10,000 on Polymarket + Kalshi, EUR 500 per bookmaker, CAP_PER_TRADE, transfers).
+UNLIMITED, CAP_BOOK_TRADE = E("UNLIMITED_CAPITAL", 1) == 1, E("CAP_BOOK_TRADE", 2500.0)
 FX = E("EUR_USD", 1.16)                 # reporting only: the venues trade in US dollars
 START_CASH = {"PM": E("CASH_PM", 5800.0), "KS": E("CASH_KS", 5800.0)}   # = EUR 10,000 at 1.16
 RAW_EVERY = E("RAW_EVERY", 10)          # raw snapshot every 10th check of a game (~5 min) + every check with t* > -0.5%
@@ -380,9 +385,9 @@ def execute_books(game, st, r):
     caps = [T[i][4] * T[i][2] / x[i] for i in used if i < nT]                 # displayed size on Polymarket/Kalshi
     share = {}
     for i in used: share[venue(i)] = share.get(venue(i), 0.0) + x[i]
-    cash = [st["cash"][v] / s_ for v, s_ in share.items() if s_ > 1e-9]
+    cash = [] if UNLIMITED else [st["cash"][v] / s_ for v, s_ in share.items() if s_ > 1e-9]
     need = max((T[i][8] * T[i][2] / x[i]) if i < nT else MIN_BOOK_STAKE / x[i] for i in used)
-    S = min([CAP_PER_TRADE] + caps + cash)
+    S = min([CAP_BOOK_TRADE if UNLIMITED else CAP_PER_TRADE] + caps + cash)
     if S < need:
         if need <= min(caps + cash): S = need
         else: return ("no_cash" if need <= min(caps or [float("inf")]) else "below_min_size"), None
@@ -431,9 +436,10 @@ def ks_fee(n, p): return math.ceil(KS_FEE * n * p * (1 - p) * 100 - 1e-9) / 100
 def execute(game, st, t_star, x, T, W, contracts):
     used = [i for i in range(len(T)) if x[i] > 1e-6]
     cap = min(T[i][4] * T[i][2] / x[i] for i in used)                     # displayed size
-    cash = min((st["cash"][v] / s) for v in ("PM", "KS") if (s := sum(x[i] for i in used if T[i][6] == v)) > 1e-9)
+    cash = float("inf") if UNLIMITED else min(
+        (st["cash"][v] / s) for v in ("PM", "KS") if (s := sum(x[i] for i in used if T[i][6] == v)) > 1e-9)
     need = max(T[i][8] * T[i][2] / x[i] for i in used)                    # minimum order sizes
-    S = min(CAP_PER_TRADE, cap, cash)
+    S = min(float("inf") if UNLIMITED else CAP_PER_TRADE, cap, cash)
     if S < need:                                                          # minimum sizes may exceed the cap per trade
         if need <= min(cap, cash): S = need
         else: return ("no_cash" if need <= cap else "below_min_size"), None
@@ -687,10 +693,20 @@ def report(st):
     done = [t for t in trades.values() if t["status"] == "settled"]
     pnl = lambda ts: sum(t.get("pnl", 0.0) for t in ts)
     wb = [t for t in done if t.get("with_books")]; sp = [t for t in wb if t.get("spain_only")]
-    lines = [f"# Paper-trading bot: status at {iso(now())}", "",
-             f"Started {st['started']}. Fictional capital: Polymarket {usd(st['start_cash']['PM'])} + Kalshi "
-             f"{usd(st['start_cash']['KS'])} (≈ €10,000) and €{ac.BOOK_START / FX:,.0f} at each bookmaker the bot has used "
-             f"({len(books)} so far): {usd(start)} ≈ {eur(start)} in total. Euro amounts at {FX} USD/EUR.", "",
+    peak = st["peak_total_locked"]
+    capital = (f"Started {st['started']}. **Unlimited capital** (test of the opportunities): cash never limits a trade; "
+               "Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers "
+               f"(which publish no depth) are capped at {usd(CAP_BOOK_TRADE)}. The capital the strategy needed is the peak money "
+               f"in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi "
+               f"{usd(st['start_cash']['PM'])} each, €{ac.BOOK_START / FX:,.0f} per bookmaker) and may go below zero. "
+               f"Euro amounts at {FX} USD/EUR." if UNLIMITED else
+               f"Started {st['started']}. Fictional capital: Polymarket {usd(st['start_cash']['PM'])} + Kalshi "
+               f"{usd(st['start_cash']['KS'])} (≈ €10,000) and €{ac.BOOK_START / FX:,.0f} at each bookmaker the bot has used "
+               f"({len(books)} so far): {usd(start)} ≈ {eur(start)} in total. Euro amounts at {FX} USD/EUR.")
+    ret = (f"| Return so far (realised / peak money in use) | {100 * st['realized_pnl'] / peak:.3f}% over {days:.1f} days |"
+           if UNLIMITED and peak > 0 else
+           f"| Return so far (realised / capital) | {100 * st['realized_pnl'] / start:.3f}% over {days:.1f} days |")
+    lines = [f"# Paper-trading bot: status at {iso(now())}", "", capital, "",
              "| | |", "|---|---|",
              f"| Trades executed / settled | {st['n_trades']} / {st['n_settled']} |",
              f"| Realised profit | {usd(st['realized_pnl'])} ≈ {eur(st['realized_pnl'])} |",
@@ -700,7 +716,7 @@ def report(st):
              f"| Open positions (cost) | {usd(locked)} |",
              f"| Money in transit between accounts | {usd(transit)} |",
              f"| Equity (cash + open at cost + in transit) | {usd(equity)} ≈ {eur(equity)} |",
-             f"| Return so far (realised / capital) | {100 * st['realized_pnl'] / start:.3f}% over {days:.1f} days |", "",
+             ret, "",
              "Polymarket/Kalshi gaps above the threshold: " + (", ".join(f"{k} {v}" for k, v in acts.items()) or "none yet") + ".",
              "Gaps using bookmakers: " + (", ".join(f"{k} {v}" for k, v in bacts.items() if k != "no gap") or "none yet") +
              f" (snapshots combined with Polymarket/Kalshi: {sum(bacts.values())}).", "",
@@ -789,8 +805,9 @@ def main():
     keys = bk.Keys(st)
     for i, r in STATUS["odds_keys"].items():                 # start from the true remaining credits of each key
         if isinstance(r, dict) and r.get("valid"): keys.st["remaining"][i.rsplit("_", 1)[1]] = r["remaining"]
-    log(f"run {st['runs']} | window {WINDOW_H} h | poll {POLL_SEC} s | threshold {100 * THRESH:.2f}% | cap ${CAP_PER_TRADE:.0f}"
-        f" | private raw storage: {'yes' if RAW else 'no'}")
+    log(f"run {st['runs']} | window {WINDOW_H} h | poll {POLL_SEC} s | threshold {100 * THRESH:.2f}% | "
+        + (f"unlimited capital (bookmaker trades up to ${CAP_BOOK_TRADE:.0f})" if UNLIMITED else f"cap ${CAP_PER_TRADE:.0f}")
+        + f" | private raw storage: {'yes' if RAW else 'no'}")
     pool = ThreadPoolExecutor(int(os.environ.get("WORKERS", 8)))
     while time.time() - t_start < MAX_RUNTIME_MIN * 60:
         t0 = time.time(); active = []
@@ -809,7 +826,7 @@ def main():
                 log(f"transfer arrived: {t['src']} -> {t['dst']} ${t['amount'] - t['fee']:,.2f}")
             if t0 - last_settle > 600:
                 settle(st, keys); last_settle = t0
-                for t in ac.rebalance(st, time.time()):
+                for t in ([] if UNLIMITED else ac.rebalance(st, time.time())):   # no transfers needed if unlimited
                     log(f"transfer started: {t['src']} -> {t['dst']} ${t['amount']:,.2f} (fee ${t['fee']:,.2f}, "
                         f"{(t['arrive'] - t['depart']) / 3600:.2f} h)")
                     append_csv(os.path.join(RES, "transfers.csv"), {"time": iso(now()), "from": t["src"], "to": t["dst"],

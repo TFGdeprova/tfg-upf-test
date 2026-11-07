@@ -30,7 +30,11 @@ jobs:
       # Raw data goes to a private repository whose name and access token are secrets (never printed: GitHub masks them).
       HAS_PRIVATE: ${{ secrets.PRIVATE_REPO_TOKEN != '' && secrets.PRIVATE_REPO != '' }}
     steps:
+      # Always the latest commit of main: a run queued an hour earlier must not start from the results of that time
+      # (it would load an old state and drop the rows written since).
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:

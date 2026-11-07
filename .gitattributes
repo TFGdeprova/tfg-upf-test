@@ -1,0 +1,8 @@
+# Append-only result files: if two versions ever have to be merged, keep the rows of both (never drop data).
+results/polls/*.csv merge=union
+results/opportunities.csv merge=union
+results/opportunities_books.csv merge=union
+results/rechecks.csv merge=union
+results/depth.csv merge=union
+results/transfers.csv merge=union
+results/trades.jsonl merge=union

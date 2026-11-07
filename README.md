@@ -14,13 +14,11 @@ it *would* have made, then settles them with the venues' official results.
    the result**? Each market's own taker fee is included.
 3. A gap above 0.2 % must still be there at the next check (one polling interval of reaction time). The bot then
    "buys" at that moment's best prices, never more than the displayed size (liquidity it already took is treated as
-   gone), at least the venue's minimum order size, at most $2,500 per trade, and only with the cash it holds on each
-   venue.
+   gone), at least the venue's minimum order size, with unlimited capital (see Money).
 4. Bookmakers: 3 h, 2 h, 1 h, 30, 15 and 5 minutes before each kick-off the bot takes a snapshot of bookmaker odds
    (The Odds API: winner and totals for football; winner, spreads and totals for the US leagues) and solves the same
    linear program with Polymarket, Kalshi and the best bookmaker odds together. A gap that uses a bookmaker must still
-   be there in a confirmation snapshot taken about one minute later; the bot then bets at those odds (stake limited by
-   the money in that bookmaker account) together with the Polymarket/Kalshi legs.
+   be there in a confirmation snapshot taken about one minute later; the bot then bets at those odds (at most $2,500 per trade in total) together with the Polymarket/Kalshi legs.
 5. After the game, positions are settled from the official resolutions (Polymarket, Kalshi) and final scores
    (bookmakers), and the money returns to each account.
 6. Every gap above 0.1 %, traded or not, is **followed** (the tests used in the finance literature on arbitrage):
@@ -35,16 +33,18 @@ it *would* have made, then settles them with the venues' official results.
      (capacity). Bookmaker bets are taken at fixed odds (no public depth).
    - *Freshness:* how long each price in the portfolio had been unchanged when the gap was seen.
 
-## Money and transfers (all fictional)
-- Starting capital: $5,800 on Polymarket and $5,800 on Kalshi (about €10,000), and €500 at each bookmaker, opened the
-  first time the bot bets there. Results are shown for all bookmakers and for those whose operator holds a Spanish
-  licence (DGOJ list).
-- Money moves between accounts only by transfer, with the delays and fees the venues document: Polymarket withdrawals
-  instant and free, deposits on-chain (~15 min); Kalshi crypto deposits and withdrawals about 30 minutes; bookmakers:
-  deposits immediate, withdrawals 24 hours; dollars ↔ euros 2 hours and 0.5%. Money in transit cannot be used.
-- When an account falls below half of its starting balance, it is topped up from accounts holding more than 120% of
-  theirs (fastest route first). The summary reports the peak money in use per account, i.e. how much capital was
-  really needed.
+## Money (all fictional)
+- **Unlimited capital during the November 2026 test.** The aim is to measure the opportunities themselves (the tests
+  used in the finance literature), so money never limits a trade: Polymarket/Kalshi trades take the full size shown at
+  the best prices (the market's own limit), and trades that use bookmakers, which publish no depth, are capped at
+  $2,500 in total. The capital the strategy really needed is a result: the peak money in use per account. Balances start
+  from the earlier reference amounts ($5,800 on Polymarket and on Kalshi, €500 per bookmaker) and may go below zero.
+  Results are shown for all bookmakers and for those whose operator holds a Spanish licence (DGOJ list).
+- The bankroll design is still available (`UNLIMITED_CAPITAL=0`): about €10,000 on Polymarket + Kalshi and €500 per
+  bookmaker, at most $2,500 per trade, and money moved between accounts only by transfer, with the delays and fees the
+  venues document (Polymarket withdrawals instant and free, deposits on-chain ~15 min; Kalshi crypto about 30 minutes
+  each way; bookmakers: deposits immediate, withdrawals 24 hours; dollars ↔ euros 2 hours and 0.5%), topping up an
+  account below half of its starting balance from accounts holding more than 120% of theirs.
 
 ## Results
 - [`results/summary.md`](results/summary.md): balances, trades and realised profit (updated every 20 minutes)
