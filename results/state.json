@@ -4,8 +4,8 @@
   "KS": 5632.9,
   "BK:smarkets": 580.0,
   "BK:pinnacle": 0.0,
-  "BK:onexbet": 0.0,
-  "BK:matchbook": 0.0,
+  "BK:onexbet": -2708.0,
+  "BK:matchbook": -1620.9899999999998,
   "BK:leovegas_se": 680.9276799999999,
   "BK:gtbets": 580.0,
   "BK:winamax_de": 547.39,
@@ -13,7 +13,7 @@
   "BK:unibet_se": 580.0,
   "BK:tipico_de": 580.0,
   "BK:coolbet": 580.0,
-  "BK:unibet_nl": 580.0,
+  "BK:unibet_nl": -90.97000000000003,
   "BK:marathonbet": 580.0,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 580.0,
@@ -232,6 +232,147 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 7,
+   "time": "2026-11-07T15:27:05Z",
+   "game": "ere:26NOV07FORTEL",
+   "title": "Fortuna Sittard v Telstar 1963",
+   "league": "ere",
+   "kickoff": "2026-11-07T15:30:00Z",
+   "min_to_ko": 2.9,
+   "t_lp": 0.006466,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "onexbet",
+    "unibet_nl"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "33c5cad848eb423e163a9bf5631ccefe",
+    "sport": "soccer_netherlands_eredivisie",
+    "home": "Fortuna Sittard",
+    "away": "SC Telstar"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2516.1345,
+   "guaranteed_profit": 16.1545,
+   "legs": [
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Fortuna Sittard",
+     "side": "home",
+     "point": null,
+     "odds": 2.24,
+     "eff": 2.2152000000000003,
+     "three_way": true,
+     "stake": 1135.86,
+     "cost": 1135.86,
+     "label": "h2h Fortuna Sittard  @2.24"
+    },
+    {
+     "venue": "BK:unibet_nl",
+     "book": "unibet_nl",
+     "market": "h2h",
+     "outcome": "SC Telstar",
+     "side": "away",
+     "point": null,
+     "odds": 3.75,
+     "eff": 3.75,
+     "three_way": true,
+     "stake": 670.97,
+     "cost": 670.97,
+     "label": "h2h SC Telstar  @3.75"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.63,
+     "eff": 3.63,
+     "three_way": true,
+     "stake": 693.15,
+     "cost": 693.15,
+     "label": "h2h Draw  @3.63"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 8,
+   "time": "2026-11-07T15:32:03Z",
+   "game": "epl:26NOV07NFOMCI",
+   "title": "Nottingham Forest FC v Manchester City FC",
+   "league": "epl",
+   "kickoff": "2026-11-07T17:30:00Z",
+   "min_to_ko": 117.9,
+   "t_lp": 0.011807,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "59c5f635cfe11613c07e9a5520ced5c1",
+    "sport": "soccer_epl",
+    "home": "Nottingham Forest",
+    "away": "Manchester City"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2529.4678,
+   "guaranteed_profit": 29.4878,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Manchester City",
+     "side": "away",
+     "point": null,
+     "odds": 1.78,
+     "eff": 1.78,
+     "three_way": true,
+     "stake": 1421.07,
+     "cost": 1421.07,
+     "label": "h2h Manchester City  @1.78"
+    },
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Nottingham Forest",
+     "side": "home",
+     "point": null,
+     "odds": 5.3,
+     "eff": 5.2139999999999995,
+     "three_way": true,
+     "stake": 485.13,
+     "cost": 485.13,
+     "label": "h2h Nottingham Forest  @5.3"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.26,
+     "eff": 4.26,
+     "three_way": true,
+     "stake": 593.78,
+     "cost": 593.78,
+     "label": "h2h Draw  @4.26"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -241,7 +382,7 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 6,
+ "n_trades": 8,
  "n_settled": 3,
  "realized_pnl": 13.513679999999795,
  "runs": 5,
@@ -250,8 +391,8 @@
   "KS": 167.1,
   "BK:smarkets": 34.860000000000014,
   "BK:pinnacle": 0.0,
-  "BK:onexbet": 149.01,
-  "BK:matchbook": 69.03000000000003,
+  "BK:onexbet": 2857.01,
+  "BK:matchbook": 1690.02,
   "BK:leovegas_se": 0.0,
   "BK:gtbets": 0.0,
   "BK:winamax_de": 32.61,
@@ -259,7 +400,7 @@
   "BK:unibet_se": 0.0,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 0.0,
-  "BK:unibet_nl": 0.0,
+  "BK:unibet_nl": 670.97,
   "BK:marathonbet": 0.0,
   "BK:coral": 580.0,
   "BK:betfair_ex_uk": 0.0,
@@ -270,8 +411,8 @@
   "KS": 167.1,
   "BK:smarkets": 580.0,
   "BK:pinnacle": 580.0,
-  "BK:onexbet": 580.0,
-  "BK:matchbook": 580.0,
+  "BK:onexbet": 2857.01,
+  "BK:matchbook": 1690.02,
   "BK:leovegas_se": 579.99,
   "BK:gtbets": 0.0,
   "BK:winamax_de": 32.61,
@@ -279,7 +420,7 @@
   "BK:unibet_se": 0.0,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 0.0,
-  "BK:unibet_nl": 0.0,
+  "BK:unibet_nl": 670.97,
   "BK:marathonbet": 0.0,
   "BK:coral": 580.0,
   "BK:betfair_ex_uk": 0.0,
@@ -290,8 +431,8 @@
   "KS": 5632.9,
   "BK:smarkets": 1.4210854715202004e-14,
   "BK:pinnacle": 0.0,
-  "BK:onexbet": 0.0,
-  "BK:matchbook": 0.0,
+  "BK:onexbet": -2708.0,
+  "BK:matchbook": -1620.9899999999998,
   "BK:leovegas_se": 0.009999999999990905,
   "BK:gtbets": 580.0,
   "BK:winamax_de": 547.39,
@@ -299,7 +440,7 @@
   "BK:unibet_se": 580.0,
   "BK:tipico_de": 580.0,
   "BK:coolbet": 580.0,
-  "BK:unibet_nl": 580.0,
+  "BK:unibet_nl": -90.97000000000003,
   "BK:marathonbet": 580.0,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 580.0,
@@ -344,18 +485,18 @@
   "moved": 1399.686,
   "fees": 0.0
  },
- "peak_total_locked": 3972.0,
+ "peak_total_locked": 7432.26,
  "odds": {
   "remaining": {
-   "1": 412,
-   "2": 413,
-   "3": 415,
-   "4": 415,
-   "5": 414
+   "1": 408,
+   "2": 409,
+   "3": 411,
+   "4": 407,
+   "5": 407
   },
   "spent": {
    "2026-11-06": 27,
-   "2026-11-07": 398
+   "2026-11-07": 425
   }
  },
  "book_slots": {
@@ -449,6 +590,11 @@
   "nhl|2026-11-07T18:00|180": "2026-11-07T15:00:24Z",
   "fl1|2026-11-07T18:00|180": "2026-11-07T15:00:36Z",
   "lal|2026-11-07T15:15|5": "2026-11-07T15:10:25Z",
-  "ere|2026-11-07T15:30|15": "2026-11-07T15:15:25Z"
+  "ere|2026-11-07T15:30|15": "2026-11-07T15:15:25Z",
+  "ere|2026-11-07T15:30|5": "2026-11-07T15:25:24Z",
+  "nhl|2026-11-07T17:30|120": "2026-11-07T15:30:23Z",
+  "epl|2026-11-07T17:30|120": "2026-11-07T15:30:24Z",
+  "lal|2026-11-07T17:30|120": "2026-11-07T15:30:25Z",
+  "bun|2026-11-07T17:30|120": "2026-11-07T15:30:33Z"
  }
 }

@@ -263,3 +263,10 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-07T15:00:49Z,nhl:26NOV07STLNSH,STL at NSH,nhl,179.2,scheduled,10,-0.019379,-0.01335,no gap,,,
 2026-11-07T15:10:33Z,lal:26NOV07ESPDEP,RCD Espanyol de Barcelona v RC Deportivo A Coruña,lal,4.4,scheduled,5,-0.013232,0.001967,no gap,,lal:26NOV07ESPDEP|2026-11-07T15:10:33Z|with_books,
 2026-11-07T15:15:33Z,ere:26NOV07FORTEL,Fortuna Sittard v Telstar 1963,ere,14.4,scheduled,9,-0.014511,-0.001321,no gap,,,
+2026-11-07T15:25:35Z,ere:26NOV07FORTEL,Fortuna Sittard v Telstar 1963,ere,4.4,scheduled,9,-0.014511,0.009517,seen,,ere:26NOV07FORTEL|2026-11-07T15:25:33Z|with_books,matchbook h2h Fortuna Sittard  @2.24 x0.456 | unibet_nl h2h SC Telstar  @3.75 x0.269 | pinnacle h2h Draw  @3.67 x0.275
+2026-11-07T15:27:05Z,ere:26NOV07FORTEL,Fortuna Sittard v Telstar 1963,ere,2.9,confirmation,9,-0.014511,0.006466,executed,,,matchbook h2h Fortuna Sittard  @2.24 x0.454 | unibet_nl h2h SC Telstar  @3.75 x0.268 | onexbet h2h Draw  @3.63 x0.277
+2026-11-07T15:30:38Z,nhl:26NOV07FLAWSH,FLA at WSH,nhl,119.4,scheduled,6,-0.017544,-0.017544,no gap,,,
+2026-11-07T15:30:42Z,epl:26NOV07NFOMCI,Nottingham Forest FC v Manchester City FC,epl,119.3,scheduled,7,-0.011921,0.011807,seen,,epl:26NOV07NFOMCI|2026-11-07T15:30:42Z|with_books,onexbet h2h Manchester City  @1.78 x0.568 | matchbook h2h Nottingham Forest  @5.3 x0.194 | onexbet h2h Draw  @4.26 x0.238
+2026-11-07T15:30:42Z,lal:26NOV07OSAATH,CA Osasuna v Athletic Club,lal,119.3,scheduled,7,-0.011921,-0.005488,no gap,,,
+2026-11-07T15:30:44Z,bun:26NOV07VFBSVW,VfB Stuttgart v SV Werder Bremen,bun,119.3,scheduled,7,-0.013232,0.001005,no gap,,bun:26NOV07VFBSVW|2026-11-07T15:30:44Z|with_books,
+2026-11-07T15:32:03Z,epl:26NOV07NFOMCI,Nottingham Forest FC v Manchester City FC,epl,117.9,confirmation,7,-0.011921,0.011807,executed,,,onexbet h2h Manchester City  @1.78 x0.568 | matchbook h2h Nottingham Forest  @5.3 x0.194 | onexbet h2h Draw  @4.26 x0.238
