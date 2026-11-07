@@ -63,3 +63,9 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-07T09:30:05Z,elc:26NOV07WREWOL,Wrexham AFC v Wolverhampton Wanderers FC,elc,179.9,scheduled,5,-0.015761,-0.011376,no gap,,,
 2026-11-07T09:30:05Z,elc:26NOV07BRCNOR,Bristol City FC v Norwich City FC,elc,179.9,scheduled,5,-0.015761,0.001119,no gap,,elc:26NOV07BRCNOR|2026-11-07T09:30:02Z|with_books,
 2026-11-07T09:30:05Z,elc:26NOV07PORSTK,Portsmouth FC v Stoke City FC,elc,179.9,scheduled,7,-0.013623,-0.005883,no gap,,,
+2026-11-07T10:30:25Z,epl:26NOV07LEETOT,Leeds United FC v Tottenham Hotspur FC,epl,119.6,scheduled,5,-0.009032,0.00261,seen,,epl:26NOV07LEETOT|2026-11-07T10:30:25Z|with_books,smarkets h2h Leeds United  @2.9 x0.350 | pinnacle h2h Tottenham Hotspur  @2.69 x0.373 | onexbet h2h Draw  @3.62 x0.277
+2026-11-07T10:30:25Z,elc:26NOV07WREWOL,Wrexham AFC v Wolverhampton Wanderers FC,elc,119.6,scheduled,7,-0.013232,0.001383,no gap,,elc:26NOV07WREWOL|2026-11-07T10:30:23Z|with_books,
+2026-11-07T10:30:25Z,elc:26NOV07BRCNOR,Bristol City FC v Norwich City FC,elc,119.6,scheduled,5,-0.015761,0.004318,seen,,elc:26NOV07BRCNOR|2026-11-07T10:30:25Z|with_books,matchbook h2h Bristol City  @3.15 x0.323 | leovegas_se h2h Norwich City  @2.55 x0.394 | leovegas_se h2h Draw  @3.55 x0.283
+2026-11-07T10:30:25Z,elc:26NOV07PORSTK,Portsmouth FC v Stoke City FC,elc,119.6,scheduled,9,-0.018169,-0.007773,no gap,,,
+2026-11-07T10:31:55Z,epl:26NOV07LEETOT,Leeds United FC v Tottenham Hotspur FC,epl,118.1,confirmation,5,-0.009032,0.00261,executed,,,smarkets h2h Leeds United  @2.9 x0.350 | pinnacle h2h Tottenham Hotspur  @2.69 x0.373 | onexbet h2h Draw  @3.62 x0.277
+2026-11-07T10:31:55Z,elc:26NOV07BRCNOR,Bristol City FC v Norwich City FC,elc,118.1,confirmation,5,-0.015761,0.004318,executed,,,matchbook h2h Bristol City  @3.15 x0.323 | leovegas_se h2h Norwich City  @2.55 x0.394 | leovegas_se h2h Draw  @3.55 x0.283

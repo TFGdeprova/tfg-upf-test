@@ -1,30 +1,197 @@
 {
  "cash": {
   "PM": 5800.0,
-  "KS": 5800.0
+  "KS": 5800.0,
+  "BK:smarkets": 34.860000000000014,
+  "BK:pinnacle": 0.0,
+  "BK:onexbet": 149.01,
+  "BK:matchbook": 302.98,
+  "BK:leovegas_se": 0.009999999999990905
  },
  "start_cash": {
   "PM": 5800.0,
-  "KS": 5800.0
+  "KS": 5800.0,
+  "BK:smarkets": 580.0,
+  "BK:pinnacle": 580.0,
+  "BK:onexbet": 580.0,
+  "BK:matchbook": 580.0,
+  "BK:leovegas_se": 580.0
  },
- "open": [],
+ "open": [
+  {
+   "trade_id": 1,
+   "time": "2026-11-07T10:31:55Z",
+   "game": "epl:26NOV07LEETOT",
+   "title": "Leeds United FC v Tottenham Hotspur FC",
+   "league": "epl",
+   "kickoff": "2026-11-07T12:30:00Z",
+   "min_to_ko": 118.1,
+   "t_lp": 0.00261,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "pinnacle",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "5c87852253fd11eea5d34ad723356607",
+    "sport": "soccer_epl",
+    "home": "Leeds United",
+    "away": "Tottenham Hotspur"
+   },
+   "cost": 1556.13,
+   "guaranteed_payout": 1560.1838,
+   "guaranteed_profit": 4.0538,
+   "legs": [
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Leeds United",
+     "side": "home",
+     "point": null,
+     "odds": 2.9,
+     "eff": 2.862,
+     "three_way": true,
+     "stake": 545.14,
+     "cost": 545.14,
+     "label": "h2h Leeds United  @2.9"
+    },
+    {
+     "venue": "BK:pinnacle",
+     "book": "pinnacle",
+     "market": "h2h",
+     "outcome": "Tottenham Hotspur",
+     "side": "away",
+     "point": null,
+     "odds": 2.69,
+     "eff": 2.69,
+     "three_way": true,
+     "stake": 580.0,
+     "cost": 580.0,
+     "label": "h2h Tottenham Hotspur  @2.69"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.62,
+     "eff": 3.62,
+     "three_way": true,
+     "stake": 430.99,
+     "cost": 430.99,
+     "label": "h2h Draw  @3.62"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 2,
+   "time": "2026-11-07T10:31:55Z",
+   "game": "elc:26NOV07BRCNOR",
+   "title": "Bristol City FC v Norwich City FC",
+   "league": "elc",
+   "kickoff": "2026-11-07T12:30:00Z",
+   "min_to_ko": 118.1,
+   "t_lp": 0.004318,
+   "with_books": true,
+   "books": [
+    "leovegas_se",
+    "matchbook"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "89fe6860f3058526dd227dc27efd902a",
+    "sport": "soccer_efl_champ",
+    "home": "Bristol City",
+    "away": "Norwich City"
+   },
+   "cost": 857.01,
+   "guaranteed_payout": 860.6975,
+   "guaranteed_profit": 3.6875,
+   "legs": [
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Bristol City",
+     "side": "home",
+     "point": null,
+     "odds": 3.15,
+     "eff": 3.1069999999999998,
+     "three_way": true,
+     "stake": 277.02,
+     "cost": 277.02,
+     "label": "h2h Bristol City  @3.15"
+    },
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Norwich City",
+     "side": "away",
+     "point": null,
+     "odds": 2.55,
+     "eff": 2.55,
+     "three_way": true,
+     "stake": 337.54,
+     "cost": 337.54,
+     "label": "h2h Norwich City  @2.55"
+    },
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.55,
+     "eff": 3.55,
+     "three_way": true,
+     "stake": 242.45,
+     "cost": 242.45,
+     "label": "h2h Draw  @3.55"
+    }
+   ],
+   "status": "open"
+  }
+ ],
  "consumed": {},
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 0,
+ "n_trades": 2,
  "n_settled": 0,
  "realized_pnl": 0.0,
  "runs": 4,
  "locked": {
   "PM": 0.0,
-  "KS": 0.0
+  "KS": 0.0,
+  "BK:smarkets": 545.14,
+  "BK:pinnacle": 580.0,
+  "BK:onexbet": 430.99,
+  "BK:matchbook": 277.02,
+  "BK:leovegas_se": 579.99
  },
  "peak_locked": {
   "PM": 0.0,
-  "KS": 0.0
+  "KS": 0.0,
+  "BK:smarkets": 545.14,
+  "BK:pinnacle": 580.0,
+  "BK:onexbet": 430.99,
+  "BK:matchbook": 277.02,
+  "BK:leovegas_se": 579.99
  },
  "min_cash": {
   "PM": 5800.0,
-  "KS": 5800.0
+  "KS": 5800.0,
+  "BK:smarkets": 34.860000000000014,
+  "BK:pinnacle": 0.0,
+  "BK:onexbet": 149.01,
+  "BK:matchbook": 302.98,
+  "BK:leovegas_se": 0.009999999999990905
  },
  "transfers": [],
  "transfer_stats": {
@@ -32,18 +199,18 @@
   "moved": 0.0,
   "fees": 0.0
  },
- "peak_total_locked": 0.0,
+ "peak_total_locked": 2413.14,
  "odds": {
   "remaining": {
-   "1": 485,
+   "1": 481,
    "2": 481,
-   "3": 481,
-   "4": 482,
-   "5": 482
+   "3": 477,
+   "4": 478,
+   "5": 478
   },
   "spent": {
    "2026-11-06": 27,
-   "2026-11-07": 56
+   "2026-11-07": 72
   }
  },
  "book_slots": {
@@ -76,6 +243,8 @@
   "nba|2026-11-07T03:00|15": "2026-11-07T02:45:20Z",
   "nba|2026-11-07T03:00|5": "2026-11-07T02:55:20Z",
   "epl|2026-11-07T12:30|180": "2026-11-07T09:30:00Z",
-  "elc|2026-11-07T12:30|180": "2026-11-07T09:30:00Z"
+  "elc|2026-11-07T12:30|180": "2026-11-07T09:30:00Z",
+  "epl|2026-11-07T12:30|120": "2026-11-07T10:30:20Z",
+  "elc|2026-11-07T12:30|120": "2026-11-07T10:30:20Z"
  }
 }

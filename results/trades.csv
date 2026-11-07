@@ -1,0 +1,3 @@
+trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_only,cost,guaranteed_payout,guaranteed_profit,status,n_legs
+1,2026-11-07T10:31:55Z,epl:26NOV07LEETOT,Leeds United FC v Tottenham Hotspur FC,epl,2026-11-07T12:30:00Z,118.1,0.00261,True,"['onexbet', 'pinnacle', 'smarkets']",False,1556.13,1560.1838,4.0538,open,3
+2,2026-11-07T10:31:55Z,elc:26NOV07BRCNOR,Bristol City FC v Norwich City FC,elc,2026-11-07T12:30:00Z,118.1,0.004318,True,"['leovegas_se', 'matchbook']",False,857.01,860.6975,3.6875,open,3
