@@ -1,27 +1,27 @@
-# Paper-trading bot: status at 2026-11-07T23:38:23Z
+# Paper-trading bot: status at 2026-11-07T23:58:27Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 26 / 24 |
-| Realised profit | $524.67 ≈ €452.30 |
+| Trades executed / settled | 26 / 26 |
+| Realised profit | $544.87 ≈ €469.72 |
 | … Polymarket/Kalshi only | $0.00 |
-| … with bookmakers (all) | $524.67 |
+| … with bookmakers (all) | $544.87 |
 | … with bookmakers licensed in Spain only | $0.00 |
-| Open positions (cost) | $2,788.21 |
+| Open positions (cost) | $0.00 |
 | Money in transit between accounts | $1,399.69 |
-| Equity (cash + open at cost + in transit) | $23,144.67 ≈ €19,952.30 |
-| Return so far (realised / peak money in use) | 1.124% over 1.0 days |
+| Equity (cash + open at cost + in transit) | $23,164.88 ≈ €19,969.72 |
+| Return so far (realised / peak money in use) | 1.167% over 1.0 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 1, seen 2, vanished 1.
-Gaps using bookmakers: executed 26, no_cash 41, seen 79, vanished 12 (snapshots combined with Polymarket/Kalshi: 403).
+Gaps using bookmakers: executed 26, no_cash 41, seen 79, vanished 12 (snapshots combined with Polymarket/Kalshi: 409).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 1,521 (about 5.2 days at the current pace).
+The Odds API credits left: 1,513 (about 5.1 days at the current pace).
 
 ## Capital by account
 
@@ -29,7 +29,7 @@ Peak in use = the most money that was tied up in open positions at the same time
 
 | account | start | cash now | in open positions | peak in use | lowest cash |
 |---|---|---|---|---|---|
-| Polymarket | $5,800.00 | $5,659.20 | $140.80 | $140.80 | $5,659.20 |
+| Polymarket | $5,800.00 | $5,659.20 | $0.00 | $140.80 | $5,659.20 |
 | Kalshi | $5,800.00 | $5,632.90 | $0.00 | $167.10 | $5,632.90 |
 | betfair_ex_eu (Spain) | $580.00 | $453.07 | $0.00 | $126.93 | $453.07 |
 | betfair_ex_uk (Spain) | $580.00 | $580.00 | $0.00 | $0.00 | $580.00 |
@@ -42,10 +42,10 @@ Peak in use = the most money that was tied up in open positions at the same time
 | leovegas_se | $580.00 | $1,789.30 | $0.00 | $1,403.00 | $-722.07 |
 | marathonbet (Spain) | $580.00 | $1,116.32 | $0.00 | $1,986.36 | $-1,406.36 |
 | matchbook | $580.00 | $3,632.14 | $0.00 | $2,789.92 | $-3,925.78 |
-| onexbet | $580.00 | $2,567.02 | $2,414.65 | $22,357.23 | $-20,246.55 |
+| onexbet | $580.00 | $5,375.44 | $0.00 | $22,357.23 | $-20,246.55 |
 | pinnacle | $580.00 | $-1,226.60 | $0.00 | $1,226.60 | $-1,226.60 |
 | skybet | $580.00 | $192.56 | $0.00 | $387.44 | $192.56 |
-| smarkets | $580.00 | $-2,181.58 | $232.76 | $2,761.58 | $-2,181.58 |
+| smarkets | $580.00 | $-2,181.58 | $0.00 | $2,761.58 | $-2,181.58 |
 | tipico_de | $580.00 | $2,622.00 | $0.00 | $486.19 | $93.81 |
 | unibet_nl | $580.00 | $-4,248.48 | $0.00 | $4,157.51 | $-4,248.48 |
 | unibet_se | $580.00 | $1,218.99 | $0.00 | $1,879.37 | $-1,299.37 |
@@ -75,13 +75,13 @@ Depth at detection (98 gaps with full order books): median capacity (largest siz
 | # | time (UTC) | game | min to KO | with bookmakers | gap | cost | guaranteed profit | status | P&L |
 |---|---|---|---|---|---|---|---|---|---|
 | 26 | 11-07T19:56 | Valencia CF v Real Madrid CF | 3.0 | marathonbet, matchbook, unibet_nl | 0.91% | $2499.98 | $22.57 | settled | $+22.70 |
-| 25 | 11-07T19:52 | Paris Saint-Germain FC v ES Troyes AC | 13.0 | onexbet, smarkets | 0.55% | $2499.99 | $13.82 | open |  |
+| 25 | 11-07T19:52 | Paris Saint-Germain FC v ES Troyes AC | 13.0 | onexbet, smarkets | 0.55% | $2499.99 | $13.82 | settled | $+13.86 |
 | 24 | 11-07T19:46 | Valencia CF v Real Madrid CF | 13.0 | onexbet, smarkets, unibet_nl | 1.91% | $2499.99 | $47.71 | settled | $+47.76 |
 | 23 | 11-07T19:42 | AS Roma v US Sassuolo Calcio | 3.0 | skybet, smarkets, unibet_se | 0.73% | $2499.99 | $18.35 | settled | $+18.37 |
 | 22 | 11-07T19:37 | Paris Saint-Germain FC v ES Troyes AC | 28.0 | onexbet, smarkets | 1.36% | $2499.99 | $34.01 | settled | $+34.08 |
 | 21 | 11-07T19:32 | SBV Excelsior v Go Ahead Eagles | 27.9 | betonlineag, matchbook, unibet_nl | 0.68% | $2499.99 | $16.94 | settled | $+16.95 |
 | 20 | 11-07T19:32 | Valencia CF v Real Madrid CF | 28.0 | onexbet, unibet_nl | 1.48% | $2499.98 | $36.84 | settled | $+36.92 |
-| 19 | 11-07T19:07 | Paris Saint-Germain FC v ES Troyes AC | 58.0 | onexbet | 2.20% | $288.22 | $6.35 | open |  |
+| 19 | 11-07T19:07 | Paris Saint-Germain FC v ES Troyes AC | 58.0 | onexbet | 2.20% | $288.22 | $6.35 | settled | $+6.35 |
 | 18 | 11-07T19:01 | SBV Excelsior v Go Ahead Eagles | 58.0 | coolbet, matchbook, unibet_nl | 0.46% | $2499.99 | $11.50 | settled | $+11.52 |
 | 17 | 11-07T19:01 | Valencia CF v Real Madrid CF | 58.0 | coral, smarkets, unibet_nl | 1.34% | $2499.99 | $33.51 | settled | $+33.59 |
 | 16 | 11-07T18:46 | AS Roma v US Sassuolo Calcio | 58.0 | onexbet, smarkets, winamax_de | 0.83% | $2499.98 | $20.72 | settled | $+20.78 |
