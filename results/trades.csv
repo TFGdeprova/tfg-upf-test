@@ -22,3 +22,6 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 21,2026-11-07T19:32:03Z,ere:26NOV07EXCGAE,SBV Excelsior v Go Ahead Eagles,ere,2026-11-07T20:00:00Z,27.9,0.006779,True,"['betonlineag', 'matchbook', 'unibet_nl']",False,2499.99,2516.9274,16.9374,open,,,,,3
 22,2026-11-07T19:37:00Z,fl1:26NOV07PSGEST,Paris Saint-Germain FC v ES Troyes AC,fl1,2026-11-07T20:05:00Z,28.0,0.013629,True,"['onexbet', 'smarkets']",False,2499.99,2534.004,34.014,open,,,,,3
 23,2026-11-07T19:42:00Z,sea:26NOV07ROMSAS,AS Roma v US Sassuolo Calcio,sea,2026-11-07T19:45:00Z,3.0,0.007346,True,"['skybet', 'smarkets', 'unibet_se']",False,2499.99,2518.344,18.354,open,,,,,3
+24,2026-11-07T19:46:58Z,lal:26NOV07VCFRMA,Valencia CF v Real Madrid CF,lal,2026-11-07T20:00:00Z,13.0,0.019103,True,"['onexbet', 'smarkets', 'unibet_nl']",False,2499.99,2547.7004,47.7104,open,,,,,3
+25,2026-11-07T19:52:00Z,fl1:26NOV07PSGEST,Paris Saint-Germain FC v ES Troyes AC,fl1,2026-11-07T20:05:00Z,13.0,0.005541,True,"['onexbet', 'smarkets']",False,2499.9911,2513.808,13.8169,open,,,,,3
+26,2026-11-07T19:56:58Z,lal:26NOV07VCFRMA,Valencia CF v Real Madrid CF,lal,2026-11-07T20:00:00Z,3.0,0.009073,True,"['marathonbet', 'matchbook', 'unibet_nl']",False,2499.98,2522.5521,22.5721,open,,,,,3

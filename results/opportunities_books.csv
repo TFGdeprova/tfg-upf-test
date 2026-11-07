@@ -351,3 +351,16 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-07T19:37:00Z,fl1:26NOV07PSGEST,Paris Saint-Germain FC v ES Troyes AC,fl1,28.0,confirmation,7,-0.004771,0.013629,executed,,,onexbet h2h Paris Saint Germain  @1.17 x0.866 | smarkets h2h Troyes  @25.97 x0.040 | smarkets h2h Draw  @11.0 x0.094
 2026-11-07T19:40:30Z,sea:26NOV07ROMSAS,AS Roma v US Sassuolo Calcio,sea,4.5,scheduled,7,-0.010542,0.007346,seen,,sea:26NOV07ROMSAS|2026-11-07T19:40:30Z|with_books,unibet_se h2h AS Roma  @1.34 x0.752 | smarkets h2h Sassuolo  @11.0 x0.093 | skybet h2h Draw  @6.5 x0.155
 2026-11-07T19:42:00Z,sea:26NOV07ROMSAS,AS Roma v US Sassuolo Calcio,sea,3.0,confirmation,7,-0.011211,0.007346,executed,,,unibet_se h2h AS Roma  @1.34 x0.752 | smarkets h2h Sassuolo  @11.0 x0.093 | skybet h2h Draw  @6.5 x0.155
+2026-11-07T19:45:30Z,lal:26NOV07VCFRMA,Valencia CF v Real Madrid CF,lal,14.5,scheduled,11,-0.00912,0.024105,seen,,lal:26NOV07VCFRMA|2026-11-07T19:45:30Z|with_books,onexbet h2h Real Madrid  @1.29 x0.794 | matchbook h2h Valencia  @15.0 x0.070 | unibet_nl h2h Draw  @7.5 x0.137
+2026-11-07T19:45:30Z,ere:26NOV07EXCGAE,SBV Excelsior v Go Ahead Eagles,ere,14.5,scheduled,9,-0.013669,-0.001032,no gap,,,
+2026-11-07T19:45:30Z,scop:26NOV07MIRRFC,St Mirren FC v Rangers FC,scop,14.5,scheduled,11,-0.014511,-0.00462,no gap,,,
+2026-11-07T19:46:58Z,lal:26NOV07VCFRMA,Valencia CF v Real Madrid CF,lal,13.0,confirmation,11,-0.00912,0.019103,executed,,,onexbet h2h Real Madrid  @1.29 x0.790 | smarkets h2h Valencia  @14.01 x0.074 | unibet_nl h2h Draw  @7.5 x0.136
+2026-11-07T19:50:30Z,fl1:26NOV07PSGEST,Paris Saint-Germain FC v ES Troyes AC,fl1,14.5,scheduled,7,-0.004588,0.005541,seen,4038.82,fl1:26NOV07PSGEST|2026-11-07T19:50:28Z|with_books,PM YES 0.038 x0.040 Will ES Troyes AC win on 2026-11-07? | onexbet h2h Paris Saint Germain  @1.16 x0.867 | smarkets h2h Draw  @11.0 x0.093
+2026-11-07T19:52:00Z,fl1:26NOV07PSGEST,Paris Saint-Germain FC v ES Troyes AC,fl1,13.0,confirmation,7,-0.004588,0.005541,executed,5716.74,,PM YES 0.038 x0.040 Will ES Troyes AC win on 2026-11-07? | onexbet h2h Paris Saint Germain  @1.16 x0.867 | smarkets h2h Draw  @11.0 x0.093
+2026-11-07T19:55:31Z,lal:26NOV07VCFRMA,Valencia CF v Real Madrid CF,lal,4.5,scheduled,9,-0.008926,0.015375,seen,,lal:26NOV07VCFRMA|2026-11-07T19:55:31Z|with_books,coral h2h Real Madrid  @1.28 x0.793 | matchbook h2h Valencia  @14.5 x0.071 | unibet_nl h2h Draw  @7.5 x0.135
+2026-11-07T19:55:31Z,ere:26NOV07EXCGAE,SBV Excelsior v Go Ahead Eagles,ere,4.5,scheduled,9,-0.015761,-0.004386,no gap,,,
+2026-11-07T19:55:31Z,scop:26NOV07MIRRFC,St Mirren FC v Rangers FC,scop,4.5,scheduled,11,-0.010685,0.000726,no gap,,,
+2026-11-07T19:56:58Z,lal:26NOV07VCFRMA,Valencia CF v Real Madrid CF,lal,3.0,confirmation,9,-0.007751,0.009073,executed,,,marathonbet h2h Real Madrid  @1.27 x0.795 | matchbook h2h Valencia  @14.5 x0.071 | unibet_nl h2h Draw  @7.5 x0.135
+2026-11-07T20:00:28Z,fl1:26NOV07PSGEST,Paris Saint-Germain FC v ES Troyes AC,fl1,4.5,scheduled,9,-0.004496,-0.000938,no gap,,,
+2026-11-07T20:00:28Z,nba:26NOV07DENIND,DEN at IND,nba,119.5,scheduled,12,-0.013824,-0.013824,no gap,,,
+2026-11-07T20:00:28Z,nhl:26NOV07NYRSEA,NYR at SEA,nhl,119.5,scheduled,6,-0.018371,-0.013501,no gap,,,
