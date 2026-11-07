@@ -10,7 +10,8 @@
   "BK:gtbets": 580.0,
   "BK:winamax_de": 547.39,
   "BK:grosvenor": 287.7,
-  "BK:unibet_se": 580.0
+  "BK:unibet_se": 580.0,
+  "BK:tipico_de": 580.0
  },
  "start_cash": {
   "PM": 5800.0,
@@ -23,7 +24,8 @@
   "BK:gtbets": 580.0,
   "BK:winamax_de": 580.0,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": 580.0
+  "BK:unibet_se": 580.0,
+  "BK:tipico_de": 580.0
  },
  "open": [
   {
@@ -383,7 +385,8 @@
   "BK:gtbets": 0.0,
   "BK:winamax_de": 32.61,
   "BK:grosvenor": 292.3,
-  "BK:unibet_se": 0.0
+  "BK:unibet_se": 0.0,
+  "BK:tipico_de": 0.0
  },
  "peak_locked": {
   "PM": 0.0,
@@ -396,7 +399,8 @@
   "BK:gtbets": 0.0,
   "BK:winamax_de": 32.61,
   "BK:grosvenor": 292.3,
-  "BK:unibet_se": 0.0
+  "BK:unibet_se": 0.0,
+  "BK:tipico_de": 0.0
  },
  "min_cash": {
   "PM": 5800.0,
@@ -409,7 +413,8 @@
   "BK:gtbets": 580.0,
   "BK:winamax_de": 547.39,
   "BK:grosvenor": 287.7,
-  "BK:unibet_se": 580.0
+  "BK:unibet_se": 580.0,
+  "BK:tipico_de": 580.0
  },
  "transfers": [],
  "transfer_stats": {
@@ -420,15 +425,15 @@
  "peak_total_locked": 3224.9,
  "odds": {
   "remaining": {
-   "1": 465,
-   "2": 465,
-   "3": 465,
-   "4": 466,
-   "5": 466
+   "1": 461,
+   "2": 461,
+   "3": 461,
+   "4": 458,
+   "5": 458
   },
   "spent": {
    "2026-11-06": 27,
-   "2026-11-07": 140
+   "2026-11-07": 168
   }
  },
  "book_slots": {
@@ -476,6 +481,10 @@
   "scop|2026-11-07T15:00|180": "2026-11-07T12:00:27Z",
   "epl|2026-11-07T12:30|15": "2026-11-07T12:15:30Z",
   "elc|2026-11-07T12:30|15": "2026-11-07T12:15:30Z",
-  "lal|2026-11-07T15:15|180": "2026-11-07T12:15:30Z"
+  "lal|2026-11-07T15:15|180": "2026-11-07T12:15:30Z",
+  "epl|2026-11-07T12:30|5": "2026-11-07T12:25:02Z",
+  "elc|2026-11-07T12:30|5": "2026-11-07T12:25:03Z",
+  "bun|2026-11-07T14:30|120": "2026-11-07T12:30:16Z",
+  "ere|2026-11-07T15:30|180": "2026-11-07T12:30:16Z"
  }
 }
