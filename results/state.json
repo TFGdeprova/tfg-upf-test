@@ -54,12 +54,7 @@
   "BK:betmgm": 580.0
  },
  "open": [],
- "consumed": {
-  "PM|0x2908845effd120fb16822c05ff549e432a4b3178290caaab5fbab4dc7707623a|YES|0.0380": {
-   "n": 2513.85,
-   "t": "2026-11-07T19:52:00Z"
-  }
- },
+ "consumed": {},
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 31,
  "n_settled": 31,
