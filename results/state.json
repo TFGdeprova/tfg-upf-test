@@ -21,7 +21,7 @@
   "BK:betfair_ex_eu": 453.07,
   "BK:betonlineag": -87.62,
   "BK:skybet": 192.56,
-  "BK:betrivers": -1141.39,
+  "BK:betrivers": 1389.0532999999998,
   "BK:lowvig": -198.60000000000002,
   "BK:mybookieag": -3842.6000000000004,
   "BK:betmgm": -4997.36
@@ -54,62 +54,6 @@
   "BK:betmgm": 580.0
  },
  "open": [
-  {
-   "trade_id": 27,
-   "time": "2026-11-08T00:26:41Z",
-   "game": "nba:26NOV07BKNATL",
-   "title": "BKN at ATL",
-   "league": "nba",
-   "kickoff": "2026-11-08T00:30:00Z",
-   "min_to_ko": 3.3,
-   "t_lp": 0.012182,
-   "with_books": true,
-   "books": [
-    "betrivers",
-    "lowvig"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "ee45341df802cfb42dd48f1ad60c8b81",
-    "sport": "basketball_nba",
-    "home": "Atlanta Hawks",
-    "away": "Brooklyn Nets"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2530.4433,
-   "guaranteed_profit": 30.4533,
-   "legs": [
-    {
-     "venue": "BK:betrivers",
-     "book": "betrivers",
-     "market": "h2h",
-     "outcome": "Atlanta Hawks",
-     "side": "home",
-     "point": null,
-     "odds": 1.47,
-     "eff": 1.47,
-     "three_way": false,
-     "stake": 1721.39,
-     "cost": 1721.39,
-     "label": "h2h Atlanta Hawks  @1.47"
-    },
-    {
-     "venue": "BK:lowvig",
-     "book": "lowvig",
-     "market": "h2h",
-     "outcome": "Brooklyn Nets",
-     "side": "away",
-     "point": null,
-     "odds": 3.25,
-     "eff": 3.25,
-     "three_way": false,
-     "stake": 778.6,
-     "cost": 778.6,
-     "label": "h2h Brooklyn Nets  @3.25"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 28,
    "time": "2026-11-08T01:01:39Z",
@@ -351,8 +295,8 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 31,
- "n_settled": 26,
- "realized_pnl": 544.8735200000015,
+ "n_settled": 27,
+ "realized_pnl": 575.3268200000016,
  "runs": 7,
  "locked": {
   "PM": 0.0,
@@ -376,8 +320,8 @@
   "BK:betfair_ex_eu": 0.0,
   "BK:betonlineag": 0.0,
   "BK:skybet": 0.0,
-  "BK:betrivers": 1721.39,
-  "BK:lowvig": 778.6,
+  "BK:betrivers": 0.0,
+  "BK:lowvig": 0.0,
   "BK:mybookieag": 4422.6,
   "BK:betmgm": 5577.36
  },
@@ -478,7 +422,7 @@
  "odds": {
   "remaining": {
    "1": 303,
-   "2": 304,
+   "2": 302,
    "3": 302,
    "4": 303,
    "5": 302
@@ -486,7 +430,7 @@
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 99
+   "2026-11-08": 101
   }
  },
  "book_slots": {

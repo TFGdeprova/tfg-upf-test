@@ -1,18 +1,18 @@
-# Paper-trading bot: status at 2026-11-08T03:14:00Z
+# Paper-trading bot: status at 2026-11-08T03:34:35Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 31 / 26 |
-| Realised profit | $544.87 ≈ €469.72 |
+| Trades executed / settled | 31 / 27 |
+| Realised profit | $575.33 ≈ €495.97 |
 | … Polymarket/Kalshi only | $0.00 |
-| … with bookmakers (all) | $544.87 |
+| … with bookmakers (all) | $575.33 |
 | … with bookmakers licensed in Spain only | $0.00 |
-| Open positions (cost) | $12,499.95 |
+| Open positions (cost) | $9,999.96 |
 | Money in transit between accounts | $1,399.69 |
-| Equity (cash + open at cost + in transit) | $25,484.88 ≈ €21,969.72 |
-| Return so far (realised / peak money in use) | 1.167% over 1.2 days |
+| Equity (cash + open at cost + in transit) | $25,515.33 ≈ €21,995.97 |
+| Return so far (realised / peak money in use) | 1.232% over 1.2 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 1, seen 2, vanished 1.
 Gaps using bookmakers: executed 31, no_cash 41, rounding 1, seen 86, vanished 13 (snapshots combined with Polymarket/Kalshi: 463).
@@ -36,13 +36,13 @@ Peak in use = the most money that was tied up in open positions at the same time
 | betfred_uk | $580.00 | $580.00 | $0.00 | $0.00 | $580.00 |
 | betmgm | $580.00 | $-4,997.36 | $5,577.36 | $5,577.36 | $-4,997.36 |
 | betonlineag | $580.00 | $-87.62 | $0.00 | $667.62 | $-87.62 |
-| betrivers | $580.00 | $-1,141.39 | $1,721.39 | $1,721.39 | $-1,141.39 |
+| betrivers | $580.00 | $1,389.05 | $0.00 | $1,721.39 | $-1,141.39 |
 | coolbet | $580.00 | $-89.73 | $0.00 | $669.73 | $-89.73 |
 | coral | $580.00 | $1,338.67 | $0.00 | $1,948.91 | $-1,194.91 |
 | grosvenor | $580.00 | $580.00 | $0.00 | $292.30 | $287.70 |
 | gtbets | $580.00 | $-912.98 | $0.00 | $1,492.98 | $-912.98 |
 | leovegas_se | $580.00 | $1,789.30 | $0.00 | $1,403.00 | $-722.07 |
-| lowvig | $580.00 | $-198.60 | $778.60 | $778.60 | $-198.60 |
+| lowvig | $580.00 | $-198.60 | $0.00 | $778.60 | $-198.60 |
 | marathonbet (Spain) | $580.00 | $1,116.32 | $0.00 | $1,986.36 | $-1,406.36 |
 | matchbook | $580.00 | $3,632.14 | $0.00 | $2,789.92 | $-3,925.78 |
 | mybookieag | $580.00 | $-3,842.60 | $4,422.60 | $4,422.60 | $-3,842.60 |
@@ -82,7 +82,7 @@ Depth at detection (108 gaps with full order books): median capacity (largest si
 | 30 | 11-08T02:47 | VAN at EDM | 13.0 | betmgm, mybookieag | 0.39% | $2499.99 | $9.82 | open |  |
 | 29 | 11-08T02:31 | VAN at EDM | 28.4 | betmgm, mybookieag | 0.39% | $2499.99 | $9.82 | open |  |
 | 28 | 11-08T01:01 | VAN at EDM | 118.3 | betmgm, mybookieag | 0.39% | $2499.99 | $9.82 | open |  |
-| 27 | 11-08T00:26 | BKN at ATL | 3.3 | betrivers, lowvig | 1.22% | $2499.99 | $30.45 | open |  |
+| 27 | 11-08T00:26 | BKN at ATL | 3.3 | betrivers, lowvig | 1.22% | $2499.99 | $30.45 | settled | $+30.45 |
 | 26 | 11-07T19:56 | Valencia CF v Real Madrid CF | 3.0 | marathonbet, matchbook, unibet_nl | 0.91% | $2499.98 | $22.57 | settled | $+22.70 |
 | 25 | 11-07T19:52 | Paris Saint-Germain FC v ES Troyes AC | 13.0 | onexbet, smarkets | 0.55% | $2499.99 | $13.82 | settled | $+13.86 |
 | 24 | 11-07T19:46 | Valencia CF v Real Madrid CF | 13.0 | onexbet, smarkets, unibet_nl | 1.91% | $2499.99 | $47.71 | settled | $+47.76 |
