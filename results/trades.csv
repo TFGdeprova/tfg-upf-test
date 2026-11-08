@@ -43,3 +43,4 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 42,2026-11-08T12:32:00Z,lal:26NOV08ELCRBB,Elche CF v Real Betis Balompié,lal,2026-11-08T13:00:00Z,28.0,0.012782,True,"['onexbet', 'pinnacle', 'unibet_se']",False,2499.98,2531.915,31.935,open,,,,,3
 43,2026-11-08T12:36:16Z,nfl:26NOV08CINATL,CIN at ATL,nfl,2026-11-08T14:30:00Z,113.7,0.005817,,,,147.5023,148.0,0.4977,open,,,,,6
 44,2026-11-08T12:46:49Z,lal:26NOV08ELCRBB,Elche CF v Real Betis Balompié,lal,2026-11-08T13:00:00Z,13.2,0.00989,True,"['marathonbet', 'smarkets', 'unibet_se']",False,2499.98,2524.6896,24.7096,open,,,,,3
+45,2026-11-08T12:57:01Z,lal:26NOV08ELCRBB,Elche CF v Real Betis Balompié,lal,2026-11-08T13:00:00Z,3.0,0.013032,True,"['coolbet', 'matchbook']",False,1330.64,1347.4978,16.8578,open,,,,,3

@@ -1,18 +1,18 @@
 {
  "cash": {
   "PM": 5596.244,
-  "KS": 5548.349999999999,
+  "KS": 5295.459999999999,
   "BK:smarkets": -4812.18,
   "BK:pinnacle": -1836.6999999999998,
   "BK:onexbet": -4270.625399999999,
-  "BK:matchbook": 2342.64494,
+  "BK:matchbook": 1997.6349400000001,
   "BK:leovegas_se": 1789.2976799999997,
   "BK:gtbets": -3328.8599999999997,
   "BK:winamax_de": -258.41,
   "BK:grosvenor": 580.0,
   "BK:unibet_se": -666.5542,
   "BK:tipico_de": 2621.998,
-  "BK:coolbet": -89.73000000000002,
+  "BK:coolbet": -822.47,
   "BK:unibet_nl": -5806.48,
   "BK:marathonbet": -237.16279999999983,
   "BK:coral": 1338.673,
@@ -968,6 +968,72 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 45,
+   "time": "2026-11-08T12:57:01Z",
+   "game": "lal:26NOV08ELCRBB",
+   "title": "Elche CF v Real Betis Balompi\u00e9",
+   "league": "lal",
+   "kickoff": "2026-11-08T13:00:00Z",
+   "min_to_ko": 3.0,
+   "t_lp": 0.013032,
+   "with_books": true,
+   "books": [
+    "coolbet",
+    "matchbook"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "c35673eb1e889309d6985c091a43a3f5",
+    "sport": "soccer_spain_la_liga",
+    "home": "Elche CF",
+    "away": "Real Betis"
+   },
+   "cost": 1330.64,
+   "guaranteed_payout": 1347.4978,
+   "guaranteed_profit": 16.8578,
+   "legs": [
+    {
+     "venue": "KS",
+     "id": "KXLALIGATOTAL-26NOV08ELCRBB-3",
+     "label": "Over 2.5 goals scored",
+     "side": "NO",
+     "price": 0.33,
+     "shares": 732,
+     "fee": 11.33,
+     "cost": 252.89
+    },
+    {
+     "venue": "BK:coolbet",
+     "book": "coolbet",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 3.0,
+     "odds": 1.84,
+     "eff": 1.84,
+     "three_way": true,
+     "stake": 732.74,
+     "cost": 732.74,
+     "label": "totals Over 3.0 @1.84"
+    },
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "totals",
+     "outcome": "Under",
+     "side": "under",
+     "point": 3.5,
+     "odds": 1.8,
+     "eff": 1.784,
+     "three_way": true,
+     "stake": 345.01,
+     "cost": 345.01,
+     "label": "totals Under 3.5 @1.8"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -994,27 +1060,31 @@
   "KS|KXNFLWINMARGIN-26NOV08CINATL-CIN7TO14|YES|0.2100": {
    "n": 148.0,
    "t": "2026-11-08T12:36:16Z"
+  },
+  "KS|KXLALIGATOTAL-26NOV08ELCRBB-3|NO|0.3300": {
+   "n": 732.0,
+   "t": "2026-11-08T12:57:01Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 44,
+ "n_trades": 45,
  "n_settled": 31,
  "realized_pnl": 614.614820000002,
  "runs": 8,
  "locked": {
   "PM": 62.9523,
-  "KS": 84.55,
+  "KS": 337.44,
   "BK:smarkets": 2630.5999999999995,
   "BK:pinnacle": 610.1,
   "BK:onexbet": 9646.070000000002,
-  "BK:matchbook": 1289.5,
+  "BK:matchbook": 1634.51,
   "BK:leovegas_se": 0.0,
   "BK:gtbets": 2415.88,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 1885.54,
   "BK:tipico_de": 0.0,
-  "BK:coolbet": 0.0,
+  "BK:coolbet": 732.74,
   "BK:unibet_nl": 1558.000000000001,
   "BK:marathonbet": 1353.48,
   "BK:coral": 0.0,
@@ -1032,7 +1102,7 @@
  },
  "peak_locked": {
   "PM": 140.8037,
-  "KS": 167.1,
+  "KS": 337.44,
   "BK:smarkets": 2761.58,
   "BK:pinnacle": 1226.6,
   "BK:onexbet": 22357.230000000003,
@@ -1043,7 +1113,7 @@
   "BK:grosvenor": 292.3,
   "BK:unibet_se": 1885.54,
   "BK:tipico_de": 486.19,
-  "BK:coolbet": 669.73,
+  "BK:coolbet": 732.74,
   "BK:unibet_nl": 4157.51,
   "BK:marathonbet": 1986.36,
   "BK:coral": 1948.91,
@@ -1061,7 +1131,7 @@
  },
  "min_cash": {
   "PM": 5596.244,
-  "KS": 5548.349999999999,
+  "KS": 5295.459999999999,
   "BK:smarkets": -4812.18,
   "BK:pinnacle": -1836.6999999999998,
   "BK:onexbet": -20246.551300000003,
@@ -1072,7 +1142,7 @@
   "BK:grosvenor": 287.7,
   "BK:unibet_se": -1299.37,
   "BK:tipico_de": 93.81,
-  "BK:coolbet": -89.73000000000002,
+  "BK:coolbet": -822.47,
   "BK:unibet_nl": -5806.48,
   "BK:marathonbet": -1406.36,
   "BK:coral": -1194.91,
@@ -1131,15 +1201,15 @@
  "odds": {
   "remaining": {
    "1": 275,
-   "2": 275,
+   "2": 271,
    "3": 274,
-   "4": 277,
+   "4": 273,
    "5": 274
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 238
+   "2026-11-08": 246
   }
  },
  "book_slots": {
@@ -1400,6 +1470,7 @@
   "fl1|2026-11-08T14:00|120": "2026-11-08T12:00:16Z",
   "scop|2026-11-08T15:00|180": "2026-11-08T12:00:16Z",
   "lal|2026-11-08T13:00|30": "2026-11-08T12:30:23Z",
-  "lal|2026-11-08T13:00|15": "2026-11-08T12:45:10Z"
+  "lal|2026-11-08T13:00|15": "2026-11-08T12:45:10Z",
+  "lal|2026-11-08T13:00|5": "2026-11-08T12:55:20Z"
  }
 }
