@@ -44,3 +44,7 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 43,2026-11-08T12:36:16Z,nfl:26NOV08CINATL,CIN at ATL,nfl,2026-11-08T14:30:00Z,113.7,0.005817,,,,147.5023,148.0,0.4977,open,,,,,6
 44,2026-11-08T12:46:49Z,lal:26NOV08ELCRBB,Elche CF v Real Betis Balompié,lal,2026-11-08T13:00:00Z,13.2,0.00989,True,"['marathonbet', 'smarkets', 'unibet_se']",False,2499.98,2524.6896,24.7096,open,,,,,3
 45,2026-11-08T12:57:01Z,lal:26NOV08ELCRBB,Elche CF v Real Betis Balompié,lal,2026-11-08T13:00:00Z,3.0,0.013032,True,"['coolbet', 'matchbook']",False,1330.64,1347.4978,16.8578,open,,,,,3
+46,2026-11-08T13:32:25Z,epl:26NOV08CRYLFC,Crystal Palace FC v Liverpool FC,epl,2026-11-08T14:00:00Z,27.6,0.002175,True,"['onexbet', 'unibet_nl']",False,2499.99,2505.392,5.402,open,,,,,3
+47,2026-11-08T13:32:25Z,epl:26NOV08SUNCFC,Sunderland AFC v Chelsea FC,epl,2026-11-08T14:00:00Z,27.6,0.002628,True,"['betfred_uk', 'matchbook', 'pinnacle']",False,2499.98,2506.537,6.557,open,,,,,3
+48,2026-11-08T13:32:25Z,epl:26NOV08BRIBRE,Brighton & Hove Albion FC v Brentford FC,epl,2026-11-08T14:00:00Z,27.6,0.00509,True,"['codere_it', 'coolbet', 'unibet_se']",False,2499.98,2512.701,12.721,open,,,,,3
+49,2026-11-08T13:33:25Z,nfl:26NOV08CINATL,CIN at ATL,nfl,2026-11-08T14:30:00Z,56.6,0.107068,,,,5.5747,6.0,0.4253,open,,,,,8
