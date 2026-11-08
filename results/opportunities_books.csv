@@ -462,3 +462,5 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-08T02:55:31Z,nba:26NOV07SASPOR,SAS at POR,nba,4.5,scheduled,10,-0.012326,-0.010503,no gap,,,
 2026-11-08T02:55:31Z,nhl:26NOV07VANEDM,VAN at EDM,nhl,4.5,scheduled,10,-0.009208,0.003931,seen,,nhl:26NOV07VANEDM|2026-11-08T02:55:29Z|with_books,mybookieag spreads Edmonton Oilers -2.5 @2.27 x0.442 | betmgm spreads Vancouver Canucks 2.5 @1.8 x0.558
 2026-11-08T02:57:00Z,nhl:26NOV07VANEDM,VAN at EDM,nhl,3.0,confirmation,10,-0.009208,0.003931,executed,,,mybookieag spreads Edmonton Oilers -2.5 @2.27 x0.442 | betmgm spreads Vancouver Canucks 2.5 @1.8 x0.558
+2026-11-08T08:15:01Z,ere:26NOV08HEEFEY,SC Heerenveen v Feyenoord Rotterdam,ere,180.0,scheduled,7,-0.013232,-0.000486,no gap,,,
+2026-11-08T08:30:01Z,sea:26NOV08NAPLAZ,SSC Napoli v SS Lazio,sea,180.0,scheduled,7,-0.011921,-0.005135,no gap,,,
