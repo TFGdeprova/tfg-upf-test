@@ -28,3 +28,4 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 27,2026-11-08T00:26:41Z,nba:26NOV07BKNATL,BKN at ATL,nba,2026-11-08T00:30:00Z,3.3,0.012182,True,"['betrivers', 'lowvig']",False,2499.99,2530.4433,30.4533,open,,,,,2
 28,2026-11-08T01:01:39Z,nhl:26NOV07VANEDM,VAN at EDM,nhl,2026-11-08T03:00:00Z,118.3,0.003931,True,"['betmgm', 'mybookieag']",False,2499.99,2509.812,9.822,open,,,,,2
 29,2026-11-08T02:31:34Z,nhl:26NOV07VANEDM,VAN at EDM,nhl,2026-11-08T03:00:00Z,28.4,0.003931,True,"['betmgm', 'mybookieag']",False,2499.99,2509.812,9.822,open,,,,,2
+30,2026-11-08T02:47:00Z,nhl:26NOV07VANEDM,VAN at EDM,nhl,2026-11-08T03:00:00Z,13.0,0.003931,True,"['betmgm', 'mybookieag']",False,2499.99,2509.812,9.822,open,,,,,2

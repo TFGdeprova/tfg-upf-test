@@ -23,8 +23,8 @@
   "BK:skybet": 192.56,
   "BK:betrivers": -1141.39,
   "BK:lowvig": -198.60000000000002,
-  "BK:mybookieag": -1631.3000000000002,
-  "BK:betmgm": -2208.68
+  "BK:mybookieag": -2736.9500000000003,
+  "BK:betmgm": -3603.0199999999995
  },
  "start_cash": {
   "PM": 5800.0,
@@ -221,6 +221,62 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 30,
+   "time": "2026-11-08T02:47:00Z",
+   "game": "nhl:26NOV07VANEDM",
+   "title": "VAN at EDM",
+   "league": "nhl",
+   "kickoff": "2026-11-08T03:00:00Z",
+   "min_to_ko": 13.0,
+   "t_lp": 0.003931,
+   "with_books": true,
+   "books": [
+    "betmgm",
+    "mybookieag"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "8fe46a5692910faf8de7ac94676f4029",
+    "sport": "icehockey_nhl",
+    "home": "Edmonton Oilers",
+    "away": "Vancouver Canucks"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2509.812,
+   "guaranteed_profit": 9.822,
+   "legs": [
+    {
+     "venue": "BK:mybookieag",
+     "book": "mybookieag",
+     "market": "spreads",
+     "outcome": "Edmonton Oilers",
+     "side": "home",
+     "point": -2.5,
+     "odds": 2.27,
+     "eff": 2.27,
+     "three_way": false,
+     "stake": 1105.65,
+     "cost": 1105.65,
+     "label": "spreads Edmonton Oilers -2.5 @2.27"
+    },
+    {
+     "venue": "BK:betmgm",
+     "book": "betmgm",
+     "market": "spreads",
+     "outcome": "Vancouver Canucks",
+     "side": "away",
+     "point": 2.5,
+     "odds": 1.8,
+     "eff": 1.8,
+     "three_way": false,
+     "stake": 1394.34,
+     "cost": 1394.34,
+     "label": "spreads Vancouver Canucks 2.5 @1.8"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -238,7 +294,7 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 29,
+ "n_trades": 30,
  "n_settled": 26,
  "realized_pnl": 544.8735200000015,
  "runs": 7,
@@ -266,8 +322,8 @@
   "BK:skybet": 0.0,
   "BK:betrivers": 1721.39,
   "BK:lowvig": 778.6,
-  "BK:mybookieag": 2211.3,
-  "BK:betmgm": 2788.68
+  "BK:mybookieag": 3316.9500000000003,
+  "BK:betmgm": 4183.0199999999995
  },
  "peak_locked": {
   "PM": 140.8037,
@@ -293,8 +349,8 @@
   "BK:skybet": 387.44,
   "BK:betrivers": 1721.39,
   "BK:lowvig": 778.6,
-  "BK:mybookieag": 2211.3,
-  "BK:betmgm": 2788.68
+  "BK:mybookieag": 3316.9500000000003,
+  "BK:betmgm": 4183.0199999999995
  },
  "min_cash": {
   "PM": 5659.1963,
@@ -320,8 +376,8 @@
   "BK:skybet": 192.56,
   "BK:betrivers": -1141.39,
   "BK:lowvig": -198.60000000000002,
-  "BK:mybookieag": -1631.3000000000002,
-  "BK:betmgm": -2208.68
+  "BK:mybookieag": -2736.9500000000003,
+  "BK:betmgm": -3603.0199999999995
  },
  "transfers": [
   {
@@ -366,15 +422,15 @@
  "odds": {
   "remaining": {
    "1": 306,
-   "2": 307,
-   "3": 308,
-   "4": 306,
+   "2": 304,
+   "3": 305,
+   "4": 303,
    "5": 305
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 81
+   "2026-11-08": 90
   }
  },
  "book_slots": {
@@ -605,6 +661,8 @@
   "nba|2026-11-08T03:00|60": "2026-11-08T02:00:03Z",
   "nhl|2026-11-08T03:00|60": "2026-11-08T02:00:15Z",
   "nba|2026-11-08T03:00|30": "2026-11-08T02:30:03Z",
-  "nhl|2026-11-08T03:00|30": "2026-11-08T02:30:03Z"
+  "nhl|2026-11-08T03:00|30": "2026-11-08T02:30:03Z",
+  "nba|2026-11-08T03:00|15": "2026-11-08T02:45:28Z",
+  "nhl|2026-11-08T03:00|15": "2026-11-08T02:45:29Z"
  }
 }

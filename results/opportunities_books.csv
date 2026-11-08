@@ -456,3 +456,6 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-08T02:30:05Z,nba:26NOV07SASPOR,SAS at POR,nba,29.9,scheduled,8,-0.010066,-0.010066,no gap,,,
 2026-11-08T02:30:05Z,nhl:26NOV07VANEDM,VAN at EDM,nhl,29.9,scheduled,10,-0.007751,0.003931,seen,,nhl:26NOV07VANEDM|2026-11-08T02:30:04Z|with_books,mybookieag spreads Edmonton Oilers -2.5 @2.27 x0.442 | betmgm spreads Vancouver Canucks 2.5 @1.8 x0.558
 2026-11-08T02:31:34Z,nhl:26NOV07VANEDM,VAN at EDM,nhl,28.4,confirmation,10,-0.007751,0.003931,executed,,,mybookieag spreads Edmonton Oilers -2.5 @2.27 x0.442 | betmgm spreads Vancouver Canucks 2.5 @1.8 x0.558
+2026-11-08T02:45:31Z,nba:26NOV07SASPOR,SAS at POR,nba,14.5,scheduled,8,-0.012235,-0.012235,no gap,,,
+2026-11-08T02:45:31Z,nhl:26NOV07VANEDM,VAN at EDM,nhl,14.5,scheduled,10,-0.006723,0.003931,seen,,nhl:26NOV07VANEDM|2026-11-08T02:45:29Z|with_books,mybookieag spreads Edmonton Oilers -2.5 @2.27 x0.442 | betmgm spreads Vancouver Canucks 2.5 @1.8 x0.558
+2026-11-08T02:47:00Z,nhl:26NOV07VANEDM,VAN at EDM,nhl,13.0,confirmation,10,-0.006723,0.003931,executed,,,mybookieag spreads Edmonton Oilers -2.5 @2.27 x0.442 | betmgm spreads Vancouver Canucks 2.5 @1.8 x0.558
