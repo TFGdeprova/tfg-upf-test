@@ -453,3 +453,6 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-08T01:55:07Z,nhl:26NOV07DETCOL,DET at COL,nhl,4.9,scheduled,6,-0.020384,-0.014447,no gap,,,
 2026-11-08T01:55:07Z,nhl:26NOV07PITLA,PIT at LA,nhl,4.9,scheduled,6,-0.01665,-0.01665,no gap,,,
 2026-11-08T02:00:17Z,nba:26NOV07SASPOR,SAS at POR,nba,59.7,scheduled,8,-0.013372,-0.010763,no gap,,,
+2026-11-08T02:30:05Z,nba:26NOV07SASPOR,SAS at POR,nba,29.9,scheduled,8,-0.010066,-0.010066,no gap,,,
+2026-11-08T02:30:05Z,nhl:26NOV07VANEDM,VAN at EDM,nhl,29.9,scheduled,10,-0.007751,0.003931,seen,,nhl:26NOV07VANEDM|2026-11-08T02:30:04Z|with_books,mybookieag spreads Edmonton Oilers -2.5 @2.27 x0.442 | betmgm spreads Vancouver Canucks 2.5 @1.8 x0.558
+2026-11-08T02:31:34Z,nhl:26NOV07VANEDM,VAN at EDM,nhl,28.4,confirmation,10,-0.007751,0.003931,executed,,,mybookieag spreads Edmonton Oilers -2.5 @2.27 x0.442 | betmgm spreads Vancouver Canucks 2.5 @1.8 x0.558
