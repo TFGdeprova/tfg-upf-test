@@ -59,3 +59,5 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 58,2026-11-08T14:16:57Z,bun:26NOV08KOELEV,1. FC Köln v Bayer 04 Leverkusen,bun,2026-11-08T14:30:00Z,13.0,0.032205,True,"['gtbets', 'matchbook', 'smarkets']",False,2499.99,2580.4989,80.5089,open,,,,,3
 59,2026-11-08T14:20:58Z,nfl:26NOV08CINATL,CIN at ATL,nfl,2026-11-08T14:30:00Z,9.0,0.005817,,,,29.8528,30.0,0.1472,open,,,,,6
 60,2026-11-08T14:26:57Z,bun:26NOV08KOELEV,1. FC Köln v Bayer 04 Leverkusen,bun,2026-11-08T14:30:00Z,3.0,0.021808,True,"['coolbet', 'skybet', 'smarkets']",False,2499.99,2554.4877,54.4977,open,,,,,3
+61,2026-11-08T15:47:09Z,fl1:26NOV08HACFCL,Le Havre AC v FC Lorient,fl1,2026-11-08T16:15:00Z,27.8,0.014777,True,"['betonlineag', 'leovegas_se', 'onexbet']",False,2499.98,2536.9159,36.9359,open,,,,,3
+62,2026-11-08T15:47:09Z,fl1:26NOV08MANASM,Le Mans FC v AS Monaco FC,fl1,2026-11-08T16:15:00Z,27.8,0.009109,True,"['onexbet', 'unibet_se']",False,2499.99,2522.7552,22.7652,open,,,,,2

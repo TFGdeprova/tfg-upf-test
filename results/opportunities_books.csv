@@ -552,3 +552,11 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-08T14:26:57Z,bun:26NOV08KOELEV,1. FC Köln v Bayer 04 Leverkusen,bun,3.0,confirmation,9,-0.011921,0.021808,executed,,,smarkets h2h 1. FC Köln  @5.4 x0.192 | coolbet h2h Bayer Leverkusen  @1.76 x0.581 | skybet h2h Draw  @4.5 x0.227
 2026-11-08T14:45:33Z,lal:26NOV08RSORVC,Real Sociedad de Fútbol v Rayo Vallecano de Madrid,lal,29.4,scheduled,9,-0.006606,0.000275,no gap,,,
 2026-11-08T15:10:38Z,lal:26NOV08RSORVC,Real Sociedad de Fútbol v Rayo Vallecano de Madrid,lal,4.4,scheduled,9,-0.006606,0.000553,no gap,,,
+2026-11-08T15:30:29Z,scop:26NOV08CELKIL,Celtic FC v Kilmarnock FC,scop,29.5,scheduled,11,-0.011293,0.001576,no gap,,scop:26NOV08CELKIL|2026-11-08T15:30:29Z|with_books,
+2026-11-08T15:45:38Z,fl1:26NOV08HACFCL,Le Havre AC v FC Lorient,fl1,29.4,scheduled,7,-0.012813,0.014777,seen,,fl1:26NOV08HACFCL|2026-11-08T15:45:38Z|with_books,betonlineag h2h Le Havre  @3.26 x0.311 | leovegas_se h2h Lorient  @2.55 x0.398 | onexbet h2h Draw  @3.49 x0.291
+2026-11-08T15:45:42Z,fl1:26NOV08MANASM,Le Mans FC v AS Monaco FC,fl1,29.3,scheduled,5,-0.013055,0.009109,seen,,fl1:26NOV08MANASM|2026-11-08T15:45:42Z|with_books,onexbet totals Over 2.5 @1.96 x0.515 | unibet_se totals Under 2.5 @2.08 x0.485
+2026-11-08T15:45:42Z,fl1:26NOV08STBOL,Stade Brestois 29 v Olympique Lyonnais,fl1,29.3,scheduled,7,-0.011921,-0.002714,no gap,,,
+2026-11-08T15:45:42Z,fl1:26NOV08ANGNIC,Angers SCO v OGC Nice,fl1,29.3,scheduled,7,-0.012073,0.001017,no gap,,fl1:26NOV08ANGNIC|2026-11-08T15:45:40Z|with_books,
+2026-11-08T15:45:42Z,scop:26NOV08CELKIL,Celtic FC v Kilmarnock FC,scop,14.3,scheduled,11,-0.011921,0.001917,no gap,,scop:26NOV08CELKIL|2026-11-08T15:45:38Z|with_books,
+2026-11-08T15:47:09Z,fl1:26NOV08HACFCL,Le Havre AC v FC Lorient,fl1,27.8,confirmation,7,-0.012813,0.014777,executed,,,betonlineag h2h Le Havre  @3.26 x0.311 | leovegas_se h2h Lorient  @2.55 x0.398 | onexbet h2h Draw  @3.49 x0.291
+2026-11-08T15:47:09Z,fl1:26NOV08MANASM,Le Mans FC v AS Monaco FC,fl1,27.8,confirmation,5,-0.013055,0.009109,executed,,,onexbet totals Over 2.5 @1.96 x0.515 | unibet_se totals Under 2.5 @2.08 x0.485

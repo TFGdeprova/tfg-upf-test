@@ -4,13 +4,13 @@
   "KS": 5963.9400000000005,
   "BK:smarkets": -6980.34,
   "BK:pinnacle": -4370.169999999999,
-  "BK:onexbet": -1127.9656999999993,
+  "BK:onexbet": -3141.995699999999,
   "BK:matchbook": 332.2327800000001,
-  "BK:leovegas_se": 1789.2976799999997,
+  "BK:leovegas_se": 794.4276799999997,
   "BK:gtbets": -7633.02,
   "BK:winamax_de": -258.41,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -2183.3056999999994,
+  "BK:unibet_se": -3396.1756999999993,
   "BK:tipico_de": 2621.998,
   "BK:coolbet": -5339.3,
   "BK:unibet_nl": -6207.349999999999,
@@ -19,7 +19,7 @@
   "BK:betfair_ex_uk": 580.0,
   "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": 453.07,
-  "BK:betonlineag": 1513.8179999999998,
+  "BK:betonlineag": 735.6179999999997,
   "BK:skybet": -375.10999999999996,
   "BK:betrivers": 1389.0532999999998,
   "BK:lowvig": -198.60000000000002,
@@ -1517,6 +1517,133 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 61,
+   "time": "2026-11-08T15:47:09Z",
+   "game": "fl1:26NOV08HACFCL",
+   "title": "Le Havre AC v FC Lorient",
+   "league": "fl1",
+   "kickoff": "2026-11-08T16:15:00Z",
+   "min_to_ko": 27.8,
+   "t_lp": 0.014777,
+   "with_books": true,
+   "books": [
+    "betonlineag",
+    "leovegas_se",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "3e9954446f26494c04c4967db523d375",
+    "sport": "soccer_france_ligue_one",
+    "home": "Le Havre",
+    "away": "Lorient"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2536.9159,
+   "guaranteed_profit": 36.9359,
+   "legs": [
+    {
+     "venue": "BK:betonlineag",
+     "book": "betonlineag",
+     "market": "h2h",
+     "outcome": "Le Havre",
+     "side": "home",
+     "point": null,
+     "odds": 3.26,
+     "eff": 3.26,
+     "three_way": true,
+     "stake": 778.2,
+     "cost": 778.2,
+     "label": "h2h Le Havre  @3.26"
+    },
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Lorient",
+     "side": "away",
+     "point": null,
+     "odds": 2.55,
+     "eff": 2.55,
+     "three_way": true,
+     "stake": 994.87,
+     "cost": 994.87,
+     "label": "h2h Lorient  @2.55"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.49,
+     "eff": 3.49,
+     "three_way": true,
+     "stake": 726.91,
+     "cost": 726.91,
+     "label": "h2h Draw  @3.49"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 62,
+   "time": "2026-11-08T15:47:09Z",
+   "game": "fl1:26NOV08MANASM",
+   "title": "Le Mans FC v AS Monaco FC",
+   "league": "fl1",
+   "kickoff": "2026-11-08T16:15:00Z",
+   "min_to_ko": 27.8,
+   "t_lp": 0.009109,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "a529e5762f18d97981194ec3668dc3d3",
+    "sport": "soccer_france_ligue_one",
+    "home": "Le Mans FC",
+    "away": "AS Monaco"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2522.7552,
+   "guaranteed_profit": 22.7652,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 2.5,
+     "odds": 1.96,
+     "eff": 1.96,
+     "three_way": true,
+     "stake": 1287.12,
+     "cost": 1287.12,
+     "label": "totals Over 2.5 @1.96"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "totals",
+     "outcome": "Under",
+     "side": "under",
+     "point": 2.5,
+     "odds": 2.08,
+     "eff": 2.08,
+     "three_way": true,
+     "stake": 1212.87,
+     "cost": 1212.87,
+     "label": "totals Under 2.5 @2.08"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1578,7 +1705,7 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 60,
+ "n_trades": 62,
  "n_settled": 40,
  "realized_pnl": 791.8008600000023,
  "runs": 9,
@@ -1587,13 +1714,13 @@
   "KS": 148.06999999999994,
   "BK:smarkets": 2848.3399999999992,
   "BK:pinnacle": 3113.47,
-  "BK:onexbet": 5933.960000000001,
+  "BK:onexbet": 7947.990000000001,
   "BK:matchbook": 3810.09,
-  "BK:leovegas_se": 0.0,
+  "BK:leovegas_se": 994.87,
   "BK:gtbets": 6720.040000000001,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 4027.7599999999993,
+  "BK:unibet_se": 5240.629999999999,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 4516.83,
   "BK:unibet_nl": 1344.6700000000008,
@@ -1602,7 +1729,7 @@
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 1348.02,
   "BK:betfair_ex_eu": 0.0,
-  "BK:betonlineag": 0.0,
+  "BK:betonlineag": 778.2,
   "BK:skybet": 567.67,
   "BK:betrivers": 0.0,
   "BK:lowvig": 0.0,
@@ -1684,16 +1811,16 @@
  "peak_total_locked": 57883.057100000005,
  "odds": {
   "remaining": {
-   "1": 251,
-   "2": 252,
-   "3": 252,
+   "1": 247,
+   "2": 248,
+   "3": 248,
    "4": 250,
-   "5": 250
+   "5": 246
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 358
+   "2026-11-08": 374
   }
  },
  "book_slots": {
@@ -1976,6 +2103,9 @@
   "scop|2026-11-08T15:00|15": "2026-11-08T14:45:20Z",
   "scop|2026-11-08T15:00|5": "2026-11-08T14:55:00Z",
   "lal|2026-11-08T15:15|15": "2026-11-08T15:00:13Z",
-  "lal|2026-11-08T15:15|5": "2026-11-08T15:10:25Z"
+  "lal|2026-11-08T15:15|5": "2026-11-08T15:10:25Z",
+  "scop|2026-11-08T16:00|30": "2026-11-08T15:30:18Z",
+  "fl1|2026-11-08T16:15|30": "2026-11-08T15:45:29Z",
+  "scop|2026-11-08T16:00|15": "2026-11-08T15:45:29Z"
  }
 }
