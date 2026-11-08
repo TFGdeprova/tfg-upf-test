@@ -41,13 +41,13 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 40,2026-11-08T11:26:55Z,sea:26NOV08NAPLAZ,SSC Napoli v SS Lazio,sea,2026-11-08T11:30:00Z,3.1,0.006876,True,"['betanysports', 'betonlineag', 'marathonbet']",False,2499.99,2517.1734,17.1834,settled,2026-11-08T14:09:09Z,2517.189,17.199,ok,3
 41,2026-11-08T12:01:46Z,sea:26NOV08MONATA,AC Monza v Atalanta BC,sea,2026-11-08T14:00:00Z,118.2,0.004714,True,"['betanysports', 'gtbets', 'matchbook']",False,2499.98,2511.7501,11.7701,settled,2026-11-08T16:31:12Z,2511.7664,11.7864,ok,3
 42,2026-11-08T12:32:00Z,lal:26NOV08ELCRBB,Elche CF v Real Betis Balompié,lal,2026-11-08T13:00:00Z,28.0,0.012782,True,"['onexbet', 'pinnacle', 'unibet_se']",False,2499.98,2531.915,31.935,settled,2026-11-08T15:30:13Z,2531.9367,31.9567,ok,3
-43,2026-11-08T12:36:16Z,nfl:26NOV08CINATL,CIN at ATL,nfl,2026-11-08T14:30:00Z,113.7,0.005817,,,,147.5023,148.0,0.4977,open,,,,,6
+43,2026-11-08T12:36:16Z,nfl:26NOV08CINATL,CIN at ATL,nfl,2026-11-08T14:30:00Z,113.7,0.005817,,,,147.5023,148.0,0.4977,settled,2026-11-08T18:32:23Z,148.0,0.4977,ok,6
 44,2026-11-08T12:46:49Z,lal:26NOV08ELCRBB,Elche CF v Real Betis Balompié,lal,2026-11-08T13:00:00Z,13.2,0.00989,True,"['marathonbet', 'smarkets', 'unibet_se']",False,2499.98,2524.6896,24.7096,settled,2026-11-08T15:30:13Z,2524.716,24.736,ok,3
 45,2026-11-08T12:57:01Z,lal:26NOV08ELCRBB,Elche CF v Real Betis Balompié,lal,2026-11-08T13:00:00Z,3.0,0.013032,True,"['coolbet', 'matchbook']",False,1330.64,1347.4978,16.8578,settled,2026-11-08T15:30:13Z,1347.4978,16.8578,ok,3
 46,2026-11-08T13:32:25Z,epl:26NOV08CRYLFC,Crystal Palace FC v Liverpool FC,epl,2026-11-08T14:00:00Z,27.6,0.002175,True,"['onexbet', 'unibet_nl']",False,2499.99,2505.392,5.402,settled,2026-11-08T16:31:12Z,2505.4376,5.4476,ok,3
 47,2026-11-08T13:32:25Z,epl:26NOV08SUNCFC,Sunderland AFC v Chelsea FC,epl,2026-11-08T14:00:00Z,27.6,0.002628,True,"['betfred_uk', 'matchbook', 'pinnacle']",False,2499.98,2506.537,6.557,settled,2026-11-08T16:31:12Z,2506.537,6.557,ok,3
 48,2026-11-08T13:32:25Z,epl:26NOV08BRIBRE,Brighton & Hove Albion FC v Brentford FC,epl,2026-11-08T14:00:00Z,27.6,0.00509,True,"['codere_it', 'coolbet', 'unibet_se']",False,2499.98,2512.701,12.721,settled,2026-11-08T16:31:12Z,2512.7074,12.7274,ok,3
-49,2026-11-08T13:33:25Z,nfl:26NOV08CINATL,CIN at ATL,nfl,2026-11-08T14:30:00Z,56.6,0.107068,,,,5.5747,6.0,0.4253,open,,,,,8
+49,2026-11-08T13:33:25Z,nfl:26NOV08CINATL,CIN at ATL,nfl,2026-11-08T14:30:00Z,56.6,0.107068,,,,5.5747,6.0,0.4253,settled,2026-11-08T18:32:24Z,6.16,0.5853,ok,8
 50,2026-11-08T13:47:01Z,epl:26NOV08SUNCFC,Sunderland AFC v Chelsea FC,epl,2026-11-08T14:00:00Z,13.0,0.019417,True,"['betfred_uk', 'boylesports', 'unibet_se']",False,2499.99,2548.5278,48.5378,settled,2026-11-08T16:31:12Z,2548.538,48.548,ok,3
 51,2026-11-08T13:47:01Z,sea:26NOV08GENACM,Genoa CFC v AC Milan,sea,2026-11-08T14:00:00Z,13.0,0.002442,True,"['coolbet', 'pinnacle', 'unibet_se']",False,2499.98,2506.064,6.084,settled,2026-11-08T16:31:12Z,2506.1045,6.1245,ok,3
 52,2026-11-08T13:47:01Z,sea:26NOV08MONATA,AC Monza v Atalanta BC,sea,2026-11-08T14:00:00Z,13.0,0.009805,True,"['gtbets', 'smarkets', 'unibet_se']",False,2499.98,2524.4802,24.5002,settled,2026-11-08T16:31:12Z,2524.4996,24.5196,ok,3
@@ -55,9 +55,9 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 54,2026-11-08T13:57:08Z,epl:26NOV08SUNCFC,Sunderland AFC v Chelsea FC,epl,2026-11-08T14:00:00Z,2.9,0.012873,True,"['boylesports', 'marathonbet']",False,2499.99,2532.166,32.176,settled,2026-11-08T16:31:12Z,2532.168,32.178,ok,3
 55,2026-11-08T13:57:08Z,sea:26NOV08GENACM,Genoa CFC v AC Milan,sea,2026-11-08T14:00:00Z,2.9,0.002442,True,"['coolbet', 'pinnacle', 'unibet_se']",False,2499.98,2506.064,6.084,settled,2026-11-08T16:31:12Z,2506.1045,6.1245,ok,3
 56,2026-11-08T13:57:18Z,sea:26NOV08MONATA,AC Monza v Atalanta BC,sea,2026-11-08T14:00:00Z,2.7,0.013122,True,"['matchbook', 'pinnacle', 'unibet_se']",False,2499.98,2532.768,32.788,settled,2026-11-08T16:31:12Z,2532.7962,32.8162,ok,3
-57,2026-11-08T14:14:23Z,nfl:26NOV08CINATL,CIN at ATL,nfl,2026-11-08T14:30:00Z,15.6,0.005817,,,,80.9796,81.0,0.0204,open,,,,,6
+57,2026-11-08T14:14:23Z,nfl:26NOV08CINATL,CIN at ATL,nfl,2026-11-08T14:30:00Z,15.6,0.005817,,,,80.9796,81.0,0.0204,settled,2026-11-08T18:32:24Z,81.0,0.0204,ok,6
 58,2026-11-08T14:16:57Z,bun:26NOV08KOELEV,1. FC Köln v Bayer 04 Leverkusen,bun,2026-11-08T14:30:00Z,13.0,0.032205,True,"['gtbets', 'matchbook', 'smarkets']",False,2499.99,2580.4989,80.5089,settled,2026-11-08T17:01:26Z,2580.4989,80.5089,ok,3
-59,2026-11-08T14:20:58Z,nfl:26NOV08CINATL,CIN at ATL,nfl,2026-11-08T14:30:00Z,9.0,0.005817,,,,29.8528,30.0,0.1472,open,,,,,6
+59,2026-11-08T14:20:58Z,nfl:26NOV08CINATL,CIN at ATL,nfl,2026-11-08T14:30:00Z,9.0,0.005817,,,,29.8528,30.0,0.1472,settled,2026-11-08T18:32:24Z,30.0,0.1472,ok,6
 60,2026-11-08T14:26:57Z,bun:26NOV08KOELEV,1. FC Köln v Bayer 04 Leverkusen,bun,2026-11-08T14:30:00Z,3.0,0.021808,True,"['coolbet', 'skybet', 'smarkets']",False,2499.99,2554.4877,54.4977,settled,2026-11-08T17:01:26Z,2554.5168,54.5268,ok,3
 61,2026-11-08T15:47:09Z,fl1:26NOV08HACFCL,Le Havre AC v FC Lorient,fl1,2026-11-08T16:15:00Z,27.8,0.014777,True,"['betonlineag', 'leovegas_se', 'onexbet']",False,2499.98,2536.9159,36.9359,open,,,,,3
 62,2026-11-08T15:47:09Z,fl1:26NOV08MANASM,Le Mans FC v AS Monaco FC,fl1,2026-11-08T16:15:00Z,27.8,0.009109,True,"['onexbet', 'unibet_se']",False,2499.99,2522.7552,22.7652,open,,,,,2

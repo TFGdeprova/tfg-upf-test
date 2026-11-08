@@ -1,20 +1,20 @@
-# Paper-trading bot: status at 2026-11-08T18:31:38Z
+# Paper-trading bot: status at 2026-11-08T18:51:40Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 71 / 56 |
-| Realised profit | $1,167.25 ≈ €1,006.25 |
-| … Polymarket/Kalshi only | $0.00 |
+| Trades executed / settled | 71 / 60 |
+| Realised profit | $1,168.50 ≈ €1,007.33 |
+| … Polymarket/Kalshi only | $1.25 |
 | … with bookmakers (all) | $1,167.25 |
 | … with bookmakers licensed in Spain only | $0.00 |
-| Open positions (cost) | $25,550.90 |
+| Open positions (cost) | $25,286.99 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $28,427.25 ≈ €24,506.25 |
-| Return so far (realised / peak money in use) | 1.937% over 1.8 days |
+| Equity (cash + open at cost + in transit) | $28,428.50 ≈ €24,507.33 |
+| Return so far (realised / peak money in use) | 1.939% over 1.8 days |
 
-Polymarket/Kalshi gaps above the threshold: below_min_size 165, executed 5, rounding 18, seen 199, vanished 9.
+Polymarket/Kalshi gaps above the threshold: below_min_size 168, executed 5, rounding 18, seen 203, vanished 9.
 Gaps using bookmakers: executed 66, no_cash 41, rounding 1, seen 125, vanished 17 (snapshots combined with Polymarket/Kalshi: 619).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
@@ -29,8 +29,8 @@ Peak in use = the most money that was tied up in open positions at the same time
 
 | account | start | cash now | in open positions | peak in use | lowest cash |
 |---|---|---|---|---|---|
-| Polymarket | $5,800.00 | $5,256.25 | $402.95 | $402.95 | $5,256.25 |
-| Kalshi | $5,800.00 | $5,963.77 | $148.24 | $400.96 | $5,231.94 |
+| Polymarket | $5,800.00 | $5,262.41 | $287.11 | $402.95 | $5,256.25 |
+| Kalshi | $5,800.00 | $6,222.77 | $0.17 | $400.96 | $5,231.94 |
 | betanysports | $580.00 | $-2,144.93 | $1,047.45 | $4,190.72 | $-3,610.72 |
 | betfair_ex_eu (Spain) | $580.00 | $453.07 | $0.00 | $126.93 | $453.07 |
 | betfair_ex_uk (Spain) | $580.00 | $580.00 | $0.00 | $0.00 | $580.00 |
@@ -65,18 +65,18 @@ Transfers between accounts: 4 ($1,399.69 moved, $0.00 in fees; 0 still in transi
 
 ## Gaps followed: the same portfolio re-checked later, and order-book depth
 
-Gaps above 0.1% followed: 30 Polymarket/Kalshi and 144 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
+Gaps above 0.1% followed: 31 Polymarket/Kalshi and 144 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
 
 | re-check | measured | still profitable | above 0.2% | a leg no longer offered | censored |
 |---|---|---|---|---|---|
-| +30 s | 30 | 26 | 18 | 0 | 0 |
-| +1 min | 29 | 23 | 14 | 0 | 1 |
-| +2 min | 29 | 21 | 11 | 0 | 1 |
+| +30 s | 31 | 27 | 19 | 0 | 0 |
+| +1 min | 30 | 24 | 15 | 0 | 1 |
+| +2 min | 30 | 22 | 12 | 0 | 1 |
 | +5 min | 28 | 15 | 8 | 0 | 2 |
 | bookmaker confirmation (~1 min) | 263 | 102 | 97 | 5 | 0 |
 | next bookmaker snapshot | 245 | 22 | 17 | 4 | 0 |
 
-Depth at detection (174 gaps with full order books): median capacity (largest size still profitable after walking the order books) $20,000; median largest guaranteed profit $90.33. Details: `results/rechecks.csv`, `results/depth.csv`.
+Depth at detection (175 gaps with full order books): median capacity (largest size still profitable after walking the order books) $20,000; median largest guaranteed profit $88.17. Details: `results/rechecks.csv`, `results/depth.csv`.
 
 ## Last trades
 
@@ -94,9 +94,9 @@ Depth at detection (174 gaps with full order books): median capacity (largest si
 | 62 | 11-08T15:47 | Le Mans FC v AS Monaco FC | 27.8 | onexbet, unibet_se | 0.91% | $2499.99 | $22.77 | open |  |
 | 61 | 11-08T15:47 | Le Havre AC v FC Lorient | 27.8 | betonlineag, leovegas_se, onexbet | 1.48% | $2499.98 | $36.94 | open |  |
 | 60 | 11-08T14:26 | 1. FC Köln v Bayer 04 Leverkusen | 3.0 | coolbet, skybet, smarkets | 2.18% | $2499.99 | $54.50 | settled | $+54.53 |
-| 59 | 11-08T14:20 | CIN at ATL | 9.0 | no | 0.58% | $29.85 | $0.15 | open |  |
+| 59 | 11-08T14:20 | CIN at ATL | 9.0 | no | 0.58% | $29.85 | $0.15 | settled | $+0.15 |
 | 58 | 11-08T14:16 | 1. FC Köln v Bayer 04 Leverkusen | 13.0 | gtbets, matchbook, smarkets | 3.22% | $2499.99 | $80.51 | settled | $+80.51 |
-| 57 | 11-08T14:14 | CIN at ATL | 15.6 | no | 0.58% | $80.98 | $0.02 | open |  |
+| 57 | 11-08T14:14 | CIN at ATL | 15.6 | no | 0.58% | $80.98 | $0.02 | settled | $+0.02 |
 | 56 | 11-08T13:57 | AC Monza v Atalanta BC | 2.7 | matchbook, pinnacle, unibet_se | 1.31% | $2499.98 | $32.79 | settled | $+32.82 |
 | 55 | 11-08T13:57 | Genoa CFC v AC Milan | 2.9 | coolbet, pinnacle, unibet_se | 0.24% | $2499.98 | $6.08 | settled | $+6.12 |
 | 54 | 11-08T13:57 | Sunderland AFC v Chelsea FC | 2.9 | boylesports, marathonbet | 1.29% | $2499.99 | $32.18 | settled | $+32.18 |
@@ -104,6 +104,6 @@ Depth at detection (174 gaps with full order books): median capacity (largest si
 | 52 | 11-08T13:47 | AC Monza v Atalanta BC | 13.0 | gtbets, smarkets, unibet_se | 0.98% | $2499.98 | $24.50 | settled | $+24.52 |
 | 51 | 11-08T13:47 | Genoa CFC v AC Milan | 13.0 | coolbet, pinnacle, unibet_se | 0.24% | $2499.98 | $6.08 | settled | $+6.12 |
 | 50 | 11-08T13:47 | Sunderland AFC v Chelsea FC | 13.0 | betfred_uk, boylesports, unibet_se | 1.94% | $2499.99 | $48.54 | settled | $+48.55 |
-| 49 | 11-08T13:33 | CIN at ATL | 56.6 | no | 10.71% | $5.57 | $0.43 | open |  |
+| 49 | 11-08T13:33 | CIN at ATL | 56.6 | no | 10.71% | $5.57 | $0.43 | settled | $+0.59 |
 | 48 | 11-08T13:32 | Brighton & Hove Albion FC v Brentford FC | 27.6 | codere_it, coolbet, unibet_se | 0.51% | $2499.98 | $12.72 | settled | $+12.73 |
 | 47 | 11-08T13:32 | Sunderland AFC v Chelsea FC | 27.6 | betfred_uk, matchbook, pinnacle | 0.26% | $2499.98 | $6.56 | settled | $+6.56 |
