@@ -20,7 +20,9 @@
   "BK:betfred_uk": 580.0,
   "BK:betfair_ex_eu": 453.07,
   "BK:betonlineag": -87.62,
-  "BK:skybet": 192.56
+  "BK:skybet": 192.56,
+  "BK:betrivers": -1141.39,
+  "BK:lowvig": -198.60000000000002
  },
  "start_cash": {
   "PM": 5800.0,
@@ -43,9 +45,68 @@
   "BK:betfred_uk": 580.0,
   "BK:betfair_ex_eu": 580.0,
   "BK:betonlineag": 580.0,
-  "BK:skybet": 580.0
+  "BK:skybet": 580.0,
+  "BK:betrivers": 580.0,
+  "BK:lowvig": 580.0
  },
- "open": [],
+ "open": [
+  {
+   "trade_id": 27,
+   "time": "2026-11-08T00:26:41Z",
+   "game": "nba:26NOV07BKNATL",
+   "title": "BKN at ATL",
+   "league": "nba",
+   "kickoff": "2026-11-08T00:30:00Z",
+   "min_to_ko": 3.3,
+   "t_lp": 0.012182,
+   "with_books": true,
+   "books": [
+    "betrivers",
+    "lowvig"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "ee45341df802cfb42dd48f1ad60c8b81",
+    "sport": "basketball_nba",
+    "home": "Atlanta Hawks",
+    "away": "Brooklyn Nets"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2530.4433,
+   "guaranteed_profit": 30.4533,
+   "legs": [
+    {
+     "venue": "BK:betrivers",
+     "book": "betrivers",
+     "market": "h2h",
+     "outcome": "Atlanta Hawks",
+     "side": "home",
+     "point": null,
+     "odds": 1.47,
+     "eff": 1.47,
+     "three_way": false,
+     "stake": 1721.39,
+     "cost": 1721.39,
+     "label": "h2h Atlanta Hawks  @1.47"
+    },
+    {
+     "venue": "BK:lowvig",
+     "book": "lowvig",
+     "market": "h2h",
+     "outcome": "Brooklyn Nets",
+     "side": "away",
+     "point": null,
+     "odds": 3.25,
+     "eff": 3.25,
+     "three_way": false,
+     "stake": 778.6,
+     "cost": 778.6,
+     "label": "h2h Brooklyn Nets  @3.25"
+    }
+   ],
+   "status": "open"
+  }
+ ],
  "consumed": {
   "KS|KXBUNDESLIGAGAME-26NOV07M05BMU-BMU|NO|0.2100": {
    "n": 754.0,
@@ -65,7 +126,7 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 26,
+ "n_trades": 27,
  "n_settled": 26,
  "realized_pnl": 544.8735200000015,
  "runs": 6,
@@ -90,7 +151,9 @@
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 0.0,
   "BK:betonlineag": 0.0,
-  "BK:skybet": 0.0
+  "BK:skybet": 0.0,
+  "BK:betrivers": 1721.39,
+  "BK:lowvig": 778.6
  },
  "peak_locked": {
   "PM": 140.8037,
@@ -113,7 +176,9 @@
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 126.93,
   "BK:betonlineag": 667.62,
-  "BK:skybet": 387.44
+  "BK:skybet": 387.44,
+  "BK:betrivers": 1721.39,
+  "BK:lowvig": 778.6
  },
  "min_cash": {
   "PM": 5659.1963,
@@ -136,7 +201,9 @@
   "BK:betfred_uk": 580.0,
   "BK:betfair_ex_eu": 453.07,
   "BK:betonlineag": -87.62,
-  "BK:skybet": 192.56
+  "BK:skybet": 192.56,
+  "BK:betrivers": -1141.39,
+  "BK:lowvig": -198.60000000000002
  },
  "transfers": [
   {
@@ -180,16 +247,16 @@
  "peak_total_locked": 46687.663700000005,
  "odds": {
   "remaining": {
-   "1": 321,
-   "2": 322,
+   "1": 318,
+   "2": 319,
    "3": 320,
-   "4": 321,
-   "5": 320
+   "4": 318,
+   "5": 317
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 9
+   "2026-11-08": 21
   }
  },
  "book_slots": {
@@ -395,6 +462,10 @@
   "nhl|2026-11-08T01:00|60": "2026-11-08T00:00:14Z",
   "nhl|2026-11-08T02:00|120": "2026-11-08T00:00:14Z",
   "nhl|2026-11-08T03:00|180": "2026-11-08T00:00:14Z",
-  "nba|2026-11-08T00:30|15": "2026-11-08T00:15:02Z"
+  "nba|2026-11-08T00:30|15": "2026-11-08T00:15:02Z",
+  "nba|2026-11-08T00:30|5": "2026-11-08T00:25:03Z",
+  "nba|2026-11-08T01:00|30": "2026-11-08T00:30:03Z",
+  "nba|2026-11-08T01:30|60": "2026-11-08T00:30:03Z",
+  "nhl|2026-11-08T01:00|30": "2026-11-08T00:30:04Z"
  }
 }
