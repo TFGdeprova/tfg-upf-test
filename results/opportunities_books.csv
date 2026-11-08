@@ -587,3 +587,15 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-08T16:55:33Z,sea:26NOV08INTCOM,FC Internazionale Milano v Como 1907,sea,4.4,scheduled,11,-0.011618,-0.00316,no gap,,,
 2026-11-08T17:00:35Z,lal:26NOV08RCCLEV,RC Celta de Vigo v Levante UD,lal,29.4,scheduled,5,-0.011921,-0.005272,no gap,,,
 2026-11-08T17:00:37Z,lal:26NOV08VILGET,Villarreal CF v Getafe CF,lal,29.4,scheduled,5,-0.014242,-0.004493,no gap,,,
+2026-11-08T17:15:18Z,lal:26NOV08RCCLEV,RC Celta de Vigo v Levante UD,lal,14.7,scheduled,5,-0.009032,-0.003523,no gap,,,
+2026-11-08T17:15:18Z,lal:26NOV08VILGET,Villarreal CF v Getafe CF,lal,14.7,scheduled,5,-0.013589,-0.004219,no gap,,,
+2026-11-08T17:25:20Z,lal:26NOV08RCCLEV,RC Celta de Vigo v Levante UD,lal,4.7,scheduled,5,-0.011921,-0.006867,no gap,,,
+2026-11-08T17:25:20Z,lal:26NOV08VILGET,Villarreal CF v Getafe CF,lal,4.7,scheduled,5,-0.013589,0.033043,seen,,lal:26NOV08VILGET|2026-11-08T17:25:20Z|with_books,onexbet totals Over 2.5 @1.98 x0.522 | pinnacle totals Under 2.5 @2.16 x0.478
+2026-11-08T17:26:52Z,lal:26NOV08VILGET,Villarreal CF v Getafe CF,lal,3.1,confirmation,5,-0.013589,0.033043,executed,,,onexbet totals Over 2.5 @1.98 x0.522 | pinnacle totals Under 2.5 @2.16 x0.478
+2026-11-08T17:30:41Z,nfl:26NOV08DENCAR,DEN at CAR,nfl,29.3,scheduled,8,-0.011921,-0.00339,no gap,,,
+2026-11-08T17:30:41Z,nfl:26NOV08DALIND,DAL at IND,nfl,29.3,scheduled,10,-0.006606,0.007804,seen,0.99,nfl:26NOV08DALIND|2026-11-08T17:30:41Z|with_books,KS YES 0.020 x0.007 Game to end in a tie | KS YES 0.050 x0.054 Indianapolis by 15 or more | KS YES 0.160 x0.171 Indianapolis by 1 to 6 | KS YES 0.090 x0.096 Indianapolis by 7 to 14 | fanduel h2h Dallas Cowboys  @1.5 x0.672
+2026-11-08T17:30:41Z,nfl:26NOV08NYJKC,NYJ at KC,nfl,29.3,scheduled,10,-0.011921,-0.011921,no gap,,,
+2026-11-08T17:30:43Z,nfl:26NOV08DETMIA,DET at MIA,nfl,29.3,scheduled,10,-0.011921,-0.011821,no gap,,,
+2026-11-08T17:30:43Z,nfl:26NOV08CLENO,CLE at NO,nfl,29.3,scheduled,10,-0.005552,-0.003407,no gap,,,
+2026-11-08T17:30:45Z,nfl:26NOV08NYGPHI,NYG at PHI,nfl,29.2,scheduled,10,0.000291,0.000291,no gap,,,
+2026-11-08T17:30:45Z,nhl:26NOV08FLABOS,FLA at BOS,nhl,29.2,scheduled,8,-0.019328,-0.016912,no gap,,,

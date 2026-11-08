@@ -3,8 +3,8 @@
   "PM": 5543.356800000001,
   "KS": 5963.9400000000005,
   "BK:smarkets": -8164.889999999999,
-  "BK:pinnacle": -4370.169999999999,
-  "BK:onexbet": 2046.8644000000013,
+  "BK:pinnacle": -5565.82,
+  "BK:onexbet": 742.5244000000014,
   "BK:matchbook": 5371.565980000001,
   "BK:leovegas_se": -1181.8323200000004,
   "BK:gtbets": 5009.9357,
@@ -935,6 +935,62 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 69,
+   "time": "2026-11-08T17:26:52Z",
+   "game": "lal:26NOV08VILGET",
+   "title": "Villarreal CF v Getafe CF",
+   "league": "lal",
+   "kickoff": "2026-11-08T17:30:00Z",
+   "min_to_ko": 3.1,
+   "t_lp": 0.033043,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "pinnacle"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "81ad04996f63fb60b494d243b13ac586",
+    "sport": "soccer_spain_la_liga",
+    "home": "Villarreal",
+    "away": "Getafe"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2582.5932,
+   "guaranteed_profit": 82.6032,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 2.5,
+     "odds": 1.98,
+     "eff": 1.98,
+     "three_way": true,
+     "stake": 1304.34,
+     "cost": 1304.34,
+     "label": "totals Over 2.5 @1.98"
+    },
+    {
+     "venue": "BK:pinnacle",
+     "book": "pinnacle",
+     "market": "totals",
+     "outcome": "Under",
+     "side": "under",
+     "point": 2.5,
+     "odds": 2.16,
+     "eff": 2.16,
+     "three_way": true,
+     "stake": 1195.65,
+     "cost": 1195.65,
+     "label": "totals Under 2.5 @2.16"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -996,7 +1052,7 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 68,
+ "n_trades": 69,
  "n_settled": 56,
  "realized_pnl": 1167.2490600000049,
  "runs": 9,
@@ -1004,8 +1060,8 @@
   "PM": 115.83950000000002,
   "KS": 148.06999999999994,
   "BK:smarkets": 1184.5499999999993,
-  "BK:pinnacle": 0.0,
-  "BK:onexbet": 4357.939999999999,
+  "BK:pinnacle": 1195.65,
+  "BK:onexbet": 5662.279999999999,
   "BK:matchbook": 1.1368683772161603e-13,
   "BK:leovegas_se": 2971.13,
   "BK:gtbets": 4.547473508864641e-13,
@@ -1066,7 +1122,7 @@
   "PM": 5543.356800000001,
   "KS": 5231.9400000000005,
   "BK:smarkets": -8164.889999999999,
-  "BK:pinnacle": -4950.169999999999,
+  "BK:pinnacle": -5565.82,
   "BK:onexbet": -20246.551300000003,
   "BK:matchbook": -3925.7799999999993,
   "BK:leovegas_se": -1181.8323200000004,
@@ -1102,16 +1158,16 @@
  "peak_total_locked": 60263.5595,
  "odds": {
   "remaining": {
-   "1": 231,
-   "2": 232,
-   "3": 232,
-   "4": 234,
-   "5": 232
+   "1": 228,
+   "2": 229,
+   "3": 228,
+   "4": 230,
+   "5": 228
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 452
+   "2026-11-08": 470
   }
  },
  "book_slots": {
@@ -1410,6 +1466,10 @@
   "sea|2026-11-08T17:00|30": "2026-11-08T16:30:11Z",
   "sea|2026-11-08T17:00|15": "2026-11-08T16:45:17Z",
   "sea|2026-11-08T17:00|5": "2026-11-08T16:55:24Z",
-  "lal|2026-11-08T17:30|30": "2026-11-08T17:00:24Z"
+  "lal|2026-11-08T17:30|30": "2026-11-08T17:00:24Z",
+  "lal|2026-11-08T17:30|15": "2026-11-08T17:15:05Z",
+  "lal|2026-11-08T17:30|5": "2026-11-08T17:25:11Z",
+  "nfl|2026-11-08T18:00|30": "2026-11-08T17:30:19Z",
+  "nhl|2026-11-08T18:00|30": "2026-11-08T17:30:19Z"
  }
 }

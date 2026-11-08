@@ -67,3 +67,4 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 66,2026-11-08T16:12:18Z,fl1:26NOV08ANGNIC,Angers SCO v OGC Nice,fl1,2026-11-08T16:15:00Z,2.7,0.005067,True,"['coolbet', 'marathonbet', 'smarkets']",False,2499.99,2512.6466,12.6566,open,,,,,3
 67,2026-11-08T16:16:48Z,bun:26NOV08SCFUNI,SC Freiburg v 1. FC Union Berlin,bun,2026-11-08T16:30:00Z,13.2,0.004712,True,"['onexbet', 'unibet_se']",False,2499.98,2511.74,11.76,open,,,,,3
 68,2026-11-08T16:26:50Z,epl:26NOV08MUNAVL,Manchester United FC v Aston Villa FC,epl,2026-11-08T16:30:00Z,3.2,0.012469,True,"['betanysports', 'coolbet', 'onexbet']",False,2499.99,2531.1563,31.1663,open,,,,,3
+69,2026-11-08T17:26:52Z,lal:26NOV08VILGET,Villarreal CF v Getafe CF,lal,2026-11-08T17:30:00Z,3.1,0.033043,True,"['onexbet', 'pinnacle']",False,2499.99,2582.5932,82.6032,open,,,,,2
