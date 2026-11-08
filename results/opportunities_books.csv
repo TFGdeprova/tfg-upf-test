@@ -560,3 +560,16 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-08T15:45:42Z,scop:26NOV08CELKIL,Celtic FC v Kilmarnock FC,scop,14.3,scheduled,11,-0.011921,0.001917,no gap,,scop:26NOV08CELKIL|2026-11-08T15:45:38Z|with_books,
 2026-11-08T15:47:09Z,fl1:26NOV08HACFCL,Le Havre AC v FC Lorient,fl1,27.8,confirmation,7,-0.012813,0.014777,executed,,,betonlineag h2h Le Havre  @3.26 x0.311 | leovegas_se h2h Lorient  @2.55 x0.398 | onexbet h2h Draw  @3.49 x0.291
 2026-11-08T15:47:09Z,fl1:26NOV08MANASM,Le Mans FC v AS Monaco FC,fl1,27.8,confirmation,5,-0.013055,0.009109,executed,,,onexbet totals Over 2.5 @1.96 x0.515 | unibet_se totals Under 2.5 @2.08 x0.485
+2026-11-08T15:55:25Z,scop:26NOV08CELKIL,Celtic FC v Kilmarnock FC,scop,4.6,scheduled,11,-0.011921,-0.00956,no gap,,,
+2026-11-08T16:00:39Z,epl:26NOV08MUNAVL,Manchester United FC v Aston Villa FC,epl,29.3,scheduled,11,-0.010985,-0.002895,no gap,,,
+2026-11-08T16:00:41Z,bun:26NOV08SCFUNI,SC Freiburg v 1. FC Union Berlin,bun,29.3,scheduled,11,-0.011921,-0.004995,no gap,,,
+2026-11-08T16:00:41Z,fl1:26NOV08HACFCL,Le Havre AC v FC Lorient,fl1,14.3,scheduled,7,-0.012813,0.014777,seen,,fl1:26NOV08HACFCL|2026-11-08T16:00:39Z|with_books,betonlineag h2h Le Havre  @3.26 x0.311 | leovegas_se h2h Lorient  @2.55 x0.398 | onexbet h2h Draw  @3.49 x0.291
+2026-11-08T16:00:41Z,fl1:26NOV08MANASM,Le Mans FC v AS Monaco FC,fl1,14.3,scheduled,5,-0.007834,-0.003762,no gap,,,
+2026-11-08T16:00:41Z,fl1:26NOV08STBOL,Stade Brestois 29 v Olympique Lyonnais,fl1,14.3,scheduled,7,-0.011921,-0.004036,no gap,,,
+2026-11-08T16:00:41Z,fl1:26NOV08ANGNIC,Angers SCO v OGC Nice,fl1,14.3,scheduled,7,-0.010317,0.012081,seen,,fl1:26NOV08ANGNIC|2026-11-08T16:00:39Z|with_books,betfair_ex_eu h2h Angers  @4.2 x0.251 | unibet_se h2h Nice  @2.06 x0.491 | onexbet h2h Draw  @3.92 x0.258
+2026-11-08T16:02:08Z,fl1:26NOV08HACFCL,Le Havre AC v FC Lorient,fl1,12.9,confirmation,7,-0.012813,0.007901,executed,,,betonlineag h2h Le Havre  @3.26 x0.309 | leovegas_se h2h Lorient  @2.55 x0.395 | betonlineag h2h Draw  @3.41 x0.296
+2026-11-08T16:02:08Z,fl1:26NOV08ANGNIC,Angers SCO v OGC Nice,fl1,12.9,confirmation,7,-0.009974,0.023833,executed,,,smarkets h2h Angers  @4.3 x0.242 | unibet_se h2h Nice  @2.06 x0.497 | onexbet h2h Draw  @3.92 x0.261
+2026-11-08T16:10:49Z,fl1:26NOV08HACFCL,Le Havre AC v FC Lorient,fl1,4.2,scheduled,7,-0.012813,0.007901,seen,,fl1:26NOV08HACFCL|2026-11-08T16:10:49Z|with_books,betonlineag h2h Le Havre  @3.26 x0.309 | leovegas_se h2h Lorient  @2.55 x0.395 | betonlineag h2h Draw  @3.41 x0.296
+2026-11-08T16:10:49Z,fl1:26NOV08MANASM,Le Mans FC v AS Monaco FC,fl1,4.2,scheduled,5,-0.007834,-0.00339,no gap,,,
+2026-11-08T16:10:49Z,fl1:26NOV08STBOL,Stade Brestois 29 v Olympique Lyonnais,fl1,4.2,scheduled,7,-0.011921,-0.007797,no gap,,,
+2026-11-08T16:10:49Z,fl1:26NOV08ANGNIC,Angers SCO v OGC Nice,fl1,4.2,scheduled,7,-0.008638,0.003335,seen,,fl1:26NOV08ANGNIC|2026-11-08T16:10:47Z|with_books,betonlineag h2h Angers  @4.3 x0.233 | coolbet h2h Nice  @1.98 x0.507 | marathonbet h2h Draw  @3.86 x0.260
