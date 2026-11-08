@@ -55,3 +55,7 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 54,2026-11-08T13:57:08Z,epl:26NOV08SUNCFC,Sunderland AFC v Chelsea FC,epl,2026-11-08T14:00:00Z,2.9,0.012873,True,"['boylesports', 'marathonbet']",False,2499.99,2532.166,32.176,open,,,,,3
 55,2026-11-08T13:57:08Z,sea:26NOV08GENACM,Genoa CFC v AC Milan,sea,2026-11-08T14:00:00Z,2.9,0.002442,True,"['coolbet', 'pinnacle', 'unibet_se']",False,2499.98,2506.064,6.084,open,,,,,3
 56,2026-11-08T13:57:18Z,sea:26NOV08MONATA,AC Monza v Atalanta BC,sea,2026-11-08T14:00:00Z,2.7,0.013122,True,"['matchbook', 'pinnacle', 'unibet_se']",False,2499.98,2532.768,32.788,open,,,,,3
+57,2026-11-08T14:14:23Z,nfl:26NOV08CINATL,CIN at ATL,nfl,2026-11-08T14:30:00Z,15.6,0.005817,,,,80.9796,81.0,0.0204,open,,,,,6
+58,2026-11-08T14:16:57Z,bun:26NOV08KOELEV,1. FC Köln v Bayer 04 Leverkusen,bun,2026-11-08T14:30:00Z,13.0,0.032205,True,"['gtbets', 'matchbook', 'smarkets']",False,2499.99,2580.4989,80.5089,open,,,,,3
+59,2026-11-08T14:20:58Z,nfl:26NOV08CINATL,CIN at ATL,nfl,2026-11-08T14:30:00Z,9.0,0.005817,,,,29.8528,30.0,0.1472,open,,,,,6
+60,2026-11-08T14:26:57Z,bun:26NOV08KOELEV,1. FC Köln v Bayer 04 Leverkusen,bun,2026-11-08T14:30:00Z,3.0,0.021808,True,"['coolbet', 'skybet', 'smarkets']",False,2499.99,2554.4877,54.4977,open,,,,,3
