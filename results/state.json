@@ -2,22 +2,22 @@
  "cash": {
   "PM": 5590.739200000001,
   "KS": 5295.389999999999,
-  "BK:smarkets": -4812.18,
-  "BK:pinnacle": -2931.2699999999995,
+  "BK:smarkets": -5408.42,
+  "BK:pinnacle": -3639.1999999999994,
   "BK:onexbet": -6369.745399999999,
   "BK:matchbook": 1260.6349400000001,
   "BK:leovegas_se": 1789.2976799999997,
-  "BK:gtbets": -3328.8599999999997,
+  "BK:gtbets": -4616.87,
   "BK:winamax_de": -258.41,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -1250.9042,
+  "BK:unibet_se": -3507.0042,
   "BK:tipico_de": 2621.998,
-  "BK:coolbet": -1442.8899999999999,
+  "BK:coolbet": -2665.38,
   "BK:unibet_nl": -6207.349999999999,
   "BK:marathonbet": -237.16279999999983,
   "BK:coral": 1338.673,
   "BK:betfair_ex_uk": 580.0,
-  "BK:betfred_uk": -88.40999999999997,
+  "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": 453.07,
   "BK:betonlineag": -3520.56,
   "BK:skybet": 192.56,
@@ -27,7 +27,8 @@
   "BK:betmgm": 5041.888,
   "BK:betanysports": -3610.7200000000003,
   "BK:betsson": -406.99,
-  "BK:codere_it": -715.21
+  "BK:codere_it": -715.21,
+  "BK:boylesports": -169.57000000000005
  },
  "start_cash": {
   "PM": 5800.0,
@@ -57,7 +58,8 @@
   "BK:betmgm": 580.0,
   "BK:betanysports": 580.0,
   "BK:betsson": 580.0,
-  "BK:codere_it": 580.0
+  "BK:codere_it": 580.0,
+  "BK:boylesports": 580.0
  },
  "open": [
   {
@@ -1344,6 +1346,219 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 50,
+   "time": "2026-11-08T13:47:01Z",
+   "game": "epl:26NOV08SUNCFC",
+   "title": "Sunderland AFC v Chelsea FC",
+   "league": "epl",
+   "kickoff": "2026-11-08T14:00:00Z",
+   "min_to_ko": 13.0,
+   "t_lp": 0.019417,
+   "with_books": true,
+   "books": [
+    "betfred_uk",
+    "boylesports",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "3a4608abdf257d2a0024b944757d9dc9",
+    "sport": "soccer_epl",
+    "home": "Sunderland",
+    "away": "Chelsea"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2548.5278,
+   "guaranteed_profit": 48.5378,
+   "legs": [
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Chelsea",
+     "side": "away",
+     "point": null,
+     "odds": 2.38,
+     "eff": 2.38,
+     "three_way": true,
+     "stake": 1070.81,
+     "cost": 1070.81,
+     "label": "h2h Chelsea  @2.38"
+    },
+    {
+     "venue": "BK:boylesports",
+     "book": "boylesports",
+     "market": "h2h",
+     "outcome": "Sunderland",
+     "side": "home",
+     "point": null,
+     "odds": 3.4,
+     "eff": 3.4,
+     "three_way": true,
+     "stake": 749.57,
+     "cost": 749.57,
+     "label": "h2h Sunderland  @3.4"
+    },
+    {
+     "venue": "BK:betfred_uk",
+     "book": "betfred_uk",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.75,
+     "eff": 3.75,
+     "three_way": true,
+     "stake": 679.61,
+     "cost": 679.61,
+     "label": "h2h Draw  @3.75"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 51,
+   "time": "2026-11-08T13:47:01Z",
+   "game": "sea:26NOV08GENACM",
+   "title": "Genoa CFC v AC Milan",
+   "league": "sea",
+   "kickoff": "2026-11-08T14:00:00Z",
+   "min_to_ko": 13.0,
+   "t_lp": 0.002442,
+   "with_books": true,
+   "books": [
+    "coolbet",
+    "pinnacle",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "7a68b099b47ed7724062b661cd9af464",
+    "sport": "soccer_italy_serie_a",
+    "home": "Genoa",
+    "away": "AC Milan"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2506.064,
+   "guaranteed_profit": 6.084,
+   "legs": [
+    {
+     "venue": "BK:coolbet",
+     "book": "coolbet",
+     "market": "h2h",
+     "outcome": "AC Milan",
+     "side": "away",
+     "point": null,
+     "odds": 2.05,
+     "eff": 2.05,
+     "three_way": true,
+     "stake": 1222.49,
+     "cost": 1222.49,
+     "label": "h2h AC Milan  @2.05"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Genoa",
+     "side": "home",
+     "point": null,
+     "odds": 4.4,
+     "eff": 4.4,
+     "three_way": true,
+     "stake": 569.56,
+     "cost": 569.56,
+     "label": "h2h Genoa  @4.4"
+    },
+    {
+     "venue": "BK:pinnacle",
+     "book": "pinnacle",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.54,
+     "eff": 3.54,
+     "three_way": true,
+     "stake": 707.93,
+     "cost": 707.93,
+     "label": "h2h Draw  @3.54"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 52,
+   "time": "2026-11-08T13:47:01Z",
+   "game": "sea:26NOV08MONATA",
+   "title": "AC Monza v Atalanta BC",
+   "league": "sea",
+   "kickoff": "2026-11-08T14:00:00Z",
+   "min_to_ko": 13.0,
+   "t_lp": 0.009805,
+   "with_books": true,
+   "books": [
+    "gtbets",
+    "smarkets",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "5ea6b7050b00fcc1832f7938794dd755",
+    "sport": "soccer_italy_serie_a",
+    "home": "Monza",
+    "away": "Atalanta BC"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2524.4802,
+   "guaranteed_profit": 24.5002,
+   "legs": [
+    {
+     "venue": "BK:gtbets",
+     "book": "gtbets",
+     "market": "h2h",
+     "outcome": "Atalanta BC",
+     "side": "away",
+     "point": null,
+     "odds": 1.96,
+     "eff": 1.96,
+     "three_way": true,
+     "stake": 1288.01,
+     "cost": 1288.01,
+     "label": "h2h Atalanta BC  @1.96"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Monza",
+     "side": "home",
+     "point": null,
+     "odds": 4.3,
+     "eff": 4.234,
+     "three_way": true,
+     "stake": 596.24,
+     "cost": 596.24,
+     "label": "h2h Monza  @4.3"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.1,
+     "eff": 4.1,
+     "three_way": true,
+     "stake": 615.73,
+     "cost": 615.73,
+     "label": "h2h Draw  @4.1"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1401,29 +1616,29 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 49,
+ "n_trades": 52,
  "n_settled": 31,
  "realized_pnl": 614.614820000002,
  "runs": 8,
  "locked": {
   "PM": 68.45710000000001,
   "KS": 337.51,
-  "BK:smarkets": 2630.5999999999995,
-  "BK:pinnacle": 1704.67,
+  "BK:smarkets": 3226.8399999999992,
+  "BK:pinnacle": 2412.6,
   "BK:onexbet": 11745.19,
   "BK:matchbook": 2371.51,
   "BK:leovegas_se": 0.0,
-  "BK:gtbets": 2415.88,
+  "BK:gtbets": 3703.8900000000003,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 2469.89,
+  "BK:unibet_se": 4725.99,
   "BK:tipico_de": 0.0,
-  "BK:coolbet": 1353.1599999999999,
+  "BK:coolbet": 2575.6499999999996,
   "BK:unibet_nl": 1958.8700000000008,
   "BK:marathonbet": 1353.48,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 0.0,
-  "BK:betfred_uk": 668.41,
+  "BK:betfred_uk": 1348.02,
   "BK:betfair_ex_eu": 0.0,
   "BK:betonlineag": 3432.94,
   "BK:skybet": 0.0,
@@ -1433,27 +1648,28 @@
   "BK:betmgm": 0.0,
   "BK:betanysports": 4190.72,
   "BK:betsson": 986.99,
-  "BK:codere_it": 1295.21
+  "BK:codere_it": 1295.21,
+  "BK:boylesports": 749.57
  },
  "peak_locked": {
   "PM": 140.8037,
   "KS": 337.51,
-  "BK:smarkets": 2761.58,
-  "BK:pinnacle": 1704.67,
+  "BK:smarkets": 3226.8399999999992,
+  "BK:pinnacle": 2412.6,
   "BK:onexbet": 22357.230000000003,
   "BK:matchbook": 2789.92,
   "BK:leovegas_se": 1403.0,
-  "BK:gtbets": 2415.88,
+  "BK:gtbets": 3703.8900000000003,
   "BK:winamax_de": 805.8,
   "BK:grosvenor": 292.3,
-  "BK:unibet_se": 2469.89,
+  "BK:unibet_se": 4725.99,
   "BK:tipico_de": 486.19,
-  "BK:coolbet": 1353.1599999999999,
+  "BK:coolbet": 2575.6499999999996,
   "BK:unibet_nl": 4157.51,
   "BK:marathonbet": 1986.36,
   "BK:coral": 1948.91,
   "BK:betfair_ex_uk": 0.0,
-  "BK:betfred_uk": 668.41,
+  "BK:betfred_uk": 1348.02,
   "BK:betfair_ex_eu": 126.93,
   "BK:betonlineag": 3432.94,
   "BK:skybet": 387.44,
@@ -1463,27 +1679,28 @@
   "BK:betmgm": 5577.36,
   "BK:betanysports": 4190.72,
   "BK:betsson": 986.99,
-  "BK:codere_it": 1295.21
+  "BK:codere_it": 1295.21,
+  "BK:boylesports": 749.57
  },
  "min_cash": {
   "PM": 5590.739200000001,
   "KS": 5295.389999999999,
-  "BK:smarkets": -4812.18,
-  "BK:pinnacle": -2931.2699999999995,
+  "BK:smarkets": -5408.42,
+  "BK:pinnacle": -3639.1999999999994,
   "BK:onexbet": -20246.551300000003,
   "BK:matchbook": -3925.7799999999993,
   "BK:leovegas_se": -722.0723200000001,
-  "BK:gtbets": -3328.8599999999997,
+  "BK:gtbets": -4616.87,
   "BK:winamax_de": -258.41,
   "BK:grosvenor": 287.7,
-  "BK:unibet_se": -1299.37,
+  "BK:unibet_se": -3507.0042,
   "BK:tipico_de": 93.81,
-  "BK:coolbet": -1442.8899999999999,
+  "BK:coolbet": -2665.38,
   "BK:unibet_nl": -6207.349999999999,
   "BK:marathonbet": -1406.36,
   "BK:coral": -1194.91,
   "BK:betfair_ex_uk": 580.0,
-  "BK:betfred_uk": -88.40999999999997,
+  "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": 453.07,
   "BK:betonlineag": -3520.56,
   "BK:skybet": 192.56,
@@ -1493,7 +1710,8 @@
   "BK:betmgm": -4997.36,
   "BK:betanysports": -3610.7200000000003,
   "BK:betsson": -406.99,
-  "BK:codere_it": -715.21
+  "BK:codere_it": -715.21,
+  "BK:boylesports": -169.57000000000005
  },
  "transfers": [
   {
@@ -1534,19 +1752,19 @@
   "moved": 1399.686,
   "fees": 0.0
  },
- "peak_total_locked": 46687.663700000005,
+ "peak_total_locked": 47883.127100000005,
  "odds": {
   "remaining": {
-   "1": 271,
-   "2": 271,
-   "3": 270,
-   "4": 269,
-   "5": 270
+   "1": 267,
+   "2": 267,
+   "3": 266,
+   "4": 265,
+   "5": 266
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 262
+   "2026-11-08": 282
   }
  },
  "book_slots": {
@@ -1811,6 +2029,9 @@
   "lal|2026-11-08T13:00|5": "2026-11-08T12:55:20Z",
   "epl|2026-11-08T14:00|30": "2026-11-08T13:30:26Z",
   "sea|2026-11-08T14:00|30": "2026-11-08T13:30:27Z",
-  "fl1|2026-11-08T14:00|30": "2026-11-08T13:30:27Z"
+  "fl1|2026-11-08T14:00|30": "2026-11-08T13:30:27Z",
+  "epl|2026-11-08T14:00|15": "2026-11-08T13:45:17Z",
+  "sea|2026-11-08T14:00|15": "2026-11-08T13:45:18Z",
+  "fl1|2026-11-08T14:00|15": "2026-11-08T13:45:18Z"
  }
 }
