@@ -24,7 +24,7 @@
   "BK:betrivers": 1389.0532999999998,
   "BK:lowvig": -198.60000000000002,
   "BK:mybookieag": -3842.6000000000004,
-  "BK:betmgm": -4997.36
+  "BK:betmgm": 5041.888
  },
  "start_cash": {
   "PM": 5800.0,
@@ -53,232 +53,7 @@
   "BK:mybookieag": 580.0,
   "BK:betmgm": 580.0
  },
- "open": [
-  {
-   "trade_id": 28,
-   "time": "2026-11-08T01:01:39Z",
-   "game": "nhl:26NOV07VANEDM",
-   "title": "VAN at EDM",
-   "league": "nhl",
-   "kickoff": "2026-11-08T03:00:00Z",
-   "min_to_ko": 118.3,
-   "t_lp": 0.003931,
-   "with_books": true,
-   "books": [
-    "betmgm",
-    "mybookieag"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "8fe46a5692910faf8de7ac94676f4029",
-    "sport": "icehockey_nhl",
-    "home": "Edmonton Oilers",
-    "away": "Vancouver Canucks"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2509.812,
-   "guaranteed_profit": 9.822,
-   "legs": [
-    {
-     "venue": "BK:mybookieag",
-     "book": "mybookieag",
-     "market": "spreads",
-     "outcome": "Edmonton Oilers",
-     "side": "home",
-     "point": -2.5,
-     "odds": 2.27,
-     "eff": 2.27,
-     "three_way": false,
-     "stake": 1105.65,
-     "cost": 1105.65,
-     "label": "spreads Edmonton Oilers -2.5 @2.27"
-    },
-    {
-     "venue": "BK:betmgm",
-     "book": "betmgm",
-     "market": "spreads",
-     "outcome": "Vancouver Canucks",
-     "side": "away",
-     "point": 2.5,
-     "odds": 1.8,
-     "eff": 1.8,
-     "three_way": false,
-     "stake": 1394.34,
-     "cost": 1394.34,
-     "label": "spreads Vancouver Canucks 2.5 @1.8"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 29,
-   "time": "2026-11-08T02:31:34Z",
-   "game": "nhl:26NOV07VANEDM",
-   "title": "VAN at EDM",
-   "league": "nhl",
-   "kickoff": "2026-11-08T03:00:00Z",
-   "min_to_ko": 28.4,
-   "t_lp": 0.003931,
-   "with_books": true,
-   "books": [
-    "betmgm",
-    "mybookieag"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "8fe46a5692910faf8de7ac94676f4029",
-    "sport": "icehockey_nhl",
-    "home": "Edmonton Oilers",
-    "away": "Vancouver Canucks"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2509.812,
-   "guaranteed_profit": 9.822,
-   "legs": [
-    {
-     "venue": "BK:mybookieag",
-     "book": "mybookieag",
-     "market": "spreads",
-     "outcome": "Edmonton Oilers",
-     "side": "home",
-     "point": -2.5,
-     "odds": 2.27,
-     "eff": 2.27,
-     "three_way": false,
-     "stake": 1105.65,
-     "cost": 1105.65,
-     "label": "spreads Edmonton Oilers -2.5 @2.27"
-    },
-    {
-     "venue": "BK:betmgm",
-     "book": "betmgm",
-     "market": "spreads",
-     "outcome": "Vancouver Canucks",
-     "side": "away",
-     "point": 2.5,
-     "odds": 1.8,
-     "eff": 1.8,
-     "three_way": false,
-     "stake": 1394.34,
-     "cost": 1394.34,
-     "label": "spreads Vancouver Canucks 2.5 @1.8"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 30,
-   "time": "2026-11-08T02:47:00Z",
-   "game": "nhl:26NOV07VANEDM",
-   "title": "VAN at EDM",
-   "league": "nhl",
-   "kickoff": "2026-11-08T03:00:00Z",
-   "min_to_ko": 13.0,
-   "t_lp": 0.003931,
-   "with_books": true,
-   "books": [
-    "betmgm",
-    "mybookieag"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "8fe46a5692910faf8de7ac94676f4029",
-    "sport": "icehockey_nhl",
-    "home": "Edmonton Oilers",
-    "away": "Vancouver Canucks"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2509.812,
-   "guaranteed_profit": 9.822,
-   "legs": [
-    {
-     "venue": "BK:mybookieag",
-     "book": "mybookieag",
-     "market": "spreads",
-     "outcome": "Edmonton Oilers",
-     "side": "home",
-     "point": -2.5,
-     "odds": 2.27,
-     "eff": 2.27,
-     "three_way": false,
-     "stake": 1105.65,
-     "cost": 1105.65,
-     "label": "spreads Edmonton Oilers -2.5 @2.27"
-    },
-    {
-     "venue": "BK:betmgm",
-     "book": "betmgm",
-     "market": "spreads",
-     "outcome": "Vancouver Canucks",
-     "side": "away",
-     "point": 2.5,
-     "odds": 1.8,
-     "eff": 1.8,
-     "three_way": false,
-     "stake": 1394.34,
-     "cost": 1394.34,
-     "label": "spreads Vancouver Canucks 2.5 @1.8"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 31,
-   "time": "2026-11-08T02:57:00Z",
-   "game": "nhl:26NOV07VANEDM",
-   "title": "VAN at EDM",
-   "league": "nhl",
-   "kickoff": "2026-11-08T03:00:00Z",
-   "min_to_ko": 3.0,
-   "t_lp": 0.003931,
-   "with_books": true,
-   "books": [
-    "betmgm",
-    "mybookieag"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "8fe46a5692910faf8de7ac94676f4029",
-    "sport": "icehockey_nhl",
-    "home": "Edmonton Oilers",
-    "away": "Vancouver Canucks"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2509.812,
-   "guaranteed_profit": 9.822,
-   "legs": [
-    {
-     "venue": "BK:mybookieag",
-     "book": "mybookieag",
-     "market": "spreads",
-     "outcome": "Edmonton Oilers",
-     "side": "home",
-     "point": -2.5,
-     "odds": 2.27,
-     "eff": 2.27,
-     "three_way": false,
-     "stake": 1105.65,
-     "cost": 1105.65,
-     "label": "spreads Edmonton Oilers -2.5 @2.27"
-    },
-    {
-     "venue": "BK:betmgm",
-     "book": "betmgm",
-     "market": "spreads",
-     "outcome": "Vancouver Canucks",
-     "side": "away",
-     "point": 2.5,
-     "odds": 1.8,
-     "eff": 1.8,
-     "three_way": false,
-     "stake": 1394.34,
-     "cost": 1394.34,
-     "label": "spreads Vancouver Canucks 2.5 @1.8"
-    }
-   ],
-   "status": "open"
-  }
- ],
+ "open": [],
  "consumed": {
   "PM|0x2908845effd120fb16822c05ff549e432a4b3178290caaab5fbab4dc7707623a|YES|0.0420": {
    "n": 294.58,
@@ -295,8 +70,8 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 31,
- "n_settled": 27,
- "realized_pnl": 575.3268200000016,
+ "n_settled": 31,
+ "realized_pnl": 614.614820000002,
  "runs": 7,
  "locked": {
   "PM": 0.0,
@@ -322,8 +97,8 @@
   "BK:skybet": 0.0,
   "BK:betrivers": 0.0,
   "BK:lowvig": 0.0,
-  "BK:mybookieag": 4422.6,
-  "BK:betmgm": 5577.36
+  "BK:mybookieag": 0.0,
+  "BK:betmgm": 0.0
  },
  "peak_locked": {
   "PM": 140.8037,
@@ -424,13 +199,13 @@
    "1": 303,
    "2": 302,
    "3": 302,
-   "4": 303,
+   "4": 301,
    "5": 302
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 101
+   "2026-11-08": 103
   }
  },
  "book_slots": {
