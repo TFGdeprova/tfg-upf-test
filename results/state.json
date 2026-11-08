@@ -7,12 +7,12 @@
   "BK:onexbet": 2046.8644000000013,
   "BK:matchbook": 5371.565980000001,
   "BK:leovegas_se": -1181.8323200000004,
-  "BK:gtbets": 2429.4368,
+  "BK:gtbets": 5009.9357,
   "BK:winamax_de": -258.41,
   "BK:grosvenor": 580.0,
   "BK:unibet_se": -5486.185699999999,
   "BK:tipico_de": 2621.998,
-  "BK:coolbet": -3010.171,
+  "BK:coolbet": -455.6541999999995,
   "BK:unibet_nl": -6207.349999999999,
   "BK:marathonbet": 2732.7212,
   "BK:coral": 1338.673,
@@ -311,77 +311,6 @@
    "status": "open"
   },
   {
-   "trade_id": 58,
-   "time": "2026-11-08T14:16:57Z",
-   "game": "bun:26NOV08KOELEV",
-   "title": "1. FC K\u00f6ln v Bayer 04 Leverkusen",
-   "league": "bun",
-   "kickoff": "2026-11-08T14:30:00Z",
-   "min_to_ko": 13.0,
-   "t_lp": 0.032205,
-   "with_books": true,
-   "books": [
-    "gtbets",
-    "matchbook",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "c70f9f21f48464daa93973147502e183",
-    "sport": "soccer_germany_bundesliga",
-    "home": "1. FC K\u00f6ln",
-    "away": "Bayer Leverkusen"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2580.4989,
-   "guaranteed_profit": 80.5089,
-   "legs": [
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "1. FC K\u00f6ln",
-     "side": "home",
-     "point": null,
-     "odds": 5.2,
-     "eff": 5.116,
-     "three_way": true,
-     "stake": 504.4,
-     "cost": 504.4,
-     "label": "h2h 1. FC K\u00f6ln  @5.2"
-    },
-    {
-     "venue": "BK:gtbets",
-     "book": "gtbets",
-     "market": "h2h",
-     "outcome": "Bayer Leverkusen",
-     "side": "away",
-     "point": null,
-     "odds": 1.81,
-     "eff": 1.81,
-     "three_way": true,
-     "stake": 1425.69,
-     "cost": 1425.69,
-     "label": "h2h Bayer Leverkusen  @1.81"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.6,
-     "eff": 4.528,
-     "three_way": true,
-     "stake": 569.9,
-     "cost": 569.9,
-     "label": "h2h Draw  @4.6"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 59,
    "time": "2026-11-08T14:20:58Z",
    "game": "nfl:26NOV08CINATL",
@@ -453,77 +382,6 @@
      "shares": 30,
      "fee": 0.35,
      "cost": 6.65
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 60,
-   "time": "2026-11-08T14:26:57Z",
-   "game": "bun:26NOV08KOELEV",
-   "title": "1. FC K\u00f6ln v Bayer 04 Leverkusen",
-   "league": "bun",
-   "kickoff": "2026-11-08T14:30:00Z",
-   "min_to_ko": 3.0,
-   "t_lp": 0.021808,
-   "with_books": true,
-   "books": [
-    "coolbet",
-    "skybet",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "c70f9f21f48464daa93973147502e183",
-    "sport": "soccer_germany_bundesliga",
-    "home": "1. FC K\u00f6ln",
-    "away": "Bayer Leverkusen"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2554.4877,
-   "guaranteed_profit": 54.4977,
-   "legs": [
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "1. FC K\u00f6ln",
-     "side": "home",
-     "point": null,
-     "odds": 5.4,
-     "eff": 5.312,
-     "three_way": true,
-     "stake": 480.89,
-     "cost": 480.89,
-     "label": "h2h 1. FC K\u00f6ln  @5.4"
-    },
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "h2h",
-     "outcome": "Bayer Leverkusen",
-     "side": "away",
-     "point": null,
-     "odds": 1.76,
-     "eff": 1.76,
-     "three_way": true,
-     "stake": 1451.43,
-     "cost": 1451.43,
-     "label": "h2h Bayer Leverkusen  @1.76"
-    },
-    {
-     "venue": "BK:skybet",
-     "book": "skybet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.5,
-     "eff": 4.5,
-     "three_way": true,
-     "stake": 567.67,
-     "cost": 567.67,
-     "label": "h2h Draw  @4.5"
     }
    ],
    "status": "open"
@@ -1139,23 +997,23 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 68,
- "n_settled": 54,
- "realized_pnl": 1032.213360000004,
+ "n_settled": 56,
+ "realized_pnl": 1167.2490600000049,
  "runs": 9,
  "locked": {
   "PM": 115.83950000000002,
   "KS": 148.06999999999994,
-  "BK:smarkets": 2235.3399999999992,
+  "BK:smarkets": 1184.5499999999993,
   "BK:pinnacle": 0.0,
   "BK:onexbet": 4357.939999999999,
-  "BK:matchbook": 504.4000000000001,
+  "BK:matchbook": 1.1368683772161603e-13,
   "BK:leovegas_se": 2971.13,
-  "BK:gtbets": 1425.6900000000005,
+  "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 3302.8800000000006,
   "BK:tipico_de": 0.0,
-  "BK:coolbet": 4134.51,
+  "BK:coolbet": 2683.08,
   "BK:unibet_nl": 6.821210263296962e-13,
   "BK:marathonbet": 650.9499999999999,
   "BK:coral": 0.0,
@@ -1163,7 +1021,7 @@
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 0.0,
   "BK:betonlineag": 3801.9199999999996,
-  "BK:skybet": 567.67,
+  "BK:skybet": 0.0,
   "BK:betrivers": 0.0,
   "BK:lowvig": 0.0,
   "BK:mybookieag": 0.0,
@@ -1244,16 +1102,16 @@
  "peak_total_locked": 60263.5595,
  "odds": {
   "remaining": {
-   "1": 235,
-   "2": 236,
+   "1": 231,
+   "2": 232,
    "3": 232,
    "4": 234,
-   "5": 234
+   "5": 232
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 442
+   "2026-11-08": 452
   }
  },
  "book_slots": {
@@ -1550,6 +1408,8 @@
   "epl|2026-11-08T16:30|5": "2026-11-08T16:25:11Z",
   "bun|2026-11-08T16:30|5": "2026-11-08T16:25:11Z",
   "sea|2026-11-08T17:00|30": "2026-11-08T16:30:11Z",
-  "sea|2026-11-08T17:00|15": "2026-11-08T16:45:17Z"
+  "sea|2026-11-08T17:00|15": "2026-11-08T16:45:17Z",
+  "sea|2026-11-08T17:00|5": "2026-11-08T16:55:24Z",
+  "lal|2026-11-08T17:30|30": "2026-11-08T17:00:24Z"
  }
 }
