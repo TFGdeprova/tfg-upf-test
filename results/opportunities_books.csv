@@ -599,3 +599,11 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-08T17:30:43Z,nfl:26NOV08CLENO,CLE at NO,nfl,29.3,scheduled,10,-0.005552,-0.003407,no gap,,,
 2026-11-08T17:30:45Z,nfl:26NOV08NYGPHI,NYG at PHI,nfl,29.2,scheduled,10,0.000291,0.000291,no gap,,,
 2026-11-08T17:30:45Z,nhl:26NOV08FLABOS,FLA at BOS,nhl,29.2,scheduled,8,-0.019328,-0.016912,no gap,,,
+2026-11-08T17:32:14Z,nfl:26NOV08DALIND,DAL at IND,nfl,27.8,confirmation,10,-0.006606,-0.005535,vanished,894953.46,,KS NO 0.990 x0.006 Game to end in a tie | fanduel h2h Dallas Cowboys  @1.5 x0.659 | betonlineag h2h Indianapolis Colts  @2.95 x0.335
+2026-11-08T17:45:38Z,nfl:26NOV08DENCAR,DEN at CAR,nfl,14.4,scheduled,8,-0.011921,-0.002432,no gap,,,
+2026-11-08T17:45:38Z,nfl:26NOV08DALIND,DAL at IND,nfl,14.4,scheduled,12,-0.006606,-0.005772,no gap,,,
+2026-11-08T17:45:38Z,nfl:26NOV08NYJKC,NYJ at KC,nfl,14.4,scheduled,10,-0.006427,-0.006427,no gap,,,
+2026-11-08T17:45:41Z,nfl:26NOV08DETMIA,DET at MIA,nfl,14.3,scheduled,10,-0.005145,-0.005145,no gap,,,
+2026-11-08T17:45:41Z,nfl:26NOV08CLENO,CLE at NO,nfl,14.3,scheduled,10,-0.001756,-0.000791,no gap,,,
+2026-11-08T17:45:41Z,nfl:26NOV08NYGPHI,NYG at PHI,nfl,14.3,scheduled,10,-0.004266,-0.004266,no gap,,,
+2026-11-08T17:45:41Z,nhl:26NOV08FLABOS,FLA at BOS,nhl,14.3,scheduled,8,-0.010703,-0.006416,no gap,,,
