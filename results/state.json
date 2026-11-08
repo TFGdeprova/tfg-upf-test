@@ -23,7 +23,7 @@
   "BK:skybet": -375.10999999999996,
   "BK:betrivers": 1389.0532999999998,
   "BK:lowvig": -198.60000000000002,
-  "BK:mybookieag": -5553.85,
+  "BK:mybookieag": -3038.3125000000005,
   "BK:betmgm": 5041.888,
   "BK:betanysports": -2144.9284000000007,
   "BK:betsson": 2119.7043999999996,
@@ -62,72 +62,6 @@
   "BK:boylesports": 580.0
  },
  "open": [
-  {
-   "trade_id": 70,
-   "time": "2026-11-08T17:57:12Z",
-   "game": "nfl:26NOV08CLENO",
-   "title": "CLE at NO",
-   "league": "nfl",
-   "kickoff": "2026-11-08T18:00:00Z",
-   "min_to_ko": 2.8,
-   "t_lp": 0.00622,
-   "with_books": true,
-   "books": [
-    "betonlineag",
-    "mybookieag"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "e571bab6736f9338130a78a4f75c3231",
-    "sport": "americanfootball_nfl",
-    "home": "New Orleans Saints",
-    "away": "Cleveland Browns"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2514.82,
-   "guaranteed_profit": 14.83,
-   "legs": [
-    {
-     "venue": "KS",
-     "id": "KXNFLTIE-26NOV08CLENO-Y",
-     "label": "Game to end in a tie",
-     "side": "YES",
-     "price": 0.01,
-     "shares": 15,
-     "fee": 0.02,
-     "cost": 0.17
-    },
-    {
-     "venue": "BK:betonlineag",
-     "book": "betonlineag",
-     "market": "h2h",
-     "outcome": "Cleveland Browns",
-     "side": "away",
-     "point": null,
-     "odds": 3.19,
-     "eff": 3.19,
-     "three_way": false,
-     "stake": 788.57,
-     "cost": 788.57,
-     "label": "h2h Cleveland Browns  @3.19"
-    },
-    {
-     "venue": "BK:mybookieag",
-     "book": "mybookieag",
-     "market": "h2h",
-     "outcome": "New Orleans Saints",
-     "side": "home",
-     "point": null,
-     "odds": 1.47,
-     "eff": 1.47,
-     "three_way": false,
-     "stake": 1711.25,
-     "cost": 1711.25,
-     "label": "h2h New Orleans Saints  @1.47"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 71,
    "time": "2026-11-08T18:26:08Z",
@@ -663,12 +597,12 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 77,
- "n_settled": 69,
- "realized_pnl": 1465.5319600000064,
+ "n_settled": 70,
+ "realized_pnl": 1481.0794600000065,
  "runs": 10,
  "locked": {
   "PM": 313.64719999999994,
-  "KS": 16.549999999999933,
+  "KS": 16.37999999999993,
   "BK:smarkets": 782.68,
   "BK:pinnacle": 1313.2000000000003,
   "BK:onexbet": 3157.9299999999994,
@@ -686,11 +620,11 @@
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 0.0,
-  "BK:betonlineag": 2103.3800000000006,
+  "BK:betonlineag": 1314.8100000000004,
   "BK:skybet": 0.0,
   "BK:betrivers": 0.0,
   "BK:lowvig": 0.0,
-  "BK:mybookieag": 1711.25,
+  "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
   "BK:betanysports": 2.2737367544323206e-13,
   "BK:betsson": 0.0,
@@ -770,14 +704,14 @@
   "remaining": {
    "1": 203,
    "2": 201,
-   "3": 203,
+   "3": 201,
    "4": 201,
    "5": 201
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 604
+   "2026-11-08": 606
   }
  },
  "book_slots": {
