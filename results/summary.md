@@ -1,27 +1,27 @@
-# Paper-trading bot: status at 2026-11-08T18:51:40Z
+# Paper-trading bot: status at 2026-11-08T19:11:38Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 71 / 60 |
-| Realised profit | $1,168.50 ≈ €1,007.33 |
+| Trades executed / settled | 71 / 68 |
+| Realised profit | $1,382.92 ≈ €1,192.17 |
 | … Polymarket/Kalshi only | $1.25 |
-| … with bookmakers (all) | $1,167.25 |
+| … with bookmakers (all) | $1,381.67 |
 | … with bookmakers licensed in Spain only | $0.00 |
-| Open positions (cost) | $25,286.99 |
+| Open positions (cost) | $5,287.09 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $28,428.50 ≈ €24,507.33 |
-| Return so far (realised / peak money in use) | 1.939% over 1.8 days |
+| Equity (cash + open at cost + in transit) | $28,642.92 ≈ €24,692.17 |
+| Return so far (realised / peak money in use) | 2.295% over 1.8 days |
 
-Polymarket/Kalshi gaps above the threshold: below_min_size 168, executed 5, rounding 18, seen 203, vanished 9.
+Polymarket/Kalshi gaps above the threshold: below_min_size 181, executed 5, rounding 18, seen 216, vanished 10.
 Gaps using bookmakers: executed 66, no_cash 41, rounding 1, seen 125, vanished 17 (snapshots combined with Polymarket/Kalshi: 619).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 1,013 (about 2.0 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
+The Odds API credits left: 1,007 (about 2.0 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
 
 ## Capital by account
 
@@ -31,32 +31,32 @@ Peak in use = the most money that was tied up in open positions at the same time
 |---|---|---|---|---|---|
 | Polymarket | $5,800.00 | $5,262.41 | $287.11 | $402.95 | $5,256.25 |
 | Kalshi | $5,800.00 | $6,222.77 | $0.17 | $400.96 | $5,231.94 |
-| betanysports | $580.00 | $-2,144.93 | $1,047.45 | $4,190.72 | $-3,610.72 |
+| betanysports | $580.00 | $-2,144.93 | $0.00 | $4,190.72 | $-3,610.72 |
 | betfair_ex_eu (Spain) | $580.00 | $453.07 | $0.00 | $126.93 | $453.07 |
 | betfair_ex_uk (Spain) | $580.00 | $580.00 | $0.00 | $0.00 | $580.00 |
 | betfred_uk | $580.00 | $-768.02 | $0.00 | $1,348.02 | $-768.02 |
 | betmgm | $580.00 | $5,041.89 | $0.00 | $5,577.36 | $-4,997.36 |
-| betonlineag | $580.00 | $-3,076.67 | $4,590.49 | $4,590.49 | $-3,520.56 |
+| betonlineag | $580.00 | $-3,076.67 | $788.57 | $4,590.49 | $-3,520.56 |
 | betrivers | $580.00 | $1,389.05 | $0.00 | $1,721.39 | $-1,141.39 |
 | betsson | $580.00 | $2,119.70 | $0.00 | $986.99 | $-406.99 |
 | boylesports | $580.00 | $1,315.03 | $0.00 | $1,813.51 | $-1,233.51 |
 | codere_it | $580.00 | $1,797.50 | $0.00 | $1,295.21 | $-715.21 |
-| coolbet | $580.00 | $-455.65 | $2,683.08 | $7,199.91 | $-8,022.38 |
+| coolbet | $580.00 | $4,588.17 | $0.00 | $7,199.91 | $-8,022.38 |
 | coral | $580.00 | $1,338.67 | $0.00 | $1,948.91 | $-1,194.91 |
 | grosvenor | $580.00 | $580.00 | $0.00 | $292.30 | $287.70 |
 | gtbets | $580.00 | $5,009.94 | $0.00 | $6,720.04 | $-7,633.02 |
-| leovegas_se | $580.00 | $-1,181.83 | $2,971.13 | $2,971.13 | $-1,181.83 |
+| leovegas_se | $580.00 | $6,394.55 | $0.00 | $2,971.13 | $-1,181.83 |
 | lowvig | $580.00 | $-198.60 | $0.00 | $778.60 | $-198.60 |
-| marathonbet (Spain) | $580.00 | $2,732.72 | $650.95 | $2,789.53 | $-1,673.21 |
+| marathonbet (Spain) | $580.00 | $2,732.72 | $0.00 | $2,789.53 | $-1,673.21 |
 | matchbook | $580.00 | $5,371.57 | $0.00 | $4,155.10 | $-3,925.78 |
 | mybookieag | $580.00 | $-5,553.85 | $1,711.25 | $4,422.60 | $-5,553.85 |
-| onexbet | $580.00 | $742.52 | $5,662.28 | $22,357.23 | $-20,246.55 |
+| onexbet | $580.00 | $3,254.29 | $1,304.34 | $22,357.23 | $-20,246.55 |
 | pinnacle | $580.00 | $-5,565.82 | $1,195.65 | $3,723.57 | $-5,565.82 |
 | skybet | $580.00 | $-375.11 | $0.00 | $567.67 | $-375.11 |
-| smarkets | $580.00 | $-8,164.89 | $1,184.55 | $4,070.28 | $-8,164.89 |
+| smarkets | $580.00 | $-8,164.89 | $0.00 | $4,070.28 | $-8,164.89 |
 | tipico_de | $580.00 | $2,622.00 | $0.00 | $486.19 | $93.81 |
 | unibet_nl | $580.00 | $-6,207.35 | $0.00 | $4,157.51 | $-6,207.35 |
-| unibet_se | $580.00 | $-5,486.19 | $3,302.88 | $7,330.64 | $-5,486.19 |
+| unibet_se | $580.00 | $-403.85 | $0.00 | $7,330.64 | $-5,486.19 |
 | winamax_de (Spain) | $580.00 | $-258.41 | $0.00 | $805.80 | $-258.41 |
 
 Peak money in use across all accounts at the same time: $60,263.56 ≈ €51,951.34.
@@ -72,7 +72,7 @@ Gaps above 0.1% followed: 31 Polymarket/Kalshi and 144 with bookmakers. A re-che
 | +30 s | 31 | 27 | 19 | 0 | 0 |
 | +1 min | 30 | 24 | 15 | 0 | 1 |
 | +2 min | 30 | 22 | 12 | 0 | 1 |
-| +5 min | 28 | 15 | 8 | 0 | 2 |
+| +5 min | 29 | 16 | 9 | 0 | 2 |
 | bookmaker confirmation (~1 min) | 263 | 102 | 97 | 5 | 0 |
 | next bookmaker snapshot | 245 | 22 | 17 | 4 | 0 |
 
@@ -85,14 +85,14 @@ Depth at detection (175 gaps with full order books): median capacity (largest si
 | 71 | 11-08T18:26 | LV at SF | 178.9 | no | 0.30% | $287.11 | $0.86 | open |  |
 | 70 | 11-08T17:57 | CLE at NO | 2.8 | betonlineag, mybookieag | 0.62% | $2499.99 | $14.83 | open |  |
 | 69 | 11-08T17:26 | Villarreal CF v Getafe CF | 3.1 | onexbet, pinnacle | 3.30% | $2499.99 | $82.60 | open |  |
-| 68 | 11-08T16:26 | Manchester United FC v Aston Villa FC | 3.2 | betanysports, coolbet, onexbet | 1.25% | $2499.99 | $31.17 | open |  |
-| 67 | 11-08T16:16 | SC Freiburg v 1. FC Union Berlin | 13.2 | onexbet, unibet_se | 0.47% | $2499.98 | $11.76 | open |  |
-| 66 | 11-08T16:12 | Angers SCO v OGC Nice | 2.7 | coolbet, marathonbet, smarkets | 0.51% | $2499.99 | $12.66 | open |  |
-| 65 | 11-08T16:12 | Le Havre AC v FC Lorient | 2.7 | betonlineag, leovegas_se | 0.79% | $2499.99 | $19.74 | open |  |
-| 64 | 11-08T16:02 | Angers SCO v OGC Nice | 12.9 | onexbet, smarkets, unibet_se | 2.38% | $2499.99 | $59.57 | open |  |
-| 63 | 11-08T16:02 | Le Havre AC v FC Lorient | 12.9 | betonlineag, leovegas_se | 0.79% | $2499.99 | $19.74 | open |  |
-| 62 | 11-08T15:47 | Le Mans FC v AS Monaco FC | 27.8 | onexbet, unibet_se | 0.91% | $2499.99 | $22.77 | open |  |
-| 61 | 11-08T15:47 | Le Havre AC v FC Lorient | 27.8 | betonlineag, leovegas_se, onexbet | 1.48% | $2499.98 | $36.94 | open |  |
+| 68 | 11-08T16:26 | Manchester United FC v Aston Villa FC | 3.2 | betanysports, coolbet, onexbet | 1.25% | $2499.99 | $31.17 | settled | $+31.18 |
+| 67 | 11-08T16:16 | SC Freiburg v 1. FC Union Berlin | 13.2 | onexbet, unibet_se | 0.47% | $2499.98 | $11.76 | settled | $+11.79 |
+| 66 | 11-08T16:12 | Angers SCO v OGC Nice | 2.7 | coolbet, marathonbet, smarkets | 0.51% | $2499.99 | $12.66 | settled | $+12.67 |
+| 65 | 11-08T16:12 | Le Havre AC v FC Lorient | 2.7 | betonlineag, leovegas_se | 0.79% | $2499.99 | $19.74 | settled | $+19.74 |
+| 64 | 11-08T16:02 | Angers SCO v OGC Nice | 12.9 | onexbet, smarkets, unibet_se | 2.38% | $2499.99 | $59.57 | settled | $+59.58 |
+| 63 | 11-08T16:02 | Le Havre AC v FC Lorient | 12.9 | betonlineag, leovegas_se | 0.79% | $2499.99 | $19.74 | settled | $+19.74 |
+| 62 | 11-08T15:47 | Le Mans FC v AS Monaco FC | 27.8 | onexbet, unibet_se | 0.91% | $2499.99 | $22.77 | settled | $+22.78 |
+| 61 | 11-08T15:47 | Le Havre AC v FC Lorient | 27.8 | betonlineag, leovegas_se, onexbet | 1.48% | $2499.98 | $36.94 | settled | $+36.94 |
 | 60 | 11-08T14:26 | 1. FC Köln v Bayer 04 Leverkusen | 3.0 | coolbet, skybet, smarkets | 2.18% | $2499.99 | $54.50 | settled | $+54.53 |
 | 59 | 11-08T14:20 | CIN at ATL | 9.0 | no | 0.58% | $29.85 | $0.15 | settled | $+0.15 |
 | 58 | 11-08T14:16 | 1. FC Köln v Bayer 04 Leverkusen | 13.0 | gtbets, matchbook, smarkets | 3.22% | $2499.99 | $80.51 | settled | $+80.51 |
