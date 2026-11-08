@@ -75,3 +75,4 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 74,2026-11-08T19:41:52Z,sea:26NOV08FIOJUV,ACF Fiorentina v Juventus FC,sea,2026-11-08T19:45:00Z,3.1,0.009778,True,"['betonlineag', 'onexbet']",False,2499.99,2524.4334,24.4434,open,,,,,2
 75,2026-11-08T19:46:50Z,lal:26NOV08ATMBAR,Club Atlético de Madrid v FC Barcelona,lal,2026-11-08T20:00:00Z,13.2,0.010811,True,"['coolbet', 'marathonbet', 'unibet_nl']",False,2499.99,2527.0,27.01,open,,,,,3
 76,2026-11-08T19:56:52Z,lal:26NOV08ATMBAR,Club Atlético de Madrid v FC Barcelona,lal,2026-11-08T20:00:00Z,3.1,0.013795,True,"['onexbet', 'pinnacle', 'unibet_nl']",False,2499.98,2534.4548,34.4748,open,,,,,3
+77,2026-11-08T21:12:52Z,nfl:26NOV08GBNE,GB at NE,nfl,2026-11-08T21:25:00Z,12.1,0.002218,,,,42.9169,43.0,0.0831,open,,,,,3
