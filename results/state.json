@@ -1,7 +1,7 @@
 {
  "cash": {
   "PM": 5543.356800000001,
-  "KS": 5963.9400000000005,
+  "KS": 5963.77,
   "BK:smarkets": -8164.889999999999,
   "BK:pinnacle": -5565.82,
   "BK:onexbet": 742.5244000000014,
@@ -19,11 +19,11 @@
   "BK:betfair_ex_uk": 580.0,
   "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": 453.07,
-  "BK:betonlineag": -2288.102,
+  "BK:betonlineag": -3076.672,
   "BK:skybet": -375.10999999999996,
   "BK:betrivers": 1389.0532999999998,
   "BK:lowvig": -198.60000000000002,
-  "BK:mybookieag": -3842.6000000000004,
+  "BK:mybookieag": -5553.85,
   "BK:betmgm": 5041.888,
   "BK:betanysports": -2144.9284000000007,
   "BK:betsson": 2119.7043999999996,
@@ -991,6 +991,72 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 70,
+   "time": "2026-11-08T17:57:12Z",
+   "game": "nfl:26NOV08CLENO",
+   "title": "CLE at NO",
+   "league": "nfl",
+   "kickoff": "2026-11-08T18:00:00Z",
+   "min_to_ko": 2.8,
+   "t_lp": 0.00622,
+   "with_books": true,
+   "books": [
+    "betonlineag",
+    "mybookieag"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "e571bab6736f9338130a78a4f75c3231",
+    "sport": "americanfootball_nfl",
+    "home": "New Orleans Saints",
+    "away": "Cleveland Browns"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2514.82,
+   "guaranteed_profit": 14.83,
+   "legs": [
+    {
+     "venue": "KS",
+     "id": "KXNFLTIE-26NOV08CLENO-Y",
+     "label": "Game to end in a tie",
+     "side": "YES",
+     "price": 0.01,
+     "shares": 15,
+     "fee": 0.02,
+     "cost": 0.17
+    },
+    {
+     "venue": "BK:betonlineag",
+     "book": "betonlineag",
+     "market": "h2h",
+     "outcome": "Cleveland Browns",
+     "side": "away",
+     "point": null,
+     "odds": 3.19,
+     "eff": 3.19,
+     "three_way": false,
+     "stake": 788.57,
+     "cost": 788.57,
+     "label": "h2h Cleveland Browns  @3.19"
+    },
+    {
+     "venue": "BK:mybookieag",
+     "book": "mybookieag",
+     "market": "h2h",
+     "outcome": "New Orleans Saints",
+     "side": "home",
+     "point": null,
+     "odds": 1.47,
+     "eff": 1.47,
+     "three_way": false,
+     "stake": 1711.25,
+     "cost": 1711.25,
+     "label": "h2h New Orleans Saints  @1.47"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1049,16 +1115,20 @@
   "KS|KXNFLSPREAD-26NOV08CINATL-CIN15|YES|0.1600": {
    "n": 111.0,
    "t": "2026-11-08T14:20:58Z"
+  },
+  "KS|KXNFLTIE-26NOV08CLENO-Y|YES|0.0100": {
+   "n": 15.0,
+   "t": "2026-11-08T17:57:12Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 69,
+ "n_trades": 70,
  "n_settled": 56,
  "realized_pnl": 1167.2490600000049,
  "runs": 9,
  "locked": {
   "PM": 115.83950000000002,
-  "KS": 148.06999999999994,
+  "KS": 148.23999999999992,
   "BK:smarkets": 1184.5499999999993,
   "BK:pinnacle": 1195.65,
   "BK:onexbet": 5662.279999999999,
@@ -1076,11 +1146,11 @@
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 0.0,
-  "BK:betonlineag": 3801.9199999999996,
+  "BK:betonlineag": 4590.49,
   "BK:skybet": 0.0,
   "BK:betrivers": 0.0,
   "BK:lowvig": 0.0,
-  "BK:mybookieag": 0.0,
+  "BK:mybookieag": 1711.25,
   "BK:betmgm": 0.0,
   "BK:betanysports": 1047.4500000000003,
   "BK:betsson": 0.0,
@@ -1107,7 +1177,7 @@
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 1348.02,
   "BK:betfair_ex_eu": 126.93,
-  "BK:betonlineag": 3801.9199999999996,
+  "BK:betonlineag": 4590.49,
   "BK:skybet": 567.67,
   "BK:betrivers": 1721.39,
   "BK:lowvig": 778.6,
@@ -1142,7 +1212,7 @@
   "BK:skybet": -375.10999999999996,
   "BK:betrivers": -1141.39,
   "BK:lowvig": -198.60000000000002,
-  "BK:mybookieag": -3842.6000000000004,
+  "BK:mybookieag": -5553.85,
   "BK:betmgm": -4997.36,
   "BK:betanysports": -3610.7200000000003,
   "BK:betsson": -406.99,
@@ -1158,16 +1228,16 @@
  "peak_total_locked": 60263.5595,
  "odds": {
   "remaining": {
-   "1": 228,
-   "2": 226,
-   "3": 228,
-   "4": 227,
+   "1": 225,
+   "2": 222,
+   "3": 225,
+   "4": 224,
    "5": 225
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 479
+   "2026-11-08": 492
   }
  },
  "book_slots": {
@@ -1472,6 +1542,9 @@
   "nfl|2026-11-08T18:00|30": "2026-11-08T17:30:19Z",
   "nhl|2026-11-08T18:00|30": "2026-11-08T17:30:19Z",
   "nfl|2026-11-08T18:00|15": "2026-11-08T17:45:25Z",
-  "nhl|2026-11-08T18:00|15": "2026-11-08T17:45:25Z"
+  "nhl|2026-11-08T18:00|15": "2026-11-08T17:45:25Z",
+  "nfl|2026-11-08T18:00|5": "2026-11-08T17:55:26Z",
+  "nhl|2026-11-08T18:00|5": "2026-11-08T17:55:27Z",
+  "bun|2026-11-08T18:30|30": "2026-11-08T18:00:26Z"
  }
 }

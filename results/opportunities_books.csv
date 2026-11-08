@@ -607,3 +607,12 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-08T17:45:41Z,nfl:26NOV08CLENO,CLE at NO,nfl,14.3,scheduled,10,-0.001756,-0.000791,no gap,,,
 2026-11-08T17:45:41Z,nfl:26NOV08NYGPHI,NYG at PHI,nfl,14.3,scheduled,10,-0.004266,-0.004266,no gap,,,
 2026-11-08T17:45:41Z,nhl:26NOV08FLABOS,FLA at BOS,nhl,14.3,scheduled,8,-0.010703,-0.006416,no gap,,,
+2026-11-08T17:55:38Z,nfl:26NOV08DENCAR,DEN at CAR,nfl,4.4,scheduled,8,-0.004908,-0.002432,no gap,,,
+2026-11-08T17:55:38Z,nfl:26NOV08DALIND,DAL at IND,nfl,4.4,scheduled,12,-0.006606,-0.005772,no gap,,,
+2026-11-08T17:55:38Z,nfl:26NOV08NYJKC,NYJ at KC,nfl,4.4,scheduled,10,-0.005303,-0.002543,no gap,,,
+2026-11-08T17:55:40Z,nfl:26NOV08DETMIA,DET at MIA,nfl,4.3,scheduled,12,5e-05,5e-05,no gap,,,
+2026-11-08T17:55:42Z,nfl:26NOV08CLENO,CLE at NO,nfl,4.3,scheduled,10,-0.001756,0.00622,seen,191925.38,nfl:26NOV08CLENO|2026-11-08T17:55:42Z|with_books,KS YES 0.010 x0.000 Game to end in a tie | betonlineag h2h Cleveland Browns  @3.19 x0.315 | mybookieag h2h New Orleans Saints  @1.47 x0.685
+2026-11-08T17:55:42Z,nfl:26NOV08NYGPHI,NYG at PHI,nfl,4.3,scheduled,10,0.00026,0.00026,no gap,,,
+2026-11-08T17:55:42Z,nhl:26NOV08FLABOS,FLA at BOS,nhl,4.3,scheduled,6,-0.010703,-0.010703,no gap,,,
+2026-11-08T17:57:12Z,nfl:26NOV08CLENO,CLE at NO,nfl,2.8,confirmation,10,-0.001756,0.00622,executed,152247.5,,KS YES 0.010 x0.000 Game to end in a tie | betonlineag h2h Cleveland Browns  @3.19 x0.315 | mybookieag h2h New Orleans Saints  @1.47 x0.685
+2026-11-08T18:00:35Z,bun:26NOV08TSGSCH,TSG 1899 Hoffenheim v FC Schalke 04,bun,29.4,scheduled,9,-0.010943,-0.002402,no gap,,,
