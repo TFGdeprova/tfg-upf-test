@@ -2,9 +2,9 @@
  "cash": {
   "PM": 5659.1963,
   "KS": 5632.9,
-  "BK:smarkets": -2181.58,
+  "BK:smarkets": -2820.72,
   "BK:pinnacle": -1226.6,
-  "BK:onexbet": 5375.444600000001,
+  "BK:onexbet": 4128.794600000001,
   "BK:matchbook": 3632.14494,
   "BK:leovegas_se": 1789.2976799999997,
   "BK:gtbets": -912.98,
@@ -13,7 +13,7 @@
   "BK:unibet_se": 1218.9858,
   "BK:tipico_de": 2621.998,
   "BK:coolbet": -89.73000000000002,
-  "BK:unibet_nl": -4248.48,
+  "BK:unibet_nl": -4862.679999999999,
   "BK:marathonbet": 1116.3172000000002,
   "BK:coral": 1338.673,
   "BK:betfair_ex_uk": 580.0,
@@ -53,19 +53,91 @@
   "BK:mybookieag": 580.0,
   "BK:betmgm": 580.0
  },
- "open": [],
+ "open": [
+  {
+   "trade_id": 32,
+   "time": "2026-11-08T10:01:33Z",
+   "game": "lal:26NOV08ELCRBB",
+   "title": "Elche CF v Real Betis Balompi\u00e9",
+   "league": "lal",
+   "kickoff": "2026-11-08T13:00:00Z",
+   "min_to_ko": 178.4,
+   "t_lp": 0.007294,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "smarkets",
+    "unibet_nl"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "c35673eb1e889309d6985c091a43a3f5",
+    "sport": "soccer_spain_la_liga",
+    "home": "Elche CF",
+    "away": "Real Betis"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2518.2116,
+   "guaranteed_profit": 18.2216,
+   "legs": [
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Elche CF",
+     "side": "home",
+     "point": null,
+     "odds": 4.0,
+     "eff": 3.94,
+     "three_way": true,
+     "stake": 639.14,
+     "cost": 639.14,
+     "label": "h2h Elche CF  @4.0"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Real Betis",
+     "side": "away",
+     "point": null,
+     "odds": 2.02,
+     "eff": 2.02,
+     "three_way": true,
+     "stake": 1246.65,
+     "cost": 1246.65,
+     "label": "h2h Real Betis  @2.02"
+    },
+    {
+     "venue": "BK:unibet_nl",
+     "book": "unibet_nl",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.1,
+     "eff": 4.1,
+     "three_way": true,
+     "stake": 614.2,
+     "cost": 614.2,
+     "label": "h2h Draw  @4.1"
+    }
+   ],
+   "status": "open"
+  }
+ ],
  "consumed": {},
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 31,
+ "n_trades": 32,
  "n_settled": 31,
  "realized_pnl": 614.614820000002,
  "runs": 8,
  "locked": {
   "PM": 0.0,
   "KS": 0.0,
-  "BK:smarkets": 0.0,
+  "BK:smarkets": 639.14,
   "BK:pinnacle": 0.0,
-  "BK:onexbet": 4.547473508864641e-13,
+  "BK:onexbet": 1246.6500000000005,
   "BK:matchbook": 8.526512829121202e-14,
   "BK:leovegas_se": 0.0,
   "BK:gtbets": 0.0,
@@ -74,7 +146,7 @@
   "BK:unibet_se": 0.0,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 0.0,
-  "BK:unibet_nl": 6.252776074688882e-13,
+  "BK:unibet_nl": 614.2000000000007,
   "BK:marathonbet": 0.0,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 0.0,
@@ -117,7 +189,7 @@
  "min_cash": {
   "PM": 5659.1963,
   "KS": 5632.9,
-  "BK:smarkets": -2181.58,
+  "BK:smarkets": -2820.72,
   "BK:pinnacle": -1226.6,
   "BK:onexbet": -20246.551300000003,
   "BK:matchbook": -3925.7799999999993,
@@ -128,7 +200,7 @@
   "BK:unibet_se": -1299.37,
   "BK:tipico_de": 93.81,
   "BK:coolbet": -89.73000000000002,
-  "BK:unibet_nl": -4248.48,
+  "BK:unibet_nl": -4862.679999999999,
   "BK:marathonbet": -1406.36,
   "BK:coral": -1194.91,
   "BK:betfair_ex_uk": 580.0,
@@ -183,16 +255,16 @@
  "peak_total_locked": 46687.663700000005,
  "odds": {
   "remaining": {
-   "1": 299,
+   "1": 295,
    "2": 298,
    "3": 298,
-   "4": 301,
+   "4": 297,
    "5": 298
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 119
+   "2026-11-08": 127
   }
  },
  "book_slots": {
@@ -431,6 +503,7 @@
   "ere|2026-11-08T11:15|180": "2026-11-08T08:15:00Z",
   "sea|2026-11-08T11:30|180": "2026-11-08T08:30:00Z",
   "ere|2026-11-08T11:15|120": "2026-11-08T09:15:00Z",
-  "sea|2026-11-08T11:30|120": "2026-11-08T09:30:00Z"
+  "sea|2026-11-08T11:30|120": "2026-11-08T09:30:00Z",
+  "lal|2026-11-08T13:00|180": "2026-11-08T10:00:00Z"
  }
 }

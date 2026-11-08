@@ -30,3 +30,4 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 29,2026-11-08T02:31:34Z,nhl:26NOV07VANEDM,VAN at EDM,nhl,2026-11-08T03:00:00Z,28.4,0.003931,True,"['betmgm', 'mybookieag']",False,2499.99,2509.812,9.822,settled,2026-11-08T06:08:45Z,2509.812,9.822,ok,2
 30,2026-11-08T02:47:00Z,nhl:26NOV07VANEDM,VAN at EDM,nhl,2026-11-08T03:00:00Z,13.0,0.003931,True,"['betmgm', 'mybookieag']",False,2499.99,2509.812,9.822,settled,2026-11-08T06:08:45Z,2509.812,9.822,ok,2
 31,2026-11-08T02:57:00Z,nhl:26NOV07VANEDM,VAN at EDM,nhl,2026-11-08T03:00:00Z,3.0,0.003931,True,"['betmgm', 'mybookieag']",False,2499.99,2509.812,9.822,settled,2026-11-08T06:08:45Z,2509.812,9.822,ok,2
+32,2026-11-08T10:01:33Z,lal:26NOV08ELCRBB,Elche CF v Real Betis Balompié,lal,2026-11-08T13:00:00Z,178.4,0.007294,True,"['onexbet', 'smarkets', 'unibet_nl']",False,2499.99,2518.2116,18.2216,open,,,,,3
