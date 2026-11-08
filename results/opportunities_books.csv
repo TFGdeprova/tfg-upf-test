@@ -618,3 +618,6 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-08T18:00:35Z,bun:26NOV08TSGSCH,TSG 1899 Hoffenheim v FC Schalke 04,bun,29.4,scheduled,9,-0.010943,-0.002402,no gap,,,
 2026-11-08T18:15:33Z,bun:26NOV08TSGSCH,TSG 1899 Hoffenheim v FC Schalke 04,bun,14.4,scheduled,9,-0.011028,-0.001023,no gap,,,
 2026-11-08T18:25:37Z,bun:26NOV08TSGSCH,TSG 1899 Hoffenheim v FC Schalke 04,bun,4.4,scheduled,9,-0.011028,-0.003478,no gap,,,
+2026-11-08T19:15:39Z,sea:26NOV08FIOJUV,ACF Fiorentina v Juventus FC,sea,29.3,scheduled,5,-0.011921,-0.002956,no gap,,,
+2026-11-08T19:15:42Z,fl1:26NOV08RCLOLM,Racing Club de Lens v Olympique de Marseille,fl1,29.3,scheduled,11,-0.014511,0.007028,seen,,fl1:26NOV08RCLOLM|2026-11-08T19:15:42Z|with_books,smarkets h2h Marseille  @3.25 x0.314 | pinnacle h2h RC Lens  @2.37 x0.425 | onexbet h2h Draw  @3.86 x0.261
+2026-11-08T19:17:11Z,fl1:26NOV08RCLOLM,Racing Club de Lens v Olympique de Marseille,fl1,27.8,confirmation,11,-0.014511,0.0034,executed,,,smarkets h2h Marseille  @3.25 x0.313 | leovegas_se h2h RC Lens  @2.35 x0.427 | onexbet h2h Draw  @3.86 x0.260

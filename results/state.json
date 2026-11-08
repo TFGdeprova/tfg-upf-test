@@ -2,11 +2,11 @@
  "cash": {
   "PM": 5262.406500000003,
   "KS": 6222.77,
-  "BK:smarkets": -8164.889999999999,
+  "BK:smarkets": -8947.57,
   "BK:pinnacle": -5565.82,
-  "BK:onexbet": 3254.2940000000017,
+  "BK:onexbet": 2604.424000000002,
   "BK:matchbook": 5371.565980000001,
-  "BK:leovegas_se": 6394.549179999999,
+  "BK:leovegas_se": 5327.1091799999995,
   "BK:gtbets": 5009.9357,
   "BK:winamax_de": -258.41,
   "BK:grosvenor": 580.0,
@@ -239,6 +239,77 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 72,
+   "time": "2026-11-08T19:17:11Z",
+   "game": "fl1:26NOV08RCLOLM",
+   "title": "Racing Club de Lens v Olympique de Marseille",
+   "league": "fl1",
+   "kickoff": "2026-11-08T19:45:00Z",
+   "min_to_ko": 27.8,
+   "t_lp": 0.0034,
+   "with_books": true,
+   "books": [
+    "leovegas_se",
+    "onexbet",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "4e917e19b59093a02a0e12bcf9a5ecc4",
+    "sport": "soccer_france_ligue_one",
+    "home": "RC Lens",
+    "away": "Marseille"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2508.484,
+   "guaranteed_profit": 8.494,
+   "legs": [
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Marseille",
+     "side": "away",
+     "point": null,
+     "odds": 3.25,
+     "eff": 3.205,
+     "three_way": true,
+     "stake": 782.68,
+     "cost": 782.68,
+     "label": "h2h Marseille  @3.25"
+    },
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "RC Lens",
+     "side": "home",
+     "point": null,
+     "odds": 2.35,
+     "eff": 2.35,
+     "three_way": true,
+     "stake": 1067.44,
+     "cost": 1067.44,
+     "label": "h2h RC Lens  @2.35"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.86,
+     "eff": 3.86,
+     "three_way": true,
+     "stake": 649.87,
+     "cost": 649.87,
+     "label": "h2h Draw  @3.86"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -320,18 +391,18 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 71,
+ "n_trades": 72,
  "n_settled": 68,
  "realized_pnl": 1382.917960000006,
  "runs": 9,
  "locked": {
   "PM": 287.11029999999994,
   "KS": 0.1699999999999342,
-  "BK:smarkets": 0.0,
+  "BK:smarkets": 782.68,
   "BK:pinnacle": 1195.65,
-  "BK:onexbet": 1304.3399999999992,
+  "BK:onexbet": 1954.2099999999991,
   "BK:matchbook": 1.1368683772161603e-13,
-  "BK:leovegas_se": 2.2737367544323206e-13,
+  "BK:leovegas_se": 1067.4400000000003,
   "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
@@ -389,7 +460,7 @@
  "min_cash": {
   "PM": 5256.246500000003,
   "KS": 5231.9400000000005,
-  "BK:smarkets": -8164.889999999999,
+  "BK:smarkets": -8947.57,
   "BK:pinnacle": -5565.82,
   "BK:onexbet": -20246.551300000003,
   "BK:matchbook": -3925.7799999999993,
@@ -427,15 +498,15 @@
  "odds": {
   "remaining": {
    "1": 221,
-   "2": 222,
+   "2": 218,
    "3": 221,
-   "4": 222,
-   "5": 221
+   "4": 218,
+   "5": 217
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 506
+   "2026-11-08": 518
   }
  },
  "book_slots": {
@@ -745,6 +816,8 @@
   "nhl|2026-11-08T18:00|5": "2026-11-08T17:55:27Z",
   "bun|2026-11-08T18:30|30": "2026-11-08T18:00:26Z",
   "bun|2026-11-08T18:30|15": "2026-11-08T18:15:26Z",
-  "bun|2026-11-08T18:30|5": "2026-11-08T18:25:26Z"
+  "bun|2026-11-08T18:30|5": "2026-11-08T18:25:26Z",
+  "sea|2026-11-08T19:45|30": "2026-11-08T19:15:26Z",
+  "fl1|2026-11-08T19:45|30": "2026-11-08T19:15:27Z"
  }
 }
