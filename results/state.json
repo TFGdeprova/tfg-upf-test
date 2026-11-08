@@ -1,8 +1,8 @@
 {
  "cash": {
-  "PM": 5659.1963,
-  "KS": 5632.9,
-  "BK:smarkets": -4229.38,
+  "PM": 5596.244,
+  "KS": 5548.349999999999,
+  "BK:smarkets": -4812.18,
   "BK:pinnacle": -1836.6999999999998,
   "BK:onexbet": -4270.625399999999,
   "BK:matchbook": 2342.64494,
@@ -10,11 +10,11 @@
   "BK:gtbets": -3328.8599999999997,
   "BK:winamax_de": -258.41,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -50.774200000000064,
+  "BK:unibet_se": -666.5542,
   "BK:tipico_de": 2621.998,
   "BK:coolbet": -89.73000000000002,
   "BK:unibet_nl": -5806.48,
-  "BK:marathonbet": 1064.2372000000003,
+  "BK:marathonbet": -237.16279999999983,
   "BK:coral": 1338.673,
   "BK:betfair_ex_uk": 580.0,
   "BK:betfred_uk": 580.0,
@@ -821,18 +821,190 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 43,
+   "time": "2026-11-08T12:36:16Z",
+   "game": "nfl:26NOV08CINATL",
+   "title": "CIN at ATL",
+   "league": "nfl",
+   "kickoff": "2026-11-08T14:30:00Z",
+   "min_to_ko": 113.7,
+   "t_lp": 0.005817,
+   "cost": 147.5023,
+   "guaranteed_payout": 148.0,
+   "guaranteed_profit": 0.4977,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x000ed8556fe05fd330dbd37e4329ffa4aad03319a2c3cf3ffcfdb6870aa6c987",
+     "label": "Spread: Falcons (-6.5)",
+     "side": "YES",
+     "price": 0.2,
+     "shares": 148.79,
+     "fee": 0.71419,
+     "cost": 30.4722
+    },
+    {
+     "venue": "PM",
+     "id": "0xe0eaacc0293e0757c6ad7e20d688e372c56aad6a13a1c53f25e5e1b953effb14",
+     "label": "Exact Margin: Bengals by 1-6",
+     "side": "YES",
+     "price": 0.21,
+     "shares": 148.79,
+     "fee": 1.23421,
+     "cost": 32.4801
+    },
+    {
+     "venue": "KS",
+     "id": "KXNFLTIE-26NOV08CINATL-Y",
+     "label": "Game to end in a tie",
+     "side": "YES",
+     "price": 0.01,
+     "shares": 148,
+     "fee": 0.11,
+     "cost": 1.59
+    },
+    {
+     "venue": "KS",
+     "id": "KXNFLWINMARGIN-26NOV08CINATL-ATL1TO6",
+     "label": "Atlanta by 1 to 6",
+     "side": "YES",
+     "price": 0.16,
+     "shares": 148,
+     "fee": 1.4,
+     "cost": 25.08
+    },
+    {
+     "venue": "KS",
+     "id": "KXNFLWINMARGIN-26NOV08CINATL-CIN15PLUS",
+     "label": "Cincinnati by 15 or more",
+     "side": "YES",
+     "price": 0.16,
+     "shares": 148,
+     "fee": 1.4,
+     "cost": 25.08
+    },
+    {
+     "venue": "KS",
+     "id": "KXNFLWINMARGIN-26NOV08CINATL-CIN7TO14",
+     "label": "Cincinnati by 7 to 14",
+     "side": "YES",
+     "price": 0.21,
+     "shares": 148,
+     "fee": 1.72,
+     "cost": 32.8
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 44,
+   "time": "2026-11-08T12:46:49Z",
+   "game": "lal:26NOV08ELCRBB",
+   "title": "Elche CF v Real Betis Balompi\u00e9",
+   "league": "lal",
+   "kickoff": "2026-11-08T13:00:00Z",
+   "min_to_ko": 13.2,
+   "t_lp": 0.00989,
+   "with_books": true,
+   "books": [
+    "marathonbet",
+    "smarkets",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "c35673eb1e889309d6985c091a43a3f5",
+    "sport": "soccer_spain_la_liga",
+    "home": "Elche CF",
+    "away": "Real Betis"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2524.6896,
+   "guaranteed_profit": 24.7096,
+   "legs": [
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Elche CF",
+     "side": "home",
+     "point": null,
+     "odds": 4.4,
+     "eff": 4.332000000000001,
+     "three_way": true,
+     "stake": 582.8,
+     "cost": 582.8,
+     "label": "h2h Elche CF  @4.4"
+    },
+    {
+     "venue": "BK:marathonbet",
+     "book": "marathonbet",
+     "market": "h2h",
+     "outcome": "Real Betis",
+     "side": "away",
+     "point": null,
+     "odds": 1.94,
+     "eff": 1.94,
+     "three_way": true,
+     "stake": 1301.4,
+     "cost": 1301.4,
+     "label": "h2h Real Betis  @1.94"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.1,
+     "eff": 4.1,
+     "three_way": true,
+     "stake": 615.78,
+     "cost": 615.78,
+     "label": "h2h Draw  @4.1"
+    }
+   ],
+   "status": "open"
   }
  ],
- "consumed": {},
+ "consumed": {
+  "PM|0x000ed8556fe05fd330dbd37e4329ffa4aad03319a2c3cf3ffcfdb6870aa6c987|YES|0.2000": {
+   "n": 148.79,
+   "t": "2026-11-08T12:36:16Z"
+  },
+  "PM|0xe0eaacc0293e0757c6ad7e20d688e372c56aad6a13a1c53f25e5e1b953effb14|YES|0.2100": {
+   "n": 148.79,
+   "t": "2026-11-08T12:36:16Z"
+  },
+  "KS|KXNFLTIE-26NOV08CINATL-Y|YES|0.0100": {
+   "n": 148.0,
+   "t": "2026-11-08T12:36:16Z"
+  },
+  "KS|KXNFLWINMARGIN-26NOV08CINATL-ATL1TO6|YES|0.1600": {
+   "n": 148.0,
+   "t": "2026-11-08T12:36:16Z"
+  },
+  "KS|KXNFLWINMARGIN-26NOV08CINATL-CIN15PLUS|YES|0.1600": {
+   "n": 148.0,
+   "t": "2026-11-08T12:36:16Z"
+  },
+  "KS|KXNFLWINMARGIN-26NOV08CINATL-CIN7TO14|YES|0.2100": {
+   "n": 148.0,
+   "t": "2026-11-08T12:36:16Z"
+  }
+ },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 42,
+ "n_trades": 44,
  "n_settled": 31,
  "realized_pnl": 614.614820000002,
  "runs": 8,
  "locked": {
-  "PM": 0.0,
-  "KS": 0.0,
-  "BK:smarkets": 2047.7999999999997,
+  "PM": 62.9523,
+  "KS": 84.55,
+  "BK:smarkets": 2630.5999999999995,
   "BK:pinnacle": 610.1,
   "BK:onexbet": 9646.070000000002,
   "BK:matchbook": 1289.5,
@@ -840,11 +1012,11 @@
   "BK:gtbets": 2415.88,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 1269.76,
+  "BK:unibet_se": 1885.54,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 0.0,
   "BK:unibet_nl": 1558.000000000001,
-  "BK:marathonbet": 52.08,
+  "BK:marathonbet": 1353.48,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
@@ -869,7 +1041,7 @@
   "BK:gtbets": 2415.88,
   "BK:winamax_de": 805.8,
   "BK:grosvenor": 292.3,
-  "BK:unibet_se": 1879.37,
+  "BK:unibet_se": 1885.54,
   "BK:tipico_de": 486.19,
   "BK:coolbet": 669.73,
   "BK:unibet_nl": 4157.51,
@@ -888,9 +1060,9 @@
   "BK:betsson": 986.99
  },
  "min_cash": {
-  "PM": 5659.1963,
-  "KS": 5632.9,
-  "BK:smarkets": -4229.38,
+  "PM": 5596.244,
+  "KS": 5548.349999999999,
+  "BK:smarkets": -4812.18,
   "BK:pinnacle": -1836.6999999999998,
   "BK:onexbet": -20246.551300000003,
   "BK:matchbook": -3925.7799999999993,
@@ -960,14 +1132,14 @@
   "remaining": {
    "1": 275,
    "2": 275,
-   "3": 278,
+   "3": 274,
    "4": 277,
-   "5": 278
+   "5": 274
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 230
+   "2026-11-08": 238
   }
  },
  "book_slots": {
@@ -1227,6 +1399,7 @@
   "sea|2026-11-08T14:00|120": "2026-11-08T12:00:16Z",
   "fl1|2026-11-08T14:00|120": "2026-11-08T12:00:16Z",
   "scop|2026-11-08T15:00|180": "2026-11-08T12:00:16Z",
-  "lal|2026-11-08T13:00|30": "2026-11-08T12:30:23Z"
+  "lal|2026-11-08T13:00|30": "2026-11-08T12:30:23Z",
+  "lal|2026-11-08T13:00|15": "2026-11-08T12:45:10Z"
  }
 }
