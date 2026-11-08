@@ -1,4 +1,4 @@
-# Paper-trading bot: status at 2026-11-08T20:44:32Z
+# Paper-trading bot: status at 2026-11-08T21:04:36Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
@@ -15,13 +15,13 @@ Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities):
 | Return so far (realised / peak money in use) | 2.432% over 1.9 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 181, executed 5, rounding 18, seen 216, vanished 10.
-Gaps using bookmakers: executed 71, no_cash 41, rounding 1, seen 131, vanished 18 (snapshots combined with Polymarket/Kalshi: 641).
+Gaps using bookmakers: executed 71, no_cash 41, rounding 1, seen 131, vanished 18 (snapshots combined with Polymarket/Kalshi: 646).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 924 (about 1.8 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
+The Odds API credits left: 915 (about 1.8 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
 
 ## Capital by account
 

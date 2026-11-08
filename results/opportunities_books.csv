@@ -640,3 +640,8 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-08T20:25:21Z,nba:26NOV08PHICHI,PHI at CHI,nba,4.6,scheduled,10,-0.01285,-0.01285,no gap,,,
 2026-11-08T20:25:23Z,nhl:26NOV08VGKBUF,VGK at BUF,nhl,4.6,scheduled,8,-0.018256,-0.018256,no gap,,,
 2026-11-08T20:35:20Z,nfl:26NOV08HOULAC,HOU at LAC,nfl,29.7,scheduled,8,-0.003825,-0.003825,no gap,,,
+2026-11-08T20:50:20Z,nfl:26NOV08HOULAC,HOU at LAC,nfl,14.7,scheduled,8,-0.003825,-0.003825,no gap,,,
+2026-11-08T20:55:20Z,nfl:26NOV08LVSF,LV at SF,nfl,29.7,scheduled,14,-0.000788,-0.000788,no gap,,,
+2026-11-08T20:55:20Z,nfl:26NOV08GBNE,GB at NE,nfl,29.7,scheduled,10,-0.006108,-0.006108,no gap,,,
+2026-11-08T20:55:20Z,nfl:26NOV08ARISEA,ARI at SEA,nfl,29.7,scheduled,12,-0.005609,-0.005609,no gap,,,
+2026-11-08T21:00:24Z,nfl:26NOV08HOULAC,HOU at LAC,nfl,4.6,scheduled,8,-0.003825,-0.003825,no gap,,,
