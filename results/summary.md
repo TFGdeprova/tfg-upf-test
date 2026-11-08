@@ -1,4 +1,4 @@
-# Paper-trading bot: status at 2026-11-08T11:33:15Z
+# Paper-trading bot: status at 2026-11-08T11:53:27Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
@@ -14,7 +14,7 @@ Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities):
 | Equity (cash + open at cost + in transit) | $26,714.62 ≈ €23,029.84 |
 | Return so far (realised / peak money in use) | 1.316% over 1.5 days |
 
-Polymarket/Kalshi gaps above the threshold: below_min_size 1, seen 2, vanished 1.
+Polymarket/Kalshi gaps above the threshold: below_min_size 1, rounding 2, seen 4, vanished 1.
 Gaps using bookmakers: executed 40, no_cash 41, rounding 1, seen 95, vanished 13 (snapshots combined with Polymarket/Kalshi: 503).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
@@ -63,18 +63,18 @@ Transfers between accounts: 4 ($1,399.69 moved, $0.00 in fees; 4 still in transi
 
 ## Gaps followed: the same portfolio re-checked later, and order-book depth
 
-Gaps above 0.1% followed: 8 Polymarket/Kalshi and 110 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
+Gaps above 0.1% followed: 10 Polymarket/Kalshi and 110 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
 
 | re-check | measured | still profitable | above 0.2% | a leg no longer offered | censored |
 |---|---|---|---|---|---|
-| +30 s | 8 | 5 | 0 | 0 | 0 |
-| +1 min | 7 | 4 | 0 | 0 | 1 |
-| +2 min | 7 | 5 | 0 | 0 | 1 |
-| +5 min | 7 | 3 | 0 | 0 | 1 |
+| +30 s | 10 | 7 | 2 | 0 | 0 |
+| +1 min | 9 | 6 | 0 | 0 | 1 |
+| +2 min | 9 | 7 | 0 | 0 | 1 |
+| +5 min | 9 | 4 | 0 | 0 | 1 |
 | bookmaker confirmation (~1 min) | 206 | 82 | 79 | 2 | 0 |
 | next bookmaker snapshot | 203 | 17 | 14 | 0 | 0 |
 
-Depth at detection (118 gaps with full order books): median capacity (largest size still profitable after walking the order books) $20,000; median largest guaranteed profit $109.41. Details: `results/rechecks.csv`, `results/depth.csv`.
+Depth at detection (120 gaps with full order books): median capacity (largest size still profitable after walking the order books) $20,000; median largest guaranteed profit $108.06. Details: `results/rechecks.csv`, `results/depth.csv`.
 
 ## Last trades
 
