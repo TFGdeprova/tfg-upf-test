@@ -14,18 +14,18 @@
   "BK:tipico_de": 2621.998,
   "BK:coolbet": -89.73000000000002,
   "BK:unibet_nl": -5806.48,
-  "BK:marathonbet": 1116.3172000000002,
+  "BK:marathonbet": 1064.2372000000003,
   "BK:coral": 1338.673,
   "BK:betfair_ex_uk": 580.0,
   "BK:betfred_uk": 580.0,
   "BK:betfair_ex_eu": 453.07,
-  "BK:betonlineag": -884.76,
+  "BK:betonlineag": -3520.56,
   "BK:skybet": 192.56,
   "BK:betrivers": 1389.0532999999998,
   "BK:lowvig": -198.60000000000002,
   "BK:mybookieag": -3842.6000000000004,
   "BK:betmgm": 5041.888,
-  "BK:betanysports": -685.99,
+  "BK:betanysports": -2998.09,
   "BK:betsson": -406.99
  },
  "start_cash": {
@@ -537,11 +537,153 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 39,
+   "time": "2026-11-08T11:16:52Z",
+   "game": "sea:26NOV08NAPLAZ",
+   "title": "SSC Napoli v SS Lazio",
+   "league": "sea",
+   "kickoff": "2026-11-08T11:30:00Z",
+   "min_to_ko": 13.1,
+   "t_lp": 0.006876,
+   "with_books": true,
+   "books": [
+    "betanysports",
+    "betonlineag",
+    "marathonbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "23bf8ea47358ef82f65aa7398a2b3921",
+    "sport": "soccer_italy_serie_a",
+    "home": "Napoli",
+    "away": "Lazio"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2517.1734,
+   "guaranteed_profit": 17.1834,
+   "legs": [
+    {
+     "venue": "BK:marathonbet",
+     "book": "marathonbet",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 2.5,
+     "odds": 1.66,
+     "eff": 1.66,
+     "three_way": true,
+     "stake": 26.04,
+     "cost": 26.04,
+     "label": "totals Over 2.5 @1.66"
+    },
+    {
+     "venue": "BK:betanysports",
+     "book": "betanysports",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 3.0,
+     "odds": 2.14,
+     "eff": 2.14,
+     "three_way": true,
+     "stake": 1156.05,
+     "cost": 1156.05,
+     "label": "totals Over 3.0 @2.14"
+    },
+    {
+     "venue": "BK:betonlineag",
+     "book": "betonlineag",
+     "market": "totals",
+     "outcome": "Under",
+     "side": "under",
+     "point": 3.0,
+     "odds": 1.91,
+     "eff": 1.91,
+     "three_way": true,
+     "stake": 1317.9,
+     "cost": 1317.9,
+     "label": "totals Under 3.0 @1.91"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 40,
+   "time": "2026-11-08T11:26:55Z",
+   "game": "sea:26NOV08NAPLAZ",
+   "title": "SSC Napoli v SS Lazio",
+   "league": "sea",
+   "kickoff": "2026-11-08T11:30:00Z",
+   "min_to_ko": 3.1,
+   "t_lp": 0.006876,
+   "with_books": true,
+   "books": [
+    "betanysports",
+    "betonlineag",
+    "marathonbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "23bf8ea47358ef82f65aa7398a2b3921",
+    "sport": "soccer_italy_serie_a",
+    "home": "Napoli",
+    "away": "Lazio"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2517.1734,
+   "guaranteed_profit": 17.1834,
+   "legs": [
+    {
+     "venue": "BK:marathonbet",
+     "book": "marathonbet",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 2.5,
+     "odds": 1.66,
+     "eff": 1.66,
+     "three_way": true,
+     "stake": 26.04,
+     "cost": 26.04,
+     "label": "totals Over 2.5 @1.66"
+    },
+    {
+     "venue": "BK:betanysports",
+     "book": "betanysports",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 3.0,
+     "odds": 2.14,
+     "eff": 2.14,
+     "three_way": true,
+     "stake": 1156.05,
+     "cost": 1156.05,
+     "label": "totals Over 3.0 @2.14"
+    },
+    {
+     "venue": "BK:betonlineag",
+     "book": "betonlineag",
+     "market": "totals",
+     "outcome": "Under",
+     "side": "under",
+     "point": 3.0,
+     "odds": 1.91,
+     "eff": 1.91,
+     "three_way": true,
+     "stake": 1317.9,
+     "cost": 1317.9,
+     "label": "totals Under 3.0 @1.91"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {},
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 38,
+ "n_trades": 40,
  "n_settled": 31,
  "realized_pnl": 614.614820000002,
  "runs": 8,
@@ -560,18 +702,18 @@
   "BK:tipico_de": 0.0,
   "BK:coolbet": 0.0,
   "BK:unibet_nl": 1558.000000000001,
-  "BK:marathonbet": 0.0,
+  "BK:marathonbet": 52.08,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 0.0,
-  "BK:betonlineag": 797.14,
+  "BK:betonlineag": 3432.94,
   "BK:skybet": 0.0,
   "BK:betrivers": 0.0,
   "BK:lowvig": 0.0,
   "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
-  "BK:betanysports": 1265.99,
+  "BK:betanysports": 3578.09,
   "BK:betsson": 986.99
  },
  "peak_locked": {
@@ -594,13 +736,13 @@
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 126.93,
-  "BK:betonlineag": 797.14,
+  "BK:betonlineag": 3432.94,
   "BK:skybet": 387.44,
   "BK:betrivers": 1721.39,
   "BK:lowvig": 778.6,
   "BK:mybookieag": 4422.6,
   "BK:betmgm": 5577.36,
-  "BK:betanysports": 1265.99,
+  "BK:betanysports": 3578.09,
   "BK:betsson": 986.99
  },
  "min_cash": {
@@ -623,13 +765,13 @@
   "BK:betfair_ex_uk": 580.0,
   "BK:betfred_uk": 580.0,
   "BK:betfair_ex_eu": 453.07,
-  "BK:betonlineag": -884.76,
+  "BK:betonlineag": -3520.56,
   "BK:skybet": 192.56,
   "BK:betrivers": -1141.39,
   "BK:lowvig": -198.60000000000002,
   "BK:mybookieag": -3842.6000000000004,
   "BK:betmgm": -4997.36,
-  "BK:betanysports": -685.99,
+  "BK:betanysports": -2998.09,
   "BK:betsson": -406.99
  },
  "transfers": [
@@ -674,16 +816,16 @@
  "peak_total_locked": 46687.663700000005,
  "odds": {
   "remaining": {
-   "1": 287,
-   "2": 286,
-   "3": 286,
-   "4": 289,
-   "5": 286
+   "1": 283,
+   "2": 283,
+   "3": 282,
+   "4": 281,
+   "5": 282
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 179
+   "2026-11-08": 202
   }
  },
  "book_slots": {
@@ -933,6 +1075,10 @@
   "lal|2026-11-08T13:00|120": "2026-11-08T11:00:01Z",
   "epl|2026-11-08T14:00|180": "2026-11-08T11:00:01Z",
   "fl1|2026-11-08T14:00|180": "2026-11-08T11:00:02Z",
-  "ere|2026-11-08T11:15|5": "2026-11-08T11:10:05Z"
+  "ere|2026-11-08T11:15|5": "2026-11-08T11:10:05Z",
+  "sea|2026-11-08T11:30|15": "2026-11-08T11:15:12Z",
+  "sea|2026-11-08T11:30|5": "2026-11-08T11:25:14Z",
+  "nfl|2026-11-08T14:30|180": "2026-11-08T11:30:14Z",
+  "bun|2026-11-08T14:30|180": "2026-11-08T11:30:14Z"
  }
 }

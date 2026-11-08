@@ -37,3 +37,5 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 36,2026-11-08T11:01:42Z,epl:26NOV08CRYLFC,Crystal Palace FC v Liverpool FC,epl,2026-11-08T14:00:00Z,178.3,0.002186,True,"['onexbet', 'unibet_nl']",False,2499.99,2505.429,5.439,open,,,,,3
 37,2026-11-08T11:01:42Z,epl:26NOV08BRIBRE,Brighton & Hove Albion FC v Brentford FC,epl,2026-11-08T14:00:00Z,178.3,0.008747,True,"['matchbook', 'onexbet']",False,2499.99,2521.8433,21.8533,open,,,,,3
 38,2026-11-08T11:01:43Z,sea:26NOV08MONATA,AC Monza v Atalanta BC,sea,2026-11-08T14:00:00Z,178.3,0.005314,True,"['betanysports', 'gtbets', 'smarkets']",False,2499.98,2513.264,13.284,open,,,,,3
+39,2026-11-08T11:16:52Z,sea:26NOV08NAPLAZ,SSC Napoli v SS Lazio,sea,2026-11-08T11:30:00Z,13.1,0.006876,True,"['betanysports', 'betonlineag', 'marathonbet']",False,2499.99,2517.1734,17.1834,open,,,,,3
+40,2026-11-08T11:26:55Z,sea:26NOV08NAPLAZ,SSC Napoli v SS Lazio,sea,2026-11-08T11:30:00Z,3.1,0.006876,True,"['betanysports', 'betonlineag', 'marathonbet']",False,2499.99,2517.1734,17.1834,open,,,,,3
