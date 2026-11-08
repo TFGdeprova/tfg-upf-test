@@ -442,3 +442,7 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-08T01:01:39Z,nhl:26NOV07VANEDM,VAN at EDM,nhl,118.3,confirmation,10,-0.009208,0.003931,executed,,,mybookieag spreads Edmonton Oilers -2.5 @2.27 x0.442 | betmgm spreads Vancouver Canucks 2.5 @1.8 x0.558
 2026-11-08T01:15:09Z,nba:26NOV07ORLGSW,ORL at GSW,nba,14.8,scheduled,8,-0.009593,0.002581,seen,4.99,nba:26NOV07ORLGSW|2026-11-08T01:15:09Z|with_books,PM YES 0.170 x0.178 Spread: Magic (-5.5) | KS YES 0.090 x0.096 Orlando wins by 1-5 points | betrivers h2h Golden State Warriors  @1.38 x0.727
 2026-11-08T01:16:39Z,nba:26NOV07ORLGSW,ORL at GSW,nba,13.3,confirmation,8,-0.009593,0.002581,rounding,4.99,,PM YES 0.170 x0.178 Spread: Magic (-5.5) | KS YES 0.090 x0.096 Orlando wins by 1-5 points | betrivers h2h Golden State Warriors  @1.38 x0.727
+2026-11-08T01:25:09Z,nba:26NOV07ORLGSW,ORL at GSW,nba,4.8,scheduled,10,-0.006723,0.001392,no gap,,nba:26NOV07ORLGSW|2026-11-08T01:25:09Z|with_books,
+2026-11-08T01:30:08Z,nba:26NOV07HOUPHX,HOU at PHX,nba,29.9,scheduled,8,-0.014094,-0.014094,no gap,,,
+2026-11-08T01:30:08Z,nhl:26NOV07DETCOL,DET at COL,nhl,29.9,scheduled,6,-0.019379,-0.010023,no gap,,,
+2026-11-08T01:30:08Z,nhl:26NOV07PITLA,PIT at LA,nhl,29.9,scheduled,6,-0.01665,-0.01665,no gap,,,
