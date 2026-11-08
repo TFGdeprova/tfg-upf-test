@@ -420,3 +420,4 @@ time,watch,kind,game,title,league,min_to_ko,lag_s,detected,recheck,t_detected,t_
 2026-11-08T02:56:59Z,nhl:26NOV07VANEDM|2026-11-08T02:45:29Z|with_books,with_books,nhl:26NOV07VANEDM,VAN at EDM,nhl,3.0,689.7,2026-11-08T02:45:29Z,confirmation,0.003931,0.003931,2/2,0.003931,True,True,ok
 2026-11-08T02:56:59Z,nhl:26NOV07VANEDM|2026-11-08T02:55:29Z|with_books,with_books,nhl:26NOV07VANEDM,VAN at EDM,nhl,3.0,89.7,2026-11-08T02:55:29Z,confirmation,0.003931,0.003931,2/2,0.003931,True,True,ok
 2026-11-08T10:01:33Z,lal:26NOV08ELCRBB|2026-11-08T10:00:03Z|with_books,with_books,lal:26NOV08ELCRBB,Elche CF v Real Betis Balompié,lal,178.4,89.7,2026-11-08T10:00:03Z,confirmation,0.007294,0.007294,3/3,0.007294,True,True,ok
+2026-11-08T10:31:31Z,sea:26NOV08NAPLAZ|2026-11-08T10:30:01Z|with_books,with_books,sea:26NOV08NAPLAZ,SSC Napoli v SS Lazio,sea,58.5,89.6,2026-11-08T10:30:01Z,confirmation,0.004409,0.004409,3/3,0.004409,True,True,ok

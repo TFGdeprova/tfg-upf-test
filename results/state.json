@@ -4,13 +4,13 @@
   "KS": 5632.9,
   "BK:smarkets": -2820.72,
   "BK:pinnacle": -1226.6,
-  "BK:onexbet": 4128.794600000001,
+  "BK:onexbet": 3078.164600000001,
   "BK:matchbook": 3632.14494,
   "BK:leovegas_se": 1789.2976799999997,
   "BK:gtbets": -912.98,
   "BK:winamax_de": -258.41,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": 1218.9858,
+  "BK:unibet_se": 566.7757999999999,
   "BK:tipico_de": 2621.998,
   "BK:coolbet": -89.73000000000002,
   "BK:unibet_nl": -4862.679999999999,
@@ -19,7 +19,7 @@
   "BK:betfair_ex_uk": 580.0,
   "BK:betfred_uk": 580.0,
   "BK:betfair_ex_eu": 453.07,
-  "BK:betonlineag": -87.62,
+  "BK:betonlineag": -884.76,
   "BK:skybet": 192.56,
   "BK:betrivers": 1389.0532999999998,
   "BK:lowvig": -198.60000000000002,
@@ -124,11 +124,82 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 33,
+   "time": "2026-11-08T10:31:31Z",
+   "game": "sea:26NOV08NAPLAZ",
+   "title": "SSC Napoli v SS Lazio",
+   "league": "sea",
+   "kickoff": "2026-11-08T11:30:00Z",
+   "min_to_ko": 58.5,
+   "t_lp": 0.004409,
+   "with_books": true,
+   "books": [
+    "betonlineag",
+    "onexbet",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "23bf8ea47358ef82f65aa7398a2b3921",
+    "sport": "soccer_italy_serie_a",
+    "home": "Napoli",
+    "away": "Lazio"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2510.991,
+   "guaranteed_profit": 11.011,
+   "legs": [
+    {
+     "venue": "BK:betonlineag",
+     "book": "betonlineag",
+     "market": "h2h",
+     "outcome": "Lazio",
+     "side": "away",
+     "point": null,
+     "odds": 3.15,
+     "eff": 3.15,
+     "three_way": true,
+     "stake": 797.14,
+     "cost": 797.14,
+     "label": "h2h Lazio  @3.15"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Napoli",
+     "side": "home",
+     "point": null,
+     "odds": 2.39,
+     "eff": 2.39,
+     "three_way": true,
+     "stake": 1050.63,
+     "cost": 1050.63,
+     "label": "h2h Napoli  @2.39"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.85,
+     "eff": 3.85,
+     "three_way": true,
+     "stake": 652.21,
+     "cost": 652.21,
+     "label": "h2h Draw  @3.85"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {},
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 32,
+ "n_trades": 33,
  "n_settled": 31,
  "realized_pnl": 614.614820000002,
  "runs": 8,
@@ -137,13 +208,13 @@
   "KS": 0.0,
   "BK:smarkets": 639.14,
   "BK:pinnacle": 0.0,
-  "BK:onexbet": 1246.6500000000005,
+  "BK:onexbet": 2297.2800000000007,
   "BK:matchbook": 8.526512829121202e-14,
   "BK:leovegas_se": 0.0,
   "BK:gtbets": 0.0,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 0.0,
+  "BK:unibet_se": 652.21,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 0.0,
   "BK:unibet_nl": 614.2000000000007,
@@ -152,7 +223,7 @@
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 0.0,
-  "BK:betonlineag": 0.0,
+  "BK:betonlineag": 797.14,
   "BK:skybet": 0.0,
   "BK:betrivers": 0.0,
   "BK:lowvig": 0.0,
@@ -179,7 +250,7 @@
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 126.93,
-  "BK:betonlineag": 667.62,
+  "BK:betonlineag": 797.14,
   "BK:skybet": 387.44,
   "BK:betrivers": 1721.39,
   "BK:lowvig": 778.6,
@@ -206,7 +277,7 @@
   "BK:betfair_ex_uk": 580.0,
   "BK:betfred_uk": 580.0,
   "BK:betfair_ex_eu": 453.07,
-  "BK:betonlineag": -87.62,
+  "BK:betonlineag": -884.76,
   "BK:skybet": 192.56,
   "BK:betrivers": -1141.39,
   "BK:lowvig": -198.60000000000002,
@@ -256,15 +327,15 @@
  "odds": {
   "remaining": {
    "1": 295,
-   "2": 298,
-   "3": 298,
+   "2": 294,
+   "3": 294,
    "4": 297,
-   "5": 298
+   "5": 294
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 127
+   "2026-11-08": 139
   }
  },
  "book_slots": {
@@ -504,6 +575,8 @@
   "sea|2026-11-08T11:30|180": "2026-11-08T08:30:00Z",
   "ere|2026-11-08T11:15|120": "2026-11-08T09:15:00Z",
   "sea|2026-11-08T11:30|120": "2026-11-08T09:30:00Z",
-  "lal|2026-11-08T13:00|180": "2026-11-08T10:00:00Z"
+  "lal|2026-11-08T13:00|180": "2026-11-08T10:00:00Z",
+  "ere|2026-11-08T11:15|60": "2026-11-08T10:15:00Z",
+  "sea|2026-11-08T11:30|60": "2026-11-08T10:30:00Z"
  }
 }

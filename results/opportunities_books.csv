@@ -468,3 +468,6 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-08T09:30:01Z,sea:26NOV08NAPLAZ,SSC Napoli v SS Lazio,sea,120.0,scheduled,7,-0.011921,-0.004858,no gap,,,
 2026-11-08T10:00:03Z,lal:26NOV08ELCRBB,Elche CF v Real Betis Balompié,lal,179.9,scheduled,9,-0.005347,0.007294,seen,,lal:26NOV08ELCRBB|2026-11-08T10:00:03Z|with_books,matchbook h2h Elche CF  @4.0 x0.256 | onexbet h2h Real Betis  @2.02 x0.499 | unibet_nl h2h Draw  @4.1 x0.246
 2026-11-08T10:01:33Z,lal:26NOV08ELCRBB,Elche CF v Real Betis Balompié,lal,178.4,confirmation,9,-0.005347,0.007294,executed,,,smarkets h2h Elche CF  @4.0 x0.256 | onexbet h2h Real Betis  @2.02 x0.499 | unibet_nl h2h Draw  @4.1 x0.246
+2026-11-08T10:15:03Z,ere:26NOV08HEEFEY,SC Heerenveen v Feyenoord Rotterdam,ere,59.9,scheduled,7,-0.013232,-0.000486,no gap,,,
+2026-11-08T10:30:01Z,sea:26NOV08NAPLAZ,SSC Napoli v SS Lazio,sea,60.0,scheduled,7,-0.011921,0.004409,seen,,sea:26NOV08NAPLAZ|2026-11-08T10:30:01Z|with_books,betonlineag h2h Lazio  @3.15 x0.319 | onexbet h2h Napoli  @2.39 x0.420 | unibet_se h2h Draw  @3.85 x0.261
+2026-11-08T10:31:31Z,sea:26NOV08NAPLAZ,SSC Napoli v SS Lazio,sea,58.5,confirmation,9,-0.011921,0.004409,executed,,,betonlineag h2h Lazio  @3.15 x0.319 | onexbet h2h Napoli  @2.39 x0.420 | unibet_se h2h Draw  @3.85 x0.261
