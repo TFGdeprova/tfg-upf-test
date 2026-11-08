@@ -502,3 +502,7 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-08T11:26:55Z,sea:26NOV08NAPLAZ,SSC Napoli v SS Lazio,sea,3.1,confirmation,9,-0.011921,0.006876,executed,,,marathonbet totals Over 2.5 @1.66 x0.010 | betanysports totals Over 3.0 @2.14 x0.462 | betonlineag totals Under 3.0 @1.91 x0.527
 2026-11-08T11:30:29Z,nfl:26NOV08CINATL,CIN at ATL,nfl,179.5,scheduled,8,0.000463,0.000463,no gap,,,
 2026-11-08T11:30:29Z,bun:26NOV08KOELEV,1. FC Köln v Bayer 04 Leverkusen,bun,179.5,scheduled,9,-0.0127,-0.003256,no gap,,,
+2026-11-08T12:00:23Z,lal:26NOV08ELCRBB,Elche CF v Real Betis Balompié,lal,59.6,scheduled,9,-0.005347,0.001061,no gap,,lal:26NOV08ELCRBB|2026-11-08T12:00:23Z|with_books,
+2026-11-08T12:00:28Z,sea:26NOV08GENACM,Genoa CFC v AC Milan,sea,119.5,scheduled,7,-0.011921,-0.001549,no gap,,,
+2026-11-08T12:00:28Z,sea:26NOV08MONATA,AC Monza v Atalanta BC,sea,119.5,scheduled,11,-0.014511,0.004714,seen,,sea:26NOV08MONATA|2026-11-08T12:00:23Z|with_books,gtbets h2h Atalanta BC  @2.08 x0.483 | matchbook h2h Monza  @3.75 x0.272 | betanysports h2h Draw  @4.1 x0.245
+2026-11-08T12:01:46Z,sea:26NOV08MONATA,AC Monza v Atalanta BC,sea,118.2,confirmation,11,-0.014511,0.004714,executed,,,gtbets h2h Atalanta BC  @2.08 x0.483 | matchbook h2h Monza  @3.75 x0.272 | betanysports h2h Draw  @4.1 x0.245

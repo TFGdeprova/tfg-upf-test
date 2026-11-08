@@ -5,9 +5,9 @@
   "BK:smarkets": -4229.38,
   "BK:pinnacle": -1226.6,
   "BK:onexbet": -2998.295399999999,
-  "BK:matchbook": 3022.41494,
+  "BK:matchbook": 2342.64494,
   "BK:leovegas_se": 1789.2976799999997,
-  "BK:gtbets": -2121.2799999999997,
+  "BK:gtbets": -3328.8599999999997,
   "BK:winamax_de": -258.41,
   "BK:grosvenor": 580.0,
   "BK:unibet_se": 566.7757999999999,
@@ -25,7 +25,7 @@
   "BK:lowvig": -198.60000000000002,
   "BK:mybookieag": -3842.6000000000004,
   "BK:betmgm": 5041.888,
-  "BK:betanysports": -2998.09,
+  "BK:betanysports": -3610.7200000000003,
   "BK:betsson": -406.99
  },
  "start_cash": {
@@ -679,11 +679,82 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 41,
+   "time": "2026-11-08T12:01:46Z",
+   "game": "sea:26NOV08MONATA",
+   "title": "AC Monza v Atalanta BC",
+   "league": "sea",
+   "kickoff": "2026-11-08T14:00:00Z",
+   "min_to_ko": 118.2,
+   "t_lp": 0.004714,
+   "with_books": true,
+   "books": [
+    "betanysports",
+    "gtbets",
+    "matchbook"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "5ea6b7050b00fcc1832f7938794dd755",
+    "sport": "soccer_italy_serie_a",
+    "home": "Monza",
+    "away": "Atalanta BC"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2511.7501,
+   "guaranteed_profit": 11.7701,
+   "legs": [
+    {
+     "venue": "BK:gtbets",
+     "book": "gtbets",
+     "market": "h2h",
+     "outcome": "Atalanta BC",
+     "side": "away",
+     "point": null,
+     "odds": 2.08,
+     "eff": 2.08,
+     "three_way": true,
+     "stake": 1207.58,
+     "cost": 1207.58,
+     "label": "h2h Atalanta BC  @2.08"
+    },
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Monza",
+     "side": "home",
+     "point": null,
+     "odds": 3.75,
+     "eff": 3.695,
+     "three_way": true,
+     "stake": 679.77,
+     "cost": 679.77,
+     "label": "h2h Monza  @3.75"
+    },
+    {
+     "venue": "BK:betanysports",
+     "book": "betanysports",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.1,
+     "eff": 4.1,
+     "three_way": true,
+     "stake": 612.63,
+     "cost": 612.63,
+     "label": "h2h Draw  @4.1"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {},
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 40,
+ "n_trades": 41,
  "n_settled": 31,
  "realized_pnl": 614.614820000002,
  "runs": 8,
@@ -693,9 +764,9 @@
   "BK:smarkets": 2047.7999999999997,
   "BK:pinnacle": 0.0,
   "BK:onexbet": 8373.740000000002,
-  "BK:matchbook": 609.7300000000001,
+  "BK:matchbook": 1289.5,
   "BK:leovegas_se": 0.0,
-  "BK:gtbets": 1208.3,
+  "BK:gtbets": 2415.88,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 652.21,
@@ -713,7 +784,7 @@
   "BK:lowvig": 0.0,
   "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
-  "BK:betanysports": 3578.09,
+  "BK:betanysports": 4190.72,
   "BK:betsson": 986.99
  },
  "peak_locked": {
@@ -724,7 +795,7 @@
   "BK:onexbet": 22357.230000000003,
   "BK:matchbook": 2789.92,
   "BK:leovegas_se": 1403.0,
-  "BK:gtbets": 1492.98,
+  "BK:gtbets": 2415.88,
   "BK:winamax_de": 805.8,
   "BK:grosvenor": 292.3,
   "BK:unibet_se": 1879.37,
@@ -742,7 +813,7 @@
   "BK:lowvig": 778.6,
   "BK:mybookieag": 4422.6,
   "BK:betmgm": 5577.36,
-  "BK:betanysports": 3578.09,
+  "BK:betanysports": 4190.72,
   "BK:betsson": 986.99
  },
  "min_cash": {
@@ -753,7 +824,7 @@
   "BK:onexbet": -20246.551300000003,
   "BK:matchbook": -3925.7799999999993,
   "BK:leovegas_se": -722.0723200000001,
-  "BK:gtbets": -2121.2799999999997,
+  "BK:gtbets": -3328.8599999999997,
   "BK:winamax_de": -258.41,
   "BK:grosvenor": 287.7,
   "BK:unibet_se": -1299.37,
@@ -771,7 +842,7 @@
   "BK:lowvig": -198.60000000000002,
   "BK:mybookieag": -3842.6000000000004,
   "BK:betmgm": -4997.36,
-  "BK:betanysports": -2998.09,
+  "BK:betanysports": -3610.7200000000003,
   "BK:betsson": -406.99
  },
  "transfers": [
@@ -816,16 +887,16 @@
  "peak_total_locked": 46687.663700000005,
  "odds": {
   "remaining": {
-   "1": 283,
-   "2": 283,
-   "3": 282,
-   "4": 281,
-   "5": 282
+   "1": 279,
+   "2": 279,
+   "3": 278,
+   "4": 277,
+   "5": 278
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 202
+   "2026-11-08": 222
   }
  },
  "book_slots": {
@@ -1079,6 +1150,11 @@
   "sea|2026-11-08T11:30|15": "2026-11-08T11:15:12Z",
   "sea|2026-11-08T11:30|5": "2026-11-08T11:25:14Z",
   "nfl|2026-11-08T14:30|180": "2026-11-08T11:30:14Z",
-  "bun|2026-11-08T14:30|180": "2026-11-08T11:30:14Z"
+  "bun|2026-11-08T14:30|180": "2026-11-08T11:30:14Z",
+  "lal|2026-11-08T13:00|60": "2026-11-08T12:00:03Z",
+  "epl|2026-11-08T14:00|120": "2026-11-08T12:00:15Z",
+  "sea|2026-11-08T14:00|120": "2026-11-08T12:00:16Z",
+  "fl1|2026-11-08T14:00|120": "2026-11-08T12:00:16Z",
+  "scop|2026-11-08T15:00|180": "2026-11-08T12:00:16Z"
  }
 }
