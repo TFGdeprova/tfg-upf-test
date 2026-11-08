@@ -2,33 +2,33 @@
  "cash": {
   "PM": 5543.356800000001,
   "KS": 5963.9400000000005,
-  "BK:smarkets": -7584.87,
+  "BK:smarkets": -8164.889999999999,
   "BK:pinnacle": -4370.169999999999,
-  "BK:onexbet": -3794.9456999999993,
-  "BK:matchbook": 332.2327800000001,
-  "BK:leovegas_se": -193.70232000000033,
-  "BK:gtbets": -7633.02,
+  "BK:onexbet": 2046.8644000000013,
+  "BK:matchbook": 5371.565980000001,
+  "BK:leovegas_se": -1181.8323200000004,
+  "BK:gtbets": 2429.4368,
   "BK:winamax_de": -258.41,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -4638.685699999999,
+  "BK:unibet_se": -5486.185699999999,
   "BK:tipico_de": 2621.998,
-  "BK:coolbet": -5339.3,
+  "BK:coolbet": -3010.171,
   "BK:unibet_nl": -6207.349999999999,
-  "BK:marathonbet": 851.5032000000001,
+  "BK:marathonbet": 2732.7212,
   "BK:coral": 1338.673,
   "BK:betfair_ex_uk": 580.0,
   "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": 453.07,
-  "BK:betonlineag": -776.2420000000002,
+  "BK:betonlineag": -2288.102,
   "BK:skybet": -375.10999999999996,
   "BK:betrivers": 1389.0532999999998,
   "BK:lowvig": -198.60000000000002,
   "BK:mybookieag": -3842.6000000000004,
   "BK:betmgm": 5041.888,
-  "BK:betanysports": -1097.4784000000004,
+  "BK:betanysports": -2144.9284000000007,
   "BK:betsson": 2119.7043999999996,
-  "BK:codere_it": -715.21,
-  "BK:boylesports": -1233.5100000000002
+  "BK:codere_it": 1797.4973999999997,
+  "BK:boylesports": 1315.0279999999998
  },
  "start_cash": {
   "PM": 5800.0,
@@ -62,288 +62,6 @@
   "BK:boylesports": 580.0
  },
  "open": [
-  {
-   "trade_id": 36,
-   "time": "2026-11-08T11:01:42Z",
-   "game": "epl:26NOV08CRYLFC",
-   "title": "Crystal Palace FC v Liverpool FC",
-   "league": "epl",
-   "kickoff": "2026-11-08T14:00:00Z",
-   "min_to_ko": 178.3,
-   "t_lp": 0.002186,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "0cfbab01e152f81e34f9014e02c7eb79",
-    "sport": "soccer_epl",
-    "home": "Crystal Palace",
-    "away": "Liverpool"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2505.429,
-   "guaranteed_profit": 5.439,
-   "legs": [
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Crystal Palace",
-     "side": "home",
-     "point": null,
-     "odds": 6.1,
-     "eff": 6.1,
-     "three_way": true,
-     "stake": 410.73,
-     "cost": 410.73,
-     "label": "h2h Crystal Palace  @6.1"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Liverpool",
-     "side": "away",
-     "point": null,
-     "odds": 1.61,
-     "eff": 1.61,
-     "three_way": true,
-     "stake": 1556.19,
-     "cost": 1556.19,
-     "label": "h2h Liverpool  @1.61"
-    },
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.7,
-     "eff": 4.7,
-     "three_way": true,
-     "stake": 533.07,
-     "cost": 533.07,
-     "label": "h2h Draw  @4.7"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 37,
-   "time": "2026-11-08T11:01:42Z",
-   "game": "epl:26NOV08BRIBRE",
-   "title": "Brighton & Hove Albion FC v Brentford FC",
-   "league": "epl",
-   "kickoff": "2026-11-08T14:00:00Z",
-   "min_to_ko": 178.3,
-   "t_lp": 0.008747,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "8e3ca98e29be84dd4a882ed05f50fa79",
-    "sport": "soccer_epl",
-    "home": "Brighton and Hove Albion",
-    "away": "Brentford"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2521.8433,
-   "guaranteed_profit": 21.8533,
-   "legs": [
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Brentford",
-     "side": "away",
-     "point": null,
-     "odds": 4.2,
-     "eff": 4.136,
-     "three_way": true,
-     "stake": 609.73,
-     "cost": 609.73,
-     "label": "h2h Brentford  @4.2"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Brighton and Hove Albion",
-     "side": "home",
-     "point": null,
-     "odds": 1.98,
-     "eff": 1.98,
-     "three_way": true,
-     "stake": 1273.67,
-     "cost": 1273.67,
-     "label": "h2h Brighton and Hove Albion  @1.98"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.09,
-     "eff": 4.09,
-     "three_way": true,
-     "stake": 616.59,
-     "cost": 616.59,
-     "label": "h2h Draw  @4.09"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 38,
-   "time": "2026-11-08T11:01:43Z",
-   "game": "sea:26NOV08MONATA",
-   "title": "AC Monza v Atalanta BC",
-   "league": "sea",
-   "kickoff": "2026-11-08T14:00:00Z",
-   "min_to_ko": 178.3,
-   "t_lp": 0.005314,
-   "with_books": true,
-   "books": [
-    "betanysports",
-    "gtbets",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "5ea6b7050b00fcc1832f7938794dd755",
-    "sport": "soccer_italy_serie_a",
-    "home": "Monza",
-    "away": "Atalanta BC"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2513.264,
-   "guaranteed_profit": 13.284,
-   "legs": [
-    {
-     "venue": "BK:gtbets",
-     "book": "gtbets",
-     "market": "h2h",
-     "outcome": "Atalanta BC",
-     "side": "away",
-     "point": null,
-     "odds": 2.08,
-     "eff": 2.08,
-     "three_way": true,
-     "stake": 1208.3,
-     "cost": 1208.3,
-     "label": "h2h Atalanta BC  @2.08"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Monza",
-     "side": "home",
-     "point": null,
-     "odds": 3.75,
-     "eff": 3.695,
-     "three_way": true,
-     "stake": 680.18,
-     "cost": 680.18,
-     "label": "h2h Monza  @3.75"
-    },
-    {
-     "venue": "BK:betanysports",
-     "book": "betanysports",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.11,
-     "eff": 4.11,
-     "three_way": true,
-     "stake": 611.5,
-     "cost": 611.5,
-     "label": "h2h Draw  @4.11"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 41,
-   "time": "2026-11-08T12:01:46Z",
-   "game": "sea:26NOV08MONATA",
-   "title": "AC Monza v Atalanta BC",
-   "league": "sea",
-   "kickoff": "2026-11-08T14:00:00Z",
-   "min_to_ko": 118.2,
-   "t_lp": 0.004714,
-   "with_books": true,
-   "books": [
-    "betanysports",
-    "gtbets",
-    "matchbook"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "5ea6b7050b00fcc1832f7938794dd755",
-    "sport": "soccer_italy_serie_a",
-    "home": "Monza",
-    "away": "Atalanta BC"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2511.7501,
-   "guaranteed_profit": 11.7701,
-   "legs": [
-    {
-     "venue": "BK:gtbets",
-     "book": "gtbets",
-     "market": "h2h",
-     "outcome": "Atalanta BC",
-     "side": "away",
-     "point": null,
-     "odds": 2.08,
-     "eff": 2.08,
-     "three_way": true,
-     "stake": 1207.58,
-     "cost": 1207.58,
-     "label": "h2h Atalanta BC  @2.08"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Monza",
-     "side": "home",
-     "point": null,
-     "odds": 3.75,
-     "eff": 3.695,
-     "three_way": true,
-     "stake": 679.77,
-     "cost": 679.77,
-     "label": "h2h Monza  @3.75"
-    },
-    {
-     "venue": "BK:betanysports",
-     "book": "betanysports",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.1,
-     "eff": 4.1,
-     "three_way": true,
-     "stake": 612.63,
-     "cost": 612.63,
-     "label": "h2h Draw  @4.1"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 43,
    "time": "2026-11-08T12:36:16Z",
@@ -416,218 +134,6 @@
      "shares": 148,
      "fee": 1.72,
      "cost": 32.8
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 46,
-   "time": "2026-11-08T13:32:25Z",
-   "game": "epl:26NOV08CRYLFC",
-   "title": "Crystal Palace FC v Liverpool FC",
-   "league": "epl",
-   "kickoff": "2026-11-08T14:00:00Z",
-   "min_to_ko": 27.6,
-   "t_lp": 0.002175,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "0cfbab01e152f81e34f9014e02c7eb79",
-    "sport": "soccer_epl",
-    "home": "Crystal Palace",
-    "away": "Liverpool"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2505.392,
-   "guaranteed_profit": 5.402,
-   "legs": [
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Crystal Palace",
-     "side": "home",
-     "point": null,
-     "odds": 6.25,
-     "eff": 6.25,
-     "three_way": true,
-     "stake": 400.87,
-     "cost": 400.87,
-     "label": "h2h Crystal Palace  @6.25"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Liverpool",
-     "side": "away",
-     "point": null,
-     "odds": 1.58,
-     "eff": 1.58,
-     "three_way": true,
-     "stake": 1585.72,
-     "cost": 1585.72,
-     "label": "h2h Liverpool  @1.58"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.88,
-     "eff": 4.88,
-     "three_way": true,
-     "stake": 513.4,
-     "cost": 513.4,
-     "label": "h2h Draw  @4.88"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 47,
-   "time": "2026-11-08T13:32:25Z",
-   "game": "epl:26NOV08SUNCFC",
-   "title": "Sunderland AFC v Chelsea FC",
-   "league": "epl",
-   "kickoff": "2026-11-08T14:00:00Z",
-   "min_to_ko": 27.6,
-   "t_lp": 0.002628,
-   "with_books": true,
-   "books": [
-    "betfred_uk",
-    "matchbook",
-    "pinnacle"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "3a4608abdf257d2a0024b944757d9dc9",
-    "sport": "soccer_epl",
-    "home": "Sunderland",
-    "away": "Chelsea"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2506.537,
-   "guaranteed_profit": 6.557,
-   "legs": [
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "h2h",
-     "outcome": "Chelsea",
-     "side": "away",
-     "point": null,
-     "odds": 2.29,
-     "eff": 2.29,
-     "three_way": true,
-     "stake": 1094.57,
-     "cost": 1094.57,
-     "label": "h2h Chelsea  @2.29"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Sunderland",
-     "side": "home",
-     "point": null,
-     "odds": 3.45,
-     "eff": 3.4010000000000002,
-     "three_way": true,
-     "stake": 737.0,
-     "cost": 737.0,
-     "label": "h2h Sunderland  @3.45"
-    },
-    {
-     "venue": "BK:betfred_uk",
-     "book": "betfred_uk",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.75,
-     "eff": 3.75,
-     "three_way": true,
-     "stake": 668.41,
-     "cost": 668.41,
-     "label": "h2h Draw  @3.75"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 48,
-   "time": "2026-11-08T13:32:25Z",
-   "game": "epl:26NOV08BRIBRE",
-   "title": "Brighton & Hove Albion FC v Brentford FC",
-   "league": "epl",
-   "kickoff": "2026-11-08T14:00:00Z",
-   "min_to_ko": 27.6,
-   "t_lp": 0.00509,
-   "with_books": true,
-   "books": [
-    "codere_it",
-    "coolbet",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "8e3ca98e29be84dd4a882ed05f50fa79",
-    "sport": "soccer_epl",
-    "home": "Brighton and Hove Albion",
-    "away": "Brentford"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2512.701,
-   "guaranteed_profit": 12.721,
-   "legs": [
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Brentford",
-     "side": "away",
-     "point": null,
-     "odds": 4.3,
-     "eff": 4.3,
-     "three_way": true,
-     "stake": 584.35,
-     "cost": 584.35,
-     "label": "h2h Brentford  @4.3"
-    },
-    {
-     "venue": "BK:codere_it",
-     "book": "codere_it",
-     "market": "h2h",
-     "outcome": "Brighton and Hove Albion",
-     "side": "home",
-     "point": null,
-     "odds": 1.94,
-     "eff": 1.94,
-     "three_way": true,
-     "stake": 1295.21,
-     "cost": 1295.21,
-     "label": "h2h Brighton and Hove Albion  @1.94"
-    },
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.05,
-     "eff": 4.05,
-     "three_way": true,
-     "stake": 620.42,
-     "cost": 620.42,
-     "label": "h2h Draw  @4.05"
     }
    ],
    "status": "open"
@@ -724,502 +230,6 @@
      "shares": 6,
      "fee": 0.01,
      "cost": 0.07
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 50,
-   "time": "2026-11-08T13:47:01Z",
-   "game": "epl:26NOV08SUNCFC",
-   "title": "Sunderland AFC v Chelsea FC",
-   "league": "epl",
-   "kickoff": "2026-11-08T14:00:00Z",
-   "min_to_ko": 13.0,
-   "t_lp": 0.019417,
-   "with_books": true,
-   "books": [
-    "betfred_uk",
-    "boylesports",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "3a4608abdf257d2a0024b944757d9dc9",
-    "sport": "soccer_epl",
-    "home": "Sunderland",
-    "away": "Chelsea"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2548.5278,
-   "guaranteed_profit": 48.5378,
-   "legs": [
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Chelsea",
-     "side": "away",
-     "point": null,
-     "odds": 2.38,
-     "eff": 2.38,
-     "three_way": true,
-     "stake": 1070.81,
-     "cost": 1070.81,
-     "label": "h2h Chelsea  @2.38"
-    },
-    {
-     "venue": "BK:boylesports",
-     "book": "boylesports",
-     "market": "h2h",
-     "outcome": "Sunderland",
-     "side": "home",
-     "point": null,
-     "odds": 3.4,
-     "eff": 3.4,
-     "three_way": true,
-     "stake": 749.57,
-     "cost": 749.57,
-     "label": "h2h Sunderland  @3.4"
-    },
-    {
-     "venue": "BK:betfred_uk",
-     "book": "betfred_uk",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.75,
-     "eff": 3.75,
-     "three_way": true,
-     "stake": 679.61,
-     "cost": 679.61,
-     "label": "h2h Draw  @3.75"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 51,
-   "time": "2026-11-08T13:47:01Z",
-   "game": "sea:26NOV08GENACM",
-   "title": "Genoa CFC v AC Milan",
-   "league": "sea",
-   "kickoff": "2026-11-08T14:00:00Z",
-   "min_to_ko": 13.0,
-   "t_lp": 0.002442,
-   "with_books": true,
-   "books": [
-    "coolbet",
-    "pinnacle",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "7a68b099b47ed7724062b661cd9af464",
-    "sport": "soccer_italy_serie_a",
-    "home": "Genoa",
-    "away": "AC Milan"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2506.064,
-   "guaranteed_profit": 6.084,
-   "legs": [
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "h2h",
-     "outcome": "AC Milan",
-     "side": "away",
-     "point": null,
-     "odds": 2.05,
-     "eff": 2.05,
-     "three_way": true,
-     "stake": 1222.49,
-     "cost": 1222.49,
-     "label": "h2h AC Milan  @2.05"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Genoa",
-     "side": "home",
-     "point": null,
-     "odds": 4.4,
-     "eff": 4.4,
-     "three_way": true,
-     "stake": 569.56,
-     "cost": 569.56,
-     "label": "h2h Genoa  @4.4"
-    },
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.54,
-     "eff": 3.54,
-     "three_way": true,
-     "stake": 707.93,
-     "cost": 707.93,
-     "label": "h2h Draw  @3.54"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 52,
-   "time": "2026-11-08T13:47:01Z",
-   "game": "sea:26NOV08MONATA",
-   "title": "AC Monza v Atalanta BC",
-   "league": "sea",
-   "kickoff": "2026-11-08T14:00:00Z",
-   "min_to_ko": 13.0,
-   "t_lp": 0.009805,
-   "with_books": true,
-   "books": [
-    "gtbets",
-    "smarkets",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "5ea6b7050b00fcc1832f7938794dd755",
-    "sport": "soccer_italy_serie_a",
-    "home": "Monza",
-    "away": "Atalanta BC"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2524.4802,
-   "guaranteed_profit": 24.5002,
-   "legs": [
-    {
-     "venue": "BK:gtbets",
-     "book": "gtbets",
-     "market": "h2h",
-     "outcome": "Atalanta BC",
-     "side": "away",
-     "point": null,
-     "odds": 1.96,
-     "eff": 1.96,
-     "three_way": true,
-     "stake": 1288.01,
-     "cost": 1288.01,
-     "label": "h2h Atalanta BC  @1.96"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Monza",
-     "side": "home",
-     "point": null,
-     "odds": 4.3,
-     "eff": 4.234,
-     "three_way": true,
-     "stake": 596.24,
-     "cost": 596.24,
-     "label": "h2h Monza  @4.3"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.1,
-     "eff": 4.1,
-     "three_way": true,
-     "stake": 615.73,
-     "cost": 615.73,
-     "label": "h2h Draw  @4.1"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 53,
-   "time": "2026-11-08T13:57:08Z",
-   "game": "epl:26NOV08CRYLFC",
-   "title": "Crystal Palace FC v Liverpool FC",
-   "league": "epl",
-   "kickoff": "2026-11-08T14:00:00Z",
-   "min_to_ko": 2.9,
-   "t_lp": 0.005173,
-   "with_books": true,
-   "books": [
-    "gtbets",
-    "onexbet",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "0cfbab01e152f81e34f9014e02c7eb79",
-    "sport": "soccer_epl",
-    "home": "Crystal Palace",
-    "away": "Liverpool"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2512.8833,
-   "guaranteed_profit": 12.9033,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Crystal Palace",
-     "side": "home",
-     "point": null,
-     "odds": 6.47,
-     "eff": 6.47,
-     "three_way": true,
-     "stake": 388.39,
-     "cost": 388.39,
-     "label": "h2h Crystal Palace  @6.47"
-    },
-    {
-     "venue": "BK:gtbets",
-     "book": "gtbets",
-     "market": "h2h",
-     "outcome": "Liverpool",
-     "side": "away",
-     "point": null,
-     "odds": 1.58,
-     "eff": 1.58,
-     "three_way": true,
-     "stake": 1590.46,
-     "cost": 1590.46,
-     "label": "h2h Liverpool  @1.58"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.9,
-     "eff": 4.822,
-     "three_way": true,
-     "stake": 521.13,
-     "cost": 521.13,
-     "label": "h2h Draw  @4.9"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 54,
-   "time": "2026-11-08T13:57:08Z",
-   "game": "epl:26NOV08SUNCFC",
-   "title": "Sunderland AFC v Chelsea FC",
-   "league": "epl",
-   "kickoff": "2026-11-08T14:00:00Z",
-   "min_to_ko": 2.9,
-   "t_lp": 0.012873,
-   "with_books": true,
-   "books": [
-    "boylesports",
-    "marathonbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "3a4608abdf257d2a0024b944757d9dc9",
-    "sport": "soccer_epl",
-    "home": "Sunderland",
-    "away": "Chelsea"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2532.166,
-   "guaranteed_profit": 32.176,
-   "legs": [
-    {
-     "venue": "BK:boylesports",
-     "book": "boylesports",
-     "market": "h2h",
-     "outcome": "Chelsea",
-     "side": "away",
-     "point": null,
-     "odds": 2.38,
-     "eff": 2.38,
-     "three_way": true,
-     "stake": 1063.94,
-     "cost": 1063.94,
-     "label": "h2h Chelsea  @2.38"
-    },
-    {
-     "venue": "BK:marathonbet",
-     "book": "marathonbet",
-     "market": "h2h",
-     "outcome": "Sunderland",
-     "side": "home",
-     "point": null,
-     "odds": 3.42,
-     "eff": 3.42,
-     "three_way": true,
-     "stake": 740.4,
-     "cost": 740.4,
-     "label": "h2h Sunderland  @3.42"
-    },
-    {
-     "venue": "BK:marathonbet",
-     "book": "marathonbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.64,
-     "eff": 3.64,
-     "three_way": true,
-     "stake": 695.65,
-     "cost": 695.65,
-     "label": "h2h Draw  @3.64"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 55,
-   "time": "2026-11-08T13:57:08Z",
-   "game": "sea:26NOV08GENACM",
-   "title": "Genoa CFC v AC Milan",
-   "league": "sea",
-   "kickoff": "2026-11-08T14:00:00Z",
-   "min_to_ko": 2.9,
-   "t_lp": 0.002442,
-   "with_books": true,
-   "books": [
-    "coolbet",
-    "pinnacle",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "7a68b099b47ed7724062b661cd9af464",
-    "sport": "soccer_italy_serie_a",
-    "home": "Genoa",
-    "away": "AC Milan"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2506.064,
-   "guaranteed_profit": 6.084,
-   "legs": [
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "h2h",
-     "outcome": "AC Milan",
-     "side": "away",
-     "point": null,
-     "odds": 2.05,
-     "eff": 2.05,
-     "three_way": true,
-     "stake": 1222.49,
-     "cost": 1222.49,
-     "label": "h2h AC Milan  @2.05"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Genoa",
-     "side": "home",
-     "point": null,
-     "odds": 4.4,
-     "eff": 4.4,
-     "three_way": true,
-     "stake": 569.56,
-     "cost": 569.56,
-     "label": "h2h Genoa  @4.4"
-    },
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.54,
-     "eff": 3.54,
-     "three_way": true,
-     "stake": 707.93,
-     "cost": 707.93,
-     "label": "h2h Draw  @3.54"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 56,
-   "time": "2026-11-08T13:57:18Z",
-   "game": "sea:26NOV08MONATA",
-   "title": "AC Monza v Atalanta BC",
-   "league": "sea",
-   "kickoff": "2026-11-08T14:00:00Z",
-   "min_to_ko": 2.7,
-   "t_lp": 0.013122,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "pinnacle",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "5ea6b7050b00fcc1832f7938794dd755",
-    "sport": "soccer_italy_serie_a",
-    "home": "Monza",
-    "away": "Atalanta BC"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2532.768,
-   "guaranteed_profit": 32.788,
-   "legs": [
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Atalanta BC",
-     "side": "away",
-     "point": null,
-     "odds": 2.0,
-     "eff": 1.98,
-     "three_way": true,
-     "stake": 1279.19,
-     "cost": 1279.19,
-     "label": "h2h Atalanta BC  @2.0"
-    },
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "h2h",
-     "outcome": "Monza",
-     "side": "home",
-     "point": null,
-     "odds": 4.2,
-     "eff": 4.2,
-     "three_way": true,
-     "stake": 603.04,
-     "cost": 603.04,
-     "label": "h2h Monza  @4.2"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.1,
-     "eff": 4.1,
-     "three_way": true,
-     "stake": 617.75,
-     "cost": 617.75,
-     "label": "h2h Draw  @4.1"
     }
    ],
    "status": "open"
@@ -1785,6 +795,288 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 65,
+   "time": "2026-11-08T16:12:18Z",
+   "game": "fl1:26NOV08HACFCL",
+   "title": "Le Havre AC v FC Lorient",
+   "league": "fl1",
+   "kickoff": "2026-11-08T16:15:00Z",
+   "min_to_ko": 2.7,
+   "t_lp": 0.007901,
+   "with_books": true,
+   "books": [
+    "betonlineag",
+    "leovegas_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "3e9954446f26494c04c4967db523d375",
+    "sport": "soccer_france_ligue_one",
+    "home": "Le Havre",
+    "away": "Lorient"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2519.7315,
+   "guaranteed_profit": 19.7415,
+   "legs": [
+    {
+     "venue": "BK:betonlineag",
+     "book": "betonlineag",
+     "market": "h2h",
+     "outcome": "Le Havre",
+     "side": "home",
+     "point": null,
+     "odds": 3.26,
+     "eff": 3.26,
+     "three_way": true,
+     "stake": 772.93,
+     "cost": 772.93,
+     "label": "h2h Le Havre  @3.26"
+    },
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Lorient",
+     "side": "away",
+     "point": null,
+     "odds": 2.55,
+     "eff": 2.55,
+     "three_way": true,
+     "stake": 988.13,
+     "cost": 988.13,
+     "label": "h2h Lorient  @2.55"
+    },
+    {
+     "venue": "BK:betonlineag",
+     "book": "betonlineag",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.41,
+     "eff": 3.41,
+     "three_way": true,
+     "stake": 738.93,
+     "cost": 738.93,
+     "label": "h2h Draw  @3.41"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 66,
+   "time": "2026-11-08T16:12:18Z",
+   "game": "fl1:26NOV08ANGNIC",
+   "title": "Angers SCO v OGC Nice",
+   "league": "fl1",
+   "kickoff": "2026-11-08T16:15:00Z",
+   "min_to_ko": 2.7,
+   "t_lp": 0.005067,
+   "with_books": true,
+   "books": [
+    "coolbet",
+    "marathonbet",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "54fae64b1421d836e07a17cad0536c73",
+    "sport": "soccer_france_ligue_one",
+    "home": "Angers",
+    "away": "Nice"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2512.6466,
+   "guaranteed_profit": 12.6566,
+   "legs": [
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Angers",
+     "side": "home",
+     "point": null,
+     "odds": 4.4,
+     "eff": 4.332000000000001,
+     "three_way": true,
+     "stake": 580.02,
+     "cost": 580.02,
+     "label": "h2h Angers  @4.4"
+    },
+    {
+     "venue": "BK:coolbet",
+     "book": "coolbet",
+     "market": "h2h",
+     "outcome": "Nice",
+     "side": "away",
+     "point": null,
+     "odds": 1.98,
+     "eff": 1.98,
+     "three_way": true,
+     "stake": 1269.02,
+     "cost": 1269.02,
+     "label": "h2h Nice  @1.98"
+    },
+    {
+     "venue": "BK:marathonbet",
+     "book": "marathonbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.86,
+     "eff": 3.86,
+     "three_way": true,
+     "stake": 650.95,
+     "cost": 650.95,
+     "label": "h2h Draw  @3.86"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 67,
+   "time": "2026-11-08T16:16:48Z",
+   "game": "bun:26NOV08SCFUNI",
+   "title": "SC Freiburg v 1. FC Union Berlin",
+   "league": "bun",
+   "kickoff": "2026-11-08T16:30:00Z",
+   "min_to_ko": 13.2,
+   "t_lp": 0.004712,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "c1b9696d88719cb8832d794b986cdd68",
+    "sport": "soccer_germany_bundesliga",
+    "home": "SC Freiburg",
+    "away": "Union Berlin"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2511.74,
+   "guaranteed_profit": 11.76,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "SC Freiburg",
+     "side": "home",
+     "point": null,
+     "odds": 1.52,
+     "eff": 1.52,
+     "three_way": true,
+     "stake": 1652.48,
+     "cost": 1652.48,
+     "label": "h2h SC Freiburg  @1.52"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Union Berlin",
+     "side": "away",
+     "point": null,
+     "odds": 7.5,
+     "eff": 7.5,
+     "three_way": true,
+     "stake": 334.9,
+     "cost": 334.9,
+     "label": "h2h Union Berlin  @7.5"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.9,
+     "eff": 4.9,
+     "three_way": true,
+     "stake": 512.6,
+     "cost": 512.6,
+     "label": "h2h Draw  @4.9"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 68,
+   "time": "2026-11-08T16:26:50Z",
+   "game": "epl:26NOV08MUNAVL",
+   "title": "Manchester United FC v Aston Villa FC",
+   "league": "epl",
+   "kickoff": "2026-11-08T16:30:00Z",
+   "min_to_ko": 3.2,
+   "t_lp": 0.012469,
+   "with_books": true,
+   "books": [
+    "betanysports",
+    "coolbet",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "b0a4b5448a7e02d9ad1eaa817599fff0",
+    "sport": "soccer_epl",
+    "home": "Manchester United",
+    "away": "Aston Villa"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2531.1563,
+   "guaranteed_profit": 31.1663,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "totals",
+     "outcome": "Under",
+     "side": "under",
+     "point": 3.5,
+     "odds": 1.81,
+     "eff": 1.81,
+     "three_way": true,
+     "stake": 38.48,
+     "cost": 38.48,
+     "label": "totals Under 3.5 @1.81"
+    },
+    {
+     "venue": "BK:coolbet",
+     "book": "coolbet",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 3.0,
+     "odds": 1.79,
+     "eff": 1.79,
+     "three_way": true,
+     "stake": 1414.06,
+     "cost": 1414.06,
+     "label": "totals Over 3.0 @1.79"
+    },
+    {
+     "venue": "BK:betanysports",
+     "book": "betanysports",
+     "market": "totals",
+     "outcome": "Under",
+     "side": "under",
+     "point": 3.0,
+     "odds": 2.35,
+     "eff": 2.35,
+     "three_way": true,
+     "stake": 1047.45,
+     "cost": 1047.45,
+     "label": "totals Under 3.0 @2.35"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1846,40 +1138,40 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 64,
- "n_settled": 40,
- "realized_pnl": 791.8008600000023,
+ "n_trades": 68,
+ "n_settled": 54,
+ "realized_pnl": 1032.213360000004,
  "runs": 9,
  "locked": {
   "PM": 115.83950000000002,
   "KS": 148.06999999999994,
-  "BK:smarkets": 3452.869999999999,
-  "BK:pinnacle": 3113.47,
-  "BK:onexbet": 8600.94,
-  "BK:matchbook": 3810.09,
-  "BK:leovegas_se": 1983.0,
-  "BK:gtbets": 6720.040000000001,
+  "BK:smarkets": 2235.3399999999992,
+  "BK:pinnacle": 0.0,
+  "BK:onexbet": 4357.939999999999,
+  "BK:matchbook": 504.4000000000001,
+  "BK:leovegas_se": 2971.13,
+  "BK:gtbets": 1425.6900000000005,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 6483.139999999999,
+  "BK:unibet_se": 3302.8800000000006,
   "BK:tipico_de": 0.0,
-  "BK:coolbet": 4516.83,
-  "BK:unibet_nl": 1344.6700000000008,
-  "BK:marathonbet": 1436.0500000000002,
+  "BK:coolbet": 4134.51,
+  "BK:unibet_nl": 6.821210263296962e-13,
+  "BK:marathonbet": 650.9499999999999,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 0.0,
-  "BK:betfred_uk": 1348.02,
+  "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 0.0,
-  "BK:betonlineag": 2290.06,
+  "BK:betonlineag": 3801.9199999999996,
   "BK:skybet": 567.67,
   "BK:betrivers": 0.0,
   "BK:lowvig": 0.0,
   "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
-  "BK:betanysports": 1224.1300000000003,
+  "BK:betanysports": 1047.4500000000003,
   "BK:betsson": 0.0,
-  "BK:codere_it": 1295.21,
-  "BK:boylesports": 1813.5100000000002
+  "BK:codere_it": 0.0,
+  "BK:boylesports": 0.0
  },
  "peak_locked": {
   "PM": 140.8037,
@@ -1888,20 +1180,20 @@
   "BK:pinnacle": 3723.5699999999997,
   "BK:onexbet": 22357.230000000003,
   "BK:matchbook": 4155.1,
-  "BK:leovegas_se": 1983.0,
+  "BK:leovegas_se": 2971.13,
   "BK:gtbets": 6720.040000000001,
   "BK:winamax_de": 805.8,
   "BK:grosvenor": 292.3,
-  "BK:unibet_se": 6483.139999999999,
+  "BK:unibet_se": 7330.639999999999,
   "BK:tipico_de": 486.19,
-  "BK:coolbet": 5249.57,
+  "BK:coolbet": 7199.91,
   "BK:unibet_nl": 4157.51,
   "BK:marathonbet": 2789.53,
   "BK:coral": 1948.91,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 1348.02,
   "BK:betfair_ex_eu": 126.93,
-  "BK:betonlineag": 3432.94,
+  "BK:betonlineag": 3801.9199999999996,
   "BK:skybet": 567.67,
   "BK:betrivers": 1721.39,
   "BK:lowvig": 778.6,
@@ -1915,17 +1207,17 @@
  "min_cash": {
   "PM": 5543.356800000001,
   "KS": 5231.9400000000005,
-  "BK:smarkets": -7584.87,
+  "BK:smarkets": -8164.889999999999,
   "BK:pinnacle": -4950.169999999999,
   "BK:onexbet": -20246.551300000003,
   "BK:matchbook": -3925.7799999999993,
-  "BK:leovegas_se": -722.0723200000001,
+  "BK:leovegas_se": -1181.8323200000004,
   "BK:gtbets": -7633.02,
   "BK:winamax_de": -258.41,
   "BK:grosvenor": 287.7,
-  "BK:unibet_se": -4694.3142,
+  "BK:unibet_se": -5486.185699999999,
   "BK:tipico_de": 93.81,
-  "BK:coolbet": -5339.3,
+  "BK:coolbet": -8022.379999999999,
   "BK:unibet_nl": -6207.349999999999,
   "BK:marathonbet": -1673.2127999999998,
   "BK:coral": -1194.91,
@@ -1949,19 +1241,19 @@
   "moved": 1399.686,
   "fees": 0.0
  },
- "peak_total_locked": 57883.057100000005,
+ "peak_total_locked": 60263.5595,
  "odds": {
   "remaining": {
-   "1": 243,
-   "2": 244,
-   "3": 244,
-   "4": 242,
-   "5": 242
+   "1": 235,
+   "2": 236,
+   "3": 236,
+   "4": 234,
+   "5": 234
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
-   "2026-11-08": 398
+   "2026-11-08": 438
   }
  },
  "book_slots": {
@@ -2252,6 +1544,11 @@
   "epl|2026-11-08T16:30|30": "2026-11-08T16:00:29Z",
   "bun|2026-11-08T16:30|30": "2026-11-08T16:00:29Z",
   "fl1|2026-11-08T16:15|15": "2026-11-08T16:00:30Z",
-  "fl1|2026-11-08T16:15|5": "2026-11-08T16:10:38Z"
+  "fl1|2026-11-08T16:15|5": "2026-11-08T16:10:38Z",
+  "epl|2026-11-08T16:30|15": "2026-11-08T16:15:08Z",
+  "bun|2026-11-08T16:30|15": "2026-11-08T16:15:08Z",
+  "epl|2026-11-08T16:30|5": "2026-11-08T16:25:11Z",
+  "bun|2026-11-08T16:30|5": "2026-11-08T16:25:11Z",
+  "sea|2026-11-08T17:00|30": "2026-11-08T16:30:11Z"
  }
 }
