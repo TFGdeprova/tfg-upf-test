@@ -1,4 +1,4 @@
-# Paper-trading bot: status at 2026-11-08T23:44:36Z
+# Paper-trading bot: status at 2026-11-09T00:04:31Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
@@ -12,16 +12,16 @@ Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities):
 | Open positions (cost) | $330.03 |
 | Money in transit between accounts | $0.00 |
 | Equity (cash + open at cost + in transit) | $28,873.61 ≈ €24,891.04 |
-| Return so far (realised / peak money in use) | 2.678% over 2.0 days |
+| Return so far (realised / peak money in use) | 2.678% over 2.1 days |
 
-Polymarket/Kalshi gaps above the threshold: below_min_size 218, executed 6, rounding 18, seen 257, vanished 13.
-Gaps using bookmakers: executed 71, no_cash 41, rounding 1, seen 131, vanished 18 (snapshots combined with Polymarket/Kalshi: 661).
+Polymarket/Kalshi gaps above the threshold: below_min_size 234, executed 6, rounding 18, seen 273, vanished 13.
+Gaps using bookmakers: executed 71, no_cash 41, rounding 1, seen 131, vanished 18 (snapshots combined with Polymarket/Kalshi: 668).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 877 (about 1.7 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
+The Odds API credits left: 862 (about 1.1 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
 
 ## Capital by account
 
@@ -72,7 +72,7 @@ Gaps above 0.1% followed: 39 Polymarket/Kalshi and 150 with bookmakers. A re-che
 | +30 s | 39 | 33 | 25 | 0 | 0 |
 | +1 min | 38 | 29 | 20 | 0 | 1 |
 | +2 min | 38 | 26 | 16 | 0 | 1 |
-| +5 min | 36 | 19 | 12 | 0 | 2 |
+| +5 min | 37 | 20 | 13 | 0 | 2 |
 | bookmaker confirmation (~1 min) | 272 | 105 | 100 | 5 | 0 |
 | next bookmaker snapshot | 248 | 23 | 18 | 4 | 0 |
 
