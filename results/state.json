@@ -62,17 +62,12 @@
   "BK:boylesports": 580.0
  },
  "open": [],
- "consumed": {
-  "KS|KXNBAGAME-26NOV08MIASAC-SAC|YES|0.1700": {
-   "n": 2534.0,
-   "t": "2026-11-09T01:56:40Z"
-  }
- },
+ "consumed": {},
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 79,
  "n_settled": 79,
  "realized_pnl": 1650.871660000007,
- "runs": 13,
+ "runs": 14,
  "locked": {
   "PM": 0.0,
   "KS": 0.0,
