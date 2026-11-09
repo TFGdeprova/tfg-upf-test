@@ -21,7 +21,7 @@
   "BK:betfair_ex_eu": 453.07,
   "BK:betonlineag": -1867.0468,
   "BK:skybet": -375.10999999999996,
-  "BK:betrivers": -655.0167000000001,
+  "BK:betrivers": 1879.6300999999999,
   "BK:lowvig": -198.60000000000002,
   "BK:mybookieag": -3038.3125000000005,
   "BK:betmgm": 5041.888,
@@ -157,57 +157,6 @@
     }
    ],
    "status": "open"
-  },
-  {
-   "trade_id": 79,
-   "time": "2026-11-09T01:56:40Z",
-   "game": "nba:26NOV08MIASAC",
-   "title": "MIA at SAC",
-   "league": "nba",
-   "kickoff": "2026-11-09T02:00:00Z",
-   "min_to_ko": 3.3,
-   "t_lp": 0.013861,
-   "with_books": true,
-   "books": [
-    "betrivers"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "7ea5547b35ef782963e4f384d3414dfa",
-    "sport": "basketball_nba",
-    "home": "Sacramento Kings",
-    "away": "Miami Heat"
-   },
-   "cost": 2499.88,
-   "guaranteed_payout": 2534.0,
-   "guaranteed_profit": 34.12,
-   "legs": [
-    {
-     "venue": "KS",
-     "id": "KXNBAGAME-26NOV08MIASAC-SAC",
-     "label": "Sacramento",
-     "side": "YES",
-     "price": 0.17,
-     "shares": 2534,
-     "fee": 25.03,
-     "cost": 455.81
-    },
-    {
-     "venue": "BK:betrivers",
-     "book": "betrivers",
-     "market": "h2h",
-     "outcome": "Miami Heat",
-     "side": "away",
-     "point": null,
-     "odds": 1.24,
-     "eff": 1.24,
-     "three_way": false,
-     "stake": 2044.07,
-     "cost": 2044.07,
-     "label": "h2h Miami Heat  @1.24"
-    }
-   ],
-   "status": "open"
   }
  ],
  "consumed": {
@@ -282,12 +231,12 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 79,
- "n_settled": 77,
- "realized_pnl": 1614.5493600000073,
+ "n_settled": 78,
+ "realized_pnl": 1649.3161600000071,
  "runs": 11,
  "locked": {
   "PM": 8.104499999999877,
-  "KS": 456.7799999999999,
+  "KS": 0.9699999999999136,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 0.0,
@@ -307,7 +256,7 @@
   "BK:betfair_ex_eu": 0.0,
   "BK:betonlineag": 4.547473508864641e-13,
   "BK:skybet": 0.0,
-  "BK:betrivers": 2044.07,
+  "BK:betrivers": 0.0,
   "BK:lowvig": 0.0,
   "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
@@ -391,13 +340,13 @@
    "2": 184,
    "3": 183,
    "4": 183,
-   "5": 184
+   "5": 182
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
    "2026-11-08": 648,
-   "2026-11-09": 48
+   "2026-11-09": 50
   }
  },
  "book_slots": {

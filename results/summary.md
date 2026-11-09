@@ -1,18 +1,18 @@
-# Paper-trading bot: status at 2026-11-09T04:42:37Z
+# Paper-trading bot: status at 2026-11-09T05:02:58Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 79 / 77 |
-| Realised profit | $1,614.55 ≈ €1,391.85 |
+| Trades executed / settled | 79 / 78 |
+| Realised profit | $1,649.32 ≈ €1,421.82 |
 | … Polymarket/Kalshi only | $2.19 |
-| … with bookmakers (all) | $1,612.36 |
+| … with bookmakers (all) | $1,647.12 |
 | … with bookmakers licensed in Spain only | $0.00 |
-| Open positions (cost) | $2,508.95 |
+| Open positions (cost) | $9.07 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $28,874.55 ≈ €24,891.86 |
-| Return so far (realised / peak money in use) | 2.679% over 2.2 days |
+| Equity (cash + open at cost + in transit) | $28,909.32 ≈ €24,921.83 |
+| Return so far (realised / peak money in use) | 2.737% over 2.3 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 234, executed 7, rounding 18, seen 274, vanished 13.
 Gaps using bookmakers: executed 72, no_cash 41, rounding 1, seen 132, vanished 18 (snapshots combined with Polymarket/Kalshi: 686).
@@ -30,14 +30,14 @@ Peak in use = the most money that was tied up in open positions at the same time
 | account | start | cash now | in open positions | peak in use | lowest cash |
 |---|---|---|---|---|---|
 | Polymarket | $5,800.00 | $5,558.74 | $8.10 | $402.95 | $5,227.77 |
-| Kalshi | $5,800.00 | $5,749.61 | $456.78 | $456.78 | $5,231.94 |
+| Kalshi | $5,800.00 | $5,749.61 | $0.97 | $456.78 | $5,231.94 |
 | betanysports | $580.00 | $-2,144.93 | $0.00 | $4,190.72 | $-3,610.72 |
 | betfair_ex_eu (Spain) | $580.00 | $453.07 | $0.00 | $126.93 | $453.07 |
 | betfair_ex_uk (Spain) | $580.00 | $580.00 | $0.00 | $0.00 | $580.00 |
 | betfred_uk | $580.00 | $-768.02 | $0.00 | $1,348.02 | $-768.02 |
 | betmgm | $580.00 | $5,041.89 | $0.00 | $5,577.36 | $-4,997.36 |
 | betonlineag | $580.00 | $-1,867.05 | $0.00 | $4,590.49 | $-4,391.48 |
-| betrivers | $580.00 | $-655.02 | $2,044.07 | $2,044.07 | $-1,141.39 |
+| betrivers | $580.00 | $1,879.63 | $0.00 | $2,044.07 | $-1,141.39 |
 | betsson | $580.00 | $2,119.70 | $0.00 | $986.99 | $-406.99 |
 | boylesports | $580.00 | $1,315.03 | $0.00 | $1,813.51 | $-1,233.51 |
 | codere_it | $580.00 | $1,797.50 | $0.00 | $1,295.21 | $-715.21 |
@@ -82,7 +82,7 @@ Depth at detection (191 gaps with full order books): median capacity (largest si
 
 | # | time (UTC) | game | min to KO | with bookmakers | gap | cost | guaranteed profit | status | P&L |
 |---|---|---|---|---|---|---|---|---|---|
-| 79 | 11-09T01:56 | MIA at SAC | 3.3 | betrivers | 1.39% | $2499.88 | $34.12 | open |  |
+| 79 | 11-09T01:56 | MIA at SAC | 3.3 | betrivers | 1.39% | $2499.88 | $34.12 | settled | $+34.77 |
 | 78 | 11-09T00:36 | TB at CHI | 43.7 | no | 16.51% | $9.07 | $0.93 | open |  |
 | 77 | 11-08T21:12 | GB at NE | 12.1 | no | 0.22% | $42.92 | $0.08 | settled | $+0.08 |
 | 76 | 11-08T19:56 | Club Atlético de Madrid v FC Barcelona | 3.1 | onexbet, pinnacle, unibet_nl | 1.38% | $2499.98 | $34.47 | settled | $+34.50 |
