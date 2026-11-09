@@ -1,7 +1,7 @@
 {
  "cash": {
-  "PM": 5235.869600000003,
-  "KS": 6206.39,
+  "PM": 5227.765100000002,
+  "KS": 6205.420000000001,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -1761.9399999999991,
   "BK:onexbet": 96.36400000000162,
@@ -163,6 +163,102 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 78,
+   "time": "2026-11-09T00:36:18Z",
+   "game": "nfl:26NOV08TBCHI",
+   "title": "TB at CHI",
+   "league": "nfl",
+   "kickoff": "2026-11-09T01:20:00Z",
+   "min_to_ko": 43.7,
+   "t_lp": 0.165146,
+   "cost": 9.0745,
+   "guaranteed_payout": 10.0,
+   "guaranteed_profit": 0.9255,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x0f0a9aec3674533a6770d15b8aed547c4c288b320f28a7515a04db19059ceea0",
+     "label": "Exact Margin: Bears by 1-6",
+     "side": "YES",
+     "price": 0.22,
+     "shares": 10.63,
+     "fee": 0.09121,
+     "cost": 2.4298
+    },
+    {
+     "venue": "PM",
+     "id": "0x3178aec64ee8a8dfd73e15e758b0185e86a82af10936de3086bb93b6f2c266fb",
+     "label": "Spread: Bears (-20.5)",
+     "side": "YES",
+     "price": 0.14,
+     "shares": 10.63,
+     "fee": 0.0384,
+     "cost": 1.5266
+    },
+    {
+     "venue": "PM",
+     "id": "0x556a3ce366c7390794686aa22b5ab606651acfbce047132c5124b204c8f978dc",
+     "label": "Exact Margin: Bears by 14-20",
+     "side": "YES",
+     "price": 0.06,
+     "shares": 10.63,
+     "fee": 0.02998,
+     "cost": 0.6678
+    },
+    {
+     "venue": "PM",
+     "id": "0x7c920b7015628fd7c2b22a3039a4b86130456eb4a2a83210fc108e7ae42df374",
+     "label": "Exact Margin: Bears by 7-13",
+     "side": "YES",
+     "price": 0.21,
+     "shares": 10.63,
+     "fee": 0.08818,
+     "cost": 2.3205
+    },
+    {
+     "venue": "PM",
+     "id": "0x968d345ecffd0383f887816bc545961e205996902f287553e2f19dc27aa985dc",
+     "label": "Spread: Buccaneers (-13.5)",
+     "side": "YES",
+     "price": 0.045,
+     "shares": 10.63,
+     "fee": 0.0137,
+     "cost": 0.492
+    },
+    {
+     "venue": "PM",
+     "id": "0xb304336f594c777b09d9cd490919ae2c7d4fc27e056fb1094759ea108b5aad8d",
+     "label": "Exact Margin: Buccaneers by 1-6",
+     "side": "YES",
+     "price": 0.06,
+     "shares": 10.63,
+     "fee": 0.02998,
+     "cost": 0.6678
+    },
+    {
+     "venue": "KS",
+     "id": "KXNFLTIE-26NOV08TBCHI-Y",
+     "label": "Game to end in a tie",
+     "side": "YES",
+     "price": 0.01,
+     "shares": 10,
+     "fee": 0.01,
+     "cost": 0.11
+    },
+    {
+     "venue": "KS",
+     "id": "KXNFLWINMARGIN-26NOV08TBCHI-TB7TO14",
+     "label": "Tampa Bay by 7 to 14",
+     "side": "YES",
+     "price": 0.08,
+     "shares": 10,
+     "fee": 0.06,
+     "cost": 0.86
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -181,10 +277,6 @@
   "KS|KXNFLWINMARGIN-26NOV08CINATL-ATL1TO6|YES|0.1600": {
    "n": 259.0,
    "t": "2026-11-08T14:20:58Z"
-  },
-  "KS|KXNFLWINMARGIN-26NOV08CINATL-CIN15PLUS|YES|0.1600": {
-   "n": 148.0,
-   "t": "2026-11-08T12:36:16Z"
   },
   "KS|KXNFLWINMARGIN-26NOV08CINATL-CIN7TO14|YES|0.2100": {
    "n": 259.0,
@@ -253,16 +345,48 @@
   "KS|KXNFLWINMARGIN-26NOV08GBNE-NE7TO14|YES|0.1900": {
    "n": 43.0,
    "t": "2026-11-08T21:12:52Z"
+  },
+  "PM|0x0f0a9aec3674533a6770d15b8aed547c4c288b320f28a7515a04db19059ceea0|YES|0.2200": {
+   "n": 10.63,
+   "t": "2026-11-09T00:36:18Z"
+  },
+  "PM|0x3178aec64ee8a8dfd73e15e758b0185e86a82af10936de3086bb93b6f2c266fb|YES|0.1400": {
+   "n": 10.63,
+   "t": "2026-11-09T00:36:18Z"
+  },
+  "PM|0x556a3ce366c7390794686aa22b5ab606651acfbce047132c5124b204c8f978dc|YES|0.0600": {
+   "n": 10.63,
+   "t": "2026-11-09T00:36:18Z"
+  },
+  "PM|0x7c920b7015628fd7c2b22a3039a4b86130456eb4a2a83210fc108e7ae42df374|YES|0.2100": {
+   "n": 10.63,
+   "t": "2026-11-09T00:36:18Z"
+  },
+  "PM|0x968d345ecffd0383f887816bc545961e205996902f287553e2f19dc27aa985dc|YES|0.0450": {
+   "n": 10.63,
+   "t": "2026-11-09T00:36:18Z"
+  },
+  "PM|0xb304336f594c777b09d9cd490919ae2c7d4fc27e056fb1094759ea108b5aad8d|YES|0.0600": {
+   "n": 10.63,
+   "t": "2026-11-09T00:36:18Z"
+  },
+  "KS|KXNFLTIE-26NOV08TBCHI-Y|YES|0.0100": {
+   "n": 10.0,
+   "t": "2026-11-09T00:36:18Z"
+  },
+  "KS|KXNFLWINMARGIN-26NOV08TBCHI-TB7TO14|YES|0.0800": {
+   "n": 10.0,
+   "t": "2026-11-09T00:36:18Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 77,
+ "n_trades": 78,
  "n_settled": 75,
  "realized_pnl": 1613.6065600000072,
  "runs": 10,
  "locked": {
-  "PM": 313.64719999999994,
-  "KS": 16.37999999999993,
+  "PM": 321.7516999999999,
+  "KS": 17.34999999999993,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 0.0,
@@ -323,7 +447,7 @@
   "BK:boylesports": 1813.5100000000002
  },
  "min_cash": {
-  "PM": 5235.869600000003,
+  "PM": 5227.765100000002,
   "KS": 5231.9400000000005,
   "BK:smarkets": -8947.57,
   "BK:pinnacle": -6879.0199999999995,
@@ -363,16 +487,16 @@
  "odds": {
   "remaining": {
    "1": 192,
-   "2": 193,
-   "3": 192,
-   "4": 192,
+   "2": 190,
+   "3": 189,
+   "4": 189,
    "5": 190
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
    "2026-11-08": 648,
-   "2026-11-09": 6
+   "2026-11-09": 15
   }
  },
  "book_slots": {
@@ -706,6 +830,9 @@
   "nba|2026-11-09T00:00|5": "2026-11-08T23:55:12Z",
   "nhl|2026-11-09T00:00|5": "2026-11-08T23:55:13Z",
   "nba|2026-11-09T00:30|30": "2026-11-09T00:00:12Z",
-  "nba|2026-11-09T00:30|15": "2026-11-09T00:15:12Z"
+  "nba|2026-11-09T00:30|15": "2026-11-09T00:15:12Z",
+  "nba|2026-11-09T00:30|5": "2026-11-09T00:25:12Z",
+  "nba|2026-11-09T01:00|30": "2026-11-09T00:30:12Z",
+  "nhl|2026-11-09T01:00|30": "2026-11-09T00:30:13Z"
  }
 }
