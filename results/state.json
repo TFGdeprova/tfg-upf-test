@@ -1,7 +1,7 @@
 {
  "cash": {
   "PM": 5558.735100000002,
-  "KS": 6205.420000000001,
+  "KS": 5749.610000000001,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -1761.9399999999991,
   "BK:onexbet": 96.36400000000162,
@@ -21,7 +21,7 @@
   "BK:betfair_ex_eu": 453.07,
   "BK:betonlineag": -1867.0468,
   "BK:skybet": -375.10999999999996,
-  "BK:betrivers": 1389.0532999999998,
+  "BK:betrivers": -655.0167000000001,
   "BK:lowvig": -198.60000000000002,
   "BK:mybookieag": -3038.3125000000005,
   "BK:betmgm": 5041.888,
@@ -157,6 +157,57 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 79,
+   "time": "2026-11-09T01:56:40Z",
+   "game": "nba:26NOV08MIASAC",
+   "title": "MIA at SAC",
+   "league": "nba",
+   "kickoff": "2026-11-09T02:00:00Z",
+   "min_to_ko": 3.3,
+   "t_lp": 0.013861,
+   "with_books": true,
+   "books": [
+    "betrivers"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "7ea5547b35ef782963e4f384d3414dfa",
+    "sport": "basketball_nba",
+    "home": "Sacramento Kings",
+    "away": "Miami Heat"
+   },
+   "cost": 2499.88,
+   "guaranteed_payout": 2534.0,
+   "guaranteed_profit": 34.12,
+   "legs": [
+    {
+     "venue": "KS",
+     "id": "KXNBAGAME-26NOV08MIASAC-SAC",
+     "label": "Sacramento",
+     "side": "YES",
+     "price": 0.17,
+     "shares": 2534,
+     "fee": 25.03,
+     "cost": 455.81
+    },
+    {
+     "venue": "BK:betrivers",
+     "book": "betrivers",
+     "market": "h2h",
+     "outcome": "Miami Heat",
+     "side": "away",
+     "point": null,
+     "odds": 1.24,
+     "eff": 1.24,
+     "three_way": false,
+     "stake": 2044.07,
+     "cost": 2044.07,
+     "label": "h2h Miami Heat  @1.24"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -247,16 +298,20 @@
   "KS|KXNFLWINMARGIN-26NOV08TBCHI-TB7TO14|YES|0.0800": {
    "n": 10.0,
    "t": "2026-11-09T00:36:18Z"
+  },
+  "KS|KXNBAGAME-26NOV08MIASAC-SAC|YES|0.1700": {
+   "n": 2534.0,
+   "t": "2026-11-09T01:56:40Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 78,
+ "n_trades": 79,
  "n_settled": 77,
  "realized_pnl": 1614.5493600000073,
  "runs": 11,
  "locked": {
   "PM": 8.104499999999877,
-  "KS": 0.9699999999999296,
+  "KS": 456.7799999999999,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 0.0,
@@ -276,7 +331,7 @@
   "BK:betfair_ex_eu": 0.0,
   "BK:betonlineag": 4.547473508864641e-13,
   "BK:skybet": 0.0,
-  "BK:betrivers": 0.0,
+  "BK:betrivers": 2044.07,
   "BK:lowvig": 0.0,
   "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
@@ -287,7 +342,7 @@
  },
  "peak_locked": {
   "PM": 402.94980000000004,
-  "KS": 400.9599999999999,
+  "KS": 456.7799999999999,
   "BK:smarkets": 4070.2799999999993,
   "BK:pinnacle": 3723.5699999999997,
   "BK:onexbet": 22357.230000000003,
@@ -307,7 +362,7 @@
   "BK:betfair_ex_eu": 126.93,
   "BK:betonlineag": 4590.49,
   "BK:skybet": 567.67,
-  "BK:betrivers": 1721.39,
+  "BK:betrivers": 2044.07,
   "BK:lowvig": 778.6,
   "BK:mybookieag": 4422.6,
   "BK:betmgm": 5577.36,
@@ -356,17 +411,17 @@
  "peak_total_locked": 60263.5595,
  "odds": {
   "remaining": {
-   "1": 186,
+   "1": 183,
    "2": 184,
-   "3": 186,
-   "4": 186,
+   "3": 183,
+   "4": 183,
    "5": 184
   },
   "spent": {
    "2026-11-06": 27,
    "2026-11-07": 854,
    "2026-11-08": 648,
-   "2026-11-09": 39
+   "2026-11-09": 48
   }
  },
  "book_slots": {
@@ -711,6 +766,8 @@
   "nhl|2026-11-09T01:00|5": "2026-11-09T00:55:13Z",
   "nfl|2026-11-09T01:20|15": "2026-11-09T01:05:08Z",
   "nfl|2026-11-09T01:20|5": "2026-11-09T01:15:08Z",
-  "nba|2026-11-09T02:00|30": "2026-11-09T01:30:08Z"
+  "nba|2026-11-09T02:00|30": "2026-11-09T01:30:08Z",
+  "nba|2026-11-09T02:00|15": "2026-11-09T01:45:08Z",
+  "nba|2026-11-09T02:00|5": "2026-11-09T01:55:08Z"
  }
 }
