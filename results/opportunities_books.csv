@@ -671,3 +671,8 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-09T00:25:19Z,nba:26NOV08BKNDAL,BKN at DAL,nba,4.7,scheduled,12,-0.013232,-0.011633,no gap,,,
 2026-11-09T00:30:16Z,nba:26NOV08BOSMIL,BOS at MIL,nba,29.7,scheduled,10,-0.000395,-0.000395,no gap,,,
 2026-11-09T00:30:16Z,nhl:26NOV08PITANA,PIT at ANA,nhl,29.7,scheduled,8,-0.011921,-0.011921,no gap,,,
+2026-11-09T00:45:19Z,nba:26NOV08BOSMIL,BOS at MIL,nba,14.7,scheduled,10,-0.000395,-0.000395,no gap,,,
+2026-11-09T00:45:19Z,nhl:26NOV08PITANA,PIT at ANA,nhl,14.7,scheduled,8,-0.011921,-0.011921,no gap,,,
+2026-11-09T00:50:18Z,nfl:26NOV08TBCHI,TB at CHI,nfl,29.7,scheduled,10,-0.008343,-0.008343,no gap,,,
+2026-11-09T00:55:19Z,nba:26NOV08BOSMIL,BOS at MIL,nba,4.7,scheduled,16,-0.006723,-0.006723,no gap,,,
+2026-11-09T00:55:19Z,nhl:26NOV08PITANA,PIT at ANA,nhl,4.7,scheduled,8,-0.011921,-0.009977,no gap,,,
