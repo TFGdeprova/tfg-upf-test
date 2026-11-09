@@ -678,3 +678,5 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-09T00:55:19Z,nhl:26NOV08PITANA,PIT at ANA,nhl,4.7,scheduled,8,-0.011921,-0.009977,no gap,,,
 2026-11-09T01:05:12Z,nfl:26NOV08TBCHI,TB at CHI,nfl,14.8,scheduled,8,-0.00569,-0.00569,no gap,,,
 2026-11-09T01:15:09Z,nfl:26NOV08TBCHI,TB at CHI,nfl,4.8,scheduled,8,-0.00569,-0.00569,no gap,,,
+2026-11-09T01:30:10Z,nba:26NOV08NOPLAC,NOP at LAC,nba,29.8,scheduled,8,-0.013232,-0.013232,no gap,,,
+2026-11-09T01:30:10Z,nba:26NOV08MIASAC,MIA at SAC,nba,29.8,scheduled,12,-0.003875,-0.003489,no gap,,,

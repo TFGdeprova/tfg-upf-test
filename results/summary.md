@@ -1,27 +1,27 @@
-# Paper-trading bot: status at 2026-11-09T01:19:49Z
+# Paper-trading bot: status at 2026-11-09T01:39:49Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 78 / 75 |
-| Realised profit | $1,613.61 ≈ €1,391.04 |
-| … Polymarket/Kalshi only | $1.25 |
+| Trades executed / settled | 78 / 77 |
+| Realised profit | $1,614.55 ≈ €1,391.85 |
+| … Polymarket/Kalshi only | $2.19 |
 | … with bookmakers (all) | $1,612.36 |
 | … with bookmakers licensed in Spain only | $0.00 |
-| Open positions (cost) | $339.10 |
+| Open positions (cost) | $9.07 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $28,873.61 ≈ €24,891.04 |
-| Return so far (realised / peak money in use) | 2.678% over 2.1 days |
+| Equity (cash + open at cost + in transit) | $28,874.55 ≈ €24,891.86 |
+| Return so far (realised / peak money in use) | 2.679% over 2.1 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 234, executed 7, rounding 18, seen 274, vanished 13.
-Gaps using bookmakers: executed 71, no_cash 41, rounding 1, seen 131, vanished 18 (snapshots combined with Polymarket/Kalshi: 679).
+Gaps using bookmakers: executed 71, no_cash 41, rounding 1, seen 131, vanished 18 (snapshots combined with Polymarket/Kalshi: 681).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 829 (about 1.1 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
+The Odds API credits left: 826 (about 1.1 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
 
 ## Capital by account
 
@@ -29,8 +29,8 @@ Peak in use = the most money that was tied up in open positions at the same time
 
 | account | start | cash now | in open positions | peak in use | lowest cash |
 |---|---|---|---|---|---|
-| Polymarket | $5,800.00 | $5,227.77 | $321.75 | $402.95 | $5,227.77 |
-| Kalshi | $5,800.00 | $6,205.42 | $17.35 | $400.96 | $5,231.94 |
+| Polymarket | $5,800.00 | $5,558.74 | $8.10 | $402.95 | $5,227.77 |
+| Kalshi | $5,800.00 | $6,205.42 | $0.97 | $400.96 | $5,231.94 |
 | betanysports | $580.00 | $-2,144.93 | $0.00 | $4,190.72 | $-3,610.72 |
 | betfair_ex_eu (Spain) | $580.00 | $453.07 | $0.00 | $126.93 | $453.07 |
 | betfair_ex_uk (Spain) | $580.00 | $580.00 | $0.00 | $0.00 | $580.00 |
@@ -83,13 +83,13 @@ Depth at detection (190 gaps with full order books): median capacity (largest si
 | # | time (UTC) | game | min to KO | with bookmakers | gap | cost | guaranteed profit | status | P&L |
 |---|---|---|---|---|---|---|---|---|---|
 | 78 | 11-09T00:36 | TB at CHI | 43.7 | no | 16.51% | $9.07 | $0.93 | open |  |
-| 77 | 11-08T21:12 | GB at NE | 12.1 | no | 0.22% | $42.92 | $0.08 | open |  |
+| 77 | 11-08T21:12 | GB at NE | 12.1 | no | 0.22% | $42.92 | $0.08 | settled | $+0.08 |
 | 76 | 11-08T19:56 | Club Atlético de Madrid v FC Barcelona | 3.1 | onexbet, pinnacle, unibet_nl | 1.38% | $2499.98 | $34.47 | settled | $+34.50 |
 | 75 | 11-08T19:46 | Club Atlético de Madrid v FC Barcelona | 13.2 | coolbet, marathonbet, unibet_nl | 1.08% | $2499.99 | $27.01 | settled | $+27.03 |
 | 74 | 11-08T19:41 | ACF Fiorentina v Juventus FC | 3.1 | betonlineag, onexbet | 0.98% | $2499.99 | $24.44 | settled | $+24.45 |
 | 73 | 11-08T19:31 | Club Atlético de Madrid v FC Barcelona | 28.1 | coolbet, onexbet, unibet_nl | 1.52% | $2499.99 | $38.05 | settled | $+38.05 |
 | 72 | 11-08T19:17 | Racing Club de Lens v Olympique de Marseille | 27.8 | leovegas_se, onexbet, smarkets | 0.34% | $2499.99 | $8.49 | settled | $+8.50 |
-| 71 | 11-08T18:26 | LV at SF | 178.9 | no | 0.30% | $287.11 | $0.86 | open |  |
+| 71 | 11-08T18:26 | LV at SF | 178.9 | no | 0.30% | $287.11 | $0.86 | settled | $+0.86 |
 | 70 | 11-08T17:57 | CLE at NO | 2.8 | betonlineag, mybookieag | 0.62% | $2499.99 | $14.83 | settled | $+15.55 |
 | 69 | 11-08T17:26 | Villarreal CF v Getafe CF | 3.1 | onexbet, pinnacle | 3.30% | $2499.99 | $82.60 | settled | $+82.61 |
 | 68 | 11-08T16:26 | Manchester United FC v Aston Villa FC | 3.2 | betanysports, coolbet, onexbet | 1.25% | $2499.99 | $31.17 | settled | $+31.18 |

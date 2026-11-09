@@ -1,6 +1,6 @@
 {
  "cash": {
-  "PM": 5227.765100000002,
+  "PM": 5558.735100000002,
   "KS": 6205.420000000001,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -1761.9399999999991,
@@ -62,108 +62,6 @@
   "BK:boylesports": 580.0
  },
  "open": [
-  {
-   "trade_id": 71,
-   "time": "2026-11-08T18:26:08Z",
-   "game": "nfl:26NOV08LVSF",
-   "title": "LV at SF",
-   "league": "nfl",
-   "kickoff": "2026-11-08T21:25:00Z",
-   "min_to_ko": 178.9,
-   "t_lp": 0.002994,
-   "cost": 287.1103,
-   "guaranteed_payout": 287.97,
-   "guaranteed_profit": 0.8597,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x1e94114df3dc8e51a5cad583217ee84e5053bb0b64f5f1bfa65cda4eaaaee5b8",
-     "label": "Exact Margin: Raiders by 25+",
-     "side": "NO",
-     "price": 0.99,
-     "shares": 95.99,
-     "fee": 0.04752,
-     "cost": 95.0776
-    },
-    {
-     "venue": "PM",
-     "id": "0x245dd73506c3384bacd1dde56eaad8e6b40edf61f7bcdd57f76c38bd5e1e486e",
-     "label": "Exact Margin: Raiders by 13-18",
-     "side": "NO",
-     "price": 0.99,
-     "shares": 95.99,
-     "fee": 0.04752,
-     "cost": 95.0776
-    },
-    {
-     "venue": "PM",
-     "id": "0x281c8e56c464da72bf8443be94b467a66d1fe1284684c66380d4f427eeb561d7",
-     "label": "Exact Margin: Raiders by 19-24",
-     "side": "NO",
-     "price": 0.99,
-     "shares": 95.99,
-     "fee": 0.04752,
-     "cost": 95.0776
-    },
-    {
-     "venue": "PM",
-     "id": "0xc9b6fecc0d4c16b2e2228d2f06987b58cdbfd53e3190a5314ad888fe52c15686",
-     "label": "Spread: Raiders (-10.5)",
-     "side": "YES",
-     "price": 0.019,
-     "shares": 95.99,
-     "fee": 0.05367,
-     "cost": 1.8775
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 77,
-   "time": "2026-11-08T21:12:52Z",
-   "game": "nfl:26NOV08GBNE",
-   "title": "GB at NE",
-   "league": "nfl",
-   "kickoff": "2026-11-08T21:25:00Z",
-   "min_to_ko": 12.1,
-   "t_lp": 0.002218,
-   "cost": 42.9169,
-   "guaranteed_payout": 43.0,
-   "guaranteed_profit": 0.0831,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x2255aa7096beea373007ed7cda3185160901af46d0f058791b6b9e4964848790",
-     "label": "Spread: Patriots (-6.5)",
-     "side": "NO",
-     "price": 0.61,
-     "shares": 43.0,
-     "fee": 0.30689,
-     "cost": 26.5369
-    },
-    {
-     "venue": "KS",
-     "id": "KXNFLWINMARGIN-26NOV08GBNE-NE15PLUS",
-     "label": "New England by 15 or more",
-     "side": "YES",
-     "price": 0.17,
-     "shares": 43,
-     "fee": 0.43,
-     "cost": 7.74
-    },
-    {
-     "venue": "KS",
-     "id": "KXNFLWINMARGIN-26NOV08GBNE-NE7TO14",
-     "label": "New England by 7 to 14",
-     "side": "YES",
-     "price": 0.19,
-     "shares": 43,
-     "fee": 0.47,
-     "cost": 8.64
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 78,
    "time": "2026-11-09T00:36:18Z",
@@ -282,30 +180,6 @@
    "n": 259.0,
    "t": "2026-11-08T14:20:58Z"
   },
-  "PM|0x2f4043b0652aaa089fc8b8bf5bb24a7aebb1e6cf9c67aec4a97c64ddb0140210|YES|0.1900": {
-   "n": 6.17,
-   "t": "2026-11-08T13:33:25Z"
-  },
-  "PM|0x4fdab2661ca124e5aa0dd2ca031a9afea96b6ffd6a4197d5812ff873e59ae259|YES|0.1400": {
-   "n": 6.16,
-   "t": "2026-11-08T13:33:25Z"
-  },
-  "PM|0x60d685b2fbf15b536a927fa931f193767cfe22295e17d745ebba855c9cbd9b27|YES|0.0600": {
-   "n": 6.17,
-   "t": "2026-11-08T13:33:25Z"
-  },
-  "PM|0xa532d13e6af6822b988e82cc8472ec02d6cef4bd1ec3c6fdd63f2bc82cb04242|YES|0.0600": {
-   "n": 6.17,
-   "t": "2026-11-08T13:33:25Z"
-  },
-  "PM|0xa9c7c990b005501b9aeba66a3031b9b7cac12ed80259dd4d9a5e1895fc9ee942|YES|0.0900": {
-   "n": 6.17,
-   "t": "2026-11-08T13:33:25Z"
-  },
-  "PM|0xd2b34c9b44e9c05abc6ee1ff38481a4ec2ec48e3f15e6767a894e5281d2c0687|YES|0.1100": {
-   "n": 6.16,
-   "t": "2026-11-08T13:33:25Z"
-  },
   "KS|KXNFLSPREAD-26NOV08CINATL-CIN15|YES|0.1600": {
    "n": 111.0,
    "t": "2026-11-08T14:20:58Z"
@@ -377,12 +251,12 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 78,
- "n_settled": 75,
- "realized_pnl": 1613.6065600000072,
+ "n_settled": 77,
+ "realized_pnl": 1614.5493600000073,
  "runs": 11,
  "locked": {
-  "PM": 321.7516999999999,
-  "KS": 17.34999999999993,
+  "PM": 8.104499999999877,
+  "KS": 0.9699999999999296,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 0.0,
@@ -483,7 +357,7 @@
  "odds": {
   "remaining": {
    "1": 186,
-   "2": 187,
+   "2": 184,
    "3": 186,
    "4": 186,
    "5": 184
@@ -492,7 +366,7 @@
    "2026-11-06": 27,
    "2026-11-07": 854,
    "2026-11-08": 648,
-   "2026-11-09": 36
+   "2026-11-09": 39
   }
  },
  "book_slots": {
@@ -836,6 +710,7 @@
   "nba|2026-11-09T01:00|5": "2026-11-09T00:55:12Z",
   "nhl|2026-11-09T01:00|5": "2026-11-09T00:55:13Z",
   "nfl|2026-11-09T01:20|15": "2026-11-09T01:05:08Z",
-  "nfl|2026-11-09T01:20|5": "2026-11-09T01:15:08Z"
+  "nfl|2026-11-09T01:20|5": "2026-11-09T01:15:08Z",
+  "nba|2026-11-09T02:00|30": "2026-11-09T01:30:08Z"
  }
 }
