@@ -1,7 +1,7 @@
 {
  "cash": {
-  "PM": 5570.669700000001,
-  "KS": 5748.540000000001,
+  "PM": 5569.734500000001,
+  "KS": 5705.55,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -1761.9399999999991,
   "BK:onexbet": 96.36400000000162,
@@ -61,16 +61,76 @@
   "BK:codere_it": 580.0,
   "BK:boylesports": 580.0
  },
- "open": [],
- "consumed": {},
+ "open": [
+  {
+   "trade_id": 82,
+   "time": "2026-11-10T22:00:36Z",
+   "game": "nba:26NOV10MILNYK",
+   "title": "MIL at NYK",
+   "league": "nba",
+   "kickoff": "2026-11-11T00:30:00Z",
+   "min_to_ko": 149.4,
+   "t_lp": 0.002341,
+   "cost": 43.9252,
+   "guaranteed_payout": 44.0,
+   "guaranteed_profit": 0.0748,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0xa30df29482377d1acb4b2a12be9b0a3431873c8d2174c1ca8c0ae65bfcbe6b01",
+     "label": "Spread: Bucks (-5.5)",
+     "side": "YES",
+     "price": 0.04,
+     "shares": 22.31,
+     "fee": 0.04284,
+     "cost": 0.9352
+    },
+    {
+     "venue": "KS",
+     "id": "KXNBASPREAD-26NOV10MILNYK-MIL11",
+     "label": "Milwaukee wins by over 10.5 points",
+     "side": "NO",
+     "price": 0.98,
+     "shares": 22,
+     "fee": 0.04,
+     "cost": 21.6
+    },
+    {
+     "venue": "KS",
+     "id": "KXNBAWINMARGIN-26NOV10MILNYK-MIL6TO10",
+     "label": "Milwaukee wins by 6-10 points",
+     "side": "NO",
+     "price": 0.97,
+     "shares": 22,
+     "fee": 0.05,
+     "cost": 21.39
+    }
+   ],
+   "status": "open"
+  }
+ ],
+ "consumed": {
+  "PM|0xa30df29482377d1acb4b2a12be9b0a3431873c8d2174c1ca8c0ae65bfcbe6b01|YES|0.0400": {
+   "n": 22.31,
+   "t": "2026-11-10T22:00:36Z"
+  },
+  "KS|KXNBASPREAD-26NOV10MILNYK-MIL11|NO|0.9800": {
+   "n": 22.0,
+   "t": "2026-11-10T22:00:36Z"
+  },
+  "KS|KXNBAWINMARGIN-26NOV10MILNYK-MIL6TO10|NO|0.9700": {
+   "n": 22.0,
+   "t": "2026-11-10T22:00:36Z"
+  }
+ },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 81,
+ "n_trades": 82,
  "n_settled": 81,
  "realized_pnl": 1651.106260000007,
  "runs": 19,
  "locked": {
-  "PM": 0.0,
-  "KS": 0.0,
+  "PM": 0.9352,
+  "KS": 42.99,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 0.0,
