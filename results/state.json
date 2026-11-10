@@ -62,21 +62,12 @@
   "BK:boylesports": 580.0
  },
  "open": [],
- "consumed": {
-  "PM|0x5e371d15e392e7fd9563e1ede5aaa82a37fea75494344b9a306a21cefb405ca0|NO|0.9420": {
-   "n": 20.0,
-   "t": "2026-11-10T01:13:35Z"
-  },
-  "KS|KXNFLWINMARGIN-26NOV09BUFMIN-MIN15PLUS|YES|0.0500": {
-   "n": 20.0,
-   "t": "2026-11-10T01:13:35Z"
-  }
- },
+ "consumed": {},
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 81,
  "n_settled": 81,
  "realized_pnl": 1651.106260000007,
- "runs": 17,
+ "runs": 18,
  "locked": {
   "PM": 0.0,
   "KS": 0.0,
