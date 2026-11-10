@@ -708,3 +708,5 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-10T00:55:10Z,nhl:26NOV09NYREDM,NYR at EDM,nhl,4.8,scheduled,6,-0.019026,-0.009201,no gap,,,
 2026-11-10T01:00:08Z,nfl:26NOV09BUFMIN,BUF at MIN,nfl,14.9,scheduled,10,0.001914,0.001914,no gap,,,
 2026-11-10T01:00:08Z,nba:26NOV09DENHOU,DEN at HOU,nba,29.9,scheduled,12,-0.010147,-0.002907,no gap,,,
+2026-11-10T01:10:05Z,nfl:26NOV09BUFMIN,BUF at MIN,nfl,4.9,scheduled,10,0.004688,0.004688,no gap,,,
+2026-11-10T01:15:04Z,nba:26NOV09DENHOU,DEN at HOU,nba,14.9,scheduled,8,-0.006723,-0.006723,no gap,,,
