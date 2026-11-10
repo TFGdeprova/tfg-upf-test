@@ -688,3 +688,12 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-09T23:30:05Z,nba:26NOV09LALATL,LAL at ATL,nba,29.9,scheduled,10,-0.008755,-0.006773,no gap,,,
 2026-11-09T23:30:12Z,nba:26NOV09CLECHA,CLE at CHA,nba,29.8,scheduled,10,-0.008755,-0.008755,no gap,,,
 2026-11-09T23:30:12Z,nba:26NOV09WASDET,WAS at DET,nba,29.8,scheduled,12,-0.005668,-0.005668,no gap,,,
+2026-11-09T23:45:06Z,nba:26NOV09LALATL,LAL at ATL,nba,14.9,scheduled,12,0.006737,0.021692,seen,0.98,nba:26NOV09LALATL|2026-11-09T23:45:06Z|with_books,KS YES 0.140 x0.152 Atlanta wins by 11-20 points | KS YES 0.150 x0.162 Atlanta wins by 1-5 points | KS YES 0.070 x0.076 Atlanta wins by 21+ points | KS YES 0.140 x0.152 Atlanta wins by 6-10 points | mybookieag h2h Los Angeles Lakers  @2.23 x0.458
+2026-11-09T23:45:06Z,nba:26NOV09CLECHA,CLE at CHA,nba,14.9,scheduled,12,-0.008755,-0.008755,no gap,,,
+2026-11-09T23:45:07Z,nba:26NOV09WASDET,WAS at DET,nba,14.9,scheduled,14,-0.005668,-0.005668,no gap,,,
+2026-11-09T23:46:37Z,nba:26NOV09LALATL,LAL at ATL,nba,13.4,confirmation,12,-0.006606,-0.006606,vanished,301.99,,KS NO 0.950 x0.947 Los Angeles L wins by over 20.5 points | KS YES 0.050 x0.053 Los Angeles L wins by 21+ points
+2026-11-09T23:55:08Z,nba:26NOV09LALATL,LAL at ATL,nba,4.9,scheduled,12,-0.004388,0.048249,seen,0.95,nba:26NOV09LALATL|2026-11-09T23:55:08Z|with_books,KS YES 0.150 x0.167 Atlanta wins by 11-20 points | KS YES 0.160 x0.178 Atlanta wins by 1-5 points | KS YES 0.070 x0.078 Atlanta wins by 21+ points | KS YES 0.150 x0.167 Atlanta wins by 6-10 points | betrivers h2h Los Angeles Lakers  @2.55 x0.411
+2026-11-09T23:55:08Z,nba:26NOV09CLECHA,CLE at CHA,nba,4.9,scheduled,10,-0.007047,-0.007047,no gap,,,
+2026-11-09T23:55:08Z,nba:26NOV09WASDET,WAS at DET,nba,4.9,scheduled,14,-0.005668,-0.005668,no gap,,,
+2026-11-09T23:56:38Z,nba:26NOV09LALATL,LAL at ATL,nba,3.4,confirmation,10,-0.004388,-0.004388,vanished,1.0,,PM NO 0.600 x0.609 Spread: Hawks (-5.5) | KS YES 0.150 x0.158 Atlanta wins by 11-20 points | KS YES 0.070 x0.074 Atlanta wins by 21+ points | KS YES 0.150 x0.158 Atlanta wins by 6-10 points
+2026-11-10T00:00:06Z,nba:26NOV09MEMTOR,MEM at TOR,nba,29.9,scheduled,8,-0.015761,-0.015761,no gap,,,
