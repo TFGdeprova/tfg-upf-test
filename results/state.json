@@ -1,6 +1,6 @@
 {
  "cash": {
-  "PM": 5540.039700000001,
+  "PM": 5570.669700000001,
   "KS": 5748.540000000001,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -1761.9399999999991,
@@ -61,100 +61,7 @@
   "BK:codere_it": 580.0,
   "BK:boylesports": 580.0
  },
- "open": [
-  {
-   "trade_id": 80,
-   "time": "2026-11-10T00:42:41Z",
-   "game": "nfl:26NOV09BUFMIN",
-   "title": "BUF at MIN",
-   "league": "nfl",
-   "kickoff": "2026-11-10T01:15:00Z",
-   "min_to_ko": 32.3,
-   "t_lp": 0.016852,
-   "cost": 10.4526,
-   "guaranteed_payout": 10.62,
-   "guaranteed_profit": 0.1674,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x21fc642181950c9da6b77a1f940048757254dc15b1235f93903b181360579c44",
-     "label": "Exact Margin: Bills by 13-18",
-     "side": "YES",
-     "price": 0.06,
-     "shares": 10.63,
-     "fee": 0.02998,
-     "cost": 0.6678
-    },
-    {
-     "venue": "PM",
-     "id": "0x2cf369b02789151e96ef662773f94c4e8e03c171b5f2417124ed9281d26d6bc4",
-     "label": "Exact Margin: Bills by 19-24",
-     "side": "YES",
-     "price": 0.07,
-     "shares": 10.62,
-     "fee": 0.03457,
-     "cost": 0.778
-    },
-    {
-     "venue": "PM",
-     "id": "0x76d0710dcee406253ef30e1b9e660a4d450c22c13192f522abcf62b9664858ec",
-     "label": "Spread: Bills (-13.5)",
-     "side": "NO",
-     "price": 0.79,
-     "shares": 10.63,
-     "fee": 0.05291,
-     "cost": 8.4506
-    },
-    {
-     "venue": "PM",
-     "id": "0xb036b9b81a523e792aa696ceba74dbaf81cddbec7760c32be7834bd0b2ff3663",
-     "label": "Exact Margin: Bills by 25+",
-     "side": "YES",
-     "price": 0.05,
-     "shares": 10.62,
-     "fee": 0.02522,
-     "cost": 0.5562
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 81,
-   "time": "2026-11-10T01:13:35Z",
-   "game": "nfl:26NOV09BUFMIN",
-   "title": "BUF at MIN",
-   "league": "nfl",
-   "kickoff": "2026-11-10T01:15:00Z",
-   "min_to_ko": 1.4,
-   "t_lp": 0.003045,
-   "cost": 19.9428,
-   "guaranteed_payout": 20.0,
-   "guaranteed_profit": 0.0572,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x5e371d15e392e7fd9563e1ede5aaa82a37fea75494344b9a306a21cefb405ca0",
-     "label": "Spread: Vikings (-14.5)",
-     "side": "NO",
-     "price": 0.942,
-     "shares": 20.0,
-     "fee": 0.03278,
-     "cost": 18.8728
-    },
-    {
-     "venue": "KS",
-     "id": "KXNFLWINMARGIN-26NOV09BUFMIN-MIN15PLUS",
-     "label": "Minnesota by 15 or more",
-     "side": "YES",
-     "price": 0.05,
-     "shares": 20,
-     "fee": 0.07,
-     "cost": 1.07
-    }
-   ],
-   "status": "open"
-  }
- ],
+ "open": [],
  "consumed": {
   "PM|0x21fc642181950c9da6b77a1f940048757254dc15b1235f93903b181360579c44|YES|0.0600": {
    "n": 10.63,
@@ -183,12 +90,12 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 81,
- "n_settled": 79,
- "realized_pnl": 1650.871660000007,
+ "n_settled": 81,
+ "realized_pnl": 1651.106260000007,
  "runs": 16,
  "locked": {
-  "PM": 29.325400000000002,
-  "KS": 1.07,
+  "PM": 0.0,
+  "KS": 0.0,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 0.0,
