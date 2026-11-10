@@ -723,3 +723,7 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-10T02:45:28Z,nhl:26NOV09NYISJ,NYI at SJ,nhl,14.5,scheduled,6,-0.010703,-0.010703,no gap,,,
 2026-11-10T02:55:28Z,nba:26NOV09NOPGSW,NOP at GSW,nba,4.5,scheduled,12,-0.004587,-0.004587,no gap,,,
 2026-11-10T02:55:28Z,nhl:26NOV09NYISJ,NYI at SJ,nhl,4.5,scheduled,6,-0.010703,-0.010703,no gap,,,
+2026-11-10T23:30:04Z,nhl:26NOV10COLTOR,COL at TOR,nhl,29.9,scheduled,6,-0.011921,-0.011921,no gap,,,
+2026-11-10T23:30:04Z,nhl:26NOV10WSHOTT,WSH at OTT,nhl,29.9,scheduled,8,-0.01126,-0.01126,no gap,,,
+2026-11-10T23:30:04Z,nhl:26NOV10MINMTL,MIN at MTL,nhl,29.9,scheduled,8,-0.007751,-0.007751,no gap,,,
+2026-11-10T23:30:04Z,nhl:26NOV10NJWPG,NJ at WPG,nhl,29.9,scheduled,6,-0.011921,-0.011921,no gap,,,
