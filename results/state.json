@@ -63,18 +63,6 @@
  },
  "open": [],
  "consumed": {
-  "PM|0xa30df29482377d1acb4b2a12be9b0a3431873c8d2174c1ca8c0ae65bfcbe6b01|YES|0.0400": {
-   "n": 22.31,
-   "t": "2026-11-10T22:00:36Z"
-  },
-  "KS|KXNBASPREAD-26NOV10MILNYK-MIL11|NO|0.9800": {
-   "n": 22.0,
-   "t": "2026-11-10T22:00:36Z"
-  },
-  "KS|KXNBAWINMARGIN-26NOV10MILNYK-MIL6TO10|NO|0.9700": {
-   "n": 22.0,
-   "t": "2026-11-10T22:00:36Z"
-  },
   "PM|0x5714cb9ce9b8283dadb9f84baa296f5a528d385129985bc0c6fe730bcfd2e197|YES|0.0200": {
    "n": 5.0,
    "t": "2026-11-10T23:59:03Z"
