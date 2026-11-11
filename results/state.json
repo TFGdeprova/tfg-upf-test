@@ -1,6 +1,6 @@
 {
  "cash": {
-  "PM": 5569.524700000001,
+  "PM": 5531.925000000001,
   "KS": 5695.81,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -1761.9399999999991,
@@ -23,7 +23,7 @@
   "BK:skybet": -375.10999999999996,
   "BK:betrivers": 1879.6300999999999,
   "BK:lowvig": -198.60000000000002,
-  "BK:mybookieag": -3038.3125000000005,
+  "BK:mybookieag": -3083.8525000000004,
   "BK:betmgm": 5041.888,
   "BK:betanysports": -2144.9284000000007,
   "BK:betsson": 2119.7043999999996,
@@ -179,6 +179,57 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 85,
+   "time": "2026-11-11T01:01:34Z",
+   "game": "nba:26NOV10MIAUTA",
+   "title": "MIA at UTA",
+   "league": "nba",
+   "kickoff": "2026-11-11T02:00:00Z",
+   "min_to_ko": 58.4,
+   "t_lp": 0.046309,
+   "with_books": true,
+   "books": [
+    "mybookieag"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "9ac02cb22adf276b325b1e9c9c6c588e",
+    "sport": "basketball_nba",
+    "home": "Utah Jazz",
+    "away": "Miami Heat"
+   },
+   "cost": 83.1397,
+   "guaranteed_payout": 86.9814,
+   "guaranteed_profit": 3.8417,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x55c305c340f5e082eca3f51ee30409f814e4ecec1aa9329fd45e747ed466b91d",
+     "label": "Spread: Heat (-6.5)",
+     "side": "NO",
+     "price": 0.42000000000000004,
+     "shares": 87.0,
+     "fee": 1.05966,
+     "cost": 37.5997
+    },
+    {
+     "venue": "BK:mybookieag",
+     "book": "mybookieag",
+     "market": "spreads",
+     "outcome": "Miami Heat",
+     "side": "away",
+     "point": -6.5,
+     "odds": 1.91,
+     "eff": 1.91,
+     "three_way": false,
+     "stake": 45.54,
+     "cost": 45.54,
+     "label": "spreads Miami Heat -6.5 @1.91"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -205,15 +256,19 @@
   "PM|0x6690d1caec734d96afb360e86db77bd1fdebc8d34642d6ba757714981e2c8208|YES|0.0200": {
    "n": 5.0,
    "t": "2026-11-11T00:00:04Z"
+  },
+  "PM|0x55c305c340f5e082eca3f51ee30409f814e4ecec1aa9329fd45e747ed466b91d|NO|0.4200": {
+   "n": 87.0,
+   "t": "2026-11-11T01:01:34Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 84,
+ "n_trades": 85,
  "n_settled": 81,
  "realized_pnl": 1651.106260000007,
  "runs": 20,
  "locked": {
-  "PM": 1.145,
+  "PM": 38.7447,
   "KS": 52.73,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
@@ -236,7 +291,7 @@
   "BK:skybet": 0.0,
   "BK:betrivers": 0.0,
   "BK:lowvig": 0.0,
-  "BK:mybookieag": 0.0,
+  "BK:mybookieag": 45.54,
   "BK:betmgm": 0.0,
   "BK:betanysports": 2.2737367544323206e-13,
   "BK:betsson": 0.0,
@@ -314,11 +369,11 @@
  "peak_total_locked": 60263.5595,
  "odds": {
   "remaining": {
-   "1": 156,
-   "2": 157,
-   "3": 156,
-   "4": 156,
-   "5": 155
+   "1": 153,
+   "2": 154,
+   "3": 153,
+   "4": 153,
+   "5": 152
   },
   "spent": {
    "2026-11-06": 27,
@@ -326,7 +381,7 @@
    "2026-11-08": 648,
    "2026-11-09": 65,
    "2026-11-10": 90,
-   "2026-11-11": 30
+   "2026-11-11": 45
   }
  },
  "book_slots": {
@@ -392,6 +447,12 @@
   "nba|2026-11-11T01:00|30": "2026-11-11T00:30:00Z",
   "nhl|2026-11-11T01:00|30": "2026-11-11T00:30:00Z",
   "nba|2026-11-11T01:00|15": "2026-11-11T00:45:00Z",
-  "nhl|2026-11-11T01:00|15": "2026-11-11T00:45:00Z"
+  "nhl|2026-11-11T01:00|15": "2026-11-11T00:45:00Z",
+  "nba|2026-11-11T01:00|5": "2026-11-11T00:55:00Z",
+  "nhl|2026-11-11T01:00|5": "2026-11-11T00:55:00Z",
+  "nba|2026-11-11T02:00|60": "2026-11-11T01:00:00Z",
+  "nba|2026-11-11T03:00|120": "2026-11-11T01:00:00Z",
+  "nba|2026-11-11T04:00|180": "2026-11-11T01:00:00Z",
+  "nhl|2026-11-11T03:00|120": "2026-11-11T01:00:03Z"
  }
 }
