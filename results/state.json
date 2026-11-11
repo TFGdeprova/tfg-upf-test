@@ -1,7 +1,7 @@
 {
  "cash": {
   "PM": 5531.925000000001,
-  "KS": 5695.81,
+  "KS": 5749.81,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -1761.9399999999991,
   "BK:onexbet": 96.36400000000162,
@@ -62,124 +62,6 @@
   "BK:boylesports": 580.0
  },
  "open": [
-  {
-   "trade_id": 82,
-   "time": "2026-11-10T22:00:36Z",
-   "game": "nba:26NOV10MILNYK",
-   "title": "MIL at NYK",
-   "league": "nba",
-   "kickoff": "2026-11-11T00:30:00Z",
-   "min_to_ko": 149.4,
-   "t_lp": 0.002341,
-   "cost": 43.9252,
-   "guaranteed_payout": 44.0,
-   "guaranteed_profit": 0.0748,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0xa30df29482377d1acb4b2a12be9b0a3431873c8d2174c1ca8c0ae65bfcbe6b01",
-     "label": "Spread: Bucks (-5.5)",
-     "side": "YES",
-     "price": 0.04,
-     "shares": 22.31,
-     "fee": 0.04284,
-     "cost": 0.9352
-    },
-    {
-     "venue": "KS",
-     "id": "KXNBASPREAD-26NOV10MILNYK-MIL11",
-     "label": "Milwaukee wins by over 10.5 points",
-     "side": "NO",
-     "price": 0.98,
-     "shares": 22,
-     "fee": 0.04,
-     "cost": 21.6
-    },
-    {
-     "venue": "KS",
-     "id": "KXNBAWINMARGIN-26NOV10MILNYK-MIL6TO10",
-     "label": "Milwaukee wins by 6-10 points",
-     "side": "NO",
-     "price": 0.97,
-     "shares": 22,
-     "fee": 0.05,
-     "cost": 21.39
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 83,
-   "time": "2026-11-10T23:59:03Z",
-   "game": "nba:26NOV10MILNYK",
-   "title": "MIL at NYK",
-   "league": "nba",
-   "kickoff": "2026-11-11T00:30:00Z",
-   "min_to_ko": 30.9,
-   "t_lp": 0.007032,
-   "cost": 4.9749,
-   "guaranteed_payout": 5.0,
-   "guaranteed_profit": 0.0251,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x5714cb9ce9b8283dadb9f84baa296f5a528d385129985bc0c6fe730bcfd2e197",
-     "label": "Spread: Bucks (-7.5)",
-     "side": "YES",
-     "price": 0.02,
-     "shares": 5.0,
-     "fee": 0.0049,
-     "cost": 0.1049
-    },
-    {
-     "venue": "KS",
-     "id": "KXNBAWINMARGIN-26NOV10MILNYK-MIL11PLUS",
-     "label": "Milwaukee wins by 11+ points",
-     "side": "NO",
-     "price": 0.97,
-     "shares": 5,
-     "fee": 0.02,
-     "cost": 4.87
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 84,
-   "time": "2026-11-11T00:00:04Z",
-   "game": "nba:26NOV10MILNYK",
-   "title": "MIL at NYK",
-   "league": "nba",
-   "kickoff": "2026-11-11T00:30:00Z",
-   "min_to_ko": 29.9,
-   "t_lp": 0.007032,
-   "cost": 4.9749,
-   "guaranteed_payout": 5.0,
-   "guaranteed_profit": 0.0251,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x6690d1caec734d96afb360e86db77bd1fdebc8d34642d6ba757714981e2c8208",
-     "label": "Spread: Bucks (-9.5)",
-     "side": "YES",
-     "price": 0.02,
-     "shares": 5.0,
-     "fee": 0.0049,
-     "cost": 0.1049
-    },
-    {
-     "venue": "KS",
-     "id": "KXNBAWINMARGIN-26NOV10MILNYK-MIL11PLUS",
-     "label": "Milwaukee wins by 11+ points",
-     "side": "NO",
-     "price": 0.97,
-     "shares": 5,
-     "fee": 0.02,
-     "cost": 4.87
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 85,
    "time": "2026-11-11T01:01:34Z",
@@ -264,12 +146,12 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 85,
- "n_settled": 81,
- "realized_pnl": 1651.106260000007,
+ "n_settled": 84,
+ "realized_pnl": 1651.2312600000073,
  "runs": 20,
  "locked": {
-  "PM": 38.7447,
-  "KS": 52.73,
+  "PM": 37.5997,
+  "KS": 0.0,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 0.0,
@@ -369,9 +251,9 @@
  "peak_total_locked": 60263.5595,
  "odds": {
   "remaining": {
-   "1": 147,
+   "1": 144,
    "2": 145,
-   "3": 147,
+   "3": 144,
    "4": 144,
    "5": 146
   },
@@ -381,7 +263,7 @@
    "2026-11-08": 648,
    "2026-11-09": 65,
    "2026-11-10": 90,
-   "2026-11-11": 81
+   "2026-11-11": 87
   }
  },
  "book_slots": {
@@ -466,6 +348,8 @@
   "nhl|2026-11-11T03:00|15": "2026-11-11T02:45:00Z",
   "nba|2026-11-11T03:00|5": "2026-11-11T02:55:00Z",
   "nhl|2026-11-11T03:00|5": "2026-11-11T02:55:00Z",
-  "nba|2026-11-11T04:00|60": "2026-11-11T03:00:00Z"
+  "nba|2026-11-11T04:00|60": "2026-11-11T03:00:00Z",
+  "nba|2026-11-11T04:00|30": "2026-11-11T03:30:00Z",
+  "nba|2026-11-11T04:00|15": "2026-11-11T03:45:00Z"
  }
 }
