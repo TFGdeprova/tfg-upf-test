@@ -1,6 +1,6 @@
 {
  "cash": {
-  "PM": 5531.925000000001,
+  "PM": 5618.925000000001,
   "KS": 5749.81,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -1761.9399999999991,
@@ -61,59 +61,7 @@
   "BK:codere_it": 580.0,
   "BK:boylesports": 580.0
  },
- "open": [
-  {
-   "trade_id": 85,
-   "time": "2026-11-11T01:01:34Z",
-   "game": "nba:26NOV10MIAUTA",
-   "title": "MIA at UTA",
-   "league": "nba",
-   "kickoff": "2026-11-11T02:00:00Z",
-   "min_to_ko": 58.4,
-   "t_lp": 0.046309,
-   "with_books": true,
-   "books": [
-    "mybookieag"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "9ac02cb22adf276b325b1e9c9c6c588e",
-    "sport": "basketball_nba",
-    "home": "Utah Jazz",
-    "away": "Miami Heat"
-   },
-   "cost": 83.1397,
-   "guaranteed_payout": 86.9814,
-   "guaranteed_profit": 3.8417,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x55c305c340f5e082eca3f51ee30409f814e4ecec1aa9329fd45e747ed466b91d",
-     "label": "Spread: Heat (-6.5)",
-     "side": "NO",
-     "price": 0.42000000000000004,
-     "shares": 87.0,
-     "fee": 1.05966,
-     "cost": 37.5997
-    },
-    {
-     "venue": "BK:mybookieag",
-     "book": "mybookieag",
-     "market": "spreads",
-     "outcome": "Miami Heat",
-     "side": "away",
-     "point": -6.5,
-     "odds": 1.91,
-     "eff": 1.91,
-     "three_way": false,
-     "stake": 45.54,
-     "cost": 45.54,
-     "label": "spreads Miami Heat -6.5 @1.91"
-    }
-   ],
-   "status": "open"
-  }
- ],
+ "open": [],
  "consumed": {
   "PM|0xa30df29482377d1acb4b2a12be9b0a3431873c8d2174c1ca8c0ae65bfcbe6b01|YES|0.0400": {
    "n": 22.31,
@@ -146,11 +94,11 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 85,
- "n_settled": 84,
- "realized_pnl": 1651.2312600000073,
+ "n_settled": 85,
+ "realized_pnl": 1655.0915600000073,
  "runs": 20,
  "locked": {
-  "PM": 37.5997,
+  "PM": 0.0,
   "KS": 0.0,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
@@ -173,7 +121,7 @@
   "BK:skybet": 0.0,
   "BK:betrivers": 0.0,
   "BK:lowvig": 0.0,
-  "BK:mybookieag": 45.54,
+  "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
   "BK:betanysports": 2.2737367544323206e-13,
   "BK:betsson": 0.0,
@@ -252,7 +200,7 @@
  "odds": {
   "remaining": {
    "1": 144,
-   "2": 145,
+   "2": 143,
    "3": 144,
    "4": 144,
    "5": 143
@@ -263,7 +211,7 @@
    "2026-11-08": 648,
    "2026-11-09": 65,
    "2026-11-10": 90,
-   "2026-11-11": 90
+   "2026-11-11": 92
   }
  },
  "book_slots": {
