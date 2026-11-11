@@ -778,3 +778,7 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-11T03:30:02Z,nba:26NOV10OKCPOR,OKC at POR,nba,30.0,scheduled,12,-0.006723,-0.006723,no gap,,,
 2026-11-11T03:45:02Z,nba:26NOV10OKCPOR,OKC at POR,nba,15.0,scheduled,10,-0.006606,-0.006606,no gap,,,
 2026-11-11T03:55:02Z,nba:26NOV10OKCPOR,OKC at POR,nba,5.0,scheduled,10,-0.006606,-0.006606,no gap,,,
+2026-11-11T21:00:06Z,nba:26NOV11WASIND,WAS at IND,nba,179.9,scheduled,12,-0.011336,-0.011336,no gap,,,
+2026-11-11T21:00:07Z,nba:26NOV11CLENYK,CLE at NYK,nba,179.9,scheduled,12,-0.007333,-0.007333,no gap,,,
+2026-11-11T21:00:07Z,nba:26NOV11BOSTOR,BOS at TOR,nba,179.9,scheduled,6,-0.012746,-0.012746,no gap,,,
+2026-11-11T21:00:07Z,nhl:26NOV11TBBUF,TB at BUF,nhl,179.9,scheduled,6,-0.011921,-0.011921,no gap,,,
