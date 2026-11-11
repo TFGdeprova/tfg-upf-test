@@ -62,12 +62,7 @@
   "BK:boylesports": 580.0
  },
  "open": [],
- "consumed": {
-  "PM|0x55c305c340f5e082eca3f51ee30409f814e4ecec1aa9329fd45e747ed466b91d|NO|0.4200": {
-   "n": 87.0,
-   "t": "2026-11-11T01:01:34Z"
-  }
- },
+ "consumed": {},
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 85,
  "n_settled": 85,
