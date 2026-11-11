@@ -759,3 +759,7 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-11T01:00:07Z,nhl:26NOV10NSHLA,NSH at LA,nhl,119.9,scheduled,8,-0.007751,-0.007751,no gap,,,
 2026-11-11T01:00:07Z,nba:26NOV10OKCPOR,OKC at POR,nba,179.9,scheduled,12,-0.004587,-0.004587,no gap,,,
 2026-11-11T01:01:34Z,nba:26NOV10MIAUTA,MIA at UTA,nba,58.4,confirmation,18,-0.009732,0.046309,executed,83.15,,PM NO 0.420 x0.452 Spread: Heat (-6.5) | mybookieag spreads Miami Heat -6.5 @1.91 x0.548
+2026-11-11T01:30:04Z,nba:26NOV10LACPHX,LAC at PHX,nba,29.9,scheduled,12,-0.016061,-0.014602,no gap,,,
+2026-11-11T01:30:06Z,nba:26NOV10MIAUTA,MIA at UTA,nba,29.9,scheduled,12,-0.009732,-0.009732,no gap,,,
+2026-11-11T01:45:02Z,nba:26NOV10LACPHX,LAC at PHX,nba,15.0,scheduled,10,-0.007751,-0.007751,no gap,,,
+2026-11-11T01:45:02Z,nba:26NOV10MIAUTA,MIA at UTA,nba,15.0,scheduled,12,-0.009732,-0.009732,no gap,,,
