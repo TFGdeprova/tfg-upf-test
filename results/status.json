@@ -1,7 +1,7 @@
 {
  "run": 25,
  "run_started": "2026-11-12T04:33:33Z",
- "last_update": "2026-11-12T06:36:11Z",
+ "last_update": "2026-11-12T06:56:32Z",
  "code_version": "acf7994a5cab",
  "private_raw_storage": true,
  "odds_api_keys": {
@@ -52,7 +52,7 @@
  "checks": 0,
  "errors": 0,
  "raw_snapshots": 0,
- "results_pushes": 6,
+ "results_pushes": 7,
  "raw_pushes": 0,
  "book_calls": 0,
  "book_games": 0,
