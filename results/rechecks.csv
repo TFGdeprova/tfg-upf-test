@@ -827,3 +827,5 @@ time,watch,kind,game,title,league,min_to_ko,lag_s,detected,recheck,t_detected,t_
 2026-11-12T02:25:18Z,nhl:26NOV11UTAVGK|2026-11-12T02:15:18Z|with_books,with_books,nhl:26NOV11UTAVGK,UTA at VGK,nhl,4.7,600.0,2026-11-12T02:15:18Z,scheduled,0.00885,0.00885,2/2,0.00885,True,True,ok
 2026-11-12T02:26:30Z,nhl:26NOV11UTAVGK|2026-11-12T02:15:18Z|with_books,with_books,nhl:26NOV11UTAVGK,UTA at VGK,nhl,3.5,671.2,2026-11-12T02:15:18Z,confirmation,0.00885,-0.004425,2/2,0.013592,False,False,ok
 2026-11-12T02:26:30Z,nhl:26NOV11UTAVGK|2026-11-12T02:25:18Z|with_books,with_books,nhl:26NOV11UTAVGK,UTA at VGK,nhl,3.5,71.3,2026-11-12T02:25:18Z,confirmation,0.00885,-0.004425,2/2,0.013592,False,False,ok
+2026-11-12T02:46:37Z,nba:26NOV11OKCPOR|2026-11-12T02:45:18Z|with_books,with_books,nba:26NOV11OKCPOR,OKC at POR,nba,13.4,78.5,2026-11-12T02:45:18Z,confirmation,0.002216,0.002216,2/2,0.002216,True,True,ok
+2026-11-12T02:55:20Z,nba:26NOV11OKCPOR|2026-11-12T02:45:18Z|with_books,with_books,nba:26NOV11OKCPOR,OKC at POR,nba,4.7,601.8,2026-11-12T02:45:18Z,scheduled,0.002216,,1/2,-0.00348,,,leg_not_quoted

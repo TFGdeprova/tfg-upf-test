@@ -871,3 +871,10 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-12T02:30:20Z,nba:26NOV11OKCPOR,OKC at POR,nba,29.7,scheduled,8,-0.003549,-0.003549,no gap,,,
 2026-11-12T02:30:20Z,nhl:26NOV11NSHANA,NSH at ANA,nhl,29.7,scheduled,8,-0.01126,-0.01126,no gap,,,
 2026-11-12T02:30:20Z,nhl:26NOV11PITSJ,PIT at SJ,nhl,29.7,scheduled,8,-0.012282,-0.012282,no gap,,,
+2026-11-12T02:45:18Z,nba:26NOV11OKCPOR,OKC at POR,nba,14.7,scheduled,10,-0.003549,0.002216,seen,1.01,nba:26NOV11OKCPOR|2026-11-12T02:45:18Z|with_books,KS NO 0.440 x0.458 Portland wins by over 1.5 points | betrivers spreads Portland Trail Blazers -1.5 @1.85 x0.542
+2026-11-12T02:45:18Z,nhl:26NOV11NSHANA,NSH at ANA,nhl,14.7,scheduled,8,-0.01126,-0.01126,no gap,,,
+2026-11-12T02:45:18Z,nhl:26NOV11PITSJ,PIT at SJ,nhl,14.7,scheduled,8,-0.01126,-0.01126,no gap,,,
+2026-11-12T02:46:37Z,nba:26NOV11OKCPOR,OKC at POR,nba,13.4,confirmation,10,-0.003549,0.002216,below_min_size,1.01,,KS NO 0.440 x0.458 Portland wins by over 1.5 points | betrivers spreads Portland Trail Blazers -1.5 @1.85 x0.542
+2026-11-12T02:55:20Z,nba:26NOV11OKCPOR,OKC at POR,nba,4.7,scheduled,8,-0.00348,-0.00348,no gap,,,
+2026-11-12T02:55:20Z,nhl:26NOV11NSHANA,NSH at ANA,nhl,4.7,scheduled,8,-0.009208,-0.0,no gap,,,
+2026-11-12T02:55:20Z,nhl:26NOV11PITSJ,PIT at SJ,nhl,4.7,scheduled,8,-0.009208,-0.009208,no gap,,,
