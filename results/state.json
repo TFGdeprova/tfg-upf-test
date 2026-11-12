@@ -21,7 +21,7 @@
   "BK:betfair_ex_eu": 453.07,
   "BK:betonlineag": -1867.0468,
   "BK:skybet": -375.10999999999996,
-  "BK:betrivers": -368.8299000000002,
+  "BK:betrivers": 4687.2381000000005,
   "BK:lowvig": -1290.83,
   "BK:mybookieag": -3083.8525000000004,
   "BK:betmgm": 5041.888,
@@ -63,125 +63,12 @@
   "BK:boylesports": 580.0,
   "BK:fanduel": 580.0
  },
- "open": [
-  {
-   "trade_id": 86,
-   "time": "2026-11-12T02:16:29Z",
-   "game": "nhl:26NOV11UTAVGK",
-   "title": "UTA at VGK",
-   "league": "nhl",
-   "kickoff": "2026-11-12T02:30:00Z",
-   "min_to_ko": 13.5,
-   "t_lp": 0.00885,
-   "with_books": true,
-   "books": [
-    "betrivers",
-    "fanduel"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "81ee484309522975fbb4df2f859fa136",
-    "sport": "icehockey_nhl",
-    "home": "Vegas Golden Knights",
-    "away": "Utah Mammoth"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2522.1,
-   "guaranteed_profit": 22.11,
-   "legs": [
-    {
-     "venue": "BK:fanduel",
-     "book": "fanduel",
-     "market": "spreads",
-     "outcome": "Utah Mammoth",
-     "side": "away",
-     "point": 1.5,
-     "odds": 1.52,
-     "eff": 1.52,
-     "three_way": false,
-     "stake": 1659.29,
-     "cost": 1659.29,
-     "label": "spreads Utah Mammoth 1.5 @1.52"
-    },
-    {
-     "venue": "BK:betrivers",
-     "book": "betrivers",
-     "market": "spreads",
-     "outcome": "Vegas Golden Knights",
-     "side": "home",
-     "point": -1.5,
-     "odds": 3.0,
-     "eff": 3.0,
-     "three_way": false,
-     "stake": 840.7,
-     "cost": 840.7,
-     "label": "spreads Vegas Golden Knights -1.5 @3.0"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 87,
-   "time": "2026-11-12T02:26:32Z",
-   "game": "nhl:26NOV11UTAVGK",
-   "title": "UTA at VGK",
-   "league": "nhl",
-   "kickoff": "2026-11-12T02:30:00Z",
-   "min_to_ko": 3.5,
-   "t_lp": 0.013592,
-   "with_books": true,
-   "books": [
-    "betrivers",
-    "lowvig"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "81ee484309522975fbb4df2f859fa136",
-    "sport": "icehockey_nhl",
-    "home": "Vegas Golden Knights",
-    "away": "Utah Mammoth"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2533.968,
-   "guaranteed_profit": 33.978,
-   "legs": [
-    {
-     "venue": "BK:lowvig",
-     "book": "lowvig",
-     "market": "h2h",
-     "outcome": "Utah Mammoth",
-     "side": "away",
-     "point": null,
-     "odds": 2.32,
-     "eff": 2.32,
-     "three_way": false,
-     "stake": 1092.23,
-     "cost": 1092.23,
-     "label": "h2h Utah Mammoth  @2.32"
-    },
-    {
-     "venue": "BK:betrivers",
-     "book": "betrivers",
-     "market": "h2h",
-     "outcome": "Vegas Golden Knights",
-     "side": "home",
-     "point": null,
-     "odds": 1.8,
-     "eff": 1.8,
-     "three_way": false,
-     "stake": 1407.76,
-     "cost": 1407.76,
-     "label": "h2h Vegas Golden Knights  @1.8"
-    }
-   ],
-   "status": "open"
-  }
- ],
+ "open": [],
  "consumed": {},
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 87,
- "n_settled": 85,
- "realized_pnl": 1655.0915600000073,
+ "n_settled": 87,
+ "realized_pnl": 1711.179560000008,
  "runs": 25,
  "locked": {
   "PM": 0.0,
@@ -205,15 +92,15 @@
   "BK:betfair_ex_eu": 0.0,
   "BK:betonlineag": 4.547473508864641e-13,
   "BK:skybet": 0.0,
-  "BK:betrivers": 2248.46,
-  "BK:lowvig": 1092.23,
+  "BK:betrivers": 0.0,
+  "BK:lowvig": 0.0,
   "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
   "BK:betanysports": 2.2737367544323206e-13,
   "BK:betsson": 0.0,
   "BK:codere_it": 0.0,
   "BK:boylesports": 0.0,
-  "BK:fanduel": 1659.29
+  "BK:fanduel": 0.0
  },
  "peak_locked": {
   "PM": 402.94980000000004,
@@ -290,7 +177,7 @@
   "remaining": {
    "1": 117,
    "2": 116,
-   "3": 117,
+   "3": 115,
    "4": 114,
    "5": 116
   },
@@ -301,7 +188,7 @@
    "2026-11-09": 65,
    "2026-11-10": 90,
    "2026-11-11": 134,
-   "2026-11-12": 96
+   "2026-11-12": 98
   }
  },
  "book_slots": {

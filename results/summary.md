@@ -1,18 +1,18 @@
-# Paper-trading bot: status at 2026-11-12T05:14:32Z
+# Paper-trading bot: status at 2026-11-12T05:34:59Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 87 / 85 |
-| Realised profit | $1,655.09 ≈ €1,426.80 |
+| Trades executed / settled | 87 / 87 |
+| Realised profit | $1,711.18 ≈ €1,475.15 |
 | … Polymarket/Kalshi only | $4.11 |
-| … with bookmakers (all) | $1,650.98 |
+| … with bookmakers (all) | $1,707.07 |
 | … with bookmakers licensed in Spain only | $0.00 |
-| Open positions (cost) | $4,999.98 |
+| Open positions (cost) | $0.00 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $29,495.10 ≈ €25,426.81 |
-| Return so far (realised / peak money in use) | 2.746% over 5.3 days |
+| Equity (cash + open at cost + in transit) | $29,551.18 ≈ €25,475.16 |
+| Return so far (realised / peak money in use) | 2.839% over 5.3 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 294, executed 12, rounding 43, seen 382, vanished 31.
 Gaps using bookmakers: below_min_size 1, executed 75, no_cash 41, rounding 2, seen 139, vanished 20 (snapshots combined with Polymarket/Kalshi: 879).
@@ -37,17 +37,17 @@ Peak in use = the most money that was tied up in open positions at the same time
 | betfred_uk | $580.00 | $-768.02 | $0.00 | $1,348.02 | $-768.02 |
 | betmgm | $580.00 | $5,041.89 | $0.00 | $5,577.36 | $-4,997.36 |
 | betonlineag | $580.00 | $-1,867.05 | $0.00 | $4,590.49 | $-4,391.48 |
-| betrivers | $580.00 | $-368.83 | $2,248.46 | $2,248.46 | $-1,141.39 |
+| betrivers | $580.00 | $4,687.24 | $0.00 | $2,248.46 | $-1,141.39 |
 | betsson | $580.00 | $2,119.70 | $0.00 | $986.99 | $-406.99 |
 | boylesports | $580.00 | $1,315.03 | $0.00 | $1,813.51 | $-1,233.51 |
 | codere_it | $580.00 | $1,797.50 | $0.00 | $1,295.21 | $-715.21 |
 | coolbet | $580.00 | $7,055.77 | $0.00 | $7,199.91 | $-8,022.38 |
 | coral | $580.00 | $1,338.67 | $0.00 | $1,948.91 | $-1,194.91 |
-| fanduel | $580.00 | $-1,079.29 | $1,659.29 | $1,659.29 | $-1,079.29 |
+| fanduel | $580.00 | $-1,079.29 | $0.00 | $1,659.29 | $-1,079.29 |
 | grosvenor | $580.00 | $580.00 | $0.00 | $292.30 | $287.70 |
 | gtbets | $580.00 | $5,009.94 | $0.00 | $6,720.04 | $-7,633.02 |
 | leovegas_se | $580.00 | $5,327.11 | $0.00 | $2,971.13 | $-1,181.83 |
-| lowvig | $580.00 | $-1,290.83 | $1,092.23 | $1,092.23 | $-1,290.83 |
+| lowvig | $580.00 | $-1,290.83 | $0.00 | $1,092.23 | $-1,290.83 |
 | marathonbet (Spain) | $580.00 | $2,060.64 | $0.00 | $2,789.53 | $-1,673.21 |
 | matchbook | $580.00 | $5,371.57 | $0.00 | $4,155.10 | $-3,925.78 |
 | mybookieag | $580.00 | $-3,083.85 | $0.00 | $4,422.60 | $-5,553.85 |
@@ -83,8 +83,8 @@ Depth at detection (229 gaps with full order books): median capacity (largest si
 
 | # | time (UTC) | game | min to KO | with bookmakers | gap | cost | guaranteed profit | status | P&L |
 |---|---|---|---|---|---|---|---|---|---|
-| 87 | 11-12T02:26 | UTA at VGK | 3.5 | betrivers, lowvig | 1.36% | $2499.99 | $33.98 | open |  |
-| 86 | 11-12T02:16 | UTA at VGK | 13.5 | betrivers, fanduel | 0.89% | $2499.99 | $22.11 | open |  |
+| 87 | 11-12T02:26 | UTA at VGK | 3.5 | betrivers, lowvig | 1.36% | $2499.99 | $33.98 | settled | $+33.98 |
+| 86 | 11-12T02:16 | UTA at VGK | 13.5 | betrivers, fanduel | 0.89% | $2499.99 | $22.11 | settled | $+22.11 |
 | 85 | 11-11T01:01 | MIA at UTA | 58.4 | mybookieag | 4.63% | $83.14 | $3.84 | settled | $+3.86 |
 | 84 | 11-11T00:00 | MIL at NYK | 29.9 | no | 0.70% | $4.97 | $0.03 | settled | $+0.03 |
 | 83 | 11-10T23:59 | MIL at NYK | 30.9 | no | 0.70% | $4.97 | $0.03 | settled | $+0.03 |
