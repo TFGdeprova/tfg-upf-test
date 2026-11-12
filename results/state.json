@@ -21,8 +21,8 @@
   "BK:betfair_ex_eu": 453.07,
   "BK:betonlineag": -1867.0468,
   "BK:skybet": -375.10999999999996,
-  "BK:betrivers": 1038.9300999999998,
-  "BK:lowvig": -198.60000000000002,
+  "BK:betrivers": -368.8299000000002,
+  "BK:lowvig": -1290.83,
   "BK:mybookieag": -3083.8525000000004,
   "BK:betmgm": 5041.888,
   "BK:betanysports": -2144.9284000000007,
@@ -119,11 +119,67 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 87,
+   "time": "2026-11-12T02:26:32Z",
+   "game": "nhl:26NOV11UTAVGK",
+   "title": "UTA at VGK",
+   "league": "nhl",
+   "kickoff": "2026-11-12T02:30:00Z",
+   "min_to_ko": 3.5,
+   "t_lp": 0.013592,
+   "with_books": true,
+   "books": [
+    "betrivers",
+    "lowvig"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "81ee484309522975fbb4df2f859fa136",
+    "sport": "icehockey_nhl",
+    "home": "Vegas Golden Knights",
+    "away": "Utah Mammoth"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2533.968,
+   "guaranteed_profit": 33.978,
+   "legs": [
+    {
+     "venue": "BK:lowvig",
+     "book": "lowvig",
+     "market": "h2h",
+     "outcome": "Utah Mammoth",
+     "side": "away",
+     "point": null,
+     "odds": 2.32,
+     "eff": 2.32,
+     "three_way": false,
+     "stake": 1092.23,
+     "cost": 1092.23,
+     "label": "h2h Utah Mammoth  @2.32"
+    },
+    {
+     "venue": "BK:betrivers",
+     "book": "betrivers",
+     "market": "h2h",
+     "outcome": "Vegas Golden Knights",
+     "side": "home",
+     "point": null,
+     "odds": 1.8,
+     "eff": 1.8,
+     "three_way": false,
+     "stake": 1407.76,
+     "cost": 1407.76,
+     "label": "h2h Vegas Golden Knights  @1.8"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {},
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 86,
+ "n_trades": 87,
  "n_settled": 85,
  "realized_pnl": 1655.0915600000073,
  "runs": 24,
@@ -149,8 +205,8 @@
   "BK:betfair_ex_eu": 0.0,
   "BK:betonlineag": 4.547473508864641e-13,
   "BK:skybet": 0.0,
-  "BK:betrivers": 840.7,
-  "BK:lowvig": 0.0,
+  "BK:betrivers": 2248.46,
+  "BK:lowvig": 1092.23,
   "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
   "BK:betanysports": 2.2737367544323206e-13,
@@ -181,8 +237,8 @@
   "BK:betfair_ex_eu": 126.93,
   "BK:betonlineag": 4590.49,
   "BK:skybet": 567.67,
-  "BK:betrivers": 2044.07,
-  "BK:lowvig": 778.6,
+  "BK:betrivers": 2248.46,
+  "BK:lowvig": 1092.23,
   "BK:mybookieag": 4422.6,
   "BK:betmgm": 5577.36,
   "BK:betanysports": 4190.72,
@@ -214,7 +270,7 @@
   "BK:betonlineag": -4391.482,
   "BK:skybet": -375.10999999999996,
   "BK:betrivers": -1141.39,
-  "BK:lowvig": -198.60000000000002,
+  "BK:lowvig": -1290.83,
   "BK:mybookieag": -5553.85,
   "BK:betmgm": -4997.36,
   "BK:betanysports": -3610.7200000000003,
@@ -232,11 +288,11 @@
  "peak_total_locked": 60263.5595,
  "odds": {
   "remaining": {
-   "1": 123,
-   "2": 122,
-   "3": 123,
-   "4": 120,
-   "5": 122
+   "1": 120,
+   "2": 119,
+   "3": 120,
+   "4": 117,
+   "5": 119
   },
   "spent": {
    "2026-11-06": 27,
@@ -245,7 +301,7 @@
    "2026-11-09": 65,
    "2026-11-10": 90,
    "2026-11-11": 134,
-   "2026-11-12": 66
+   "2026-11-12": 81
   }
  },
  "book_slots": {
@@ -367,6 +423,10 @@
   "nhl|2026-11-12T02:30|30": "2026-11-12T02:00:16Z",
   "nhl|2026-11-12T03:00|60": "2026-11-12T02:00:16Z",
   "nba|2026-11-12T02:30|15": "2026-11-12T02:15:16Z",
-  "nhl|2026-11-12T02:30|15": "2026-11-12T02:15:16Z"
+  "nhl|2026-11-12T02:30|15": "2026-11-12T02:15:16Z",
+  "nba|2026-11-12T02:30|5": "2026-11-12T02:25:16Z",
+  "nhl|2026-11-12T02:30|5": "2026-11-12T02:25:16Z",
+  "nba|2026-11-12T03:00|30": "2026-11-12T02:30:16Z",
+  "nhl|2026-11-12T03:00|30": "2026-11-12T02:30:16Z"
  }
 }

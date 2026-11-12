@@ -865,3 +865,9 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-12T02:15:20Z,nba:26NOV11GSWHOU,GSW at HOU,nba,14.7,scheduled,10,0.001596,0.001596,no gap,,,
 2026-11-12T02:15:20Z,nhl:26NOV11UTAVGK,UTA at VGK,nhl,14.7,scheduled,6,-0.015872,0.00885,seen,,nhl:26NOV11UTAVGK|2026-11-12T02:15:18Z|with_books,fanduel spreads Utah Mammoth 1.5 @1.52 x0.664 | betrivers spreads Vegas Golden Knights -1.5 @3.0 x0.336
 2026-11-12T02:16:29Z,nhl:26NOV11UTAVGK,UTA at VGK,nhl,13.5,confirmation,6,-0.015872,0.00885,executed,,,fanduel spreads Utah Mammoth 1.5 @1.52 x0.664 | betrivers spreads Vegas Golden Knights -1.5 @3.0 x0.336
+2026-11-12T02:25:20Z,nba:26NOV11GSWHOU,GSW at HOU,nba,4.7,scheduled,10,-0.007751,-0.005143,no gap,,,
+2026-11-12T02:25:20Z,nhl:26NOV11UTAVGK,UTA at VGK,nhl,4.7,scheduled,6,-0.010703,0.00885,seen,,nhl:26NOV11UTAVGK|2026-11-12T02:25:18Z|with_books,fanduel spreads Utah Mammoth 1.5 @1.52 x0.664 | betrivers spreads Vegas Golden Knights -1.5 @3.0 x0.336
+2026-11-12T02:26:32Z,nhl:26NOV11UTAVGK,UTA at VGK,nhl,3.5,confirmation,6,-0.010703,0.013592,executed,,,lowvig h2h Utah Mammoth  @2.32 x0.437 | betrivers h2h Vegas Golden Knights  @1.8 x0.563
+2026-11-12T02:30:20Z,nba:26NOV11OKCPOR,OKC at POR,nba,29.7,scheduled,8,-0.003549,-0.003549,no gap,,,
+2026-11-12T02:30:20Z,nhl:26NOV11NSHANA,NSH at ANA,nhl,29.7,scheduled,8,-0.01126,-0.01126,no gap,,,
+2026-11-12T02:30:20Z,nhl:26NOV11PITSJ,PIT at SJ,nhl,29.7,scheduled,8,-0.012282,-0.012282,no gap,,,
