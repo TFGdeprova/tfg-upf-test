@@ -775,12 +775,22 @@ def follow_summary():
                      f"{sum(r['above_threshold'] == 'True' for r in ok)} | {sum(r['status'] == 'leg_not_quoted' for r in rows)} | "
                      f"{sum(r['status'].startswith('censored') for r in rows)} |")
     med = lambda v: sorted(v)[len(v) // 2] if v else None
-    caps = [float(r["capacity"]) for r in det if r["capacity"] not in ("", None)]
-    bp = [float(r["best_profit"]) for r in det if r["best_profit"] not in ("", None)]
-    if caps:
-        lines += ["", f"Depth at detection ({len(caps)} gaps with full order books): median capacity (largest size still "
-                  f"profitable after walking the order books) ${med(caps):,.0f}; median largest guaranteed profit "
-                  f"${med(bp):,.2f}. Details: `results/rechecks.csv`, `results/depth.csv`."]
+    num = lambda rows, k: [float(r[k]) for r in rows if r[k] not in ("", None)]
+    out = []
+    for kind, label in (("pm_ks", "Polymarket/Kalshi gaps"), ("with_books", "Gaps with bookmakers")):
+        sub = [r for r in det if r["kind"] == kind]
+        caps, bp, p50 = num(sub, "capacity"), num(sub, "best_profit"), num(sub, "profit_50")
+        if not caps: continue
+        txt = (f"- {label} ({len(caps)}): median capacity ${med(caps):,.0f} (maximum ${max(caps):,.0f}); still profitable "
+               f"with a $50 stake: {sum(v > 0 for v in p50)} of {len(p50)}; median largest guaranteed profit ${med(bp):,.2f}.")
+        if kind == "with_books":
+            txt += (f" Bookmakers publish no order-book depth, so only the Polymarket/Kalshi legs limit these sizes and the "
+                    f"capacity stops at the search limit of ${dp.GRID[-1]:,.0f}; the bot's bets with bookmakers are capped at "
+                    f"${CAP_BOOK_TRADE:,.0f}.")
+        out.append(txt)
+    if out:
+        lines += ["", "Depth at detection (capacity = largest size still profitable after walking the order books):", ""] + out + [
+                  "", "Details: `results/rechecks.csv`, `results/depth.csv`."]
     return lines + [""]
 
 
