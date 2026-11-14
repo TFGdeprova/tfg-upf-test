@@ -1,7 +1,7 @@
 {
  "run": 36,
  "run_started": "2026-11-14T13:30:52Z",
- "last_update": "2026-11-14T13:31:01Z",
+ "last_update": "2026-11-14T13:41:13Z",
  "code_version": "ff6cf675cf16",
  "private_raw_storage": true,
  "odds_api_keys": {
@@ -54,7 +54,7 @@
   "ODDS_API_KEY_7": 500
  },
  "odds_credits_spent_today": 0,
- "odds_credits_days_left_at_current_pace": 37.6,
+ "odds_credits_days_left_at_current_pace": 37.7,
  "bookmaker_accounts_opened": 28,
  "transfers_in_transit": 0,
  "games_tracked": 0,
@@ -62,7 +62,7 @@
  "checks": 0,
  "errors": 0,
  "raw_snapshots": 0,
- "results_pushes": 0,
+ "results_pushes": 1,
  "raw_pushes": 0,
  "book_calls": 0,
  "book_games": 0,
@@ -75,5 +75,5 @@
  "discover_errors": 0,
  "last_discover_error": null,
  "odds_credits_usable": 1438,
- "odds_days_left": 37.6
+ "odds_days_left": 37.7
 }
