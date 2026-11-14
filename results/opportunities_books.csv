@@ -915,3 +915,7 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-14T22:00:16Z,nhl:26NOV14BUFDAL,BUF at DAL,nhl,179.7,scheduled,8,-0.018462,-0.018462,no gap,,,
 2026-11-14T22:30:17Z,nba:26NOV14DALCLE,DAL at CLE,nba,119.7,scheduled,12,-0.002282,0.005343,seen,3.98,nba:26NOV14DALCLE|2026-11-14T22:30:17Z|with_books,PM NO 0.490 x0.253 Spread: Mavericks (-5.5) | KS NO 0.800 x0.408 Dallas wins by 1-5 points | fanduel h2h Dallas Mavericks  @1.48 x0.340
 2026-11-14T22:31:45Z,nba:26NOV14DALCLE,DAL at CLE,nba,118.2,confirmation,12,-0.002282,0.005343,below_min_size,3.98,,PM NO 0.490 x0.253 Spread: Mavericks (-5.5) | KS NO 0.800 x0.408 Dallas wins by 1-5 points | fanduel h2h Dallas Mavericks  @1.48 x0.340
+2026-11-14T23:00:21Z,nba:26NOV14DENNOP,DEN at NOP,nba,59.6,scheduled,12,-0.015625,-0.010503,no gap,,,
+2026-11-14T23:00:25Z,nba:26NOV14DETMIA,DET at MIA,nba,119.6,scheduled,16,-0.015761,-0.012122,no gap,,,
+2026-11-14T23:00:29Z,nba:26NOV14BKNMEM,BKN at MEM,nba,119.5,scheduled,12,-0.005668,-0.005668,no gap,,,
+2026-11-14T23:00:30Z,nba:26NOV14CHIMIN,CHI at MIN,nba,119.5,scheduled,16,-0.006138,0.001521,no gap,,nba:26NOV14CHIMIN|2026-11-14T23:00:30Z|with_books,
