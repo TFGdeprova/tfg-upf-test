@@ -1,5 +1,5 @@
 """HTTP helpers, time helpers and the arbitrage linear program shared by the bot."""
-import json, time, datetime as dt, urllib.request, urllib.parse, urllib.error
+import json, gzip, time, datetime as dt, urllib.request, urllib.parse, urllib.error
 import numpy as np
 from scipy.optimize import linprog
 
@@ -8,14 +8,23 @@ KS = "https://api.elections.kalshi.com/trade-api/v2"
 GAMMA = "https://gamma-api.polymarket.com"
 CLOB = "https://clob.polymarket.com"
 KS_FEE = 0.07                      # Kalshi taker fee: ceil(0.07 * C * P * (1 - P)) cents per order
+GZ = {**UA, "Accept-Encoding": "gzip"}   # Polymarket serves /events pages above 50 items only gzip-compressed (HTTP 406
+                                         # "gzip_required" otherwise, since 12 Nov 2026)
+
+
+def read_json(r):
+    """Body of an HTTP response as JSON, decompressing it when the server sent it gzip-compressed."""
+    data = r.read()
+    if (r.headers.get("Content-Encoding") or "").lower() == "gzip" or data[:2] == b"\x1f\x8b": data = gzip.decompress(data)
+    return json.loads(data)
 
 
 def get(url, params=None, retries=3, timeout=30):
     if params: url += ("&" if "?" in url else "?") + urllib.parse.urlencode(params, doseq=True)
     for i in range(retries):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
-                return json.loads(r.read())
+            with urllib.request.urlopen(urllib.request.Request(url, headers=GZ), timeout=timeout) as r:
+                return read_json(r)
         except urllib.error.HTTPError as e:
             if e.code in (429, 500, 502, 503, 504) and i < retries - 1: time.sleep(2 ** (i + 1)); continue
             raise
@@ -28,9 +37,9 @@ def post(url, body, retries=3, timeout=30):
     data = json.dumps(body).encode()
     for i in range(retries):
         try:
-            req = urllib.request.Request(url, data=data, headers={**UA, "Content-Type": "application/json"})
+            req = urllib.request.Request(url, data=data, headers={**GZ, "Content-Type": "application/json"})
             with urllib.request.urlopen(req, timeout=timeout) as r:
-                return json.loads(r.read())
+                return read_json(r)
         except Exception:
             if i < retries - 1: time.sleep(2 ** (i + 1)); continue
             raise

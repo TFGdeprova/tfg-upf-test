@@ -45,7 +45,8 @@ US = ("nba", "nfl", "nhl")
 GRIDS = {}
 LOCK = threading.Lock()                  # games are checked in parallel threads: file appends must not interleave
 STATUS = {"checks": 0, "errors": 0, "raw_snapshots": 0, "results_pushes": 0, "raw_pushes": 0, "book_calls": 0, "book_games": 0,
-          "book_confirm_calls": 0, "score_calls": 0, "watches": 0, "rechecks": 0, "depth_rows": 0, "ks_depth_calls": 0}
+          "book_confirm_calls": 0, "score_calls": 0, "watches": 0, "rechecks": 0, "depth_rows": 0, "ks_depth_calls": 0,
+          "discover_errors": 0, "last_discover_error": None}
 CONFIRM = {}                             # league -> time after which a confirmation snapshot is taken
 ODDS_KEYS = {i: os.environ.get(f"ODDS_API_KEY_{i}", "").strip() for i in range(1, 11)}  # GitHub secrets; never logged
 
@@ -170,7 +171,10 @@ def discover(games):
     for lg in (*US, *markets_fb.LEAGUES):
         mod = markets_us if lg in US else markets_fb
         try: found = mod.discover(lg, WINDOW_H + 0.5)
-        except Exception as e: log("discover error", lg, e); continue
+        except Exception as e:
+            log("discover error", lg, e)
+            with LOCK: STATUS["errors"] += 1; STATUS["discover_errors"] += 1; STATUS["last_discover_error"] = f"{iso(now())} {lg}: {e}"
+            continue
         for m in found:
             if m["id"] not in games: games[m["id"]] = Game(m); log("new game", m["id"], m["title"], m["kickoff"])
             else: games[m["id"]].m["kickoff"] = m["kickoff"]
