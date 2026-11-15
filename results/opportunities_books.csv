@@ -1045,3 +1045,4 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-15T18:30:34Z,nba:26NOV15CHALAC,CHA at LAC,nba,179.4,scheduled,16,-0.016912,-0.012506,no gap,,,
 2026-11-15T19:00:35Z,nba:26NOV15LALPHX,LAL at PHX,nba,119.4,scheduled,14,-0.017363,-0.010878,no gap,,,
 2026-11-15T19:00:35Z,nba:26NOV15SASUTA,SAS at UTA,nba,179.4,scheduled,14,-0.006723,-0.006723,no gap,,,
+2026-11-15T19:05:35Z,nfl:26NOV15SEALV,SEA at LV,nfl,119.4,scheduled,8,-0.002804,0.001763,no gap,,nfl:26NOV15SEALV|2026-11-15T19:05:34Z|with_books,
