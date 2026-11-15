@@ -948,3 +948,12 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-14T23:55:20Z,nhl:26NOV14COLMTL,COL at MTL,nhl,4.7,scheduled,6,-0.013232,-0.004602,no gap,,,
 2026-11-14T23:55:22Z,nhl:26NOV14MINBOS,MIN at BOS,nhl,4.6,scheduled,10,-0.01708,-0.015682,no gap,,,
 2026-11-14T23:56:48Z,nhl:26NOV14DETTB,DET at TB,nhl,3.2,confirmation,8,-0.014511,0.003439,executed,,,betrivers h2h Detroit Red Wings  @2.88 x0.348 | lowvig h2h Tampa Bay Lightning  @1.54 x0.652
+2026-11-15T00:00:25Z,nba:26NOV14DALCLE,DAL at CLE,nba,29.6,scheduled,10,-0.007176,-0.007176,no gap,,,
+2026-11-15T00:00:25Z,nba:26NOV14DETMIA,DET at MIA,nba,59.6,scheduled,14,-0.014839,-0.014839,no gap,,,
+2026-11-15T00:00:25Z,nba:26NOV14BKNMEM,BKN at MEM,nba,59.6,scheduled,12,-0.005668,-0.005668,no gap,,,
+2026-11-15T00:00:25Z,nba:26NOV14CHIMIN,CHI at MIN,nba,59.6,scheduled,14,-0.006517,-0.002736,no gap,,,
+2026-11-15T00:00:25Z,nhl:26NOV14BUFDAL,BUF at DAL,nhl,59.6,scheduled,8,-0.019379,-0.016455,no gap,,,
+2026-11-15T00:00:25Z,nhl:26NOV14SJUTA,SJ at UTA,nhl,119.6,scheduled,8,-0.019043,-0.019043,no gap,,,
+2026-11-15T00:00:25Z,nhl:26NOV14NYIANA,NYI at ANA,nhl,179.6,scheduled,10,-0.009208,-0.009208,no gap,,,
+2026-11-15T00:00:25Z,nhl:26NOV14CGYLA,CGY at LA,nhl,179.6,scheduled,6,-0.021277,-0.015228,no gap,,,
+2026-11-15T00:15:23Z,nba:26NOV14DALCLE,DAL at CLE,nba,14.6,scheduled,10,-0.014511,-0.006651,no gap,,,
