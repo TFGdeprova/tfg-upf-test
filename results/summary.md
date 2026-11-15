@@ -1,27 +1,27 @@
-# Paper-trading bot: status at 2026-11-15T02:53:26Z
+# Paper-trading bot: status at 2026-11-15T03:13:32Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 88 / 87 |
-| Realised profit | $1,711.18 ≈ €1,475.15 |
+| Trades executed / settled | 88 / 88 |
+| Realised profit | $1,719.78 ≈ €1,482.57 |
 | … Polymarket/Kalshi only | $4.11 |
-| … with bookmakers (all) | $1,707.07 |
+| … with bookmakers (all) | $1,715.68 |
 | … with bookmakers licensed in Spain only | $0.00 |
-| Open positions (cost) | $2,499.99 |
+| Open positions (cost) | $0.00 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $29,551.18 ≈ €25,475.16 |
-| Return so far (realised / peak money in use) | 2.839% over 8.2 days |
+| Equity (cash + open at cost + in transit) | $29,559.79 ≈ €25,482.58 |
+| Return so far (realised / peak money in use) | 2.854% over 8.2 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 328, executed 12, rounding 43, seen 420, vanished 35.
-Gaps using bookmakers: below_min_size 2, executed 76, no_cash 41, rounding 2, seen 141, vanished 20 (snapshots combined with Polymarket/Kalshi: 983).
+Gaps using bookmakers: below_min_size 2, executed 76, no_cash 41, rounding 2, seen 141, vanished 20 (snapshots combined with Polymarket/Kalshi: 985).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 1,309 (about 21.5 days at the current pace).
+The Odds API credits left: 1,304 (about 20.8 days at the current pace).
 
 ## Capital by account
 
@@ -37,7 +37,7 @@ Peak in use = the most money that was tied up in open positions at the same time
 | betfred_uk | $580.00 | $-768.02 | $0.00 | $1,348.02 | $-768.02 |
 | betmgm | $580.00 | $5,041.89 | $0.00 | $5,577.36 | $-4,997.36 |
 | betonlineag | $580.00 | $-1,867.05 | $0.00 | $4,590.49 | $-4,391.48 |
-| betrivers | $580.00 | $3,816.20 | $871.04 | $2,248.46 | $-1,141.39 |
+| betrivers | $580.00 | $6,324.79 | $0.00 | $2,248.46 | $-1,141.39 |
 | betsson | $580.00 | $2,119.70 | $0.00 | $986.99 | $-406.99 |
 | boylesports | $580.00 | $1,315.03 | $0.00 | $1,813.51 | $-1,233.51 |
 | codere_it | $580.00 | $1,797.50 | $0.00 | $1,295.21 | $-715.21 |
@@ -47,7 +47,7 @@ Peak in use = the most money that was tied up in open positions at the same time
 | grosvenor | $580.00 | $580.00 | $0.00 | $292.30 | $287.70 |
 | gtbets | $580.00 | $5,009.94 | $0.00 | $6,720.04 | $-7,633.02 |
 | leovegas_se | $580.00 | $5,327.11 | $0.00 | $2,971.13 | $-1,181.83 |
-| lowvig | $580.00 | $-2,919.78 | $1,628.95 | $1,628.95 | $-2,919.78 |
+| lowvig | $580.00 | $-2,919.78 | $0.00 | $1,628.95 | $-2,919.78 |
 | marathonbet (Spain) | $580.00 | $2,060.64 | $0.00 | $2,789.53 | $-1,673.21 |
 | matchbook | $580.00 | $5,371.57 | $0.00 | $4,155.10 | $-3,925.78 |
 | mybookieag | $580.00 | $-3,083.85 | $0.00 | $4,422.60 | $-5,553.85 |
@@ -88,7 +88,7 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 
 | # | time (UTC) | game | min to KO | with bookmakers | gap | cost | guaranteed profit | status | P&L |
 |---|---|---|---|---|---|---|---|---|---|
-| 88 | 11-14T23:56 | DET at TB | 3.2 | betrivers, lowvig | 0.34% | $2499.99 | $8.59 | open |  |
+| 88 | 11-14T23:56 | DET at TB | 3.2 | betrivers, lowvig | 0.34% | $2499.99 | $8.59 | settled | $+8.61 |
 | 87 | 11-12T02:26 | UTA at VGK | 3.5 | betrivers, lowvig | 1.36% | $2499.99 | $33.98 | settled | $+33.98 |
 | 86 | 11-12T02:16 | UTA at VGK | 13.5 | betrivers, fanduel | 0.89% | $2499.99 | $22.11 | settled | $+22.11 |
 | 85 | 11-11T01:01 | MIA at UTA | 58.4 | mybookieag | 4.63% | $83.14 | $3.84 | settled | $+3.86 |
