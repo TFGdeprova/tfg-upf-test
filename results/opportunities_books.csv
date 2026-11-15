@@ -957,3 +957,8 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-15T00:00:25Z,nhl:26NOV14NYIANA,NYI at ANA,nhl,179.6,scheduled,10,-0.009208,-0.009208,no gap,,,
 2026-11-15T00:00:25Z,nhl:26NOV14CGYLA,CGY at LA,nhl,179.6,scheduled,6,-0.021277,-0.015228,no gap,,,
 2026-11-15T00:15:23Z,nba:26NOV14DALCLE,DAL at CLE,nba,14.6,scheduled,10,-0.014511,-0.006651,no gap,,,
+2026-11-15T00:25:25Z,nba:26NOV14DALCLE,DAL at CLE,nba,4.6,scheduled,12,-0.008755,-0.006651,no gap,,,
+2026-11-15T00:30:23Z,nba:26NOV14DETMIA,DET at MIA,nba,29.6,scheduled,10,-0.015761,-0.013101,no gap,,,
+2026-11-15T00:30:23Z,nba:26NOV14BKNMEM,BKN at MEM,nba,29.6,scheduled,12,-0.014511,-0.01239,no gap,,,
+2026-11-15T00:30:25Z,nba:26NOV14CHIMIN,CHI at MIN,nba,29.6,scheduled,12,-0.006517,-0.002736,no gap,,,
+2026-11-15T00:30:25Z,nhl:26NOV14BUFDAL,BUF at DAL,nhl,29.6,scheduled,8,-0.019379,-0.019379,no gap,,,
