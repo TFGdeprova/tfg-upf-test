@@ -1,4 +1,4 @@
-# Paper-trading bot: status at 2026-11-15T21:23:14Z
+# Paper-trading bot: status at 2026-11-15T21:43:12Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
@@ -12,16 +12,16 @@ Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities):
 | Open positions (cost) | $4,918.47 |
 | Money in transit between accounts | $0.00 |
 | Equity (cash + open at cost + in transit) | $29,559.79 ≈ €25,482.58 |
-| Return so far (realised / peak money in use) | 2.854% over 8.9 days |
+| Return so far (realised / peak money in use) | 2.854% over 9.0 days |
 
-Polymarket/Kalshi gaps above the threshold: below_min_size 518, executed 18, rounding 59, seen 646, vanished 46.
-Gaps using bookmakers: below_min_size 2, executed 77, no_cash 41, rounding 2, seen 142, vanished 20 (snapshots combined with Polymarket/Kalshi: 1071).
+Polymarket/Kalshi gaps above the threshold: below_min_size 518, executed 18, rounding 59, seen 646, vanished 47.
+Gaps using bookmakers: below_min_size 2, executed 77, no_cash 41, rounding 2, seen 142, vanished 20 (snapshots combined with Polymarket/Kalshi: 1074).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 1,181 (about 13.3 days at the current pace).
+The Odds API credits left: 1,172 (about 12.8 days at the current pace).
 
 ## Capital by account
 
@@ -73,7 +73,7 @@ Gaps above 0.1% followed: 102 Polymarket/Kalshi and 164 with bookmakers. A re-ch
 | +30 s | 102 | 79 | 61 | 0 | 0 |
 | +1 min | 101 | 73 | 55 | 0 | 1 |
 | +2 min | 101 | 60 | 42 | 0 | 1 |
-| +5 min | 96 | 46 | 34 | 0 | 5 |
+| +5 min | 97 | 46 | 34 | 0 | 5 |
 | bookmaker confirmation (~1 min) | 285 | 113 | 108 | 5 | 0 |
 | next bookmaker snapshot | 270 | 25 | 19 | 8 | 0 |
 
