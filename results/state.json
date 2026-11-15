@@ -1,7 +1,7 @@
 {
  "cash": {
-  "PM": 2382.665600000003,
-  "KS": 5320.729999999999,
+  "PM": 2447.805600000003,
+  "KS": 5352.729999999999,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -1761.9399999999991,
   "BK:onexbet": 96.36400000000162,
@@ -64,164 +64,6 @@
   "BK:fanduel": 580.0
  },
  "open": [
-  {
-   "trade_id": 89,
-   "time": "2026-11-15T16:50:11Z",
-   "game": "nfl:26NOV15CARNO",
-   "title": "CAR at NO",
-   "league": "nfl",
-   "kickoff": "2026-11-15T18:00:00Z",
-   "min_to_ko": 69.8,
-   "t_lp": 0.003695,
-   "cost": 31.9039,
-   "guaranteed_payout": 32.0,
-   "guaranteed_profit": 0.0961,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x8c5a5da876253cdcc4abe1d4b1f7b3249bf49befc3d349076c0ac95584756ee2",
-     "label": "Spread: Panthers (-14.5)",
-     "side": "YES",
-     "price": 0.11,
-     "shares": 32.0,
-     "fee": 0.09398,
-     "cost": 3.614
-    },
-    {
-     "venue": "PM",
-     "id": "0xc7db52dccbf7f07ec89a8380323d87a7dc996baac7b916fddfe838016a2eaeeb",
-     "label": "Panthers vs. Saints",
-     "side": "NO",
-     "price": 0.49,
-     "shares": 32.0,
-     "fee": 0.2399,
-     "cost": 15.9199
-    },
-    {
-     "venue": "KS",
-     "id": "KXNFLTIE-26NOV15CARNO-Y",
-     "label": "Game to end in a tie",
-     "side": "YES",
-     "price": 0.01,
-     "shares": 16,
-     "fee": 0.02,
-     "cost": 0.18
-    },
-    {
-     "venue": "KS",
-     "id": "KXNFLWINMARGIN-26NOV15CARNO-CAR1TO6",
-     "label": "Carolina by 1 to 6",
-     "side": "YES",
-     "price": 0.21,
-     "shares": 32,
-     "fee": 0.38,
-     "cost": 7.1
-    },
-    {
-     "venue": "KS",
-     "id": "KXNFLWINMARGIN-26NOV15CARNO-CAR7TO14",
-     "label": "Carolina by 7 to 14",
-     "side": "YES",
-     "price": 0.15,
-     "shares": 32,
-     "fee": 0.29,
-     "cost": 5.09
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 90,
-   "time": "2026-11-15T17:17:11Z",
-   "game": "nfl:26NOV15MINGB",
-   "title": "MIN at GB",
-   "league": "nfl",
-   "kickoff": "2026-11-15T18:00:00Z",
-   "min_to_ko": 42.8,
-   "t_lp": 0.00845,
-   "cost": 36.9043,
-   "guaranteed_payout": 37.0,
-   "guaranteed_profit": 0.0957,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x6935c62e16f39764327c119e9f3362690d471053c84fe58296747cf7c077324d",
-     "label": "Spread: Vikings (-14.5)",
-     "side": "YES",
-     "price": 0.06,
-     "shares": 38.0,
-     "fee": 0.0643,
-     "cost": 2.3443
-    },
-    {
-     "venue": "KS",
-     "id": "KXNFLSPREAD-26NOV15MINGB-MIN7",
-     "label": "Minnesota wins by over 6.5 points",
-     "side": "NO",
-     "price": 0.78,
-     "shares": 37,
-     "fee": 0.45,
-     "cost": 29.31
-    },
-    {
-     "venue": "KS",
-     "id": "KXNFLWINMARGIN-26NOV15MINGB-MIN7TO14",
-     "label": "Minnesota by 7 to 14",
-     "side": "YES",
-     "price": 0.13,
-     "shares": 38,
-     "fee": 0.31,
-     "cost": 5.25
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 91,
-   "time": "2026-11-15T17:51:10Z",
-   "game": "nfl:26NOV15MIAIND",
-   "title": "MIA at IND",
-   "league": "nfl",
-   "kickoff": "2026-11-15T18:00:00Z",
-   "min_to_ko": 8.8,
-   "t_lp": 0.005796,
-   "cost": 26.9568,
-   "guaranteed_payout": 27.0,
-   "guaranteed_profit": 0.0432,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x42c6227af6316e17efeb8341ba9d9e90884da7832c8e4e0542e5ec9e5a6c4dec",
-     "label": "Spread: Colts (-14.5)",
-     "side": "YES",
-     "price": 0.2,
-     "shares": 27.14,
-     "fee": 0.13027,
-     "cost": 5.5583
-    },
-    {
-     "venue": "PM",
-     "id": "0xd130f779f5d2f1b853b058dd347872c2a0a42a136e509b4ad41bbe1145b5aefa",
-     "label": "Spread: Colts (-6.5)",
-     "side": "NO",
-     "price": 0.55,
-     "shares": 27.14,
-     "fee": 0.20151,
-     "cost": 15.1285
-    },
-    {
-     "venue": "KS",
-     "id": "KXNFLWINMARGIN-26NOV15MIAIND-IND7TO14",
-     "label": "Indianapolis by 7 to 14",
-     "side": "YES",
-     "price": 0.22,
-     "shares": 27,
-     "fee": 0.33,
-     "cost": 6.27
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 92,
    "time": "2026-11-15T18:07:00Z",
@@ -472,12 +314,12 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 95,
- "n_settled": 88,
- "realized_pnl": 1719.784760000008,
+ "n_settled": 91,
+ "realized_pnl": 1721.159760000008,
  "runs": 42,
  "locked": {
-  "PM": 3236.2594,
-  "KS": 429.08000000000004,
+  "PM": 3193.6944,
+  "KS": 375.88000000000005,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 0.0,
@@ -585,8 +427,8 @@
    "3": 115,
    "4": 114,
    "5": 116,
-   "6": 368,
-   "7": 366
+   "6": 362,
+   "7": 360
   },
   "spent": {
    "2026-11-06": 27,
@@ -597,7 +439,7 @@
    "2026-11-11": 134,
    "2026-11-12": 98,
    "2026-11-14": 78,
-   "2026-11-15": 188
+   "2026-11-15": 200
   }
  },
  "book_slots": {
@@ -704,6 +546,12 @@
   "nfl|2026-11-15T21:25|5": "2026-11-15T21:20:29Z",
   "nba|2026-11-15T21:30|5": "2026-11-15T21:25:29Z",
   "nba|2026-11-15T22:00|30": "2026-11-15T21:30:29Z",
-  "nhl|2026-11-16T00:30|180": "2026-11-15T21:30:29Z"
+  "nhl|2026-11-16T00:30|180": "2026-11-15T21:30:29Z",
+  "nba|2026-11-15T22:00|15": "2026-11-15T21:45:29Z",
+  "nba|2026-11-15T22:00|5": "2026-11-15T21:55:29Z",
+  "nba|2026-11-15T23:00|60": "2026-11-15T22:00:29Z",
+  "nba|2026-11-16T00:00|120": "2026-11-15T22:00:29Z",
+  "nba|2026-11-16T01:00|180": "2026-11-15T22:00:29Z",
+  "nhl|2026-11-16T01:00|180": "2026-11-15T22:00:29Z"
  }
 }
