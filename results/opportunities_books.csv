@@ -1097,3 +1097,6 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-15T23:00:37Z,nhl:26NOV15VANVGK,VAN at VGK,nhl,179.4,scheduled,8,-0.010235,0.004036,seen,804.86,nhl:26NOV15VANVGK|2026-11-15T23:00:36Z|with_books,PM YES 0.460 x0.474 Spread: Golden Knights (-2.5) | betmgm spreads Vancouver Canucks 2.5 @1.91 x0.526
 2026-11-15T23:00:37Z,nhl:26NOV15NSHSJ,NSH at SJ,nhl,179.4,scheduled,6,-0.011921,-0.011921,no gap,,,
 2026-11-15T23:02:08Z,nhl:26NOV15VANVGK,VAN at VGK,nhl,177.9,confirmation,8,-0.010235,0.004036,executed,117.84,,PM YES 0.460 x0.474 Spread: Golden Knights (-2.5) | betmgm spreads Vancouver Canucks 2.5 @1.91 x0.526
+2026-11-15T23:20:22Z,nfl:26NOV15PITCIN,PIT at CIN,nfl,119.6,scheduled,12,-0.009088,-0.009088,no gap,,,
+2026-11-15T23:30:18Z,nba:26NOV15HOUWAS,HOU at WAS,nba,29.7,scheduled,12,-0.016061,-0.012122,no gap,,,
+2026-11-15T23:30:20Z,nhl:26NOV15EDMPHI,EDM at PHI,nhl,59.7,scheduled,10,-0.011921,-0.011921,no gap,,,
