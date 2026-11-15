@@ -1,7 +1,7 @@
 {
  "cash": {
-  "PM": 5599.391100000002,
-  "KS": 5737.44,
+  "PM": 5597.046800000002,
+  "KS": 5702.879999999999,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -1761.9399999999991,
   "BK:onexbet": 96.36400000000162,
@@ -129,6 +129,52 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 90,
+   "time": "2026-11-15T17:17:11Z",
+   "game": "nfl:26NOV15MINGB",
+   "title": "MIN at GB",
+   "league": "nfl",
+   "kickoff": "2026-11-15T18:00:00Z",
+   "min_to_ko": 42.8,
+   "t_lp": 0.00845,
+   "cost": 36.9043,
+   "guaranteed_payout": 37.0,
+   "guaranteed_profit": 0.0957,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x6935c62e16f39764327c119e9f3362690d471053c84fe58296747cf7c077324d",
+     "label": "Spread: Vikings (-14.5)",
+     "side": "YES",
+     "price": 0.06,
+     "shares": 38.0,
+     "fee": 0.0643,
+     "cost": 2.3443
+    },
+    {
+     "venue": "KS",
+     "id": "KXNFLSPREAD-26NOV15MINGB-MIN7",
+     "label": "Minnesota wins by over 6.5 points",
+     "side": "NO",
+     "price": 0.78,
+     "shares": 37,
+     "fee": 0.45,
+     "cost": 29.31
+    },
+    {
+     "venue": "KS",
+     "id": "KXNFLWINMARGIN-26NOV15MINGB-MIN7TO14",
+     "label": "Minnesota by 7 to 14",
+     "side": "YES",
+     "price": 0.13,
+     "shares": 38,
+     "fee": 0.31,
+     "cost": 5.25
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -151,16 +197,28 @@
   "KS|KXNFLWINMARGIN-26NOV15CARNO-CAR7TO14|YES|0.1500": {
    "n": 32.0,
    "t": "2026-11-15T16:50:11Z"
+  },
+  "PM|0x6935c62e16f39764327c119e9f3362690d471053c84fe58296747cf7c077324d|YES|0.0600": {
+   "n": 38.0,
+   "t": "2026-11-15T17:17:11Z"
+  },
+  "KS|KXNFLSPREAD-26NOV15MINGB-MIN7|NO|0.7800": {
+   "n": 37.0,
+   "t": "2026-11-15T17:17:11Z"
+  },
+  "KS|KXNFLWINMARGIN-26NOV15MINGB-MIN7TO14|YES|0.1300": {
+   "n": 38.0,
+   "t": "2026-11-15T17:17:11Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 89,
+ "n_trades": 90,
  "n_settled": 88,
  "realized_pnl": 1719.784760000008,
  "runs": 41,
  "locked": {
-  "PM": 19.5339,
-  "KS": 12.37,
+  "PM": 21.8782,
+  "KS": 46.93,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 0.0,
