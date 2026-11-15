@@ -1,6 +1,6 @@
 {
  "cash": {
-  "PM": 5576.360000000002,
+  "PM": 4329.498200000003,
   "KS": 5696.609999999999,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -1761.9399999999991,
@@ -23,7 +23,7 @@
   "BK:skybet": -375.10999999999996,
   "BK:betrivers": 6324.7933,
   "BK:lowvig": -2919.7799999999997,
-  "BK:mybookieag": -3083.8525000000004,
+  "BK:mybookieag": -4336.9825,
   "BK:betmgm": 5041.888,
   "BK:betanysports": -2144.9284000000007,
   "BK:betsson": 2119.7043999999996,
@@ -221,6 +221,57 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 92,
+   "time": "2026-11-15T18:07:00Z",
+   "game": "nfl:26NOV15SEALV",
+   "title": "SEA at LV",
+   "league": "nfl",
+   "kickoff": "2026-11-15T21:05:00Z",
+   "min_to_ko": 178.0,
+   "t_lp": 0.002509,
+   "with_books": true,
+   "books": [
+    "mybookieag"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "6079a5cbabf99b265a17edfc92a1da60",
+    "sport": "americanfootball_nfl",
+    "home": "Las Vegas Raiders",
+    "away": "Seattle Seahawks"
+   },
+   "cost": 2499.9918,
+   "guaranteed_payout": 2506.26,
+   "guaranteed_profit": 6.2682,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0xd9c0d110fa75a77568407c7390cb8119401992434d22232441c51fccba7fbcf4",
+     "label": "Spread: Seahawks (-6.5)",
+     "side": "YES",
+     "price": 0.49,
+     "shares": 2506.27,
+     "fee": 18.78951,
+     "cost": 1246.8618
+    },
+    {
+     "venue": "BK:mybookieag",
+     "book": "mybookieag",
+     "market": "spreads",
+     "outcome": "Las Vegas Raiders",
+     "side": "home",
+     "point": 6.5,
+     "odds": 2.0,
+     "eff": 2.0,
+     "three_way": false,
+     "stake": 1253.13,
+     "cost": 1253.13,
+     "label": "spreads Las Vegas Raiders 6.5 @2.0"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -267,15 +318,19 @@
   "KS|KXNFLWINMARGIN-26NOV15MIAIND-IND7TO14|YES|0.2200": {
    "n": 27.0,
    "t": "2026-11-15T17:51:10Z"
+  },
+  "PM|0xd9c0d110fa75a77568407c7390cb8119401992434d22232441c51fccba7fbcf4|YES|0.4900": {
+   "n": 2506.27,
+   "t": "2026-11-15T18:07:00Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 91,
+ "n_trades": 92,
  "n_settled": 88,
  "realized_pnl": 1719.784760000008,
  "runs": 42,
  "locked": {
-  "PM": 42.565,
+  "PM": 1289.4268,
   "KS": 53.2,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
@@ -298,7 +353,7 @@
   "BK:skybet": 0.0,
   "BK:betrivers": 0.0,
   "BK:lowvig": 0.0,
-  "BK:mybookieag": 0.0,
+  "BK:mybookieag": 1253.13,
   "BK:betmgm": 0.0,
   "BK:betanysports": 2.2737367544323206e-13,
   "BK:betsson": 0.0,
@@ -307,7 +362,7 @@
   "BK:fanduel": 0.0
  },
  "peak_locked": {
-  "PM": 402.94980000000004,
+  "PM": 1289.4268,
   "KS": 456.7799999999999,
   "BK:smarkets": 4070.2799999999993,
   "BK:pinnacle": 3723.5699999999997,
@@ -339,7 +394,7 @@
   "BK:fanduel": 1659.29
  },
  "min_cash": {
-  "PM": 5227.765100000002,
+  "PM": 4329.498200000003,
   "KS": 5231.9400000000005,
   "BK:smarkets": -8947.57,
   "BK:pinnacle": -6879.0199999999995,
@@ -384,8 +439,8 @@
    "3": 115,
    "4": 114,
    "5": 116,
-   "6": 404,
-   "7": 405
+   "6": 401,
+   "7": 402
   },
   "spent": {
    "2026-11-06": 27,
@@ -396,7 +451,7 @@
    "2026-11-11": 134,
    "2026-11-12": 98,
    "2026-11-14": 78,
-   "2026-11-15": 113
+   "2026-11-15": 119
   }
  },
  "book_slots": {
@@ -472,6 +527,7 @@
   "nfl|2026-11-15T18:00|15": "2026-11-15T17:45:29Z",
   "nba|2026-11-15T18:00|5": "2026-11-15T17:55:29Z",
   "nfl|2026-11-15T18:00|5": "2026-11-15T17:55:29Z",
-  "nba|2026-11-15T21:00|180": "2026-11-15T18:00:29Z"
+  "nba|2026-11-15T21:00|180": "2026-11-15T18:00:29Z",
+  "nfl|2026-11-15T21:05|180": "2026-11-15T18:05:29Z"
  }
 }
