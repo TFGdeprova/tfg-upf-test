@@ -1041,3 +1041,5 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-15T18:00:31Z,nba:26NOV15LALPHX,LAL at PHX,nba,179.5,scheduled,14,-0.008114,-0.008114,no gap,,,
 2026-11-15T18:05:30Z,nfl:26NOV15SEALV,SEA at LV,nfl,179.5,scheduled,8,-0.002804,0.002509,seen,123849.86,nfl:26NOV15SEALV|2026-11-15T18:05:30Z|with_books,PM YES 0.490 x0.499 Spread: Seahawks (-6.5) | mybookieag spreads Las Vegas Raiders 6.5 @2.0 x0.501
 2026-11-15T18:07:00Z,nfl:26NOV15SEALV,SEA at LV,nfl,178.0,confirmation,8,-0.002804,0.002509,executed,123754.1,,PM YES 0.490 x0.499 Spread: Seahawks (-6.5) | mybookieag spreads Las Vegas Raiders 6.5 @2.0 x0.501
+2026-11-15T18:25:32Z,nfl:26NOV15SFDAL,SF at DAL,nfl,179.5,scheduled,12,-0.006606,-0.006606,no gap,,,
+2026-11-15T18:30:34Z,nba:26NOV15CHALAC,CHA at LAC,nba,179.4,scheduled,16,-0.016912,-0.012506,no gap,,,
