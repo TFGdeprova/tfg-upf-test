@@ -1,4 +1,4 @@
-# Paper-trading bot: status at 2026-11-15T16:28:20Z
+# Paper-trading bot: status at 2026-11-15T16:48:19Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
@@ -14,14 +14,14 @@ Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities):
 | Equity (cash + open at cost + in transit) | $29,559.79 ≈ €25,482.58 |
 | Return so far (realised / peak money in use) | 2.854% over 8.7 days |
 
-Polymarket/Kalshi gaps above the threshold: below_min_size 361, executed 12, rounding 57, seen 474, vanished 40.
+Polymarket/Kalshi gaps above the threshold: below_min_size 392, executed 12, rounding 59, seen 507, vanished 41.
 Gaps using bookmakers: below_min_size 2, executed 76, no_cash 41, rounding 2, seen 141, vanished 20 (snapshots combined with Polymarket/Kalshi: 1007).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 1,274 (about 20.9 days at the current pace).
+The Odds API credits left: 1,274 (about 21.0 days at the current pace).
 
 ## Capital by account
 
@@ -72,8 +72,8 @@ Gaps above 0.1% followed: 84 Polymarket/Kalshi and 161 with bookmakers. A re-che
 |---|---|---|---|---|---|
 | +30 s | 84 | 67 | 52 | 0 | 0 |
 | +1 min | 83 | 61 | 46 | 0 | 1 |
-| +2 min | 82 | 49 | 33 | 0 | 1 |
-| +5 min | 79 | 37 | 26 | 0 | 4 |
+| +2 min | 83 | 50 | 34 | 0 | 1 |
+| +5 min | 80 | 38 | 27 | 0 | 4 |
 | bookmaker confirmation (~1 min) | 284 | 112 | 107 | 5 | 0 |
 | next bookmaker snapshot | 258 | 24 | 19 | 8 | 0 |
 
