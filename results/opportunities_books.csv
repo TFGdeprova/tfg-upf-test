@@ -1122,3 +1122,9 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-16T00:55:18Z,nba:26NOV15ATLMIL,ATL at MIL,nba,4.7,scheduled,14,-0.010365,-0.010365,no gap,,,
 2026-11-16T00:55:19Z,nhl:26NOV15CGYANA,CGY at ANA,nhl,4.7,scheduled,6,-0.011921,-0.011921,no gap,,,
 2026-11-16T00:55:19Z,nhl:26NOV15FLADAL,FLA at DAL,nhl,4.7,scheduled,6,-0.011921,-0.007809,no gap,,,
+2026-11-16T01:00:16Z,nba:26NOV15OKCSAC,OKC at SAC,nba,59.7,scheduled,14,-0.001847,-0.001847,no gap,,,
+2026-11-16T01:00:16Z,nhl:26NOV15VANVGK,VAN at VGK,nhl,59.7,scheduled,8,-0.010235,-0.010235,no gap,,,
+2026-11-16T01:00:16Z,nhl:26NOV15NSHSJ,NSH at SJ,nhl,59.7,scheduled,6,-0.011921,-0.011921,no gap,,,
+2026-11-16T01:05:16Z,nfl:26NOV15PITCIN,PIT at CIN,nfl,14.7,scheduled,12,-0.007974,-0.0,no gap,,,
+2026-11-16T01:15:16Z,nfl:26NOV15PITCIN,PIT at CIN,nfl,4.7,scheduled,12,-0.004728,0.005435,seen,18998705.68,nfl:26NOV15PITCIN|2026-11-16T01:15:16Z|with_books,KS YES 0.010 x0.000 Game to end in a tie | betrivers h2h Cincinnati Bengals  @1.5 x0.670 | bovada h2h Pittsburgh Steelers  @3.05 x0.330
+2026-11-16T01:16:46Z,nfl:26NOV15PITCIN,PIT at CIN,nfl,3.2,confirmation,12,0.00487,0.005435,executed,18998705.68,,KS YES 0.010 x0.000 Game to end in a tie | betrivers h2h Cincinnati Bengals  @1.5 x0.670 | bovada h2h Pittsburgh Steelers  @3.05 x0.330
