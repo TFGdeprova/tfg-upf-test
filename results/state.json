@@ -21,7 +21,7 @@
   "BK:betfair_ex_eu": 453.07,
   "BK:betonlineag": -1867.0468,
   "BK:skybet": -375.10999999999996,
-  "BK:betrivers": 4649.0733,
+  "BK:betrivers": 7162.6533,
   "BK:lowvig": -2919.7799999999997,
   "BK:mybookieag": -4336.9825,
   "BK:betmgm": 5098.2534000000005,
@@ -65,74 +65,7 @@
   "BK:fanduel": 580.0,
   "BK:bovada": 580.0
  },
- "open": [
-  {
-   "trade_id": 97,
-   "time": "2026-11-16T01:16:46Z",
-   "game": "nfl:26NOV15PITCIN",
-   "title": "PIT at CIN",
-   "league": "nfl",
-   "kickoff": "2026-11-16T01:20:00Z",
-   "min_to_ko": 3.2,
-   "t_lp": 0.005435,
-   "with_books": true,
-   "books": [
-    "betrivers",
-    "bovada"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "48e497c230e6c9afcb3b600091d28e17",
-    "sport": "americanfootball_nfl",
-    "home": "Cincinnati Bengals",
-    "away": "Pittsburgh Steelers"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2512.84,
-   "guaranteed_profit": 12.86,
-   "legs": [
-    {
-     "venue": "KS",
-     "id": "KXNFLTIE-26NOV15PITCIN-Y",
-     "label": "Game to end in a tie",
-     "side": "YES",
-     "price": 0.01,
-     "shares": 13,
-     "fee": 0.01,
-     "cost": 0.14
-    },
-    {
-     "venue": "BK:betrivers",
-     "book": "betrivers",
-     "market": "h2h",
-     "outcome": "Cincinnati Bengals",
-     "side": "home",
-     "point": null,
-     "odds": 1.5,
-     "eff": 1.5,
-     "three_way": false,
-     "stake": 1675.72,
-     "cost": 1675.72,
-     "label": "h2h Cincinnati Bengals  @1.5"
-    },
-    {
-     "venue": "BK:bovada",
-     "book": "bovada",
-     "market": "h2h",
-     "outcome": "Pittsburgh Steelers",
-     "side": "away",
-     "point": null,
-     "odds": 3.05,
-     "eff": 3.05,
-     "three_way": false,
-     "stake": 824.12,
-     "cost": 824.12,
-     "label": "h2h Pittsburgh Steelers  @3.05"
-    }
-   ],
-   "status": "open"
-  }
- ],
+ "open": [],
  "consumed": {
   "PM|0x42c6227af6316e17efeb8341ba9d9e90884da7832c8e4e0542e5ec9e5a6c4dec|YES|0.2000": {
    "n": 27.14,
@@ -189,12 +122,12 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 97,
- "n_settled": 96,
- "realized_pnl": 1748.524060000008,
+ "n_settled": 97,
+ "realized_pnl": 1762.1240600000078,
  "runs": 44,
  "locked": {
   "PM": 0.0,
-  "KS": 0.14000000000001478,
+  "KS": 1.4765966227514582e-14,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 0.0,
@@ -214,7 +147,7 @@
   "BK:betfair_ex_eu": 0.0,
   "BK:betonlineag": 4.547473508864641e-13,
   "BK:skybet": 0.0,
-  "BK:betrivers": 1675.72,
+  "BK:betrivers": 0.0,
   "BK:lowvig": 0.0,
   "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
@@ -223,7 +156,7 @@
   "BK:codere_it": 0.0,
   "BK:boylesports": 0.0,
   "BK:fanduel": 0.0,
-  "BK:bovada": 824.12
+  "BK:bovada": 0.0
  },
  "peak_locked": {
   "PM": 3249.5910999999996,
@@ -305,7 +238,7 @@
    "3": 115,
    "4": 114,
    "5": 116,
-   "6": 306,
+   "6": 304,
    "7": 304
   },
   "spent": {
@@ -318,7 +251,7 @@
    "2026-11-12": 98,
    "2026-11-14": 78,
    "2026-11-15": 239,
-   "2026-11-16": 73
+   "2026-11-16": 75
   }
  },
  "book_slots": {

@@ -1,18 +1,18 @@
-# Paper-trading bot: status at 2026-11-16T05:17:51Z
+# Paper-trading bot: status at 2026-11-16T05:38:13Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 97 / 96 |
-| Realised profit | $1,748.52 ≈ €1,507.35 |
+| Trades executed / settled | 97 / 97 |
+| Realised profit | $1,762.12 ≈ €1,519.07 |
 | … Polymarket/Kalshi only | $26.10 |
-| … with bookmakers (all) | $1,722.42 |
+| … with bookmakers (all) | $1,736.02 |
 | … with bookmakers licensed in Spain only | $0.00 |
-| Open positions (cost) | $2,499.98 |
+| Open positions (cost) | $0.00 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $30,168.53 ≈ €26,007.35 |
-| Return so far (realised / peak money in use) | 2.901% over 9.3 days |
+| Equity (cash + open at cost + in transit) | $30,182.13 ≈ €26,019.08 |
+| Return so far (realised / peak money in use) | 2.924% over 9.3 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 518, executed 18, rounding 62, seen 651, vanished 48.
 Gaps using bookmakers: below_min_size 2, executed 79, no_cash 41, rounding 2, seen 144, vanished 20 (snapshots combined with Polymarket/Kalshi: 1138).
@@ -21,7 +21,7 @@ Gaps using bookmakers: below_min_size 2, executed 79, no_cash 41, rounding 2, se
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 1,048 (about 6.0 days at the current pace).
+The Odds API credits left: 1,046 (about 6.0 days at the current pace).
 
 ## Capital by account
 
@@ -30,16 +30,16 @@ Peak in use = the most money that was tied up in open positions at the same time
 | account | start | cash now | in open positions | peak in use | lowest cash |
 |---|---|---|---|---|---|
 | Polymarket | $5,800.00 | $6,856.51 | $0.00 | $3,249.59 | $2,382.67 |
-| Kalshi | $5,800.00 | $5,737.59 | $0.14 | $456.78 | $5,231.94 |
+| Kalshi | $5,800.00 | $5,737.59 | $0.00 | $456.78 | $5,231.94 |
 | betanysports | $580.00 | $-2,144.93 | $0.00 | $4,190.72 | $-3,610.72 |
 | betfair_ex_eu (Spain) | $580.00 | $453.07 | $0.00 | $126.93 | $453.07 |
 | betfair_ex_uk (Spain) | $580.00 | $580.00 | $0.00 | $0.00 | $580.00 |
 | betfred_uk | $580.00 | $-768.02 | $0.00 | $1,348.02 | $-768.02 |
 | betmgm | $580.00 | $5,098.25 | $0.00 | $5,577.36 | $-4,997.36 |
 | betonlineag | $580.00 | $-1,867.05 | $0.00 | $4,590.49 | $-4,391.48 |
-| betrivers | $580.00 | $4,649.07 | $1,675.72 | $2,248.46 | $-1,141.39 |
+| betrivers | $580.00 | $7,162.65 | $0.00 | $2,248.46 | $-1,141.39 |
 | betsson | $580.00 | $2,119.70 | $0.00 | $986.99 | $-406.99 |
-| bovada | $580.00 | $-244.12 | $824.12 | $824.12 | $-244.12 |
+| bovada | $580.00 | $-244.12 | $0.00 | $824.12 | $-244.12 |
 | boylesports | $580.00 | $1,315.03 | $0.00 | $1,813.51 | $-1,233.51 |
 | codere_it | $580.00 | $1,797.50 | $0.00 | $1,295.21 | $-715.21 |
 | coolbet | $580.00 | $7,055.77 | $0.00 | $7,199.91 | $-8,022.38 |
@@ -89,7 +89,7 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 
 | # | time (UTC) | game | min to KO | with bookmakers | gap | cost | guaranteed profit | status | P&L |
 |---|---|---|---|---|---|---|---|---|---|
-| 97 | 11-16T01:16 | PIT at CIN | 3.2 | betrivers, bovada | 0.54% | $2499.98 | $12.86 | open |  |
+| 97 | 11-16T01:16 | PIT at CIN | 3.2 | betrivers, bovada | 0.54% | $2499.98 | $12.86 | settled | $+13.60 |
 | 96 | 11-15T23:02 | VAN at VGK | 177.9 | betmgm | 0.40% | $117.84 | $0.47 | settled | $+0.47 |
 | 95 | 11-15T21:17 | DAL at BOS | 102.4 | no | 1.06% | $380.95 | $4.04 | settled | $+4.05 |
 | 94 | 11-15T21:12 | SAS at UTA | 47.4 | no | 0.85% | $1936.85 | $16.15 | settled | $+16.48 |
