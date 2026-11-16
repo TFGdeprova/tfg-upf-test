@@ -66,12 +66,7 @@
   "BK:bovada": 580.0
  },
  "open": [],
- "consumed": {
-  "KS|KXNFLTIE-26NOV15PITCIN-Y|YES|0.0100": {
-   "n": 13.0,
-   "t": "2026-11-16T01:16:46Z"
-  }
- },
+ "consumed": {},
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 97,
  "n_settled": 97,
