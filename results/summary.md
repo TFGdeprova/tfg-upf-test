@@ -1,4 +1,4 @@
-# Paper-trading bot: status at 2026-11-16T16:34:43Z
+# Paper-trading bot: status at 2026-11-16T16:55:04Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
@@ -12,7 +12,7 @@ Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities):
 | Open positions (cost) | $0.00 |
 | Money in transit between accounts | $0.00 |
 | Equity (cash + open at cost + in transit) | $30,182.13 ≈ €26,019.08 |
-| Return so far (realised / peak money in use) | 2.924% over 9.7 days |
+| Return so far (realised / peak money in use) | 2.924% over 9.8 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 518, executed 18, rounding 62, seen 651, vanished 48.
 Gaps using bookmakers: below_min_size 2, executed 79, no_cash 41, rounding 2, seen 144, vanished 20 (snapshots combined with Polymarket/Kalshi: 1138).
