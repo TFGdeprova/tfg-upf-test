@@ -185,26 +185,6 @@
   }
  ],
  "consumed": {
-  "PM|0x8c5a5da876253cdcc4abe1d4b1f7b3249bf49befc3d349076c0ac95584756ee2|YES|0.1100": {
-   "n": 32.0,
-   "t": "2026-11-15T16:50:11Z"
-  },
-  "PM|0xc7db52dccbf7f07ec89a8380323d87a7dc996baac7b916fddfe838016a2eaeeb|NO|0.4900": {
-   "n": 32.0,
-   "t": "2026-11-15T16:50:11Z"
-  },
-  "KS|KXNFLTIE-26NOV15CARNO-Y|YES|0.0100": {
-   "n": 16.0,
-   "t": "2026-11-15T16:50:11Z"
-  },
-  "KS|KXNFLWINMARGIN-26NOV15CARNO-CAR1TO6|YES|0.2100": {
-   "n": 32.0,
-   "t": "2026-11-15T16:50:11Z"
-  },
-  "KS|KXNFLWINMARGIN-26NOV15CARNO-CAR7TO14|YES|0.1500": {
-   "n": 32.0,
-   "t": "2026-11-15T16:50:11Z"
-  },
   "PM|0x6935c62e16f39764327c119e9f3362690d471053c84fe58296747cf7c077324d|YES|0.0600": {
    "n": 38.0,
    "t": "2026-11-15T17:17:11Z"
