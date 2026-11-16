@@ -1,18 +1,18 @@
-# Paper-trading bot: status at 2026-11-16T01:58:54Z
+# Paper-trading bot: status at 2026-11-16T02:19:01Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 97 / 94 |
-| Realised profit | $1,744.00 ≈ €1,503.45 |
-| … Polymarket/Kalshi only | $22.05 |
+| Trades executed / settled | 97 / 95 |
+| Realised profit | $1,748.06 ≈ €1,506.94 |
+| … Polymarket/Kalshi only | $26.10 |
 | … with bookmakers (all) | $1,721.95 |
 | … with bookmakers licensed in Spain only | $0.00 |
-| Open positions (cost) | $2,998.76 |
+| Open positions (cost) | $2,617.82 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $30,164.01 ≈ €26,003.45 |
-| Return so far (realised / peak money in use) | 2.894% over 9.1 days |
+| Equity (cash + open at cost + in transit) | $30,168.06 ≈ €26,006.95 |
+| Return so far (realised / peak money in use) | 2.901% over 9.1 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 518, executed 18, rounding 62, seen 651, vanished 48.
 Gaps using bookmakers: below_min_size 2, executed 79, no_cash 41, rounding 2, seen 144, vanished 20 (snapshots combined with Polymarket/Kalshi: 1138).
@@ -21,7 +21,7 @@ Gaps using bookmakers: below_min_size 2, executed 79, no_cash 41, rounding 2, se
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 1,050 (about 5.6 days at the current pace).
+The Odds API credits left: 1,050 (about 5.7 days at the current pace).
 
 ## Capital by account
 
@@ -29,8 +29,8 @@ Peak in use = the most money that was tied up in open positions at the same time
 
 | account | start | cash now | in open positions | peak in use | lowest cash |
 |---|---|---|---|---|---|
-| Polymarket | $5,800.00 | $6,856.51 | $268.57 | $3,249.59 | $2,382.67 |
-| Kalshi | $5,800.00 | $5,352.59 | $168.41 | $456.78 | $5,231.94 |
+| Polymarket | $5,800.00 | $6,856.51 | $55.90 | $3,249.59 | $2,382.67 |
+| Kalshi | $5,800.00 | $5,737.59 | $0.14 | $456.78 | $5,231.94 |
 | betanysports | $580.00 | $-2,144.93 | $0.00 | $4,190.72 | $-3,610.72 |
 | betfair_ex_eu (Spain) | $580.00 | $453.07 | $0.00 | $126.93 | $453.07 |
 | betfair_ex_uk (Spain) | $580.00 | $580.00 | $0.00 | $0.00 | $580.00 |
@@ -91,7 +91,7 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 |---|---|---|---|---|---|---|---|---|---|
 | 97 | 11-16T01:16 | PIT at CIN | 3.2 | betrivers, bovada | 0.54% | $2499.98 | $12.86 | open |  |
 | 96 | 11-15T23:02 | VAN at VGK | 177.9 | betmgm | 0.40% | $117.84 | $0.47 | open |  |
-| 95 | 11-15T21:17 | DAL at BOS | 102.4 | no | 1.06% | $380.95 | $4.04 | open |  |
+| 95 | 11-15T21:17 | DAL at BOS | 102.4 | no | 1.06% | $380.95 | $4.04 | settled | $+4.05 |
 | 94 | 11-15T21:12 | SAS at UTA | 47.4 | no | 0.85% | $1936.85 | $16.15 | settled | $+16.48 |
 | 93 | 11-15T18:33 | SF at DAL | 171.4 | no | 1.78% | $4.91 | $0.09 | settled | $+0.09 |
 | 92 | 11-15T18:07 | SEA at LV | 178.0 | mybookieag | 0.25% | $2499.99 | $6.27 | settled | $+6.28 |

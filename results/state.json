@@ -1,7 +1,7 @@
 {
  "cash": {
   "PM": 6856.5089000000025,
-  "KS": 5352.589999999998,
+  "KS": 5737.589999999998,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -1761.9399999999991,
   "BK:onexbet": 96.36400000000162,
@@ -66,42 +66,6 @@
   "BK:bovada": 580.0
  },
  "open": [
-  {
-   "trade_id": 95,
-   "time": "2026-11-15T21:17:36Z",
-   "game": "nba:26NOV15DALBOS",
-   "title": "DAL at BOS",
-   "league": "nba",
-   "kickoff": "2026-11-15T23:00:00Z",
-   "min_to_ko": 102.4,
-   "t_lp": 0.01064,
-   "cost": 380.9462,
-   "guaranteed_payout": 384.99,
-   "guaranteed_profit": 4.0438,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x4fb214259cc3e7d28e866ef47023cc4a978ac4e5599ff842f15c0ccba21bbb85",
-     "label": "Spread: Celtics (-16.5)",
-     "side": "NO",
-     "price": 0.54,
-     "shares": 384.99,
-     "fee": 4.78158,
-     "cost": 212.6762
-    },
-    {
-     "venue": "KS",
-     "id": "KXNBASPREAD-26NOV15DALBOS-BOS17",
-     "label": "Boston wins by over 16.5 points",
-     "side": "YES",
-     "price": 0.42,
-     "shares": 385,
-     "fee": 6.57,
-     "cost": 168.27
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 96,
    "time": "2026-11-15T23:02:08Z",
@@ -308,12 +272,12 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 97,
- "n_settled": 94,
- "realized_pnl": 1744.001560000008,
+ "n_settled": 95,
+ "realized_pnl": 1748.055360000008,
  "runs": 43,
  "locked": {
-  "PM": 268.57289999999983,
-  "KS": 168.41000000000003,
+  "PM": 55.89669999999984,
+  "KS": 0.14000000000001478,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 0.0,
