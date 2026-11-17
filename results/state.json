@@ -73,7 +73,7 @@
  "n_trades": 105,
  "n_settled": 105,
  "realized_pnl": 1788.1233600000073,
- "runs": 49,
+ "runs": 50,
  "locked": {
   "PM": 0.0,
   "KS": 1.4210854715202004e-14,
