@@ -1169,3 +1169,13 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-16T23:45:12Z,nba:26NOV16ORLBOS,ORL at BOS,nba,14.8,scheduled,12,-0.012179,-0.012179,no gap,,,
 2026-11-16T23:45:13Z,nba:26NOV16CHICLE,CHI at CLE,nba,14.8,scheduled,6,-0.01339,-0.005994,no gap,,,
 2026-11-16T23:45:16Z,nba:26NOV16MEMWAS,MEM at WAS,nba,14.7,scheduled,12,-0.010365,-0.010365,no gap,,,
+2026-11-16T23:55:17Z,nba:26NOV16ORLBOS,ORL at BOS,nba,4.7,scheduled,14,-0.012179,0.004036,seen,14631.38,nba:26NOV16ORLBOS|2026-11-16T23:55:17Z|with_books,PM YES 0.460 x0.474 Magic vs. Celtics: O/U 214.5 | mybookieag totals Under 214.5 @1.91 x0.526
+2026-11-16T23:55:17Z,nba:26NOV16CHICLE,CHI at CLE,nba,4.7,scheduled,8,-0.008755,-0.008755,no gap,,,
+2026-11-16T23:55:17Z,nba:26NOV16MEMWAS,MEM at WAS,nba,4.7,scheduled,12,-0.010365,-0.005979,no gap,,,
+2026-11-16T23:56:46Z,nba:26NOV16ORLBOS,ORL at BOS,nba,3.2,confirmation,14,-0.012179,0.004036,executed,12639.42,,PM YES 0.460 x0.474 Magic vs. Celtics: O/U 214.5 | mybookieag totals Under 214.5 @1.91 x0.526
+2026-11-17T00:00:22Z,nba:26NOV16PHIBKN,PHI at BKN,nba,29.6,scheduled,12,-0.006723,-0.006723,no gap,,,
+2026-11-17T00:00:22Z,nba:26NOV16HOUMIA,HOU at MIA,nba,29.6,scheduled,12,-0.00348,-0.00348,no gap,,,
+2026-11-17T00:00:22Z,nba:26NOV16PORMIN,POR at MIN,nba,59.6,scheduled,10,-0.014968,-0.014968,no gap,,,
+2026-11-17T00:00:22Z,nba:26NOV16GSWNOP,GSW at NOP,nba,59.6,scheduled,10,-0.012089,-0.010687,no gap,,,
+2026-11-17T00:00:22Z,nhl:26NOV16MTLNYR,MTL at NYR,nhl,29.6,scheduled,10,-0.011921,-0.011921,no gap,,,
+2026-11-17T00:00:23Z,nba:26NOV16PHXDEN,PHX at DEN,nba,119.6,scheduled,14,-0.005668,-0.005668,no gap,,,
