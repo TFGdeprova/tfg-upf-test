@@ -8,7 +8,8 @@ from .grid import predicate
 
 LEAGUES = {"epl": (10188, "EPL"), "lal": (10193, "LALIGA"), "sea": (10203, "SERIEA"), "bun": (10194, "BUNDESLIGA"),
            "fl1": (10195, "LIGUE1"), "ere": (10286, "EREDIVISIE"), "elc": (10355, "EFLCHAMPIONSHIP"),
-           "scop": (10674, "SCOTTISHPREM"), "ucl": (10204, "UCL"), "uel": (10209, "UEL")}
+           "scop": (10674, "SCOTTISHPREM"), "ucl": (10204, "UCL"), "uel": (10209, "UEL"),
+           "unl": (11446, "UEFANL"), "fif": (10238, "INTLFRIENDLY")}        # national teams: Nations League, friendlies
 KS_KINDS = ["GAME", "TOTAL", "SPREAD", "BTTS", "SCORE", "TEAMTOTAL"]
 STOP = {"fc", "afc", "cf", "sc", "ac", "as", "ss", "us", "ssc", "rc", "rcd", "cd", "ud", "sd", "ca", "club", "de", "la", "the",
         "calcio", "vs", "sv", "fsv", "tsg", "vfl", "vfb", "bc", "1", "1899", "1846", "04", "05", "09", "sk", "fk", "bk", "kv"}

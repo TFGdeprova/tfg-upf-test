@@ -17,6 +17,7 @@ from .grid import predicate, asian_total
 SPORTS = {"epl": "soccer_epl", "lal": "soccer_spain_la_liga", "sea": "soccer_italy_serie_a", "bun": "soccer_germany_bundesliga",
           "fl1": "soccer_france_ligue_one", "ere": "soccer_netherlands_eredivisie", "elc": "soccer_efl_champ",
           "scop": "soccer_spl", "ucl": "soccer_uefa_champs_league", "uel": "soccer_uefa_europa_league",
+          "unl": "soccer_uefa_nations_league",                      # The Odds API has no key for international friendlies
           "nba": "basketball_nba", "nfl": "americanfootball_nfl", "nhl": "icehockey_nhl"}
 US = ("nba", "nfl", "nhl")
 COMMISSION = {"betfair_ex_uk": 0.05, "betfair_ex_eu": 0.05, "betfair_ex_au": 0.05, "matchbook": 0.02, "smarkets": 0.02}
