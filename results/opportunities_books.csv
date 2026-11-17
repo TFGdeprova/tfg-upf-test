@@ -1207,3 +1207,13 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-17T02:00:11Z,nhl:26NOV16VANUTA,VAN at UTA,nhl,29.8,scheduled,8,-0.011921,-0.011921,no gap,,,
 2026-11-17T02:15:04Z,nhl:26NOV16VANUTA,VAN at UTA,nhl,14.9,scheduled,8,-0.011921,-0.011921,no gap,,,
 2026-11-17T02:25:04Z,nhl:26NOV16VANUTA,VAN at UTA,nhl,4.9,scheduled,8,-0.011921,-0.011921,no gap,,,
+2026-11-17T18:45:13Z,unl:26NOV17DENNOR,Denmark v Norway,unl,59.8,scheduled,9,-0.004034,-0.000876,no gap,,,
+2026-11-17T18:45:13Z,unl:26NOV17HUNNIR,Hungary v Northern Ireland,unl,59.8,scheduled,7,-0.004316,0.025334,seen,,unl:26NOV17HUNNIR|2026-11-17T18:45:11Z|with_books,betonlineag h2h Hungary  @2.06 x0.498 | unibet_se h2h Northern Ireland  @5.0 x0.205 | unibet_se h2h Draw  @3.45 x0.297
+2026-11-17T18:45:13Z,unl:26NOV17ISRAUT,Israel v Austria,unl,59.8,scheduled,9,-0.000448,-0.000448,no gap,,,
+2026-11-17T18:45:13Z,unl:26NOV17BIHROU,Bosnia and Herzegovina v Romania,unl,59.8,scheduled,9,-0.003465,-0.003132,no gap,,,
+2026-11-17T18:45:13Z,unl:26NOV17POLSWE,Poland v Sweden,unl,59.8,scheduled,11,0.000163,0.00643,seen,5368.51,unl:26NOV17POLSWE|2026-11-17T18:45:11Z|with_books,PM YES 0.390 x0.404 Poland vs. Sweden: O/U 3.5 | onexbet totals Under 3.5 @1.69 x0.596
+2026-11-17T18:45:13Z,unl:26NOV17WALPOR,Wales v Portugal,unl,59.8,scheduled,11,-0.001467,-0.001467,no gap,,,
+2026-11-17T18:45:13Z,unl:26NOV17UKRGEO,Ukraine v Georgia,unl,59.8,scheduled,7,-0.002688,-0.002688,no gap,,,
+2026-11-17T18:45:15Z,unl:26NOV17IRLKOS,Republic of Ireland v Kosovo,unl,59.7,scheduled,7,-0.003388,-0.003388,no gap,,,
+2026-11-17T18:46:45Z,unl:26NOV17HUNNIR,Hungary v Northern Ireland,unl,58.2,confirmation,7,-0.004316,0.025334,executed,,,betonlineag h2h Hungary  @2.06 x0.498 | unibet_se h2h Northern Ireland  @5.0 x0.205 | unibet_se h2h Draw  @3.45 x0.297
+2026-11-17T18:46:45Z,unl:26NOV17POLSWE,Poland v Sweden,unl,58.2,confirmation,11,0.000163,0.00643,executed,5627.84,,PM YES 0.390 x0.404 Poland vs. Sweden: O/U 3.5 | onexbet totals Under 3.5 @1.69 x0.596
