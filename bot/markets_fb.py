@@ -82,11 +82,27 @@ def _side(game, extra=()):
     return resolver({"home": [game["home"], *[x[0] for x in extra]], "away": [game["away"], *[x[1] for x in extra]]})
 
 
+SIBLINGS = ("", "-more-markets", "-exact-score")   # Polymarket lists a match's full-time markets in up to three events
+
+
 def pm_contracts(game):
-    ev = get(f"{GAMMA}/events", {"slug": game["pm_slug"]})
-    if not ev: return []
+    """Full-time contracts of the match from its main event and its "More Markets" and "Exact Score" events (as in the
+    historical study); first- and second-half markets have their own types and are skipped."""
     side = _side(game); out = []
-    for m in ev[0].get("markets", []):
+    for suffix in SIBLINGS:
+        ev = get(f"{GAMMA}/events", {"slug": game["pm_slug"] + suffix})
+        if not ev:
+            if not suffix: return []
+            continue
+        out += _pm_markets(ev[0].get("markets", []), side)
+    return out
+
+
+def _pm_markets(markets, side):
+    out = []
+    listed = [(int(r.group(1)), int(r.group(2))) for m in markets if m.get("sportsMarketType") == "soccer_exact_score"
+              for r in [re.search(r"(\d+)\s*-\s*(\d+)", m.get("groupItemTitle") or "")] if r]
+    for m in markets:
         if not m.get("clobTokenIds") or not m.get("acceptingOrders"): continue
         q, t, g = m.get("question", ""), m.get("sportsMarketType"), m.get("groupItemTitle") or ""
         pred = None
@@ -105,7 +121,8 @@ def pm_contracts(game):
             pred = predicate("team_over", side=s, line=float(r.group(2))) if s else None
         elif t == "soccer_exact_score":
             r = re.search(r"(\d+)\s*-\s*(\d+)", g)
-            pred = predicate("exact", h=int(r.group(1)), a=int(r.group(2))) if r else None
+            if r: pred = predicate("exact", h=int(r.group(1)), a=int(r.group(2)))
+            elif "other" in q.lower() and listed: pred = predicate("exact_other", listed=listed)
         if pred is None: continue
         fs = m.get("feeSchedule") or {}
         out.append({"venue": "PM", "id": m["conditionId"], "token": json.loads(m["clobTokenIds"])[0], "label": q,
