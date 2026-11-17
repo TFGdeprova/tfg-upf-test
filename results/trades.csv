@@ -110,3 +110,4 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 109,2026-11-17T19:31:43Z,unl:26NOV17DENNOR,Denmark v Norway,unl,2026-11-17T19:45:00Z,13.3,0.010482,True,"['betanysports', 'onexbet']",False,2499.68,2525.34,25.66,open,,,,,3
 110,2026-11-17T19:31:43Z,unl:26NOV17ISRAUT,Israel v Austria,unl,2026-11-17T19:45:00Z,13.3,0.007793,True,"['onexbet', 'pinnacle', 'winamax_de']",False,2499.98,2519.45,19.47,open,,,,,3
 111,2026-11-17T19:31:43Z,unl:26NOV17POLSWE,Poland v Sweden,unl,2026-11-17T19:45:00Z,13.3,0.006736,True,['onexbet'],False,2499.9916,2516.83,16.8384,open,,,,,2
+112,2026-11-17T19:41:43Z,unl:26NOV17DENNOR,Denmark v Norway,unl,2026-11-17T19:45:00Z,3.3,0.003586,True,['onexbet'],False,2499.9897,2508.9456,8.9559,open,,,,,2

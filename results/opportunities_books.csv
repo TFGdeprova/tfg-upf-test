@@ -1237,3 +1237,12 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-17T19:31:43Z,unl:26NOV17DENNOR,Denmark v Norway,unl,13.3,confirmation,11,-0.004699,0.010482,executed,40168.51,,KS NO 0.360 x0.192 Over 2.5 goals scored | betanysports totals Over 3.0 @1.98 x0.510 | onexbet totals Under 3.5 @1.68 x0.298
 2026-11-17T19:31:43Z,unl:26NOV17ISRAUT,Israel v Austria,unl,13.3,confirmation,9,-0.003753,0.007793,executed,,,onexbet h2h Austria  @1.88 x0.536 | pinnacle h2h Israel  @4.62 x0.218 | winamax_de h2h Draw  @4.1 x0.246
 2026-11-17T19:31:43Z,unl:26NOV17POLSWE,Poland v Sweden,unl,13.3,confirmation,9,0.000321,0.006736,executed,8402.55,,PM NO 0.520 x0.536 Will Poland win on 2026-11-17? | onexbet h2h Poland  @2.17 x0.464
+2026-11-17T19:40:11Z,unl:26NOV17DENNOR,Denmark v Norway,unl,4.8,scheduled,9,-0.003567,0.006514,seen,,unl:26NOV17DENNOR|2026-11-17T19:40:11Z|with_books,onexbet h2h Denmark  @2.67 x0.377 | matchbook h2h Norway  @2.7 x0.378 | winamax_fr h2h Draw  @4.1 x0.245
+2026-11-17T19:40:11Z,unl:26NOV17HUNNIR,Hungary v Northern Ireland,unl,4.8,scheduled,7,-0.003078,-0.003078,no gap,,,
+2026-11-17T19:40:13Z,unl:26NOV17ISRAUT,Israel v Austria,unl,4.8,scheduled,7,-0.00412,-0.002907,no gap,,,
+2026-11-17T19:40:13Z,unl:26NOV17BIHROU,Bosnia and Herzegovina v Romania,unl,4.8,scheduled,7,-0.003473,-0.003473,no gap,,,
+2026-11-17T19:40:13Z,unl:26NOV17POLSWE,Poland v Sweden,unl,4.8,scheduled,9,-0.001743,-0.001743,no gap,,,
+2026-11-17T19:40:13Z,unl:26NOV17WALPOR,Wales v Portugal,unl,4.8,scheduled,11,-0.002035,-0.001168,no gap,,,
+2026-11-17T19:40:13Z,unl:26NOV17UKRGEO,Ukraine v Georgia,unl,4.8,scheduled,9,-0.002423,-0.002423,no gap,,,
+2026-11-17T19:40:13Z,unl:26NOV17IRLKOS,Republic of Ireland v Kosovo,unl,4.8,scheduled,7,-0.004425,-0.004425,no gap,,,
+2026-11-17T19:41:43Z,unl:26NOV17DENNOR,Denmark v Norway,unl,3.3,confirmation,9,-0.003567,0.003586,executed,304784.04,,PM NO 0.610 x0.624 Will Denmark win on 2026-11-17? | onexbet h2h Denmark  @2.67 x0.376
