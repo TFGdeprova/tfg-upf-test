@@ -1,6 +1,6 @@
 {
  "cash": {
-  "PM": 2369.7283000000007,
+  "PM": 5139.068300000001,
   "KS": 5713.3499999999985,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -1761.9399999999991,
@@ -68,231 +68,6 @@
   "BK:draftkings": 580.0
  },
  "open": [
-  {
-   "trade_id": 98,
-   "time": "2026-11-16T22:26:13Z",
-   "game": "nba:26NOV16MEMWAS",
-   "title": "MEM at WAS",
-   "league": "nba",
-   "kickoff": "2026-11-17T00:00:00Z",
-   "min_to_ko": 93.8,
-   "t_lp": 0.008484,
-   "cost": 6.948,
-   "guaranteed_payout": 6.99,
-   "guaranteed_profit": 0.042,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x0d0b4f58328d34f758512dc17b13fc20aa484725100cca4ea2ce6b8993edd799",
-     "label": "Spread: Grizzlies (-5.5)",
-     "side": "YES",
-     "price": 0.42,
-     "shares": 6.99,
-     "fee": 0.08514,
-     "cost": 3.0209
-    },
-    {
-     "venue": "PM",
-     "id": "0x56fa7601a67e7d36c8a700dc59329d280ac065390582ee0794b6dc42646e9205",
-     "label": "Spread: Wizards (-10.5)",
-     "side": "YES",
-     "price": 0.16,
-     "shares": 7.0,
-     "fee": 0.04704,
-     "cost": 1.167
-    },
-    {
-     "venue": "KS",
-     "id": "KXNBAWINMARGIN-26NOV16MEMWAS-MEM1TO5",
-     "label": "Memphis wins by 1-5 points",
-     "side": "YES",
-     "price": 0.13,
-     "shares": 7,
-     "fee": 0.06,
-     "cost": 0.97
-    },
-    {
-     "venue": "KS",
-     "id": "KXNBAWINMARGIN-26NOV16MEMWAS-WAS1TO5",
-     "label": "Washington wins by 1-5 points",
-     "side": "YES",
-     "price": 0.13,
-     "shares": 7,
-     "fee": 0.06,
-     "cost": 0.97
-    },
-    {
-     "venue": "KS",
-     "id": "KXNBAWINMARGIN-26NOV16MEMWAS-WAS6TO10",
-     "label": "Washington wins by 6-10 points",
-     "side": "YES",
-     "price": 0.11,
-     "shares": 7,
-     "fee": 0.05,
-     "cost": 0.82
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 99,
-   "time": "2026-11-16T23:13:13Z",
-   "game": "nba:26NOV16ORLBOS",
-   "title": "ORL at BOS",
-   "league": "nba",
-   "kickoff": "2026-11-17T00:00:00Z",
-   "min_to_ko": 46.8,
-   "t_lp": 0.010456,
-   "cost": 19.8,
-   "guaranteed_payout": 20.0,
-   "guaranteed_profit": 0.2,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x196077a76ff03c21da6dbd1f981c4f9402cc44c45944770ad1abe4e51a92b10d",
-     "label": "Spread: Celtics (-25.5)",
-     "side": "NO",
-     "price": 0.9,
-     "shares": 20.0,
-     "fee": 0.09,
-     "cost": 18.09
-    },
-    {
-     "venue": "KS",
-     "id": "KXNBAWINMARGIN-26NOV16ORLBOS-BOS26PLUS",
-     "label": "Boston wins by 26+ points",
-     "side": "YES",
-     "price": 0.08,
-     "shares": 20,
-     "fee": 0.11,
-     "cost": 1.71
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 100,
-   "time": "2026-11-16T23:14:43Z",
-   "game": "nba:26NOV16ORLBOS",
-   "title": "ORL at BOS",
-   "league": "nba",
-   "kickoff": "2026-11-17T00:00:00Z",
-   "min_to_ko": 45.3,
-   "t_lp": 0.010456,
-   "cost": 15.842,
-   "guaranteed_payout": 16.0,
-   "guaranteed_profit": 0.158,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x196077a76ff03c21da6dbd1f981c4f9402cc44c45944770ad1abe4e51a92b10d",
-     "label": "Spread: Celtics (-25.5)",
-     "side": "NO",
-     "price": 0.9,
-     "shares": 16.0,
-     "fee": 0.072,
-     "cost": 14.472
-    },
-    {
-     "venue": "KS",
-     "id": "KXNBAWINMARGIN-26NOV16ORLBOS-BOS26PLUS",
-     "label": "Boston wins by 26+ points",
-     "side": "YES",
-     "price": 0.08,
-     "shares": 16,
-     "fee": 0.09,
-     "cost": 1.37
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 101,
-   "time": "2026-11-16T23:19:45Z",
-   "game": "nba:26NOV16ORLBOS",
-   "title": "ORL at BOS",
-   "league": "nba",
-   "kickoff": "2026-11-17T00:00:00Z",
-   "min_to_ko": 40.2,
-   "t_lp": 0.010456,
-   "cost": 214.0072,
-   "guaranteed_payout": 216.0,
-   "guaranteed_profit": 1.9928,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x196077a76ff03c21da6dbd1f981c4f9402cc44c45944770ad1abe4e51a92b10d",
-     "label": "Spread: Celtics (-25.5)",
-     "side": "NO",
-     "price": 0.9,
-     "shares": 216.26,
-     "fee": 0.97317,
-     "cost": 195.6072
-    },
-    {
-     "venue": "KS",
-     "id": "KXNBAWINMARGIN-26NOV16ORLBOS-BOS26PLUS",
-     "label": "Boston wins by 26+ points",
-     "side": "YES",
-     "price": 0.08,
-     "shares": 216,
-     "fee": 1.12,
-     "cost": 18.4
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 102,
-   "time": "2026-11-16T23:56:46Z",
-   "game": "nba:26NOV16ORLBOS",
-   "title": "ORL at BOS",
-   "league": "nba",
-   "kickoff": "2026-11-17T00:00:00Z",
-   "min_to_ko": 3.2,
-   "t_lp": 0.004036,
-   "with_books": true,
-   "books": [
-    "mybookieag"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "7c2ac54a119f461bf8fc1a23da536f29",
-    "sport": "basketball_nba",
-    "home": "Boston Celtics",
-    "away": "Orlando Magic"
-   },
-   "cost": 2499.9967,
-   "guaranteed_payout": 2510.0838,
-   "guaranteed_profit": 10.0871,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x64acb9ba3d7b47e7c310df083d5f33288d6d21c7ffa7a96a16a8ddf711bfd9ab",
-     "label": "Magic vs. Celtics: O/U 214.5",
-     "side": "YES",
-     "price": 0.46,
-     "shares": 2510.09,
-     "fee": 31.17532,
-     "cost": 1185.8167
-    },
-    {
-     "venue": "BK:mybookieag",
-     "book": "mybookieag",
-     "market": "totals",
-     "outcome": "Under",
-     "side": "under",
-     "point": 214.5,
-     "odds": 1.91,
-     "eff": 1.91,
-     "three_way": false,
-     "stake": 1314.18,
-     "cost": 1314.18,
-     "label": "totals Under 214.5 @1.91"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 103,
    "time": "2026-11-17T01:31:36Z",
@@ -487,12 +262,12 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 105,
- "n_settled": 97,
- "realized_pnl": 1762.1240600000078,
+ "n_settled": 102,
+ "realized_pnl": 1774.8701600000077,
  "runs": 47,
  "locked": {
-  "PM": 4486.7806,
-  "KS": 24.240000000000013,
+  "PM": 3068.6067999999987,
+  "KS": 1.4210854715202004e-14,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 0.0,
@@ -514,7 +289,7 @@
   "BK:skybet": 0.0,
   "BK:betrivers": 0.0,
   "BK:lowvig": 0.0,
-  "BK:mybookieag": 1314.18,
+  "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
   "BK:betanysports": 2.2737367544323206e-13,
   "BK:betsson": 0.0,
@@ -606,7 +381,7 @@
    "3": 115,
    "4": 114,
    "5": 116,
-   "6": 247,
+   "6": 245,
    "7": 244
   },
   "spent": {
@@ -620,7 +395,7 @@
    "2026-11-14": 78,
    "2026-11-15": 239,
    "2026-11-16": 117,
-   "2026-11-17": 75
+   "2026-11-17": 77
   }
  },
  "book_slots": {
