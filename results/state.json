@@ -69,10 +69,6 @@
  },
  "open": [],
  "consumed": {
-  "PM|0x64acb9ba3d7b47e7c310df083d5f33288d6d21c7ffa7a96a16a8ddf711bfd9ab|YES|0.4600": {
-   "n": 2510.09,
-   "t": "2026-11-16T23:56:46Z"
-  },
   "PM|0xda840caa53104dc4c46adc8d16efa925b4e7c594332dee1de2feb1559850cd61|NO|0.4700": {
    "n": 6360.4,
    "t": "2026-11-17T01:56:36Z"
