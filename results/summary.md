@@ -1,27 +1,27 @@
-# Paper-trading bot: status at 2026-11-17T21:58:50Z
+# Paper-trading bot: status at 2026-11-17T22:18:56Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 112 / 105 |
-| Realised profit | $1,788.12 ≈ €1,541.49 |
+| Trades executed / settled | 112 / 112 |
+| Realised profit | $1,983.06 ≈ €1,709.53 |
 | … Polymarket/Kalshi only | $28.75 |
-| … with bookmakers (all) | $1,759.37 |
+| … with bookmakers (all) | $1,954.30 |
 | … with bookmakers licensed in Spain only | $0.00 |
-| Open positions (cost) | $17,499.61 |
+| Open positions (cost) | $0.00 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $30,788.13 ≈ €26,541.49 |
-| Return so far (realised / peak money in use) | 2.967% over 11.0 days |
+| Equity (cash + open at cost + in transit) | $30,983.06 ≈ €26,709.54 |
+| Return so far (realised / peak money in use) | 3.291% over 11.0 days |
 
-Polymarket/Kalshi gaps above the threshold: below_min_size 622, executed 22, rounding 71, seen 772, vanished 52.
-Gaps using bookmakers: below_min_size 2, executed 90, no_cash 41, rounding 2, seen 155, vanished 20 (snapshots combined with Polymarket/Kalshi: 1255).
+Polymarket/Kalshi gaps above the threshold: below_min_size 632, executed 22, rounding 71, seen 783, vanished 53.
+Gaps using bookmakers: below_min_size 2, executed 90, no_cash 41, rounding 2, seen 155, vanished 20 (snapshots combined with Polymarket/Kalshi: 1264).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 884 (about 5.4 days at the current pace).
+The Odds API credits left: 878 (about 5.3 days at the current pace).
 
 ## Capital by account
 
@@ -29,14 +29,14 @@ Peak in use = the most money that was tied up in open positions at the same time
 
 | account | start | cash now | in open positions | peak in use | lowest cash |
 |---|---|---|---|---|---|
-| Polymarket | $5,800.00 | $7,587.80 | $3,911.67 | $4,486.78 | $2,369.73 |
-| Kalshi | $5,800.00 | $5,233.78 | $479.57 | $479.57 | $5,231.94 |
-| betanysports | $580.00 | $-3,420.79 | $1,275.86 | $4,190.72 | $-3,610.72 |
+| Polymarket | $5,800.00 | $12,613.59 | $0.00 | $4,486.78 | $2,369.73 |
+| Kalshi | $5,800.00 | $5,233.78 | $0.00 | $479.57 | $5,231.94 |
+| betanysports | $580.00 | $-894.59 | $0.00 | $4,190.72 | $-3,610.72 |
 | betfair_ex_eu (Spain) | $580.00 | $453.07 | $0.00 | $126.93 | $453.07 |
 | betfair_ex_uk (Spain) | $580.00 | $580.00 | $0.00 | $0.00 | $580.00 |
 | betfred_uk | $580.00 | $-768.02 | $0.00 | $1,348.02 | $-768.02 |
 | betmgm | $580.00 | $5,098.25 | $0.00 | $5,577.36 | $-4,997.36 |
-| betonlineag | $580.00 | $-3,111.38 | $1,244.33 | $4,590.49 | $-4,391.48 |
+| betonlineag | $580.00 | $-3,111.38 | $0.00 | $4,590.49 | $-4,391.48 |
 | betrivers | $580.00 | $7,162.65 | $0.00 | $2,248.46 | $-1,141.39 |
 | betsson | $580.00 | $2,119.70 | $0.00 | $986.99 | $-406.99 |
 | bovada | $580.00 | $-244.12 | $0.00 | $824.12 | $-244.12 |
@@ -51,16 +51,16 @@ Peak in use = the most money that was tied up in open positions at the same time
 | leovegas_se | $580.00 | $5,327.11 | $0.00 | $2,971.13 | $-1,181.83 |
 | lowvig | $580.00 | $-2,919.78 | $0.00 | $1,628.95 | $-2,919.78 |
 | marathonbet (Spain) | $580.00 | $2,060.64 | $0.00 | $2,789.53 | $-1,673.21 |
-| matchbook | $580.00 | $4,333.49 | $1,038.08 | $4,155.10 | $-3,925.78 |
+| matchbook | $580.00 | $6,877.20 | $0.00 | $4,155.10 | $-3,925.78 |
 | mybookieag | $580.00 | $-5,651.16 | $0.00 | $4,422.60 | $-5,651.16 |
-| onexbet | $580.00 | $-7,038.25 | $7,134.61 | $22,357.23 | $-20,246.55 |
-| pinnacle | $580.00 | $-2,307.28 | $545.34 | $3,723.57 | $-6,879.02 |
+| onexbet | $580.00 | $-4,522.17 | $0.00 | $22,357.23 | $-20,246.55 |
+| pinnacle | $580.00 | $-2,307.28 | $0.00 | $3,723.57 | $-6,879.02 |
 | skybet | $580.00 | $-375.11 | $0.00 | $567.67 | $-375.11 |
 | smarkets | $580.00 | $-6,439.08 | $0.00 | $4,070.28 | $-8,947.57 |
 | tipico_de | $580.00 | $2,622.00 | $0.00 | $486.19 | $93.81 |
 | unibet_nl | $580.00 | $-7,801.68 | $0.00 | $4,157.51 | $-7,801.68 |
-| unibet_se | $580.00 | $-1,659.50 | $1,255.65 | $7,330.64 | $-5,486.19 |
-| winamax_de (Spain) | $580.00 | $-872.91 | $614.50 | $805.80 | $-872.91 |
+| unibet_se | $580.00 | $903.82 | $0.00 | $7,330.64 | $-5,486.19 |
+| winamax_de (Spain) | $580.00 | $1,646.54 | $0.00 | $805.80 | $-872.91 |
 
 Peak money in use across all accounts at the same time: $60,263.56 ≈ €51,951.34.
 
@@ -90,13 +90,13 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 
 | # | time (UTC) | game | min to KO | with bookmakers | gap | cost | guaranteed profit | status | P&L |
 |---|---|---|---|---|---|---|---|---|---|
-| 112 | 11-17T19:41 | Denmark v Norway | 3.3 | onexbet | 0.36% | $2499.99 | $8.96 | open |  |
-| 111 | 11-17T19:31 | Poland v Sweden | 13.3 | onexbet | 0.67% | $2499.99 | $16.84 | open |  |
-| 110 | 11-17T19:31 | Israel v Austria | 13.3 | onexbet, pinnacle, winamax_de | 0.78% | $2499.98 | $19.47 | open |  |
-| 109 | 11-17T19:31 | Denmark v Norway | 13.3 | betanysports, onexbet | 1.05% | $2499.68 | $25.66 | open |  |
-| 108 | 11-17T19:16 | Denmark v Norway | 28.3 | matchbook, onexbet | 1.75% | $2499.99 | $43.72 | open |  |
-| 107 | 11-17T18:46 | Poland v Sweden | 58.2 | onexbet | 0.64% | $2500.00 | $16.07 | open |  |
-| 106 | 11-17T18:46 | Hungary v Northern Ireland | 58.2 | betonlineag, unibet_se | 2.53% | $2499.98 | $63.32 | open |  |
+| 112 | 11-17T19:41 | Denmark v Norway | 3.3 | onexbet | 0.36% | $2499.99 | $8.96 | settled | $+8.97 |
+| 111 | 11-17T19:31 | Poland v Sweden | 13.3 | onexbet | 0.67% | $2499.99 | $16.84 | settled | $+16.84 |
+| 110 | 11-17T19:31 | Israel v Austria | 13.3 | onexbet, pinnacle, winamax_de | 0.78% | $2499.98 | $19.47 | settled | $+19.47 |
+| 109 | 11-17T19:31 | Denmark v Norway | 13.3 | betanysports, onexbet | 1.05% | $2499.68 | $25.66 | settled | $+26.52 |
+| 108 | 11-17T19:16 | Denmark v Norway | 28.3 | matchbook, onexbet | 1.75% | $2499.99 | $43.72 | settled | $+43.72 |
+| 107 | 11-17T18:46 | Poland v Sweden | 58.2 | onexbet | 0.64% | $2500.00 | $16.07 | settled | $+16.08 |
+| 106 | 11-17T18:46 | Hungary v Northern Ireland | 58.2 | betonlineag, unibet_se | 2.53% | $2499.98 | $63.32 | settled | $+63.34 |
 | 105 | 11-17T01:56 | PHX at DEN | 3.4 | draftkings | 0.21% | $2499.99 | $5.21 | settled | $+5.22 |
 | 104 | 11-17T01:46 | PHX at DEN | 13.4 | draftkings | 0.21% | $2499.99 | $5.21 | settled | $+5.22 |
 | 103 | 11-17T01:31 | PHX at DEN | 28.4 | draftkings | 0.21% | $1347.16 | $2.80 | settled | $+2.82 |

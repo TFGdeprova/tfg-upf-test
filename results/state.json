@@ -1,16 +1,16 @@
 {
  "cash": {
-  "PM": 7587.801000000001,
+  "PM": 12613.591,
   "KS": 5233.779999999999,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -2307.2799999999993,
-  "BK:onexbet": -7038.245999999999,
-  "BK:matchbook": 4333.485980000001,
+  "BK:onexbet": -4522.173999999999,
+  "BK:matchbook": 6877.197212000001,
   "BK:leovegas_se": 5327.1091799999995,
   "BK:gtbets": 5009.9357,
-  "BK:winamax_de": -872.9100000000001,
+  "BK:winamax_de": 1646.5399999999997,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -1659.495499999999,
+  "BK:unibet_se": 903.8200000000011,
   "BK:tipico_de": 2621.998,
   "BK:coolbet": 7055.7693,
   "BK:unibet_nl": -7801.679999999999,
@@ -25,7 +25,7 @@
   "BK:lowvig": -2919.7799999999997,
   "BK:mybookieag": -5651.1625,
   "BK:betmgm": 5098.2534000000005,
-  "BK:betanysports": -3420.7884000000004,
+  "BK:betanysports": -894.5856000000008,
   "BK:betsson": 2119.7043999999996,
   "BK:codere_it": 1797.4973999999997,
   "BK:boylesports": 1315.0279999999998,
@@ -67,424 +67,7 @@
   "BK:bovada": 580.0,
   "BK:draftkings": 580.0
  },
- "open": [
-  {
-   "trade_id": 106,
-   "time": "2026-11-17T18:46:45Z",
-   "game": "unl:26NOV17HUNNIR",
-   "title": "Hungary v Northern Ireland",
-   "league": "unl",
-   "kickoff": "2026-11-17T19:45:00Z",
-   "min_to_ko": 58.2,
-   "t_lp": 0.025334,
-   "with_books": true,
-   "books": [
-    "betonlineag",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "1a07e9080f042594bdb529ab932d680c",
-    "sport": "soccer_uefa_nations_league",
-    "home": "Hungary",
-    "away": "Northern Ireland"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2563.3,
-   "guaranteed_profit": 63.32,
-   "legs": [
-    {
-     "venue": "BK:betonlineag",
-     "book": "betonlineag",
-     "market": "h2h",
-     "outcome": "Hungary",
-     "side": "home",
-     "point": null,
-     "odds": 2.06,
-     "eff": 2.06,
-     "three_way": true,
-     "stake": 1244.33,
-     "cost": 1244.33,
-     "label": "h2h Hungary  @2.06"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Northern Ireland",
-     "side": "away",
-     "point": null,
-     "odds": 5.0,
-     "eff": 5.0,
-     "three_way": true,
-     "stake": 512.66,
-     "cost": 512.66,
-     "label": "h2h Northern Ireland  @5.0"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.45,
-     "eff": 3.45,
-     "three_way": true,
-     "stake": 742.99,
-     "cost": 742.99,
-     "label": "h2h Draw  @3.45"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 107,
-   "time": "2026-11-17T18:46:45Z",
-   "game": "unl:26NOV17POLSWE",
-   "title": "Poland v Sweden",
-   "league": "unl",
-   "kickoff": "2026-11-17T19:45:00Z",
-   "min_to_ko": 58.2,
-   "t_lp": 0.00643,
-   "with_books": true,
-   "books": [
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "aab74efad72e8096e774c7104189ff09",
-    "sport": "soccer_uefa_nations_league",
-    "home": "Poland",
-    "away": "Sweden"
-   },
-   "cost": 2499.9959,
-   "guaranteed_payout": 2516.07,
-   "guaranteed_profit": 16.0741,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x756c222cb3954c59e70fcba8a767c6f2ccd7158d623f1e0572be3e6f94d8a75c",
-     "label": "Poland vs. Sweden: O/U 3.5",
-     "side": "YES",
-     "price": 0.39,
-     "shares": 2516.07,
-     "fee": 29.92865,
-     "cost": 1011.196
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "totals",
-     "outcome": "Under",
-     "side": "under",
-     "point": 3.5,
-     "odds": 1.69,
-     "eff": 1.69,
-     "three_way": true,
-     "stake": 1488.8,
-     "cost": 1488.8,
-     "label": "totals Under 3.5 @1.69"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 108,
-   "time": "2026-11-17T19:16:39Z",
-   "game": "unl:26NOV17DENNOR",
-   "title": "Denmark v Norway",
-   "league": "unl",
-   "kickoff": "2026-11-17T19:45:00Z",
-   "min_to_ko": 28.3,
-   "t_lp": 0.017491,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "770e80269ec2ffddc826bc50330c475b",
-    "sport": "soccer_uefa_nations_league",
-    "home": "Denmark",
-    "away": "Norway"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2543.7112,
-   "guaranteed_profit": 43.7212,
-   "legs": [
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "totals",
-     "outcome": "Over",
-     "side": "over",
-     "point": 3.5,
-     "odds": 2.48,
-     "eff": 2.4504,
-     "three_way": true,
-     "stake": 1038.08,
-     "cost": 1038.08,
-     "label": "totals Over 3.5 @2.48"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "totals",
-     "outcome": "Under",
-     "side": "under",
-     "point": 3.5,
-     "odds": 1.74,
-     "eff": 1.74,
-     "three_way": true,
-     "stake": 1461.91,
-     "cost": 1461.91,
-     "label": "totals Under 3.5 @1.74"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 109,
-   "time": "2026-11-17T19:31:43Z",
-   "game": "unl:26NOV17DENNOR",
-   "title": "Denmark v Norway",
-   "league": "unl",
-   "kickoff": "2026-11-17T19:45:00Z",
-   "min_to_ko": 13.3,
-   "t_lp": 0.010482,
-   "with_books": true,
-   "books": [
-    "betanysports",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "770e80269ec2ffddc826bc50330c475b",
-    "sport": "soccer_uefa_nations_league",
-    "home": "Denmark",
-    "away": "Norway"
-   },
-   "cost": 2499.68,
-   "guaranteed_payout": 2525.34,
-   "guaranteed_profit": 25.66,
-   "legs": [
-    {
-     "venue": "KS",
-     "id": "KXUEFANLTOTAL-26NOV17DENNOR-3",
-     "label": "Over 2.5 goals scored",
-     "side": "NO",
-     "price": 0.36,
-     "shares": 1275,
-     "fee": 20.57,
-     "cost": 479.57
-    },
-    {
-     "venue": "BK:betanysports",
-     "book": "betanysports",
-     "market": "totals",
-     "outcome": "Over",
-     "side": "over",
-     "point": 3.0,
-     "odds": 1.98,
-     "eff": 1.98,
-     "three_way": true,
-     "stake": 1275.86,
-     "cost": 1275.86,
-     "label": "totals Over 3.0 @1.98"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "totals",
-     "outcome": "Under",
-     "side": "under",
-     "point": 3.5,
-     "odds": 1.68,
-     "eff": 1.68,
-     "three_way": true,
-     "stake": 744.25,
-     "cost": 744.25,
-     "label": "totals Under 3.5 @1.68"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 110,
-   "time": "2026-11-17T19:31:43Z",
-   "game": "unl:26NOV17ISRAUT",
-   "title": "Israel v Austria",
-   "league": "unl",
-   "kickoff": "2026-11-17T19:45:00Z",
-   "min_to_ko": 13.3,
-   "t_lp": 0.007793,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "pinnacle",
-    "winamax_de"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "e71a4a4fea03d00873c285c5b55a9864",
-    "sport": "soccer_uefa_nations_league",
-    "home": "Israel",
-    "away": "Austria"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2519.45,
-   "guaranteed_profit": 19.47,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Austria",
-     "side": "away",
-     "point": null,
-     "odds": 1.88,
-     "eff": 1.88,
-     "three_way": true,
-     "stake": 1340.14,
-     "cost": 1340.14,
-     "label": "h2h Austria  @1.88"
-    },
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "h2h",
-     "outcome": "Israel",
-     "side": "home",
-     "point": null,
-     "odds": 4.62,
-     "eff": 4.62,
-     "three_way": true,
-     "stake": 545.34,
-     "cost": 545.34,
-     "label": "h2h Israel  @4.62"
-    },
-    {
-     "venue": "BK:winamax_de",
-     "book": "winamax_de",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.1,
-     "eff": 4.1,
-     "three_way": true,
-     "stake": 614.5,
-     "cost": 614.5,
-     "label": "h2h Draw  @4.1"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 111,
-   "time": "2026-11-17T19:31:43Z",
-   "game": "unl:26NOV17POLSWE",
-   "title": "Poland v Sweden",
-   "league": "unl",
-   "kickoff": "2026-11-17T19:45:00Z",
-   "min_to_ko": 13.3,
-   "t_lp": 0.006736,
-   "with_books": true,
-   "books": [
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "aab74efad72e8096e774c7104189ff09",
-    "sport": "soccer_uefa_nations_league",
-    "home": "Poland",
-    "away": "Sweden"
-   },
-   "cost": 2499.9916,
-   "guaranteed_payout": 2516.83,
-   "guaranteed_profit": 16.8384,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x4a7519271795ee75ec76e33631cfcf35857e0cdb0353c88b0eb1a2ac5135e675",
-     "label": "Will Poland win on 2026-11-17?",
-     "side": "NO",
-     "price": 0.52,
-     "shares": 2516.83,
-     "fee": 31.41004,
-     "cost": 1340.1616
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Poland",
-     "side": "home",
-     "point": null,
-     "odds": 2.17,
-     "eff": 2.17,
-     "three_way": true,
-     "stake": 1159.83,
-     "cost": 1159.83,
-     "label": "h2h Poland  @2.17"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 112,
-   "time": "2026-11-17T19:41:43Z",
-   "game": "unl:26NOV17DENNOR",
-   "title": "Denmark v Norway",
-   "league": "unl",
-   "kickoff": "2026-11-17T19:45:00Z",
-   "min_to_ko": 3.3,
-   "t_lp": 0.003586,
-   "with_books": true,
-   "books": [
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "770e80269ec2ffddc826bc50330c475b",
-    "sport": "soccer_uefa_nations_league",
-    "home": "Denmark",
-    "away": "Norway"
-   },
-   "cost": 2499.9897,
-   "guaranteed_payout": 2508.9456,
-   "guaranteed_profit": 8.9559,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0xddc87692ccafc80658252f04efb8377e517c5105a50dd91bcf9d76170e897e92",
-     "label": "Will Denmark win on 2026-11-17?",
-     "side": "NO",
-     "price": 0.61,
-     "shares": 2508.96,
-     "fee": 29.84408,
-     "cost": 1560.3097
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Denmark",
-     "side": "home",
-     "point": null,
-     "odds": 2.67,
-     "eff": 2.67,
-     "three_way": true,
-     "stake": 939.68,
-     "cost": 939.68,
-     "label": "h2h Denmark  @2.67"
-    }
-   ],
-   "status": "open"
-  }
- ],
+ "open": [],
  "consumed": {
   "PM|0x756c222cb3954c59e70fcba8a767c6f2ccd7158d623f1e0572be3e6f94d8a75c|YES|0.3900": {
    "n": 2516.07,
@@ -505,21 +88,21 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 112,
- "n_settled": 105,
- "realized_pnl": 1788.1233600000073,
+ "n_settled": 112,
+ "realized_pnl": 1983.0576920000071,
  "runs": 51,
  "locked": {
-  "PM": 3911.6673,
-  "KS": 479.57,
+  "PM": 2.2737367544323206e-13,
+  "KS": 0.0,
   "BK:smarkets": 0.0,
-  "BK:pinnacle": 545.3400000000003,
-  "BK:onexbet": 7134.610000000001,
-  "BK:matchbook": 1038.08,
+  "BK:pinnacle": 2.2737367544323206e-13,
+  "BK:onexbet": 3.410605131648481e-13,
+  "BK:matchbook": 0.0,
   "BK:leovegas_se": 2.2737367544323206e-13,
   "BK:gtbets": 4.547473508864641e-13,
-  "BK:winamax_de": 614.5,
+  "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 1255.6500000000005,
+  "BK:unibet_se": 5.684341886080801e-13,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 2.2737367544323206e-13,
   "BK:unibet_nl": 7.958078640513122e-13,
@@ -528,13 +111,13 @@
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 0.0,
-  "BK:betonlineag": 1244.3300000000004,
+  "BK:betonlineag": 4.547473508864641e-13,
   "BK:skybet": 0.0,
   "BK:betrivers": 0.0,
   "BK:lowvig": 0.0,
   "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
-  "BK:betanysports": 1275.8600000000001,
+  "BK:betanysports": 2.2737367544323206e-13,
   "BK:betsson": 0.0,
   "BK:codere_it": 0.0,
   "BK:boylesports": 0.0,
@@ -624,8 +207,8 @@
    "3": 115,
    "4": 114,
    "5": 116,
-   "6": 224,
-   "7": 222
+   "6": 219,
+   "7": 219
   },
   "spent": {
    "2026-11-06": 27,
@@ -638,7 +221,7 @@
    "2026-11-14": 78,
    "2026-11-15": 239,
    "2026-11-16": 117,
-   "2026-11-17": 120
+   "2026-11-17": 128
   }
  },
  "book_slots": {
@@ -808,6 +391,9 @@
   "unl|2026-11-17T19:45|5": "2026-11-17T19:40:02Z",
   "nhl|2026-11-18T00:00|180": "2026-11-17T21:00:00Z",
   "nba|2026-11-18T00:30|180": "2026-11-17T21:30:00Z",
-  "nhl|2026-11-18T00:30|180": "2026-11-17T21:30:00Z"
+  "nhl|2026-11-18T00:30|180": "2026-11-17T21:30:00Z",
+  "nhl|2026-11-18T00:00|120": "2026-11-17T22:00:00Z",
+  "nhl|2026-11-18T01:00|180": "2026-11-17T22:00:00Z",
+  "nba|2026-11-18T01:00|180": "2026-11-17T22:00:00Z"
  }
 }
