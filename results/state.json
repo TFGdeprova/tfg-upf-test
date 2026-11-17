@@ -1,6 +1,6 @@
 {
  "cash": {
-  "PM": 5438.335100000001,
+  "PM": 3578.3794000000007,
   "KS": 5713.3499999999985,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -1761.9399999999991,
@@ -30,7 +30,8 @@
   "BK:codere_it": 1797.4973999999997,
   "BK:boylesports": 1315.0279999999998,
   "BK:fanduel": -1079.29,
-  "BK:bovada": -244.12
+  "BK:bovada": -244.12,
+  "BK:draftkings": -1407.1999999999998
  },
  "start_cash": {
   "PM": 5800.0,
@@ -63,7 +64,8 @@
   "BK:codere_it": 580.0,
   "BK:boylesports": 580.0,
   "BK:fanduel": 580.0,
-  "BK:bovada": 580.0
+  "BK:bovada": 580.0,
+  "BK:draftkings": 580.0
  },
  "open": [
   {
@@ -290,6 +292,108 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 103,
+   "time": "2026-11-17T01:31:36Z",
+   "game": "nba:26NOV16PHXDEN",
+   "title": "PHX at DEN",
+   "league": "nba",
+   "kickoff": "2026-11-17T02:00:00Z",
+   "min_to_ko": 28.4,
+   "t_lp": 0.002085,
+   "with_books": true,
+   "books": [
+    "draftkings"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "c2c9d9729305c19d4a453f92c83feae8",
+    "sport": "basketball_nba",
+    "home": "Denver Nuggets",
+    "away": "Phoenix Suns"
+   },
+   "cost": 1347.1646,
+   "guaranteed_payout": 1349.9684,
+   "guaranteed_profit": 2.8038,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0xda840caa53104dc4c46adc8d16efa925b4e7c594332dee1de2feb1559850cd61",
+     "label": "Suns vs. Nuggets: O/U 229.5",
+     "side": "NO",
+     "price": 0.47,
+     "shares": 1349.98,
+     "fee": 16.814,
+     "cost": 651.3046
+    },
+    {
+     "venue": "BK:draftkings",
+     "book": "draftkings",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 229.5,
+     "odds": 1.94,
+     "eff": 1.94,
+     "three_way": false,
+     "stake": 695.86,
+     "cost": 695.86,
+     "label": "totals Over 229.5 @1.94"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 104,
+   "time": "2026-11-17T01:46:36Z",
+   "game": "nba:26NOV16PHXDEN",
+   "title": "PHX at DEN",
+   "league": "nba",
+   "kickoff": "2026-11-17T02:00:00Z",
+   "min_to_ko": 13.4,
+   "t_lp": 0.002085,
+   "with_books": true,
+   "books": [
+    "draftkings"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "c2c9d9729305c19d4a453f92c83feae8",
+    "sport": "basketball_nba",
+    "home": "Denver Nuggets",
+    "away": "Phoenix Suns"
+   },
+   "cost": 2499.9911,
+   "guaranteed_payout": 2505.1996,
+   "guaranteed_profit": 5.2085,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0xda840caa53104dc4c46adc8d16efa925b4e7c594332dee1de2feb1559850cd61",
+     "label": "Suns vs. Nuggets: O/U 229.5",
+     "side": "NO",
+     "price": 0.47,
+     "shares": 2505.21,
+     "fee": 31.20239,
+     "cost": 1208.6511
+    },
+    {
+     "venue": "BK:draftkings",
+     "book": "draftkings",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 229.5,
+     "odds": 1.94,
+     "eff": 1.94,
+     "three_way": false,
+     "stake": 1291.34,
+     "cost": 1291.34,
+     "label": "totals Over 229.5 @1.94"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -324,15 +428,19 @@
   "PM|0x64acb9ba3d7b47e7c310df083d5f33288d6d21c7ffa7a96a16a8ddf711bfd9ab|YES|0.4600": {
    "n": 2510.09,
    "t": "2026-11-16T23:56:46Z"
+  },
+  "PM|0xda840caa53104dc4c46adc8d16efa925b4e7c594332dee1de2feb1559850cd61|NO|0.4700": {
+   "n": 3855.19,
+   "t": "2026-11-17T01:46:36Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 102,
+ "n_trades": 104,
  "n_settled": 97,
  "realized_pnl": 1762.1240600000078,
  "runs": 47,
  "locked": {
-  "PM": 1418.1738,
+  "PM": 3278.1295,
   "KS": 24.240000000000013,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
@@ -362,10 +470,11 @@
   "BK:codere_it": 0.0,
   "BK:boylesports": 0.0,
   "BK:fanduel": 0.0,
-  "BK:bovada": 0.0
+  "BK:bovada": 0.0,
+  "BK:draftkings": 1987.1999999999998
  },
  "peak_locked": {
-  "PM": 3249.5910999999996,
+  "PM": 3278.1295,
   "KS": 456.7799999999999,
   "BK:smarkets": 4070.2799999999993,
   "BK:pinnacle": 3723.5699999999997,
@@ -395,7 +504,8 @@
   "BK:codere_it": 1295.21,
   "BK:boylesports": 1813.5100000000002,
   "BK:fanduel": 1659.29,
-  "BK:bovada": 824.12
+  "BK:bovada": 824.12,
+  "BK:draftkings": 1987.1999999999998
  },
  "min_cash": {
   "PM": 2382.665600000003,
@@ -428,7 +538,8 @@
   "BK:codere_it": -715.21,
   "BK:boylesports": -1233.5100000000002,
   "BK:fanduel": -1079.29,
-  "BK:bovada": -244.12
+  "BK:bovada": -244.12,
+  "BK:draftkings": -1407.1999999999998
  },
  "transfers": [],
  "transfer_stats": {
@@ -444,8 +555,8 @@
    "3": 115,
    "4": 114,
    "5": 116,
-   "6": 259,
-   "7": 256
+   "6": 253,
+   "7": 253
   },
   "spent": {
    "2026-11-06": 27,
@@ -458,7 +569,7 @@
    "2026-11-14": 78,
    "2026-11-15": 239,
    "2026-11-16": 117,
-   "2026-11-17": 51
+   "2026-11-17": 60
   }
  },
  "book_slots": {
@@ -616,6 +727,7 @@
   "nba|2026-11-17T02:00|60": "2026-11-17T01:00:11Z",
   "nfl|2026-11-17T01:15|5": "2026-11-17T01:10:11Z",
   "nba|2026-11-17T02:00|30": "2026-11-17T01:30:12Z",
-  "nhl|2026-11-17T02:30|60": "2026-11-17T01:30:12Z"
+  "nhl|2026-11-17T02:30|60": "2026-11-17T01:30:12Z",
+  "nba|2026-11-17T02:00|15": "2026-11-17T01:45:04Z"
  }
 }

@@ -1199,3 +1199,6 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-17T01:10:14Z,nfl:26NOV16LACBAL,LAC at BAL,nfl,4.8,scheduled,8,-0.009656,-0.009656,no gap,,,
 2026-11-17T01:30:14Z,nba:26NOV16PHXDEN,PHX at DEN,nba,29.8,scheduled,16,-0.005668,0.002085,seen,1347.17,nba:26NOV16PHXDEN|2026-11-17T01:30:14Z|with_books,PM NO 0.470 x0.483 Suns vs. Nuggets: O/U 229.5 | draftkings totals Over 229.5 @1.94 x0.517
 2026-11-17T01:30:14Z,nhl:26NOV16VANUTA,VAN at UTA,nhl,59.8,scheduled,8,-0.011921,-0.011921,no gap,,,
+2026-11-17T01:31:36Z,nba:26NOV16PHXDEN,PHX at DEN,nba,28.4,confirmation,16,-0.005668,0.002085,executed,1347.17,,PM NO 0.470 x0.483 Suns vs. Nuggets: O/U 229.5 | draftkings totals Over 229.5 @1.94 x0.517
+2026-11-17T01:45:06Z,nba:26NOV16PHXDEN,PHX at DEN,nba,14.9,scheduled,16,-0.005668,0.002085,seen,20134.85,nba:26NOV16PHXDEN|2026-11-17T01:45:06Z|with_books,PM NO 0.470 x0.483 Suns vs. Nuggets: O/U 229.5 | draftkings totals Over 229.5 @1.94 x0.517
+2026-11-17T01:46:36Z,nba:26NOV16PHXDEN,PHX at DEN,nba,13.4,confirmation,16,-0.005668,0.002085,executed,20134.85,,PM NO 0.470 x0.483 Suns vs. Nuggets: O/U 229.5 | draftkings totals Over 229.5 @1.94 x0.517
