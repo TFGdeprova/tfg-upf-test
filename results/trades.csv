@@ -106,3 +106,4 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 105,2026-11-17T01:56:36Z,nba:26NOV16PHXDEN,PHX at DEN,nba,2026-11-17T02:00:00Z,3.4,0.002085,True,['draftkings'],False,2499.9911,2505.1996,5.2085,settled,2026-11-17T05:08:41Z,2505.21,5.2189,ok,2
 106,2026-11-17T18:46:45Z,unl:26NOV17HUNNIR,Hungary v Northern Ireland,unl,2026-11-17T19:45:00Z,58.2,0.025334,True,"['betonlineag', 'unibet_se']",False,2499.98,2563.3,63.32,open,,,,,3
 107,2026-11-17T18:46:45Z,unl:26NOV17POLSWE,Poland v Sweden,unl,2026-11-17T19:45:00Z,58.2,0.00643,True,['onexbet'],False,2499.9959,2516.07,16.0741,open,,,,,2
+108,2026-11-17T19:16:39Z,unl:26NOV17DENNOR,Denmark v Norway,unl,2026-11-17T19:45:00Z,28.3,0.017491,True,"['matchbook', 'onexbet']",False,2499.99,2543.7112,43.7212,open,,,,,2

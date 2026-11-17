@@ -4,8 +4,8 @@
   "KS": 5713.3499999999985,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -1761.9399999999991,
-  "BK:onexbet": -1392.4359999999983,
-  "BK:matchbook": 5371.565980000001,
+  "BK:onexbet": -2854.3459999999986,
+  "BK:matchbook": 4333.485980000001,
   "BK:leovegas_se": 5327.1091799999995,
   "BK:gtbets": 5009.9357,
   "BK:winamax_de": -258.41,
@@ -188,6 +188,62 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 108,
+   "time": "2026-11-17T19:16:39Z",
+   "game": "unl:26NOV17DENNOR",
+   "title": "Denmark v Norway",
+   "league": "unl",
+   "kickoff": "2026-11-17T19:45:00Z",
+   "min_to_ko": 28.3,
+   "t_lp": 0.017491,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "770e80269ec2ffddc826bc50330c475b",
+    "sport": "soccer_uefa_nations_league",
+    "home": "Denmark",
+    "away": "Norway"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2543.7112,
+   "guaranteed_profit": 43.7212,
+   "legs": [
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 3.5,
+     "odds": 2.48,
+     "eff": 2.4504,
+     "three_way": true,
+     "stake": 1038.08,
+     "cost": 1038.08,
+     "label": "totals Over 3.5 @2.48"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "totals",
+     "outcome": "Under",
+     "side": "under",
+     "point": 3.5,
+     "odds": 1.74,
+     "eff": 1.74,
+     "three_way": true,
+     "stake": 1461.91,
+     "cost": 1461.91,
+     "label": "totals Under 3.5 @1.74"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -197,7 +253,7 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 107,
+ "n_trades": 108,
  "n_settled": 105,
  "realized_pnl": 1788.1233600000073,
  "runs": 51,
@@ -206,8 +262,8 @@
   "KS": 1.4210854715202004e-14,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
-  "BK:onexbet": 1488.8,
-  "BK:matchbook": 1.1368683772161603e-13,
+  "BK:onexbet": 2950.71,
+  "BK:matchbook": 1038.08,
   "BK:leovegas_se": 2.2737367544323206e-13,
   "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 0.0,
@@ -317,8 +373,8 @@
    "3": 115,
    "4": 114,
    "5": 116,
-   "6": 239,
-   "7": 240
+   "6": 235,
+   "7": 236
   },
   "spent": {
    "2026-11-06": 27,
@@ -331,7 +387,7 @@
    "2026-11-14": 78,
    "2026-11-15": 239,
    "2026-11-16": 117,
-   "2026-11-17": 87
+   "2026-11-17": 95
   }
  },
  "book_slots": {
@@ -495,6 +551,7 @@
   "nhl|2026-11-17T02:30|30": "2026-11-17T02:00:11Z",
   "nhl|2026-11-17T02:30|15": "2026-11-17T02:15:04Z",
   "nhl|2026-11-17T02:30|5": "2026-11-17T02:25:04Z",
-  "unl|2026-11-17T19:45|60": "2026-11-17T18:45:02Z"
+  "unl|2026-11-17T19:45|60": "2026-11-17T18:45:02Z",
+  "unl|2026-11-17T19:45|30": "2026-11-17T19:15:02Z"
  }
 }
