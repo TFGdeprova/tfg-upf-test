@@ -117,3 +117,5 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 116,2026-11-18T22:31:51Z,nhl:26NOV18MTLNJ,MTL at NJ,nhl,2026-11-19T00:30:00Z,118.1,0.427407,True,"['onexbet', 'unibet_se']",False,2499.99,3568.475,1068.485,open,,,,,2
 117,2026-11-18T22:31:51Z,nhl:26NOV18BOSDET,BOS at DET,nhl,2026-11-19T00:30:00Z,118.1,0.607609,True,['leovegas_se'],False,2499.99,4019.004,1519.014,open,,,,,2
 118,2026-11-18T23:02:02Z,nba:26NOV18PHIORL,PHI at ORL,nba,2026-11-19T00:00:00Z,58.0,0.065421,True,"['fanduel', 'williamhill']",False,2499.99,2663.54,163.55,open,,,,,2
+119,2026-11-18T23:21:47Z,nba:26NOV18MILMIA,MIL at MIA,nba,2026-11-19T00:00:00Z,38.2,0.002581,,,,59.8403,59.98,0.1397,open,,,,,3
+120,2026-11-18T23:27:48Z,nba:26NOV18PHIORL,PHI at ORL,nba,2026-11-19T00:00:00Z,32.2,0.006751,,,,11.9327,12.0,0.0673,open,,,,,4

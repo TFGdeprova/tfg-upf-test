@@ -1,7 +1,7 @@
 {
  "cash": {
-  "PM": 12613.591,
-  "KS": 5233.779999999999,
+  "PM": 12574.048,
+  "KS": 5201.549999999999,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -2307.2799999999993,
   "BK:onexbet": -8006.233999999999,
@@ -347,17 +347,148 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 119,
+   "time": "2026-11-18T23:21:47Z",
+   "game": "nba:26NOV18MILMIA",
+   "title": "MIL at MIA",
+   "league": "nba",
+   "kickoff": "2026-11-19T00:00:00Z",
+   "min_to_ko": 38.2,
+   "t_lp": 0.002581,
+   "cost": 59.8403,
+   "guaranteed_payout": 59.98,
+   "guaranteed_profit": 0.1397,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x6872df52804e8cc6f16add1d1bec9a7ca9481ff67b6068a8ac91e8cbdafa1adb",
+     "label": "Spread: Bucks (-5.5)",
+     "side": "NO",
+     "price": 0.92,
+     "shares": 29.99,
+     "fee": 0.11036,
+     "cost": 27.7012
+    },
+    {
+     "venue": "PM",
+     "id": "0xc5a9b485dcf72b254bf0385573d9e448d6210ad8170ae421003aa87a2a6784cc",
+     "label": "Bucks vs. Heat",
+     "side": "YES",
+     "price": 0.14,
+     "shares": 29.99,
+     "fee": 0.18054,
+     "cost": 4.3791
+    },
+    {
+     "venue": "KS",
+     "id": "KXNBAWINMARGIN-26NOV18MILMIA-MIL1TO5",
+     "label": "Milwaukee wins by 1-5 points",
+     "side": "NO",
+     "price": 0.92,
+     "shares": 30,
+     "fee": 0.16,
+     "cost": 27.76
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 120,
+   "time": "2026-11-18T23:27:48Z",
+   "game": "nba:26NOV18PHIORL",
+   "title": "PHI at ORL",
+   "league": "nba",
+   "kickoff": "2026-11-19T00:00:00Z",
+   "min_to_ko": 32.2,
+   "t_lp": 0.006751,
+   "cost": 11.9327,
+   "guaranteed_payout": 12.0,
+   "guaranteed_profit": 0.0673,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0xbc7541c20e28a3662b2076b436c4d4c4f519ac5fcf1219e425646623849b1277",
+     "label": "Spread: Magic (-5.5)",
+     "side": "NO",
+     "price": 0.61,
+     "shares": 12.0,
+     "fee": 0.14274,
+     "cost": 7.4627
+    },
+    {
+     "venue": "KS",
+     "id": "KXNBASPREAD-26NOV18PHIORL-ORL21",
+     "label": "Orlando wins by over 20.5 points",
+     "side": "YES",
+     "price": 0.07,
+     "shares": 12,
+     "fee": 0.06,
+     "cost": 0.9
+    },
+    {
+     "venue": "KS",
+     "id": "KXNBAWINMARGIN-26NOV18PHIORL-ORL11TO20",
+     "label": "Orlando wins by 11-20 points",
+     "side": "YES",
+     "price": 0.15,
+     "shares": 12,
+     "fee": 0.11,
+     "cost": 1.91
+    },
+    {
+     "venue": "KS",
+     "id": "KXNBAWINMARGIN-26NOV18PHIORL-ORL6TO10",
+     "label": "Orlando wins by 6-10 points",
+     "side": "YES",
+     "price": 0.13,
+     "shares": 12,
+     "fee": 0.1,
+     "cost": 1.66
+    }
+   ],
+   "status": "open"
   }
  ],
- "consumed": {},
+ "consumed": {
+  "PM|0x6872df52804e8cc6f16add1d1bec9a7ca9481ff67b6068a8ac91e8cbdafa1adb|NO|0.9200": {
+   "n": 29.99,
+   "t": "2026-11-18T23:21:47Z"
+  },
+  "PM|0xc5a9b485dcf72b254bf0385573d9e448d6210ad8170ae421003aa87a2a6784cc|YES|0.1400": {
+   "n": 29.99,
+   "t": "2026-11-18T23:21:47Z"
+  },
+  "KS|KXNBAWINMARGIN-26NOV18MILMIA-MIL1TO5|NO|0.9200": {
+   "n": 30.0,
+   "t": "2026-11-18T23:21:47Z"
+  },
+  "PM|0xbc7541c20e28a3662b2076b436c4d4c4f519ac5fcf1219e425646623849b1277|NO|0.6100": {
+   "n": 12.0,
+   "t": "2026-11-18T23:27:48Z"
+  },
+  "KS|KXNBASPREAD-26NOV18PHIORL-ORL21|YES|0.0700": {
+   "n": 12.0,
+   "t": "2026-11-18T23:27:48Z"
+  },
+  "KS|KXNBAWINMARGIN-26NOV18PHIORL-ORL11TO20|YES|0.1500": {
+   "n": 12.0,
+   "t": "2026-11-18T23:27:48Z"
+  },
+  "KS|KXNBAWINMARGIN-26NOV18PHIORL-ORL6TO10|YES|0.1300": {
+   "n": 12.0,
+   "t": "2026-11-18T23:27:48Z"
+  }
+ },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 118,
+ "n_trades": 120,
  "n_settled": 113,
  "realized_pnl": 2060.8176920000074,
  "runs": 57,
  "locked": {
-  "PM": 2.2737367544323206e-13,
-  "KS": 0.0,
+  "PM": 39.54300000000023,
+  "KS": 32.23,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 3484.0600000000004,
@@ -427,7 +558,7 @@
  },
  "min_cash": {
   "PM": 2369.7283000000007,
-  "KS": 5231.9400000000005,
+  "KS": 5201.549999999999,
   "BK:smarkets": -8947.57,
   "BK:pinnacle": -6879.0199999999995,
   "BK:onexbet": -20246.551300000003,
