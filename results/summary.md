@@ -1,27 +1,27 @@
-# Paper-trading bot: status at 2026-11-18T00:14:00Z
+# Paper-trading bot: status at 2026-11-18T00:33:58Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 112 / 112 |
+| Trades executed / settled | 113 / 112 |
 | Realised profit | $1,983.06 ≈ €1,709.53 |
 | … Polymarket/Kalshi only | $28.75 |
 | … with bookmakers (all) | $1,954.30 |
 | … with bookmakers licensed in Spain only | $0.00 |
-| Open positions (cost) | $0.00 |
+| Open positions (cost) | $2,499.99 |
 | Money in transit between accounts | $0.00 |
 | Equity (cash + open at cost + in transit) | $30,983.06 ≈ €26,709.54 |
 | Return so far (realised / peak money in use) | 3.291% over 11.1 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 632, executed 22, rounding 71, seen 783, vanished 53.
-Gaps using bookmakers: below_min_size 2, executed 90, no_cash 41, rounding 2, seen 155, vanished 20 (snapshots combined with Polymarket/Kalshi: 1297).
+Gaps using bookmakers: below_min_size 2, executed 91, no_cash 41, rounding 2, seen 156, vanished 20 (snapshots combined with Polymarket/Kalshi: 1309).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 1,809 (about 13.4 days at the current pace).
+The Odds API credits left: 1,788 (about 12.3 days at the current pace).
 
 ## Capital by account
 
@@ -49,10 +49,10 @@ Peak in use = the most money that was tied up in open positions at the same time
 | grosvenor | $580.00 | $580.00 | $0.00 | $292.30 | $287.70 |
 | gtbets | $580.00 | $5,009.94 | $0.00 | $6,720.04 | $-7,633.02 |
 | leovegas_se | $580.00 | $5,327.11 | $0.00 | $2,971.13 | $-1,181.83 |
-| lowvig | $580.00 | $-2,919.78 | $0.00 | $1,628.95 | $-2,919.78 |
+| lowvig | $580.00 | $-3,946.77 | $1,026.99 | $1,628.95 | $-3,946.77 |
 | marathonbet (Spain) | $580.00 | $2,060.64 | $0.00 | $2,789.53 | $-1,673.21 |
 | matchbook | $580.00 | $6,877.20 | $0.00 | $4,155.10 | $-3,925.78 |
-| mybookieag | $580.00 | $-5,651.16 | $0.00 | $4,422.60 | $-5,651.16 |
+| mybookieag | $580.00 | $-7,124.16 | $1,473.00 | $4,422.60 | $-7,124.16 |
 | onexbet | $580.00 | $-4,522.17 | $0.00 | $22,357.23 | $-20,246.55 |
 | pinnacle | $580.00 | $-2,307.28 | $0.00 | $3,723.57 | $-6,879.02 |
 | skybet | $580.00 | $-375.11 | $0.00 | $567.67 | $-375.11 |
@@ -68,7 +68,7 @@ Transfers between accounts: 4 ($1,399.69 moved, $0.00 in fees; 0 still in transi
 
 ## Gaps followed: the same portfolio re-checked later, and order-book depth
 
-Gaps above 0.1% followed: 122 Polymarket/Kalshi and 177 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
+Gaps above 0.1% followed: 122 Polymarket/Kalshi and 178 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
 
 | re-check | measured | still profitable | above 0.2% | a leg no longer offered | censored |
 |---|---|---|---|---|---|
@@ -76,13 +76,13 @@ Gaps above 0.1% followed: 122 Polymarket/Kalshi and 177 with bookmakers. A re-ch
 | +1 min | 121 | 90 | 68 | 0 | 1 |
 | +2 min | 121 | 76 | 54 | 0 | 1 |
 | +5 min | 116 | 57 | 44 | 0 | 6 |
-| bookmaker confirmation (~1 min) | 303 | 128 | 123 | 7 | 0 |
+| bookmaker confirmation (~1 min) | 304 | 128 | 123 | 7 | 0 |
 | next bookmaker snapshot | 282 | 28 | 22 | 10 | 0 |
 
 Depth at detection (capacity = largest size still profitable after walking the order books):
 
 - Polymarket/Kalshi gaps (122): median capacity $0 (maximum $2,826); still profitable with a $50 stake: 22 of 121; median largest guaranteed profit $0.00.
-- Gaps with bookmakers (177): median capacity $20,000 (maximum $20,000); still profitable with a $50 stake: 169 of 177; median largest guaranteed profit $124.09. Bookmakers publish no order-book depth, so only the Polymarket/Kalshi legs limit these sizes and the capacity stops at the search limit of $20,000; the bot's bets with bookmakers are capped at $2,500.
+- Gaps with bookmakers (178): median capacity $20,000 (maximum $20,000); still profitable with a $50 stake: 170 of 178; median largest guaranteed profit $124.40. Bookmakers publish no order-book depth, so only the Polymarket/Kalshi legs limit these sizes and the capacity stops at the search limit of $20,000; the bot's bets with bookmakers are capped at $2,500.
 
 Details: `results/rechecks.csv`, `results/depth.csv`.
 
@@ -90,6 +90,7 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 
 | # | time (UTC) | game | min to KO | with bookmakers | gap | cost | guaranteed profit | status | P&L |
 |---|---|---|---|---|---|---|---|---|---|
+| 113 | 11-18T00:31 | POR at MIN | 28.2 | lowvig, mybookieag | 3.11% | $2499.99 | $77.75 | open |  |
 | 112 | 11-17T19:41 | Denmark v Norway | 3.3 | onexbet | 0.36% | $2499.99 | $8.96 | settled | $+8.97 |
 | 111 | 11-17T19:31 | Poland v Sweden | 13.3 | onexbet | 0.67% | $2499.99 | $16.84 | settled | $+16.84 |
 | 110 | 11-17T19:31 | Israel v Austria | 13.3 | onexbet, pinnacle, winamax_de | 0.78% | $2499.98 | $19.47 | settled | $+19.47 |
@@ -114,4 +115,3 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 | 91 | 11-15T17:51 | MIA at IND | 8.8 | no | 0.58% | $26.96 | $0.04 | settled | $+0.18 |
 | 90 | 11-15T17:17 | MIN at GB | 42.8 | no | 0.84% | $36.90 | $0.10 | settled | $+1.10 |
 | 89 | 11-15T16:50 | CAR at NO | 69.8 | no | 0.37% | $31.90 | $0.10 | settled | $+0.10 |
-| 88 | 11-14T23:56 | DET at TB | 3.2 | betrivers, lowvig | 0.34% | $2499.99 | $8.59 | settled | $+8.61 |
