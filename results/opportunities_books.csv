@@ -1347,3 +1347,9 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-18T21:30:19Z,nhl:26NOV18BOSDET,BOS at DET,nhl,179.7,scheduled,15,-0.007751,0.607609,seen,,nhl:26NOV18BOSDET|2026-11-18T21:30:13Z|with_books,leovegas_se h2h Detroit Red Wings  @2.55 x0.630 | leovegas_se h2h Draw  @4.35 x0.370
 2026-11-18T21:31:46Z,nhl:26NOV18MTLNJ,MTL at NJ,nhl,178.2,confirmation,15,-0.011921,0.422552,executed,,,onexbet h2h New Jersey Devils  @2.04 x0.697 | unibet_se h2h Draw  @4.7 x0.303
 2026-11-18T21:31:46Z,nhl:26NOV18BOSDET,BOS at DET,nhl,178.2,confirmation,15,-0.007751,0.607609,executed,,,leovegas_se h2h Detroit Red Wings  @2.55 x0.630 | leovegas_se h2h Draw  @4.35 x0.370
+2026-11-18T22:30:19Z,nba:26NOV18CHIBKN,CHI at BKN,nba,119.7,scheduled,14,-0.014839,-0.002054,no gap,,,
+2026-11-18T22:30:23Z,nba:26NOV18WASTOR,WAS at TOR,nba,119.6,scheduled,16,-0.013232,-0.008524,no gap,,,
+2026-11-18T22:30:23Z,nhl:26NOV18MTLNJ,MTL at NJ,nhl,119.6,scheduled,15,-0.011921,0.427407,seen,,nhl:26NOV18MTLNJ|2026-11-18T22:30:21Z|with_books,onexbet h2h New Jersey Devils  @2.05 x0.696 | unibet_se h2h Draw  @4.7 x0.304
+2026-11-18T22:30:23Z,nhl:26NOV18BOSDET,BOS at DET,nhl,119.6,scheduled,15,-0.011921,0.607609,seen,,nhl:26NOV18BOSDET|2026-11-18T22:30:21Z|with_books,leovegas_se h2h Detroit Red Wings  @2.55 x0.630 | leovegas_se h2h Draw  @4.35 x0.370
+2026-11-18T22:31:51Z,nhl:26NOV18MTLNJ,MTL at NJ,nhl,118.1,confirmation,15,-0.011921,0.427407,executed,,,onexbet h2h New Jersey Devils  @2.05 x0.696 | unibet_se h2h Draw  @4.7 x0.304
+2026-11-18T22:31:51Z,nhl:26NOV18BOSDET,BOS at DET,nhl,118.1,confirmation,15,-0.011921,0.607609,executed,,,leovegas_se h2h Detroit Red Wings  @2.55 x0.630 | leovegas_se h2h Draw  @4.35 x0.370
