@@ -1308,3 +1308,7 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-18T00:30:18Z,nhl:26NOV17NSHMIN,NSH at MIN,nhl,29.7,scheduled,10,-0.011921,-0.011921,no gap,,,
 2026-11-18T00:30:18Z,nhl:26NOV17ANASTL,ANA at STL,nhl,29.7,scheduled,6,-0.011921,-0.011921,no gap,,,
 2026-11-18T00:31:47Z,nba:26NOV17PORMIN,POR at MIN,nba,28.2,confirmation,14,-0.01009,0.031103,executed,,,mybookieag h2h Minnesota Timberwolves  @1.75 x0.589 | lowvig h2h Portland Trail Blazers  @2.51 x0.411
+2026-11-18T00:45:18Z,nba:26NOV17PORMIN,POR at MIN,nba,14.7,scheduled,8,-0.000233,-0.000233,no gap,,,
+2026-11-18T00:45:18Z,nba:26NOV17DETSAS,DET at SAS,nba,14.7,scheduled,12,-0.014511,-0.014511,no gap,,,
+2026-11-18T00:45:18Z,nhl:26NOV17NSHMIN,NSH at MIN,nhl,14.7,scheduled,10,-0.011921,-0.011921,no gap,,,
+2026-11-18T00:45:18Z,nhl:26NOV17ANASTL,ANA at STL,nhl,14.7,scheduled,6,-0.011921,-0.011921,no gap,,,
