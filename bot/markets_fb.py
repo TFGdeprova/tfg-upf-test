@@ -2,16 +2,27 @@
 
 Contracts: 1X2, totals, spreads, both-teams-to-score, team totals, exact scores (90 minutes + stoppage time).
 """
-import re, json, unicodedata, difflib, datetime as dt
+import re, json, time, unicodedata, difflib, datetime as dt
 from .common import get, GAMMA, KS, parse, now, ks_event_markets
 from .grid import predicate
 
 LEAGUES = {"epl": (10188, "EPL"), "lal": (10193, "LALIGA"), "sea": (10203, "SERIEA"), "bun": (10194, "BUNDESLIGA"),
            "fl1": (10195, "LIGUE1"), "ere": (10286, "EREDIVISIE"), "elc": (10355, "EFLCHAMPIONSHIP"),
            "scop": (10674, "SCOTTISHPREM"), "ucl": (10204, "UCL"), "uel": (10209, "UEL"),
-           "unl": (11446, "UEFANL"), "cnl": (10673, "CONCACAFNL"), "fif": (10238, "INTLFRIENDLY")}
+           "unl": (11446, "UEFANL"), "cnl": (10673, "CONCACAFNL"), "fif": (10238, "INTLFRIENDLY"),
+           # extra competitions listed on both platforms (added 18 Nov 2026; Polymarket and Kalshi only, polled every 60 s)
+           "mls": (10189, "MLS"), "lmx": (10290, "LIGAMX"), "fr2": (10675, "LIGUE2"), "bl2": (10670, "BUNDESLIGA2"),
+           "el2": (11436, "EFLL2"), "tur": (10292, "SUPERLIG"), "aut": (11636, "AUTBUNDES"), "swe": (11637, "ALLSVENSKAN"),
+           "cze": (10970, "CZEFL"), "hr1": (11451, "HNL"), "hun": (11640, "HUNNB1"), "gre": (12356, "SLGREECE"),
+           "rou": (10971, "ROML1"), "srb": (11639, "SRBSL"), "ukr": (11241, "UKRPL"), "svk": (11452, "SVK1L"),
+           "slo": (11641, "SVNPL"), "bul": (11643, "BULFL"), "uae": (12354, "UAEPL"), "qat": (12355, "QSTARS"),
+           "sau": (10361, "SAUDIPL"), "uru": (11862, "URYPD"), "per": (10967, "PERLIGA1"), "bol": (10966, "BOLPDIV"),
+           "aus": (10438, "ALEAGUE"), "kr2": (11879, "K2LEAGUE"), "uwcl": (11240, "UCLW")}
 # national teams: UEFA and CONCACAF Nations League, friendlies (bookmaker odds only for the UEFA Nations League)
+EXTRA = {"mls", "lmx", "fr2", "bl2", "el2", "tur", "aut", "swe", "cze", "hr1", "hun", "gre", "rou", "srb", "ukr", "svk",
+         "slo", "bul", "uae", "qat", "sau", "uru", "per", "bol", "aus", "kr2", "uwcl"}   # not in the historical study
 KS_KINDS = ["GAME", "TOTAL", "SPREAD", "BTTS", "SCORE", "TEAMTOTAL"]
+_KS_SEEN, _KS_EMPTY = set(), {}             # Kalshi event tickers that returned markets / last time one returned none
 STOP = {"fc", "afc", "cf", "sc", "ac", "as", "ss", "us", "ssc", "rc", "rcd", "cd", "ud", "sd", "ca", "club", "de", "la", "the",
         "calcio", "vs", "sv", "fsv", "tsg", "vfl", "vfb", "bc", "1", "1899", "1846", "04", "05", "09", "sk", "fk", "bk", "kv"}
 ALIAS = {"wolves": "wolverhampton", "man": "manchester", "utd": "united", "nott": "nottingham", "forest": "nottingham",
@@ -135,7 +146,11 @@ def ks_contracts(game):
     side = _side(game); out = []
     for ev in game["ks_events"]:
         kind = ev.split("-", 1)[0]
-        for m in ks_event_markets(ev):
+        if ev not in _KS_SEEN and time.time() - _KS_EMPTY.get(ev, 0) < 600: continue   # absent market type: retry later
+        mk = ks_event_markets(ev)
+        if mk: _KS_SEEN.add(ev)
+        else: _KS_EMPTY[ev] = time.time()
+        for m in mk:
             if m.get("status") not in ("active", "open"): continue
             y = re.sub(r"^(Goal Diff )?Reg Time:\s*", "", m.get("yes_sub_title") or "").replace("more than", "over")
             pred = None

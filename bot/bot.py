@@ -26,6 +26,7 @@ RES = os.environ.get("BOT_RESULTS_DIR") or os.path.join(ROOT, "results")
 RAW = os.environ.get("BOT_RAW_DIR")                      # raw top-of-book snapshots (kept out of the public repo)
 E = lambda k, d: type(d)(os.environ.get(k, d))
 POLL_SEC, WINDOW_H, DISCOVER_MIN = E("POLL_SEC", 30), E("WINDOW_H", 3.0), E("DISCOVER_MIN", 10)
+POLL_EXTRA = E("POLL_EXTRA", 60)        # competitions outside the historical study: every 60 s (30 s while a gap is followed)
 MAX_RUNTIME_MIN, COMMIT_MIN = E("MAX_RUNTIME_MIN", 340), E("COMMIT_MIN", 20)
 THRESH, MIN_PROFIT, CAP_PER_TRADE = E("THRESH", 0.002), E("MIN_PROFIT", 0.02), E("CAP_PER_TRADE", 2500.0)
 # Unlimited capital (default, for the test of the opportunities): cash never limits a trade. Polymarket/Kalshi trades
@@ -48,7 +49,7 @@ STATUS = {"checks": 0, "errors": 0, "raw_snapshots": 0, "results_pushes": 0, "ra
           "book_confirm_calls": 0, "score_calls": 0, "watches": 0, "rechecks": 0, "depth_rows": 0, "ks_depth_calls": 0,
           "discover_errors": 0, "last_discover_error": None}
 CONFIRM = {}                             # league -> time after which a confirmation snapshot is taken
-ODDS_KEYS = {i: os.environ.get(f"ODDS_API_KEY_{i}", "").strip() for i in range(1, 11)}  # GitHub secrets; never logged
+ODDS_KEYS = {i: os.environ.get(f"ODDS_API_KEY_{i}", "").strip() for i in range(1, 21)}  # GitHub secrets; never logged
 
 
 def log(*a): print(iso(now()), *a, flush=True)
@@ -146,6 +147,7 @@ class Game:
         self.qage = {}                                    # (venue, id, side) -> (price, time the price was first seen)
         self.t_first = None                               # first check of the game (price ages cannot be longer)
         self.watches, self.wid = [], None                 # gaps being followed; id of the current Polymarket/Kalshi episode
+        self.t_check = 0.0                                # time of the last check (extra competitions are polled less often)
 
     @property
     def ko(self): return parse(self.m["kickoff"])
@@ -831,7 +833,9 @@ def main():
             d = keys.days_left(); STATUS["odds_credits_usable"] = keys.usable()
             STATUS["odds_days_left"] = round(d, 1) if d != float("inf") else None
             active = [g for g in games.values() if g.ko - dt.timedelta(hours=WINDOW_H) <= now() < g.ko - dt.timedelta(minutes=1)]
-            for g, res in zip(active, pool.map(lambda g: check(g, st), active)):
+            due = [g for g in active if g.m["league"] not in markets_fb.EXTRA or g.watches or t0 - g.t_check >= POLL_EXTRA - 1]
+            for g in due: g.t_check = t0
+            for g, res in zip(due, pool.map(lambda g: check(g, st), due)):
                 try: handle(g, st, res)
                 except Exception: log("handle error", g.m["id"], traceback.format_exc(limit=2)); STATUS["errors"] += 1
             for g in games.values():                                  # followed gaps of games that left the window

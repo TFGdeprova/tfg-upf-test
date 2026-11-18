@@ -68,6 +68,16 @@ jobs:
           ODDS_API_KEY_8: ${{ secrets.ODDS_API_KEY_8 }}
           ODDS_API_KEY_9: ${{ secrets.ODDS_API_KEY_9 }}
           ODDS_API_KEY_10: ${{ secrets.ODDS_API_KEY_10 }}
+          ODDS_API_KEY_11: ${{ secrets.ODDS_API_KEY_11 }}
+          ODDS_API_KEY_12: ${{ secrets.ODDS_API_KEY_12 }}
+          ODDS_API_KEY_13: ${{ secrets.ODDS_API_KEY_13 }}
+          ODDS_API_KEY_14: ${{ secrets.ODDS_API_KEY_14 }}
+          ODDS_API_KEY_15: ${{ secrets.ODDS_API_KEY_15 }}
+          ODDS_API_KEY_16: ${{ secrets.ODDS_API_KEY_16 }}
+          ODDS_API_KEY_17: ${{ secrets.ODDS_API_KEY_17 }}
+          ODDS_API_KEY_18: ${{ secrets.ODDS_API_KEY_18 }}
+          ODDS_API_KEY_19: ${{ secrets.ODDS_API_KEY_19 }}
+          ODDS_API_KEY_20: ${{ secrets.ODDS_API_KEY_20 }}
         run: |
           git config user.name "tfg-paper-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
