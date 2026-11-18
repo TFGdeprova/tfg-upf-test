@@ -29,9 +29,10 @@
   "BK:betsson": 2119.7043999999996,
   "BK:codere_it": 1797.4973999999997,
   "BK:boylesports": 1315.0279999999998,
-  "BK:fanduel": -1079.29,
+  "BK:fanduel": -2247.51,
   "BK:bovada": -244.12,
-  "BK:draftkings": -2698.54
+  "BK:draftkings": -2698.54,
+  "BK:williamhill": -751.77
  },
  "start_cash": {
   "PM": 5800.0,
@@ -65,7 +66,8 @@
   "BK:boylesports": 580.0,
   "BK:fanduel": 580.0,
   "BK:bovada": 580.0,
-  "BK:draftkings": 580.0
+  "BK:draftkings": 580.0,
+  "BK:williamhill": 580.0
  },
  "open": [
   {
@@ -289,11 +291,67 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 118,
+   "time": "2026-11-18T23:02:02Z",
+   "game": "nba:26NOV18PHIORL",
+   "title": "PHI at ORL",
+   "league": "nba",
+   "kickoff": "2026-11-19T00:00:00Z",
+   "min_to_ko": 58.0,
+   "t_lp": 0.065421,
+   "with_books": true,
+   "books": [
+    "fanduel",
+    "williamhill"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "635a9b07c018a821e08b521ea473133b",
+    "sport": "basketball_nba",
+    "home": "Orlando Magic",
+    "away": "Philadelphia 76ers"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2663.54,
+   "guaranteed_profit": 163.55,
+   "legs": [
+    {
+     "venue": "BK:williamhill",
+     "book": "williamhill",
+     "market": "h2h",
+     "outcome": "Orlando Magic",
+     "side": "home",
+     "point": null,
+     "odds": 2.0,
+     "eff": 2.0,
+     "three_way": false,
+     "stake": 1331.77,
+     "cost": 1331.77,
+     "label": "h2h Orlando Magic  @2.0"
+    },
+    {
+     "venue": "BK:fanduel",
+     "book": "fanduel",
+     "market": "h2h",
+     "outcome": "Philadelphia 76ers",
+     "side": "away",
+     "point": null,
+     "odds": 2.28,
+     "eff": 2.28,
+     "three_way": false,
+     "stake": 1168.22,
+     "cost": 1168.22,
+     "label": "h2h Philadelphia 76ers  @2.28"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {},
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 117,
+ "n_trades": 118,
  "n_settled": 113,
  "realized_pnl": 2060.8176920000074,
  "runs": 57,
@@ -327,9 +385,10 @@
   "BK:betsson": 0.0,
   "BK:codere_it": 0.0,
   "BK:boylesports": 0.0,
-  "BK:fanduel": 0.0,
+  "BK:fanduel": 1168.22,
   "BK:bovada": 0.0,
-  "BK:draftkings": 0.0
+  "BK:draftkings": 0.0,
+  "BK:williamhill": 1331.77
  },
  "peak_locked": {
   "PM": 4486.7806,
@@ -363,7 +422,8 @@
   "BK:boylesports": 1813.5100000000002,
   "BK:fanduel": 1659.29,
   "BK:bovada": 824.12,
-  "BK:draftkings": 3278.54
+  "BK:draftkings": 3278.54,
+  "BK:williamhill": 1331.77
  },
  "min_cash": {
   "PM": 2369.7283000000007,
@@ -395,9 +455,10 @@
   "BK:betsson": -406.99,
   "BK:codere_it": -715.21,
   "BK:boylesports": -1233.5100000000002,
-  "BK:fanduel": -1079.29,
+  "BK:fanduel": -2247.51,
   "BK:bovada": -244.12,
-  "BK:draftkings": -2698.54
+  "BK:draftkings": -2698.54,
+  "BK:williamhill": -751.77
  },
  "transfers": [],
  "transfer_stats": {
@@ -417,10 +478,10 @@
    "7": 204,
    "8": 461,
    "9": 459,
-   "10": 494,
+   "10": 488,
    "11": 488,
-   "12": 488,
-   "13": 488
+   "12": 482,
+   "13": 482
   },
   "spent": {
    "2026-11-06": 27,
@@ -434,7 +495,7 @@
    "2026-11-15": 239,
    "2026-11-16": 117,
    "2026-11-17": 152,
-   "2026-11-18": 125
+   "2026-11-18": 143
   }
  },
  "book_slots": {
@@ -561,6 +622,9 @@
   "nba|2026-11-19T00:30|180": "2026-11-18T21:30:08Z",
   "nhl|2026-11-19T00:30|180": "2026-11-18T21:30:10Z",
   "nba|2026-11-19T00:30|120": "2026-11-18T22:30:10Z",
-  "nhl|2026-11-19T00:30|120": "2026-11-18T22:30:11Z"
+  "nhl|2026-11-19T00:30|120": "2026-11-18T22:30:11Z",
+  "nba|2026-11-19T00:00|60": "2026-11-18T23:00:19Z",
+  "nba|2026-11-19T01:00|120": "2026-11-18T23:00:19Z",
+  "nhl|2026-11-19T02:00|180": "2026-11-18T23:00:20Z"
  }
 }

@@ -1353,3 +1353,11 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-18T22:30:23Z,nhl:26NOV18BOSDET,BOS at DET,nhl,119.6,scheduled,15,-0.011921,0.607609,seen,,nhl:26NOV18BOSDET|2026-11-18T22:30:21Z|with_books,leovegas_se h2h Detroit Red Wings  @2.55 x0.630 | leovegas_se h2h Draw  @4.35 x0.370
 2026-11-18T22:31:51Z,nhl:26NOV18MTLNJ,MTL at NJ,nhl,118.1,confirmation,15,-0.011921,0.427407,executed,,,onexbet h2h New Jersey Devils  @2.05 x0.696 | unibet_se h2h Draw  @4.7 x0.304
 2026-11-18T22:31:51Z,nhl:26NOV18BOSDET,BOS at DET,nhl,118.1,confirmation,15,-0.011921,0.607609,executed,,,leovegas_se h2h Detroit Red Wings  @2.55 x0.630 | leovegas_se h2h Draw  @4.35 x0.370
+2026-11-18T23:00:33Z,nba:26NOV18MEMCLE,MEM at CLE,nba,59.4,scheduled,16,-0.01698,-0.012351,no gap,,,
+2026-11-18T23:00:33Z,nba:26NOV18HOUIND,HOU at IND,nba,59.4,scheduled,20,-0.011386,-0.003278,no gap,,,
+2026-11-18T23:00:33Z,nba:26NOV18MILMIA,MIL at MIA,nba,59.4,scheduled,14,-0.008755,-0.008755,no gap,,,
+2026-11-18T23:00:33Z,nba:26NOV18PHIORL,PHI at ORL,nba,59.4,scheduled,32,-0.003874,0.044661,seen,493131.52,nba:26NOV18PHIORL|2026-11-18T23:00:28Z|with_books,KS YES 0.440 x0.478 Philadelphia | williamhill h2h Orlando Magic  @2.0 x0.522
+2026-11-18T23:00:33Z,nba:26NOV18DETNOP,DET at NOP,nba,119.4,scheduled,14,-0.01698,-0.006558,no gap,,,
+2026-11-18T23:00:33Z,nba:26NOV18ATLOKC,ATL at OKC,nba,119.4,scheduled,16,-0.006723,-0.006723,no gap,,,
+2026-11-18T23:00:33Z,nba:26NOV18GSWDAL,GSW at DAL,nba,119.4,scheduled,18,-0.006723,-0.006723,no gap,,,
+2026-11-18T23:02:02Z,nba:26NOV18PHIORL,PHI at ORL,nba,58.0,confirmation,30,-0.006606,0.065421,executed,,,williamhill h2h Orlando Magic  @2.0 x0.533 | fanduel h2h Philadelphia 76ers  @2.28 x0.467
