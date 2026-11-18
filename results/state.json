@@ -23,7 +23,7 @@
   "BK:skybet": -375.10999999999996,
   "BK:betrivers": 7162.6533,
   "BK:lowvig": -3946.7699999999995,
-  "BK:mybookieag": -7124.1625,
+  "BK:mybookieag": -4546.4125,
   "BK:betmgm": 5098.2534000000005,
   "BK:betanysports": -894.5856000000008,
   "BK:betsson": 2119.7043999999996,
@@ -67,64 +67,7 @@
   "BK:bovada": 580.0,
   "BK:draftkings": 580.0
  },
- "open": [
-  {
-   "trade_id": 113,
-   "time": "2026-11-18T00:31:47Z",
-   "game": "nba:26NOV17PORMIN",
-   "title": "POR at MIN",
-   "league": "nba",
-   "kickoff": "2026-11-18T01:00:00Z",
-   "min_to_ko": 28.2,
-   "t_lp": 0.031103,
-   "with_books": true,
-   "books": [
-    "lowvig",
-    "mybookieag"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "f1c9f0cd022cd864154413efbd9d9522",
-    "sport": "basketball_nba",
-    "home": "Minnesota Timberwolves",
-    "away": "Portland Trail Blazers"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2577.7449,
-   "guaranteed_profit": 77.7549,
-   "legs": [
-    {
-     "venue": "BK:mybookieag",
-     "book": "mybookieag",
-     "market": "h2h",
-     "outcome": "Minnesota Timberwolves",
-     "side": "home",
-     "point": null,
-     "odds": 1.75,
-     "eff": 1.75,
-     "three_way": false,
-     "stake": 1473.0,
-     "cost": 1473.0,
-     "label": "h2h Minnesota Timberwolves  @1.75"
-    },
-    {
-     "venue": "BK:lowvig",
-     "book": "lowvig",
-     "market": "h2h",
-     "outcome": "Portland Trail Blazers",
-     "side": "away",
-     "point": null,
-     "odds": 2.51,
-     "eff": 2.51,
-     "three_way": false,
-     "stake": 1026.99,
-     "cost": 1026.99,
-     "label": "h2h Portland Trail Blazers  @2.51"
-    }
-   ],
-   "status": "open"
-  }
- ],
+ "open": [],
  "consumed": {
   "PM|0x756c222cb3954c59e70fcba8a767c6f2ccd7158d623f1e0572be3e6f94d8a75c|YES|0.3900": {
    "n": 2516.07,
@@ -145,8 +88,8 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 113,
- "n_settled": 112,
- "realized_pnl": 1983.0576920000071,
+ "n_settled": 113,
+ "realized_pnl": 2060.8176920000074,
  "runs": 52,
  "locked": {
   "PM": 2.2737367544323206e-13,
@@ -171,8 +114,8 @@
   "BK:betonlineag": 4.547473508864641e-13,
   "BK:skybet": 0.0,
   "BK:betrivers": 0.0,
-  "BK:lowvig": 1026.99,
-  "BK:mybookieag": 1473.0,
+  "BK:lowvig": 0.0,
+  "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
   "BK:betanysports": 2.2737367544323206e-13,
   "BK:betsson": 0.0,
@@ -266,8 +209,8 @@
    "5": 116,
    "6": 207,
    "7": 204,
-   "8": 464,
-   "9": 461
+   "8": 461,
+   "9": 459
   },
   "spent": {
    "2026-11-06": 27,
@@ -281,7 +224,7 @@
    "2026-11-15": 239,
    "2026-11-16": 117,
    "2026-11-17": 152,
-   "2026-11-18": 78
+   "2026-11-18": 83
   }
  },
  "book_slots": {
@@ -402,6 +345,7 @@
   "nba|2026-11-18T03:30|15": "2026-11-18T03:15:09Z",
   "nba|2026-11-18T03:30|5": "2026-11-18T03:25:09Z",
   "nba|2026-11-18T04:00|30": "2026-11-18T03:30:09Z",
-  "nba|2026-11-18T04:00|15": "2026-11-18T03:45:09Z"
+  "nba|2026-11-18T04:00|15": "2026-11-18T03:45:09Z",
+  "nba|2026-11-18T04:00|5": "2026-11-18T03:55:09Z"
  }
 }

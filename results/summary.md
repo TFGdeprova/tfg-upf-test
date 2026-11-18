@@ -1,27 +1,27 @@
-# Paper-trading bot: status at 2026-11-18T03:53:48Z
+# Paper-trading bot: status at 2026-11-18T04:13:53Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 113 / 112 |
-| Realised profit | $1,983.06 ≈ €1,709.53 |
+| Trades executed / settled | 113 / 113 |
+| Realised profit | $2,060.82 ≈ €1,776.57 |
 | … Polymarket/Kalshi only | $28.75 |
-| … with bookmakers (all) | $1,954.30 |
+| … with bookmakers (all) | $2,032.06 |
 | … with bookmakers licensed in Spain only | $0.00 |
-| Open positions (cost) | $2,499.99 |
+| Open positions (cost) | $0.00 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $30,983.06 ≈ €26,709.54 |
-| Return so far (realised / peak money in use) | 3.291% over 11.2 days |
+| Equity (cash + open at cost + in transit) | $31,060.82 ≈ €26,776.57 |
+| Return so far (realised / peak money in use) | 3.420% over 11.2 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 632, executed 22, rounding 71, seen 783, vanished 53.
-Gaps using bookmakers: below_min_size 2, executed 91, no_cash 41, rounding 2, seen 156, vanished 20 (snapshots combined with Polymarket/Kalshi: 1337).
+Gaps using bookmakers: below_min_size 2, executed 91, no_cash 41, rounding 2, seen 156, vanished 20 (snapshots combined with Polymarket/Kalshi: 1338).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 1,734 (about 10.8 days at the current pace).
+The Odds API credits left: 1,729 (about 10.7 days at the current pace).
 
 ## Capital by account
 
@@ -49,10 +49,10 @@ Peak in use = the most money that was tied up in open positions at the same time
 | grosvenor | $580.00 | $580.00 | $0.00 | $292.30 | $287.70 |
 | gtbets | $580.00 | $5,009.94 | $0.00 | $6,720.04 | $-7,633.02 |
 | leovegas_se | $580.00 | $5,327.11 | $0.00 | $2,971.13 | $-1,181.83 |
-| lowvig | $580.00 | $-3,946.77 | $1,026.99 | $1,628.95 | $-3,946.77 |
+| lowvig | $580.00 | $-3,946.77 | $0.00 | $1,628.95 | $-3,946.77 |
 | marathonbet (Spain) | $580.00 | $2,060.64 | $0.00 | $2,789.53 | $-1,673.21 |
 | matchbook | $580.00 | $6,877.20 | $0.00 | $4,155.10 | $-3,925.78 |
-| mybookieag | $580.00 | $-7,124.16 | $1,473.00 | $4,422.60 | $-7,124.16 |
+| mybookieag | $580.00 | $-4,546.41 | $0.00 | $4,422.60 | $-7,124.16 |
 | onexbet | $580.00 | $-4,522.17 | $0.00 | $22,357.23 | $-20,246.55 |
 | pinnacle | $580.00 | $-2,307.28 | $0.00 | $3,723.57 | $-6,879.02 |
 | skybet | $580.00 | $-375.11 | $0.00 | $567.67 | $-375.11 |
@@ -90,7 +90,7 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 
 | # | time (UTC) | game | min to KO | with bookmakers | gap | cost | guaranteed profit | status | P&L |
 |---|---|---|---|---|---|---|---|---|---|
-| 113 | 11-18T00:31 | POR at MIN | 28.2 | lowvig, mybookieag | 3.11% | $2499.99 | $77.75 | open |  |
+| 113 | 11-18T00:31 | POR at MIN | 28.2 | lowvig, mybookieag | 3.11% | $2499.99 | $77.75 | settled | $+77.76 |
 | 112 | 11-17T19:41 | Denmark v Norway | 3.3 | onexbet | 0.36% | $2499.99 | $8.96 | settled | $+8.97 |
 | 111 | 11-17T19:31 | Poland v Sweden | 13.3 | onexbet | 0.67% | $2499.99 | $16.84 | settled | $+16.84 |
 | 110 | 11-17T19:31 | Israel v Austria | 13.3 | onexbet, pinnacle, winamax_de | 0.78% | $2499.98 | $19.47 | settled | $+19.47 |
