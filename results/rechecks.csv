@@ -1091,3 +1091,4 @@ time,watch,kind,game,title,league,min_to_ko,lag_s,detected,recheck,t_detected,t_
 2026-11-17T23:26:43Z,fif:26NOV17ECUBOL|2026-11-17T23:21:43Z|pm_ks,pm_ks,fif:26NOV17ECUBOL,Ecuador v Bolivia,fif,3.3,299.9,2026-11-17T23:21:43Z,300,0.001393,-0.004862,2/2,-0.001517,False,False,ok
 2026-11-18T00:31:47Z,nba:26NOV17PORMIN|2026-11-18T00:30:17Z|with_books,with_books,nba:26NOV17PORMIN,POR at MIN,nba,28.2,89.6,2026-11-18T00:30:17Z,confirmation,0.051732,-0.07097,2/2,0.031103,False,False,ok
 2026-11-18T00:45:18Z,nba:26NOV17PORMIN|2026-11-18T00:30:17Z|with_books,with_books,nba:26NOV17PORMIN,POR at MIN,nba,14.7,900.3,2026-11-18T00:30:17Z,scheduled,0.051732,-0.07097,2/2,-0.000233,False,False,ok
+2026-11-18T00:55:22Z,nba:26NOV17PORMIN|2026-11-18T00:30:17Z|with_books,with_books,nba:26NOV17PORMIN,POR at MIN,nba,4.6,1504.3,2026-11-18T00:30:17Z,scheduled,0.051732,-0.082656,2/2,-0.000233,False,False,ok
