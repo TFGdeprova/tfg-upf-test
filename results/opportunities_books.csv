@@ -1337,3 +1337,7 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-18T03:30:11Z,nba:26NOV17CHALAL,CHA at LAL,nba,29.8,scheduled,14,-0.006723,-0.006723,no gap,,,
 2026-11-18T03:45:11Z,nba:26NOV17CHALAL,CHA at LAL,nba,14.8,scheduled,14,-0.006723,-0.006723,no gap,,,
 2026-11-18T03:55:11Z,nba:26NOV17CHALAL,CHA at LAL,nba,4.8,scheduled,12,-0.006723,-0.006723,no gap,,,
+2026-11-18T21:00:06Z,nba:26NOV18MEMCLE,MEM at CLE,nba,179.9,scheduled,14,-0.015888,-0.003878,no gap,,,
+2026-11-18T21:00:07Z,nba:26NOV18HOUIND,HOU at IND,nba,179.9,scheduled,12,-0.009732,0.001478,no gap,,nba:26NOV18HOUIND|2026-11-18T21:00:07Z|with_books,
+2026-11-18T21:00:07Z,nba:26NOV18MILMIA,MIL at MIA,nba,179.9,scheduled,14,-0.003788,-0.002457,no gap,,,
+2026-11-18T21:00:07Z,nba:26NOV18PHIORL,PHI at ORL,nba,179.9,scheduled,22,-0.010199,-0.0001,no gap,,,
