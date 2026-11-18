@@ -1328,3 +1328,7 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-18T02:30:16Z,nhl:26NOV17CGYSJ,CGY at SJ,nhl,29.7,scheduled,8,-0.011921,-0.011921,no gap,,,
 2026-11-18T02:45:12Z,nhl:26NOV17DALVGK,DAL at VGK,nhl,14.8,scheduled,8,-0.006723,-0.006723,no gap,,,
 2026-11-18T02:45:12Z,nhl:26NOV17CGYSJ,CGY at SJ,nhl,14.8,scheduled,8,-0.011921,-0.01,no gap,,,
+2026-11-18T02:55:15Z,nhl:26NOV17DALVGK,DAL at VGK,nhl,4.7,scheduled,8,-0.006723,-0.006723,no gap,,,
+2026-11-18T02:55:15Z,nhl:26NOV17CGYSJ,CGY at SJ,nhl,4.7,scheduled,8,-0.011921,-0.01,no gap,,,
+2026-11-18T03:00:12Z,nba:26NOV17UTALAC,UTA at LAC,nba,29.8,scheduled,14,-0.007751,-0.007489,no gap,,,
+2026-11-18T03:00:12Z,nba:26NOV17CHALAL,CHA at LAL,nba,59.8,scheduled,12,0.000274,0.000274,no gap,,,
