@@ -1,20 +1,20 @@
 {
  "cash": {
-  "PM": 12574.048,
+  "PM": 11510.447600000001,
   "KS": 5201.549999999999,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -2307.2799999999993,
-  "BK:onexbet": -8006.233999999999,
-  "BK:matchbook": 6877.197212000001,
-  "BK:leovegas_se": 327.1291799999998,
+  "BK:onexbet": -12211.173999999999,
+  "BK:matchbook": 5916.297212000001,
+  "BK:leovegas_se": -1229.8208200000004,
   "BK:gtbets": 5009.9357,
   "BK:winamax_de": 1646.5399999999997,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -612.0999999999989,
+  "BK:unibet_se": -1389.2799999999988,
   "BK:tipico_de": 2621.998,
   "BK:coolbet": 7055.7693,
   "BK:unibet_nl": -7801.679999999999,
-  "BK:marathonbet": 2060.6412,
+  "BK:marathonbet": 624.2511999999999,
   "BK:coral": 1338.673,
   "BK:betfair_ex_uk": 580.0,
   "BK:betfred_uk": -768.02,
@@ -449,6 +449,225 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 121,
+   "time": "2026-11-18T23:31:55Z",
+   "game": "nba:26NOV18PHIORL",
+   "title": "PHI at ORL",
+   "league": "nba",
+   "kickoff": "2026-11-19T00:00:00Z",
+   "min_to_ko": 28.1,
+   "t_lp": 0.085917,
+   "with_books": true,
+   "books": [
+    "marathonbet"
+   ],
+   "spain_only": true,
+   "event": {
+    "id": "635a9b07c018a821e08b521ea473133b",
+    "sport": "basketball_nba",
+    "home": "Orlando Magic",
+    "away": "Philadelphia 76ers"
+   },
+   "cost": 2499.9904,
+   "guaranteed_payout": 2714.7771,
+   "guaranteed_profit": 214.7867,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x559ca9498eba90b68476a9788fa29cb000e691ef6ab02f1e3bfdf07f11da4572",
+     "label": "76ers vs. Magic",
+     "side": "YES",
+     "price": 0.38,
+     "shares": 2714.79,
+     "fee": 31.98023,
+     "cost": 1063.6004
+    },
+    {
+     "venue": "BK:marathonbet",
+     "book": "marathonbet",
+     "market": "h2h",
+     "outcome": "Orlando Magic",
+     "side": "home",
+     "point": null,
+     "odds": 1.89,
+     "eff": 1.89,
+     "three_way": false,
+     "stake": 1436.39,
+     "cost": 1436.39,
+     "label": "h2h Orlando Magic  @1.89"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 122,
+   "time": "2026-11-18T23:31:55Z",
+   "game": "nhl:26NOV18MTLNJ",
+   "title": "MTL at NJ",
+   "league": "nhl",
+   "kickoff": "2026-11-19T00:30:00Z",
+   "min_to_ko": 58.1,
+   "t_lp": 0.398928,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "a3e6d9189d7bb72b7c8ada9993fe63f2",
+    "sport": "icehockey_nhl",
+    "home": "New Jersey Devils",
+    "away": "Montr\u00e9al Canadiens"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 3497.3043,
+   "guaranteed_profit": 997.3143,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "New Jersey Devils",
+     "side": "home",
+     "point": null,
+     "odds": 2.03,
+     "eff": 2.03,
+     "three_way": false,
+     "stake": 1722.81,
+     "cost": 1722.81,
+     "label": "h2h New Jersey Devils  @2.03"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.5,
+     "eff": 4.5,
+     "three_way": false,
+     "stake": 777.18,
+     "cost": 777.18,
+     "label": "h2h Draw  @4.5"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 123,
+   "time": "2026-11-18T23:31:55Z",
+   "game": "nhl:26NOV18BOSDET",
+   "title": "BOS at DET",
+   "league": "nhl",
+   "kickoff": "2026-11-19T00:30:00Z",
+   "min_to_ko": 58.1,
+   "t_lp": 0.588092,
+   "with_books": true,
+   "books": [
+    "leovegas_se",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "38779d99fd6274c9008c5cc03fa504ef",
+    "sport": "icehockey_nhl",
+    "home": "Detroit Red Wings",
+    "away": "Boston Bruins"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 3970.1984,
+   "guaranteed_profit": 1470.2084,
+   "legs": [
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Detroit Red Wings",
+     "side": "home",
+     "point": null,
+     "odds": 2.55,
+     "eff": 2.55,
+     "three_way": false,
+     "stake": 1556.95,
+     "cost": 1556.95,
+     "label": "h2h Detroit Red Wings  @2.55"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.21,
+     "eff": 4.21,
+     "three_way": false,
+     "stake": 943.04,
+     "cost": 943.04,
+     "label": "h2h Draw  @4.21"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 124,
+   "time": "2026-11-18T23:47:00Z",
+   "game": "nba:26NOV18PHIORL",
+   "title": "PHI at ORL",
+   "league": "nba",
+   "kickoff": "2026-11-19T00:00:00Z",
+   "min_to_ko": 13.0,
+   "t_lp": 0.009645,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "635a9b07c018a821e08b521ea473133b",
+    "sport": "basketball_nba",
+    "home": "Orlando Magic",
+    "away": "Philadelphia 76ers"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2524.0921,
+   "guaranteed_profit": 24.1021,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Orlando Magic",
+     "side": "home",
+     "point": null,
+     "odds": 1.64,
+     "eff": 1.64,
+     "three_way": false,
+     "stake": 1539.09,
+     "cost": 1539.09,
+     "label": "h2h Orlando Magic  @1.64"
+    },
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Philadelphia 76ers",
+     "side": "away",
+     "point": null,
+     "odds": 2.66,
+     "eff": 2.6268000000000002,
+     "three_way": false,
+     "stake": 960.9,
+     "cost": 960.9,
+     "label": "h2h Philadelphia 76ers  @2.66"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -479,29 +698,33 @@
   "KS|KXNBAWINMARGIN-26NOV18PHIORL-ORL6TO10|YES|0.1300": {
    "n": 12.0,
    "t": "2026-11-18T23:27:48Z"
+  },
+  "PM|0x559ca9498eba90b68476a9788fa29cb000e691ef6ab02f1e3bfdf07f11da4572|YES|0.3800": {
+   "n": 2714.79,
+   "t": "2026-11-18T23:31:55Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 120,
+ "n_trades": 124,
  "n_settled": 113,
  "realized_pnl": 2060.8176920000074,
  "runs": 57,
  "locked": {
-  "PM": 39.54300000000023,
+  "PM": 1103.1434000000002,
   "KS": 32.23,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
-  "BK:onexbet": 3484.0600000000004,
-  "BK:matchbook": 0.0,
-  "BK:leovegas_se": 4999.9800000000005,
+  "BK:onexbet": 7689.000000000001,
+  "BK:matchbook": 960.9,
+  "BK:leovegas_se": 6556.93,
   "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 1515.9200000000005,
+  "BK:unibet_se": 2293.1000000000004,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 2.2737367544323206e-13,
   "BK:unibet_nl": 7.958078640513122e-13,
-  "BK:marathonbet": 0.0,
+  "BK:marathonbet": 1436.39,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
@@ -528,7 +751,7 @@
   "BK:pinnacle": 3723.5699999999997,
   "BK:onexbet": 22357.230000000003,
   "BK:matchbook": 4155.1,
-  "BK:leovegas_se": 4999.9800000000005,
+  "BK:leovegas_se": 6556.93,
   "BK:gtbets": 6720.040000000001,
   "BK:winamax_de": 805.8,
   "BK:grosvenor": 292.3,
@@ -563,7 +786,7 @@
   "BK:pinnacle": -6879.0199999999995,
   "BK:onexbet": -20246.551300000003,
   "BK:matchbook": -3925.7799999999993,
-  "BK:leovegas_se": -1181.8323200000004,
+  "BK:leovegas_se": -1229.8208200000004,
   "BK:gtbets": -7633.02,
   "BK:winamax_de": -872.9100000000001,
   "BK:grosvenor": 287.7,
@@ -609,10 +832,10 @@
    "7": 204,
    "8": 461,
    "9": 459,
-   "10": 488,
-   "11": 488,
-   "12": 482,
-   "13": 482
+   "10": 476,
+   "11": 476,
+   "12": 476,
+   "13": 476
   },
   "spent": {
    "2026-11-06": 27,
@@ -626,7 +849,7 @@
    "2026-11-15": 239,
    "2026-11-16": 117,
    "2026-11-17": 152,
-   "2026-11-18": 143
+   "2026-11-18": 179
   }
  },
  "book_slots": {
@@ -756,6 +979,11 @@
   "nhl|2026-11-19T00:30|120": "2026-11-18T22:30:11Z",
   "nba|2026-11-19T00:00|60": "2026-11-18T23:00:19Z",
   "nba|2026-11-19T01:00|120": "2026-11-18T23:00:19Z",
-  "nhl|2026-11-19T02:00|180": "2026-11-18T23:00:20Z"
+  "nhl|2026-11-19T02:00|180": "2026-11-18T23:00:20Z",
+  "nba|2026-11-19T00:00|30": "2026-11-18T23:30:12Z",
+  "nba|2026-11-19T00:30|60": "2026-11-18T23:30:12Z",
+  "nba|2026-11-19T02:30|180": "2026-11-18T23:30:12Z",
+  "nhl|2026-11-19T00:30|60": "2026-11-18T23:30:12Z",
+  "nba|2026-11-19T00:00|15": "2026-11-18T23:45:18Z"
  }
 }
