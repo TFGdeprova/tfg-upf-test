@@ -34,8 +34,13 @@ OFFSETS = [int(x) for x in os.environ.get("BOOK_OFFSETS", "180,120,60,30,15,5").
 LATE = (30, 15, 5)                      # kept when credits would run out within 3 days (earliest snapshots dropped first)
 
 
+MARKETS_US, REGIONS_US = os.environ.get("BOOK_MARKETS_US", "h2h,spreads,totals"), os.environ.get("BOOK_REGIONS_US", "us")
+MARKETS_FB, REGIONS_FB = os.environ.get("BOOK_MARKETS_FB", "h2h,totals"), os.environ.get("BOOK_REGIONS_FB", "uk,eu")
+END = os.environ.get("BOOK_END", "")                  # planned end of the run: credits only need to last until then
+
+
 def params(league):
-    return ("h2h,spreads,totals", "us") if league in US else ("h2h,totals", "uk,eu")
+    return (MARKETS_US, REGIONS_US) if league in US else (MARKETS_FB, REGIONS_FB)
 
 
 def cost(league):

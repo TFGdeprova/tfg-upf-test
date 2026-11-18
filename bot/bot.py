@@ -262,10 +262,12 @@ BOOK_CACHE = {}                          # league -> (time, data): one call serv
 def fetch_books(games, keys, st):
     """Bookmaker snapshots at fixed minutes before each kick-off (bk.OFFSETS), plus confirmation snapshots about a minute
     after a gap that uses a bookmaker. One call per sport serves all its games. If the credits left would last less than
-    3 days at the current pace, only the late scheduled snapshots are taken (confirmations are always taken)."""
+    3 days at the current pace (or less than the time left until BOOK_END, if sooner), only the late scheduled snapshots
+    are taken (confirmations are always taken)."""
     if not keys.keys: return
     slots = st.setdefault("book_slots", {})
-    offsets = bk.OFFSETS if keys.days_left() >= 3 else [o for o in bk.OFFSETS if o in bk.LATE]
+    need = 3.0 if not bk.END else max(0.0, min(3.0, (parse(bk.END) - now()).total_seconds() / 86400))
+    offsets = bk.OFFSETS if keys.days_left() >= need else [o for o in bk.OFFSETS if o in bk.LATE]
     due = {}
     for g in games.values():
         mins = (g.ko - now()).total_seconds() / 60

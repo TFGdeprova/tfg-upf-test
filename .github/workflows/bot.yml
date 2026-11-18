@@ -56,6 +56,11 @@ jobs:
         env:
           BOT_COMMIT: "1"
           MAX_RUNTIME_MIN: "335"
+          # Bookmaker odds (The Odds API): each call costs markets x regions credits. From 18 Nov: European bookmakers
+          # also for US sports, and US bookmakers also for football; credits only need to last until BOOK_END.
+          BOOK_REGIONS_US: "us,eu"
+          BOOK_REGIONS_FB: "uk,eu,us"
+          BOOK_END: "2026-11-23T06:00:00Z"
           BOT_RAW_DIR: ${{ env.HAS_PRIVATE == 'true' && 'private/data/bot_raw' || '' }}
           BOT_RAW_REPO: ${{ env.HAS_PRIVATE == 'true' && 'private' || '' }}
           ODDS_API_KEY_1: ${{ secrets.ODDS_API_KEY_1 }}
