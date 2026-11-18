@@ -68,12 +68,7 @@
   "BK:draftkings": 580.0
  },
  "open": [],
- "consumed": {
-  "PM|0xddc87692ccafc80658252f04efb8377e517c5105a50dd91bcf9d76170e897e92|NO|0.6100": {
-   "n": 2508.96,
-   "t": "2026-11-17T19:41:43Z"
-  }
- },
+ "consumed": {},
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 113,
  "n_settled": 113,
