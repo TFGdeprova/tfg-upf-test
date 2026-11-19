@@ -1378,3 +1378,12 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-18T23:45:32Z,nba:26NOV18MILMIA,MIL at MIA,nba,14.5,scheduled,14,-0.004497,-5e-05,no gap,,,
 2026-11-18T23:45:32Z,nba:26NOV18PHIORL,PHI at ORL,nba,14.5,scheduled,16,0.014313,0.020657,seen,562323.48,nba:26NOV18PHIORL|2026-11-18T23:45:27Z|with_books,PM NO 0.430 x0.234 Spread: Magic (-2.5) | PM NO 0.470 x0.237 Spread: Magic (-3.5) | coolbet spreads Orlando Magic -3.0 @1.93 x0.529
 2026-11-18T23:47:00Z,nba:26NOV18PHIORL,PHI at ORL,nba,13.0,confirmation,14,0.005201,0.009645,executed,,,onexbet h2h Orlando Magic  @1.64 x0.616 | matchbook h2h Philadelphia 76ers  @2.66 x0.384
+2026-11-18T23:55:37Z,nba:26NOV18MEMCLE,MEM at CLE,nba,4.4,scheduled,16,-0.011036,-0.006052,no gap,,,
+2026-11-18T23:55:37Z,nba:26NOV18HOUIND,HOU at IND,nba,4.4,scheduled,14,-0.006929,-0.006929,no gap,,,
+2026-11-18T23:55:37Z,nba:26NOV18MILMIA,MIL at MIA,nba,4.4,scheduled,14,0.001025,0.001698,no gap,,nba:26NOV18MILMIA|2026-11-18T23:55:31Z|with_books,
+2026-11-18T23:55:37Z,nba:26NOV18PHIORL,PHI at ORL,nba,4.4,scheduled,16,-0.009575,0.021018,seen,,nba:26NOV18PHIORL|2026-11-18T23:55:37Z|with_books,onexbet h2h Orlando Magic  @1.64 x0.623 | matchbook h2h Philadelphia 76ers  @2.74 x0.377
+2026-11-18T23:57:08Z,nba:26NOV18PHIORL,PHI at ORL,nba,2.9,confirmation,16,-0.013004,0.019081,executed,624449.31,,PM YES 0.360 x0.379 76ers vs. Magic | onexbet h2h Orlando Magic  @1.64 x0.621
+2026-11-19T00:00:46Z,nhl:26NOV18MTLNJ,MTL at NJ,nhl,29.2,scheduled,13,-0.011921,0.398928,seen,,nhl:26NOV18MTLNJ|2026-11-19T00:00:43Z|with_books,onexbet h2h New Jersey Devils  @2.03 x0.689 | unibet_se h2h Draw  @4.5 x0.311
+2026-11-19T00:00:46Z,nhl:26NOV18BOSDET,BOS at DET,nhl,29.2,scheduled,15,-0.007751,0.588092,seen,,nhl:26NOV18BOSDET|2026-11-19T00:00:43Z|with_books,leovegas_se h2h Detroit Red Wings  @2.55 x0.623 | onexbet h2h Draw  @4.21 x0.377
+2026-11-19T00:02:06Z,nhl:26NOV18MTLNJ,MTL at NJ,nhl,27.9,confirmation,13,-0.011921,0.398928,executed,,,onexbet h2h New Jersey Devils  @2.03 x0.689 | unibet_se h2h Draw  @4.5 x0.311
+2026-11-19T00:02:06Z,nhl:26NOV18BOSDET,BOS at DET,nhl,27.9,confirmation,15,-0.007751,0.607342,executed,,,leovegas_se h2h Detroit Red Wings  @2.6 x0.618 | onexbet h2h Draw  @4.21 x0.382

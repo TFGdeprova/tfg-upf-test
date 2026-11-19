@@ -123,3 +123,7 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 122,2026-11-18T23:31:55Z,nhl:26NOV18MTLNJ,MTL at NJ,nhl,2026-11-19T00:30:00Z,58.1,0.398928,True,"['onexbet', 'unibet_se']",False,2499.99,3497.3043,997.3143,open,,,,,2
 123,2026-11-18T23:31:55Z,nhl:26NOV18BOSDET,BOS at DET,nhl,2026-11-19T00:30:00Z,58.1,0.588092,True,"['leovegas_se', 'onexbet']",False,2499.99,3970.1984,1470.2084,open,,,,,2
 124,2026-11-18T23:47:00Z,nba:26NOV18PHIORL,PHI at ORL,nba,2026-11-19T00:00:00Z,13.0,0.009645,True,"['matchbook', 'onexbet']",False,2499.99,2524.0921,24.1021,open,,,,,2
+125,2026-11-18T23:51:38Z,nba:26NOV18PHIORL,PHI at ORL,nba,2026-11-19T00:00:00Z,8.4,0.005201,,,,19.9234,20.02,0.0966,open,,,,,3
+126,2026-11-18T23:57:08Z,nba:26NOV18PHIORL,PHI at ORL,nba,2026-11-19T00:00:00Z,2.9,0.019081,True,['onexbet'],False,2499.9915,2547.6908,47.6993,open,,,,,2
+127,2026-11-19T00:02:06Z,nhl:26NOV18MTLNJ,MTL at NJ,nhl,2026-11-19T00:30:00Z,27.9,0.398928,True,"['onexbet', 'unibet_se']",False,2499.99,3497.3043,997.3143,open,,,,,2
+128,2026-11-19T00:02:06Z,nhl:26NOV18BOSDET,BOS at DET,nhl,2026-11-19T00:30:00Z,27.9,0.607342,True,"['leovegas_se', 'onexbet']",False,2499.99,4018.3187,1518.3287,open,,,,,2
