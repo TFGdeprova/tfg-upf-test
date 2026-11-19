@@ -2,6 +2,7 @@ name: Paper-trading bot
 
 # One run lasts up to ~5.5 hours; a run is scheduled every hour and the concurrency group keeps exactly one running
 # (the next one waits and starts as soon as the current one ends), so the bot watches the markets continuously.
+# GitHub's schedule is best effort and has skipped hours, so each run also queues its successor when it starts.
 # A push of new bot code queues a run; the running bot notices the new code within 10 minutes and hands over.
 on:
   schedule:
@@ -17,6 +18,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: write      # lets each run queue the next one (step "Queue the next run")
 
 jobs:
   bot:
@@ -30,6 +32,20 @@ jobs:
       # Raw data goes to a private repository whose name and access token are secrets (never printed: GitHub masks them).
       HAS_PRIVATE: ${{ secrets.PRIVATE_REPO_TOKEN != '' && secrets.PRIVATE_REPO != '' }}
     steps:
+      # GitHub's hourly schedule is best effort: on 19 Nov no run was started between 09:25 and 10:58 UTC. Each run
+      # therefore queues its successor as soon as it starts; the concurrency group keeps it waiting until this run ends.
+      # No successor is queued after the planned end of the live sample (STOP_AT).
+      - name: Queue the next run
+        env:
+          GH_TOKEN: ${{ github.token }}
+          STOP_AT: "2026-11-23T06:00:00Z"
+        run: |
+          if [ "$(date -u +%s)" -lt "$(date -u -d "$STOP_AT" +%s)" ]; then
+            gh workflow run bot.yml --repo "$GITHUB_REPOSITORY" --ref main || echo "could not queue the next run"
+          else
+            echo "after STOP_AT: no successor queued"
+          fi
+
       # Always the latest commit of main: a run queued an hour earlier must not start from the results of that time
       # (it would load an old state and drop the rows written since).
       - uses: actions/checkout@v4
