@@ -1400,3 +1400,13 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-19T00:26:44Z,nba:26NOV18CHIBKN,CHI at BKN,nba,3.3,confirmation,14,-0.006723,-0.00369,vanished,32466.85,,KS YES 0.460 x0.476 Over 240.5 points | onexbet totals Under 240.5 @1.9 x0.524
 2026-11-19T00:26:46Z,nhl:26NOV18MTLNJ,MTL at NJ,nhl,3.2,confirmation,13,-0.011921,0.384615,executed,,,marathonbet h2h New Jersey Devils  @2.0 x0.692 | unibet_se h2h Draw  @4.5 x0.308
 2026-11-19T00:26:46Z,nhl:26NOV18BOSDET,BOS at DET,nhl,3.2,confirmation,15,-0.014511,0.59375,executed,,,leovegas_se h2h Detroit Red Wings  @2.55 x0.625 | leovegas_se h2h Draw  @4.25 x0.375
+2026-11-19T00:30:16Z,nba:26NOV18DETNOP,DET at NOP,nba,29.7,scheduled,16,0.02291,0.034576,seen,31637.74,nba:26NOV18DETNOP|2026-11-19T00:30:16Z|with_books,PM YES 0.610 x0.643 Pistons vs. Pelicans | matchbook h2h New Orleans Pelicans  @2.94 x0.357
+2026-11-19T00:30:16Z,nba:26NOV18ATLOKC,ATL at OKC,nba,29.7,scheduled,14,-0.01339,0.002376,seen,,nba:26NOV18ATLOKC|2026-11-19T00:30:14Z|with_books,matchbook h2h Atlanta Hawks  @3.4 x0.299 | unibet_nl h2h Oklahoma City Thunder  @1.43 x0.701
+2026-11-19T00:30:16Z,nba:26NOV18GSWDAL,GSW at DAL,nba,29.7,scheduled,14,-0.006723,-0.006723,no gap,,,
+2026-11-19T00:30:16Z,nba:26NOV18BOSDEN,BOS at DEN,nba,119.7,scheduled,10,-0.010985,-0.010025,no gap,,,
+2026-11-19T00:31:41Z,nba:26NOV18DETNOP,DET at NOP,nba,28.3,confirmation,20,-0.009772,0.038554,executed,5029.86,,PM YES 0.600 x0.636 Pistons vs. Pelicans | lowvig h2h New Orleans Pelicans  @2.85 x0.364
+2026-11-19T00:31:44Z,nba:26NOV18ATLOKC,ATL at OKC,nba,28.3,confirmation,14,-0.01339,-0.002052,vanished,,,matchbook h2h Atlanta Hawks  @3.35 x0.302 | unibet_nl h2h Oklahoma City Thunder  @1.43 x0.698
+2026-11-19T00:45:16Z,nba:26NOV18DETNOP,DET at NOP,nba,14.7,scheduled,20,-0.014511,0.04094,seen,,nba:26NOV18DETNOP|2026-11-19T00:45:16Z|with_books,pinnacle h2h Detroit Pistons  @1.65 x0.631 | onexbet h2h New Orleans Pelicans  @2.82 x0.369
+2026-11-19T00:45:16Z,nba:26NOV18ATLOKC,ATL at OKC,nba,14.7,scheduled,14,-0.003922,-0.002052,no gap,,,
+2026-11-19T00:45:16Z,nba:26NOV18GSWDAL,GSW at DAL,nba,14.7,scheduled,14,-0.006723,-0.006723,no gap,,,
+2026-11-19T00:46:42Z,nba:26NOV18DETNOP,DET at NOP,nba,13.3,confirmation,16,-0.014511,0.001539,vanished,,,pinnacle h2h Detroit Pistons  @1.65 x0.607 | matchbook h2h New Orleans Pelicans  @2.58 x0.393

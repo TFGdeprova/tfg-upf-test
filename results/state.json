@@ -1,6 +1,6 @@
 {
  "cash": {
-  "PM": 10552.782700000002,
+  "PM": 8963.798100000002,
   "KS": 5192.7699999999995,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -2307.2799999999993,
@@ -22,7 +22,7 @@
   "BK:betonlineag": -3111.3768,
   "BK:skybet": -375.10999999999996,
   "BK:betrivers": 7162.6533,
-  "BK:lowvig": -3946.7699999999995,
+  "BK:lowvig": -4857.78,
   "BK:mybookieag": -4546.4125,
   "BK:betmgm": 5098.2534000000005,
   "BK:betanysports": -894.5856000000008,
@@ -1099,6 +1099,57 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 133,
+   "time": "2026-11-19T00:31:41Z",
+   "game": "nba:26NOV18DETNOP",
+   "title": "DET at NOP",
+   "league": "nba",
+   "kickoff": "2026-11-19T01:00:00Z",
+   "min_to_ko": 28.3,
+   "t_lp": 0.038554,
+   "with_books": true,
+   "books": [
+    "lowvig"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "990b541d0ada46fce07ce8b502cf425c",
+    "sport": "basketball_nba",
+    "home": "New Orleans Pelicans",
+    "away": "Detroit Pistons"
+   },
+   "cost": 2499.9946,
+   "guaranteed_payout": 2596.3785,
+   "guaranteed_profit": 96.3839,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x22bd72030a3b39b69009b60a1e276842d8a6669528c65ca6f07eb97d046bb896",
+     "label": "Pistons vs. Pelicans",
+     "side": "YES",
+     "price": 0.6,
+     "shares": 2596.38,
+     "fee": 31.15656,
+     "cost": 1588.9846
+    },
+    {
+     "venue": "BK:lowvig",
+     "book": "lowvig",
+     "market": "h2h",
+     "outcome": "New Orleans Pelicans",
+     "side": "home",
+     "point": null,
+     "odds": 2.85,
+     "eff": 2.85,
+     "three_way": false,
+     "stake": 911.01,
+     "cost": 911.01,
+     "label": "h2h New Orleans Pelicans  @2.85"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1149,15 +1200,19 @@
   "PM|0x559ca9498eba90b68476a9788fa29cb000e691ef6ab02f1e3bfdf07f11da4572|YES|0.3600": {
    "n": 2547.7,
    "t": "2026-11-18T23:57:08Z"
+  },
+  "PM|0x22bd72030a3b39b69009b60a1e276842d8a6669528c65ca6f07eb97d046bb896|YES|0.6000": {
+   "n": 2596.38,
+   "t": "2026-11-19T00:31:41Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 132,
+ "n_trades": 133,
  "n_settled": 113,
  "realized_pnl": 2060.8176920000074,
  "runs": 57,
  "locked": {
-  "PM": 2060.8083,
+  "PM": 3649.7929000000004,
   "KS": 41.01,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
@@ -1179,7 +1234,7 @@
   "BK:betonlineag": 4.547473508864641e-13,
   "BK:skybet": 0.0,
   "BK:betrivers": 0.0,
-  "BK:lowvig": 0.0,
+  "BK:lowvig": 911.01,
   "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
   "BK:betanysports": 2.2737367544323206e-13,
@@ -1249,7 +1304,7 @@
   "BK:betonlineag": -4391.482,
   "BK:skybet": -375.10999999999996,
   "BK:betrivers": -1141.39,
-  "BK:lowvig": -3946.7699999999995,
+  "BK:lowvig": -4857.78,
   "BK:mybookieag": -7124.1625,
   "BK:betmgm": -4997.36,
   "BK:betanysports": -3610.7200000000003,
@@ -1277,12 +1332,12 @@
    "5": 116,
    "6": 207,
    "7": 204,
-   "8": 461,
-   "9": 459,
-   "10": 464,
+   "8": 455,
+   "9": 453,
+   "10": 458,
    "11": 458,
    "12": 458,
-   "13": 458
+   "13": 452
   },
   "spent": {
    "2026-11-06": 27,
@@ -1297,7 +1352,7 @@
    "2026-11-16": 117,
    "2026-11-17": 152,
    "2026-11-18": 191,
-   "2026-11-19": 54
+   "2026-11-19": 78
   }
  },
  "book_slots": {
@@ -1399,6 +1454,9 @@
   "nba|2026-11-19T00:30|15": "2026-11-19T00:15:05Z",
   "nhl|2026-11-19T00:30|15": "2026-11-19T00:15:06Z",
   "nba|2026-11-19T00:30|5": "2026-11-19T00:25:06Z",
-  "nhl|2026-11-19T00:30|5": "2026-11-19T00:25:07Z"
+  "nhl|2026-11-19T00:30|5": "2026-11-19T00:25:07Z",
+  "nba|2026-11-19T01:00|30": "2026-11-19T00:30:08Z",
+  "nba|2026-11-19T02:30|120": "2026-11-19T00:30:08Z",
+  "nba|2026-11-19T01:00|15": "2026-11-19T00:45:08Z"
  }
 }
