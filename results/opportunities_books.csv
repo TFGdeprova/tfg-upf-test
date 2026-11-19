@@ -1410,3 +1410,10 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-19T00:45:16Z,nba:26NOV18ATLOKC,ATL at OKC,nba,14.7,scheduled,14,-0.003922,-0.002052,no gap,,,
 2026-11-19T00:45:16Z,nba:26NOV18GSWDAL,GSW at DAL,nba,14.7,scheduled,14,-0.006723,-0.006723,no gap,,,
 2026-11-19T00:46:42Z,nba:26NOV18DETNOP,DET at NOP,nba,13.3,confirmation,16,-0.014511,0.001539,vanished,,,pinnacle h2h Detroit Pistons  @1.65 x0.607 | matchbook h2h New Orleans Pelicans  @2.58 x0.393
+2026-11-19T00:55:16Z,nba:26NOV18DETNOP,DET at NOP,nba,4.7,scheduled,20,-0.014511,0.011439,seen,1671.92,nba:26NOV18DETNOP|2026-11-19T00:55:16Z|with_books,PM NO 0.450 x0.468 Spread: Pistons (-3.5) | onexbet spreads Detroit Pistons -3.5 @1.9 x0.532
+2026-11-19T00:55:18Z,nba:26NOV18ATLOKC,ATL at OKC,nba,4.7,scheduled,14,-0.003922,-0.002052,no gap,,,
+2026-11-19T00:55:20Z,nba:26NOV18GSWDAL,GSW at DAL,nba,4.7,scheduled,16,-0.006723,0.009535,seen,14325.07,nba:26NOV18GSWDAL|2026-11-19T00:55:20Z|with_books,PM NO 0.460 x0.477 Warriors vs. Mavericks: O/U 221.5 | betrivers totals Over 221.5 @1.93 x0.523
+2026-11-19T00:56:48Z,nba:26NOV18DETNOP,DET at NOP,nba,3.2,confirmation,20,-0.014511,0.011439,executed,704.35,,PM NO 0.450 x0.468 Spread: Pistons (-3.5) | onexbet spreads Detroit Pistons -3.5 @1.9 x0.532
+2026-11-19T00:56:49Z,nba:26NOV18GSWDAL,GSW at DAL,nba,3.2,confirmation,14,0.00263,0.00263,vanished,16.96,,PM NO 0.060 x0.063 Warriors vs. Mavericks: O/U 198.5 | KS YES 0.930 x0.937 Over 198.5 points
+2026-11-19T01:00:16Z,nba:26NOV18UTALAL,UTA at LAL,nba,119.7,scheduled,18,-0.005516,-0.005473,no gap,,,
+2026-11-19T01:00:16Z,nba:26NOV18PHXSAC,PHX at SAC,nba,119.7,scheduled,14,-0.014301,-0.004124,no gap,,,

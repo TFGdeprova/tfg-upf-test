@@ -1,10 +1,10 @@
 {
  "cash": {
-  "PM": 8963.798100000002,
-  "KS": 5192.7699999999995,
+  "PM": 8633.329600000001,
+  "KS": 5176.879999999999,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -2307.2799999999993,
-  "BK:onexbet": -18164.734,
+  "BK:onexbet": -18539.684,
   "BK:matchbook": 5916.297212000001,
   "BK:leovegas_se": -7775.33082,
   "BK:gtbets": 5009.9357,
@@ -1150,6 +1150,93 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 134,
+   "time": "2026-11-19T00:56:48Z",
+   "game": "nba:26NOV18DETNOP",
+   "title": "DET at NOP",
+   "league": "nba",
+   "kickoff": "2026-11-19T01:00:00Z",
+   "min_to_ko": 3.2,
+   "t_lp": 0.011439,
+   "with_books": true,
+   "books": [
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "990b541d0ada46fce07ce8b502cf425c",
+    "sport": "basketball_nba",
+    "home": "New Orleans Pelicans",
+    "away": "Detroit Pistons"
+   },
+   "cost": 704.3506,
+   "guaranteed_payout": 712.405,
+   "guaranteed_profit": 8.0544,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x819a02808006c909fe7c586c05c21b20824354533b6a156ca9647175b026859c",
+     "label": "Spread: Pistons (-3.5)",
+     "side": "NO",
+     "price": 0.44999999999999996,
+     "shares": 712.41,
+     "fee": 8.81607,
+     "cost": 329.4006
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "spreads",
+     "outcome": "Detroit Pistons",
+     "side": "away",
+     "point": -3.5,
+     "odds": 1.9,
+     "eff": 1.9,
+     "three_way": false,
+     "stake": 374.95,
+     "cost": 374.95,
+     "label": "spreads Detroit Pistons -3.5 @1.9"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 135,
+   "time": "2026-11-19T00:57:17Z",
+   "game": "nba:26NOV18GSWDAL",
+   "title": "GSW at DAL",
+   "league": "nba",
+   "kickoff": "2026-11-19T01:00:00Z",
+   "min_to_ko": 2.7,
+   "t_lp": 0.00263,
+   "cost": 16.9579,
+   "guaranteed_payout": 17.0,
+   "guaranteed_profit": 0.0421,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x9ca7bf9b044a6d34a359dcbb6dbcef30ed6ddfa9978189fb053953df3de53f0e",
+     "label": "Warriors vs. Mavericks: O/U 198.5",
+     "side": "NO",
+     "price": 0.06000000000000005,
+     "shares": 17.0,
+     "fee": 0.04794,
+     "cost": 1.0679
+    },
+    {
+     "venue": "KS",
+     "id": "KXNBATOTAL-26NOV18GSWDAL-199",
+     "label": "Over 198.5 points",
+     "side": "YES",
+     "price": 0.93,
+     "shares": 17,
+     "fee": 0.08,
+     "cost": 15.89
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1204,19 +1291,31 @@
   "PM|0x22bd72030a3b39b69009b60a1e276842d8a6669528c65ca6f07eb97d046bb896|YES|0.6000": {
    "n": 2596.38,
    "t": "2026-11-19T00:31:41Z"
+  },
+  "PM|0x819a02808006c909fe7c586c05c21b20824354533b6a156ca9647175b026859c|NO|0.4500": {
+   "n": 712.41,
+   "t": "2026-11-19T00:56:48Z"
+  },
+  "PM|0x9ca7bf9b044a6d34a359dcbb6dbcef30ed6ddfa9978189fb053953df3de53f0e|NO|0.0600": {
+   "n": 17.0,
+   "t": "2026-11-19T00:57:17Z"
+  },
+  "KS|KXNBATOTAL-26NOV18GSWDAL-199|YES|0.9300": {
+   "n": 17.0,
+   "t": "2026-11-19T00:57:17Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 133,
+ "n_trades": 135,
  "n_settled": 113,
  "realized_pnl": 2060.8176920000074,
  "runs": 57,
  "locked": {
-  "PM": 3649.7929000000004,
-  "KS": 41.01,
+  "PM": 3980.2614000000003,
+  "KS": 56.9,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
-  "BK:onexbet": 13642.56,
+  "BK:onexbet": 14017.51,
   "BK:matchbook": 960.9,
   "BK:leovegas_se": 13102.44,
   "BK:gtbets": 4.547473508864641e-13,
@@ -1283,7 +1382,7 @@
  },
  "min_cash": {
   "PM": 2369.7283000000007,
-  "KS": 5192.7699999999995,
+  "KS": 5176.879999999999,
   "BK:smarkets": -8947.57,
   "BK:pinnacle": -6879.0199999999995,
   "BK:onexbet": -20246.551300000003,
@@ -1332,11 +1431,11 @@
    "5": 116,
    "6": 207,
    "7": 204,
-   "8": 455,
+   "8": 449,
    "9": 453,
-   "10": 458,
-   "11": 458,
-   "12": 458,
+   "10": 452,
+   "11": 452,
+   "12": 452,
    "13": 452
   },
   "spent": {
@@ -1352,7 +1451,7 @@
    "2026-11-16": 117,
    "2026-11-17": 152,
    "2026-11-18": 191,
-   "2026-11-19": 78
+   "2026-11-19": 102
   }
  },
  "book_slots": {
@@ -1457,6 +1556,9 @@
   "nhl|2026-11-19T00:30|5": "2026-11-19T00:25:07Z",
   "nba|2026-11-19T01:00|30": "2026-11-19T00:30:08Z",
   "nba|2026-11-19T02:30|120": "2026-11-19T00:30:08Z",
-  "nba|2026-11-19T01:00|15": "2026-11-19T00:45:08Z"
+  "nba|2026-11-19T01:00|15": "2026-11-19T00:45:08Z",
+  "nba|2026-11-19T01:00|5": "2026-11-19T00:55:10Z",
+  "nhl|2026-11-19T02:00|60": "2026-11-19T01:00:11Z",
+  "nba|2026-11-19T03:00|120": "2026-11-19T01:00:12Z"
  }
 }
