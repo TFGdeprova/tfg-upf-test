@@ -4,13 +4,13 @@
   "KS": 5221.369999999999,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -2307.2799999999993,
-  "BK:onexbet": -17827.279000000002,
+  "BK:onexbet": -23379.959,
   "BK:matchbook": 8440.389332000002,
-  "BK:leovegas_se": -7775.33082,
+  "BK:leovegas_se": -14695.760820000003,
   "BK:gtbets": 5009.9357,
   "BK:winamax_de": 1646.5399999999997,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -3712.8699999999985,
+  "BK:unibet_se": -6239.699999999999,
   "BK:tipico_de": 2621.998,
   "BK:coolbet": 7055.7693,
   "BK:unibet_nl": -7801.679999999999,
@@ -221,6 +221,342 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 138,
+   "time": "2026-11-19T21:01:33Z",
+   "game": "nhl:26NOV19BUFWSH",
+   "title": "BUF at WSH",
+   "league": "nhl",
+   "kickoff": "2026-11-20T00:00:00Z",
+   "min_to_ko": 178.4,
+   "t_lp": 0.491004,
+   "with_books": true,
+   "books": [
+    "leovegas_se",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "6e1de7988dd0c9689abb85f6b8399336",
+    "sport": "icehockey_nhl",
+    "home": "Washington Capitals",
+    "away": "Buffalo Sabres"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 3727.4744,
+   "guaranteed_profit": 1227.4844,
+   "legs": [
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Washington Capitals",
+     "side": "home",
+     "point": null,
+     "odds": 2.25,
+     "eff": 2.25,
+     "three_way": false,
+     "stake": 1656.67,
+     "cost": 1656.67,
+     "label": "h2h Washington Capitals  @2.25"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.42,
+     "eff": 4.42,
+     "three_way": false,
+     "stake": 843.32,
+     "cost": 843.32,
+     "label": "h2h Draw  @4.42"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 139,
+   "time": "2026-11-19T21:01:35Z",
+   "game": "nhl:26NOV19LATOR",
+   "title": "LA at TOR",
+   "league": "nhl",
+   "kickoff": "2026-11-20T00:00:00Z",
+   "min_to_ko": 178.4,
+   "t_lp": 0.581331,
+   "with_books": true,
+   "books": [
+    "leovegas_se",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "7bca03cc186cb70bd12d060ededa8842",
+    "sport": "icehockey_nhl",
+    "home": "Toronto Maple Leafs",
+    "away": "Los Angeles Kings"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 3953.2994,
+   "guaranteed_profit": 1453.3094,
+   "legs": [
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Toronto Maple Leafs",
+     "side": "home",
+     "point": null,
+     "odds": 2.45,
+     "eff": 2.45,
+     "three_way": false,
+     "stake": 1613.6,
+     "cost": 1613.6,
+     "label": "h2h Toronto Maple Leafs  @2.45"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.46,
+     "eff": 4.46,
+     "three_way": false,
+     "stake": 886.39,
+     "cost": 886.39,
+     "label": "h2h Draw  @4.46"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 140,
+   "time": "2026-11-19T21:01:37Z",
+   "game": "nhl:26NOV19STLPIT",
+   "title": "STL at PIT",
+   "league": "nhl",
+   "kickoff": "2026-11-20T00:00:00Z",
+   "min_to_ko": 178.4,
+   "t_lp": 0.61127,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "8cd65f19317595a31a8e98aee88027a5",
+    "sport": "icehockey_nhl",
+    "home": "Pittsburgh Penguins",
+    "away": "St Louis Blues"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 4028.13,
+   "guaranteed_profit": 1528.14,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Pittsburgh Penguins",
+     "side": "home",
+     "point": null,
+     "odds": 2.51,
+     "eff": 2.51,
+     "three_way": false,
+     "stake": 1604.85,
+     "cost": 1604.85,
+     "label": "h2h Pittsburgh Penguins  @2.51"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.5,
+     "eff": 4.5,
+     "three_way": false,
+     "stake": 895.14,
+     "cost": 895.14,
+     "label": "h2h Draw  @4.5"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 141,
+   "time": "2026-11-19T21:01:37Z",
+   "game": "nhl:26NOV19PHIOTT",
+   "title": "PHI at OTT",
+   "league": "nhl",
+   "kickoff": "2026-11-20T00:00:00Z",
+   "min_to_ko": 178.4,
+   "t_lp": 0.424485,
+   "with_books": true,
+   "books": [
+    "leovegas_se",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "84d6f3a55d9aac25cd001f3d94aab44b",
+    "sport": "icehockey_nhl",
+    "home": "Ottawa Senators",
+    "away": "Philadelphia Flyers"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 3561.1724,
+   "guaranteed_profit": 1061.1824,
+   "legs": [
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Ottawa Senators",
+     "side": "home",
+     "point": null,
+     "odds": 2.08,
+     "eff": 2.08,
+     "three_way": false,
+     "stake": 1712.12,
+     "cost": 1712.12,
+     "label": "h2h Ottawa Senators  @2.08"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.52,
+     "eff": 4.52,
+     "three_way": false,
+     "stake": 787.87,
+     "cost": 787.87,
+     "label": "h2h Draw  @4.52"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 142,
+   "time": "2026-11-19T21:01:37Z",
+   "game": "nhl:26NOV19MTLCAR",
+   "title": "MTL at CAR",
+   "league": "nhl",
+   "kickoff": "2026-11-20T00:00:00Z",
+   "min_to_ko": 178.4,
+   "t_lp": 0.209337,
+   "with_books": true,
+   "books": [
+    "leovegas_se",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "3449054d3b59c2c7fc8cf914dbd45ea6",
+    "sport": "icehockey_nhl",
+    "home": "Carolina Hurricanes",
+    "away": "Montr\u00e9al Canadiens"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 3023.291,
+   "guaranteed_profit": 523.301,
+   "legs": [
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Carolina Hurricanes",
+     "side": "home",
+     "point": null,
+     "odds": 1.56,
+     "eff": 1.56,
+     "three_way": false,
+     "stake": 1938.04,
+     "cost": 1938.04,
+     "label": "h2h Carolina Hurricanes  @1.56"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 5.38,
+     "eff": 5.38,
+     "three_way": false,
+     "stake": 561.95,
+     "cost": 561.95,
+     "label": "h2h Draw  @5.38"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 143,
+   "time": "2026-11-19T21:01:37Z",
+   "game": "nhl:26NOV19NYIWPG",
+   "title": "NYI at WPG",
+   "league": "nhl",
+   "kickoff": "2026-11-20T00:00:00Z",
+   "min_to_ko": 178.4,
+   "t_lp": 0.566425,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "6675090a33dca8b7f340ea6375fb84e9",
+    "sport": "icehockey_nhl",
+    "home": "Winnipeg Jets",
+    "away": "New York Islanders"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 3916.033,
+   "guaranteed_profit": 1416.043,
+   "legs": [
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Winnipeg Jets",
+     "side": "home",
+     "point": null,
+     "odds": 2.4,
+     "eff": 2.4,
+     "three_way": false,
+     "stake": 1631.69,
+     "cost": 1631.69,
+     "label": "h2h Winnipeg Jets  @2.4"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.51,
+     "eff": 4.51,
+     "three_way": false,
+     "stake": 868.3,
+     "cost": 868.3,
+     "label": "h2h Draw  @4.51"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -266,7 +602,7 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 137,
+ "n_trades": 143,
  "n_settled": 135,
  "realized_pnl": -27384.084987999988,
  "runs": 61,
@@ -275,13 +611,13 @@
   "KS": 2.5100000000000033,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
-  "BK:onexbet": 2.1032064978498966e-12,
+  "BK:onexbet": 5552.680000000002,
   "BK:matchbook": 0.0,
-  "BK:leovegas_se": 1.8189894035458565e-12,
+  "BK:leovegas_se": 6920.430000000001,
   "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 7.958078640513122e-13,
+  "BK:unibet_se": 2526.830000000001,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 2.2737367544323206e-13,
   "BK:unibet_nl": 7.958078640513122e-13,
@@ -345,13 +681,13 @@
   "KS": 5176.879999999999,
   "BK:smarkets": -8947.57,
   "BK:pinnacle": -6879.0199999999995,
-  "BK:onexbet": -20246.551300000003,
+  "BK:onexbet": -23379.959,
   "BK:matchbook": -3925.7799999999993,
-  "BK:leovegas_se": -7775.33082,
+  "BK:leovegas_se": -14695.760820000003,
   "BK:gtbets": -7633.02,
   "BK:winamax_de": -872.9100000000001,
   "BK:grosvenor": 287.7,
-  "BK:unibet_se": -5486.185699999999,
+  "BK:unibet_se": -6239.699999999999,
   "BK:tipico_de": 93.81,
   "BK:coolbet": -8022.379999999999,
   "BK:unibet_nl": -7801.679999999999,
@@ -392,8 +728,8 @@
    "6": 207,
    "7": 204,
    "8": 441,
-   "9": 441,
-   "10": 442,
+   "9": 435,
+   "10": 436,
    "11": 440,
    "12": 440,
    "13": 440
@@ -411,7 +747,7 @@
    "2026-11-16": 117,
    "2026-11-17": 152,
    "2026-11-18": 191,
-   "2026-11-19": 168
+   "2026-11-19": 180
   }
  },
  "book_slots": {
@@ -530,6 +866,7 @@
   "nba|2026-11-19T02:30|5": "2026-11-19T02:25:10Z",
   "nba|2026-11-19T03:00|30": "2026-11-19T02:30:11Z",
   "nba|2026-11-19T03:00|15": "2026-11-19T02:45:10Z",
-  "nba|2026-11-19T03:00|5": "2026-11-19T02:55:10Z"
+  "nba|2026-11-19T03:00|5": "2026-11-19T02:55:10Z",
+  "nhl|2026-11-20T00:00|180": "2026-11-19T21:00:00Z"
  }
 }

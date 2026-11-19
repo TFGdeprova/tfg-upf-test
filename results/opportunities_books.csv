@@ -1429,3 +1429,15 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-19T02:45:12Z,nba:26NOV18PHXSAC,PHX at SAC,nba,14.8,scheduled,14,-0.015069,-0.008333,no gap,,,
 2026-11-19T02:55:12Z,nba:26NOV18UTALAL,UTA at LAL,nba,4.8,scheduled,14,-0.009434,-0.005616,no gap,,,
 2026-11-19T02:55:12Z,nba:26NOV18PHXSAC,PHX at SAC,nba,4.8,scheduled,16,-0.014894,-0.000764,no gap,,,
+2026-11-19T21:00:03Z,nhl:26NOV19BUFWSH,BUF at WSH,nhl,179.9,scheduled,9,-0.011921,0.491004,seen,,nhl:26NOV19BUFWSH|2026-11-19T21:00:03Z|with_books,leovegas_se h2h Washington Capitals  @2.25 x0.663 | onexbet h2h Draw  @4.42 x0.337
+2026-11-19T21:00:03Z,nhl:26NOV19LATOR,LA at TOR,nhl,179.9,scheduled,13,-0.011921,0.581331,seen,,nhl:26NOV19LATOR|2026-11-19T21:00:03Z|with_books,leovegas_se h2h Toronto Maple Leafs  @2.45 x0.645 | onexbet h2h Draw  @4.46 x0.355
+2026-11-19T21:00:05Z,nhl:26NOV19STLPIT,STL at PIT,nhl,179.9,scheduled,15,-0.011921,0.61127,seen,,nhl:26NOV19STLPIT|2026-11-19T21:00:05Z|with_books,onexbet h2h Pittsburgh Penguins  @2.51 x0.642 | unibet_se h2h Draw  @4.5 x0.358
+2026-11-19T21:00:05Z,nhl:26NOV19PHIOTT,PHI at OTT,nhl,179.9,scheduled,15,-0.011726,0.424485,seen,,nhl:26NOV19PHIOTT|2026-11-19T21:00:03Z|with_books,leovegas_se h2h Ottawa Senators  @2.08 x0.685 | onexbet h2h Draw  @4.52 x0.315
+2026-11-19T21:00:05Z,nhl:26NOV19MTLCAR,MTL at CAR,nhl,179.9,scheduled,7,-0.018371,0.209337,seen,,nhl:26NOV19MTLCAR|2026-11-19T21:00:03Z|with_books,leovegas_se h2h Carolina Hurricanes  @1.56 x0.775 | onexbet h2h Draw  @5.38 x0.225
+2026-11-19T21:00:05Z,nhl:26NOV19NYIWPG,NYI at WPG,nhl,179.9,scheduled,11,-0.011921,0.566425,seen,,nhl:26NOV19NYIWPG|2026-11-19T21:00:05Z|with_books,unibet_se h2h Winnipeg Jets  @2.4 x0.653 | onexbet h2h Draw  @4.51 x0.347
+2026-11-19T21:01:33Z,nhl:26NOV19BUFWSH,BUF at WSH,nhl,178.4,confirmation,9,-0.011921,0.491004,executed,,,leovegas_se h2h Washington Capitals  @2.25 x0.663 | onexbet h2h Draw  @4.42 x0.337
+2026-11-19T21:01:35Z,nhl:26NOV19LATOR,LA at TOR,nhl,178.4,confirmation,13,-0.011921,0.581331,executed,,,leovegas_se h2h Toronto Maple Leafs  @2.45 x0.645 | onexbet h2h Draw  @4.46 x0.355
+2026-11-19T21:01:37Z,nhl:26NOV19STLPIT,STL at PIT,nhl,178.4,confirmation,15,-0.011921,0.61127,executed,,,onexbet h2h Pittsburgh Penguins  @2.51 x0.642 | unibet_se h2h Draw  @4.5 x0.358
+2026-11-19T21:01:37Z,nhl:26NOV19PHIOTT,PHI at OTT,nhl,178.4,confirmation,15,-0.011921,0.424485,executed,,,leovegas_se h2h Ottawa Senators  @2.08 x0.685 | onexbet h2h Draw  @4.52 x0.315
+2026-11-19T21:01:37Z,nhl:26NOV19MTLCAR,MTL at CAR,nhl,178.4,confirmation,7,-0.018371,0.209337,executed,,,leovegas_se h2h Carolina Hurricanes  @1.56 x0.775 | onexbet h2h Draw  @5.38 x0.225
+2026-11-19T21:01:37Z,nhl:26NOV19NYIWPG,NYI at WPG,nhl,178.4,confirmation,11,-0.011921,0.566425,executed,,,unibet_se h2h Winnipeg Jets  @2.4 x0.653 | onexbet h2h Draw  @4.51 x0.347
