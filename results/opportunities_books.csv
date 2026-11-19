@@ -1465,3 +1465,4 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-19T22:01:52Z,nba:26NOV19NYKMIN,NYK at MIN,nba,178.1,confirmation,24,0.009912,0.01492,below_min_size,0.99,,KS YES 0.140 x0.151 Minnesota wins by 11-20 points | KS YES 0.130 x0.140 Minnesota wins by 1-5 points | KS YES 0.060 x0.065 Minnesota wins by 21+ points | KS YES 0.120 x0.129 Minnesota wins by 6-10 points | unibet_nl h2h New York Knicks  @1.97 x0.515
 2026-11-19T22:01:52Z,nhl:26NOV19CBJCHI,CBJ at CHI,nhl,178.1,confirmation,15,-0.011921,0.890605,executed,,,onexbet h2h Chicago Blackhawks  @3.25 x0.582 | onexbet h2h Draw  @4.52 x0.418
 2026-11-19T22:01:52Z,nhl:26NOV19MINCGY,MIN at CGY,nhl,178.1,confirmation,13,-0.011921,1.268697,executed,,,onexbet h2h Calgary Flames  @4.21 x0.539 | onexbet h2h Draw  @4.92 x0.461
+2026-11-19T22:15:37Z,nfl:26NOV19INDHOU,IND at HOU,nfl,179.4,scheduled,16,-0.00035,-4.9e-05,no gap,,,
