@@ -151,3 +151,4 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 150,2026-11-19T22:01:45Z,nhl:26NOV19NYIWPG,NYI at WPG,nhl,2026-11-20T00:00:00Z,118.2,0.566425,True,"['onexbet', 'unibet_se']",False,2499.99,3916.033,1416.043,open,,,,,2
 151,2026-11-19T22:01:52Z,nhl:26NOV19CBJCHI,CBJ at CHI,nhl,2026-11-20T01:00:00Z,178.1,0.890605,True,['onexbet'],False,2499.99,4726.4736,2226.4836,open,,,,,2
 152,2026-11-19T22:01:52Z,nhl:26NOV19MINCGY,MIN at CGY,nhl,2026-11-20T01:00:00Z,178.1,1.268697,True,['onexbet'],False,2499.99,5671.712,3171.722,open,,,,,2
+153,2026-11-19T22:31:49Z,nhl:26NOV19EDMTB,EDM at TB,nhl,2026-11-20T00:30:00Z,118.2,0.485081,True,"['leovegas_se', 'onexbet']",False,2499.99,3712.668,1212.678,open,,,,,2
