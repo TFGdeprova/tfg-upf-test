@@ -1,7 +1,7 @@
 {
- "run": 57,
- "run_started": "2026-11-18T22:07:51Z",
- "last_update": "2026-11-19T03:45:59Z",
+ "run": 58,
+ "run_started": "2026-11-19T03:46:37Z",
+ "last_update": "2026-11-19T03:47:01Z",
  "code_version": "8b527b2bd558",
  "private_raw_storage": true,
  "odds_api_keys": {
@@ -42,33 +42,33 @@
   },
   "ODDS_API_KEY_8": {
    "valid": true,
-   "remaining": 461,
-   "used": 39
+   "remaining": 443,
+   "used": 57
   },
   "ODDS_API_KEY_9": {
    "valid": true,
-   "remaining": 459,
-   "used": 41
+   "remaining": 441,
+   "used": 59
   },
   "ODDS_API_KEY_10": {
    "valid": true,
-   "remaining": 494,
-   "used": 6
+   "remaining": 442,
+   "used": 58
   },
   "ODDS_API_KEY_11": {
    "valid": true,
-   "remaining": 494,
-   "used": 6
+   "remaining": 440,
+   "used": 60
   },
   "ODDS_API_KEY_12": {
    "valid": true,
-   "remaining": 494,
-   "used": 6
+   "remaining": 440,
+   "used": 60
   },
   "ODDS_API_KEY_13": {
    "valid": true,
-   "remaining": 494,
-   "used": 6
+   "remaining": 440,
+   "used": 60
   },
   "ODDS_API_KEY_14": "not set",
   "ODDS_API_KEY_15": "not set",
@@ -99,19 +99,19 @@
  "transfers_in_transit": 0,
  "games_tracked": 0,
  "games_in_window": 0,
- "checks": 4447,
+ "checks": 0,
  "errors": 0,
- "raw_snapshots": 767,
- "results_pushes": 17,
- "raw_pushes": 16,
- "book_calls": 41,
- "book_games": 82,
- "book_confirm_calls": 13,
- "score_calls": 2,
- "watches": 37,
- "rechecks": 142,
- "depth_rows": 178,
- "ks_depth_calls": 139,
+ "raw_snapshots": 0,
+ "results_pushes": 0,
+ "raw_pushes": 0,
+ "book_calls": 0,
+ "book_games": 0,
+ "book_confirm_calls": 0,
+ "score_calls": 0,
+ "watches": 0,
+ "rechecks": 0,
+ "depth_rows": 0,
+ "ks_depth_calls": 0,
  "discover_errors": 0,
  "last_discover_error": null,
  "odds_credits_usable": 3375,
