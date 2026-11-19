@@ -1,11 +1,11 @@
 {
  "cash": {
-  "PM": 8633.329600000001,
+  "PM": 13927.869600000002,
   "KS": 5176.879999999999,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -2307.2799999999993,
   "BK:onexbet": -18539.684,
-  "BK:matchbook": 5916.297212000001,
+  "BK:matchbook": 8440.389332000002,
   "BK:leovegas_se": -7775.33082,
   "BK:gtbets": 5009.9357,
   "BK:winamax_de": 1646.5399999999997,
@@ -29,7 +29,7 @@
   "BK:betsson": 2119.7043999999996,
   "BK:codere_it": 1797.4973999999997,
   "BK:boylesports": 1315.0279999999998,
-  "BK:fanduel": -2247.51,
+  "BK:fanduel": 416.0315999999998,
   "BK:bovada": -244.12,
   "BK:draftkings": -2698.54,
   "BK:williamhill": -751.77
@@ -293,62 +293,6 @@
    "status": "open"
   },
   {
-   "trade_id": 118,
-   "time": "2026-11-18T23:02:02Z",
-   "game": "nba:26NOV18PHIORL",
-   "title": "PHI at ORL",
-   "league": "nba",
-   "kickoff": "2026-11-19T00:00:00Z",
-   "min_to_ko": 58.0,
-   "t_lp": 0.065421,
-   "with_books": true,
-   "books": [
-    "fanduel",
-    "williamhill"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "635a9b07c018a821e08b521ea473133b",
-    "sport": "basketball_nba",
-    "home": "Orlando Magic",
-    "away": "Philadelphia 76ers"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2663.54,
-   "guaranteed_profit": 163.55,
-   "legs": [
-    {
-     "venue": "BK:williamhill",
-     "book": "williamhill",
-     "market": "h2h",
-     "outcome": "Orlando Magic",
-     "side": "home",
-     "point": null,
-     "odds": 2.0,
-     "eff": 2.0,
-     "three_way": false,
-     "stake": 1331.77,
-     "cost": 1331.77,
-     "label": "h2h Orlando Magic  @2.0"
-    },
-    {
-     "venue": "BK:fanduel",
-     "book": "fanduel",
-     "market": "h2h",
-     "outcome": "Philadelphia 76ers",
-     "side": "away",
-     "point": null,
-     "odds": 2.28,
-     "eff": 2.28,
-     "three_way": false,
-     "stake": 1168.22,
-     "cost": 1168.22,
-     "label": "h2h Philadelphia 76ers  @2.28"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 119,
    "time": "2026-11-18T23:21:47Z",
    "game": "nba:26NOV18MILMIA",
@@ -390,113 +334,6 @@
      "shares": 30,
      "fee": 0.16,
      "cost": 27.76
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 120,
-   "time": "2026-11-18T23:27:48Z",
-   "game": "nba:26NOV18PHIORL",
-   "title": "PHI at ORL",
-   "league": "nba",
-   "kickoff": "2026-11-19T00:00:00Z",
-   "min_to_ko": 32.2,
-   "t_lp": 0.006751,
-   "cost": 11.9327,
-   "guaranteed_payout": 12.0,
-   "guaranteed_profit": 0.0673,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0xbc7541c20e28a3662b2076b436c4d4c4f519ac5fcf1219e425646623849b1277",
-     "label": "Spread: Magic (-5.5)",
-     "side": "NO",
-     "price": 0.61,
-     "shares": 12.0,
-     "fee": 0.14274,
-     "cost": 7.4627
-    },
-    {
-     "venue": "KS",
-     "id": "KXNBASPREAD-26NOV18PHIORL-ORL21",
-     "label": "Orlando wins by over 20.5 points",
-     "side": "YES",
-     "price": 0.07,
-     "shares": 12,
-     "fee": 0.06,
-     "cost": 0.9
-    },
-    {
-     "venue": "KS",
-     "id": "KXNBAWINMARGIN-26NOV18PHIORL-ORL11TO20",
-     "label": "Orlando wins by 11-20 points",
-     "side": "YES",
-     "price": 0.15,
-     "shares": 12,
-     "fee": 0.11,
-     "cost": 1.91
-    },
-    {
-     "venue": "KS",
-     "id": "KXNBAWINMARGIN-26NOV18PHIORL-ORL6TO10",
-     "label": "Orlando wins by 6-10 points",
-     "side": "YES",
-     "price": 0.13,
-     "shares": 12,
-     "fee": 0.1,
-     "cost": 1.66
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 121,
-   "time": "2026-11-18T23:31:55Z",
-   "game": "nba:26NOV18PHIORL",
-   "title": "PHI at ORL",
-   "league": "nba",
-   "kickoff": "2026-11-19T00:00:00Z",
-   "min_to_ko": 28.1,
-   "t_lp": 0.085917,
-   "with_books": true,
-   "books": [
-    "marathonbet"
-   ],
-   "spain_only": true,
-   "event": {
-    "id": "635a9b07c018a821e08b521ea473133b",
-    "sport": "basketball_nba",
-    "home": "Orlando Magic",
-    "away": "Philadelphia 76ers"
-   },
-   "cost": 2499.9904,
-   "guaranteed_payout": 2714.7771,
-   "guaranteed_profit": 214.7867,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x559ca9498eba90b68476a9788fa29cb000e691ef6ab02f1e3bfdf07f11da4572",
-     "label": "76ers vs. Magic",
-     "side": "YES",
-     "price": 0.38,
-     "shares": 2714.79,
-     "fee": 31.98023,
-     "cost": 1063.6004
-    },
-    {
-     "venue": "BK:marathonbet",
-     "book": "marathonbet",
-     "market": "h2h",
-     "outcome": "Orlando Magic",
-     "side": "home",
-     "point": null,
-     "odds": 1.89,
-     "eff": 1.89,
-     "three_way": false,
-     "stake": 1436.39,
-     "cost": 1436.39,
-     "label": "h2h Orlando Magic  @1.89"
     }
    ],
    "status": "open"
@@ -609,159 +446,6 @@
      "stake": 943.04,
      "cost": 943.04,
      "label": "h2h Draw  @4.21"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 124,
-   "time": "2026-11-18T23:47:00Z",
-   "game": "nba:26NOV18PHIORL",
-   "title": "PHI at ORL",
-   "league": "nba",
-   "kickoff": "2026-11-19T00:00:00Z",
-   "min_to_ko": 13.0,
-   "t_lp": 0.009645,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "635a9b07c018a821e08b521ea473133b",
-    "sport": "basketball_nba",
-    "home": "Orlando Magic",
-    "away": "Philadelphia 76ers"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2524.0921,
-   "guaranteed_profit": 24.1021,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Orlando Magic",
-     "side": "home",
-     "point": null,
-     "odds": 1.64,
-     "eff": 1.64,
-     "three_way": false,
-     "stake": 1539.09,
-     "cost": 1539.09,
-     "label": "h2h Orlando Magic  @1.64"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Philadelphia 76ers",
-     "side": "away",
-     "point": null,
-     "odds": 2.66,
-     "eff": 2.6268000000000002,
-     "three_way": false,
-     "stake": 960.9,
-     "cost": 960.9,
-     "label": "h2h Philadelphia 76ers  @2.66"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 125,
-   "time": "2026-11-18T23:51:38Z",
-   "game": "nba:26NOV18PHIORL",
-   "title": "PHI at ORL",
-   "league": "nba",
-   "kickoff": "2026-11-19T00:00:00Z",
-   "min_to_ko": 8.4,
-   "t_lp": 0.005201,
-   "cost": 19.9234,
-   "guaranteed_payout": 20.02,
-   "guaranteed_profit": 0.0966,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x002c3a178d8e977fc746c7b6b637610cc4564429dfde1fd4a11e5333606eefe3",
-     "label": "Spread: 76ers (-5.5)",
-     "side": "NO",
-     "price": 0.72,
-     "shares": 10.02,
-     "fee": 0.101,
-     "cost": 7.3154
-    },
-    {
-     "venue": "PM",
-     "id": "0x559ca9498eba90b68476a9788fa29cb000e691ef6ab02f1e3bfdf07f11da4572",
-     "label": "76ers vs. Magic",
-     "side": "YES",
-     "price": 0.37,
-     "shares": 10.03,
-     "fee": 0.1169,
-     "cost": 3.828
-    },
-    {
-     "venue": "KS",
-     "id": "KXNBAWINMARGIN-26NOV18PHIORL-PHI1TO5",
-     "label": "Philadelphia wins by 1-5 points",
-     "side": "NO",
-     "price": 0.87,
-     "shares": 10,
-     "fee": 0.08,
-     "cost": 8.78
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 126,
-   "time": "2026-11-18T23:57:08Z",
-   "game": "nba:26NOV18PHIORL",
-   "title": "PHI at ORL",
-   "league": "nba",
-   "kickoff": "2026-11-19T00:00:00Z",
-   "min_to_ko": 2.9,
-   "t_lp": 0.019081,
-   "with_books": true,
-   "books": [
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "635a9b07c018a821e08b521ea473133b",
-    "sport": "basketball_nba",
-    "home": "Orlando Magic",
-    "away": "Philadelphia 76ers"
-   },
-   "cost": 2499.9915,
-   "guaranteed_payout": 2547.6908,
-   "guaranteed_profit": 47.6993,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x559ca9498eba90b68476a9788fa29cb000e691ef6ab02f1e3bfdf07f11da4572",
-     "label": "76ers vs. Magic",
-     "side": "YES",
-     "price": 0.36,
-     "shares": 2547.7,
-     "fee": 29.3495,
-     "cost": 946.5215
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Orlando Magic",
-     "side": "home",
-     "point": null,
-     "odds": 1.64,
-     "eff": 1.64,
-     "three_way": false,
-     "stake": 1553.47,
-     "cost": 1553.47,
-     "label": "h2h Orlando Magic  @1.64"
     }
    ],
    "status": "open"
@@ -1307,16 +991,16 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 135,
- "n_settled": 113,
- "realized_pnl": 2060.8176920000074,
+ "n_settled": 119,
+ "realized_pnl": 2511.173412000008,
  "runs": 57,
  "locked": {
-  "PM": 3980.2614000000003,
-  "KS": 56.9,
+  "PM": 1951.5334000000003,
+  "KS": 43.650000000000006,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
-  "BK:onexbet": 14017.51,
-  "BK:matchbook": 960.9,
+  "BK:onexbet": 10924.95,
+  "BK:matchbook": 0.0,
   "BK:leovegas_se": 13102.44,
   "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 0.0,
@@ -1325,7 +1009,7 @@
   "BK:tipico_de": 0.0,
   "BK:coolbet": 2.2737367544323206e-13,
   "BK:unibet_nl": 7.958078640513122e-13,
-  "BK:marathonbet": 3167.15,
+  "BK:marathonbet": 1730.76,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
@@ -1340,10 +1024,10 @@
   "BK:betsson": 0.0,
   "BK:codere_it": 0.0,
   "BK:boylesports": 0.0,
-  "BK:fanduel": 1168.22,
+  "BK:fanduel": 0.0,
   "BK:bovada": 0.0,
   "BK:draftkings": 0.0,
-  "BK:williamhill": 1331.77
+  "BK:williamhill": 0.0
  },
  "peak_locked": {
   "PM": 4486.7806,
@@ -1433,8 +1117,8 @@
    "7": 204,
    "8": 443,
    "9": 441,
-   "10": 446,
-   "11": 446,
+   "10": 444,
+   "11": 440,
    "12": 440,
    "13": 440
   },
@@ -1451,7 +1135,7 @@
    "2026-11-16": 117,
    "2026-11-17": 152,
    "2026-11-18": 191,
-   "2026-11-19": 156
+   "2026-11-19": 164
   }
  },
  "book_slots": {
@@ -1569,6 +1253,7 @@
   "nba|2026-11-19T02:30|15": "2026-11-19T02:15:10Z",
   "nba|2026-11-19T02:30|5": "2026-11-19T02:25:10Z",
   "nba|2026-11-19T03:00|30": "2026-11-19T02:30:11Z",
-  "nba|2026-11-19T03:00|15": "2026-11-19T02:45:10Z"
+  "nba|2026-11-19T03:00|15": "2026-11-19T02:45:10Z",
+  "nba|2026-11-19T03:00|5": "2026-11-19T02:55:10Z"
  }
 }
