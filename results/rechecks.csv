@@ -1280,3 +1280,4 @@ time,watch,kind,game,title,league,min_to_ko,lag_s,detected,recheck,t_detected,t_
 2026-11-19T21:01:35Z,nhl:26NOV19LATOR|2026-11-19T21:00:03Z|with_books,with_books,nhl:26NOV19LATOR,LA at TOR,nhl,178.4,91.7,2026-11-19T21:00:03Z,confirmation,0.581331,0.581331,2/2,0.581331,True,True,ok
 2026-11-19T21:01:35Z,nhl:26NOV19PHIOTT|2026-11-19T21:00:03Z|with_books,with_books,nhl:26NOV19PHIOTT,PHI at OTT,nhl,178.4,91.7,2026-11-19T21:00:03Z,confirmation,0.424485,0.424485,2/2,0.424485,True,True,ok
 2026-11-19T21:01:37Z,nhl:26NOV19STLPIT|2026-11-19T21:00:05Z|with_books,with_books,nhl:26NOV19STLPIT,STL at PIT,nhl,178.4,91.6,2026-11-19T21:00:05Z,confirmation,0.61127,0.61127,2/2,0.61127,True,True,ok
+2026-11-19T21:31:36Z,nhl:26NOV19EDMTB|2026-11-19T21:30:07Z|with_books,with_books,nhl:26NOV19EDMTB,EDM at TB,nhl,178.4,89.8,2026-11-19T21:30:07Z,confirmation,0.485081,0.485081,2/2,0.485081,True,True,ok
