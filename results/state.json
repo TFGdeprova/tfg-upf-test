@@ -4,17 +4,17 @@
   "KS": 5192.7699999999995,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -2307.2799999999993,
-  "BK:onexbet": -16441.924,
+  "BK:onexbet": -18164.734,
   "BK:matchbook": 5916.297212000001,
-  "BK:leovegas_se": -2775.3408200000003,
+  "BK:leovegas_se": -7775.33082,
   "BK:gtbets": 5009.9357,
   "BK:winamax_de": 1646.5399999999997,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -2166.4599999999987,
+  "BK:unibet_se": -3712.8699999999985,
   "BK:tipico_de": 2621.998,
   "BK:coolbet": 7055.7693,
   "BK:unibet_nl": -7801.679999999999,
-  "BK:marathonbet": 624.2511999999999,
+  "BK:marathonbet": -1106.5088,
   "BK:coral": 1338.673,
   "BK:betfair_ex_uk": 580.0,
   "BK:betfred_uk": -768.02,
@@ -877,6 +877,228 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 129,
+   "time": "2026-11-19T00:16:46Z",
+   "game": "nhl:26NOV18MTLNJ",
+   "title": "MTL at NJ",
+   "league": "nhl",
+   "kickoff": "2026-11-19T00:30:00Z",
+   "min_to_ko": 13.2,
+   "t_lp": 0.398928,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "a3e6d9189d7bb72b7c8ada9993fe63f2",
+    "sport": "icehockey_nhl",
+    "home": "New Jersey Devils",
+    "away": "Montr\u00e9al Canadiens"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 3497.3043,
+   "guaranteed_profit": 997.3143,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "New Jersey Devils",
+     "side": "home",
+     "point": null,
+     "odds": 2.03,
+     "eff": 2.03,
+     "three_way": false,
+     "stake": 1722.81,
+     "cost": 1722.81,
+     "label": "h2h New Jersey Devils  @2.03"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.5,
+     "eff": 4.5,
+     "three_way": false,
+     "stake": 777.18,
+     "cost": 777.18,
+     "label": "h2h Draw  @4.5"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 130,
+   "time": "2026-11-19T00:16:46Z",
+   "game": "nhl:26NOV18BOSDET",
+   "title": "BOS at DET",
+   "league": "nhl",
+   "kickoff": "2026-11-19T00:30:00Z",
+   "min_to_ko": 13.2,
+   "t_lp": 0.59375,
+   "with_books": true,
+   "books": [
+    "leovegas_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "38779d99fd6274c9008c5cc03fa504ef",
+    "sport": "icehockey_nhl",
+    "home": "Detroit Red Wings",
+    "away": "Boston Bruins"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 3984.3495,
+   "guaranteed_profit": 1484.3595,
+   "legs": [
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Detroit Red Wings",
+     "side": "home",
+     "point": null,
+     "odds": 2.55,
+     "eff": 2.55,
+     "three_way": false,
+     "stake": 1562.49,
+     "cost": 1562.49,
+     "label": "h2h Detroit Red Wings  @2.55"
+    },
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.25,
+     "eff": 4.25,
+     "three_way": false,
+     "stake": 937.5,
+     "cost": 937.5,
+     "label": "h2h Draw  @4.25"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 131,
+   "time": "2026-11-19T00:26:46Z",
+   "game": "nhl:26NOV18MTLNJ",
+   "title": "MTL at NJ",
+   "league": "nhl",
+   "kickoff": "2026-11-19T00:30:00Z",
+   "min_to_ko": 3.2,
+   "t_lp": 0.384615,
+   "with_books": true,
+   "books": [
+    "marathonbet",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "a3e6d9189d7bb72b7c8ada9993fe63f2",
+    "sport": "icehockey_nhl",
+    "home": "New Jersey Devils",
+    "away": "Montr\u00e9al Canadiens"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 3461.52,
+   "guaranteed_profit": 961.53,
+   "legs": [
+    {
+     "venue": "BK:marathonbet",
+     "book": "marathonbet",
+     "market": "h2h",
+     "outcome": "New Jersey Devils",
+     "side": "home",
+     "point": null,
+     "odds": 2.0,
+     "eff": 2.0,
+     "three_way": false,
+     "stake": 1730.76,
+     "cost": 1730.76,
+     "label": "h2h New Jersey Devils  @2.0"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.5,
+     "eff": 4.5,
+     "three_way": false,
+     "stake": 769.23,
+     "cost": 769.23,
+     "label": "h2h Draw  @4.5"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 132,
+   "time": "2026-11-19T00:26:46Z",
+   "game": "nhl:26NOV18BOSDET",
+   "title": "BOS at DET",
+   "league": "nhl",
+   "kickoff": "2026-11-19T00:30:00Z",
+   "min_to_ko": 3.2,
+   "t_lp": 0.59375,
+   "with_books": true,
+   "books": [
+    "leovegas_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "38779d99fd6274c9008c5cc03fa504ef",
+    "sport": "icehockey_nhl",
+    "home": "Detroit Red Wings",
+    "away": "Boston Bruins"
+   },
+   "cost": 2500.0,
+   "guaranteed_payout": 3984.375,
+   "guaranteed_profit": 1484.375,
+   "legs": [
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Detroit Red Wings",
+     "side": "home",
+     "point": null,
+     "odds": 2.55,
+     "eff": 2.55,
+     "three_way": false,
+     "stake": 1562.5,
+     "cost": 1562.5,
+     "label": "h2h Detroit Red Wings  @2.55"
+    },
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.25,
+     "eff": 4.25,
+     "three_way": false,
+     "stake": 937.5,
+     "cost": 937.5,
+     "label": "h2h Draw  @4.25"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -930,7 +1152,7 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 128,
+ "n_trades": 132,
  "n_settled": 113,
  "realized_pnl": 2060.8176920000074,
  "runs": 57,
@@ -939,17 +1161,17 @@
   "KS": 41.01,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
-  "BK:onexbet": 11919.75,
+  "BK:onexbet": 13642.56,
   "BK:matchbook": 960.9,
-  "BK:leovegas_se": 8102.450000000001,
+  "BK:leovegas_se": 13102.44,
   "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 3070.28,
+  "BK:unibet_se": 4616.6900000000005,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 2.2737367544323206e-13,
   "BK:unibet_nl": 7.958078640513122e-13,
-  "BK:marathonbet": 1436.39,
+  "BK:marathonbet": 3167.15,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
@@ -976,7 +1198,7 @@
   "BK:pinnacle": 3723.5699999999997,
   "BK:onexbet": 22357.230000000003,
   "BK:matchbook": 4155.1,
-  "BK:leovegas_se": 8102.450000000001,
+  "BK:leovegas_se": 13102.44,
   "BK:gtbets": 6720.040000000001,
   "BK:winamax_de": 805.8,
   "BK:grosvenor": 292.3,
@@ -984,7 +1206,7 @@
   "BK:tipico_de": 486.19,
   "BK:coolbet": 7199.91,
   "BK:unibet_nl": 4157.51,
-  "BK:marathonbet": 2789.53,
+  "BK:marathonbet": 3167.15,
   "BK:coral": 1948.91,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 1348.02,
@@ -1011,7 +1233,7 @@
   "BK:pinnacle": -6879.0199999999995,
   "BK:onexbet": -20246.551300000003,
   "BK:matchbook": -3925.7799999999993,
-  "BK:leovegas_se": -2775.3408200000003,
+  "BK:leovegas_se": -7775.33082,
   "BK:gtbets": -7633.02,
   "BK:winamax_de": -872.9100000000001,
   "BK:grosvenor": 287.7,
@@ -1057,10 +1279,10 @@
    "7": 204,
    "8": 461,
    "9": 459,
-   "10": 470,
-   "11": 470,
-   "12": 470,
-   "13": 470
+   "10": 464,
+   "11": 458,
+   "12": 458,
+   "13": 458
   },
   "spent": {
    "2026-11-06": 27,
@@ -1075,7 +1297,7 @@
    "2026-11-16": 117,
    "2026-11-17": 152,
    "2026-11-18": 191,
-   "2026-11-19": 12
+   "2026-11-19": 54
   }
  },
  "book_slots": {
@@ -1173,6 +1395,10 @@
   "nba|2026-11-19T01:00|60": "2026-11-19T00:00:38Z",
   "nba|2026-11-19T03:00|180": "2026-11-19T00:00:38Z",
   "nhl|2026-11-19T00:30|30": "2026-11-19T00:00:38Z",
-  "nhl|2026-11-19T02:00|120": "2026-11-19T00:00:38Z"
+  "nhl|2026-11-19T02:00|120": "2026-11-19T00:00:38Z",
+  "nba|2026-11-19T00:30|15": "2026-11-19T00:15:05Z",
+  "nhl|2026-11-19T00:30|15": "2026-11-19T00:15:06Z",
+  "nba|2026-11-19T00:30|5": "2026-11-19T00:25:06Z",
+  "nhl|2026-11-19T00:30|5": "2026-11-19T00:25:07Z"
  }
 }
