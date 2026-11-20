@@ -6,7 +6,7 @@
   "BK:pinnacle": -2366.859999999999,
   "BK:onexbet": -86877.659,
   "BK:matchbook": 8440.389332000002,
-  "BK:leovegas_se": -46262.240820000035,
+  "BK:leovegas_se": -24032.557620000025,
   "BK:gtbets": 5009.9357,
   "BK:winamax_de": 1646.5399999999997,
   "BK:grosvenor": 580.0,
@@ -70,62 +70,6 @@
   "BK:williamhill": 580.0
  },
  "open": [
-  {
-   "trade_id": 144,
-   "time": "2026-11-19T21:31:36Z",
-   "game": "nhl:26NOV19EDMTB",
-   "title": "EDM at TB",
-   "league": "nhl",
-   "kickoff": "2026-11-20T00:30:00Z",
-   "min_to_ko": 178.4,
-   "t_lp": 0.485081,
-   "with_books": true,
-   "books": [
-    "leovegas_se",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "147b0b6f883cce916d06b7aaa9b9594c",
-    "sport": "icehockey_nhl",
-    "home": "Tampa Bay Lightning",
-    "away": "Edmonton Oilers"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 3712.668,
-   "guaranteed_profit": 1212.678,
-   "legs": [
-    {
-     "venue": "BK:leovegas_se",
-     "book": "leovegas_se",
-     "market": "h2h",
-     "outcome": "Tampa Bay Lightning",
-     "side": "home",
-     "point": null,
-     "odds": 2.2,
-     "eff": 2.2,
-     "three_way": false,
-     "stake": 1687.59,
-     "cost": 1687.59,
-     "label": "h2h Tampa Bay Lightning  @2.2"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.57,
-     "eff": 4.57,
-     "three_way": false,
-     "stake": 812.4,
-     "cost": 812.4,
-     "label": "h2h Draw  @4.57"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 151,
    "time": "2026-11-19T22:01:52Z",
@@ -237,118 +181,6 @@
    "status": "open"
   },
   {
-   "trade_id": 153,
-   "time": "2026-11-19T22:31:49Z",
-   "game": "nhl:26NOV19EDMTB",
-   "title": "EDM at TB",
-   "league": "nhl",
-   "kickoff": "2026-11-20T00:30:00Z",
-   "min_to_ko": 118.2,
-   "t_lp": 0.485081,
-   "with_books": true,
-   "books": [
-    "leovegas_se",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "147b0b6f883cce916d06b7aaa9b9594c",
-    "sport": "icehockey_nhl",
-    "home": "Tampa Bay Lightning",
-    "away": "Edmonton Oilers"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 3712.668,
-   "guaranteed_profit": 1212.678,
-   "legs": [
-    {
-     "venue": "BK:leovegas_se",
-     "book": "leovegas_se",
-     "market": "h2h",
-     "outcome": "Tampa Bay Lightning",
-     "side": "home",
-     "point": null,
-     "odds": 2.2,
-     "eff": 2.2,
-     "three_way": false,
-     "stake": 1687.59,
-     "cost": 1687.59,
-     "label": "h2h Tampa Bay Lightning  @2.2"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.57,
-     "eff": 4.57,
-     "three_way": false,
-     "stake": 812.4,
-     "cost": 812.4,
-     "label": "h2h Draw  @4.57"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 156,
-   "time": "2026-11-19T23:31:56Z",
-   "game": "nhl:26NOV19EDMTB",
-   "title": "EDM at TB",
-   "league": "nhl",
-   "kickoff": "2026-11-20T00:30:00Z",
-   "min_to_ko": 58.1,
-   "t_lp": 0.492181,
-   "with_books": true,
-   "books": [
-    "leovegas_se",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "147b0b6f883cce916d06b7aaa9b9594c",
-    "sport": "icehockey_nhl",
-    "home": "Tampa Bay Lightning",
-    "away": "Edmonton Oilers"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 3730.4332,
-   "guaranteed_profit": 1230.4432,
-   "legs": [
-    {
-     "venue": "BK:leovegas_se",
-     "book": "leovegas_se",
-     "market": "h2h",
-     "outcome": "Tampa Bay Lightning",
-     "side": "home",
-     "point": null,
-     "odds": 2.23,
-     "eff": 2.23,
-     "three_way": false,
-     "stake": 1672.84,
-     "cost": 1672.84,
-     "label": "h2h Tampa Bay Lightning  @2.23"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.51,
-     "eff": 4.51,
-     "three_way": false,
-     "stake": 827.15,
-     "cost": 827.15,
-     "label": "h2h Draw  @4.51"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 161,
    "time": "2026-11-19T23:42:12Z",
    "game": "nhl:26NOV19VANSEA",
@@ -399,62 +231,6 @@
      "stake": 741.71,
      "cost": 741.71,
      "label": "h2h Draw  @4.67"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 175,
-   "time": "2026-11-20T00:02:03Z",
-   "game": "nhl:26NOV19EDMTB",
-   "title": "EDM at TB",
-   "league": "nhl",
-   "kickoff": "2026-11-20T00:30:00Z",
-   "min_to_ko": 27.9,
-   "t_lp": 0.478689,
-   "with_books": true,
-   "books": [
-    "leovegas_se",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "147b0b6f883cce916d06b7aaa9b9594c",
-    "sport": "icehockey_nhl",
-    "home": "Tampa Bay Lightning",
-    "away": "Edmonton Oilers"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 3696.704,
-   "guaranteed_profit": 1196.714,
-   "legs": [
-    {
-     "venue": "BK:leovegas_se",
-     "book": "leovegas_se",
-     "market": "h2h",
-     "outcome": "Tampa Bay Lightning",
-     "side": "home",
-     "point": null,
-     "odds": 2.2,
-     "eff": 2.2,
-     "three_way": false,
-     "stake": 1680.32,
-     "cost": 1680.32,
-     "label": "h2h Tampa Bay Lightning  @2.2"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.51,
-     "eff": 4.51,
-     "three_way": false,
-     "stake": 819.67,
-     "cost": 819.67,
-     "label": "h2h Draw  @4.51"
     }
    ],
    "status": "open"
@@ -679,118 +455,6 @@
      "stake": 904.25,
      "cost": 904.25,
      "label": "h2h Draw  @4.2"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 180,
-   "time": "2026-11-20T00:16:56Z",
-   "game": "nhl:26NOV19EDMTB",
-   "title": "EDM at TB",
-   "league": "nhl",
-   "kickoff": "2026-11-20T00:30:00Z",
-   "min_to_ko": 13.1,
-   "t_lp": 0.478689,
-   "with_books": true,
-   "books": [
-    "leovegas_se",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "147b0b6f883cce916d06b7aaa9b9594c",
-    "sport": "icehockey_nhl",
-    "home": "Tampa Bay Lightning",
-    "away": "Edmonton Oilers"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 3696.704,
-   "guaranteed_profit": 1196.714,
-   "legs": [
-    {
-     "venue": "BK:leovegas_se",
-     "book": "leovegas_se",
-     "market": "h2h",
-     "outcome": "Tampa Bay Lightning",
-     "side": "home",
-     "point": null,
-     "odds": 2.2,
-     "eff": 2.2,
-     "three_way": false,
-     "stake": 1680.32,
-     "cost": 1680.32,
-     "label": "h2h Tampa Bay Lightning  @2.2"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.51,
-     "eff": 4.51,
-     "three_way": false,
-     "stake": 819.67,
-     "cost": 819.67,
-     "label": "h2h Draw  @4.51"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 181,
-   "time": "2026-11-20T00:27:09Z",
-   "game": "nhl:26NOV19EDMTB",
-   "title": "EDM at TB",
-   "league": "nhl",
-   "kickoff": "2026-11-20T00:30:00Z",
-   "min_to_ko": 2.8,
-   "t_lp": 0.47218,
-   "with_books": true,
-   "books": [
-    "leovegas_se",
-    "marathonbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "147b0b6f883cce916d06b7aaa9b9594c",
-    "sport": "icehockey_nhl",
-    "home": "Tampa Bay Lightning",
-    "away": "Edmonton Oilers"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 3680.417,
-   "guaranteed_profit": 1180.427,
-   "legs": [
-    {
-     "venue": "BK:leovegas_se",
-     "book": "leovegas_se",
-     "market": "h2h",
-     "outcome": "Tampa Bay Lightning",
-     "side": "home",
-     "point": null,
-     "odds": 2.2,
-     "eff": 2.2,
-     "three_way": false,
-     "stake": 1672.93,
-     "cost": 1672.93,
-     "label": "h2h Tampa Bay Lightning  @2.2"
-    },
-    {
-     "venue": "BK:marathonbet",
-     "book": "marathonbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.45,
-     "eff": 4.45,
-     "three_way": false,
-     "stake": 827.06,
-     "cost": 827.06,
-     "label": "h2h Draw  @4.45"
     }
    ],
    "status": "open"
@@ -2099,17 +1763,17 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 204,
- "n_settled": 168,
- "realized_pnl": -73752.55148799998,
+ "n_settled": 174,
+ "realized_pnl": -66522.80828799997,
  "runs": 62,
  "locked": {
   "PM": 344.32860000000016,
   "KS": 174.94,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 59.580000000000226,
-  "BK:onexbet": 39573.669999999984,
+  "BK:onexbet": 35482.37999999998,
   "BK:matchbook": 0.0,
-  "BK:leovegas_se": 23778.890000000018,
+  "BK:leovegas_se": 13697.300000000017,
   "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
@@ -2117,7 +1781,7 @@
   "BK:tipico_de": 0.0,
   "BK:coolbet": 2.2737367544323206e-13,
   "BK:unibet_nl": 7.958078640513122e-13,
-  "BK:marathonbet": 3468.75,
+  "BK:marathonbet": 2641.69,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
@@ -2226,7 +1890,7 @@
    "8": 369,
    "9": 369,
    "10": 370,
-   "11": 374,
+   "11": 372,
    "12": 372,
    "13": 368
   },
@@ -2244,7 +1908,7 @@
    "2026-11-17": 152,
    "2026-11-18": 191,
    "2026-11-19": 300,
-   "2026-11-20": 290
+   "2026-11-20": 292
   }
  },
  "book_slots": {

@@ -1,18 +1,18 @@
-# Paper-trading bot: status at 2026-11-20T03:25:45Z
+# Paper-trading bot: status at 2026-11-20T03:46:34Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 204 / 168 |
-| Realised profit | $-73,752.55 ≈ €-63,579.79 |
+| Trades executed / settled | 204 / 174 |
+| Realised profit | $-66,522.81 ≈ €-57,347.25 |
 | … Polymarket/Kalshi only | $29.31 |
-| … with bookmakers (all) | $-73,781.86 |
+| … with bookmakers (all) | $-66,552.12 |
 | … with bookmakers licensed in Spain only | $-2,285.19 |
-| Open positions (cost) | $80,954.33 |
+| Open positions (cost) | $65,954.39 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $-44,172.55 ≈ €-38,079.78 |
-| Return so far (realised / peak money in use) | -47.283% over 13.2 days |
+| Equity (cash + open at cost + in transit) | $-36,942.80 ≈ €-31,847.25 |
+| Return so far (realised / peak money in use) | -42.648% over 13.2 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 713, executed 30, rounding 86, seen 898, vanished 63.
 Gaps using bookmakers: below_min_size 4, executed 174, no_cash 41, rounding 3, seen 255, vanished 24 (snapshots combined with Polymarket/Kalshi: 1599).
@@ -21,7 +21,7 @@ Gaps using bookmakers: below_min_size 4, executed 174, no_cash 41, rounding 3, s
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 2,951 (about 8.1 days at the current pace).
+The Odds API credits left: 2,949 (about 8.1 days at the current pace).
 
 ## Capital by account
 
@@ -48,12 +48,12 @@ Peak in use = the most money that was tied up in open positions at the same time
 | fanduel | $580.00 | $416.03 | $0.00 | $1,659.29 | $-2,247.51 |
 | grosvenor | $580.00 | $580.00 | $0.00 | $292.30 | $287.70 |
 | gtbets | $580.00 | $5,009.94 | $0.00 | $6,720.04 | $-7,633.02 |
-| leovegas_se | $580.00 | $-46,262.24 | $23,778.89 | $47,555.97 | $-55,331.30 |
+| leovegas_se | $580.00 | $-24,032.56 | $13,697.30 | $47,555.97 | $-55,331.30 |
 | lowvig | $580.00 | $-4,867.83 | $10.05 | $1,628.95 | $-4,867.83 |
-| marathonbet (Spain) | $580.00 | $-9,631.58 | $3,468.75 | $8,525.07 | $-9,631.58 |
+| marathonbet (Spain) | $580.00 | $-9,631.58 | $2,641.69 | $8,525.07 | $-9,631.58 |
 | matchbook | $580.00 | $8,440.39 | $0.00 | $4,155.10 | $-3,925.78 |
 | mybookieag | $580.00 | $-4,546.41 | $0.00 | $4,422.60 | $-7,124.16 |
-| onexbet | $580.00 | $-86,877.66 | $39,573.67 | $69,050.38 | $-86,877.66 |
+| onexbet | $580.00 | $-86,877.66 | $35,482.38 | $69,050.38 | $-86,877.66 |
 | pinnacle | $580.00 | $-2,366.86 | $59.58 | $3,723.57 | $-6,879.02 |
 | skybet | $580.00 | $-375.11 | $0.00 | $567.67 | $-375.11 |
 | smarkets | $580.00 | $-6,439.08 | $0.00 | $4,070.28 | $-8,947.57 |
@@ -114,5 +114,5 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 | 184 | 11-20T00:32 | MIN at CGY | 27.8 | leovegas_se | 129.73% | $2499.99 | $3243.21 | open |  |
 | 183 | 11-20T00:32 | CBJ at CHI | 27.8 | onexbet, unibet_se | 89.93% | $2499.99 | $2248.23 | open |  |
 | 182 | 11-20T00:32 | POR at MIL | 27.8 | pinnacle | 3.60% | $111.01 | $3.98 | open |  |
-| 181 | 11-20T00:27 | EDM at TB | 2.8 | leovegas_se, marathonbet | 47.22% | $2499.99 | $1180.43 | open |  |
-| 180 | 11-20T00:16 | EDM at TB | 13.1 | leovegas_se, onexbet | 47.87% | $2499.99 | $1196.71 | open |  |
+| 181 | 11-20T00:27 | EDM at TB | 2.8 | leovegas_se, marathonbet | 47.22% | $2499.99 | $1180.43 | settled | $+1180.46 |
+| 180 | 11-20T00:16 | EDM at TB | 13.1 | leovegas_se, onexbet | 47.87% | $2499.99 | $1196.71 | settled | $+1196.71 |
