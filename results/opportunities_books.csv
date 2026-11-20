@@ -1582,3 +1582,7 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-20T01:31:34Z,nhl:26NOV19ANACOL,ANA at COL,nhl,28.4,confirmation,11,-0.009208,0.495488,executed,,,leovegas_se h2h Colorado Avalanche  @2.2 x0.680 | onexbet h2h Draw  @4.67 x0.320
 2026-11-20T01:40:02Z,nhl:26NOV19VANSEA,VAN at SEA,nhl,60.0,scheduled,11,-0.011921,0.390466,seen,,nhl:26NOV19VANSEA|2026-11-20T01:40:02Z|with_books,onexbet h2h Seattle Kraken  @1.98 x0.702 | onexbet h2h Draw  @4.67 x0.298
 2026-11-20T01:41:34Z,nhl:26NOV19VANSEA,VAN at SEA,nhl,58.4,confirmation,11,-0.011921,0.390466,executed,,,onexbet h2h Seattle Kraken  @1.98 x0.702 | onexbet h2h Draw  @4.67 x0.298
+2026-11-20T01:45:03Z,nhl:26NOV19ANACOL,ANA at COL,nhl,14.9,scheduled,11,-0.009208,0.504702,seen,,nhl:26NOV19ANACOL|2026-11-20T01:45:03Z|with_books,onexbet h2h Colorado Avalanche  @2.22 x0.678 | onexbet h2h Draw  @4.67 x0.322
+2026-11-20T01:46:35Z,nhl:26NOV19ANACOL,ANA at COL,nhl,13.4,confirmation,11,-0.01126,0.504702,executed,,,onexbet h2h Colorado Avalanche  @2.22 x0.678 | onexbet h2h Draw  @4.67 x0.322
+2026-11-20T01:55:03Z,nhl:26NOV19ANACOL,ANA at COL,nhl,4.9,scheduled,11,-0.009208,0.482963,seen,,nhl:26NOV19ANACOL|2026-11-20T01:55:03Z|with_books,leovegas_se h2h Colorado Avalanche  @2.2 x0.674 | marathonbet h2h Draw  @4.55 x0.326
+2026-11-20T01:56:35Z,nhl:26NOV19ANACOL,ANA at COL,nhl,3.4,confirmation,11,-0.009208,0.537771,executed,,,onexbet h2h Colorado Avalanche  @2.31 x0.666 | marathonbet h2h Draw  @4.6 x0.334
