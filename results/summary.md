@@ -1,27 +1,27 @@
-# Paper-trading bot: status at 2026-11-20T16:50:49Z
+# Paper-trading bot: status at 2026-11-20T17:10:55Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 205 / 204 |
-| Realised profit | $-91,679.15 ≈ €-79,033.75 |
-| … Polymarket/Kalshi only | $29.54 |
+| Trades executed / settled | 206 / 205 |
+| Realised profit | $-91,679.08 ≈ €-79,033.69 |
+| … Polymarket/Kalshi only | $29.61 |
 | … with bookmakers (all) | $-91,708.69 |
 | … with bookmakers licensed in Spain only | $-2,285.19 |
-| Open positions (cost) | $27.38 |
+| Open positions (cost) | $2,499.81 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $-62,099.14 ≈ €-53,533.74 |
-| Return so far (realised / peak money in use) | -58.776% over 13.7 days |
+| Equity (cash + open at cost + in transit) | $-62,099.07 ≈ €-53,533.68 |
+| Return so far (realised / peak money in use) | -58.776% over 13.8 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 749, executed 31, rounding 86, seen 937, vanished 65.
-Gaps using bookmakers: below_min_size 4, executed 174, no_cash 41, rounding 3, seen 255, vanished 24 (snapshots combined with Polymarket/Kalshi: 1601).
+Gaps using bookmakers: below_min_size 4, executed 175, no_cash 41, rounding 3, seen 256, vanished 24 (snapshots combined with Polymarket/Kalshi: 1603).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 2,927 (about 9.8 days at the current pace).
+The Odds API credits left: 2,915 (about 9.7 days at the current pace).
 
 ## Capital by account
 
@@ -29,8 +29,8 @@ Peak in use = the most money that was tied up in open positions at the same time
 
 | account | start | cash now | in open positions | peak in use | lowest cash |
 |---|---|---|---|---|---|
-| Polymarket | $5,800.00 | $16,185.21 | $27.38 | $4,486.78 | $2,369.73 |
-| Kalshi | $5,800.00 | $5,183.43 | $0.00 | $479.57 | $5,046.43 |
+| Polymarket | $5,800.00 | $16,212.66 | $0.00 | $4,486.78 | $2,369.73 |
+| Kalshi | $5,800.00 | $4,964.97 | $218.46 | $479.57 | $4,964.97 |
 | betanysports | $580.00 | $-894.59 | $0.00 | $4,190.72 | $-3,610.72 |
 | betfair_ex_eu (Spain) | $580.00 | $453.07 | $0.00 | $126.93 | $453.07 |
 | betfair_ex_uk (Spain) | $580.00 | $580.00 | $0.00 | $0.00 | $580.00 |
@@ -53,8 +53,8 @@ Peak in use = the most money that was tied up in open positions at the same time
 | marathonbet (Spain) | $580.00 | $-9,631.58 | $0.00 | $8,525.07 | $-9,631.58 |
 | matchbook | $580.00 | $8,440.39 | $0.00 | $4,155.10 | $-3,925.78 |
 | mybookieag | $580.00 | $-4,546.41 | $0.00 | $4,422.60 | $-7,124.16 |
-| onexbet | $580.00 | $-57,723.33 | $0.00 | $69,050.38 | $-86,877.66 |
-| pinnacle | $580.00 | $-2,251.87 | $0.00 | $3,723.57 | $-6,879.02 |
+| onexbet | $580.00 | $-58,809.69 | $1,086.36 | $69,050.38 | $-86,877.66 |
+| pinnacle | $580.00 | $-3,446.86 | $1,194.99 | $3,723.57 | $-6,879.02 |
 | skybet | $580.00 | $-375.11 | $0.00 | $567.67 | $-375.11 |
 | smarkets | $580.00 | $-6,439.08 | $0.00 | $4,070.28 | $-8,947.57 |
 | tipico_de | $580.00 | $-3,229.05 | $0.00 | $5,851.05 | $-3,229.05 |
@@ -69,7 +69,7 @@ Transfers between accounts: 4 ($1,399.69 moved, $0.00 in fees; 0 still in transi
 
 ## Gaps followed: the same portfolio re-checked later, and order-book depth
 
-Gaps above 0.1% followed: 158 Polymarket/Kalshi and 279 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
+Gaps above 0.1% followed: 158 Polymarket/Kalshi and 280 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
 
 | re-check | measured | still profitable | above 0.2% | a leg no longer offered | censored |
 |---|---|---|---|---|---|
@@ -77,13 +77,13 @@ Gaps above 0.1% followed: 158 Polymarket/Kalshi and 279 with bookmakers. A re-ch
 | +1 min | 156 | 115 | 87 | 1 | 1 |
 | +2 min | 153 | 98 | 69 | 2 | 3 |
 | +5 min | 147 | 71 | 53 | 3 | 8 |
-| bookmaker confirmation (~1 min) | 498 | 309 | 304 | 11 | 0 |
+| bookmaker confirmation (~1 min) | 499 | 310 | 305 | 11 | 0 |
 | next bookmaker snapshot | 409 | 140 | 134 | 13 | 0 |
 
 Depth at detection (capacity = largest size still profitable after walking the order books):
 
 - Polymarket/Kalshi gaps (158): median capacity $0 (maximum $2,826); still profitable with a $50 stake: 28 of 156; median largest guaranteed profit $0.00.
-- Gaps with bookmakers (279): median capacity $20,000 (maximum $20,000); still profitable with a $50 stake: 267 of 279; median largest guaranteed profit $190.34. Bookmakers publish no order-book depth, so only the Polymarket/Kalshi legs limit these sizes and the capacity stops at the search limit of $20,000; the bot's bets with bookmakers are capped at $2,500.
+- Gaps with bookmakers (280): median capacity $20,000 (maximum $20,000); still profitable with a $50 stake: 268 of 280; median largest guaranteed profit $190.34. Bookmakers publish no order-book depth, so only the Polymarket/Kalshi legs limit these sizes and the capacity stops at the search limit of $20,000; the bot's bets with bookmakers are capped at $2,500.
 
 Details: `results/rechecks.csv`, `results/depth.csv`.
 
@@ -91,7 +91,8 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 
 | # | time (UTC) | game | min to KO | with bookmakers | gap | cost | guaranteed profit | status | P&L |
 |---|---|---|---|---|---|---|---|---|---|
-| 205 | 11-20T12:40 | Al Sadd SC v Lusail SC | 19.8 | no | 0.26% | $27.38 | $0.07 | open |  |
+| 206 | 11-20T17:01 | Athletic Club v RCD Espanyol de Barcelona | 178.3 | onexbet, pinnacle | 0.38% | $2499.81 | $9.18 | open |  |
+| 205 | 11-20T12:40 | Al Sadd SC v Lusail SC | 19.8 | no | 0.26% | $27.38 | $0.07 | settled | $+0.07 |
 | 204 | 11-20T02:56 | DAL at VGK | 3.4 | unibet_se | 51.91% | $2499.99 | $1297.86 | settled | $-2499.99 |
 | 203 | 11-20T02:46 | DAL at VGK | 13.4 | unibet_se | 51.91% | $2499.99 | $1297.86 | settled | $-2499.99 |
 | 202 | 11-20T02:36 | VAN at SEA | 3.4 | marathonbet, onexbet | 39.39% | $2499.99 | $984.83 | settled | $+984.85 |
@@ -115,4 +116,3 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 | 184 | 11-20T00:32 | MIN at CGY | 27.8 | leovegas_se | 129.73% | $2499.99 | $3243.21 | settled | $-2499.99 |
 | 183 | 11-20T00:32 | CBJ at CHI | 27.8 | onexbet, unibet_se | 89.93% | $2499.99 | $2248.23 | settled | $-2499.99 |
 | 182 | 11-20T00:32 | POR at MIL | 27.8 | pinnacle | 3.60% | $111.01 | $3.98 | settled | $+3.98 |
-| 181 | 11-20T00:27 | EDM at TB | 2.8 | leovegas_se, marathonbet | 47.22% | $2499.99 | $1180.43 | settled | $+1180.46 |
