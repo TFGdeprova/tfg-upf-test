@@ -3,8 +3,8 @@
   "PM": 16212.588400000004,
   "KS": 5046.4299999999985,
   "BK:smarkets": -6439.080599999999,
-  "BK:pinnacle": -2366.859999999999,
-  "BK:onexbet": -86877.659,
+  "BK:pinnacle": -2251.8705999999993,
+  "BK:onexbet": -86182.734,
   "BK:matchbook": 8440.389332000002,
   "BK:leovegas_se": -24032.557620000025,
   "BK:gtbets": 5009.9357,
@@ -22,7 +22,7 @@
   "BK:betonlineag": -3111.3768,
   "BK:skybet": -375.10999999999996,
   "BK:betrivers": 7162.6533,
-  "BK:lowvig": -4867.83,
+  "BK:lowvig": -4847.8305,
   "BK:mybookieag": -4546.4125,
   "BK:betmgm": 5098.2534000000005,
   "BK:betanysports": -894.5856000000008,
@@ -70,116 +70,6 @@
   "BK:williamhill": 580.0
  },
  "open": [
-  {
-   "trade_id": 151,
-   "time": "2026-11-19T22:01:52Z",
-   "game": "nhl:26NOV19CBJCHI",
-   "title": "CBJ at CHI",
-   "league": "nhl",
-   "kickoff": "2026-11-20T01:00:00Z",
-   "min_to_ko": 178.1,
-   "t_lp": 0.890605,
-   "with_books": true,
-   "books": [
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "7f30902099116c9c5824e85201be7d60",
-    "sport": "icehockey_nhl",
-    "home": "Chicago Blackhawks",
-    "away": "Columbus Blue Jackets"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 4726.4736,
-   "guaranteed_profit": 2226.4836,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Chicago Blackhawks",
-     "side": "home",
-     "point": null,
-     "odds": 3.25,
-     "eff": 3.25,
-     "three_way": false,
-     "stake": 1454.31,
-     "cost": 1454.31,
-     "label": "h2h Chicago Blackhawks  @3.25"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.52,
-     "eff": 4.52,
-     "three_way": false,
-     "stake": 1045.68,
-     "cost": 1045.68,
-     "label": "h2h Draw  @4.52"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 152,
-   "time": "2026-11-19T22:01:52Z",
-   "game": "nhl:26NOV19MINCGY",
-   "title": "MIN at CGY",
-   "league": "nhl",
-   "kickoff": "2026-11-20T01:00:00Z",
-   "min_to_ko": 178.1,
-   "t_lp": 1.268697,
-   "with_books": true,
-   "books": [
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "3e6894e350f62db024db622aedba4507",
-    "sport": "icehockey_nhl",
-    "home": "Calgary Flames",
-    "away": "Minnesota Wild"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 5671.712,
-   "guaranteed_profit": 3171.722,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Calgary Flames",
-     "side": "home",
-     "point": null,
-     "odds": 4.21,
-     "eff": 4.21,
-     "three_way": false,
-     "stake": 1347.2,
-     "cost": 1347.2,
-     "label": "h2h Calgary Flames  @4.21"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.92,
-     "eff": 4.92,
-     "three_way": false,
-     "stake": 1152.79,
-     "cost": 1152.79,
-     "label": "h2h Draw  @4.92"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 161,
    "time": "2026-11-19T23:42:12Z",
@@ -231,118 +121,6 @@
      "stake": 741.71,
      "cost": 741.71,
      "label": "h2h Draw  @4.67"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 176,
-   "time": "2026-11-20T00:02:03Z",
-   "game": "nhl:26NOV19CBJCHI",
-   "title": "CBJ at CHI",
-   "league": "nhl",
-   "kickoff": "2026-11-20T01:00:00Z",
-   "min_to_ko": 57.9,
-   "t_lp": 0.888853,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "7f30902099116c9c5824e85201be7d60",
-    "sport": "icehockey_nhl",
-    "home": "Chicago Blackhawks",
-    "away": "Columbus Blue Jackets"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 4722.1053,
-   "guaranteed_profit": 2222.1153,
-   "legs": [
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Chicago Blackhawks",
-     "side": "home",
-     "point": null,
-     "odds": 3.25,
-     "eff": 3.25,
-     "three_way": false,
-     "stake": 1452.96,
-     "cost": 1452.96,
-     "label": "h2h Chicago Blackhawks  @3.25"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.51,
-     "eff": 4.51,
-     "three_way": false,
-     "stake": 1047.03,
-     "cost": 1047.03,
-     "label": "h2h Draw  @4.51"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 177,
-   "time": "2026-11-20T00:02:03Z",
-   "game": "nhl:26NOV19MINCGY",
-   "title": "MIN at CGY",
-   "league": "nhl",
-   "kickoff": "2026-11-20T01:00:00Z",
-   "min_to_ko": 57.9,
-   "t_lp": 1.300216,
-   "with_books": true,
-   "books": [
-    "leovegas_se",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "3e6894e350f62db024db622aedba4507",
-    "sport": "icehockey_nhl",
-    "home": "Calgary Flames",
-    "away": "Minnesota Wild"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 5750.5,
-   "guaranteed_profit": 3250.51,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Calgary Flames",
-     "side": "home",
-     "point": null,
-     "odds": 4.26,
-     "eff": 4.26,
-     "three_way": false,
-     "stake": 1349.89,
-     "cost": 1349.89,
-     "label": "h2h Calgary Flames  @4.26"
-    },
-    {
-     "venue": "BK:leovegas_se",
-     "book": "leovegas_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 5.0,
-     "eff": 5.0,
-     "three_way": false,
-     "stake": 1150.1,
-     "cost": 1150.1,
-     "label": "h2h Draw  @5.0"
     }
    ],
    "status": "open"
@@ -460,168 +238,6 @@
    "status": "open"
   },
   {
-   "trade_id": 182,
-   "time": "2026-11-20T00:32:10Z",
-   "game": "nba:26NOV19PORMIL",
-   "title": "POR at MIL",
-   "league": "nba",
-   "kickoff": "2026-11-20T01:00:00Z",
-   "min_to_ko": 27.8,
-   "t_lp": 0.035956,
-   "with_books": true,
-   "books": [
-    "pinnacle"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "006df00e5e48650d849d1bb4cd81565d",
-    "sport": "basketball_nba",
-    "home": "Milwaukee Bucks",
-    "away": "Portland Trail Blazers"
-   },
-   "cost": 111.01,
-   "guaranteed_payout": 114.9894,
-   "guaranteed_profit": 3.9794,
-   "legs": [
-    {
-     "venue": "KS",
-     "id": "KXNBASPREAD-26NOV19PORMIL-POR12",
-     "label": "Portland wins by over 11.5 points",
-     "side": "YES",
-     "price": 0.43,
-     "shares": 115,
-     "fee": 1.98,
-     "cost": 51.43
-    },
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "spreads",
-     "outcome": "Milwaukee Bucks",
-     "side": "home",
-     "point": 11.5,
-     "odds": 1.93,
-     "eff": 1.93,
-     "three_way": false,
-     "stake": 59.58,
-     "cost": 59.58,
-     "label": "spreads Milwaukee Bucks 11.5 @1.93"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 183,
-   "time": "2026-11-20T00:32:11Z",
-   "game": "nhl:26NOV19CBJCHI",
-   "title": "CBJ at CHI",
-   "league": "nhl",
-   "kickoff": "2026-11-20T01:00:00Z",
-   "min_to_ko": 27.8,
-   "t_lp": 0.899297,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "7f30902099116c9c5824e85201be7d60",
-    "sport": "icehockey_nhl",
-    "home": "Chicago Blackhawks",
-    "away": "Columbus Blue Jackets"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 4748.2175,
-   "guaranteed_profit": 2248.2275,
-   "legs": [
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Chicago Blackhawks",
-     "side": "home",
-     "point": null,
-     "odds": 3.25,
-     "eff": 3.25,
-     "three_way": false,
-     "stake": 1460.99,
-     "cost": 1460.99,
-     "label": "h2h Chicago Blackhawks  @3.25"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.57,
-     "eff": 4.57,
-     "three_way": false,
-     "stake": 1039.0,
-     "cost": 1039.0,
-     "label": "h2h Draw  @4.57"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 184,
-   "time": "2026-11-20T00:32:11Z",
-   "game": "nhl:26NOV19MINCGY",
-   "title": "MIN at CGY",
-   "league": "nhl",
-   "kickoff": "2026-11-20T01:00:00Z",
-   "min_to_ko": 27.8,
-   "t_lp": 1.297297,
-   "with_books": true,
-   "books": [
-    "leovegas_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "3e6894e350f62db024db622aedba4507",
-    "sport": "icehockey_nhl",
-    "home": "Calgary Flames",
-    "away": "Minnesota Wild"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 5743.2,
-   "guaranteed_profit": 3243.21,
-   "legs": [
-    {
-     "venue": "BK:leovegas_se",
-     "book": "leovegas_se",
-     "market": "h2h",
-     "outcome": "Calgary Flames",
-     "side": "home",
-     "point": null,
-     "odds": 4.25,
-     "eff": 4.25,
-     "three_way": false,
-     "stake": 1351.35,
-     "cost": 1351.35,
-     "label": "h2h Calgary Flames  @4.25"
-    },
-    {
-     "venue": "BK:leovegas_se",
-     "book": "leovegas_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 5.0,
-     "eff": 5.0,
-     "three_way": false,
-     "stake": 1148.64,
-     "cost": 1148.64,
-     "label": "h2h Draw  @5.0"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 185,
    "time": "2026-11-20T00:41:46Z",
    "game": "nhl:26NOV19VANSEA",
@@ -672,350 +288,6 @@
      "stake": 744.36,
      "cost": 744.36,
      "label": "h2h Draw  @4.67"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 186,
-   "time": "2026-11-20T00:46:54Z",
-   "game": "nba:26NOV19GSWMEM",
-   "title": "GSW at MEM",
-   "league": "nba",
-   "kickoff": "2026-11-20T01:00:00Z",
-   "min_to_ko": 13.1,
-   "t_lp": 0.010936,
-   "with_books": true,
-   "books": [
-    "lowvig"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "3c082b72aa002131c276ff5e24bada1b",
-    "sport": "basketball_nba",
-    "home": "Memphis Grizzlies",
-    "away": "Golden State Warriors"
-   },
-   "cost": 19.8,
-   "guaranteed_payout": 19.9995,
-   "guaranteed_profit": 0.1995,
-   "legs": [
-    {
-     "venue": "KS",
-     "id": "KXNBASPREAD-26NOV19GSWMEM-GSW6",
-     "label": "Golden State wins by over 5.5 points",
-     "side": "YES",
-     "price": 0.22,
-     "shares": 20,
-     "fee": 0.25,
-     "cost": 4.65
-    },
-    {
-     "venue": "KS",
-     "id": "KXNBAWINMARGIN-26NOV19GSWMEM-GSW1TO5",
-     "label": "Golden State wins by 1-5 points",
-     "side": "YES",
-     "price": 0.09,
-     "shares": 20,
-     "fee": 0.12,
-     "cost": 1.92
-    },
-    {
-     "venue": "KS",
-     "id": "KXNBAWINMARGIN-26NOV19GSWMEM-MEM1TO5",
-     "label": "Memphis wins by 1-5 points",
-     "side": "YES",
-     "price": 0.15,
-     "shares": 20,
-     "fee": 0.18,
-     "cost": 3.18
-    },
-    {
-     "venue": "BK:lowvig",
-     "book": "lowvig",
-     "market": "spreads",
-     "outcome": "Memphis Grizzlies",
-     "side": "home",
-     "point": -5.5,
-     "odds": 1.99,
-     "eff": 1.99,
-     "three_way": false,
-     "stake": 10.05,
-     "cost": 10.05,
-     "label": "spreads Memphis Grizzlies -5.5 @1.99"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 187,
-   "time": "2026-11-20T00:46:55Z",
-   "game": "nhl:26NOV19CBJCHI",
-   "title": "CBJ at CHI",
-   "league": "nhl",
-   "kickoff": "2026-11-20T01:00:00Z",
-   "min_to_ko": 13.1,
-   "t_lp": 0.899297,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "7f30902099116c9c5824e85201be7d60",
-    "sport": "icehockey_nhl",
-    "home": "Chicago Blackhawks",
-    "away": "Columbus Blue Jackets"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 4748.2175,
-   "guaranteed_profit": 2248.2275,
-   "legs": [
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Chicago Blackhawks",
-     "side": "home",
-     "point": null,
-     "odds": 3.25,
-     "eff": 3.25,
-     "three_way": false,
-     "stake": 1460.99,
-     "cost": 1460.99,
-     "label": "h2h Chicago Blackhawks  @3.25"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.57,
-     "eff": 4.57,
-     "three_way": false,
-     "stake": 1039.0,
-     "cost": 1039.0,
-     "label": "h2h Draw  @4.57"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 188,
-   "time": "2026-11-20T00:46:55Z",
-   "game": "nhl:26NOV19MINCGY",
-   "title": "MIN at CGY",
-   "league": "nhl",
-   "kickoff": "2026-11-20T01:00:00Z",
-   "min_to_ko": 13.1,
-   "t_lp": 1.311828,
-   "with_books": true,
-   "books": [
-    "leovegas_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "3e6894e350f62db024db622aedba4507",
-    "sport": "icehockey_nhl",
-    "home": "Calgary Flames",
-    "away": "Minnesota Wild"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 5779.544,
-   "guaranteed_profit": 3279.554,
-   "legs": [
-    {
-     "venue": "BK:leovegas_se",
-     "book": "leovegas_se",
-     "market": "h2h",
-     "outcome": "Calgary Flames",
-     "side": "home",
-     "point": null,
-     "odds": 4.3,
-     "eff": 4.3,
-     "three_way": false,
-     "stake": 1344.08,
-     "cost": 1344.08,
-     "label": "h2h Calgary Flames  @4.3"
-    },
-    {
-     "venue": "BK:leovegas_se",
-     "book": "leovegas_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 5.0,
-     "eff": 5.0,
-     "three_way": false,
-     "stake": 1155.91,
-     "cost": 1155.91,
-     "label": "h2h Draw  @5.0"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 189,
-   "time": "2026-11-20T00:57:00Z",
-   "game": "nba:26NOV19PORMIL",
-   "title": "POR at MIL",
-   "league": "nba",
-   "kickoff": "2026-11-20T01:00:00Z",
-   "min_to_ko": 3.0,
-   "t_lp": 0.011439,
-   "with_books": true,
-   "books": [
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "006df00e5e48650d849d1bb4cd81565d",
-    "sport": "basketball_nba",
-    "home": "Milwaukee Bucks",
-    "away": "Portland Trail Blazers"
-   },
-   "cost": 687.0729,
-   "guaranteed_payout": 694.925,
-   "guaranteed_profit": 7.8521,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x7d4b9499eb3bc8c7da0a39a557be641852cf27c6ed299878919b69f8a13b3e8f",
-     "label": "Spread: Trail Blazers (-10.5)",
-     "side": "YES",
-     "price": 0.45,
-     "shares": 694.94,
-     "fee": 8.59988,
-     "cost": 321.3229
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "spreads",
-     "outcome": "Milwaukee Bucks",
-     "side": "home",
-     "point": 10.5,
-     "odds": 1.9,
-     "eff": 1.9,
-     "three_way": false,
-     "stake": 365.75,
-     "cost": 365.75,
-     "label": "spreads Milwaukee Bucks 10.5 @1.9"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 190,
-   "time": "2026-11-20T00:57:00Z",
-   "game": "nhl:26NOV19CBJCHI",
-   "title": "CBJ at CHI",
-   "league": "nhl",
-   "kickoff": "2026-11-20T01:00:00Z",
-   "min_to_ko": 3.0,
-   "t_lp": 0.887097,
-   "with_books": true,
-   "books": [
-    "marathonbet",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "7f30902099116c9c5824e85201be7d60",
-    "sport": "icehockey_nhl",
-    "home": "Chicago Blackhawks",
-    "away": "Columbus Blue Jackets"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 4717.71,
-   "guaranteed_profit": 2217.72,
-   "legs": [
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Chicago Blackhawks",
-     "side": "home",
-     "point": null,
-     "odds": 3.25,
-     "eff": 3.25,
-     "three_way": false,
-     "stake": 1451.61,
-     "cost": 1451.61,
-     "label": "h2h Chicago Blackhawks  @3.25"
-    },
-    {
-     "venue": "BK:marathonbet",
-     "book": "marathonbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.5,
-     "eff": 4.5,
-     "three_way": false,
-     "stake": 1048.38,
-     "cost": 1048.38,
-     "label": "h2h Draw  @4.5"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 191,
-   "time": "2026-11-20T00:57:00Z",
-   "game": "nhl:26NOV19MINCGY",
-   "title": "MIN at CGY",
-   "league": "nhl",
-   "kickoff": "2026-11-20T01:00:00Z",
-   "min_to_ko": 3.0,
-   "t_lp": 1.311828,
-   "with_books": true,
-   "books": [
-    "leovegas_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "3e6894e350f62db024db622aedba4507",
-    "sport": "icehockey_nhl",
-    "home": "Calgary Flames",
-    "away": "Minnesota Wild"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 5779.544,
-   "guaranteed_profit": 3279.554,
-   "legs": [
-    {
-     "venue": "BK:leovegas_se",
-     "book": "leovegas_se",
-     "market": "h2h",
-     "outcome": "Calgary Flames",
-     "side": "home",
-     "point": null,
-     "odds": 4.3,
-     "eff": 4.3,
-     "three_way": false,
-     "stake": 1344.08,
-     "cost": 1344.08,
-     "label": "h2h Calgary Flames  @4.3"
-    },
-    {
-     "venue": "BK:leovegas_se",
-     "book": "leovegas_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 5.0,
-     "eff": 5.0,
-     "three_way": false,
-     "stake": 1155.91,
-     "cost": 1155.91,
-     "label": "h2h Draw  @5.0"
     }
    ],
    "status": "open"
@@ -1763,25 +1035,25 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 204,
- "n_settled": 174,
- "realized_pnl": -66522.80828799997,
+ "n_settled": 187,
+ "realized_pnl": -91510.67728800002,
  "runs": 62,
  "locked": {
-  "PM": 344.32860000000016,
-  "KS": 174.94,
+  "PM": 23.00570000000016,
+  "KS": 113.75999999999998,
   "BK:smarkets": 0.0,
-  "BK:pinnacle": 59.580000000000226,
-  "BK:onexbet": 35482.37999999998,
+  "BK:pinnacle": 2.2737367544323206e-13,
+  "BK:onexbet": 25641.729999999985,
   "BK:matchbook": 0.0,
-  "BK:leovegas_se": 13697.300000000017,
+  "BK:leovegas_se": 5047.230000000018,
   "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 13544.12000000001,
+  "BK:unibet_se": 7717.5700000000115,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 2.2737367544323206e-13,
   "BK:unibet_nl": 7.958078640513122e-13,
-  "BK:marathonbet": 2641.69,
+  "BK:marathonbet": 1593.31,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
@@ -1789,7 +1061,7 @@
   "BK:betonlineag": 4.547473508864641e-13,
   "BK:skybet": 0.0,
   "BK:betrivers": 0.0,
-  "BK:lowvig": 10.05,
+  "BK:lowvig": 0.0,
   "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
   "BK:betanysports": 2.2737367544323206e-13,
@@ -1890,8 +1162,8 @@
    "8": 369,
    "9": 369,
    "10": 370,
-   "11": 372,
-   "12": 372,
+   "11": 370,
+   "12": 370,
    "13": 368
   },
   "spent": {
@@ -1908,7 +1180,7 @@
    "2026-11-17": 152,
    "2026-11-18": 191,
    "2026-11-19": 300,
-   "2026-11-20": 292
+   "2026-11-20": 296
   }
  },
  "book_slots": {
