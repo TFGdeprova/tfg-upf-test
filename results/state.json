@@ -4,9 +4,9 @@
   "KS": 5221.369999999999,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -2307.2799999999993,
-  "BK:onexbet": -62894.318999999996,
+  "BK:onexbet": -63713.988999999994,
   "BK:matchbook": 8440.389332000002,
-  "BK:leovegas_se": -41104.76082000001,
+  "BK:leovegas_se": -42785.08082000001,
   "BK:gtbets": 5009.9357,
   "BK:winamax_de": 1646.5399999999997,
   "BK:grosvenor": 580.0,
@@ -2393,6 +2393,62 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 180,
+   "time": "2026-11-20T00:16:56Z",
+   "game": "nhl:26NOV19EDMTB",
+   "title": "EDM at TB",
+   "league": "nhl",
+   "kickoff": "2026-11-20T00:30:00Z",
+   "min_to_ko": 13.1,
+   "t_lp": 0.478689,
+   "with_books": true,
+   "books": [
+    "leovegas_se",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "147b0b6f883cce916d06b7aaa9b9594c",
+    "sport": "icehockey_nhl",
+    "home": "Tampa Bay Lightning",
+    "away": "Edmonton Oilers"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 3696.704,
+   "guaranteed_profit": 1196.714,
+   "legs": [
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Tampa Bay Lightning",
+     "side": "home",
+     "point": null,
+     "odds": 2.2,
+     "eff": 2.2,
+     "three_way": false,
+     "stake": 1680.32,
+     "cost": 1680.32,
+     "label": "h2h Tampa Bay Lightning  @2.2"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.51,
+     "eff": 4.51,
+     "three_way": false,
+     "stake": 819.67,
+     "cost": 819.67,
+     "label": "h2h Draw  @4.51"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -2446,7 +2502,7 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 179,
+ "n_trades": 180,
  "n_settled": 137,
  "realized_pnl": -27383.984487999987,
  "runs": 62,
@@ -2455,9 +2511,9 @@
   "KS": 3.552713678800501e-15,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
-  "BK:onexbet": 45067.04,
+  "BK:onexbet": 45886.71,
   "BK:matchbook": 0.0,
-  "BK:leovegas_se": 33329.43,
+  "BK:leovegas_se": 35009.75,
   "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
@@ -2490,9 +2546,9 @@
   "KS": 479.57,
   "BK:smarkets": 4070.2799999999993,
   "BK:pinnacle": 3723.5699999999997,
-  "BK:onexbet": 45067.04,
+  "BK:onexbet": 45886.71,
   "BK:matchbook": 4155.1,
-  "BK:leovegas_se": 33329.43,
+  "BK:leovegas_se": 35009.75,
   "BK:gtbets": 6720.040000000001,
   "BK:winamax_de": 805.8,
   "BK:grosvenor": 292.3,
@@ -2525,9 +2581,9 @@
   "KS": 5176.879999999999,
   "BK:smarkets": -8947.57,
   "BK:pinnacle": -6879.0199999999995,
-  "BK:onexbet": -62894.318999999996,
+  "BK:onexbet": -63713.988999999994,
   "BK:matchbook": -3925.7799999999993,
-  "BK:leovegas_se": -41104.76082000001,
+  "BK:leovegas_se": -42785.08082000001,
   "BK:gtbets": -7633.02,
   "BK:winamax_de": -872.9100000000001,
   "BK:grosvenor": 287.7,
@@ -2561,7 +2617,7 @@
   "moved": 1399.686,
   "fees": 0.0
  },
- "peak_total_locked": 102525.183,
+ "peak_total_locked": 105025.17300000001,
  "odds": {
   "remaining": {
    "1": 117,
@@ -2571,12 +2627,12 @@
    "5": 116,
    "6": 207,
    "7": 204,
-   "8": 417,
-   "9": 417,
+   "8": 411,
+   "9": 411,
    "10": 412,
    "11": 416,
    "12": 416,
-   "13": 416
+   "13": 410
   },
   "spent": {
    "2026-11-06": 27,
@@ -2592,7 +2648,7 @@
    "2026-11-17": 152,
    "2026-11-18": 191,
    "2026-11-19": 300,
-   "2026-11-20": 18
+   "2026-11-20": 36
   }
  },
  "book_slots": {
@@ -2689,6 +2745,8 @@
   "nhl|2026-11-20T00:30|30": "2026-11-20T00:00:23Z",
   "nhl|2026-11-20T01:00|60": "2026-11-20T00:00:23Z",
   "nhl|2026-11-20T02:00|120": "2026-11-20T00:00:23Z",
-  "nhl|2026-11-20T03:00|180": "2026-11-20T00:00:23Z"
+  "nhl|2026-11-20T03:00|180": "2026-11-20T00:00:23Z",
+  "nfl|2026-11-20T01:15|60": "2026-11-20T00:15:15Z",
+  "nhl|2026-11-20T00:30|15": "2026-11-20T00:15:16Z"
  }
 }
