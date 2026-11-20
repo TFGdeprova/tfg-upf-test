@@ -209,3 +209,5 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 208,2026-11-20T18:33:28Z,bun:26NOV20BMUKOE,FC Bayern München v 1. FC Köln,bun,2026-11-20T19:30:00Z,56.5,0.004614,,,,327.4894,328.98,1.4906,open,,,,,7
 209,2026-11-20T18:35:28Z,bun:26NOV20BMUKOE,FC Bayern München v 1. FC Köln,bun,2026-11-20T19:30:00Z,54.5,0.004454,,,,185.5687,186.35,0.7813,open,,,,,7
 210,2026-11-20T18:37:30Z,bun:26NOV20BMUKOE,FC Bayern München v 1. FC Köln,bun,2026-11-20T19:30:00Z,52.5,0.005521,,,,2522.1787,2536.04,13.8613,open,,,,,6
+211,2026-11-20T19:01:54Z,bun:26NOV20BMUKOE,FC Bayern München v 1. FC Köln,bun,2026-11-20T19:30:00Z,28.1,0.014289,True,"['onexbet', 'smarkets']",False,2499.9908,2535.707,35.7162,open,,,,,3
+212,2026-11-20T19:01:54Z,lal:26NOV20ATHESP,Athletic Club v RCD Espanyol de Barcelona,lal,2026-11-20T20:00:00Z,58.1,0.010705,True,"['onexbet', 'smarkets']",False,2499.98,2526.6838,26.7038,open,,,,,3

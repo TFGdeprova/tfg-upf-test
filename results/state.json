@@ -1,10 +1,10 @@
 {
  "cash": {
-  "PM": 14932.953200000004,
+  "PM": 14858.502400000003,
   "KS": 3209.4399999999973,
-  "BK:smarkets": -6599.1806,
+  "BK:smarkets": -7598.3306,
   "BK:pinnacle": -3446.860599999999,
-  "BK:onexbet": -58809.6897,
+  "BK:onexbet": -62736.0597,
   "BK:matchbook": 8364.999332000003,
   "BK:leovegas_se": -12660.826020000022,
   "BK:gtbets": 5009.9357,
@@ -456,6 +456,142 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 211,
+   "time": "2026-11-20T19:01:54Z",
+   "game": "bun:26NOV20BMUKOE",
+   "title": "FC Bayern M\u00fcnchen v 1. FC K\u00f6ln",
+   "league": "bun",
+   "kickoff": "2026-11-20T19:30:00Z",
+   "min_to_ko": 28.1,
+   "t_lp": 0.014289,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "cae480fb1195f0032554a268cb80eb44",
+    "sport": "soccer_germany_bundesliga",
+    "home": "Bayern Munich",
+    "away": "1. FC K\u00f6ln"
+   },
+   "cost": 2499.9908,
+   "guaranteed_payout": 2535.707,
+   "guaranteed_profit": 35.7162,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0xd7743a16151ada5aeb1d03c0e20bcabbaf256cba97309c5fc8dee4e88f3ef9d2",
+     "label": "Will 1. FC K\u00f6ln win on 2026-11-20?",
+     "side": "YES",
+     "price": 0.028,
+     "shares": 2535.72,
+     "fee": 3.45061,
+     "cost": 74.4508
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Bayern Munich",
+     "side": "home",
+     "point": null,
+     "odds": 1.12,
+     "eff": 1.12,
+     "three_way": true,
+     "stake": 2264.03,
+     "cost": 2264.03,
+     "label": "h2h Bayern Munich  @1.12"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 16.0,
+     "eff": 15.7,
+     "three_way": true,
+     "stake": 161.51,
+     "cost": 161.51,
+     "label": "h2h Draw  @16.0"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 212,
+   "time": "2026-11-20T19:01:54Z",
+   "game": "lal:26NOV20ATHESP",
+   "title": "Athletic Club v RCD Espanyol de Barcelona",
+   "league": "lal",
+   "kickoff": "2026-11-20T20:00:00Z",
+   "min_to_ko": 58.1,
+   "t_lp": 0.010705,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "dcee36f9b8a9989972b6d4ddde76c4c7",
+    "sport": "soccer_spain_la_liga",
+    "home": "Athletic Bilbao",
+    "away": "Espanyol"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2526.6838,
+   "guaranteed_profit": 26.7038,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Athletic Bilbao",
+     "side": "home",
+     "point": null,
+     "odds": 1.52,
+     "eff": 1.52,
+     "three_way": true,
+     "stake": 1662.34,
+     "cost": 1662.34,
+     "label": "h2h Athletic Bilbao  @1.52"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Espanyol",
+     "side": "away",
+     "point": null,
+     "odds": 8.2,
+     "eff": 8.056,
+     "three_way": true,
+     "stake": 313.64,
+     "cost": 313.64,
+     "label": "h2h Espanyol  @8.2"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.9,
+     "eff": 4.822,
+     "three_way": true,
+     "stake": 524.0,
+     "cost": 524.0,
+     "label": "h2h Draw  @4.9"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -506,19 +642,23 @@
   "PM|0xbce2b8334fd481e833b2fdd13687dbf5f1897affc0bc139db07352a641726e3b|YES|0.3400": {
    "n": 507.52,
    "t": "2026-11-20T18:37:30Z"
+  },
+  "PM|0xd7743a16151ada5aeb1d03c0e20bcabbaf256cba97309c5fc8dee4e88f3ef9d2|YES|0.0280": {
+   "n": 2535.72,
+   "t": "2026-11-20T19:01:54Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 210,
+ "n_trades": 212,
  "n_settled": 205,
  "realized_pnl": -91679.07538800006,
  "runs": 65,
  "locked": {
-  "PM": 1279.7069000000001,
+  "PM": 1354.1577000000002,
   "KS": 1973.9899999999998,
-  "BK:smarkets": 160.1,
+  "BK:smarkets": 1159.25,
   "BK:pinnacle": 1194.9900000000002,
-  "BK:onexbet": 1086.36,
+  "BK:onexbet": 5012.7300000000005,
   "BK:matchbook": 75.39,
   "BK:leovegas_se": 1.77351466845721e-11,
   "BK:gtbets": 4.547473508864641e-13,
@@ -637,10 +777,10 @@
    "5": 116,
    "6": 207,
    "7": 204,
-   "8": 357,
-   "9": 357,
-   "10": 362,
-   "11": 362,
+   "8": 351,
+   "9": 351,
+   "10": 356,
+   "11": 356,
    "12": 356,
    "13": 356
   },
@@ -658,7 +798,7 @@
    "2026-11-17": 152,
    "2026-11-18": 191,
    "2026-11-19": 300,
-   "2026-11-20": 362
+   "2026-11-20": 386
   }
  },
  "book_slots": {
@@ -789,6 +929,8 @@
   "fl1|2026-11-20T19:45|120": "2026-11-20T17:45:04Z",
   "lal|2026-11-20T20:00|120": "2026-11-20T18:00:05Z",
   "bun|2026-11-20T19:30|60": "2026-11-20T18:30:23Z",
-  "fl1|2026-11-20T19:45|60": "2026-11-20T18:45:22Z"
+  "fl1|2026-11-20T19:45|60": "2026-11-20T18:45:22Z",
+  "bun|2026-11-20T19:30|30": "2026-11-20T19:00:23Z",
+  "lal|2026-11-20T20:00|60": "2026-11-20T19:00:24Z"
  }
 }
