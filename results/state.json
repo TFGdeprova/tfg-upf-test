@@ -1,6 +1,6 @@
 {
  "cash": {
-  "PM": 16212.588400000004,
+  "PM": 16185.210100000004,
   "KS": 5183.4299999999985,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -2251.8705999999993,
@@ -69,20 +69,45 @@
   "BK:draftkings": 580.0,
   "BK:williamhill": 580.0
  },
- "open": [],
+ "open": [
+  {
+   "trade_id": 205,
+   "time": "2026-11-20T12:40:14Z",
+   "game": "qat:26NOV20SADLUS",
+   "title": "Al Sadd SC v Lusail SC",
+   "league": "qat",
+   "kickoff": "2026-11-20T13:00:00Z",
+   "min_to_ko": 19.8,
+   "t_lp": 0.002617,
+   "cost": 27.3783,
+   "guaranteed_payout": 27.45,
+   "guaranteed_profit": 0.0717,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x475a4a88d15f3ab59e7383a392a7e1e397dea6e15327beef1aa2606e83232327",
+     "label": "Exact Score: Al Sadd SC 0 - 0 Lusail SC?",
+     "side": "NO",
+     "price": 0.973,
+     "shares": 27.45,
+     "fee": 0.03606,
+     "cost": 26.7449
+    },
+    {
+     "venue": "PM",
+     "id": "0xc8d10a03894ac87bf8daa44ef77f7e898a52320a85bcc59e972948824d2f6f81",
+     "label": "Al Sadd SC vs. Lusail SC: O/U 0.5",
+     "side": "NO",
+     "price": 0.02200000000000002,
+     "shares": 27.45,
+     "fee": 0.02953,
+     "cost": 0.6334
+    }
+   ],
+   "status": "open"
+  }
+ ],
  "consumed": {
-  "KS|KXNBASPREAD-26NOV19GSWMEM-GSW6|YES|0.2200": {
-   "n": 20.0,
-   "t": "2026-11-20T00:46:54Z"
-  },
-  "KS|KXNBAWINMARGIN-26NOV19GSWMEM-GSW1TO5|YES|0.0900": {
-   "n": 20.0,
-   "t": "2026-11-20T00:46:54Z"
-  },
-  "KS|KXNBAWINMARGIN-26NOV19GSWMEM-MEM1TO5|YES|0.1500": {
-   "n": 20.0,
-   "t": "2026-11-20T00:46:54Z"
-  },
   "PM|0x7d4b9499eb3bc8c7da0a39a557be641852cf27c6ed299878919b69f8a13b3e8f|YES|0.4500": {
    "n": 694.94,
    "t": "2026-11-20T00:57:00Z"
@@ -94,15 +119,23 @@
   "KS|KXNFLWINMARGIN-26NOV19INDHOU-HOU1TO6|NO|0.8200": {
    "n": 137.0,
    "t": "2026-11-20T01:09:33Z"
+  },
+  "PM|0x475a4a88d15f3ab59e7383a392a7e1e397dea6e15327beef1aa2606e83232327|NO|0.9730": {
+   "n": 27.45,
+   "t": "2026-11-20T12:40:14Z"
+  },
+  "PM|0xc8d10a03894ac87bf8daa44ef77f7e898a52320a85bcc59e972948824d2f6f81|NO|0.0220": {
+   "n": 27.45,
+   "t": "2026-11-20T12:40:14Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 204,
+ "n_trades": 205,
  "n_settled": 204,
  "realized_pnl": -91679.14708800006,
  "runs": 64,
  "locked": {
-  "PM": 1.5987211554602254e-13,
+  "PM": 27.37830000000016,
   "KS": 0.0,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
