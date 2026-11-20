@@ -1539,3 +1539,16 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-20T00:15:26Z,nfl:26NOV19INDHOU,IND at HOU,nfl,59.6,scheduled,18,-0.005466,-4.9e-05,no gap,,,
 2026-11-20T00:15:26Z,nhl:26NOV19EDMTB,EDM at TB,nhl,14.6,scheduled,13,-0.018133,0.478689,seen,,nhl:26NOV19EDMTB|2026-11-20T00:15:20Z|with_books,leovegas_se h2h Tampa Bay Lightning  @2.2 x0.672 | onexbet h2h Draw  @4.51 x0.328
 2026-11-20T00:16:56Z,nhl:26NOV19EDMTB,EDM at TB,nhl,13.1,confirmation,13,-0.017465,0.478689,executed,,,leovegas_se h2h Tampa Bay Lightning  @2.2 x0.672 | onexbet h2h Draw  @4.51 x0.328
+2026-11-20T00:25:39Z,nhl:26NOV19EDMTB,EDM at TB,nhl,4.3,scheduled,13,-0.017465,0.47218,seen,,nhl:26NOV19EDMTB|2026-11-20T00:25:34Z|with_books,leovegas_se h2h Tampa Bay Lightning  @2.2 x0.669 | marathonbet h2h Draw  @4.45 x0.331
+2026-11-20T00:27:09Z,nhl:26NOV19EDMTB,EDM at TB,nhl,2.8,confirmation,13,-0.017465,0.47218,executed,,,leovegas_se h2h Tampa Bay Lightning  @2.2 x0.669 | marathonbet h2h Draw  @4.45 x0.331
+2026-11-20T00:30:41Z,nba:26NOV19GSWMEM,GSW at MEM,nba,29.3,scheduled,12,-0.015587,-0.007061,no gap,,,
+2026-11-20T00:30:41Z,nba:26NOV19PORMIL,POR at MIL,nba,29.3,scheduled,18,0.003691,0.035956,seen,111.01,nba:26NOV19PORMIL|2026-11-20T00:30:36Z|with_books,KS YES 0.430 x0.463 Portland wins by over 11.5 points | pinnacle spreads Milwaukee Bucks 11.5 @1.93 x0.537
+2026-11-20T00:30:41Z,nba:26NOV19NYKMIN,NYK at MIN,nba,29.3,scheduled,20,-0.007834,-0.007834,no gap,,,
+2026-11-20T00:30:43Z,nba:26NOV19LACSAS,LAC at SAS,nba,29.3,scheduled,14,-0.00135,-0.0001,no gap,,,
+2026-11-20T00:30:43Z,nhl:26NOV19CBJCHI,CBJ at CHI,nhl,29.3,scheduled,15,-0.011921,0.899297,seen,,nhl:26NOV19CBJCHI|2026-11-20T00:30:41Z|with_books,unibet_se h2h Chicago Blackhawks  @3.25 x0.584 | onexbet h2h Draw  @4.57 x0.416
+2026-11-20T00:30:43Z,nhl:26NOV19MINCGY,MIN at CGY,nhl,29.3,scheduled,13,-0.010703,1.297297,seen,,nhl:26NOV19MINCGY|2026-11-20T00:30:37Z|with_books,leovegas_se h2h Calgary Flames  @4.25 x0.541 | leovegas_se h2h Draw  @5.0 x0.459
+2026-11-20T00:32:10Z,nba:26NOV19PORMIL,POR at MIL,nba,27.8,confirmation,18,0.003691,0.035956,executed,111.01,,KS YES 0.430 x0.463 Portland wins by over 11.5 points | pinnacle spreads Milwaukee Bucks 11.5 @1.93 x0.537
+2026-11-20T00:32:11Z,nhl:26NOV19CBJCHI,CBJ at CHI,nhl,27.8,confirmation,15,-0.011921,0.899297,executed,,,unibet_se h2h Chicago Blackhawks  @3.25 x0.584 | onexbet h2h Draw  @4.57 x0.416
+2026-11-20T00:32:11Z,nhl:26NOV19MINCGY,MIN at CGY,nhl,27.8,confirmation,13,-0.010703,1.297297,executed,,,leovegas_se h2h Calgary Flames  @4.25 x0.541 | leovegas_se h2h Draw  @5.0 x0.459
+2026-11-20T00:40:17Z,nhl:26NOV19VANSEA,VAN at SEA,nhl,119.7,scheduled,11,-0.011921,0.390466,seen,,nhl:26NOV19VANSEA|2026-11-20T00:40:14Z|with_books,onexbet h2h Seattle Kraken  @1.98 x0.702 | onexbet h2h Draw  @4.67 x0.298
+2026-11-20T00:41:46Z,nhl:26NOV19VANSEA,VAN at SEA,nhl,118.2,confirmation,11,-0.011921,0.390466,executed,,,onexbet h2h Seattle Kraken  @1.98 x0.702 | onexbet h2h Draw  @4.67 x0.298
