@@ -211,3 +211,6 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 210,2026-11-20T18:37:30Z,bun:26NOV20BMUKOE,FC Bayern München v 1. FC Köln,bun,2026-11-20T19:30:00Z,52.5,0.005521,,,,2522.1787,2536.04,13.8613,open,,,,,6
 211,2026-11-20T19:01:54Z,bun:26NOV20BMUKOE,FC Bayern München v 1. FC Köln,bun,2026-11-20T19:30:00Z,28.1,0.014289,True,"['onexbet', 'smarkets']",False,2499.9908,2535.707,35.7162,open,,,,,3
 212,2026-11-20T19:01:54Z,lal:26NOV20ATHESP,Athletic Club v RCD Espanyol de Barcelona,lal,2026-11-20T20:00:00Z,58.1,0.010705,True,"['onexbet', 'smarkets']",False,2499.98,2526.6838,26.7038,open,,,,,3
+213,2026-11-20T19:16:54Z,bun:26NOV20BMUKOE,FC Bayern München v 1. FC Köln,bun,2026-11-20T19:30:00Z,13.1,0.011542,True,['onexbet'],False,2499.92,2528.0,28.08,open,,,,,2
+214,2026-11-20T19:16:54Z,fl1:26NOV20ESTHAC,ES Troyes AC v Le Havre AC,fl1,2026-11-20T19:45:00Z,28.1,0.018292,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.99,2545.7114,45.7214,open,,,,,3
+215,2026-11-20T19:26:54Z,bun:26NOV20BMUKOE,FC Bayern München v 1. FC Köln,bun,2026-11-20T19:30:00Z,3.1,0.014458,True,"['betfair_ex_uk', 'ladbrokes_uk', 'smarkets']",False,2499.98,2535.87,35.89,open,,,,,3
