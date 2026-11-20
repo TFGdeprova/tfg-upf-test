@@ -10,7 +10,7 @@
   "BK:gtbets": 5009.9357,
   "BK:winamax_de": 1144.1699999999996,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -11813.594000000006,
+  "BK:unibet_se": -4203.955300000007,
   "BK:tipico_de": -3229.0519999999997,
   "BK:coolbet": 7055.7693,
   "BK:unibet_nl": -7801.679999999999,
@@ -209,219 +209,6 @@
    "status": "open"
   },
   {
-   "trade_id": 214,
-   "time": "2026-11-20T19:16:54Z",
-   "game": "fl1:26NOV20ESTHAC",
-   "title": "ES Troyes AC v Le Havre AC",
-   "league": "fl1",
-   "kickoff": "2026-11-20T19:45:00Z",
-   "min_to_ko": 28.1,
-   "t_lp": 0.018292,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "smarkets",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "5dcc9d2b0da87770a4f49e924275be39",
-    "sport": "soccer_france_ligue_one",
-    "home": "Troyes",
-    "away": "Le Havre"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2545.7114,
-   "guaranteed_profit": 45.7214,
-   "legs": [
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Le Havre",
-     "side": "away",
-     "point": null,
-     "odds": 3.6,
-     "eff": 3.548,
-     "three_way": true,
-     "stake": 717.51,
-     "cost": 717.51,
-     "label": "h2h Le Havre  @3.6"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Troyes",
-     "side": "home",
-     "point": null,
-     "odds": 2.33,
-     "eff": 2.33,
-     "three_way": true,
-     "stake": 1092.58,
-     "cost": 1092.58,
-     "label": "h2h Troyes  @2.33"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.69,
-     "eff": 3.69,
-     "three_way": true,
-     "stake": 689.9,
-     "cost": 689.9,
-     "label": "h2h Draw  @3.69"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 216,
-   "time": "2026-11-20T19:31:52Z",
-   "game": "fl1:26NOV20ESTHAC",
-   "title": "ES Troyes AC v Le Havre AC",
-   "league": "fl1",
-   "kickoff": "2026-11-20T19:45:00Z",
-   "min_to_ko": 13.1,
-   "t_lp": 0.015894,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "pinnacle",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "5dcc9d2b0da87770a4f49e924275be39",
-    "sport": "soccer_france_ligue_one",
-    "home": "Troyes",
-    "away": "Le Havre"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2539.717,
-   "guaranteed_profit": 39.727,
-   "legs": [
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "h2h",
-     "outcome": "Le Havre",
-     "side": "away",
-     "point": null,
-     "odds": 3.51,
-     "eff": 3.51,
-     "three_way": true,
-     "stake": 723.57,
-     "cost": 723.57,
-     "label": "h2h Le Havre  @3.51"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Troyes",
-     "side": "home",
-     "point": null,
-     "odds": 2.33,
-     "eff": 2.33,
-     "three_way": true,
-     "stake": 1090.01,
-     "cost": 1090.01,
-     "label": "h2h Troyes  @2.33"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.7,
-     "eff": 3.7,
-     "three_way": true,
-     "stake": 686.41,
-     "cost": 686.41,
-     "label": "h2h Draw  @3.7"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 217,
-   "time": "2026-11-20T19:41:52Z",
-   "game": "fl1:26NOV20ESTHAC",
-   "title": "ES Troyes AC v Le Havre AC",
-   "league": "fl1",
-   "kickoff": "2026-11-20T19:45:00Z",
-   "min_to_ko": 3.1,
-   "t_lp": 0.009686,
-   "with_books": true,
-   "books": [
-    "marathonbet",
-    "pinnacle",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "5dcc9d2b0da87770a4f49e924275be39",
-    "sport": "soccer_france_ligue_one",
-    "home": "Troyes",
-    "away": "Le Havre"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2524.1824,
-   "guaranteed_profit": 24.2024,
-   "legs": [
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "h2h",
-     "outcome": "Le Havre",
-     "side": "away",
-     "point": null,
-     "odds": 3.56,
-     "eff": 3.56,
-     "three_way": true,
-     "stake": 709.04,
-     "cost": 709.04,
-     "label": "h2h Le Havre  @3.56"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Troyes",
-     "side": "home",
-     "point": null,
-     "odds": 2.3,
-     "eff": 2.3,
-     "three_way": true,
-     "stake": 1097.48,
-     "cost": 1097.48,
-     "label": "h2h Troyes  @2.3"
-    },
-    {
-     "venue": "BK:marathonbet",
-     "book": "marathonbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.64,
-     "eff": 3.64,
-     "three_way": true,
-     "stake": 693.46,
-     "cost": 693.46,
-     "label": "h2h Draw  @3.64"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 218,
    "time": "2026-11-20T19:46:52Z",
    "game": "lal:26NOV20ATHESP",
@@ -553,25 +340,25 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 218,
- "n_settled": 212,
- "realized_pnl": -91549.51498800005,
+ "n_settled": 215,
+ "realized_pnl": -91439.83628800005,
  "runs": 66,
  "locked": {
   "PM": 0.0,
   "KS": 218.45999999999995,
-  "BK:smarkets": 1866.9500000000003,
-  "BK:pinnacle": 2627.6000000000004,
-  "BK:onexbet": 5810.83,
+  "BK:smarkets": 1149.4400000000003,
+  "BK:pinnacle": 1194.9900000000002,
+  "BK:onexbet": 4434.52,
   "BK:matchbook": 0.0,
   "BK:leovegas_se": 1.77351466845721e-11,
   "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 502.37,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 3280.0700000000115,
+  "BK:unibet_se": 1.1596057447604835e-11,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 2.2737367544323206e-13,
   "BK:unibet_nl": 7.958078640513122e-13,
-  "BK:marathonbet": 693.46,
+  "BK:marathonbet": 0.0,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
@@ -684,7 +471,7 @@
    "9": 333,
    "10": 338,
    "11": 338,
-   "12": 338,
+   "12": 336,
    "13": 336
   },
   "spent": {
@@ -701,7 +488,7 @@
    "2026-11-17": 152,
    "2026-11-18": 191,
    "2026-11-19": 300,
-   "2026-11-20": 496
+   "2026-11-20": 498
   }
  },
  "book_slots": {
