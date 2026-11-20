@@ -1,27 +1,27 @@
-# Paper-trading bot: status at 2026-11-20T22:26:44Z
+# Paper-trading bot: status at 2026-11-20T22:46:42Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 218 / 215 |
-| Realised profit | $-91,439.84 ≈ €-78,827.45 |
+| Trades executed / settled | 218 / 218 |
+| Realised profit | $-91,391.59 ≈ €-78,785.86 |
 | … Polymarket/Kalshi only | $45.76 |
-| … with bookmakers (all) | $-91,485.59 |
+| … with bookmakers (all) | $-91,437.35 |
 | … with bookmakers licensed in Spain only | $-2,285.19 |
-| Open positions (cost) | $7,499.78 |
+| Open positions (cost) | $0.00 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $-61,279.83 ≈ €-52,827.44 |
-| Return so far (realised / peak money in use) | -58.623% over 14.0 days |
+| Equity (cash + open at cost + in transit) | $-61,231.59 ≈ €-52,785.85 |
+| Return so far (realised / peak money in use) | -58.592% over 14.0 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 751, executed 34, rounding 86, seen 942, vanished 65.
-Gaps using bookmakers: below_min_size 4, executed 184, no_cash 41, rounding 3, seen 266, vanished 25 (snapshots combined with Polymarket/Kalshi: 1635).
+Gaps using bookmakers: below_min_size 4, executed 184, no_cash 41, rounding 3, seen 266, vanished 25 (snapshots combined with Polymarket/Kalshi: 1638).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 2,743 (about 8.1 days at the current pace).
+The Odds API credits left: 2,735 (about 8.1 days at the current pace).
 
 ## Capital by account
 
@@ -30,7 +30,7 @@ Peak in use = the most money that was tied up in open positions at the same time
 | account | start | cash now | in open positions | peak in use | lowest cash |
 |---|---|---|---|---|---|
 | Polymarket | $5,800.00 | $16,100.88 | $0.00 | $4,486.78 | $2,369.73 |
-| Kalshi | $5,800.00 | $7,304.42 | $218.46 | $2,216.01 | $2,967.42 |
+| Kalshi | $5,800.00 | $7,304.42 | $0.00 | $2,216.01 | $2,967.42 |
 | betanysports | $580.00 | $-894.59 | $0.00 | $4,190.72 | $-3,610.72 |
 | betfair_ex_eu (Spain) | $580.00 | $453.07 | $0.00 | $126.93 | $453.07 |
 | betfair_ex_uk (Spain) | $580.00 | $505.96 | $0.00 | $74.04 | $505.96 |
@@ -54,15 +54,15 @@ Peak in use = the most money that was tied up in open positions at the same time
 | marathonbet (Spain) | $580.00 | $-10,325.04 | $0.00 | $8,525.07 | $-10,325.04 |
 | matchbook | $580.00 | $8,365.00 | $0.00 | $4,155.10 | $-3,925.78 |
 | mybookieag | $580.00 | $-4,546.41 | $0.00 | $4,422.60 | $-7,124.16 |
-| onexbet | $580.00 | $-68,056.09 | $4,434.52 | $69,050.38 | $-86,877.66 |
-| pinnacle | $580.00 | $-4,879.47 | $1,194.99 | $3,723.57 | $-6,879.02 |
+| onexbet | $580.00 | $-68,056.09 | $0.00 | $69,050.38 | $-86,877.66 |
+| pinnacle | $580.00 | $-2,369.99 | $0.00 | $3,723.57 | $-6,879.02 |
 | skybet | $580.00 | $-375.11 | $0.00 | $567.67 | $-375.11 |
-| smarkets | $580.00 | $-1,203.87 | $1,149.44 | $4,070.28 | $-8,947.57 |
+| smarkets | $580.00 | $3,834.67 | $0.00 | $4,070.28 | $-8,947.57 |
 | tipico_de | $580.00 | $-3,229.05 | $0.00 | $5,851.05 | $-3,229.05 |
 | unibet_nl | $580.00 | $-7,801.68 | $0.00 | $4,157.51 | $-7,801.68 |
 | unibet_se | $580.00 | $-4,203.96 | $0.00 | $24,382.67 | $-28,095.54 |
 | williamhill (Spain) | $580.00 | $-751.77 | $0.00 | $1,331.77 | $-751.77 |
-| winamax_de (Spain) | $580.00 | $1,144.17 | $502.37 | $805.80 | $-872.91 |
+| winamax_de (Spain) | $580.00 | $1,144.17 | $0.00 | $805.80 | $-872.91 |
 
 Peak money in use across all accounts at the same time: $155,979.62 ≈ €134,465.19.
 
@@ -92,19 +92,19 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 
 | # | time (UTC) | game | min to KO | with bookmakers | gap | cost | guaranteed profit | status | P&L |
 |---|---|---|---|---|---|---|---|---|---|
-| 218 | 11-20T19:46 | Athletic Club v RCD Espanyol de Barcelona | 13.1 | onexbet, smarkets, winamax_de | 0.47% | $2499.99 | $11.86 | open |  |
+| 218 | 11-20T19:46 | Athletic Club v RCD Espanyol de Barcelona | 13.1 | onexbet, smarkets, winamax_de | 0.47% | $2499.99 | $11.86 | settled | $+11.87 |
 | 217 | 11-20T19:41 | ES Troyes AC v Le Havre AC | 3.1 | marathonbet, pinnacle, unibet_se | 0.97% | $2499.98 | $24.20 | settled | $+24.22 |
 | 216 | 11-20T19:31 | ES Troyes AC v Le Havre AC | 13.1 | onexbet, pinnacle, unibet_se | 1.59% | $2499.99 | $39.73 | settled | $+39.73 |
 | 215 | 11-20T19:26 | FC Bayern München v 1. FC Köln | 3.1 | betfair_ex_uk, ladbrokes_uk, smarkets | 1.45% | $2499.98 | $35.89 | settled | $+36.04 |
 | 214 | 11-20T19:16 | ES Troyes AC v Le Havre AC | 28.1 | onexbet, smarkets, unibet_se | 1.83% | $2499.99 | $45.72 | settled | $+45.72 |
 | 213 | 11-20T19:16 | FC Bayern München v 1. FC Köln | 13.1 | onexbet | 1.15% | $2499.92 | $28.08 | settled | $+28.08 |
-| 212 | 11-20T19:01 | Athletic Club v RCD Espanyol de Barcelona | 58.1 | onexbet, smarkets | 1.07% | $2499.98 | $26.70 | open |  |
+| 212 | 11-20T19:01 | Athletic Club v RCD Espanyol de Barcelona | 58.1 | onexbet, smarkets | 1.07% | $2499.98 | $26.70 | settled | $+26.70 |
 | 211 | 11-20T19:01 | FC Bayern München v 1. FC Köln | 28.1 | onexbet, smarkets | 1.43% | $2499.99 | $35.72 | settled | $+35.72 |
 | 210 | 11-20T18:37 | FC Bayern München v 1. FC Köln | 52.5 | no | 0.55% | $2522.18 | $13.86 | settled | $+13.87 |
 | 209 | 11-20T18:35 | FC Bayern München v 1. FC Köln | 54.5 | no | 0.45% | $185.57 | $0.78 | settled | $+0.78 |
 | 208 | 11-20T18:33 | FC Bayern München v 1. FC Köln | 56.5 | no | 0.46% | $327.49 | $1.49 | settled | $+1.49 |
 | 207 | 11-20T18:31 | FC Bayern München v 1. FC Köln | 58.1 | ladbrokes_uk, matchbook, smarkets | 0.54% | $2499.99 | $13.51 | settled | $+13.58 |
-| 206 | 11-20T17:01 | Athletic Club v RCD Espanyol de Barcelona | 178.3 | onexbet, pinnacle | 0.38% | $2499.81 | $9.18 | open |  |
+| 206 | 11-20T17:01 | Athletic Club v RCD Espanyol de Barcelona | 178.3 | onexbet, pinnacle | 0.38% | $2499.81 | $9.18 | settled | $+9.67 |
 | 205 | 11-20T12:40 | Al Sadd SC v Lusail SC | 19.8 | no | 0.26% | $27.38 | $0.07 | settled | $+0.07 |
 | 204 | 11-20T02:56 | DAL at VGK | 3.4 | unibet_se | 51.91% | $2499.99 | $1297.86 | settled | $-2499.99 |
 | 203 | 11-20T02:46 | DAL at VGK | 13.4 | unibet_se | 51.91% | $2499.99 | $1297.86 | settled | $-2499.99 |
