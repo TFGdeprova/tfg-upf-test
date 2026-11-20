@@ -1,8 +1,8 @@
 {
  "cash": {
-  "PM": 14858.502400000003,
-  "KS": 2967.4199999999973,
-  "BK:smarkets": -8789.1706,
+  "PM": 16100.882400000004,
+  "KS": 7304.419999999997,
+  "BK:smarkets": -1203.8726000000001,
   "BK:pinnacle": -4879.470599999999,
   "BK:onexbet": -68056.08970000001,
   "BK:matchbook": 8364.999332000003,
@@ -139,391 +139,6 @@
    "status": "open"
   },
   {
-   "trade_id": 207,
-   "time": "2026-11-20T18:31:54Z",
-   "game": "bun:26NOV20BMUKOE",
-   "title": "FC Bayern M\u00fcnchen v 1. FC K\u00f6ln",
-   "league": "bun",
-   "kickoff": "2026-11-20T19:30:00Z",
-   "min_to_ko": 58.1,
-   "t_lp": 0.00544,
-   "with_books": true,
-   "books": [
-    "ladbrokes_uk",
-    "matchbook",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "cae480fb1195f0032554a268cb80eb44",
-    "sport": "soccer_germany_bundesliga",
-    "home": "Bayern Munich",
-    "away": "1. FC K\u00f6ln"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2513.5026,
-   "guaranteed_profit": 13.5126,
-   "legs": [
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "1. FC K\u00f6ln",
-     "side": "away",
-     "point": null,
-     "odds": 34.0,
-     "eff": 33.339999999999996,
-     "three_way": true,
-     "stake": 75.39,
-     "cost": 75.39,
-     "label": "h2h 1. FC K\u00f6ln  @34.0"
-    },
-    {
-     "venue": "BK:ladbrokes_uk",
-     "book": "ladbrokes_uk",
-     "market": "h2h",
-     "outcome": "Bayern Munich",
-     "side": "home",
-     "point": null,
-     "odds": 1.11,
-     "eff": 1.11,
-     "three_way": true,
-     "stake": 2264.5,
-     "cost": 2264.5,
-     "label": "h2h Bayern Munich  @1.11"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 16.0,
-     "eff": 15.7,
-     "three_way": true,
-     "stake": 160.1,
-     "cost": 160.1,
-     "label": "h2h Draw  @16.0"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 208,
-   "time": "2026-11-20T18:33:28Z",
-   "game": "bun:26NOV20BMUKOE",
-   "title": "FC Bayern M\u00fcnchen v 1. FC K\u00f6ln",
-   "league": "bun",
-   "kickoff": "2026-11-20T19:30:00Z",
-   "min_to_ko": 56.5,
-   "t_lp": 0.004614,
-   "cost": 327.4894,
-   "guaranteed_payout": 328.98,
-   "guaranteed_profit": 1.4906,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x2262123417a7832ed890b3a267e2a4c580a1dad631add8f8ec0e28c9749aeff8",
-     "label": "Exact Score: Any Other Score?",
-     "side": "NO",
-     "price": 0.71,
-     "shares": 55.0,
-     "fee": 0.56623,
-     "cost": 39.6162
-    },
-    {
-     "venue": "PM",
-     "id": "0x4f234debce57de0ea4ec05e96a056cd128024dcc4b2fc8485e0a9b31407e71f0",
-     "label": "Exact Score: FC Bayern M\u00fcnchen 3 - 3 1. FC K\u00f6ln?",
-     "side": "NO",
-     "price": 0.994,
-     "shares": 54.99,
-     "fee": 0.0164,
-     "cost": 54.6765
-    },
-    {
-     "venue": "PM",
-     "id": "0xbce2b8334fd481e833b2fdd13687dbf5f1897affc0bc139db07352a641726e3b",
-     "label": "FC Bayern M\u00fcnchen vs. 1. FC K\u00f6ln: O/U 5.5",
-     "side": "YES",
-     "price": 0.35,
-     "shares": 55.0,
-     "fee": 0.62562,
-     "cost": 19.8756
-    },
-    {
-     "venue": "PM",
-     "id": "0xdc36821a1328f9e7cd10cb485c41d195fbd341407359216d4587b8cd046d5458",
-     "label": "Exact Score: FC Bayern M\u00fcnchen 5 - 1 1. FC K\u00f6ln?",
-     "side": "NO",
-     "price": 0.95,
-     "shares": 54.99,
-     "fee": 0.1306,
-     "cost": 52.3711
-    },
-    {
-     "venue": "KS",
-     "id": "KXBUNDESLIGASCORE-26NOV20BMUKOE-BMU4KOE2",
-     "label": "Bayern Munich wins 4-2",
-     "side": "NO",
-     "price": 0.97,
-     "shares": 55,
-     "fee": 0.12,
-     "cost": 53.47
-    },
-    {
-     "venue": "KS",
-     "id": "KXBUNDESLIGASCORE-26NOV20BMUKOE-BMU4KOE3",
-     "label": "Bayern Munich wins 4-3",
-     "side": "NO",
-     "price": 0.99,
-     "shares": 54,
-     "fee": 0.04,
-     "cost": 53.5
-    },
-    {
-     "venue": "KS",
-     "id": "KXBUNDESLIGASCORE-26NOV20BMUKOE-BMU5KOE2",
-     "label": "Bayern Munich wins 5-2",
-     "side": "NO",
-     "price": 0.98,
-     "shares": 55,
-     "fee": 0.08,
-     "cost": 53.98
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 209,
-   "time": "2026-11-20T18:35:28Z",
-   "game": "bun:26NOV20BMUKOE",
-   "title": "FC Bayern M\u00fcnchen v 1. FC K\u00f6ln",
-   "league": "bun",
-   "kickoff": "2026-11-20T19:30:00Z",
-   "min_to_ko": 54.5,
-   "t_lp": 0.004454,
-   "cost": 185.5687,
-   "guaranteed_payout": 186.35,
-   "guaranteed_profit": 0.7813,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x2262123417a7832ed890b3a267e2a4c580a1dad631add8f8ec0e28c9749aeff8",
-     "label": "Exact Score: Any Other Score?",
-     "side": "NO",
-     "price": 0.71,
-     "shares": 31.18,
-     "fee": 0.321,
-     "cost": 22.4588
-    },
-    {
-     "venue": "PM",
-     "id": "0x4f234debce57de0ea4ec05e96a056cd128024dcc4b2fc8485e0a9b31407e71f0",
-     "label": "Exact Score: FC Bayern M\u00fcnchen 3 - 3 1. FC K\u00f6ln?",
-     "side": "NO",
-     "price": 0.994,
-     "shares": 31.17,
-     "fee": 0.00929,
-     "cost": 30.9923
-    },
-    {
-     "venue": "PM",
-     "id": "0xbce2b8334fd481e833b2fdd13687dbf5f1897affc0bc139db07352a641726e3b",
-     "label": "FC Bayern M\u00fcnchen vs. 1. FC K\u00f6ln: O/U 5.5",
-     "side": "YES",
-     "price": 0.35,
-     "shares": 31.18,
-     "fee": 0.35467,
-     "cost": 11.2677
-    },
-    {
-     "venue": "KS",
-     "id": "KXBUNDESLIGASCORE-26NOV20BMUKOE-BMU4KOE2",
-     "label": "Bayern Munich wins 4-2",
-     "side": "NO",
-     "price": 0.97,
-     "shares": 31,
-     "fee": 0.07,
-     "cost": 30.14
-    },
-    {
-     "venue": "KS",
-     "id": "KXBUNDESLIGASCORE-26NOV20BMUKOE-BMU4KOE3",
-     "label": "Bayern Munich wins 4-3",
-     "side": "NO",
-     "price": 0.99,
-     "shares": 31,
-     "fee": 0.03,
-     "cost": 30.72
-    },
-    {
-     "venue": "KS",
-     "id": "KXBUNDESLIGASCORE-26NOV20BMUKOE-BMU5KOE1",
-     "label": "Bayern Munich wins 5-1",
-     "side": "NO",
-     "price": 0.95,
-     "shares": 31,
-     "fee": 0.11,
-     "cost": 29.56
-    },
-    {
-     "venue": "KS",
-     "id": "KXBUNDESLIGASCORE-26NOV20BMUKOE-BMU5KOE2",
-     "label": "Bayern Munich wins 5-2",
-     "side": "NO",
-     "price": 0.98,
-     "shares": 31,
-     "fee": 0.05,
-     "cost": 30.43
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 210,
-   "time": "2026-11-20T18:37:30Z",
-   "game": "bun:26NOV20BMUKOE",
-   "title": "FC Bayern M\u00fcnchen v 1. FC K\u00f6ln",
-   "league": "bun",
-   "kickoff": "2026-11-20T19:30:00Z",
-   "min_to_ko": 52.5,
-   "t_lp": 0.005521,
-   "cost": 2522.1787,
-   "guaranteed_payout": 2536.04,
-   "guaranteed_profit": 13.8613,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x2262123417a7832ed890b3a267e2a4c580a1dad631add8f8ec0e28c9749aeff8",
-     "label": "Exact Score: Any Other Score?",
-     "side": "NO",
-     "price": 0.71,
-     "shares": 507.53,
-     "fee": 5.22502,
-     "cost": 365.5713
-    },
-    {
-     "venue": "PM",
-     "id": "0x4f234debce57de0ea4ec05e96a056cd128024dcc4b2fc8485e0a9b31407e71f0",
-     "label": "Exact Score: FC Bayern M\u00fcnchen 3 - 3 1. FC K\u00f6ln?",
-     "side": "NO",
-     "price": 0.994,
-     "shares": 507.52,
-     "fee": 0.15134,
-     "cost": 504.6262
-    },
-    {
-     "venue": "PM",
-     "id": "0xbce2b8334fd481e833b2fdd13687dbf5f1897affc0bc139db07352a641726e3b",
-     "label": "FC Bayern M\u00fcnchen vs. 1. FC K\u00f6ln: O/U 5.5",
-     "side": "YES",
-     "price": 0.34,
-     "shares": 507.52,
-     "fee": 5.69437,
-     "cost": 178.2512
-    },
-    {
-     "venue": "KS",
-     "id": "KXBUNDESLIGASCORE-26NOV20BMUKOE-BMU4KOE2",
-     "label": "Bayern Munich wins 4-2",
-     "side": "NO",
-     "price": 0.97,
-     "shares": 507,
-     "fee": 1.04,
-     "cost": 492.83
-    },
-    {
-     "venue": "KS",
-     "id": "KXBUNDESLIGASCORE-26NOV20BMUKOE-BMU5KOE1",
-     "label": "Bayern Munich wins 5-1",
-     "side": "NO",
-     "price": 0.95,
-     "shares": 507,
-     "fee": 1.69,
-     "cost": 483.34
-    },
-    {
-     "venue": "KS",
-     "id": "KXBUNDESLIGASCORE-26NOV20BMUKOE-BMU5KOE2",
-     "label": "Bayern Munich wins 5-2",
-     "side": "NO",
-     "price": 0.98,
-     "shares": 507,
-     "fee": 0.7,
-     "cost": 497.56
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 211,
-   "time": "2026-11-20T19:01:54Z",
-   "game": "bun:26NOV20BMUKOE",
-   "title": "FC Bayern M\u00fcnchen v 1. FC K\u00f6ln",
-   "league": "bun",
-   "kickoff": "2026-11-20T19:30:00Z",
-   "min_to_ko": 28.1,
-   "t_lp": 0.014289,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "cae480fb1195f0032554a268cb80eb44",
-    "sport": "soccer_germany_bundesliga",
-    "home": "Bayern Munich",
-    "away": "1. FC K\u00f6ln"
-   },
-   "cost": 2499.9908,
-   "guaranteed_payout": 2535.707,
-   "guaranteed_profit": 35.7162,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0xd7743a16151ada5aeb1d03c0e20bcabbaf256cba97309c5fc8dee4e88f3ef9d2",
-     "label": "Will 1. FC K\u00f6ln win on 2026-11-20?",
-     "side": "YES",
-     "price": 0.028,
-     "shares": 2535.72,
-     "fee": 3.45061,
-     "cost": 74.4508
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Bayern Munich",
-     "side": "home",
-     "point": null,
-     "odds": 1.12,
-     "eff": 1.12,
-     "three_way": true,
-     "stake": 2264.03,
-     "cost": 2264.03,
-     "label": "h2h Bayern Munich  @1.12"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 16.0,
-     "eff": 15.7,
-     "three_way": true,
-     "stake": 161.51,
-     "cost": 161.51,
-     "label": "h2h Draw  @16.0"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 212,
    "time": "2026-11-20T19:01:54Z",
    "game": "lal:26NOV20ATHESP",
@@ -589,57 +204,6 @@
      "stake": 524.0,
      "cost": 524.0,
      "label": "h2h Draw  @4.9"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 213,
-   "time": "2026-11-20T19:16:54Z",
-   "game": "bun:26NOV20BMUKOE",
-   "title": "FC Bayern M\u00fcnchen v 1. FC K\u00f6ln",
-   "league": "bun",
-   "kickoff": "2026-11-20T19:30:00Z",
-   "min_to_ko": 13.1,
-   "t_lp": 0.011542,
-   "with_books": true,
-   "books": [
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "cae480fb1195f0032554a268cb80eb44",
-    "sport": "soccer_germany_bundesliga",
-    "home": "Bayern Munich",
-    "away": "1. FC K\u00f6ln"
-   },
-   "cost": 2499.92,
-   "guaranteed_payout": 2528.0,
-   "guaranteed_profit": 28.08,
-   "legs": [
-    {
-     "venue": "KS",
-     "id": "KXBUNDESLIGAGAME-26NOV20BMUKOE-BMU",
-     "label": "Bayern Munich",
-     "side": "NO",
-     "price": 0.09,
-     "shares": 2528,
-     "fee": 14.5,
-     "cost": 242.02
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Bayern Munich",
-     "side": "home",
-     "point": null,
-     "odds": 1.12,
-     "eff": 1.12,
-     "three_way": true,
-     "stake": 2257.9,
-     "cost": 2257.9,
-     "label": "h2h Bayern Munich  @1.12"
     }
    ],
    "status": "open"
@@ -711,77 +275,6 @@
      "stake": 689.9,
      "cost": 689.9,
      "label": "h2h Draw  @3.69"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 215,
-   "time": "2026-11-20T19:26:54Z",
-   "game": "bun:26NOV20BMUKOE",
-   "title": "FC Bayern M\u00fcnchen v 1. FC K\u00f6ln",
-   "league": "bun",
-   "kickoff": "2026-11-20T19:30:00Z",
-   "min_to_ko": 3.1,
-   "t_lp": 0.014458,
-   "with_books": true,
-   "books": [
-    "betfair_ex_uk",
-    "ladbrokes_uk",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "cae480fb1195f0032554a268cb80eb44",
-    "sport": "soccer_germany_bundesliga",
-    "home": "Bayern Munich",
-    "away": "1. FC K\u00f6ln"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2535.87,
-   "guaranteed_profit": 35.89,
-   "legs": [
-    {
-     "venue": "BK:betfair_ex_uk",
-     "book": "betfair_ex_uk",
-     "market": "h2h",
-     "outcome": "1. FC K\u00f6ln",
-     "side": "away",
-     "point": null,
-     "odds": 36.0,
-     "eff": 34.25,
-     "three_way": true,
-     "stake": 74.04,
-     "cost": 74.04,
-     "label": "h2h 1. FC K\u00f6ln  @36.0"
-    },
-    {
-     "venue": "BK:ladbrokes_uk",
-     "book": "ladbrokes_uk",
-     "market": "h2h",
-     "outcome": "Bayern Munich",
-     "side": "home",
-     "point": null,
-     "odds": 1.12,
-     "eff": 1.12,
-     "three_way": true,
-     "stake": 2264.41,
-     "cost": 2264.41,
-     "label": "h2h Bayern Munich  @1.12"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 16.0,
-     "eff": 15.7,
-     "three_way": true,
-     "stake": 161.53,
-     "cost": 161.53,
-     "label": "h2h Draw  @16.0"
     }
    ],
    "status": "open"
@@ -1060,16 +553,16 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 218,
- "n_settled": 205,
- "realized_pnl": -91679.07538800006,
+ "n_settled": 212,
+ "realized_pnl": -91549.51498800005,
  "runs": 66,
  "locked": {
-  "PM": 1354.1577000000002,
-  "KS": 2216.0099999999998,
-  "BK:smarkets": 2350.09,
+  "PM": 0.0,
+  "KS": 218.45999999999995,
+  "BK:smarkets": 1866.9500000000003,
   "BK:pinnacle": 2627.6000000000004,
-  "BK:onexbet": 10332.76,
-  "BK:matchbook": 75.39,
+  "BK:onexbet": 5810.83,
+  "BK:matchbook": 0.0,
   "BK:leovegas_se": 1.77351466845721e-11,
   "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 502.37,
@@ -1080,7 +573,7 @@
   "BK:unibet_nl": 7.958078640513122e-13,
   "BK:marathonbet": 693.46,
   "BK:coral": 0.0,
-  "BK:betfair_ex_uk": 74.04,
+  "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 0.0,
   "BK:betonlineag": 4.547473508864641e-13,
@@ -1097,7 +590,7 @@
   "BK:bovada": 0.0,
   "BK:draftkings": 0.0,
   "BK:williamhill": 0.0,
-  "BK:ladbrokes_uk": 4528.91
+  "BK:ladbrokes_uk": 0.0
  },
  "peak_locked": {
   "PM": 4486.7806,
@@ -1187,12 +680,12 @@
    "5": 116,
    "6": 207,
    "7": 204,
-   "8": 339,
+   "8": 333,
    "9": 333,
    "10": 338,
    "11": 338,
    "12": 338,
-   "13": 338
+   "13": 336
   },
   "spent": {
    "2026-11-06": 27,
@@ -1208,7 +701,7 @@
    "2026-11-17": 152,
    "2026-11-18": 191,
    "2026-11-19": 300,
-   "2026-11-20": 488
+   "2026-11-20": 496
   }
  },
  "book_slots": {
@@ -1351,6 +844,8 @@
   "lal|2026-11-20T20:00|15": "2026-11-20T19:45:22Z",
   "lal|2026-11-20T20:00|5": "2026-11-20T19:55:22Z",
   "nba|2026-11-21T00:00|180": "2026-11-20T21:00:00Z",
-  "nba|2026-11-21T00:30|180": "2026-11-20T21:30:18Z"
+  "nba|2026-11-21T00:30|180": "2026-11-20T21:30:18Z",
+  "nba|2026-11-21T00:00|120": "2026-11-20T22:00:18Z",
+  "nba|2026-11-21T01:00|180": "2026-11-20T22:00:18Z"
  }
 }
