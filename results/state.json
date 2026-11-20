@@ -69,286 +69,7 @@
   "BK:draftkings": 580.0,
   "BK:williamhill": 580.0
  },
- "open": [
-  {
-   "trade_id": 179,
-   "time": "2026-11-20T00:02:03Z",
-   "game": "nhl:26NOV19DALVGK",
-   "title": "DAL at VGK",
-   "league": "nhl",
-   "kickoff": "2026-11-20T03:00:00Z",
-   "min_to_ko": 177.9,
-   "t_lp": 0.519149,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "6c4d4bc698a434e4b1d5492b9bff28cb",
-    "sport": "icehockey_nhl",
-    "home": "Vegas Golden Knights",
-    "away": "Dallas Stars"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 3797.85,
-   "guaranteed_profit": 1297.86,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Vegas Golden Knights",
-     "side": "home",
-     "point": null,
-     "odds": 2.38,
-     "eff": 2.38,
-     "three_way": false,
-     "stake": 1595.74,
-     "cost": 1595.74,
-     "label": "h2h Vegas Golden Knights  @2.38"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.2,
-     "eff": 4.2,
-     "three_way": false,
-     "stake": 904.25,
-     "cost": 904.25,
-     "label": "h2h Draw  @4.2"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 193,
-   "time": "2026-11-20T01:01:54Z",
-   "game": "nhl:26NOV19DALVGK",
-   "title": "DAL at VGK",
-   "league": "nhl",
-   "kickoff": "2026-11-20T03:00:00Z",
-   "min_to_ko": 118.1,
-   "t_lp": 0.519149,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "6c4d4bc698a434e4b1d5492b9bff28cb",
-    "sport": "icehockey_nhl",
-    "home": "Vegas Golden Knights",
-    "away": "Dallas Stars"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 3797.85,
-   "guaranteed_profit": 1297.86,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Vegas Golden Knights",
-     "side": "home",
-     "point": null,
-     "odds": 2.38,
-     "eff": 2.38,
-     "three_way": false,
-     "stake": 1595.74,
-     "cost": 1595.74,
-     "label": "h2h Vegas Golden Knights  @2.38"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.2,
-     "eff": 4.2,
-     "three_way": false,
-     "stake": 904.25,
-     "cost": 904.25,
-     "label": "h2h Draw  @4.2"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 201,
-   "time": "2026-11-20T02:31:34Z",
-   "game": "nhl:26NOV19DALVGK",
-   "title": "DAL at VGK",
-   "league": "nhl",
-   "kickoff": "2026-11-20T03:00:00Z",
-   "min_to_ko": 28.4,
-   "t_lp": 0.527273,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "6c4d4bc698a434e4b1d5492b9bff28cb",
-    "sport": "icehockey_nhl",
-    "home": "Vegas Golden Knights",
-    "away": "Dallas Stars"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 3818.16,
-   "guaranteed_profit": 1318.17,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Vegas Golden Knights",
-     "side": "home",
-     "point": null,
-     "odds": 2.4,
-     "eff": 2.4,
-     "three_way": false,
-     "stake": 1590.9,
-     "cost": 1590.9,
-     "label": "h2h Vegas Golden Knights  @2.4"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.2,
-     "eff": 4.2,
-     "three_way": false,
-     "stake": 909.09,
-     "cost": 909.09,
-     "label": "h2h Draw  @4.2"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 203,
-   "time": "2026-11-20T02:46:34Z",
-   "game": "nhl:26NOV19DALVGK",
-   "title": "DAL at VGK",
-   "league": "nhl",
-   "kickoff": "2026-11-20T03:00:00Z",
-   "min_to_ko": 13.4,
-   "t_lp": 0.519149,
-   "with_books": true,
-   "books": [
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "6c4d4bc698a434e4b1d5492b9bff28cb",
-    "sport": "icehockey_nhl",
-    "home": "Vegas Golden Knights",
-    "away": "Dallas Stars"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 3797.85,
-   "guaranteed_profit": 1297.86,
-   "legs": [
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Vegas Golden Knights",
-     "side": "home",
-     "point": null,
-     "odds": 2.38,
-     "eff": 2.38,
-     "three_way": false,
-     "stake": 1595.74,
-     "cost": 1595.74,
-     "label": "h2h Vegas Golden Knights  @2.38"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.2,
-     "eff": 4.2,
-     "three_way": false,
-     "stake": 904.25,
-     "cost": 904.25,
-     "label": "h2h Draw  @4.2"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 204,
-   "time": "2026-11-20T02:56:34Z",
-   "game": "nhl:26NOV19DALVGK",
-   "title": "DAL at VGK",
-   "league": "nhl",
-   "kickoff": "2026-11-20T03:00:00Z",
-   "min_to_ko": 3.4,
-   "t_lp": 0.519149,
-   "with_books": true,
-   "books": [
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "6c4d4bc698a434e4b1d5492b9bff28cb",
-    "sport": "icehockey_nhl",
-    "home": "Vegas Golden Knights",
-    "away": "Dallas Stars"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 3797.85,
-   "guaranteed_profit": 1297.86,
-   "legs": [
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Vegas Golden Knights",
-     "side": "home",
-     "point": null,
-     "odds": 2.38,
-     "eff": 2.38,
-     "three_way": false,
-     "stake": 1595.74,
-     "cost": 1595.74,
-     "label": "h2h Vegas Golden Knights  @2.38"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.2,
-     "eff": 4.2,
-     "three_way": false,
-     "stake": 904.25,
-     "cost": 904.25,
-     "label": "h2h Draw  @4.2"
-    }
-   ],
-   "status": "open"
-  }
- ],
+ "open": [],
  "consumed": {
   "PM|0x5351de6a050f0d1687439d4799d30a06c85322d58236e512202e3d184be5e380|YES|0.9730": {
    "n": 25.65,
@@ -389,21 +110,21 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 204,
- "n_settled": 199,
- "realized_pnl": -79179.19708800003,
+ "n_settled": 204,
+ "realized_pnl": -91679.14708800006,
  "runs": 63,
  "locked": {
   "PM": 1.5987211554602254e-13,
   "KS": 0.0,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
-  "BK:onexbet": 4782.379999999979,
+  "BK:onexbet": 0.0,
   "BK:matchbook": 0.0,
   "BK:leovegas_se": 1.77351466845721e-11,
   "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 7717.5700000000115,
+  "BK:unibet_se": 1.1596057447604835e-11,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 2.2737367544323206e-13,
   "BK:unibet_nl": 7.958078640513122e-13,
@@ -515,7 +236,7 @@
    "7": 204,
    "8": 369,
    "9": 369,
-   "10": 370,
+   "10": 368,
    "11": 368,
    "12": 368,
    "13": 368
@@ -534,7 +255,7 @@
    "2026-11-17": 152,
    "2026-11-18": 191,
    "2026-11-19": 300,
-   "2026-11-20": 300
+   "2026-11-20": 302
   }
  },
  "book_slots": {
