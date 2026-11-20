@@ -1588,3 +1588,9 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-20T01:56:35Z,nhl:26NOV19ANACOL,ANA at COL,nhl,3.4,confirmation,11,-0.009208,0.537771,executed,,,onexbet h2h Colorado Avalanche  @2.31 x0.666 | marathonbet h2h Draw  @4.6 x0.334
 2026-11-20T02:10:03Z,nhl:26NOV19VANSEA,VAN at SEA,nhl,29.9,scheduled,11,-0.011921,0.390466,seen,,nhl:26NOV19VANSEA|2026-11-20T02:10:03Z|with_books,onexbet h2h Seattle Kraken  @1.98 x0.702 | onexbet h2h Draw  @4.67 x0.298
 2026-11-20T02:11:33Z,nhl:26NOV19VANSEA,VAN at SEA,nhl,28.4,confirmation,11,-0.011921,0.390466,executed,,,onexbet h2h Seattle Kraken  @1.98 x0.702 | onexbet h2h Draw  @4.67 x0.298
+2026-11-20T02:25:04Z,nhl:26NOV19VANSEA,VAN at SEA,nhl,14.9,scheduled,11,-0.011921,0.390466,seen,,nhl:26NOV19VANSEA|2026-11-20T02:25:04Z|with_books,onexbet h2h Seattle Kraken  @1.98 x0.702 | onexbet h2h Draw  @4.67 x0.298
+2026-11-20T02:26:34Z,nhl:26NOV19VANSEA,VAN at SEA,nhl,13.4,confirmation,11,-0.011921,0.390466,executed,,,onexbet h2h Seattle Kraken  @1.98 x0.702 | onexbet h2h Draw  @4.67 x0.298
+2026-11-20T02:30:05Z,nhl:26NOV19DALVGK,DAL at VGK,nhl,29.9,scheduled,9,-0.011921,0.527273,seen,,nhl:26NOV19DALVGK|2026-11-20T02:30:05Z|with_books,onexbet h2h Vegas Golden Knights  @2.4 x0.636 | unibet_se h2h Draw  @4.2 x0.364
+2026-11-20T02:31:34Z,nhl:26NOV19DALVGK,DAL at VGK,nhl,28.4,confirmation,9,-0.011921,0.527273,executed,,,onexbet h2h Vegas Golden Knights  @2.4 x0.636 | unibet_se h2h Draw  @4.2 x0.364
+2026-11-20T02:35:04Z,nhl:26NOV19VANSEA,VAN at SEA,nhl,4.9,scheduled,11,-0.011921,0.393939,seen,,nhl:26NOV19VANSEA|2026-11-20T02:35:04Z|with_books,onexbet h2h Seattle Kraken  @2.0 x0.697 | marathonbet h2h Draw  @4.6 x0.303
+2026-11-20T02:36:34Z,nhl:26NOV19VANSEA,VAN at SEA,nhl,3.4,confirmation,11,-0.011921,0.393939,executed,,,onexbet h2h Seattle Kraken  @2.0 x0.697 | marathonbet h2h Draw  @4.6 x0.303

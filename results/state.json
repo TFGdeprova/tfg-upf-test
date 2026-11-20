@@ -4,17 +4,17 @@
   "KS": 5046.4299999999985,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -2366.859999999999,
-  "BK:onexbet": -81044.349,
+  "BK:onexbet": -86877.659,
   "BK:matchbook": 8440.389332000002,
   "BK:leovegas_se": -55331.300820000026,
   "BK:gtbets": 5009.9357,
   "BK:winamax_de": 1646.5399999999997,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -22186.470000000005,
+  "BK:unibet_se": -23095.560000000005,
   "BK:tipico_de": -3229.0519999999997,
   "BK:coolbet": 7055.7693,
   "BK:unibet_nl": -7801.679999999999,
-  "BK:marathonbet": -8874.0088,
+  "BK:marathonbet": -9631.5788,
   "BK:coral": 1338.673,
   "BK:betfair_ex_uk": 580.0,
   "BK:betfred_uk": -768.02,
@@ -3491,6 +3491,173 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 200,
+   "time": "2026-11-20T02:26:34Z",
+   "game": "nhl:26NOV19VANSEA",
+   "title": "VAN at SEA",
+   "league": "nhl",
+   "kickoff": "2026-11-20T02:40:00Z",
+   "min_to_ko": 13.4,
+   "t_lp": 0.390466,
+   "with_books": true,
+   "books": [
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "64955eccc864e1b34e23754d71319db4",
+    "sport": "icehockey_nhl",
+    "home": "Seattle Kraken",
+    "away": "Vancouver Canucks"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 3476.1474,
+   "guaranteed_profit": 976.1574,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Seattle Kraken",
+     "side": "home",
+     "point": null,
+     "odds": 1.98,
+     "eff": 1.98,
+     "three_way": false,
+     "stake": 1755.63,
+     "cost": 1755.63,
+     "label": "h2h Seattle Kraken  @1.98"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.67,
+     "eff": 4.67,
+     "three_way": false,
+     "stake": 744.36,
+     "cost": 744.36,
+     "label": "h2h Draw  @4.67"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 201,
+   "time": "2026-11-20T02:31:34Z",
+   "game": "nhl:26NOV19DALVGK",
+   "title": "DAL at VGK",
+   "league": "nhl",
+   "kickoff": "2026-11-20T03:00:00Z",
+   "min_to_ko": 28.4,
+   "t_lp": 0.527273,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "6c4d4bc698a434e4b1d5492b9bff28cb",
+    "sport": "icehockey_nhl",
+    "home": "Vegas Golden Knights",
+    "away": "Dallas Stars"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 3818.16,
+   "guaranteed_profit": 1318.17,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Vegas Golden Knights",
+     "side": "home",
+     "point": null,
+     "odds": 2.4,
+     "eff": 2.4,
+     "three_way": false,
+     "stake": 1590.9,
+     "cost": 1590.9,
+     "label": "h2h Vegas Golden Knights  @2.4"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.2,
+     "eff": 4.2,
+     "three_way": false,
+     "stake": 909.09,
+     "cost": 909.09,
+     "label": "h2h Draw  @4.2"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 202,
+   "time": "2026-11-20T02:36:34Z",
+   "game": "nhl:26NOV19VANSEA",
+   "title": "VAN at SEA",
+   "league": "nhl",
+   "kickoff": "2026-11-20T02:40:00Z",
+   "min_to_ko": 3.4,
+   "t_lp": 0.393939,
+   "with_books": true,
+   "books": [
+    "marathonbet",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "64955eccc864e1b34e23754d71319db4",
+    "sport": "icehockey_nhl",
+    "home": "Seattle Kraken",
+    "away": "Vancouver Canucks"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 3484.822,
+   "guaranteed_profit": 984.832,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Seattle Kraken",
+     "side": "home",
+     "point": null,
+     "odds": 2.0,
+     "eff": 2.0,
+     "three_way": false,
+     "stake": 1742.42,
+     "cost": 1742.42,
+     "label": "h2h Seattle Kraken  @2.0"
+    },
+    {
+     "venue": "BK:marathonbet",
+     "book": "marathonbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.6,
+     "eff": 4.6,
+     "three_way": false,
+     "stake": 757.57,
+     "cost": 757.57,
+     "label": "h2h Draw  @4.6"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -3572,7 +3739,7 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 199,
+ "n_trades": 202,
  "n_settled": 137,
  "realized_pnl": -27383.984487999987,
  "runs": 62,
@@ -3581,17 +3748,17 @@
   "KS": 174.94,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 59.580000000000226,
-  "BK:onexbet": 63217.07,
+  "BK:onexbet": 69050.37999999999,
   "BK:matchbook": 0.0,
   "BK:leovegas_se": 47555.970000000016,
   "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 18473.600000000002,
+  "BK:unibet_se": 19382.690000000002,
   "BK:tipico_de": 5851.049999999999,
   "BK:coolbet": 2.2737367544323206e-13,
   "BK:unibet_nl": 7.958078640513122e-13,
-  "BK:marathonbet": 7767.499999999999,
+  "BK:marathonbet": 8525.07,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
@@ -3616,17 +3783,17 @@
   "KS": 479.57,
   "BK:smarkets": 4070.2799999999993,
   "BK:pinnacle": 3723.5699999999997,
-  "BK:onexbet": 63217.07,
+  "BK:onexbet": 69050.37999999999,
   "BK:matchbook": 4155.1,
   "BK:leovegas_se": 47555.970000000016,
   "BK:gtbets": 6720.040000000001,
   "BK:winamax_de": 805.8,
   "BK:grosvenor": 292.3,
-  "BK:unibet_se": 18473.600000000002,
+  "BK:unibet_se": 19382.690000000002,
   "BK:tipico_de": 5851.049999999999,
   "BK:coolbet": 7199.91,
   "BK:unibet_nl": 4157.51,
-  "BK:marathonbet": 7767.499999999999,
+  "BK:marathonbet": 8525.07,
   "BK:coral": 1948.91,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 1348.02,
@@ -3651,17 +3818,17 @@
   "KS": 5046.4299999999985,
   "BK:smarkets": -8947.57,
   "BK:pinnacle": -6879.0199999999995,
-  "BK:onexbet": -81044.349,
+  "BK:onexbet": -86877.659,
   "BK:matchbook": -3925.7799999999993,
   "BK:leovegas_se": -55331.300820000026,
   "BK:gtbets": -7633.02,
   "BK:winamax_de": -872.9100000000001,
   "BK:grosvenor": 287.7,
-  "BK:unibet_se": -22186.470000000005,
+  "BK:unibet_se": -23095.560000000005,
   "BK:tipico_de": -3229.0519999999997,
   "BK:coolbet": -8022.379999999999,
   "BK:unibet_nl": -7801.679999999999,
-  "BK:marathonbet": -8874.0088,
+  "BK:marathonbet": -9631.5788,
   "BK:coral": -1194.91,
   "BK:betfair_ex_uk": 580.0,
   "BK:betfred_uk": -768.02,
@@ -3687,7 +3854,7 @@
   "moved": 1399.686,
   "fees": 0.0
  },
- "peak_total_locked": 143479.67160000003,
+ "peak_total_locked": 150979.6416,
  "odds": {
   "remaining": {
    "1": 117,
@@ -3697,12 +3864,12 @@
    "5": 116,
    "6": 207,
    "7": 204,
-   "8": 381,
-   "9": 381,
-   "10": 382,
-   "11": 380,
-   "12": 380,
-   "13": 380
+   "8": 375,
+   "9": 375,
+   "10": 376,
+   "11": 374,
+   "12": 374,
+   "13": 374
   },
   "spent": {
    "2026-11-06": 27,
@@ -3718,7 +3885,7 @@
    "2026-11-17": 152,
    "2026-11-18": 191,
    "2026-11-19": 300,
-   "2026-11-20": 228
+   "2026-11-20": 264
   }
  },
  "book_slots": {
@@ -3836,6 +4003,9 @@
   "nhl|2026-11-20T02:00|15": "2026-11-20T01:45:02Z",
   "nhl|2026-11-20T02:00|5": "2026-11-20T01:55:02Z",
   "nhl|2026-11-20T03:00|60": "2026-11-20T02:00:14Z",
-  "nhl|2026-11-20T02:40|30": "2026-11-20T02:10:02Z"
+  "nhl|2026-11-20T02:40|30": "2026-11-20T02:10:02Z",
+  "nhl|2026-11-20T02:40|15": "2026-11-20T02:25:04Z",
+  "nhl|2026-11-20T03:00|30": "2026-11-20T02:30:04Z",
+  "nhl|2026-11-20T02:40|5": "2026-11-20T02:35:04Z"
  }
 }
