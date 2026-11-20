@@ -4,9 +4,9 @@
   "KS": 5046.4299999999985,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -2366.859999999999,
-  "BK:onexbet": -71079.549,
+  "BK:onexbet": -74380.119,
   "BK:matchbook": 8440.389332000002,
-  "BK:leovegas_se": -53631.89082000002,
+  "BK:leovegas_se": -55331.300820000026,
   "BK:gtbets": 5009.9357,
   "BK:winamax_de": 1646.5399999999997,
   "BK:grosvenor": 580.0,
@@ -3214,6 +3214,117 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 195,
+   "time": "2026-11-20T01:31:34Z",
+   "game": "nhl:26NOV19ANACOL",
+   "title": "ANA at COL",
+   "league": "nhl",
+   "kickoff": "2026-11-20T02:00:00Z",
+   "min_to_ko": 28.4,
+   "t_lp": 0.495488,
+   "with_books": true,
+   "books": [
+    "leovegas_se",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "8689e63a36a8d62c4eba2fc402bb4f0c",
+    "sport": "icehockey_nhl",
+    "home": "Colorado Avalanche",
+    "away": "Anaheim Ducks"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 3738.702,
+   "guaranteed_profit": 1238.712,
+   "legs": [
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Colorado Avalanche",
+     "side": "home",
+     "point": null,
+     "odds": 2.2,
+     "eff": 2.2,
+     "three_way": false,
+     "stake": 1699.41,
+     "cost": 1699.41,
+     "label": "h2h Colorado Avalanche  @2.2"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.67,
+     "eff": 4.67,
+     "three_way": false,
+     "stake": 800.58,
+     "cost": 800.58,
+     "label": "h2h Draw  @4.67"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 196,
+   "time": "2026-11-20T01:41:34Z",
+   "game": "nhl:26NOV19VANSEA",
+   "title": "VAN at SEA",
+   "league": "nhl",
+   "kickoff": "2026-11-20T02:40:00Z",
+   "min_to_ko": 58.4,
+   "t_lp": 0.390466,
+   "with_books": true,
+   "books": [
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "64955eccc864e1b34e23754d71319db4",
+    "sport": "icehockey_nhl",
+    "home": "Seattle Kraken",
+    "away": "Vancouver Canucks"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 3476.1474,
+   "guaranteed_profit": 976.1574,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Seattle Kraken",
+     "side": "home",
+     "point": null,
+     "odds": 1.98,
+     "eff": 1.98,
+     "three_way": false,
+     "stake": 1755.63,
+     "cost": 1755.63,
+     "label": "h2h Seattle Kraken  @1.98"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.67,
+     "eff": 4.67,
+     "three_way": false,
+     "stake": 744.36,
+     "cost": 744.36,
+     "label": "h2h Draw  @4.67"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -3295,7 +3406,7 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 194,
+ "n_trades": 196,
  "n_settled": 137,
  "realized_pnl": -27383.984487999987,
  "runs": 62,
@@ -3304,9 +3415,9 @@
   "KS": 174.94,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 59.580000000000226,
-  "BK:onexbet": 53252.27,
+  "BK:onexbet": 56552.84,
   "BK:matchbook": 0.0,
-  "BK:leovegas_se": 45856.56000000001,
+  "BK:leovegas_se": 47555.970000000016,
   "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
@@ -3339,9 +3450,9 @@
   "KS": 479.57,
   "BK:smarkets": 4070.2799999999993,
   "BK:pinnacle": 3723.5699999999997,
-  "BK:onexbet": 53252.27,
+  "BK:onexbet": 56552.84,
   "BK:matchbook": 4155.1,
-  "BK:leovegas_se": 45856.56000000001,
+  "BK:leovegas_se": 47555.970000000016,
   "BK:gtbets": 6720.040000000001,
   "BK:winamax_de": 805.8,
   "BK:grosvenor": 292.3,
@@ -3374,9 +3485,9 @@
   "KS": 5046.4299999999985,
   "BK:smarkets": -8947.57,
   "BK:pinnacle": -6879.0199999999995,
-  "BK:onexbet": -71079.549,
+  "BK:onexbet": -74380.119,
   "BK:matchbook": -3925.7799999999993,
-  "BK:leovegas_se": -53631.89082000002,
+  "BK:leovegas_se": -55331.300820000026,
   "BK:gtbets": -7633.02,
   "BK:winamax_de": -872.9100000000001,
   "BK:grosvenor": 287.7,
@@ -3410,7 +3521,7 @@
   "moved": 1399.686,
   "fees": 0.0
  },
- "peak_total_locked": 130979.72160000002,
+ "peak_total_locked": 135979.70160000003,
  "odds": {
   "remaining": {
    "1": 117,
@@ -3420,12 +3531,12 @@
    "5": 116,
    "6": 207,
    "7": 204,
-   "8": 393,
+   "8": 387,
    "9": 387,
    "10": 388,
-   "11": 392,
-   "12": 392,
-   "13": 392
+   "11": 386,
+   "12": 386,
+   "13": 386
   },
   "spent": {
    "2026-11-06": 27,
@@ -3441,7 +3552,7 @@
    "2026-11-17": 152,
    "2026-11-18": 191,
    "2026-11-19": 300,
-   "2026-11-20": 168
+   "2026-11-20": 192
   }
  },
  "book_slots": {
@@ -3553,6 +3664,8 @@
   "nfl|2026-11-20T01:15|15": "2026-11-20T01:00:23Z",
   "nhl|2026-11-20T02:00|60": "2026-11-20T01:00:24Z",
   "nhl|2026-11-20T03:00|120": "2026-11-20T01:00:24Z",
-  "nfl|2026-11-20T01:15|5": "2026-11-20T01:10:28Z"
+  "nfl|2026-11-20T01:15|5": "2026-11-20T01:10:28Z",
+  "nhl|2026-11-20T02:00|30": "2026-11-20T01:30:01Z",
+  "nhl|2026-11-20T02:40|60": "2026-11-20T01:40:01Z"
  }
 }
