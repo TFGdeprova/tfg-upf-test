@@ -1,12 +1,12 @@
 {
  "cash": {
   "PM": 16212.588400000004,
-  "KS": 5046.4299999999985,
+  "KS": 5183.4299999999985,
   "BK:smarkets": -6439.080599999999,
   "BK:pinnacle": -2251.8705999999993,
-  "BK:onexbet": -86182.734,
+  "BK:onexbet": -78576.5709,
   "BK:matchbook": 8440.389332000002,
-  "BK:leovegas_se": -24032.557620000025,
+  "BK:leovegas_se": -12660.826020000022,
   "BK:gtbets": 5009.9357,
   "BK:winamax_de": 1646.5399999999997,
   "BK:grosvenor": 580.0,
@@ -126,62 +126,6 @@
    "status": "open"
   },
   {
-   "trade_id": 178,
-   "time": "2026-11-20T00:02:03Z",
-   "game": "nhl:26NOV19ANACOL",
-   "title": "ANA at COL",
-   "league": "nhl",
-   "kickoff": "2026-11-20T02:00:00Z",
-   "min_to_ko": 117.9,
-   "t_lp": 0.526609,
-   "with_books": true,
-   "books": [
-    "leovegas_se",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "8689e63a36a8d62c4eba2fc402bb4f0c",
-    "sport": "icehockey_nhl",
-    "home": "Colorado Avalanche",
-    "away": "Anaheim Ducks"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 3816.4896,
-   "guaranteed_profit": 1316.4996,
-   "legs": [
-    {
-     "venue": "BK:leovegas_se",
-     "book": "leovegas_se",
-     "market": "h2h",
-     "outcome": "Colorado Avalanche",
-     "side": "home",
-     "point": null,
-     "odds": 2.28,
-     "eff": 2.28,
-     "three_way": false,
-     "stake": 1673.91,
-     "cost": 1673.91,
-     "label": "h2h Colorado Avalanche  @2.28"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.62,
-     "eff": 4.62,
-     "three_way": false,
-     "stake": 826.08,
-     "cost": 826.08,
-     "label": "h2h Draw  @4.62"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 179,
    "time": "2026-11-20T00:02:03Z",
    "game": "nhl:26NOV19DALVGK",
@@ -293,62 +237,6 @@
    "status": "open"
   },
   {
-   "trade_id": 192,
-   "time": "2026-11-20T01:01:54Z",
-   "game": "nhl:26NOV19ANACOL",
-   "title": "ANA at COL",
-   "league": "nhl",
-   "kickoff": "2026-11-20T02:00:00Z",
-   "min_to_ko": 58.1,
-   "t_lp": 0.526609,
-   "with_books": true,
-   "books": [
-    "leovegas_se",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "8689e63a36a8d62c4eba2fc402bb4f0c",
-    "sport": "icehockey_nhl",
-    "home": "Colorado Avalanche",
-    "away": "Anaheim Ducks"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 3816.4896,
-   "guaranteed_profit": 1316.4996,
-   "legs": [
-    {
-     "venue": "BK:leovegas_se",
-     "book": "leovegas_se",
-     "market": "h2h",
-     "outcome": "Colorado Avalanche",
-     "side": "home",
-     "point": null,
-     "odds": 2.28,
-     "eff": 2.28,
-     "three_way": false,
-     "stake": 1673.91,
-     "cost": 1673.91,
-     "label": "h2h Colorado Avalanche  @2.28"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.62,
-     "eff": 4.62,
-     "three_way": false,
-     "stake": 826.08,
-     "cost": 826.08,
-     "label": "h2h Draw  @4.62"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 193,
    "time": "2026-11-20T01:01:54Z",
    "game": "nhl:26NOV19DALVGK",
@@ -405,98 +293,6 @@
    "status": "open"
   },
   {
-   "trade_id": 194,
-   "time": "2026-11-20T01:09:33Z",
-   "game": "nfl:26NOV19INDHOU",
-   "title": "IND at HOU",
-   "league": "nfl",
-   "kickoff": "2026-11-20T01:15:00Z",
-   "min_to_ko": 5.4,
-   "t_lp": 0.002957,
-   "cost": 136.7657,
-   "guaranteed_payout": 137.0,
-   "guaranteed_profit": 0.2343,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x0c6648218ef919308bac326e6aba6db1de8a23ca46983e04bcbb28f4b6e3fb2b",
-     "label": "Exact Margin: Texans by 1-6",
-     "side": "YES",
-     "price": 0.16,
-     "shares": 137.99,
-     "fee": 0.92729,
-     "cost": 23.0057
-    },
-    {
-     "venue": "KS",
-     "id": "KXNFLWINMARGIN-26NOV19INDHOU-HOU1TO6",
-     "label": "Houston by 1 to 6",
-     "side": "NO",
-     "price": 0.82,
-     "shares": 137,
-     "fee": 1.42,
-     "cost": 113.76
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 195,
-   "time": "2026-11-20T01:31:34Z",
-   "game": "nhl:26NOV19ANACOL",
-   "title": "ANA at COL",
-   "league": "nhl",
-   "kickoff": "2026-11-20T02:00:00Z",
-   "min_to_ko": 28.4,
-   "t_lp": 0.495488,
-   "with_books": true,
-   "books": [
-    "leovegas_se",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "8689e63a36a8d62c4eba2fc402bb4f0c",
-    "sport": "icehockey_nhl",
-    "home": "Colorado Avalanche",
-    "away": "Anaheim Ducks"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 3738.702,
-   "guaranteed_profit": 1238.712,
-   "legs": [
-    {
-     "venue": "BK:leovegas_se",
-     "book": "leovegas_se",
-     "market": "h2h",
-     "outcome": "Colorado Avalanche",
-     "side": "home",
-     "point": null,
-     "odds": 2.2,
-     "eff": 2.2,
-     "three_way": false,
-     "stake": 1699.41,
-     "cost": 1699.41,
-     "label": "h2h Colorado Avalanche  @2.2"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.67,
-     "eff": 4.67,
-     "three_way": false,
-     "stake": 800.58,
-     "cost": 800.58,
-     "label": "h2h Draw  @4.67"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 196,
    "time": "2026-11-20T01:41:34Z",
    "game": "nhl:26NOV19VANSEA",
@@ -547,117 +343,6 @@
      "stake": 744.36,
      "cost": 744.36,
      "label": "h2h Draw  @4.67"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 197,
-   "time": "2026-11-20T01:46:35Z",
-   "game": "nhl:26NOV19ANACOL",
-   "title": "ANA at COL",
-   "league": "nhl",
-   "kickoff": "2026-11-20T02:00:00Z",
-   "min_to_ko": 13.4,
-   "t_lp": 0.504702,
-   "with_books": true,
-   "books": [
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "8689e63a36a8d62c4eba2fc402bb4f0c",
-    "sport": "icehockey_nhl",
-    "home": "Colorado Avalanche",
-    "away": "Anaheim Ducks"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 3761.7317,
-   "guaranteed_profit": 1261.7417,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Colorado Avalanche",
-     "side": "home",
-     "point": null,
-     "odds": 2.22,
-     "eff": 2.22,
-     "three_way": false,
-     "stake": 1694.48,
-     "cost": 1694.48,
-     "label": "h2h Colorado Avalanche  @2.22"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.67,
-     "eff": 4.67,
-     "three_way": false,
-     "stake": 805.51,
-     "cost": 805.51,
-     "label": "h2h Draw  @4.67"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 198,
-   "time": "2026-11-20T01:56:35Z",
-   "game": "nhl:26NOV19ANACOL",
-   "title": "ANA at COL",
-   "league": "nhl",
-   "kickoff": "2026-11-20T02:00:00Z",
-   "min_to_ko": 3.4,
-   "t_lp": 0.537771,
-   "with_books": true,
-   "books": [
-    "marathonbet",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "8689e63a36a8d62c4eba2fc402bb4f0c",
-    "sport": "icehockey_nhl",
-    "home": "Colorado Avalanche",
-    "away": "Anaheim Ducks"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 3844.404,
-   "guaranteed_profit": 1344.414,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Colorado Avalanche",
-     "side": "home",
-     "point": null,
-     "odds": 2.31,
-     "eff": 2.31,
-     "three_way": false,
-     "stake": 1664.25,
-     "cost": 1664.25,
-     "label": "h2h Colorado Avalanche  @2.31"
-    },
-    {
-     "venue": "BK:marathonbet",
-     "book": "marathonbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.6,
-     "eff": 4.6,
-     "three_way": false,
-     "stake": 835.74,
-     "cost": 835.74,
-     "label": "h2h Draw  @4.6"
     }
    ],
    "status": "open"
@@ -1035,17 +720,17 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 204,
- "n_settled": 187,
- "realized_pnl": -91510.67728800002,
+ "n_settled": 193,
+ "realized_pnl": -85032.49828800002,
  "runs": 63,
  "locked": {
-  "PM": 23.00570000000016,
-  "KS": 113.75999999999998,
+  "PM": 1.5987211554602254e-13,
+  "KS": 0.0,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
-  "BK:onexbet": 25641.729999999985,
+  "BK:onexbet": 19024.74999999998,
   "BK:matchbook": 0.0,
-  "BK:leovegas_se": 5047.230000000018,
+  "BK:leovegas_se": 1.77351466845721e-11,
   "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
@@ -1053,7 +738,7 @@
   "BK:tipico_de": 0.0,
   "BK:coolbet": 2.2737367544323206e-13,
   "BK:unibet_nl": 7.958078640513122e-13,
-  "BK:marathonbet": 1593.31,
+  "BK:marathonbet": 757.5699999999999,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
@@ -1163,7 +848,7 @@
    "9": 369,
    "10": 370,
    "11": 370,
-   "12": 370,
+   "12": 368,
    "13": 368
   },
   "spent": {
@@ -1180,7 +865,7 @@
    "2026-11-17": 152,
    "2026-11-18": 191,
    "2026-11-19": 300,
-   "2026-11-20": 296
+   "2026-11-20": 298
   }
  },
  "book_slots": {
