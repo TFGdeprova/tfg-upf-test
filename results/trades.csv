@@ -205,3 +205,7 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 204,2026-11-20T02:56:34Z,nhl:26NOV19DALVGK,DAL at VGK,nhl,2026-11-20T03:00:00Z,3.4,0.519149,True,['unibet_se'],False,2499.99,3797.85,1297.86,settled,2026-11-20T06:20:44Z,0.0,-2499.99,BELOW_GUARANTEE,2
 205,2026-11-20T12:40:14Z,qat:26NOV20SADLUS,Al Sadd SC v Lusail SC,qat,2026-11-20T13:00:00Z,19.8,0.002617,,,,27.3783,27.45,0.0717,settled,2026-11-20T17:00:55Z,27.45,0.0717,ok,2
 206,2026-11-20T17:01:41Z,lal:26NOV20ATHESP,Athletic Club v RCD Espanyol de Barcelona,lal,2026-11-20T20:00:00Z,178.3,0.003798,True,"['onexbet', 'pinnacle']",False,2499.81,2508.9936,9.1836,open,,,,,3
+207,2026-11-20T18:31:54Z,bun:26NOV20BMUKOE,FC Bayern München v 1. FC Köln,bun,2026-11-20T19:30:00Z,58.1,0.00544,True,"['ladbrokes_uk', 'matchbook', 'smarkets']",False,2499.99,2513.5026,13.5126,open,,,,,3
+208,2026-11-20T18:33:28Z,bun:26NOV20BMUKOE,FC Bayern München v 1. FC Köln,bun,2026-11-20T19:30:00Z,56.5,0.004614,,,,327.4894,328.98,1.4906,open,,,,,7
+209,2026-11-20T18:35:28Z,bun:26NOV20BMUKOE,FC Bayern München v 1. FC Köln,bun,2026-11-20T19:30:00Z,54.5,0.004454,,,,185.5687,186.35,0.7813,open,,,,,7
+210,2026-11-20T18:37:30Z,bun:26NOV20BMUKOE,FC Bayern München v 1. FC Köln,bun,2026-11-20T19:30:00Z,52.5,0.005521,,,,2522.1787,2536.04,13.8613,open,,,,,6

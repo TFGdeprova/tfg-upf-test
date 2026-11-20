@@ -1606,3 +1606,5 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-20T17:45:15Z,fl1:26NOV20ESTHAC,ES Troyes AC v Le Havre AC,fl1,119.7,scheduled,5,-0.004216,-0.004172,no gap,,,
 2026-11-20T18:00:18Z,lal:26NOV20ATHESP,Athletic Club v RCD Espanyol de Barcelona,lal,119.7,scheduled,9,-0.002981,-0.002784,no gap,,,
 2026-11-20T18:30:32Z,bun:26NOV20BMUKOE,FC Bayern München v 1. FC Köln,bun,59.5,scheduled,9,-0.001398,0.00544,seen,,bun:26NOV20BMUKOE|2026-11-20T18:30:30Z|with_books,matchbook h2h 1. FC Köln  @34.0 x0.030 | betmgm h2h Bayern Munich  @1.11 x0.906 | smarkets h2h Draw  @16.0 x0.064
+2026-11-20T18:31:54Z,bun:26NOV20BMUKOE,FC Bayern München v 1. FC Köln,bun,58.1,confirmation,9,-0.001398,0.00544,executed,,,matchbook h2h 1. FC Köln  @34.0 x0.030 | ladbrokes_uk h2h Bayern Munich  @1.11 x0.906 | smarkets h2h Draw  @16.0 x0.064
+2026-11-20T18:45:33Z,fl1:26NOV20ESTHAC,ES Troyes AC v Le Havre AC,fl1,59.4,scheduled,5,-0.003272,0.000718,no gap,,,
