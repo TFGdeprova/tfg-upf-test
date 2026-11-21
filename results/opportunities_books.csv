@@ -1950,3 +1950,10 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-21T16:00:59Z,nba:26NOV21MILPHI,MIL at PHI,nba,119.0,scheduled,14,-0.008757,-0.008757,no gap,,,
 2026-11-21T16:00:59Z,nhl:26NOV21EDMCAR,EDM at CAR,nhl,119.0,scheduled,8,-0.010685,-0.004484,no gap,,,
 2026-11-21T16:10:15Z,fl1:26NOV21NICPSG,OGC Nice v Paris Saint-Germain FC,fl1,4.7,scheduled,7,-0.003272,-0.0,no gap,,,
+2026-11-21T16:30:16Z,sea:26NOV21PARROM,Parma Calcio 1913 v AS Roma,sea,29.7,scheduled,9,-0.001741,0.002651,seen,,sea:26NOV21PARROM|2026-11-21T16:30:16Z|with_books,betmgm h2h AS Roma  @1.27 x0.789 | matchbook h2h Parma  @14.0 x0.073 | onexbet h2h Draw  @7.29 x0.138
+2026-11-21T16:30:18Z,epl:26NOV21NEWARS,Newcastle United FC v Arsenal FC,epl,59.7,scheduled,9,-0.001937,0.014008,seen,,epl:26NOV21NEWARS|2026-11-21T16:30:18Z|with_books,onexbet totals Over 2.5 @1.87 x0.542 | matchbook totals Under 2.5 @2.24 x0.458
+2026-11-21T16:30:18Z,lal:26NOV21SEVRBB,Sevilla FC v Real Betis Balompié,lal,59.7,scheduled,5,-0.001398,0.005789,seen,,lal:26NOV21SEVRBB|2026-11-21T16:30:16Z|with_books,coolbet h2h Real Betis  @2.65 x0.380 | unibet_se h2h Sevilla  @3.05 x0.330 | onexbet h2h Draw  @3.46 x0.291
+2026-11-21T16:30:18Z,bun:26NOV21SCHVFB,FC Schalke 04 v VfB Stuttgart,bun,59.7,scheduled,11,-0.003272,-0.003272,no gap,,,
+2026-11-21T16:31:41Z,sea:26NOV21PARROM,Parma Calcio 1913 v AS Roma,sea,28.3,confirmation,9,-0.001741,0.007318,executed,,,betmgm h2h AS Roma  @1.27 x0.793 | unibet_se h2h Parma  @14.0 x0.072 | smarkets h2h Draw  @7.6 x0.135
+2026-11-21T16:31:41Z,epl:26NOV21NEWARS,Newcastle United FC v Arsenal FC,epl,58.3,confirmation,9,-0.001937,0.013832,executed,,,gtbets h2h Arsenal  @1.58 x0.642 | betonlineag h2h Newcastle United  @7.35 x0.138 | betonlineag h2h Draw  @4.6 x0.220
+2026-11-21T16:31:41Z,lal:26NOV21SEVRBB,Sevilla FC v Real Betis Balompié,lal,58.3,confirmation,5,-0.001398,0.010351,executed,,,matchbook h2h Real Betis  @2.7 x0.379 | pinnacle h2h Sevilla  @3.04 x0.332 | unibet_nl h2h Draw  @3.5 x0.289
