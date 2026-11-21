@@ -1683,3 +1683,8 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-21T02:46:45Z,nba:26NOV20HOUDEN,HOU at DEN,nba,13.2,confirmation,12,-0.009032,-0.007533,vanished,1.01,,KS YES 0.160 x0.168 Houston wins by 11-20 points | KS YES 0.140 x0.147 Houston wins by 1-5 points | KS YES 0.070 x0.074 Houston wins by 21+ points | KS YES 0.120 x0.126 Houston wins by 6-10 points | onexbet h2h Denver Nuggets  @2.05 x0.484
 2026-11-21T02:55:26Z,nba:26NOV20HOUDEN,HOU at DEN,nba,4.6,scheduled,10,-0.009289,-0.009289,no gap,,,
 2026-11-21T02:55:28Z,nba:26NOV20SACLAL,SAC at LAL,nba,4.5,scheduled,14,-0.011787,-0.011787,no gap,,,
+2026-11-21T09:30:24Z,epl:26NOV21MCIFUL,Manchester City FC v Fulham FC,epl,179.6,scheduled,9,-0.002035,0.008522,seen,,epl:26NOV21MCIFUL|2026-11-21T09:30:16Z|with_books,matchbook totals Over 3.5 @2.16 x0.472 | onexbet totals Under 3.5 @1.91 x0.528
+2026-11-21T09:30:24Z,elc:26NOV21MILQPR,Millwall FC v Queens Park Rangers FC,elc,179.6,scheduled,7,-0.004505,-0.004505,no gap,,,
+2026-11-21T09:30:25Z,elc:26NOV21SOUDER,Southampton FC v Derby County FC,elc,179.6,scheduled,9,-0.002981,-0.002981,no gap,,,
+2026-11-21T09:30:25Z,elc:26NOV21NORCAR,Norwich City FC v Cardiff City FC,elc,179.6,scheduled,7,-0.002808,-0.002808,no gap,,,
+2026-11-21T09:31:40Z,epl:26NOV21MCIFUL,Manchester City FC v Fulham FC,epl,178.3,confirmation,9,-0.002035,0.002092,executed,,,smarkets h2h Fulham  @8.6 x0.119 | onexbet h2h Manchester City  @1.42 x0.706 | matchbook h2h Draw  @5.8 x0.176

@@ -2,10 +2,10 @@
  "cash": {
   "PM": 14960.753400000003,
   "KS": 7254.919999999997,
-  "BK:smarkets": 3834.6720399999995,
+  "BK:smarkets": 3538.1320399999995,
   "BK:pinnacle": -2369.9915999999985,
-  "BK:onexbet": -68056.08970000001,
-  "BK:matchbook": 8364.999332000003,
+  "BK:onexbet": -69820.32970000002,
+  "BK:matchbook": 7925.799332000003,
   "BK:leovegas_se": -12660.826020000022,
   "BK:gtbets": 5009.9357,
   "BK:winamax_de": 1144.1699999999996,
@@ -71,7 +71,79 @@
   "BK:williamhill": 580.0,
   "BK:ladbrokes_uk": 580.0
  },
- "open": [],
+ "open": [
+  {
+   "trade_id": 222,
+   "time": "2026-11-21T09:31:40Z",
+   "game": "epl:26NOV21MCIFUL",
+   "title": "Manchester City FC v Fulham FC",
+   "league": "epl",
+   "kickoff": "2026-11-21T12:30:00Z",
+   "min_to_ko": 178.3,
+   "t_lp": 0.002092,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "onexbet",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "6ef39b0fd8839f6e93a3de32523e9807",
+    "sport": "soccer_epl",
+    "home": "Manchester City",
+    "away": "Fulham"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2505.1699,
+   "guaranteed_profit": 5.1899,
+   "legs": [
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Fulham",
+     "side": "away",
+     "point": null,
+     "odds": 8.6,
+     "eff": 8.448,
+     "three_way": true,
+     "stake": 296.54,
+     "cost": 296.54,
+     "label": "h2h Fulham  @8.6"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Manchester City",
+     "side": "home",
+     "point": null,
+     "odds": 1.42,
+     "eff": 1.42,
+     "three_way": true,
+     "stake": 1764.24,
+     "cost": 1764.24,
+     "label": "h2h Manchester City  @1.42"
+    },
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 5.8,
+     "eff": 5.704,
+     "three_way": true,
+     "stake": 439.2,
+     "cost": 439.2,
+     "label": "h2h Draw  @5.8"
+    }
+   ],
+   "status": "open"
+  }
+ ],
  "consumed": {
   "PM|0x79f59c8adac672c651dc899bb7ad5c6b389ceeb47a7752bc13db3ccf8cbac3fe|YES|0.4600": {
    "n": 2523.83,
@@ -87,17 +159,17 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 221,
+ "n_trades": 222,
  "n_settled": 221,
  "realized_pnl": -91365.07924800004,
  "runs": 68,
  "locked": {
   "PM": 8.526512829121202e-14,
   "KS": 3.552713678800501e-15,
-  "BK:smarkets": 2.8421709430404007e-13,
+  "BK:smarkets": 296.5400000000003,
   "BK:pinnacle": 2.2737367544323206e-13,
-  "BK:onexbet": 9.094947017729282e-13,
-  "BK:matchbook": 0.0,
+  "BK:onexbet": 1764.240000000001,
+  "BK:matchbook": 439.2,
   "BK:leovegas_se": 1.77351466845721e-11,
   "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 0.0,
@@ -215,9 +287,9 @@
    "5": 116,
    "6": 207,
    "7": 204,
-   "8": 315,
-   "9": 315,
-   "10": 316,
+   "8": 309,
+   "9": 309,
+   "10": 310,
    "11": 314,
    "12": 312,
    "13": 312
@@ -237,7 +309,7 @@
    "2026-11-18": 191,
    "2026-11-19": 300,
    "2026-11-20": 530,
-   "2026-11-21": 98
+   "2026-11-21": 116
   }
  },
  "book_slots": {
@@ -362,6 +434,8 @@
   "nba|2026-11-21T02:30|5": "2026-11-21T02:25:22Z",
   "nba|2026-11-21T03:00|30": "2026-11-21T02:30:23Z",
   "nba|2026-11-21T03:00|15": "2026-11-21T02:45:22Z",
-  "nba|2026-11-21T03:00|5": "2026-11-21T02:55:22Z"
+  "nba|2026-11-21T03:00|5": "2026-11-21T02:55:22Z",
+  "epl|2026-11-21T12:30|180": "2026-11-21T09:30:08Z",
+  "elc|2026-11-21T12:30|180": "2026-11-21T09:30:09Z"
  }
 }
