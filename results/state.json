@@ -2,18 +2,18 @@
  "cash": {
   "PM": 12244.495500000003,
   "KS": 7254.919999999997,
-  "BK:smarkets": 991.048094000002,
+  "BK:smarkets": -190.11190599999793,
   "BK:pinnacle": 117.25920000000247,
-  "BK:onexbet": -83904.07540000002,
-  "BK:matchbook": 1458.572596000002,
+  "BK:onexbet": -86002.10540000001,
+  "BK:matchbook": 511.902596000002,
   "BK:leovegas_se": -16543.034020000025,
   "BK:gtbets": -65.67649999999958,
   "BK:winamax_de": 1144.1699999999996,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -13858.317700000009,
-  "BK:tipico_de": -3229.0519999999997,
+  "BK:unibet_se": -15586.50770000001,
+  "BK:tipico_de": -3710.9519999999998,
   "BK:coolbet": 8551.3791,
-  "BK:unibet_nl": -13566.610000000002,
+  "BK:unibet_nl": -14447.900000000001,
   "BK:marathonbet": -9122.6778,
   "BK:coral": -3247.1319999999996,
   "BK:betfair_ex_uk": 505.96,
@@ -32,10 +32,11 @@
   "BK:fanduel": 416.0315999999998,
   "BK:bovada": -244.12,
   "BK:draftkings": -2698.54,
-  "BK:williamhill": -1697.0,
+  "BK:williamhill": -3383.02,
   "BK:ladbrokes_uk": -2699.5135,
   "BK:betus": -780.8719999999994,
-  "BK:unibet_uk": -760.27
+  "BK:unibet_uk": -760.27,
+  "BK:nordicbet": -416.69000000000005
  },
  "start_cash": {
   "PM": 5800.0,
@@ -73,7 +74,8 @@
   "BK:williamhill": 580.0,
   "BK:ladbrokes_uk": 580.0,
   "BK:betus": 580.0,
-  "BK:unibet_uk": 580.0
+  "BK:unibet_uk": 580.0,
+  "BK:nordicbet": 580.0
  },
  "open": [
   {
@@ -1635,6 +1637,275 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 299,
+   "time": "2026-11-21T17:47:06Z",
+   "game": "fl1:26NOV21ASMAUX",
+   "title": "AS Monaco FC v AJ Auxerre",
+   "league": "fl1",
+   "kickoff": "2026-11-21T19:45:00Z",
+   "min_to_ko": 117.9,
+   "t_lp": 0.002355,
+   "with_books": true,
+   "books": [
+    "smarkets",
+    "tipico_de",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "9130b46991ab991f808daf307f004469",
+    "sport": "soccer_france_ligue_one",
+    "home": "AS Monaco",
+    "away": "Auxerre"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2505.8092,
+   "guaranteed_profit": 5.8292,
+   "legs": [
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "AS Monaco",
+     "side": "home",
+     "point": null,
+     "odds": 1.45,
+     "eff": 1.45,
+     "three_way": true,
+     "stake": 1728.19,
+     "cost": 1728.19,
+     "label": "h2h AS Monaco  @1.45"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Auxerre",
+     "side": "away",
+     "point": null,
+     "odds": 8.8,
+     "eff": 8.644,
+     "three_way": true,
+     "stake": 289.89,
+     "cost": 289.89,
+     "label": "h2h Auxerre  @8.8"
+    },
+    {
+     "venue": "BK:tipico_de",
+     "book": "tipico_de",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 5.2,
+     "eff": 5.2,
+     "three_way": true,
+     "stake": 481.9,
+     "cost": 481.9,
+     "label": "h2h Draw  @5.2"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 300,
+   "time": "2026-11-21T17:56:59Z",
+   "game": "nhl:26NOV21EDMCAR",
+   "title": "EDM at CAR",
+   "league": "nhl",
+   "kickoff": "2026-11-21T18:00:00Z",
+   "min_to_ko": 3.0,
+   "t_lp": 0.011613,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "williamhill"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "43b2e285559dbe2bb5ddc1665bccddf2",
+    "sport": "icehockey_nhl",
+    "home": "Carolina Hurricanes",
+    "away": "Edmonton Oilers"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2529.0048,
+   "guaranteed_profit": 29.0148,
+   "legs": [
+    {
+     "venue": "BK:williamhill",
+     "book": "williamhill",
+     "market": "h2h",
+     "outcome": "Carolina Hurricanes",
+     "side": "home",
+     "point": null,
+     "odds": 1.5,
+     "eff": 1.5,
+     "three_way": false,
+     "stake": 1686.02,
+     "cost": 1686.02,
+     "label": "h2h Carolina Hurricanes  @1.5"
+    },
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Edmonton Oilers",
+     "side": "away",
+     "point": null,
+     "odds": 3.15,
+     "eff": 3.1069999999999998,
+     "three_way": false,
+     "stake": 813.97,
+     "cost": 813.97,
+     "label": "h2h Edmonton Oilers  @3.15"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 301,
+   "time": "2026-11-21T18:02:04Z",
+   "game": "lal:26NOV21RMARCC",
+   "title": "Real Madrid CF v RC Celta de Vigo",
+   "league": "lal",
+   "kickoff": "2026-11-21T20:00:00Z",
+   "min_to_ko": 117.9,
+   "t_lp": 0.015448,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "onexbet",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "90af957b2f622a5cf805e60b151c54b9",
+    "sport": "soccer_spain_la_liga",
+    "home": "Real Madrid",
+    "away": "Celta Vigo"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2538.551,
+   "guaranteed_profit": 38.561,
+   "legs": [
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Celta Vigo",
+     "side": "away",
+     "point": null,
+     "odds": 19.5,
+     "eff": 19.13,
+     "three_way": true,
+     "stake": 132.7,
+     "cost": 132.7,
+     "label": "h2h Celta Vigo  @19.5"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Real Madrid",
+     "side": "home",
+     "point": null,
+     "odds": 1.21,
+     "eff": 1.21,
+     "three_way": true,
+     "stake": 2098.03,
+     "cost": 2098.03,
+     "label": "h2h Real Madrid  @1.21"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 9.6,
+     "eff": 9.427999999999999,
+     "three_way": true,
+     "stake": 269.26,
+     "cost": 269.26,
+     "label": "h2h Draw  @9.6"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 302,
+   "time": "2026-11-21T18:02:06Z",
+   "game": "ere:26NOV21GROHEE",
+   "title": "FC Groningen v SC Heerenveen",
+   "league": "ere",
+   "kickoff": "2026-11-21T20:00:00Z",
+   "min_to_ko": 117.9,
+   "t_lp": 0.004672,
+   "with_books": true,
+   "books": [
+    "nordicbet",
+    "smarkets",
+    "unibet_nl"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "cc8ea455586c0bdfcca464f1bf617843",
+    "sport": "soccer_netherlands_eredivisie",
+    "home": "Groningen",
+    "away": "Heerenveen"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2511.6588,
+   "guaranteed_profit": 11.6688,
+   "legs": [
+    {
+     "venue": "BK:unibet_nl",
+     "book": "unibet_nl",
+     "market": "h2h",
+     "outcome": "Groningen",
+     "side": "home",
+     "point": null,
+     "odds": 2.85,
+     "eff": 2.85,
+     "three_way": true,
+     "stake": 881.29,
+     "cost": 881.29,
+     "label": "h2h Groningen  @2.85"
+    },
+    {
+     "venue": "BK:nordicbet",
+     "book": "nordicbet",
+     "market": "h2h",
+     "outcome": "Heerenveen",
+     "side": "away",
+     "point": null,
+     "odds": 2.52,
+     "eff": 2.52,
+     "three_way": true,
+     "stake": 996.69,
+     "cost": 996.69,
+     "label": "h2h Heerenveen  @2.52"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.1,
+     "eff": 4.038,
+     "three_way": true,
+     "stake": 622.01,
+     "cost": 622.01,
+     "label": "h2h Draw  @4.1"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1656,25 +1927,25 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 298,
+ "n_trades": 302,
  "n_settled": 275,
  "realized_pnl": -90162.69763000005,
  "runs": 70,
  "locked": {
   "PM": 2716.2579,
   "KS": 3.552713678800501e-15,
-  "BK:smarkets": 7495.309999999998,
+  "BK:smarkets": 8676.469999999998,
   "BK:pinnacle": 2760.370000000001,
-  "BK:onexbet": 13047.710000000003,
-  "BK:matchbook": 7065.329999999999,
+  "BK:onexbet": 15145.740000000003,
+  "BK:matchbook": 8011.999999999999,
   "BK:leovegas_se": 1.7394086171407253e-11,
   "BK:gtbets": 4832.5,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 2123.6200000000126,
-  "BK:tipico_de": 0.0,
+  "BK:unibet_se": 3851.8100000000127,
+  "BK:tipico_de": 481.9,
   "BK:coolbet": 1219.0500000000004,
-  "BK:unibet_nl": 2745.0500000000006,
+  "BK:unibet_nl": 3626.3400000000006,
   "BK:marathonbet": 0.0,
   "BK:coral": 6136.499999999999,
   "BK:betfair_ex_uk": 0.0,
@@ -1693,10 +1964,11 @@
   "BK:fanduel": 0.0,
   "BK:bovada": 0.0,
   "BK:draftkings": 0.0,
-  "BK:williamhill": 0.0,
+  "BK:williamhill": 1686.02,
   "BK:ladbrokes_uk": 2.2737367544323206e-13,
   "BK:betus": 0.0,
-  "BK:unibet_uk": 1340.27
+  "BK:unibet_uk": 1340.27,
+  "BK:nordicbet": 996.69
  },
  "peak_locked": {
   "PM": 4486.7806,
@@ -1731,10 +2003,11 @@
   "BK:fanduel": 1659.29,
   "BK:bovada": 824.12,
   "BK:draftkings": 3278.54,
-  "BK:williamhill": 1331.77,
+  "BK:williamhill": 1686.02,
   "BK:ladbrokes_uk": 4528.91,
   "BK:betus": 3869.2799999999997,
-  "BK:unibet_uk": 1340.27
+  "BK:unibet_uk": 1340.27,
+  "BK:nordicbet": 996.69
  },
  "min_cash": {
   "PM": 2369.7283000000007,
@@ -1748,9 +2021,9 @@
   "BK:winamax_de": -872.9100000000001,
   "BK:grosvenor": 287.7,
   "BK:unibet_se": -28095.540000000008,
-  "BK:tipico_de": -3229.0519999999997,
+  "BK:tipico_de": -3710.9519999999998,
   "BK:coolbet": -8022.379999999999,
-  "BK:unibet_nl": -13566.610000000002,
+  "BK:unibet_nl": -14447.900000000001,
   "BK:marathonbet": -11633.1788,
   "BK:coral": -3247.1319999999996,
   "BK:betfair_ex_uk": 505.96,
@@ -1769,10 +2042,11 @@
   "BK:fanduel": -2247.51,
   "BK:bovada": -244.12,
   "BK:draftkings": -2698.54,
-  "BK:williamhill": -1697.0,
+  "BK:williamhill": -3383.02,
   "BK:ladbrokes_uk": -7734.96,
   "BK:betus": -3289.2799999999997,
-  "BK:unibet_uk": -760.27
+  "BK:unibet_uk": -760.27,
+  "BK:nordicbet": -416.69000000000005
  },
  "transfers": [],
  "transfer_stats": {
@@ -1788,14 +2062,14 @@
    "3": 115,
    "4": 114,
    "5": 116,
-   "6": 165,
-   "7": 166,
-   "8": 163,
-   "9": 165,
-   "10": 164,
-   "11": 164,
-   "12": 166,
-   "13": 166
+   "6": 159,
+   "7": 154,
+   "8": 157,
+   "9": 159,
+   "10": 158,
+   "11": 158,
+   "12": 160,
+   "13": 160
   },
   "spent": {
    "2026-11-06": 27,
@@ -1812,7 +2086,7 @@
    "2026-11-18": 191,
    "2026-11-19": 300,
    "2026-11-20": 530,
-   "2026-11-21": 1074
+   "2026-11-21": 1128
   }
  },
  "book_slots": {
@@ -2051,6 +2325,11 @@
   "nba|2026-11-21T18:00|15": "2026-11-21T17:45:25Z",
   "nhl|2026-11-21T18:00|15": "2026-11-21T17:45:25Z",
   "sea|2026-11-21T19:45|120": "2026-11-21T17:45:25Z",
-  "fl1|2026-11-21T19:45|120": "2026-11-21T17:45:25Z"
+  "fl1|2026-11-21T19:45|120": "2026-11-21T17:45:25Z",
+  "nba|2026-11-21T18:00|5": "2026-11-21T17:55:32Z",
+  "nhl|2026-11-21T18:00|5": "2026-11-21T17:55:32Z",
+  "lal|2026-11-21T20:00|120": "2026-11-21T18:00:19Z",
+  "ere|2026-11-21T20:00|120": "2026-11-21T18:00:20Z",
+  "scop|2026-11-21T20:00|120": "2026-11-21T18:00:21Z"
  }
 }

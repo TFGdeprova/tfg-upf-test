@@ -297,3 +297,7 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 296,2026-11-21T17:31:52Z,nba:26NOV21MILPHI,MIL at PHI,nba,2026-11-21T18:00:00Z,28.1,0.02316,True,['lowvig'],False,2343.791,2398.07,54.279,open,,,,,3
 297,2026-11-21T17:31:55Z,ere:26NOV21FCUCAM,FC Utrecht v SC Cambuur-Leeuwarden,ere,2026-11-21T17:45:00Z,13.1,0.016954,True,"['matchbook', 'onexbet']",False,2499.99,2542.3716,42.3816,open,,,,,2
 298,2026-11-21T17:41:59Z,ere:26NOV21FCUCAM,FC Utrecht v SC Cambuur-Leeuwarden,ere,2026-11-21T17:45:00Z,3.0,0.009817,True,"['matchbook', 'pinnacle']",False,2499.9871,2524.5285,24.5414,open,,,,,3
+299,2026-11-21T17:47:06Z,fl1:26NOV21ASMAUX,AS Monaco FC v AJ Auxerre,fl1,2026-11-21T19:45:00Z,117.9,0.002355,True,"['smarkets', 'tipico_de', 'unibet_se']",False,2499.98,2505.8092,5.8292,open,,,,,3
+300,2026-11-21T17:56:59Z,nhl:26NOV21EDMCAR,EDM at CAR,nhl,2026-11-21T18:00:00Z,3.0,0.011613,True,"['matchbook', 'williamhill']",False,2499.99,2529.0048,29.0148,open,,,,,2
+301,2026-11-21T18:02:04Z,lal:26NOV21RMARCC,Real Madrid CF v RC Celta de Vigo,lal,2026-11-21T20:00:00Z,117.9,0.015448,True,"['matchbook', 'onexbet', 'smarkets']",False,2499.99,2538.551,38.561,open,,,,,3
+302,2026-11-21T18:02:06Z,ere:26NOV21GROHEE,FC Groningen v SC Heerenveen,ere,2026-11-21T20:00:00Z,117.9,0.004672,True,"['nordicbet', 'smarkets', 'unibet_nl']",False,2499.99,2511.6588,11.6688,open,,,,,3

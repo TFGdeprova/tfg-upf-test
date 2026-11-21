@@ -2012,3 +2012,13 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-21T17:45:43Z,fl1:26NOV21RCSSTB,RC Strasbourg Alsace v Stade Brestois 29,fl1,119.3,scheduled,5,-0.004134,-0.003258,no gap,,,
 2026-11-21T17:45:43Z,fl1:26NOV21ASMAUX,AS Monaco FC v AJ Auxerre,fl1,119.3,scheduled,11,-0.002786,0.002355,seen,,fl1:26NOV21ASMAUX|2026-11-21T17:45:42Z|with_books,unibet_se h2h AS Monaco  @1.45 x0.691 | smarkets h2h Auxerre  @8.8 x0.116 | tipico_de h2h Draw  @5.2 x0.193
 2026-11-21T17:45:43Z,fl1:26NOV21RCLTFC,Racing Club de Lens v Toulouse FC,fl1,119.3,scheduled,7,-0.003369,-0.003369,no gap,,,
+2026-11-21T17:47:06Z,fl1:26NOV21ASMAUX,AS Monaco FC v AJ Auxerre,fl1,117.9,confirmation,11,-0.002786,0.002355,executed,,,unibet_se h2h AS Monaco  @1.45 x0.691 | smarkets h2h Auxerre  @8.8 x0.116 | tipico_de h2h Draw  @5.2 x0.193
+2026-11-21T17:55:46Z,nba:26NOV21MILPHI,MIL at PHI,nba,4.2,scheduled,14,-0.010152,-0.005979,no gap,,,
+2026-11-21T17:55:46Z,nhl:26NOV21EDMCAR,EDM at CAR,nhl,4.2,scheduled,8,-0.010685,0.011613,seen,,nhl:26NOV21EDMCAR|2026-11-21T17:55:43Z|with_books,williamhill h2h Carolina Hurricanes  @1.5 x0.674 | matchbook h2h Edmonton Oilers  @3.15 x0.326
+2026-11-21T17:56:59Z,nhl:26NOV21EDMCAR,EDM at CAR,nhl,3.0,confirmation,8,-0.010685,0.011613,executed,,,williamhill h2h Carolina Hurricanes  @1.5 x0.674 | matchbook h2h Edmonton Oilers  @3.15 x0.326
+2026-11-21T18:00:34Z,lal:26NOV21RMARCC,Real Madrid CF v RC Celta de Vigo,lal,119.4,scheduled,7,-0.000139,0.015448,seen,,lal:26NOV21RMARCC|2026-11-21T18:00:34Z|with_books,matchbook h2h Celta Vigo  @19.5 x0.053 | onexbet h2h Real Madrid  @1.21 x0.839 | smarkets h2h Draw  @9.6 x0.108
+2026-11-21T18:00:38Z,ere:26NOV21TELZWO,Telstar 1963 v PEC Zwolle,ere,119.4,scheduled,9,-0.003753,-0.003753,no gap,,,
+2026-11-21T18:00:38Z,ere:26NOV21GROHEE,FC Groningen v SC Heerenveen,ere,119.4,scheduled,9,-0.005257,0.002951,seen,,ere:26NOV21GROHEE|2026-11-21T18:00:29Z|with_books,unibet_nl h2h Groningen  @2.85 x0.352 | matchbook h2h Heerenveen  @2.54 x0.400 | smarkets h2h Draw  @4.1 x0.248
+2026-11-21T18:00:38Z,scop:26NOV21MOTRFC,Motherwell FC v Rangers FC,scop,119.4,scheduled,11,-0.005543,-0.004149,no gap,,,
+2026-11-21T18:02:04Z,lal:26NOV21RMARCC,Real Madrid CF v RC Celta de Vigo,lal,117.9,confirmation,7,-0.000139,0.015448,executed,,,matchbook h2h Celta Vigo  @19.5 x0.053 | onexbet h2h Real Madrid  @1.21 x0.839 | smarkets h2h Draw  @9.6 x0.108
+2026-11-21T18:02:06Z,ere:26NOV21GROHEE,FC Groningen v SC Heerenveen,ere,117.9,confirmation,9,-0.005257,0.004672,executed,,,unibet_nl h2h Groningen  @2.85 x0.353 | nordicbet h2h Heerenveen  @2.52 x0.399 | smarkets h2h Draw  @4.1 x0.249
