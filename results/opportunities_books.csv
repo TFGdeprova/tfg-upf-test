@@ -1993,3 +1993,22 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-21T17:25:27Z,epl:26NOV21NEWARS,Newcastle United FC v Arsenal FC,epl,4.5,scheduled,9,-0.002132,0.020158,seen,,epl:26NOV21NEWARS|2026-11-21T17:25:27Z|with_books,gtbets h2h Arsenal  @1.58 x0.646 | betonlineag h2h Newcastle United  @7.15 x0.143 | betonlineag h2h Draw  @4.82 x0.212
 2026-11-21T17:25:27Z,lal:26NOV21SEVRBB,Sevilla FC v Real Betis Balompié,lal,4.5,scheduled,5,-0.001398,0.01259,seen,,lal:26NOV21SEVRBB|2026-11-21T17:25:25Z|with_books,smarkets h2h Real Betis  @2.78 x0.369 | unibet_se h2h Sevilla  @3.0 x0.338 | unibet_se h2h Draw  @3.45 x0.294
 2026-11-21T17:25:27Z,bun:26NOV21SCHVFB,FC Schalke 04 v VfB Stuttgart,bun,4.5,scheduled,9,-0.003272,0.001888,no gap,,bun:26NOV21SCHVFB|2026-11-21T17:25:24Z|with_books,
+2026-11-21T17:26:47Z,epl:26NOV21NEWARS,Newcastle United FC v Arsenal FC,epl,3.2,confirmation,9,-0.002132,0.020158,executed,,,gtbets h2h Arsenal  @1.58 x0.646 | betonlineag h2h Newcastle United  @7.15 x0.143 | betonlineag h2h Draw  @4.82 x0.212
+2026-11-21T17:26:47Z,lal:26NOV21SEVRBB,Sevilla FC v Real Betis Balompié,lal,3.2,confirmation,5,-0.001398,0.017879,executed,,,smarkets h2h Real Betis  @2.82 x0.366 | unibet_se h2h Sevilla  @3.0 x0.339 | unibet_se h2h Draw  @3.45 x0.295
+2026-11-21T17:30:25Z,nba:26NOV21MILPHI,MIL at PHI,nba,29.6,scheduled,18,-0.014711,0.015262,seen,34415.39,nba:26NOV21MILPHI|2026-11-21T17:30:25Z|with_books,PM NO 0.470 x0.490 Spread: 76ers (-10.5) | lowvig spreads Philadelphia 76ers -10.5 @1.99 x0.510
+2026-11-21T17:30:25Z,nhl:26NOV21EDMCAR,EDM at CAR,nhl,29.6,scheduled,8,-0.010685,-0.004484,no gap,,,
+2026-11-21T17:30:26Z,ere:26NOV21FEYEXC,Feyenoord Rotterdam v SBV Excelsior,ere,14.6,scheduled,9,-0.002999,-0.002999,no gap,,,
+2026-11-21T17:30:26Z,ere:26NOV21FCUCAM,FC Utrecht v SC Cambuur-Leeuwarden,ere,14.6,scheduled,11,-0.002423,0.007159,seen,,ere:26NOV21FCUCAM|2026-11-21T17:30:16Z|with_books,matchbook totals Over 3.5 @2.48 x0.411 | onexbet totals Under 3.5 @1.71 x0.589
+2026-11-21T17:30:26Z,nhl:26NOV21CHICGY,CHI at CGY,nhl,179.6,scheduled,8,-0.011921,-0.009246,no gap,,,
+2026-11-21T17:31:52Z,nba:26NOV21MILPHI,MIL at PHI,nba,28.1,confirmation,22,-0.013232,0.02316,executed,2343.79,,PM NO 0.470 x0.244 Bucks vs. 76ers: O/U 229.5 | PM NO 0.450 x0.239 Bucks vs. 76ers: O/U 228.5 | lowvig totals Over 229.0 @1.98 x0.517
+2026-11-21T17:31:55Z,ere:26NOV21FCUCAM,FC Utrecht v SC Cambuur-Leeuwarden,ere,13.1,confirmation,11,-0.002423,0.016954,executed,,,matchbook totals Over 3.5 @2.54 x0.405 | onexbet totals Under 3.5 @1.71 x0.595
+2026-11-21T17:40:26Z,ere:26NOV21FEYEXC,Feyenoord Rotterdam v SBV Excelsior,ere,4.6,scheduled,9,-0.002999,-0.002999,no gap,,,
+2026-11-21T17:40:26Z,ere:26NOV21FCUCAM,FC Utrecht v SC Cambuur-Leeuwarden,ere,4.6,scheduled,11,-0.002903,0.012212,seen,16187.96,ere:26NOV21FCUCAM|2026-11-21T17:40:22Z|with_books,PM YES 0.620 x0.147 FC Utrecht vs. SC Cambuur-Leeuwarden: O/U 2.5 | pinnacle totals Under 3.25 @1.85 x0.547 | matchbook totals Over 3.5 @2.58 x0.306
+2026-11-21T17:41:59Z,ere:26NOV21FCUCAM,FC Utrecht v SC Cambuur-Leeuwarden,ere,3.0,confirmation,11,-0.002903,0.009817,executed,9665.58,,PM YES 0.620 x0.147 FC Utrecht vs. SC Cambuur-Leeuwarden: O/U 2.5 | pinnacle totals Under 3.25 @1.85 x0.546 | matchbook totals Over 3.5 @2.56 x0.308
+2026-11-21T17:45:43Z,nba:26NOV21MILPHI,MIL at PHI,nba,14.3,scheduled,18,-0.010929,-0.000589,no gap,,,
+2026-11-21T17:45:43Z,nhl:26NOV21EDMCAR,EDM at CAR,nhl,14.3,scheduled,8,-0.010685,0.000998,no gap,,,
+2026-11-21T17:45:43Z,sea:26NOV21NAPTOR,SSC Napoli v Torino FC,sea,119.3,scheduled,7,-0.002132,-0.002132,no gap,,,
+2026-11-21T17:45:43Z,fl1:26NOV21LILOL,Lille OSC v Olympique Lyonnais,fl1,119.3,scheduled,7,-0.002883,-0.002883,no gap,,,
+2026-11-21T17:45:43Z,fl1:26NOV21RCSSTB,RC Strasbourg Alsace v Stade Brestois 29,fl1,119.3,scheduled,5,-0.004134,-0.003258,no gap,,,
+2026-11-21T17:45:43Z,fl1:26NOV21ASMAUX,AS Monaco FC v AJ Auxerre,fl1,119.3,scheduled,11,-0.002786,0.002355,seen,,fl1:26NOV21ASMAUX|2026-11-21T17:45:42Z|with_books,unibet_se h2h AS Monaco  @1.45 x0.691 | smarkets h2h Auxerre  @8.8 x0.116 | tipico_de h2h Draw  @5.2 x0.193
+2026-11-21T17:45:43Z,fl1:26NOV21RCLTFC,Racing Club de Lens v Toulouse FC,fl1,119.3,scheduled,7,-0.003369,-0.003369,no gap,,,
