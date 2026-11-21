@@ -266,3 +266,13 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 265,2026-11-21T14:33:07Z,epl:26NOV21BOUNFO,AFC Bournemouth v Nottingham Forest FC,epl,2026-11-21T15:00:00Z,26.9,0.005924,True,"['onexbet', 'pinnacle', 'unibet_se']",False,2499.98,2514.776,14.796,open,,,,,3
 266,2026-11-21T14:33:26Z,epl:26NOV21NEWARS,Newcastle United FC v Arsenal FC,epl,2026-11-21T17:30:00Z,176.6,0.006388,True,"['onexbet', 'smarkets']",False,2499.98,2515.9244,15.9444,open,,,,,3
 267,2026-11-21T14:33:26Z,lal:26NOV21SEVRBB,Sevilla FC v Real Betis Balompié,lal,2026-11-21T17:30:00Z,176.6,0.009381,True,"['coolbet', 'onexbet']",False,2499.99,2523.4335,23.4435,open,,,,,2
+268,2026-11-21T14:47:03Z,epl:26NOV21AVLSUN,Aston Villa FC v Sunderland AFC,epl,2026-11-21T15:00:00Z,12.9,0.00981,True,"['onexbet', 'smarkets']",False,2499.99,2524.5056,24.5156,open,,,,,3
+269,2026-11-21T14:47:05Z,epl:26NOV21BOUNFO,AFC Bournemouth v Nottingham Forest FC,epl,2026-11-21T15:00:00Z,12.9,0.006983,True,"['coolbet', 'marathonbet', 'matchbook']",False,2499.99,2517.44,17.45,open,,,,,3
+270,2026-11-21T14:47:07Z,lal:26NOV21RVCVCF,Rayo Vallecano de Madrid v Valencia CF,lal,2026-11-21T15:15:00Z,27.9,0.010814,True,"['onexbet', 'unibet_se']",False,2499.99,2527.0104,27.0204,open,,,,,3
+271,2026-11-21T14:47:11Z,elc:26NOV21WOLCHA,Wolverhampton Wanderers FC v Charlton Athletic FC,elc,2026-11-21T15:00:00Z,12.8,0.002633,True,"['betonlineag', 'leovegas_se', 'smarkets']",False,2499.98,2506.5025,6.5225,open,,,,,3
+272,2026-11-21T14:47:48Z,ere:26NOV21FEYEXC,Feyenoord Rotterdam v SBV Excelsior,ere,2026-11-21T17:45:00Z,177.2,0.005371,True,"['coral', 'pinnacle', 'unibet_nl']",False,2499.98,2513.28,13.3,open,,,,,3
+273,2026-11-21T14:57:29Z,epl:26NOV21AVLSUN,Aston Villa FC v Sunderland AFC,epl,2026-11-21T15:00:00Z,2.5,0.004206,True,"['lowvig', 'marathonbet', 'pinnacle']",False,2499.99,2510.487,10.497,open,,,,,3
+274,2026-11-21T14:57:29Z,epl:26NOV21TOTIPS,Tottenham Hotspur FC v Ipswich Town FC,epl,2026-11-21T15:00:00Z,2.5,0.005592,True,"['gtbets', 'matchbook', 'smarkets']",False,2499.99,2513.9678,13.9778,open,,,,,3
+275,2026-11-21T14:57:35Z,elc:26NOV21WOLCHA,Wolverhampton Wanderers FC v Charlton Athletic FC,elc,2026-11-21T15:00:00Z,2.4,0.010049,True,"['leovegas_se', 'matchbook']",False,2499.99,2525.0525,25.0625,open,,,,,3
+276,2026-11-21T14:57:37Z,elc:26NOV21BOLPOR,Bolton Wanderers FC v Portsmouth FC,elc,2026-11-21T15:00:00Z,2.4,0.002434,True,"['leovegas_se', 'matchbook', 'pinnacle']",False,2499.98,2506.062,6.082,open,,,,,3
+277,2026-11-21T14:57:37Z,elc:26NOV21WHUPNE,West Ham United FC v Preston North End FC,elc,2026-11-21T15:00:00Z,2.4,0.008496,True,"['betonlineag', 'coolbet', 'smarkets']",False,2499.99,2521.21,21.22,open,,,,,3
