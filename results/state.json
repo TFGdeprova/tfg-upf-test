@@ -4,7 +4,7 @@
   "KS": 7254.919999999997,
   "BK:smarkets": -190.11190599999793,
   "BK:pinnacle": 117.25920000000247,
-  "BK:onexbet": -86002.10540000001,
+  "BK:onexbet": -83496.53540000001,
   "BK:matchbook": 511.902596000002,
   "BK:leovegas_se": -16543.034020000025,
   "BK:gtbets": -65.67649999999958,
@@ -271,77 +271,6 @@
      "stake": 282.72,
      "cost": 282.72,
      "label": "h2h Draw  @8.89"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 279,
-   "time": "2026-11-21T15:17:01Z",
-   "game": "fl1:26NOV21NICPSG",
-   "title": "OGC Nice v Paris Saint-Germain FC",
-   "league": "fl1",
-   "kickoff": "2026-11-21T16:15:00Z",
-   "min_to_ko": 58.0,
-   "t_lp": 0.002228,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "smarkets",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "651c1847b5cdcc85e60a140edd2282c4",
-    "sport": "soccer_france_ligue_one",
-    "home": "Nice",
-    "away": "Paris Saint Germain"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2505.51,
-   "guaranteed_profit": 5.52,
-   "legs": [
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Nice",
-     "side": "home",
-     "point": null,
-     "odds": 7.0,
-     "eff": 7.0,
-     "three_way": true,
-     "stake": 357.93,
-     "cost": 357.93,
-     "label": "h2h Nice  @7.0"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Paris Saint Germain",
-     "side": "away",
-     "point": null,
-     "odds": 1.5,
-     "eff": 1.5,
-     "three_way": true,
-     "stake": 1670.38,
-     "cost": 1670.38,
-     "label": "h2h Paris Saint Germain  @1.5"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 5.4,
-     "eff": 5.312,
-     "three_way": true,
-     "stake": 471.68,
-     "cost": 471.68,
-     "label": "h2h Draw  @5.4"
     }
    ],
    "status": "open"
@@ -1928,21 +1857,21 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 302,
- "n_settled": 275,
- "realized_pnl": -90162.69763000005,
+ "n_settled": 276,
+ "realized_pnl": -90157.11763000005,
  "runs": 70,
  "locked": {
   "PM": 2716.2579,
   "KS": 3.552713678800501e-15,
-  "BK:smarkets": 8676.469999999998,
+  "BK:smarkets": 8204.789999999997,
   "BK:pinnacle": 2760.370000000001,
-  "BK:onexbet": 15145.740000000003,
+  "BK:onexbet": 13475.360000000004,
   "BK:matchbook": 8011.999999999999,
   "BK:leovegas_se": 1.7394086171407253e-11,
   "BK:gtbets": 4832.5,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 3851.8100000000127,
+  "BK:unibet_se": 3493.880000000013,
   "BK:tipico_de": 481.9,
   "BK:coolbet": 1219.0500000000004,
   "BK:unibet_nl": 3626.3400000000006,
@@ -2062,14 +1991,14 @@
    "3": 115,
    "4": 114,
    "5": 116,
-   "6": 159,
+   "6": 157,
    "7": 154,
    "8": 157,
-   "9": 159,
+   "9": 153,
    "10": 158,
    "11": 158,
-   "12": 160,
-   "13": 160
+   "12": 154,
+   "13": 154
   },
   "spent": {
    "2026-11-06": 27,
@@ -2086,7 +2015,7 @@
    "2026-11-18": 191,
    "2026-11-19": 300,
    "2026-11-20": 530,
-   "2026-11-21": 1128
+   "2026-11-21": 1148
   }
  },
  "book_slots": {
@@ -2330,6 +2259,9 @@
   "nhl|2026-11-21T18:00|5": "2026-11-21T17:55:32Z",
   "lal|2026-11-21T20:00|120": "2026-11-21T18:00:19Z",
   "ere|2026-11-21T20:00|120": "2026-11-21T18:00:20Z",
-  "scop|2026-11-21T20:00|120": "2026-11-21T18:00:21Z"
+  "scop|2026-11-21T20:00|120": "2026-11-21T18:00:21Z",
+  "nhl|2026-11-21T20:30|120": "2026-11-21T18:30:28Z",
+  "sea|2026-11-21T19:45|60": "2026-11-21T18:45:44Z",
+  "fl1|2026-11-21T19:45|60": "2026-11-21T18:45:44Z"
  }
 }

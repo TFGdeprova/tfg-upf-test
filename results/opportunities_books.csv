@@ -2022,3 +2022,9 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-21T18:00:38Z,scop:26NOV21MOTRFC,Motherwell FC v Rangers FC,scop,119.4,scheduled,11,-0.005543,-0.004149,no gap,,,
 2026-11-21T18:02:04Z,lal:26NOV21RMARCC,Real Madrid CF v RC Celta de Vigo,lal,117.9,confirmation,7,-0.000139,0.015448,executed,,,matchbook h2h Celta Vigo  @19.5 x0.053 | onexbet h2h Real Madrid  @1.21 x0.839 | smarkets h2h Draw  @9.6 x0.108
 2026-11-21T18:02:06Z,ere:26NOV21GROHEE,FC Groningen v SC Heerenveen,ere,117.9,confirmation,9,-0.005257,0.004672,executed,,,unibet_nl h2h Groningen  @2.85 x0.353 | nordicbet h2h Heerenveen  @2.52 x0.399 | smarkets h2h Draw  @4.1 x0.249
+2026-11-21T18:30:45Z,nhl:26NOV21CHICGY,CHI at CGY,nhl,119.2,scheduled,8,-0.011921,-0.011268,no gap,,,
+2026-11-21T18:46:01Z,sea:26NOV21NAPTOR,SSC Napoli v Torino FC,sea,59.0,scheduled,7,-0.002132,-0.001165,no gap,,,
+2026-11-21T18:46:01Z,fl1:26NOV21LILOL,Lille OSC v Olympique Lyonnais,fl1,59.0,scheduled,7,-0.002883,-0.002883,no gap,,,
+2026-11-21T18:46:01Z,fl1:26NOV21RCSSTB,RC Strasbourg Alsace v Stade Brestois 29,fl1,59.0,scheduled,5,-0.004216,-0.002189,no gap,,,
+2026-11-21T18:46:03Z,fl1:26NOV21ASMAUX,AS Monaco FC v AJ Auxerre,fl1,58.9,scheduled,11,-0.002786,0.002875,seen,,fl1:26NOV21ASMAUX|2026-11-21T18:46:03Z|with_books,unibet_se h2h AS Monaco  @1.45 x0.692 | smarkets h2h Auxerre  @8.8 x0.116 | smarkets h2h Draw  @5.3 x0.192
+2026-11-21T18:46:03Z,fl1:26NOV21RCLTFC,Racing Club de Lens v Toulouse FC,fl1,58.9,scheduled,7,-0.004313,-0.004313,no gap,,,
