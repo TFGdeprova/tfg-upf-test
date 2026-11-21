@@ -1,20 +1,20 @@
-# Paper-trading bot: status at 2026-11-21T03:02:29Z
+# Paper-trading bot: status at 2026-11-21T03:22:27Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 219 / 218 |
+| Trades executed / settled | 221 / 218 |
 | Realised profit | $-91,391.59 ≈ €-78,785.86 |
 | … Polymarket/Kalshi only | $45.76 |
 | … with bookmakers (all) | $-91,437.35 |
 | … with bookmakers licensed in Spain only | $-2,285.19 |
-| Open positions (cost) | $2,499.99 |
+| Open positions (cost) | $3,425.36 |
 | Money in transit between accounts | $0.00 |
 | Equity (cash + open at cost + in transit) | $-61,231.59 ≈ €-52,785.85 |
 | Return so far (realised / peak money in use) | -58.592% over 14.2 days |
 
-Polymarket/Kalshi gaps above the threshold: below_min_size 760, executed 34, rounding 86, seen 953, vanished 65.
+Polymarket/Kalshi gaps above the threshold: below_min_size 760, executed 36, rounding 86, seen 954, vanished 65.
 Gaps using bookmakers: below_min_size 4, executed 185, no_cash 41, rounding 3, seen 268, vanished 26 (snapshots combined with Polymarket/Kalshi: 1684).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
@@ -29,8 +29,8 @@ Peak in use = the most money that was tied up in open positions at the same time
 
 | account | start | cash now | in open positions | peak in use | lowest cash |
 |---|---|---|---|---|---|
-| Polymarket | $5,800.00 | $14,908.57 | $1,192.31 | $4,486.78 | $2,369.73 |
-| Kalshi | $5,800.00 | $7,304.42 | $0.00 | $2,216.01 | $2,967.42 |
+| Polymarket | $5,800.00 | $14,032.70 | $2,068.18 | $4,486.78 | $2,369.73 |
+| Kalshi | $5,800.00 | $7,254.92 | $49.50 | $2,216.01 | $2,967.42 |
 | betanysports | $580.00 | $-894.59 | $0.00 | $4,190.72 | $-3,610.72 |
 | betfair_ex_eu (Spain) | $580.00 | $453.07 | $0.00 | $126.93 | $453.07 |
 | betfair_ex_uk (Spain) | $580.00 | $505.96 | $0.00 | $74.04 | $505.96 |
@@ -74,10 +74,10 @@ Gaps above 0.1% followed: 162 Polymarket/Kalshi and 293 with bookmakers. A re-ch
 
 | re-check | measured | still profitable | above 0.2% | a leg no longer offered | censored |
 |---|---|---|---|---|---|
-| +30 s | 160 | 127 | 97 | 1 | 0 |
-| +1 min | 159 | 118 | 89 | 1 | 1 |
-| +2 min | 156 | 101 | 71 | 2 | 3 |
-| +5 min | 148 | 72 | 54 | 4 | 9 |
+| +30 s | 161 | 128 | 98 | 1 | 0 |
+| +1 min | 160 | 119 | 90 | 1 | 1 |
+| +2 min | 157 | 102 | 72 | 2 | 3 |
+| +5 min | 149 | 73 | 55 | 4 | 9 |
 | bookmaker confirmation (~1 min) | 530 | 322 | 317 | 11 | 0 |
 | next bookmaker snapshot | 434 | 143 | 137 | 13 | 0 |
 
@@ -92,6 +92,8 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 
 | # | time (UTC) | game | min to KO | with bookmakers | gap | cost | guaranteed profit | status | P&L |
 |---|---|---|---|---|---|---|---|---|---|
+| 221 | 11-21T03:03 | Club Tijuana v Atlante FC | 6.4 | no | 0.29% | $160.59 | $0.41 | open |  |
+| 220 | 11-21T03:02 | Club Tijuana v Atlante FC | 7.4 | no | 0.29% | $764.79 | $2.21 | open |  |
 | 219 | 11-21T00:26 | TOR at DET | 3.2 | betrivers | 0.95% | $2499.99 | $23.83 | open |  |
 | 218 | 11-20T19:46 | Athletic Club v RCD Espanyol de Barcelona | 13.1 | onexbet, smarkets, winamax_de | 0.47% | $2499.99 | $11.86 | settled | $+11.87 |
 | 217 | 11-20T19:41 | ES Troyes AC v Le Havre AC | 3.1 | marathonbet, pinnacle, unibet_se | 0.97% | $2499.98 | $24.20 | settled | $+24.22 |
@@ -115,5 +117,3 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 | 199 | 11-20T02:11 | VAN at SEA | 28.4 | onexbet | 39.05% | $2499.99 | $976.16 | settled | $+976.16 |
 | 198 | 11-20T01:56 | ANA at COL | 3.4 | marathonbet, onexbet | 53.78% | $2499.99 | $1344.41 | settled | $+1344.43 |
 | 197 | 11-20T01:46 | ANA at COL | 13.4 | onexbet | 50.47% | $2499.99 | $1261.74 | settled | $+1261.76 |
-| 196 | 11-20T01:41 | VAN at SEA | 58.4 | onexbet | 39.05% | $2499.99 | $976.16 | settled | $+976.16 |
-| 195 | 11-20T01:31 | ANA at COL | 28.4 | leovegas_se, onexbet | 49.55% | $2499.99 | $1238.71 | settled | $+1238.71 |

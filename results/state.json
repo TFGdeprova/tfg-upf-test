@@ -1,7 +1,7 @@
 {
  "cash": {
-  "PM": 14908.574600000004,
-  "KS": 7304.419999999997,
+  "PM": 14032.703400000004,
+  "KS": 7254.919999999997,
   "BK:smarkets": 3834.6720399999995,
   "BK:pinnacle": -2369.9915999999985,
   "BK:onexbet": -68056.08970000001,
@@ -122,6 +122,78 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 220,
+   "time": "2026-11-21T03:02:36Z",
+   "game": "lmx:26NOV20TIJALA",
+   "title": "Club Tijuana v Atlante FC",
+   "league": "lmx",
+   "kickoff": "2026-11-21T03:10:00Z",
+   "min_to_ko": 7.4,
+   "t_lp": 0.002907,
+   "cost": 764.7861,
+   "guaranteed_payout": 767.0,
+   "guaranteed_profit": 2.2139,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x8627ebe7f966b6e50785f98244f83f982708b87a2e71a5da24e4ec88144c9fa0",
+     "label": "Club Tijuana vs. Atlante FC: O/U 0.5",
+     "side": "YES",
+     "price": 0.941,
+     "shares": 767.0,
+     "fee": 2.12915,
+     "cost": 723.8761
+    },
+    {
+     "venue": "KS",
+     "id": "KXLIGAMXSCORE-26NOV20TIJALA-TIJ0ALA0",
+     "label": "Draw 0-0",
+     "side": "YES",
+     "price": 0.05,
+     "shares": 767,
+     "fee": 2.56,
+     "cost": 40.91
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 221,
+   "time": "2026-11-21T03:03:36Z",
+   "game": "lmx:26NOV20TIJALA",
+   "title": "Club Tijuana v Atlante FC",
+   "league": "lmx",
+   "kickoff": "2026-11-21T03:10:00Z",
+   "min_to_ko": 6.4,
+   "t_lp": 0.002907,
+   "cost": 160.5851,
+   "guaranteed_payout": 161.0,
+   "guaranteed_profit": 0.4149,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x8627ebe7f966b6e50785f98244f83f982708b87a2e71a5da24e4ec88144c9fa0",
+     "label": "Club Tijuana vs. Atlante FC: O/U 0.5",
+     "side": "YES",
+     "price": 0.941,
+     "shares": 161.05,
+     "fee": 0.44707,
+     "cost": 151.9951
+    },
+    {
+     "venue": "KS",
+     "id": "KXLIGAMXSCORE-26NOV20TIJALA-TIJ0ALA0",
+     "label": "Draw 0-0",
+     "side": "YES",
+     "price": 0.05,
+     "shares": 161,
+     "fee": 0.54,
+     "cost": 8.59
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -176,16 +248,24 @@
   "PM|0x79f59c8adac672c651dc899bb7ad5c6b389ceeb47a7752bc13db3ccf8cbac3fe|YES|0.4600": {
    "n": 2523.83,
    "t": "2026-11-21T00:26:46Z"
+  },
+  "PM|0x8627ebe7f966b6e50785f98244f83f982708b87a2e71a5da24e4ec88144c9fa0|YES|0.9410": {
+   "n": 928.05,
+   "t": "2026-11-21T03:03:36Z"
+  },
+  "KS|KXLIGAMXSCORE-26NOV20TIJALA-TIJ0ALA0|YES|0.0500": {
+   "n": 928.0,
+   "t": "2026-11-21T03:03:36Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 219,
+ "n_trades": 221,
  "n_settled": 218,
  "realized_pnl": -91391.59264800005,
  "runs": 67,
  "locked": {
-  "PM": 1192.3078,
-  "KS": 0.0,
+  "PM": 2068.179,
+  "KS": 49.5,
   "BK:smarkets": 2.8421709430404007e-13,
   "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 9.094947017729282e-13,
