@@ -1,4 +1,4 @@
-# Paper-trading bot: status at 2026-11-21T16:01:54Z
+# Paper-trading bot: status at 2026-11-21T16:21:52Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
@@ -15,13 +15,13 @@ Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities):
 | Return so far (realised / peak money in use) | -58.323% over 14.7 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 971, executed 36, rounding 90, seen 1192, vanished 72.
-Gaps using bookmakers: below_min_size 4, executed 244, no_cash 41, rounding 3, seen 335, vanished 34 (snapshots combined with Polymarket/Kalshi: 1950).
+Gaps using bookmakers: below_min_size 4, executed 244, no_cash 41, rounding 3, seen 335, vanished 34 (snapshots combined with Polymarket/Kalshi: 1951).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 1,959 (about 3.3 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
+The Odds API credits left: 1,953 (about 3.3 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
 
 ## Capital by account
 
@@ -80,7 +80,7 @@ Gaps above 0.1% followed: 180 Polymarket/Kalshi and 372 with bookmakers. A re-ch
 | +2 min | 175 | 120 | 81 | 2 | 3 |
 | +5 min | 166 | 87 | 62 | 4 | 10 |
 | bookmaker confirmation (~1 min) | 654 | 372 | 366 | 14 | 0 |
-| next bookmaker snapshot | 532 | 150 | 142 | 17 | 0 |
+| next bookmaker snapshot | 534 | 150 | 142 | 17 | 0 |
 
 Depth at detection (capacity = largest size still profitable after walking the order books):
 
