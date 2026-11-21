@@ -1,27 +1,27 @@
-# Paper-trading bot: status at 2026-11-21T15:21:51Z
+# Paper-trading bot: status at 2026-11-21T15:41:49Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 279 / 229 |
-| Realised profit | $-91,144.26 ≈ €-78,572.64 |
+| Trades executed / settled | 279 / 233 |
+| Realised profit | $-90,971.81 ≈ €-78,423.97 |
 | … Polymarket/Kalshi only | $48.43 |
-| … with bookmakers (all) | $-91,192.69 |
+| … with bookmakers (all) | $-91,020.24 |
 | … with bookmakers licensed in Spain only | $-2,285.19 |
-| Open positions (cost) | $124,999.29 |
+| Open positions (cost) | $114,999.34 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $-60,404.25 ≈ €-52,072.63 |
-| Return so far (realised / peak money in use) | -58.433% over 14.7 days |
+| Equity (cash + open at cost + in transit) | $-60,231.80 ≈ €-51,923.97 |
+| Return so far (realised / peak money in use) | -58.323% over 14.7 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 971, executed 36, rounding 90, seen 1192, vanished 72.
-Gaps using bookmakers: below_min_size 4, executed 243, no_cash 41, rounding 3, seen 334, vanished 34 (snapshots combined with Polymarket/Kalshi: 1940).
+Gaps using bookmakers: below_min_size 4, executed 243, no_cash 41, rounding 3, seen 334, vanished 34 (snapshots combined with Polymarket/Kalshi: 1943).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 2,021 (about 3.5 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
+The Odds API credits left: 2,001 (about 3.4 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
 
 ## Capital by account
 
@@ -53,14 +53,14 @@ Peak in use = the most money that was tied up in open positions at the same time
 | leovegas_se | $580.00 | $-24,122.69 | $11,461.86 | $47,555.97 | $-55,331.30 |
 | lowvig | $580.00 | $-5,332.48 | $484.65 | $1,628.95 | $-5,332.48 |
 | marathonbet (Spain) | $580.00 | $-11,633.18 | $1,308.14 | $8,525.07 | $-11,633.18 |
-| matchbook | $580.00 | $934.08 | $8,905.32 | $12,468.15 | $-4,103.15 |
+| matchbook | $580.00 | $3,486.32 | $6,494.99 | $12,468.15 | $-4,103.15 |
 | mybookieag | $580.00 | $-4,546.41 | $0.00 | $4,422.60 | $-7,124.16 |
-| onexbet | $580.00 | $-101,167.20 | $29,454.76 | $69,050.38 | $-102,003.41 |
-| pinnacle | $580.00 | $-10,005.14 | $8,265.89 | $10,216.96 | $-12,586.95 |
+| onexbet | $580.00 | $-98,615.40 | $26,937.49 | $69,050.38 | $-102,003.41 |
+| pinnacle | $580.00 | $-10,005.14 | $7,600.28 | $10,216.96 | $-12,586.95 |
 | skybet | $580.00 | $-1,150.75 | $459.14 | $775.64 | $-1,150.75 |
-| smarkets | $580.00 | $-7,492.30 | $13,421.50 | $15,891.75 | $-12,057.08 |
+| smarkets | $580.00 | $-2,423.94 | $11,173.16 | $15,891.75 | $-12,057.08 |
 | tipico_de | $580.00 | $-3,229.05 | $0.00 | $5,851.05 | $-3,229.05 |
-| unibet_nl | $580.00 | $-10,978.64 | $3,176.96 | $4,157.51 | $-10,978.64 |
+| unibet_nl | $580.00 | $-10,978.64 | $1,018.56 | $4,157.51 | $-10,978.64 |
 | unibet_se | $580.00 | $-14,615.37 | $10,411.41 | $24,382.67 | $-28,095.54 |
 | williamhill (Spain) | $580.00 | $-1,697.00 | $945.23 | $1,331.77 | $-1,697.00 |
 | winamax_de (Spain) | $580.00 | $1,144.17 | $0.00 | $805.80 | $-872.91 |
@@ -71,7 +71,7 @@ Transfers between accounts: 4 ($1,399.69 moved, $0.00 in fees; 0 still in transi
 
 ## Gaps followed: the same portfolio re-checked later, and order-book depth
 
-Gaps above 0.1% followed: 180 Polymarket/Kalshi and 370 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
+Gaps above 0.1% followed: 180 Polymarket/Kalshi and 371 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
 
 | re-check | measured | still profitable | above 0.2% | a leg no longer offered | censored |
 |---|---|---|---|---|---|
@@ -80,12 +80,12 @@ Gaps above 0.1% followed: 180 Polymarket/Kalshi and 370 with bookmakers. A re-ch
 | +2 min | 175 | 120 | 81 | 2 | 3 |
 | +5 min | 166 | 87 | 62 | 4 | 10 |
 | bookmaker confirmation (~1 min) | 652 | 370 | 364 | 14 | 0 |
-| next bookmaker snapshot | 524 | 149 | 141 | 17 | 0 |
+| next bookmaker snapshot | 526 | 149 | 141 | 17 | 0 |
 
 Depth at detection (capacity = largest size still profitable after walking the order books):
 
 - Polymarket/Kalshi gaps (180): median capacity $0 (maximum $2,826); still profitable with a $50 stake: 31 of 178; median largest guaranteed profit $0.00.
-- Gaps with bookmakers (370): median capacity $20,000 (maximum $20,000); still profitable with a $50 stake: 357 of 370; median largest guaranteed profit $166.15. Bookmakers publish no order-book depth, so only the Polymarket/Kalshi legs limit these sizes and the capacity stops at the search limit of $20,000; the bot's bets with bookmakers are capped at $2,500.
+- Gaps with bookmakers (371): median capacity $20,000 (maximum $20,000); still profitable with a $50 stake: 358 of 371; median largest guaranteed profit $162.33. Bookmakers publish no order-book depth, so only the Polymarket/Kalshi legs limit these sizes and the capacity stops at the search limit of $20,000; the bot's bets with bookmakers are capped at $2,500.
 
 Details: `results/rechecks.csv`, `results/depth.csv`.
 

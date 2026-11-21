@@ -2,10 +2,10 @@
  "cash": {
   "PM": 14960.753400000003,
   "KS": 7254.919999999997,
-  "BK:smarkets": -7492.2970799999985,
+  "BK:smarkets": -2423.9380879999985,
   "BK:pinnacle": -10005.137199999997,
-  "BK:onexbet": -101167.2037,
-  "BK:matchbook": 934.0776320000023,
+  "BK:onexbet": -98615.3993,
+  "BK:matchbook": 3486.3162560000023,
   "BK:leovegas_se": -24122.686020000023,
   "BK:gtbets": -306.09429999999975,
   "BK:winamax_de": 1144.1699999999996,
@@ -75,62 +75,6 @@
  },
  "open": [
   {
-   "trade_id": 224,
-   "time": "2026-11-21T11:02:22Z",
-   "game": "lal:26NOV21ALADEP",
-   "title": "Deportivo Alav\u00e9s v RC Deportivo A Coru\u00f1a",
-   "league": "lal",
-   "kickoff": "2026-11-21T13:00:00Z",
-   "min_to_ko": 117.6,
-   "t_lp": 0.020903,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "9881e56a732493272e688663b26cd37f",
-    "sport": "soccer_spain_la_liga",
-    "home": "Alav\u00e9s",
-    "away": "Deportivo La Coru\u00f1a"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2552.2386,
-   "guaranteed_profit": 52.2486,
-   "legs": [
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "totals",
-     "outcome": "Over",
-     "side": "over",
-     "point": 2.5,
-     "odds": 2.48,
-     "eff": 2.4504,
-     "three_way": true,
-     "stake": 1041.56,
-     "cost": 1041.56,
-     "label": "totals Over 2.5 @2.48"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "totals",
-     "outcome": "Under",
-     "side": "under",
-     "point": 2.5,
-     "odds": 1.75,
-     "eff": 1.75,
-     "three_way": true,
-     "stake": 1458.43,
-     "cost": 1458.43,
-     "label": "totals Under 2.5 @1.75"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 228,
    "time": "2026-11-21T11:32:34Z",
    "game": "bun:26NOV21LEVPAD",
@@ -197,77 +141,6 @@
      "stake": 352.56,
      "cost": 352.56,
      "label": "h2h Draw  @7.15"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 230,
-   "time": "2026-11-21T12:02:18Z",
-   "game": "lal:26NOV21ALADEP",
-   "title": "Deportivo Alav\u00e9s v RC Deportivo A Coru\u00f1a",
-   "league": "lal",
-   "kickoff": "2026-11-21T13:00:00Z",
-   "min_to_ko": 57.7,
-   "t_lp": 0.02073,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "onexbet",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "9881e56a732493272e688663b26cd37f",
-    "sport": "soccer_spain_la_liga",
-    "home": "Alav\u00e9s",
-    "away": "Deportivo La Coru\u00f1a"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2551.802,
-   "guaranteed_profit": 51.822,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Alav\u00e9s",
-     "side": "home",
-     "point": null,
-     "odds": 2.41,
-     "eff": 2.41,
-     "three_way": true,
-     "stake": 1058.84,
-     "cost": 1058.84,
-     "label": "h2h Alav\u00e9s  @2.41"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Deportivo La Coru\u00f1a",
-     "side": "away",
-     "point": null,
-     "odds": 3.75,
-     "eff": 3.695,
-     "three_way": true,
-     "stake": 690.61,
-     "cost": 690.61,
-     "label": "h2h Deportivo La Coru\u00f1a  @3.75"
-    },
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.4,
-     "eff": 3.4,
-     "three_way": true,
-     "stake": 750.53,
-     "cost": 750.53,
-     "label": "h2h Draw  @3.4"
     }
    ],
    "status": "open"
@@ -470,77 +343,6 @@
    "status": "open"
   },
   {
-   "trade_id": 236,
-   "time": "2026-11-21T12:32:26Z",
-   "game": "lal:26NOV21ALADEP",
-   "title": "Deportivo Alav\u00e9s v RC Deportivo A Coru\u00f1a",
-   "league": "lal",
-   "kickoff": "2026-11-21T13:00:00Z",
-   "min_to_ko": 27.6,
-   "t_lp": 0.015615,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "smarkets",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "9881e56a732493272e688663b26cd37f",
-    "sport": "soccer_spain_la_liga",
-    "home": "Alav\u00e9s",
-    "away": "Deportivo La Coru\u00f1a"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2539.008,
-   "guaranteed_profit": 39.018,
-   "legs": [
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Alav\u00e9s",
-     "side": "home",
-     "point": null,
-     "odds": 2.3,
-     "eff": 2.274,
-     "three_way": true,
-     "stake": 1116.55,
-     "cost": 1116.55,
-     "label": "h2h Alav\u00e9s  @2.3"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Deportivo La Coru\u00f1a",
-     "side": "away",
-     "point": null,
-     "odds": 3.8,
-     "eff": 3.7439999999999998,
-     "three_way": true,
-     "stake": 678.16,
-     "cost": 678.16,
-     "label": "h2h Deportivo La Coru\u00f1a  @3.8"
-    },
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.6,
-     "eff": 3.6,
-     "three_way": true,
-     "stake": 705.28,
-     "cost": 705.28,
-     "label": "h2h Draw  @3.6"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 237,
    "time": "2026-11-21T12:34:27Z",
    "game": "bun:26NOV21SVESCF",
@@ -607,77 +409,6 @@
      "stake": 632.95,
      "cost": 632.95,
      "label": "h2h Draw  @3.96"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 238,
-   "time": "2026-11-21T12:48:30Z",
-   "game": "lal:26NOV21ALADEP",
-   "title": "Deportivo Alav\u00e9s v RC Deportivo A Coru\u00f1a",
-   "league": "lal",
-   "kickoff": "2026-11-21T13:00:00Z",
-   "min_to_ko": 11.5,
-   "t_lp": 0.011733,
-   "with_books": true,
-   "books": [
-    "pinnacle",
-    "smarkets",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "9881e56a732493272e688663b26cd37f",
-    "sport": "soccer_spain_la_liga",
-    "home": "Alav\u00e9s",
-    "away": "Deportivo La Coru\u00f1a"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2529.318,
-   "guaranteed_profit": 29.328,
-   "legs": [
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Alav\u00e9s",
-     "side": "home",
-     "point": null,
-     "odds": 2.26,
-     "eff": 2.2348,
-     "three_way": true,
-     "stake": 1131.79,
-     "cost": 1131.79,
-     "label": "h2h Alav\u00e9s  @2.26"
-    },
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "h2h",
-     "outcome": "Deportivo La Coru\u00f1a",
-     "side": "away",
-     "point": null,
-     "odds": 3.8,
-     "eff": 3.8,
-     "three_way": true,
-     "stake": 665.61,
-     "cost": 665.61,
-     "label": "h2h Deportivo La Coru\u00f1a  @3.8"
-    },
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.6,
-     "eff": 3.6,
-     "three_way": true,
-     "stake": 702.59,
-     "cost": 702.59,
-     "label": "h2h Draw  @3.6"
     }
    ],
    "status": "open"
@@ -3515,16 +3246,16 @@
  "consumed": {},
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 279,
- "n_settled": 229,
- "realized_pnl": -91144.25716800003,
+ "n_settled": 233,
+ "realized_pnl": -90971.80515200003,
  "runs": 69,
  "locked": {
   "PM": 8.526512829121202e-14,
   "KS": 3.552713678800501e-15,
-  "BK:smarkets": 13421.5,
-  "BK:pinnacle": 8265.890000000001,
-  "BK:onexbet": 29454.760000000006,
-  "BK:matchbook": 8905.319999999998,
+  "BK:smarkets": 11173.16,
+  "BK:pinnacle": 7600.280000000002,
+  "BK:onexbet": 26937.490000000005,
+  "BK:matchbook": 6494.989999999999,
   "BK:leovegas_se": 11461.860000000017,
   "BK:gtbets": 3535.540000000001,
   "BK:winamax_de": 0.0,
@@ -3532,7 +3263,7 @@
   "BK:unibet_se": 10411.41000000001,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 9763.130000000001,
-  "BK:unibet_nl": 3176.960000000001,
+  "BK:unibet_nl": 1018.5600000000012,
   "BK:marathonbet": 1308.14,
   "BK:coral": 2060.18,
   "BK:betfair_ex_uk": 0.0,
@@ -3647,10 +3378,10 @@
    "7": 204,
    "8": 213,
    "9": 213,
-   "10": 214,
-   "11": 218,
-   "12": 218,
-   "13": 216
+   "10": 212,
+   "11": 212,
+   "12": 212,
+   "13": 210
   },
   "spent": {
    "2026-11-06": 27,
@@ -3667,7 +3398,7 @@
    "2026-11-18": 191,
    "2026-11-19": 300,
    "2026-11-20": 530,
-   "2026-11-21": 690
+   "2026-11-21": 710
   }
  },
  "book_slots": {
@@ -3858,6 +3589,9 @@
   "nba|2026-11-21T18:00|180": "2026-11-21T15:00:14Z",
   "nhl|2026-11-21T18:00|180": "2026-11-21T15:00:14Z",
   "lal|2026-11-21T15:15|5": "2026-11-21T15:10:23Z",
-  "fl1|2026-11-21T16:15|60": "2026-11-21T15:15:24Z"
+  "fl1|2026-11-21T16:15|60": "2026-11-21T15:15:24Z",
+  "epl|2026-11-21T17:30|120": "2026-11-21T15:30:26Z",
+  "lal|2026-11-21T17:30|120": "2026-11-21T15:30:27Z",
+  "bun|2026-11-21T17:30|120": "2026-11-21T15:30:27Z"
  }
 }
