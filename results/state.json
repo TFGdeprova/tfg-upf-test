@@ -4,8 +4,8 @@
   "KS": 7254.919999999997,
   "BK:smarkets": -190.11190599999793,
   "BK:pinnacle": 117.25920000000247,
-  "BK:onexbet": -83496.53540000001,
-  "BK:matchbook": 511.902596000002,
+  "BK:onexbet": -85592.5454,
+  "BK:matchbook": -514.077403999998,
   "BK:leovegas_se": -16543.034020000025,
   "BK:gtbets": -65.67649999999958,
   "BK:winamax_de": 1144.1699999999996,
@@ -13,7 +13,7 @@
   "BK:unibet_se": -15586.50770000001,
   "BK:tipico_de": -3710.9519999999998,
   "BK:coolbet": 8551.3791,
-  "BK:unibet_nl": -14447.900000000001,
+  "BK:unibet_nl": -15329.190000000002,
   "BK:marathonbet": -9122.6778,
   "BK:coral": -3247.1319999999996,
   "BK:betfair_ex_uk": 505.96,
@@ -36,7 +36,7 @@
   "BK:ladbrokes_uk": -2699.5135,
   "BK:betus": -780.8719999999994,
   "BK:unibet_uk": -760.27,
-  "BK:nordicbet": -416.69000000000005
+  "BK:nordicbet": -1413.38
  },
  "start_cash": {
   "PM": 5800.0,
@@ -1835,6 +1835,147 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 303,
+   "time": "2026-11-21T19:01:49Z",
+   "game": "lal:26NOV21RMARCC",
+   "title": "Real Madrid CF v RC Celta de Vigo",
+   "league": "lal",
+   "kickoff": "2026-11-21T20:00:00Z",
+   "min_to_ko": 58.2,
+   "t_lp": 0.014473,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "90af957b2f622a5cf805e60b151c54b9",
+    "sport": "soccer_spain_la_liga",
+    "home": "Real Madrid",
+    "away": "Celta Vigo"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2536.0812,
+   "guaranteed_profit": 36.1012,
+   "legs": [
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Celta Vigo",
+     "side": "away",
+     "point": null,
+     "odds": 20.0,
+     "eff": 19.62,
+     "three_way": true,
+     "stake": 129.26,
+     "cost": 129.26,
+     "label": "h2h Celta Vigo  @20.0"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Real Madrid",
+     "side": "home",
+     "point": null,
+     "odds": 1.21,
+     "eff": 1.21,
+     "three_way": true,
+     "stake": 2096.01,
+     "cost": 2096.01,
+     "label": "h2h Real Madrid  @1.21"
+    },
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 9.4,
+     "eff": 9.232,
+     "three_way": true,
+     "stake": 274.71,
+     "cost": 274.71,
+     "label": "h2h Draw  @9.4"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 304,
+   "time": "2026-11-21T19:01:49Z",
+   "game": "ere:26NOV21GROHEE",
+   "title": "FC Groningen v SC Heerenveen",
+   "league": "ere",
+   "kickoff": "2026-11-21T20:00:00Z",
+   "min_to_ko": 58.2,
+   "t_lp": 0.004672,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "nordicbet",
+    "unibet_nl"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "cc8ea455586c0bdfcca464f1bf617843",
+    "sport": "soccer_netherlands_eredivisie",
+    "home": "Groningen",
+    "away": "Heerenveen"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2511.6588,
+   "guaranteed_profit": 11.6688,
+   "legs": [
+    {
+     "venue": "BK:unibet_nl",
+     "book": "unibet_nl",
+     "market": "h2h",
+     "outcome": "Groningen",
+     "side": "home",
+     "point": null,
+     "odds": 2.85,
+     "eff": 2.85,
+     "three_way": true,
+     "stake": 881.29,
+     "cost": 881.29,
+     "label": "h2h Groningen  @2.85"
+    },
+    {
+     "venue": "BK:nordicbet",
+     "book": "nordicbet",
+     "market": "h2h",
+     "outcome": "Heerenveen",
+     "side": "away",
+     "point": null,
+     "odds": 2.52,
+     "eff": 2.52,
+     "three_way": true,
+     "stake": 996.69,
+     "cost": 996.69,
+     "label": "h2h Heerenveen  @2.52"
+    },
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.1,
+     "eff": 4.038,
+     "three_way": true,
+     "stake": 622.01,
+     "cost": 622.01,
+     "label": "h2h Draw  @4.1"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1856,7 +1997,7 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 302,
+ "n_trades": 304,
  "n_settled": 276,
  "realized_pnl": -90157.11763000005,
  "runs": 70,
@@ -1865,8 +2006,8 @@
   "KS": 3.552713678800501e-15,
   "BK:smarkets": 8204.789999999997,
   "BK:pinnacle": 2760.370000000001,
-  "BK:onexbet": 13475.360000000004,
-  "BK:matchbook": 8011.999999999999,
+  "BK:onexbet": 15571.370000000004,
+  "BK:matchbook": 9037.98,
   "BK:leovegas_se": 1.7394086171407253e-11,
   "BK:gtbets": 4832.5,
   "BK:winamax_de": 0.0,
@@ -1874,7 +2015,7 @@
   "BK:unibet_se": 3493.880000000013,
   "BK:tipico_de": 481.9,
   "BK:coolbet": 1219.0500000000004,
-  "BK:unibet_nl": 3626.3400000000006,
+  "BK:unibet_nl": 4507.630000000001,
   "BK:marathonbet": 0.0,
   "BK:coral": 6136.499999999999,
   "BK:betfair_ex_uk": 0.0,
@@ -1897,7 +2038,7 @@
   "BK:ladbrokes_uk": 2.2737367544323206e-13,
   "BK:betus": 0.0,
   "BK:unibet_uk": 1340.27,
-  "BK:nordicbet": 996.69
+  "BK:nordicbet": 1993.38
  },
  "peak_locked": {
   "PM": 4486.7806,
@@ -1913,7 +2054,7 @@
   "BK:unibet_se": 24382.670000000006,
   "BK:tipico_de": 5851.049999999999,
   "BK:coolbet": 11130.880000000001,
-  "BK:unibet_nl": 4157.51,
+  "BK:unibet_nl": 4507.630000000001,
   "BK:marathonbet": 8525.07,
   "BK:coral": 6136.499999999999,
   "BK:betfair_ex_uk": 74.04,
@@ -1936,7 +2077,7 @@
   "BK:ladbrokes_uk": 4528.91,
   "BK:betus": 3869.2799999999997,
   "BK:unibet_uk": 1340.27,
-  "BK:nordicbet": 996.69
+  "BK:nordicbet": 1993.38
  },
  "min_cash": {
   "PM": 2369.7283000000007,
@@ -1952,7 +2093,7 @@
   "BK:unibet_se": -28095.540000000008,
   "BK:tipico_de": -3710.9519999999998,
   "BK:coolbet": -8022.379999999999,
-  "BK:unibet_nl": -14447.900000000001,
+  "BK:unibet_nl": -15329.190000000002,
   "BK:marathonbet": -11633.1788,
   "BK:coral": -3247.1319999999996,
   "BK:betfair_ex_uk": 505.96,
@@ -1975,7 +2116,7 @@
   "BK:ladbrokes_uk": -7734.96,
   "BK:betus": -3289.2799999999997,
   "BK:unibet_uk": -760.27,
-  "BK:nordicbet": -416.69000000000005
+  "BK:nordicbet": -1413.38
  },
  "transfers": [],
  "transfer_stats": {
@@ -1991,14 +2132,14 @@
    "3": 115,
    "4": 114,
    "5": 116,
-   "6": 157,
-   "7": 154,
-   "8": 157,
+   "6": 151,
+   "7": 148,
+   "8": 151,
    "9": 153,
-   "10": 158,
-   "11": 158,
+   "10": 152,
+   "11": 152,
    "12": 154,
-   "13": 154
+   "13": 148
   },
   "spent": {
    "2026-11-06": 27,
@@ -2015,7 +2156,7 @@
    "2026-11-18": 191,
    "2026-11-19": 300,
    "2026-11-20": 530,
-   "2026-11-21": 1148
+   "2026-11-21": 1184
   }
  },
  "book_slots": {
@@ -2262,6 +2403,9 @@
   "scop|2026-11-21T20:00|120": "2026-11-21T18:00:21Z",
   "nhl|2026-11-21T20:30|120": "2026-11-21T18:30:28Z",
   "sea|2026-11-21T19:45|60": "2026-11-21T18:45:44Z",
-  "fl1|2026-11-21T19:45|60": "2026-11-21T18:45:44Z"
+  "fl1|2026-11-21T19:45|60": "2026-11-21T18:45:44Z",
+  "lal|2026-11-21T20:00|60": "2026-11-21T19:00:09Z",
+  "ere|2026-11-21T20:00|60": "2026-11-21T19:00:11Z",
+  "scop|2026-11-21T20:00|60": "2026-11-21T19:00:12Z"
  }
 }
