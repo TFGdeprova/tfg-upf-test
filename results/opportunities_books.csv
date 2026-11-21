@@ -1661,3 +1661,8 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-21T00:25:32Z,nba:26NOV20INDCLE,IND at CLE,nba,4.5,scheduled,14,-0.009124,-0.007791,no gap,,,
 2026-11-21T00:25:32Z,nba:26NOV20TORDET,TOR at DET,nba,4.5,scheduled,16,-0.014782,0.009535,seen,17094.32,nba:26NOV20TORDET|2026-11-21T00:25:32Z|with_books,PM YES 0.460 x0.477 Raptors vs. Pistons: O/U 217.5 | betrivers totals Under 217.5 @1.93 x0.523
 2026-11-21T00:26:46Z,nba:26NOV20TORDET,TOR at DET,nba,3.2,confirmation,16,-0.010992,0.009535,executed,17117.55,,PM YES 0.460 x0.477 Raptors vs. Pistons: O/U 217.5 | betrivers totals Under 217.5 @1.93 x0.523
+2026-11-21T00:30:35Z,nba:26NOV20WASCHI,WAS at CHI,nba,29.4,scheduled,14,-0.006606,-0.006606,no gap,,,
+2026-11-21T00:30:35Z,nba:26NOV20NOPOKC,NOP at OKC,nba,29.4,scheduled,16,-0.017005,-0.005979,no gap,,,
+2026-11-21T00:30:35Z,nba:26NOV20PHXUTA,PHX at UTA,nba,119.4,scheduled,14,-0.005668,-0.005668,no gap,,,
+2026-11-21T00:45:30Z,nba:26NOV20WASCHI,WAS at CHI,nba,14.5,scheduled,14,-0.006606,-0.006606,no gap,,,
+2026-11-21T00:45:30Z,nba:26NOV20NOPOKC,NOP at OKC,nba,14.5,scheduled,14,-0.007293,-0.000589,no gap,,,
