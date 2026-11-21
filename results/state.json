@@ -2,15 +2,15 @@
  "cash": {
   "PM": 14960.753400000003,
   "KS": 7254.919999999997,
-  "BK:smarkets": -3518.9479600000004,
-  "BK:pinnacle": -5820.091599999999,
-  "BK:onexbet": -78045.1197,
+  "BK:smarkets": -4354.39796,
+  "BK:pinnacle": -6767.621599999999,
+  "BK:onexbet": -78725.1997,
   "BK:matchbook": 1731.019332000003,
-  "BK:leovegas_se": -14327.396020000022,
+  "BK:leovegas_se": -15991.936020000021,
   "BK:gtbets": 3229.4457,
   "BK:winamax_de": 1144.1699999999996,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -5323.005300000007,
+  "BK:unibet_se": -6659.485300000008,
   "BK:tipico_de": -3229.0519999999997,
   "BK:coolbet": 5688.0193,
   "BK:unibet_nl": -9960.08,
@@ -21,20 +21,20 @@
   "BK:betfair_ex_eu": 453.07,
   "BK:betonlineag": -4402.7268,
   "BK:skybet": -691.6099999999999,
-  "BK:betrivers": 6969.485699999999,
+  "BK:betrivers": 5560.1757,
   "BK:lowvig": -4847.8305,
   "BK:mybookieag": -4546.4125,
   "BK:betmgm": 5098.2534000000005,
-  "BK:betanysports": -894.5856000000008,
+  "BK:betanysports": -1985.2356000000009,
   "BK:betsson": 2119.7043999999996,
   "BK:codere_it": 1797.4973999999997,
   "BK:boylesports": 1315.0279999999998,
   "BK:fanduel": 416.0315999999998,
   "BK:bovada": -244.12,
   "BK:draftkings": -2698.54,
-  "BK:williamhill": -751.77,
+  "BK:williamhill": -1697.0,
   "BK:ladbrokes_uk": -5844.26,
-  "BK:betus": -510.68000000000006
+  "BK:betus": -1601.3600000000001
  },
  "start_cash": {
   "PM": 5800.0,
@@ -1233,6 +1233,274 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 239,
+   "time": "2026-11-21T13:02:46Z",
+   "game": "sea:26NOV21COMCAG",
+   "title": "Como 1907 v Cagliari Calcio",
+   "league": "sea",
+   "kickoff": "2026-11-21T14:00:00Z",
+   "min_to_ko": 57.2,
+   "t_lp": 0.003403,
+   "with_books": true,
+   "books": [
+    "betanysports",
+    "unibet_se",
+    "williamhill"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "9e8d72c6c27c1667be7b88416a36ca80",
+    "sport": "soccer_italy_serie_a",
+    "home": "Como",
+    "away": "Cagliari"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2508.48,
+   "guaranteed_profit": 8.5,
+   "legs": [
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 3.5,
+     "odds": 2.35,
+     "eff": 2.35,
+     "three_way": true,
+     "stake": 464.1,
+     "cost": 464.1,
+     "label": "totals Over 3.5 @2.35"
+    },
+    {
+     "venue": "BK:williamhill",
+     "book": "williamhill",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 2.5,
+     "odds": 1.5,
+     "eff": 1.5,
+     "three_way": true,
+     "stake": 945.23,
+     "cost": 945.23,
+     "label": "totals Over 2.5 @1.5"
+    },
+    {
+     "venue": "BK:betanysports",
+     "book": "betanysports",
+     "market": "totals",
+     "outcome": "Under",
+     "side": "under",
+     "point": 3.0,
+     "odds": 2.3,
+     "eff": 2.3,
+     "three_way": true,
+     "stake": 1090.65,
+     "cost": 1090.65,
+     "label": "totals Under 3.0 @2.3"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 240,
+   "time": "2026-11-21T13:03:01Z",
+   "game": "epl:26NOV21COVCRY",
+   "title": "Coventry City FC v Crystal Palace FC",
+   "league": "epl",
+   "kickoff": "2026-11-21T15:00:00Z",
+   "min_to_ko": 117.0,
+   "t_lp": 0.011965,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "pinnacle",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "9f38413bdad666e2d2dfcc574dd12e66",
+    "sport": "soccer_epl",
+    "home": "Coventry City",
+    "away": "Crystal Palace"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2529.8976,
+   "guaranteed_profit": 29.9076,
+   "legs": [
+    {
+     "venue": "BK:pinnacle",
+     "book": "pinnacle",
+     "market": "h2h",
+     "outcome": "Coventry City",
+     "side": "home",
+     "point": null,
+     "odds": 2.67,
+     "eff": 2.67,
+     "three_way": true,
+     "stake": 947.53,
+     "cost": 947.53,
+     "label": "h2h Coventry City  @2.67"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Crystal Palace",
+     "side": "away",
+     "point": null,
+     "odds": 2.9,
+     "eff": 2.9,
+     "three_way": true,
+     "stake": 872.38,
+     "cost": 872.38,
+     "label": "h2h Crystal Palace  @2.9"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.72,
+     "eff": 3.72,
+     "three_way": true,
+     "stake": 680.08,
+     "cost": 680.08,
+     "label": "h2h Draw  @3.72"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 241,
+   "time": "2026-11-21T13:03:06Z",
+   "game": "elc:26NOV21LICWRE",
+   "title": "Lincoln City FC v Wrexham AFC",
+   "league": "elc",
+   "kickoff": "2026-11-21T15:00:00Z",
+   "min_to_ko": 116.9,
+   "t_lp": 0.00555,
+   "with_books": true,
+   "books": [
+    "leovegas_se",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "476da082e4c07bd9fa21d352af37ee61",
+    "sport": "soccer_efl_champ",
+    "home": "Lincoln City",
+    "away": "Wrexham AFC"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2513.8575,
+   "guaranteed_profit": 13.8675,
+   "legs": [
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Lincoln City",
+     "side": "home",
+     "point": null,
+     "odds": 2.75,
+     "eff": 2.75,
+     "three_way": true,
+     "stake": 914.13,
+     "cost": 914.13,
+     "label": "h2h Lincoln City  @2.75"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Wrexham AFC",
+     "side": "away",
+     "point": null,
+     "odds": 3.05,
+     "eff": 3.009,
+     "three_way": true,
+     "stake": 835.45,
+     "cost": 835.45,
+     "label": "h2h Wrexham AFC  @3.05"
+    },
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.35,
+     "eff": 3.35,
+     "three_way": true,
+     "stake": 750.41,
+     "cost": 750.41,
+     "label": "h2h Draw  @3.35"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 242,
+   "time": "2026-11-21T13:03:06Z",
+   "game": "elc:26NOV21WHUPNE",
+   "title": "West Ham United FC v Preston North End FC",
+   "league": "elc",
+   "kickoff": "2026-11-21T15:00:00Z",
+   "min_to_ko": 116.9,
+   "t_lp": 0.003431,
+   "with_books": true,
+   "books": [
+    "betrivers",
+    "betus"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "7a8f99dc133efc267e941f67f5f59301",
+    "sport": "soccer_efl_champ",
+    "home": "West Ham United",
+    "away": "Preston North End"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2508.564,
+   "guaranteed_profit": 8.574,
+   "legs": [
+    {
+     "venue": "BK:betus",
+     "book": "betus",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 3.5,
+     "odds": 2.3,
+     "eff": 2.3,
+     "three_way": true,
+     "stake": 1090.68,
+     "cost": 1090.68,
+     "label": "totals Over 3.5 @2.3"
+    },
+    {
+     "venue": "BK:betrivers",
+     "book": "betrivers",
+     "market": "totals",
+     "outcome": "Under",
+     "side": "under",
+     "point": 3.5,
+     "odds": 1.78,
+     "eff": 1.78,
+     "three_way": true,
+     "stake": 1409.31,
+     "cost": 1409.31,
+     "label": "totals Under 3.5 @1.78"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1246,22 +1514,22 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 238,
+ "n_trades": 242,
  "n_settled": 221,
  "realized_pnl": -91365.07924800004,
  "runs": 68,
  "locked": {
   "PM": 8.526512829121202e-14,
   "KS": 3.552713678800501e-15,
-  "BK:smarkets": 7353.62,
-  "BK:pinnacle": 3450.1000000000004,
-  "BK:onexbet": 9989.030000000002,
+  "BK:smarkets": 8189.07,
+  "BK:pinnacle": 4397.63,
+  "BK:onexbet": 10669.110000000002,
   "BK:matchbook": 6633.98,
-  "BK:leovegas_se": 1666.570000000018,
+  "BK:leovegas_se": 3331.110000000018,
   "BK:gtbets": 1780.4900000000005,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 1119.0500000000116,
+  "BK:unibet_se": 2455.5300000000116,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 1367.7500000000002,
   "BK:unibet_nl": 2158.400000000001,
@@ -1272,26 +1540,26 @@
   "BK:betfair_ex_eu": 0.0,
   "BK:betonlineag": 1291.3500000000004,
   "BK:skybet": 316.5,
-  "BK:betrivers": 1409.31,
+  "BK:betrivers": 2818.62,
   "BK:lowvig": 0.0,
   "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
-  "BK:betanysports": 2.2737367544323206e-13,
+  "BK:betanysports": 1090.6500000000003,
   "BK:betsson": 0.0,
   "BK:codere_it": 0.0,
   "BK:boylesports": 0.0,
   "BK:fanduel": 0.0,
   "BK:bovada": 0.0,
   "BK:draftkings": 0.0,
-  "BK:williamhill": 0.0,
+  "BK:williamhill": 945.23,
   "BK:ladbrokes_uk": 1895.35,
-  "BK:betus": 1090.68
+  "BK:betus": 2181.36
  },
  "peak_locked": {
   "PM": 4486.7806,
   "KS": 2216.0099999999998,
-  "BK:smarkets": 7353.62,
-  "BK:pinnacle": 3723.5699999999997,
+  "BK:smarkets": 8189.07,
+  "BK:pinnacle": 4397.63,
   "BK:onexbet": 69050.37999999999,
   "BK:matchbook": 6633.98,
   "BK:leovegas_se": 47555.970000000016,
@@ -1309,7 +1577,7 @@
   "BK:betfair_ex_eu": 126.93,
   "BK:betonlineag": 4590.49,
   "BK:skybet": 567.67,
-  "BK:betrivers": 2248.46,
+  "BK:betrivers": 2818.62,
   "BK:lowvig": 1628.95,
   "BK:mybookieag": 4422.6,
   "BK:betmgm": 5577.36,
@@ -1322,7 +1590,7 @@
   "BK:draftkings": 3278.54,
   "BK:williamhill": 1331.77,
   "BK:ladbrokes_uk": 4528.91,
-  "BK:betus": 1090.68
+  "BK:betus": 2181.36
  },
  "min_cash": {
   "PM": 2369.7283000000007,
@@ -1357,9 +1625,9 @@
   "BK:fanduel": -2247.51,
   "BK:bovada": -244.12,
   "BK:draftkings": -2698.54,
-  "BK:williamhill": -751.77,
+  "BK:williamhill": -1697.0,
   "BK:ladbrokes_uk": -5844.26,
-  "BK:betus": -510.68000000000006
+  "BK:betus": -1601.3600000000001
  },
  "transfers": [],
  "transfer_stats": {
@@ -1377,12 +1645,12 @@
    "5": 116,
    "6": 207,
    "7": 204,
-   "8": 273,
-   "9": 273,
-   "10": 274,
-   "11": 272,
+   "8": 267,
+   "9": 267,
+   "10": 268,
+   "11": 266,
    "12": 270,
-   "13": 270
+   "13": 264
   },
   "spent": {
    "2026-11-06": 27,
@@ -1399,7 +1667,7 @@
    "2026-11-18": 191,
    "2026-11-19": 300,
    "2026-11-20": 530,
-   "2026-11-21": 350
+   "2026-11-21": 380
   }
  },
  "book_slots": {
@@ -1554,6 +1822,8 @@
   "sea|2026-11-21T14:00|60": "2026-11-21T13:00:55Z",
   "epl|2026-11-21T15:00|120": "2026-11-21T13:00:55Z",
   "elc|2026-11-21T15:00|120": "2026-11-21T13:00:56Z",
-  "scop|2026-11-21T15:00|120": "2026-11-21T13:00:57Z"
+  "scop|2026-11-21T15:00|120": "2026-11-21T13:00:57Z",
+  "lal|2026-11-21T15:15|120": "2026-11-21T13:16:04Z",
+  "fl1|2026-11-21T16:15|180": "2026-11-21T13:16:04Z"
  }
 }

@@ -1783,3 +1783,9 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-21T13:01:29Z,scop:26NOV21FALJOH,Falkirk FC v St Johnstone FC,scop,118.5,scheduled,5,-0.004023,-0.004023,no gap,,,
 2026-11-21T13:01:35Z,scop:26NOV21HIBDUU,Hibernian FC v Dundee United FC,scop,118.4,scheduled,11,-0.003369,-0.003369,no gap,,,
 2026-11-21T13:01:35Z,scop:26NOV21CELMIR,Celtic FC v St Mirren FC,scop,118.4,scheduled,9,-0.003739,-0.002812,no gap,,,
+2026-11-21T13:02:46Z,sea:26NOV21COMCAG,Como 1907 v Cagliari Calcio,sea,57.2,confirmation,11,-0.001839,0.003403,executed,,,unibet_se totals Over 3.5 @2.35 x0.186 | williamhill totals Over 2.5 @1.5 x0.378 | betanysports totals Under 3.0 @2.3 x0.436
+2026-11-21T13:03:01Z,epl:26NOV21COVCRY,Coventry City FC v Crystal Palace FC,epl,117.0,confirmation,7,-0.000448,0.011965,executed,,,pinnacle h2h Coventry City  @2.67 x0.379 | unibet_se h2h Crystal Palace  @2.9 x0.349 | onexbet h2h Draw  @3.72 x0.272
+2026-11-21T13:03:06Z,elc:26NOV21LICWRE,Lincoln City FC v Wrexham AFC,elc,116.9,confirmation,7,-0.002786,0.00555,executed,,,leovegas_se h2h Lincoln City  @2.75 x0.366 | smarkets h2h Wrexham AFC  @3.05 x0.334 | leovegas_se h2h Draw  @3.35 x0.300
+2026-11-21T13:03:06Z,elc:26NOV21WHUPNE,West Ham United FC v Preston North End FC,elc,116.9,confirmation,9,-0.002883,0.003431,executed,,,betus totals Over 3.5 @2.3 x0.436 | betrivers totals Under 3.5 @1.78 x0.564
+2026-11-21T13:17:03Z,lal:26NOV21RVCVCF,Rayo Vallecano de Madrid v Valencia CF,lal,117.9,scheduled,7,0.002077,0.002077,no gap,,,
+2026-11-21T13:17:06Z,fl1:26NOV21NICPSG,OGC Nice v Paris Saint-Germain FC,fl1,177.9,scheduled,7,-0.003465,0.0018,no gap,,fl1:26NOV21NICPSG|2026-11-21T13:17:06Z|with_books,
