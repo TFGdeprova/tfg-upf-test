@@ -22,7 +22,7 @@
   "BK:betonlineag": 2452.5284999999953,
   "BK:skybet": -1150.75,
   "BK:betrivers": 11676.5811,
-  "BK:lowvig": -6543.630499999999,
+  "BK:lowvig": -4145.553499999999,
   "BK:mybookieag": -4546.4125,
   "BK:betmgm": 7287.503700000001,
   "BK:betanysports": -585.8006000000009,
@@ -32,7 +32,7 @@
   "BK:fanduel": 416.0315999999998,
   "BK:bovada": -244.12,
   "BK:draftkings": -2698.54,
-  "BK:williamhill": -3383.02,
+  "BK:williamhill": -853.9900000000002,
   "BK:ladbrokes_uk": -2699.5135,
   "BK:betus": -780.8719999999994,
   "BK:unibet_uk": -760.27,
@@ -286,67 +286,6 @@
    "status": "open"
   },
   {
-   "trade_id": 296,
-   "time": "2026-11-21T17:31:52Z",
-   "game": "nba:26NOV21MILPHI",
-   "title": "MIL at PHI",
-   "league": "nba",
-   "kickoff": "2026-11-21T18:00:00Z",
-   "min_to_ko": 28.1,
-   "t_lp": 0.02316,
-   "with_books": true,
-   "books": [
-    "lowvig"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "6cd4587453e4da55317b2c1e3576e75b",
-    "sport": "basketball_nba",
-    "home": "Philadelphia 76ers",
-    "away": "Milwaukee Bucks"
-   },
-   "cost": 2343.791,
-   "guaranteed_payout": 2398.07,
-   "guaranteed_profit": 54.279,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x78c188451be652bd0276bf293084126b7fe2688f6a20923b54ae5c13c6a69f7e",
-     "label": "Bucks vs. 76ers: O/U 229.5",
-     "side": "NO",
-     "price": 0.47,
-     "shares": 1186.92,
-     "fee": 14.78309,
-     "cost": 572.6355
-    },
-    {
-     "venue": "PM",
-     "id": "0xc6e388c121406f21b27d0d4b2f75cc305385d919e524b5b8da41a04ba92aea48",
-     "label": "Bucks vs. 76ers: O/U 228.5",
-     "side": "NO",
-     "price": 0.44999999999999996,
-     "shares": 1211.15,
-     "fee": 14.98798,
-     "cost": 560.0055
-    },
-    {
-     "venue": "BK:lowvig",
-     "book": "lowvig",
-     "market": "totals",
-     "outcome": "Over",
-     "side": "over",
-     "point": 229.0,
-     "odds": 1.98,
-     "eff": 1.98,
-     "three_way": false,
-     "stake": 1211.15,
-     "cost": 1211.15,
-     "label": "totals Over 229.0 @1.98"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 298,
    "time": "2026-11-21T17:41:59Z",
    "game": "ere:26NOV21FCUCAM",
@@ -479,62 +418,6 @@
      "stake": 481.9,
      "cost": 481.9,
      "label": "h2h Draw  @5.2"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 300,
-   "time": "2026-11-21T17:56:59Z",
-   "game": "nhl:26NOV21EDMCAR",
-   "title": "EDM at CAR",
-   "league": "nhl",
-   "kickoff": "2026-11-21T18:00:00Z",
-   "min_to_ko": 3.0,
-   "t_lp": 0.011613,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "williamhill"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "43b2e285559dbe2bb5ddc1665bccddf2",
-    "sport": "icehockey_nhl",
-    "home": "Carolina Hurricanes",
-    "away": "Edmonton Oilers"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2529.0048,
-   "guaranteed_profit": 29.0148,
-   "legs": [
-    {
-     "venue": "BK:williamhill",
-     "book": "williamhill",
-     "market": "h2h",
-     "outcome": "Carolina Hurricanes",
-     "side": "home",
-     "point": null,
-     "odds": 1.5,
-     "eff": 1.5,
-     "three_way": false,
-     "stake": 1686.02,
-     "cost": 1686.02,
-     "label": "h2h Carolina Hurricanes  @1.5"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Edmonton Oilers",
-     "side": "away",
-     "point": null,
-     "odds": 3.15,
-     "eff": 3.1069999999999998,
-     "three_way": false,
-     "stake": 813.97,
-     "cost": 813.97,
-     "label": "h2h Edmonton Oilers  @3.15"
     }
    ],
    "status": "open"
@@ -1391,16 +1274,16 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 312,
- "n_settled": 293,
- "realized_pnl": -89694.66895400005,
+ "n_settled": 295,
+ "realized_pnl": -89611.34295400007,
  "runs": 70,
  "locked": {
-  "PM": 3578.6583,
+  "PM": 2446.0173000000004,
   "KS": 3.552713678800501e-15,
   "BK:smarkets": 5175.099999999999,
   "BK:pinnacle": 3543.04,
   "BK:onexbet": 8402.310000000007,
-  "BK:matchbook": 4620.469999999998,
+  "BK:matchbook": 3806.499999999998,
   "BK:leovegas_se": 1.7394086171407253e-11,
   "BK:gtbets": 0.0,
   "BK:winamax_de": 0.0,
@@ -1417,7 +1300,7 @@
   "BK:betonlineag": 1.1368683772161603e-13,
   "BK:skybet": 0.0,
   "BK:betrivers": 4.547473508864641e-13,
-  "BK:lowvig": 1211.15,
+  "BK:lowvig": 0.0,
   "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
   "BK:betanysports": 0.0,
@@ -1427,7 +1310,7 @@
   "BK:fanduel": 0.0,
   "BK:bovada": 0.0,
   "BK:draftkings": 0.0,
-  "BK:williamhill": 1686.02,
+  "BK:williamhill": 0.0,
   "BK:ladbrokes_uk": 2.2737367544323206e-13,
   "BK:betus": 0.0,
   "BK:unibet_uk": 0.0,
@@ -1525,11 +1408,11 @@
    "3": 115,
    "4": 114,
    "5": 116,
-   "6": 131,
-   "7": 130,
-   "8": 131,
+   "6": 129,
+   "7": 128,
+   "8": 125,
    "9": 127,
-   "10": 132,
+   "10": 130,
    "11": 126,
    "12": 130,
    "13": 130
@@ -1549,7 +1432,7 @@
    "2026-11-18": 191,
    "2026-11-19": 300,
    "2026-11-20": 530,
-   "2026-11-21": 1356
+   "2026-11-21": 1368
   }
  },
  "book_slots": {
@@ -1819,6 +1702,8 @@
   "nhl|2026-11-21T20:30|30": "2026-11-21T20:00:15Z",
   "nhl|2026-11-21T23:00|180": "2026-11-21T20:00:15Z",
   "nhl|2026-11-21T20:30|15": "2026-11-21T20:15:16Z",
-  "nhl|2026-11-21T20:30|5": "2026-11-21T20:25:15Z"
+  "nhl|2026-11-21T20:30|5": "2026-11-21T20:25:15Z",
+  "nhl|2026-11-21T23:00|120": "2026-11-21T21:00:15Z",
+  "nhl|2026-11-22T00:00|180": "2026-11-21T21:00:15Z"
  }
 }
