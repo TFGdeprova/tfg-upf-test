@@ -4,10 +4,10 @@
   "KS": 7254.919999999997,
   "BK:smarkets": -3122.8663079999983,
   "BK:pinnacle": -11118.177199999996,
-  "BK:onexbet": -91528.7875,
-  "BK:matchbook": 1539.6062560000023,
+  "BK:onexbet": -95020.57750000001,
+  "BK:matchbook": -1796.8237439999975,
   "BK:leovegas_se": -24122.686020000023,
-  "BK:gtbets": -1910.2542999999998,
+  "BK:gtbets": -3524.4242999999997,
   "BK:winamax_de": 1144.1699999999996,
   "BK:grosvenor": 580.0,
   "BK:unibet_se": -12272.497700000009,
@@ -19,7 +19,7 @@
   "BK:betfair_ex_uk": 505.96,
   "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": 66.21999999999997,
-  "BK:betonlineag": -8440.136800000002,
+  "BK:betonlineag": -9325.946800000003,
   "BK:skybet": -1150.75,
   "BK:betrivers": 4150.8657,
   "BK:lowvig": -5332.4805,
@@ -35,7 +35,7 @@
   "BK:williamhill": -1697.0,
   "BK:ladbrokes_uk": -2699.5135,
   "BK:betus": -3289.2799999999997,
-  "BK:unibet_uk": -88.52999999999997
+  "BK:unibet_uk": -760.27
  },
  "start_cash": {
   "PM": 5800.0,
@@ -2896,6 +2896,273 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 290,
+   "time": "2026-11-21T17:17:09Z",
+   "game": "epl:26NOV21NEWARS",
+   "title": "Newcastle United FC v Arsenal FC",
+   "league": "epl",
+   "kickoff": "2026-11-21T17:30:00Z",
+   "min_to_ko": 12.8,
+   "t_lp": 0.020158,
+   "with_books": true,
+   "books": [
+    "betonlineag",
+    "gtbets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "71bf9fe98c3e3be39cd1d059f8d71ae8",
+    "sport": "soccer_epl",
+    "home": "Newcastle United",
+    "away": "Arsenal"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2550.3335,
+   "guaranteed_profit": 50.3535,
+   "legs": [
+    {
+     "venue": "BK:gtbets",
+     "book": "gtbets",
+     "market": "h2h",
+     "outcome": "Arsenal",
+     "side": "away",
+     "point": null,
+     "odds": 1.58,
+     "eff": 1.58,
+     "three_way": true,
+     "stake": 1614.17,
+     "cost": 1614.17,
+     "label": "h2h Arsenal  @1.58"
+    },
+    {
+     "venue": "BK:betonlineag",
+     "book": "betonlineag",
+     "market": "h2h",
+     "outcome": "Newcastle United",
+     "side": "home",
+     "point": null,
+     "odds": 7.15,
+     "eff": 7.15,
+     "three_way": true,
+     "stake": 356.69,
+     "cost": 356.69,
+     "label": "h2h Newcastle United  @7.15"
+    },
+    {
+     "venue": "BK:betonlineag",
+     "book": "betonlineag",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.82,
+     "eff": 4.82,
+     "three_way": true,
+     "stake": 529.12,
+     "cost": 529.12,
+     "label": "h2h Draw  @4.82"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 291,
+   "time": "2026-11-21T17:17:09Z",
+   "game": "lal:26NOV21SEVRBB",
+   "title": "Sevilla FC v Real Betis Balompi\u00e9",
+   "league": "lal",
+   "kickoff": "2026-11-21T17:30:00Z",
+   "min_to_ko": 12.8,
+   "t_lp": 0.002562,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "1bb4951d418dcb641c608e085b87a1c3",
+    "sport": "soccer_spain_la_liga",
+    "home": "Sevilla",
+    "away": "Real Betis"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2506.38,
+   "guaranteed_profit": 6.4,
+   "legs": [
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Real Betis",
+     "side": "away",
+     "point": null,
+     "odds": 2.7,
+     "eff": 2.6660000000000004,
+     "three_way": true,
+     "stake": 940.13,
+     "cost": 940.13,
+     "label": "h2h Real Betis  @2.7"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Sevilla",
+     "side": "home",
+     "point": null,
+     "odds": 3.0,
+     "eff": 3.0,
+     "three_way": true,
+     "stake": 835.46,
+     "cost": 835.46,
+     "label": "h2h Sevilla  @3.0"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.46,
+     "eff": 3.46,
+     "three_way": true,
+     "stake": 724.39,
+     "cost": 724.39,
+     "label": "h2h Draw  @3.46"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 292,
+   "time": "2026-11-21T17:17:09Z",
+   "game": "bun:26NOV21SCHVFB",
+   "title": "FC Schalke 04 v VfB Stuttgart",
+   "league": "bun",
+   "kickoff": "2026-11-21T17:30:00Z",
+   "min_to_ko": 12.8,
+   "t_lp": 0.007612,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "onexbet",
+    "unibet_uk"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "67846fc0359aeff2d0b6f3f8a2a674f4",
+    "sport": "soccer_germany_bundesliga",
+    "home": "FC Schalke 04",
+    "away": "VfB Stuttgart"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2519.0175,
+   "guaranteed_profit": 19.0275,
+   "legs": [
+    {
+     "venue": "BK:unibet_uk",
+     "book": "unibet_uk",
+     "market": "h2h",
+     "outcome": "FC Schalke 04",
+     "side": "home",
+     "point": null,
+     "odds": 3.75,
+     "eff": 3.75,
+     "three_way": true,
+     "stake": 671.74,
+     "cost": 671.74,
+     "label": "h2h FC Schalke 04  @3.75"
+    },
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "VfB Stuttgart",
+     "side": "away",
+     "point": null,
+     "odds": 2.06,
+     "eff": 2.0388,
+     "three_way": true,
+     "stake": 1235.54,
+     "cost": 1235.54,
+     "label": "h2h VfB Stuttgart  @2.06"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.25,
+     "eff": 4.25,
+     "three_way": true,
+     "stake": 592.71,
+     "cost": 592.71,
+     "label": "h2h Draw  @4.25"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 293,
+   "time": "2026-11-21T17:17:09Z",
+   "game": "ere:26NOV21FEYEXC",
+   "title": "Feyenoord Rotterdam v SBV Excelsior",
+   "league": "ere",
+   "kickoff": "2026-11-21T17:45:00Z",
+   "min_to_ko": 27.8,
+   "t_lp": 0.028532,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "15c2074550c986e69e8b9831b596f37d",
+    "sport": "soccer_netherlands_eredivisie",
+    "home": "Feyenoord",
+    "away": "Excelsior"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2571.3156,
+   "guaranteed_profit": 71.3256,
+   "legs": [
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 3.5,
+     "odds": 2.24,
+     "eff": 2.2152000000000003,
+     "three_way": true,
+     "stake": 1160.76,
+     "cost": 1160.76,
+     "label": "totals Over 3.5 @2.24"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "totals",
+     "outcome": "Under",
+     "side": "under",
+     "point": 3.5,
+     "odds": 1.92,
+     "eff": 1.92,
+     "three_way": true,
+     "stake": 1339.23,
+     "cost": 1339.23,
+     "label": "totals Under 3.5 @1.92"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -2905,7 +3172,7 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 289,
+ "n_trades": 293,
  "n_settled": 248,
  "realized_pnl": -90699.61557200005,
  "runs": 70,
@@ -2914,10 +3181,10 @@
   "KS": 3.552713678800501e-15,
   "BK:smarkets": 12344.129999999997,
   "BK:pinnacle": 8713.320000000002,
-  "BK:onexbet": 19445.920000000006,
-  "BK:matchbook": 7091.509999999999,
+  "BK:onexbet": 22937.710000000003,
+  "BK:matchbook": 10427.94,
   "BK:leovegas_se": 11461.860000000017,
-  "BK:gtbets": 5139.700000000001,
+  "BK:gtbets": 6753.870000000001,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 5911.430000000012,
@@ -2929,7 +3196,7 @@
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 0.0,
-  "BK:betonlineag": 2519.76,
+  "BK:betonlineag": 3405.57,
   "BK:skybet": 0.0,
   "BK:betrivers": 4227.93,
   "BK:lowvig": 484.65,
@@ -2945,7 +3212,7 @@
   "BK:williamhill": 0.0,
   "BK:ladbrokes_uk": 2.2737367544323206e-13,
   "BK:betus": 3869.2799999999997,
-  "BK:unibet_uk": 668.53
+  "BK:unibet_uk": 1340.27
  },
  "peak_locked": {
   "PM": 4486.7806,
@@ -2955,7 +3222,7 @@
   "BK:onexbet": 69050.37999999999,
   "BK:matchbook": 12468.15,
   "BK:leovegas_se": 47555.970000000016,
-  "BK:gtbets": 6720.040000000001,
+  "BK:gtbets": 6753.870000000001,
   "BK:winamax_de": 805.8,
   "BK:grosvenor": 292.3,
   "BK:unibet_se": 24382.670000000006,
@@ -2983,7 +3250,7 @@
   "BK:williamhill": 1331.77,
   "BK:ladbrokes_uk": 4528.91,
   "BK:betus": 3869.2799999999997,
-  "BK:unibet_uk": 668.53
+  "BK:unibet_uk": 1340.27
  },
  "min_cash": {
   "PM": 2369.7283000000007,
@@ -3005,7 +3272,7 @@
   "BK:betfair_ex_uk": 505.96,
   "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": 66.21999999999997,
-  "BK:betonlineag": -8440.136800000002,
+  "BK:betonlineag": -9325.946800000003,
   "BK:skybet": -1150.75,
   "BK:betrivers": -1141.39,
   "BK:lowvig": -5332.4805,
@@ -3021,7 +3288,7 @@
   "BK:williamhill": -1697.0,
   "BK:ladbrokes_uk": -7734.96,
   "BK:betus": -3289.2799999999997,
-  "BK:unibet_uk": -88.52999999999997
+  "BK:unibet_uk": -760.27
  },
  "transfers": [],
  "transfer_stats": {
@@ -3037,14 +3304,14 @@
    "3": 115,
    "4": 114,
    "5": 116,
-   "6": 183,
-   "7": 186,
-   "8": 187,
-   "9": 183,
-   "10": 188,
-   "11": 188,
-   "12": 186,
-   "13": 186
+   "6": 177,
+   "7": 174,
+   "8": 175,
+   "9": 177,
+   "10": 176,
+   "11": 176,
+   "12": 180,
+   "13": 180
   },
   "spent": {
    "2026-11-06": 27,
@@ -3061,7 +3328,7 @@
    "2026-11-18": 191,
    "2026-11-19": 300,
    "2026-11-20": 530,
-   "2026-11-21": 906
+   "2026-11-21": 978
   }
  },
  "book_slots": {
@@ -3281,6 +3548,14 @@
   "lal|2026-11-21T20:00|180": "2026-11-21T17:00:37Z",
   "bun|2026-11-21T17:30|30": "2026-11-21T17:00:37Z",
   "ere|2026-11-21T20:00|180": "2026-11-21T17:00:38Z",
-  "scop|2026-11-21T20:00|180": "2026-11-21T17:00:38Z"
+  "scop|2026-11-21T20:00|180": "2026-11-21T17:00:38Z",
+  "epl|2026-11-21T17:30|15": "2026-11-21T17:15:22Z",
+  "lal|2026-11-21T17:30|15": "2026-11-21T17:15:23Z",
+  "bun|2026-11-21T17:30|15": "2026-11-21T17:15:23Z",
+  "ere|2026-11-21T17:45|30": "2026-11-21T17:15:23Z",
+  "scop|2026-11-21T17:45|30": "2026-11-21T17:15:23Z",
+  "epl|2026-11-21T17:30|5": "2026-11-21T17:25:06Z",
+  "lal|2026-11-21T17:30|5": "2026-11-21T17:25:07Z",
+  "bun|2026-11-21T17:30|5": "2026-11-21T17:25:08Z"
  }
 }
