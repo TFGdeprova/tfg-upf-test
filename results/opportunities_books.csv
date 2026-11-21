@@ -1847,3 +1847,37 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-21T14:15:22Z,bun:26NOV21SVESCF,SV 07 Elversberg v SC Freiburg,bun,14.6,scheduled,9,-0.003562,-0.00156,no gap,,,
 2026-11-21T14:15:22Z,fl1:26NOV21NICPSG,OGC Nice v Paris Saint-Germain FC,fl1,119.6,scheduled,7,-0.003465,0.0018,no gap,,fl1:26NOV21NICPSG|2026-11-21T14:15:20Z|with_books,
 2026-11-21T14:16:43Z,bun:26NOV21BMGBVB,Borussia Mönchengladbach v BV Borussia 09 Dortmund,bun,13.3,confirmation,11,-0.001398,0.011054,executed,,,smarkets h2h Borussia Dortmund  @1.75 x0.583 | unibet_se h2h Borussia Monchengladbach  @5.25 x0.193 | unibet_se h2h Draw  @4.5 x0.225
+2026-11-21T14:25:43Z,bun:26NOV21BMGBVB,Borussia Mönchengladbach v BV Borussia 09 Dortmund,bun,4.3,scheduled,11,-0.000448,0.0013,no gap,,bun:26NOV21BMGBVB|2026-11-21T14:25:41Z|with_books,
+2026-11-21T14:25:51Z,bun:26NOV21SGETSG,Eintracht Frankfurt v TSG 1899 Hoffenheim,bun,4.1,scheduled,7,0.001459,0.001459,no gap,,,
+2026-11-21T14:25:51Z,bun:26NOV21LEVPAD,Bayer 04 Leverkusen v SC Paderborn 07,bun,4.1,scheduled,9,-0.001937,0.004085,seen,,bun:26NOV21LEVPAD|2026-11-21T14:25:51Z|with_books,ladbrokes_uk h2h Bayer Leverkusen  @1.33 x0.755 | smarkets h2h SC Paderborn  @10.5 x0.097 | betonlineag h2h Draw  @6.8 x0.148
+2026-11-21T14:25:51Z,bun:26NOV21UNIRBL,1. FC Union Berlin v RB Leipzig,bun,4.1,scheduled,11,-0.003369,-0.003369,no gap,,,
+2026-11-21T14:25:53Z,bun:26NOV21SVESCF,SV 07 Elversberg v SC Freiburg,bun,4.1,scheduled,9,-0.004505,0.0091,seen,,bun:26NOV21SVESCF|2026-11-21T14:25:53Z|with_books,onexbet totals Over 2.5 @1.78 x0.567 | unibet_se totals Under 2.5 @2.33 x0.433
+2026-11-21T14:27:24Z,bun:26NOV21LEVPAD,Bayer 04 Leverkusen v SC Paderborn 07,bun,2.6,confirmation,9,-0.001937,0.004085,executed,,,betmgm h2h Bayer Leverkusen  @1.33 x0.755 | matchbook h2h SC Paderborn  @10.5 x0.097 | betonlineag h2h Draw  @6.8 x0.148
+2026-11-21T14:27:24Z,bun:26NOV21SVESCF,SV 07 Elversberg v SC Freiburg,bun,2.6,confirmation,9,-0.004505,0.0091,executed,,,onexbet totals Over 2.5 @1.78 x0.567 | unibet_se totals Under 2.5 @2.33 x0.433
+2026-11-21T14:30:34Z,epl:26NOV21AVLSUN,Aston Villa FC v Sunderland AFC,epl,29.4,scheduled,7,-0.002808,0.005778,seen,,epl:26NOV21AVLSUN|2026-11-21T14:30:34Z|with_books,onexbet h2h Aston Villa  @1.84 x0.547 | smarkets h2h Sunderland  @5.0 x0.204 | onexbet h2h Draw  @4.04 x0.249
+2026-11-21T14:30:34Z,epl:26NOV21COVCRY,Coventry City FC v Crystal Palace FC,epl,29.4,scheduled,7,-0.000448,0.007034,seen,,epl:26NOV21COVCRY|2026-11-21T14:30:34Z|with_books,onexbet totals Over 2.5 @1.81 x0.556 | betanysports totals Under 2.5 @2.27 x0.444
+2026-11-21T14:30:34Z,epl:26NOV21TOTIPS,Tottenham Hotspur FC v Ipswich Town FC,epl,29.4,scheduled,9,0.004152,0.004152,no gap,,,
+2026-11-21T14:30:36Z,epl:26NOV21CFCLEE,Chelsea FC v Leeds United FC,epl,29.4,scheduled,5,-0.001398,-0.001241,no gap,,,
+2026-11-21T14:30:36Z,epl:26NOV21BOUNFO,AFC Bournemouth v Nottingham Forest FC,epl,29.4,scheduled,5,0.000321,0.005924,seen,,epl:26NOV21BOUNFO|2026-11-21T14:30:34Z|with_books,pinnacle h2h Bournemouth  @2.09 x0.481 | unibet_se h2h Nottingham Forest  @4.1 x0.245 | onexbet h2h Draw  @3.68 x0.273
+2026-11-21T14:30:40Z,elc:26NOV21STKBC,Stoke City FC v Birmingham City FC,elc,29.3,scheduled,7,-0.002981,-0.002981,no gap,,,
+2026-11-21T14:30:44Z,elc:26NOV21SHUWAT,Sheffield United FC v Watford FC,elc,29.3,scheduled,7,-0.003828,-0.002836,no gap,,,
+2026-11-21T14:30:44Z,elc:26NOV21SWAWBA,Swansea City AFC v West Bromwich Albion FC,elc,29.3,scheduled,5,-0.005158,-0.005158,no gap,,,
+2026-11-21T14:30:44Z,elc:26NOV21WOLCHA,Wolverhampton Wanderers FC v Charlton Athletic FC,elc,29.3,scheduled,9,-0.003925,0.01993,seen,413.2,elc:26NOV21WOLCHA|2026-11-21T14:30:44Z|with_books,PM NO 0.220 x0.233 Will Wolverhampton Wanderers FC win on 2026-11-21? | gtbets h2h Wolverhampton Wanderers  @1.33 x0.767
+2026-11-21T14:30:44Z,elc:26NOV21MIDBRC,Middlesbrough FC v Bristol City FC,elc,29.3,scheduled,11,-0.003078,-0.003078,no gap,,,
+2026-11-21T14:30:44Z,elc:26NOV21LICWRE,Lincoln City FC v Wrexham AFC,elc,29.3,scheduled,9,-0.002786,0.003129,seen,,elc:26NOV21LICWRE|2026-11-21T14:30:42Z|with_books,matchbook h2h Lincoln City  @2.9 x0.350 | betonlineag h2h Wrexham AFC  @2.83 x0.354 | leovegas_se h2h Draw  @3.4 x0.295
+2026-11-21T14:30:44Z,elc:26NOV21BOLPOR,Bolton Wanderers FC v Portsmouth FC,elc,29.3,scheduled,5,-0.004409,-0.000969,no gap,,,
+2026-11-21T14:30:44Z,elc:26NOV21WHUPNE,West Ham United FC v Preston North End FC,elc,29.3,scheduled,9,-0.002883,-0.002883,no gap,,,
+2026-11-21T14:30:46Z,scop:26NOV21KILABE,Kilmarnock FC v Aberdeen FC,scop,29.2,scheduled,9,-0.006674,-0.006674,no gap,,,
+2026-11-21T14:30:50Z,scop:26NOV21FALJOH,Falkirk FC v St Johnstone FC,scop,29.2,scheduled,7,-0.004216,-0.004216,no gap,,,
+2026-11-21T14:30:50Z,scop:26NOV21HIBDUU,Hibernian FC v Dundee United FC,scop,29.2,scheduled,11,-0.005078,-0.005078,no gap,,,
+2026-11-21T14:30:50Z,scop:26NOV21CELMIR,Celtic FC v St Mirren FC,scop,29.2,scheduled,9,-0.004196,-0.00385,no gap,,,
+2026-11-21T14:31:14Z,epl:26NOV21NEWARS,Newcastle United FC v Arsenal FC,epl,178.8,scheduled,7,-0.001937,0.006388,seen,,epl:26NOV21NEWARS|2026-11-21T14:31:14Z|with_books,onexbet h2h Arsenal  @1.62 x0.621 | smarkets h2h Newcastle United  @6.8 x0.151 | onexbet h2h Draw  @4.41 x0.228
+2026-11-21T14:31:16Z,lal:26NOV21SEVRBB,Sevilla FC v Real Betis Balompié,lal,178.7,scheduled,5,-0.000448,0.009381,seen,,lal:26NOV21SEVRBB|2026-11-21T14:31:16Z|with_books,onexbet totals Over 2.5 @1.97 x0.512 | coolbet totals Under 2.5 @2.07 x0.488
+2026-11-21T14:31:16Z,bun:26NOV21SCHVFB,FC Schalke 04 v VfB Stuttgart,bun,178.7,scheduled,11,-0.002693,-8.1e-05,no gap,,,
+2026-11-21T14:32:19Z,elc:26NOV21WOLCHA,Wolverhampton Wanderers FC v Charlton Athletic FC,elc,27.7,confirmation,9,-0.003925,0.023581,executed,,,smarkets h2h Charlton Athletic  @13.5 x0.077 | gtbets h2h Wolverhampton Wanderers  @1.33 x0.770 | matchbook h2h Draw  @6.8 x0.153
+2026-11-21T14:32:21Z,elc:26NOV21LICWRE,Lincoln City FC v Wrexham AFC,elc,27.6,confirmation,9,-0.002786,0.003129,executed,,,smarkets h2h Lincoln City  @2.9 x0.350 | betonlineag h2h Wrexham AFC  @2.83 x0.354 | leovegas_se h2h Draw  @3.4 x0.295
+2026-11-21T14:33:07Z,epl:26NOV21AVLSUN,Aston Villa FC v Sunderland AFC,epl,26.9,confirmation,7,-0.002808,0.005778,executed,,,onexbet h2h Aston Villa  @1.84 x0.547 | smarkets h2h Sunderland  @5.0 x0.204 | onexbet h2h Draw  @4.04 x0.249
+2026-11-21T14:33:07Z,epl:26NOV21COVCRY,Coventry City FC v Crystal Palace FC,epl,26.9,confirmation,7,-0.000448,0.007034,executed,,,onexbet totals Over 2.5 @1.81 x0.556 | betanysports totals Under 2.5 @2.27 x0.444
+2026-11-21T14:33:07Z,epl:26NOV21BOUNFO,AFC Bournemouth v Nottingham Forest FC,epl,26.9,confirmation,5,0.000321,0.005924,executed,,,pinnacle h2h Bournemouth  @2.09 x0.481 | unibet_se h2h Nottingham Forest  @4.1 x0.245 | onexbet h2h Draw  @3.68 x0.273
+2026-11-21T14:33:26Z,epl:26NOV21NEWARS,Newcastle United FC v Arsenal FC,epl,176.6,confirmation,7,-0.001937,0.006388,executed,,,onexbet h2h Arsenal  @1.62 x0.621 | smarkets h2h Newcastle United  @6.8 x0.151 | onexbet h2h Draw  @4.41 x0.228
+2026-11-21T14:33:26Z,lal:26NOV21SEVRBB,Sevilla FC v Real Betis Balompié,lal,176.6,confirmation,5,-0.000448,0.009381,executed,,,onexbet totals Over 2.5 @1.97 x0.512 | coolbet totals Under 2.5 @2.07 x0.488

@@ -257,3 +257,12 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 256,2026-11-21T14:03:05Z,elc:26NOV21LICWRE,Lincoln City FC v Wrexham AFC,elc,2026-11-21T15:00:00Z,56.9,0.012952,True,"['leovegas_se', 'pinnacle', 'smarkets']",False,2499.98,2532.3506,32.3706,open,,,,,3
 257,2026-11-21T14:03:07Z,elc:26NOV21WHUPNE,West Ham United FC v Preston North End FC,elc,2026-11-21T15:00:00Z,56.9,0.003431,True,"['betrivers', 'betus']",False,2499.99,2508.564,8.574,open,,,,,2
 258,2026-11-21T14:16:43Z,bun:26NOV21BMGBVB,Borussia Mönchengladbach v BV Borussia 09 Dortmund,bun,2026-11-21T14:30:00Z,13.3,0.011054,True,"['smarkets', 'unibet_se']",False,2499.98,2527.605,27.625,open,,,,,3
+259,2026-11-21T14:27:24Z,bun:26NOV21LEVPAD,Bayer 04 Leverkusen v SC Paderborn 07,bun,2026-11-21T14:30:00Z,2.6,0.004085,True,"['betmgm', 'betonlineag', 'matchbook']",False,2499.98,2510.152,10.172,open,,,,,3
+260,2026-11-21T14:27:24Z,bun:26NOV21SVESCF,SV 07 Elversberg v SC Freiburg,bun,2026-11-21T14:30:00Z,2.6,0.0091,True,"['onexbet', 'unibet_se']",False,2499.99,2522.7376,22.7476,open,,,,,2
+261,2026-11-21T14:32:19Z,elc:26NOV21WOLCHA,Wolverhampton Wanderers FC v Charlton Athletic FC,elc,2026-11-21T15:00:00Z,27.7,0.023581,True,"['gtbets', 'matchbook', 'smarkets']",False,2499.98,2558.84,58.86,open,,,,,3
+262,2026-11-21T14:32:21Z,elc:26NOV21LICWRE,Lincoln City FC v Wrexham AFC,elc,2026-11-21T15:00:00Z,27.6,0.003129,True,"['betonlineag', 'leovegas_se', 'smarkets']",False,2499.98,2507.7989,7.8189,open,,,,,3
+263,2026-11-21T14:33:07Z,epl:26NOV21AVLSUN,Aston Villa FC v Sunderland AFC,epl,2026-11-21T15:00:00Z,26.9,0.005778,True,"['onexbet', 'smarkets']",False,2499.98,2514.4152,14.4352,open,,,,,3
+264,2026-11-21T14:33:07Z,epl:26NOV21COVCRY,Coventry City FC v Crystal Palace FC,epl,2026-11-21T15:00:00Z,26.9,0.007034,True,"['betanysports', 'onexbet']",False,2499.99,2517.5662,17.5762,open,,,,,2
+265,2026-11-21T14:33:07Z,epl:26NOV21BOUNFO,AFC Bournemouth v Nottingham Forest FC,epl,2026-11-21T15:00:00Z,26.9,0.005924,True,"['onexbet', 'pinnacle', 'unibet_se']",False,2499.98,2514.776,14.796,open,,,,,3
+266,2026-11-21T14:33:26Z,epl:26NOV21NEWARS,Newcastle United FC v Arsenal FC,epl,2026-11-21T17:30:00Z,176.6,0.006388,True,"['onexbet', 'smarkets']",False,2499.98,2515.9244,15.9444,open,,,,,3
+267,2026-11-21T14:33:26Z,lal:26NOV21SEVRBB,Sevilla FC v Real Betis Balompié,lal,2026-11-21T17:30:00Z,176.6,0.009381,True,"['coolbet', 'onexbet']",False,2499.99,2523.4335,23.4435,open,,,,,2
