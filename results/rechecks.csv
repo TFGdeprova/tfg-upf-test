@@ -1625,3 +1625,4 @@ time,watch,kind,game,title,league,min_to_ko,lag_s,detected,recheck,t_detected,t_
 2026-11-20T19:55:22Z,lal:26NOV20ATHESP|2026-11-20T19:30:24Z|with_books,with_books,lal:26NOV20ATHESP,Athletic Club v RCD Espanyol de Barcelona,lal,4.6,1498.6,2026-11-20T19:30:24Z,scheduled,0.00475,-0.035709,3/3,-0.001839,False,False,ok
 2026-11-20T19:55:22Z,lal:26NOV20ATHESP|2026-11-20T19:45:22Z|with_books,with_books,lal:26NOV20ATHESP,Athletic Club v RCD Espanyol de Barcelona,lal,4.6,600.2,2026-11-20T19:45:22Z,scheduled,0.00475,-0.035709,3/3,-0.001839,False,False,ok
 2026-11-21T00:26:40Z,nba:26NOV20TORDET|2026-11-21T00:25:32Z|with_books,with_books,nba:26NOV20TORDET,TOR at DET,nba,3.3,68.6,2026-11-21T00:25:32Z,confirmation,0.009535,0.009535,2/2,0.009535,True,True,ok
+2026-11-21T02:46:45Z,nba:26NOV20HOUDEN|2026-11-21T02:45:28Z|with_books,with_books,nba:26NOV20HOUDEN,HOU at DEN,nba,13.2,77.2,2026-11-21T02:45:28Z,confirmation,0.013586,-0.007533,5/5,-0.007533,False,False,ok
