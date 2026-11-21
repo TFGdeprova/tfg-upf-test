@@ -223,3 +223,7 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 222,2026-11-21T09:31:40Z,epl:26NOV21MCIFUL,Manchester City FC v Fulham FC,epl,2026-11-21T12:30:00Z,178.3,0.002092,True,"['matchbook', 'onexbet', 'smarkets']",False,2499.98,2505.1699,5.1899,open,,,,,3
 223,2026-11-21T10:31:59Z,epl:26NOV21MCIFUL,Manchester City FC v Fulham FC,epl,2026-11-21T12:30:00Z,118.0,0.004795,True,"['onexbet', 'smarkets']",False,2499.99,2511.9464,11.9564,open,,,,,3
 224,2026-11-21T11:02:22Z,lal:26NOV21ALADEP,Deportivo Alavés v RC Deportivo A Coruña,lal,2026-11-21T13:00:00Z,117.6,0.020903,True,"['matchbook', 'onexbet']",False,2499.99,2552.2386,52.2486,open,,,,,2
+225,2026-11-21T11:31:42Z,epl:26NOV21MCIFUL,Manchester City FC v Fulham FC,epl,2026-11-21T12:30:00Z,58.3,0.012138,True,"['coolbet', 'matchbook']",False,2499.99,2530.33,30.34,open,,,,,2
+226,2026-11-21T11:31:42Z,elc:26NOV21SOUDER,Southampton FC v Derby County FC,elc,2026-11-21T12:30:00Z,58.3,0.012817,True,"['matchbook', 'pinnacle', 'skybet']",False,2499.98,2531.9999,32.0199,open,,,,,3
+227,2026-11-21T11:31:42Z,elc:26NOV21NORCAR,Norwich City FC v Cardiff City FC,elc,2026-11-21T12:30:00Z,58.3,0.032731,True,"['coral', 'pinnacle', 'smarkets']",False,2499.99,2581.8144,81.8244,open,,,,,3
+228,2026-11-21T11:32:34Z,bun:26NOV21LEVPAD,Bayer 04 Leverkusen v SC Paderborn 07,bun,2026-11-21T14:30:00Z,177.4,0.008329,True,"['betonlineag', 'ladbrokes_uk', 'unibet_se']",False,2499.99,2520.8,20.81,open,,,,,3
