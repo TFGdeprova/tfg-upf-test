@@ -1,11 +1,11 @@
 {
  "cash": {
-  "PM": 12625.155100000002,
+  "PM": 11436.9238,
   "KS": 7254.919999999997,
   "BK:smarkets": 4995.840194000002,
-  "BK:pinnacle": -2061.1707999999976,
-  "BK:onexbet": -77646.4194,
-  "BK:matchbook": 5664.601108000003,
+  "BK:pinnacle": -857.3011999999978,
+  "BK:onexbet": -67479.62430000001,
+  "BK:matchbook": 8171.969392000003,
   "BK:leovegas_se": -16543.034020000025,
   "BK:gtbets": -65.67649999999958,
   "BK:winamax_de": 1144.1699999999996,
@@ -14,7 +14,7 @@
   "BK:tipico_de": -1205.0719999999997,
   "BK:coolbet": 12070.775099999999,
   "BK:unibet_nl": -3629.9800000000027,
-  "BK:marathonbet": -13349.3378,
+  "BK:marathonbet": -8319.612399999998,
   "BK:coral": -727.607,
   "BK:betfair_ex_uk": 117.15999999999998,
   "BK:betfred_uk": -768.02,
@@ -36,7 +36,7 @@
   "BK:ladbrokes_uk": -2699.5135,
   "BK:betus": -780.8719999999994,
   "BK:unibet_uk": -760.27,
-  "BK:nordicbet": -1413.38
+  "BK:nordicbet": 3609.9376
  },
  "start_cash": {
   "PM": 5800.0,
@@ -79,689 +79,62 @@
  },
  "open": [
   {
-   "trade_id": 287,
-   "time": "2026-11-21T17:02:17Z",
-   "game": "lal:26NOV21RMARCC",
-   "title": "Real Madrid CF v RC Celta de Vigo",
-   "league": "lal",
-   "kickoff": "2026-11-21T20:00:00Z",
-   "min_to_ko": 177.7,
-   "t_lp": 0.019333,
+   "trade_id": 313,
+   "time": "2026-11-21T22:31:54Z",
+   "game": "nba:26NOV21PORNYK",
+   "title": "POR at NYK",
+   "league": "nba",
+   "kickoff": "2026-11-22T00:30:00Z",
+   "min_to_ko": 118.1,
+   "t_lp": 0.01793,
    "with_books": true,
    "books": [
-    "onexbet",
-    "smarkets"
+    "pinnacle"
    ],
    "spain_only": false,
    "event": {
-    "id": "90af957b2f622a5cf805e60b151c54b9",
-    "sport": "soccer_spain_la_liga",
-    "home": "Real Madrid",
-    "away": "Celta Vigo"
+    "id": "232f705eea406644ff14ad17bcf9aea6",
+    "sport": "basketball_nba",
+    "home": "New York Knicks",
+    "away": "Portland Trail Blazers"
    },
-   "cost": 2499.98,
-   "guaranteed_payout": 2548.1957,
-   "guaranteed_profit": 48.2157,
-   "legs": [
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Celta Vigo",
-     "side": "away",
-     "point": null,
-     "odds": 21.01,
-     "eff": 20.6098,
-     "three_way": true,
-     "stake": 123.64,
-     "cost": 123.64,
-     "label": "h2h Celta Vigo  @21.01"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Real Madrid",
-     "side": "home",
-     "point": null,
-     "odds": 1.21,
-     "eff": 1.21,
-     "three_way": true,
-     "stake": 2106.05,
-     "cost": 2106.05,
-     "label": "h2h Real Madrid  @1.21"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 9.6,
-     "eff": 9.427999999999999,
-     "three_way": true,
-     "stake": 270.29,
-     "cost": 270.29,
-     "label": "h2h Draw  @9.6"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 289,
-   "time": "2026-11-21T17:02:17Z",
-   "game": "ere:26NOV21GROHEE",
-   "title": "FC Groningen v SC Heerenveen",
-   "league": "ere",
-   "kickoff": "2026-11-21T20:00:00Z",
-   "min_to_ko": 177.7,
-   "t_lp": 0.002951,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "smarkets",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "cc8ea455586c0bdfcca464f1bf617843",
-    "sport": "soccer_netherlands_eredivisie",
-    "home": "Groningen",
-    "away": "Heerenveen"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2507.3557,
-   "guaranteed_profit": 7.3657,
-   "legs": [
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Groningen",
-     "side": "home",
-     "point": null,
-     "odds": 2.85,
-     "eff": 2.85,
-     "three_way": true,
-     "stake": 879.78,
-     "cost": 879.78,
-     "label": "h2h Groningen  @2.85"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Heerenveen",
-     "side": "away",
-     "point": null,
-     "odds": 2.54,
-     "eff": 2.5092,
-     "three_way": true,
-     "stake": 999.27,
-     "cost": 999.27,
-     "label": "h2h Heerenveen  @2.54"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.1,
-     "eff": 4.038,
-     "three_way": true,
-     "stake": 620.94,
-     "cost": 620.94,
-     "label": "h2h Draw  @4.1"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 301,
-   "time": "2026-11-21T18:02:04Z",
-   "game": "lal:26NOV21RMARCC",
-   "title": "Real Madrid CF v RC Celta de Vigo",
-   "league": "lal",
-   "kickoff": "2026-11-21T20:00:00Z",
-   "min_to_ko": 117.9,
-   "t_lp": 0.015448,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "onexbet",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "90af957b2f622a5cf805e60b151c54b9",
-    "sport": "soccer_spain_la_liga",
-    "home": "Real Madrid",
-    "away": "Celta Vigo"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2538.551,
-   "guaranteed_profit": 38.561,
-   "legs": [
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Celta Vigo",
-     "side": "away",
-     "point": null,
-     "odds": 19.5,
-     "eff": 19.13,
-     "three_way": true,
-     "stake": 132.7,
-     "cost": 132.7,
-     "label": "h2h Celta Vigo  @19.5"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Real Madrid",
-     "side": "home",
-     "point": null,
-     "odds": 1.21,
-     "eff": 1.21,
-     "three_way": true,
-     "stake": 2098.03,
-     "cost": 2098.03,
-     "label": "h2h Real Madrid  @1.21"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 9.6,
-     "eff": 9.427999999999999,
-     "three_way": true,
-     "stake": 269.26,
-     "cost": 269.26,
-     "label": "h2h Draw  @9.6"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 302,
-   "time": "2026-11-21T18:02:06Z",
-   "game": "ere:26NOV21GROHEE",
-   "title": "FC Groningen v SC Heerenveen",
-   "league": "ere",
-   "kickoff": "2026-11-21T20:00:00Z",
-   "min_to_ko": 117.9,
-   "t_lp": 0.004672,
-   "with_books": true,
-   "books": [
-    "nordicbet",
-    "smarkets",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "cc8ea455586c0bdfcca464f1bf617843",
-    "sport": "soccer_netherlands_eredivisie",
-    "home": "Groningen",
-    "away": "Heerenveen"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2511.6588,
-   "guaranteed_profit": 11.6688,
-   "legs": [
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Groningen",
-     "side": "home",
-     "point": null,
-     "odds": 2.85,
-     "eff": 2.85,
-     "three_way": true,
-     "stake": 881.29,
-     "cost": 881.29,
-     "label": "h2h Groningen  @2.85"
-    },
-    {
-     "venue": "BK:nordicbet",
-     "book": "nordicbet",
-     "market": "h2h",
-     "outcome": "Heerenveen",
-     "side": "away",
-     "point": null,
-     "odds": 2.52,
-     "eff": 2.52,
-     "three_way": true,
-     "stake": 996.69,
-     "cost": 996.69,
-     "label": "h2h Heerenveen  @2.52"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.1,
-     "eff": 4.038,
-     "three_way": true,
-     "stake": 622.01,
-     "cost": 622.01,
-     "label": "h2h Draw  @4.1"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 303,
-   "time": "2026-11-21T19:01:49Z",
-   "game": "lal:26NOV21RMARCC",
-   "title": "Real Madrid CF v RC Celta de Vigo",
-   "league": "lal",
-   "kickoff": "2026-11-21T20:00:00Z",
-   "min_to_ko": 58.2,
-   "t_lp": 0.014473,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "90af957b2f622a5cf805e60b151c54b9",
-    "sport": "soccer_spain_la_liga",
-    "home": "Real Madrid",
-    "away": "Celta Vigo"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2536.0812,
-   "guaranteed_profit": 36.1012,
-   "legs": [
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Celta Vigo",
-     "side": "away",
-     "point": null,
-     "odds": 20.0,
-     "eff": 19.62,
-     "three_way": true,
-     "stake": 129.26,
-     "cost": 129.26,
-     "label": "h2h Celta Vigo  @20.0"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Real Madrid",
-     "side": "home",
-     "point": null,
-     "odds": 1.21,
-     "eff": 1.21,
-     "three_way": true,
-     "stake": 2096.01,
-     "cost": 2096.01,
-     "label": "h2h Real Madrid  @1.21"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 9.4,
-     "eff": 9.232,
-     "three_way": true,
-     "stake": 274.71,
-     "cost": 274.71,
-     "label": "h2h Draw  @9.4"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 304,
-   "time": "2026-11-21T19:01:49Z",
-   "game": "ere:26NOV21GROHEE",
-   "title": "FC Groningen v SC Heerenveen",
-   "league": "ere",
-   "kickoff": "2026-11-21T20:00:00Z",
-   "min_to_ko": 58.2,
-   "t_lp": 0.004672,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "nordicbet",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "cc8ea455586c0bdfcca464f1bf617843",
-    "sport": "soccer_netherlands_eredivisie",
-    "home": "Groningen",
-    "away": "Heerenveen"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2511.6588,
-   "guaranteed_profit": 11.6688,
-   "legs": [
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Groningen",
-     "side": "home",
-     "point": null,
-     "odds": 2.85,
-     "eff": 2.85,
-     "three_way": true,
-     "stake": 881.29,
-     "cost": 881.29,
-     "label": "h2h Groningen  @2.85"
-    },
-    {
-     "venue": "BK:nordicbet",
-     "book": "nordicbet",
-     "market": "h2h",
-     "outcome": "Heerenveen",
-     "side": "away",
-     "point": null,
-     "odds": 2.52,
-     "eff": 2.52,
-     "three_way": true,
-     "stake": 996.69,
-     "cost": 996.69,
-     "label": "h2h Heerenveen  @2.52"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.1,
-     "eff": 4.038,
-     "three_way": true,
-     "stake": 622.01,
-     "cost": 622.01,
-     "label": "h2h Draw  @4.1"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 307,
-   "time": "2026-11-21T19:31:52Z",
-   "game": "lal:26NOV21RMARCC",
-   "title": "Real Madrid CF v RC Celta de Vigo",
-   "league": "lal",
-   "kickoff": "2026-11-21T20:00:00Z",
-   "min_to_ko": 28.1,
-   "t_lp": 0.017479,
-   "with_books": true,
-   "books": [
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "90af957b2f622a5cf805e60b151c54b9",
-    "sport": "soccer_spain_la_liga",
-    "home": "Real Madrid",
-    "away": "Celta Vigo"
-   },
-   "cost": 2499.9895,
-   "guaranteed_payout": 2543.6862,
-   "guaranteed_profit": 43.6967,
+   "cost": 2499.9912,
+   "guaranteed_payout": 2544.8144,
+   "guaranteed_profit": 44.8232,
    "legs": [
     {
      "venue": "PM",
-     "id": "0x2717d2d6259b48059d6a329e83fb390fe6ebbfabcaa856ea322e29ad959480c1",
-     "label": "Will Real Madrid CF win on 2026-11-21?",
-     "side": "NO",
-     "price": 0.15000000000000002,
-     "shares": 2543.69,
-     "fee": 16.21602,
-     "cost": 397.7695
+     "id": "0x185cb1f15b108d50d5cecfb00fdd906d65087cd8679995825d4ae88ba24dd751",
+     "label": "Trail Blazers vs. Knicks: O/U 216.5",
+     "side": "YES",
+     "price": 0.44,
+     "shares": 1311.76,
+     "fee": 16.16088,
+     "cost": 593.3353
     },
     {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Real Madrid",
-     "side": "home",
-     "point": null,
-     "odds": 1.21,
-     "eff": 1.21,
-     "three_way": true,
-     "stake": 2102.22,
-     "cost": 2102.22,
-     "label": "h2h Real Madrid  @1.21"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 309,
-   "time": "2026-11-21T19:31:56Z",
-   "game": "ere:26NOV21GROHEE",
-   "title": "FC Groningen v SC Heerenveen",
-   "league": "ere",
-   "kickoff": "2026-11-21T20:00:00Z",
-   "min_to_ko": 28.1,
-   "t_lp": 0.006257,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "pinnacle",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "cc8ea455586c0bdfcca464f1bf617843",
-    "sport": "soccer_netherlands_eredivisie",
-    "home": "Groningen",
-    "away": "Heerenveen"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2515.6296,
-   "guaranteed_profit": 15.6396,
-   "legs": [
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Groningen",
-     "side": "home",
-     "point": null,
-     "odds": 2.85,
-     "eff": 2.85,
-     "three_way": true,
-     "stake": 882.68,
-     "cost": 882.68,
-     "label": "h2h Groningen  @2.85"
+     "venue": "PM",
+     "id": "0x502fcf8b2a2fe089e9c8db1b506595136d5b998ee3346b25e9bf4f433202935d",
+     "label": "Trail Blazers vs. Knicks: O/U 215.5",
+     "side": "YES",
+     "price": 0.47,
+     "shares": 1233.06,
+     "fee": 15.35776,
+     "cost": 594.896
     },
     {
      "venue": "BK:pinnacle",
      "book": "pinnacle",
-     "market": "h2h",
-     "outcome": "Heerenveen",
-     "side": "away",
-     "point": null,
-     "odds": 2.53,
-     "eff": 2.53,
-     "three_way": true,
-     "stake": 994.32,
-     "cost": 994.32,
-     "label": "h2h Heerenveen  @2.53"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.1,
-     "eff": 4.038,
-     "three_way": true,
-     "stake": 622.99,
-     "cost": 622.99,
-     "label": "h2h Draw  @4.1"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 311,
-   "time": "2026-11-21T19:46:49Z",
-   "game": "lal:26NOV21RMARCC",
-   "title": "Real Madrid CF v RC Celta de Vigo",
-   "league": "lal",
-   "kickoff": "2026-11-21T20:00:00Z",
-   "min_to_ko": 13.2,
-   "t_lp": 0.003999,
-   "with_books": true,
-   "books": [
-    "betfair_ex_uk",
-    "marathonbet",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "90af957b2f622a5cf805e60b151c54b9",
-    "sport": "soccer_spain_la_liga",
-    "home": "Real Madrid",
-    "away": "Celta Vigo"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2509.931,
-   "guaranteed_profit": 9.941,
-   "legs": [
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Celta Vigo",
-     "side": "away",
-     "point": null,
-     "odds": 20.0,
-     "eff": 19.62,
-     "three_way": true,
-     "stake": 127.93,
-     "cost": 127.93,
-     "label": "h2h Celta Vigo  @20.0"
-    },
-    {
-     "venue": "BK:marathonbet",
-     "book": "marathonbet",
-     "market": "h2h",
-     "outcome": "Real Madrid",
-     "side": "home",
-     "point": null,
-     "odds": 1.19,
-     "eff": 1.19,
-     "three_way": true,
-     "stake": 2109.24,
-     "cost": 2109.24,
-     "label": "h2h Real Madrid  @1.19"
-    },
-    {
-     "venue": "BK:betfair_ex_uk",
-     "book": "betfair_ex_uk",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 10.0,
-     "eff": 9.549999999999999,
-     "three_way": true,
-     "stake": 262.82,
-     "cost": 262.82,
-     "label": "h2h Draw  @10.0"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 312,
-   "time": "2026-11-21T19:56:49Z",
-   "game": "lal:26NOV21RMARCC",
-   "title": "Real Madrid CF v RC Celta de Vigo",
-   "league": "lal",
-   "kickoff": "2026-11-21T20:00:00Z",
-   "min_to_ko": 3.2,
-   "t_lp": 0.007893,
-   "with_books": true,
-   "books": [
-    "betfair_ex_uk",
-    "marathonbet",
-    "matchbook"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "90af957b2f622a5cf805e60b151c54b9",
-    "sport": "soccer_spain_la_liga",
-    "home": "Real Madrid",
-    "away": "Celta Vigo"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2519.6,
-   "guaranteed_profit": 19.61,
-   "legs": [
-    {
-     "venue": "BK:betfair_ex_uk",
-     "book": "betfair_ex_uk",
-     "market": "h2h",
-     "outcome": "Celta Vigo",
-     "side": "away",
-     "point": null,
-     "odds": 21.0,
-     "eff": 20.0,
-     "three_way": true,
-     "stake": 125.98,
-     "cost": 125.98,
-     "label": "h2h Celta Vigo  @21.0"
-    },
-    {
-     "venue": "BK:marathonbet",
-     "book": "marathonbet",
-     "market": "h2h",
-     "outcome": "Real Madrid",
-     "side": "home",
-     "point": null,
-     "odds": 1.19,
-     "eff": 1.19,
-     "three_way": true,
-     "stake": 2117.42,
-     "cost": 2117.42,
-     "label": "h2h Real Madrid  @1.19"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 10.0,
-     "eff": 9.82,
-     "three_way": true,
-     "stake": 256.59,
-     "cost": 256.59,
-     "label": "h2h Draw  @10.0"
+     "market": "totals",
+     "outcome": "Under",
+     "side": "under",
+     "point": 216.0,
+     "odds": 1.94,
+     "eff": 1.94,
+     "three_way": false,
+     "stake": 1311.76,
+     "cost": 1311.76,
+     "label": "totals Under 216.0 @1.94"
     }
    ],
    "status": "open"
@@ -791,20 +164,28 @@
   "PM|0x2717d2d6259b48059d6a329e83fb390fe6ebbfabcaa856ea322e29ad959480c1|NO|0.1500": {
    "n": 2543.69,
    "t": "2026-11-21T19:31:52Z"
+  },
+  "PM|0x185cb1f15b108d50d5cecfb00fdd906d65087cd8679995825d4ae88ba24dd751|YES|0.4400": {
+   "n": 1311.76,
+   "t": "2026-11-21T22:31:54Z"
+  },
+  "PM|0x502fcf8b2a2fe089e9c8db1b506595136d5b998ee3346b25e9bf4f433202935d|YES|0.4700": {
+   "n": 1233.06,
+   "t": "2026-11-21T22:31:54Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 312,
- "n_settled": 302,
- "realized_pnl": -89492.54981800007,
+ "n_trades": 313,
+ "n_settled": 312,
+ "realized_pnl": -89249.59333400006,
  "runs": 71,
  "locked": {
-  "PM": 397.76950000000033,
+  "PM": 1188.2313000000004,
   "KS": 3.552713678800501e-15,
-  "BK:smarkets": 2034.0699999999993,
-  "BK:pinnacle": 994.3200000000004,
-  "BK:onexbet": 8402.310000000007,
-  "BK:matchbook": 3037.529999999998,
+  "BK:smarkets": 0.0,
+  "BK:pinnacle": 1311.7600000000002,
+  "BK:onexbet": 6.821210263296962e-12,
+  "BK:matchbook": 0.0,
   "BK:leovegas_se": 1.7394086171407253e-11,
   "BK:gtbets": 0.0,
   "BK:winamax_de": 0.0,
@@ -812,10 +193,10 @@
   "BK:unibet_se": 1.2278178473934531e-11,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 2.2737367544323206e-13,
-  "BK:unibet_nl": 3525.040000000002,
-  "BK:marathonbet": 4226.66,
+  "BK:unibet_nl": 2.1600499167107046e-12,
+  "BK:marathonbet": 0.0,
   "BK:coral": 0.0,
-  "BK:betfair_ex_uk": 388.8,
+  "BK:betfair_ex_uk": 1.4210854715202004e-14,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 0.0,
   "BK:betonlineag": 1.1368683772161603e-13,
@@ -835,7 +216,7 @@
   "BK:ladbrokes_uk": 2.2737367544323206e-13,
   "BK:betus": 0.0,
   "BK:unibet_uk": 0.0,
-  "BK:nordicbet": 1993.38
+  "BK:nordicbet": 0.0
  },
  "peak_locked": {
   "PM": 4486.7806,
@@ -930,13 +311,13 @@
    "4": 114,
    "5": 116,
    "6": 123,
-   "7": 126,
+   "7": 124,
    "8": 125,
-   "9": 127,
-   "10": 128,
-   "11": 126,
+   "9": 121,
+   "10": 122,
+   "11": 120,
    "12": 124,
-   "13": 126
+   "13": 124
   },
   "spent": {
    "2026-11-06": 27,
@@ -953,7 +334,7 @@
    "2026-11-18": 191,
    "2026-11-19": 300,
    "2026-11-20": 530,
-   "2026-11-21": 1388
+   "2026-11-21": 1410
   }
  },
  "book_slots": {
@@ -1229,6 +610,8 @@
   "nba|2026-11-22T00:30|180": "2026-11-21T21:30:16Z",
   "nhl|2026-11-21T23:00|60": "2026-11-21T22:00:27Z",
   "nhl|2026-11-22T00:00|120": "2026-11-21T22:00:27Z",
-  "nba|2026-11-22T01:00|180": "2026-11-21T22:00:27Z"
+  "nba|2026-11-22T01:00|180": "2026-11-21T22:00:27Z",
+  "nba|2026-11-22T00:30|120": "2026-11-21T22:30:12Z",
+  "nhl|2026-11-21T23:00|30": "2026-11-21T22:30:13Z"
  }
 }
