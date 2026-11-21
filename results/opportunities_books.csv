@@ -1800,3 +1800,34 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-21T13:33:20Z,sea:26NOV21LAZLEC,SS Lazio v US Lecce,sea,26.7,confirmation,9,-0.002132,0.009055,executed,,,onexbet h2h Lazio  @1.58 x0.639 | smarkets h2h Lecce  @7.0 x0.147 | unibet_se h2h Draw  @4.7 x0.215
 2026-11-21T13:33:44Z,bun:26NOV21BMGBVB,Borussia Mönchengladbach v BV Borussia 09 Dortmund,bun,56.3,confirmation,11,-0.002346,0.010117,executed,,,betmgm h2h Borussia Dortmund  @1.69 x0.598 | skybet h2h Borussia Monchengladbach  @5.5 x0.184 | onexbet h2h Draw  @4.62 x0.219
 2026-11-21T13:33:44Z,bun:26NOV21SGETSG,Eintracht Frankfurt v TSG 1899 Hoffenheim,bun,56.3,confirmation,9,-0.000448,0.007107,executed,,,coolbet h2h Eintracht Frankfurt  @2.57 x0.392 | smarkets h2h TSG Hoffenheim  @2.72 x0.375 | onexbet h2h Draw  @4.32 x0.233
+2026-11-21T13:45:29Z,sea:26NOV21COMCAG,Como 1907 v Cagliari Calcio,sea,14.5,scheduled,11,-0.002883,0.006264,seen,,sea:26NOV21COMCAG|2026-11-21T13:45:27Z|with_books,matchbook h2h Cagliari  @11.5 x0.089 | onexbet h2h Como  @1.34 x0.751 | matchbook h2h Draw  @6.4 x0.160
+2026-11-21T13:45:29Z,sea:26NOV21LAZLEC,SS Lazio v US Lecce,sea,14.5,scheduled,9,-0.003175,0.011341,seen,,sea:26NOV21LAZLEC|2026-11-21T13:45:29Z|with_books,onexbet h2h Lazio  @1.58 x0.640 | smarkets h2h Lecce  @7.0 x0.147 | unibet_se h2h Draw  @4.75 x0.213
+2026-11-21T13:47:50Z,sea:26NOV21COMCAG,Como 1907 v Cagliari Calcio,sea,12.2,confirmation,11,-0.002883,0.01115,executed,,,matchbook h2h Cagliari  @11.5 x0.090 | onexbet h2h Como  @1.34 x0.755 | smarkets h2h Draw  @6.6 x0.156
+2026-11-21T13:47:50Z,sea:26NOV21LAZLEC,SS Lazio v US Lecce,sea,12.2,confirmation,7,-0.003175,0.009595,executed,,,onexbet h2h Lazio  @1.58 x0.639 | betonlineag h2h Lecce  @6.8 x0.148 | unibet_se h2h Draw  @4.75 x0.213
+2026-11-21T13:55:43Z,sea:26NOV21COMCAG,Como 1907 v Cagliari Calcio,sea,4.3,scheduled,11,-0.002883,0.007129,seen,,sea:26NOV21COMCAG|2026-11-21T13:55:43Z|with_books,smarkets h2h Cagliari  @12.5 x0.082 | coolbet h2h Como  @1.32 x0.763 | tipico_de h2h Draw  @6.5 x0.155
+2026-11-21T13:55:43Z,sea:26NOV21LAZLEC,SS Lazio v US Lecce,sea,4.3,scheduled,7,-0.003175,0.00746,seen,,sea:26NOV21LAZLEC|2026-11-21T13:55:41Z|with_books,coolbet h2h Lazio  @1.56 x0.646 | onexbet h2h Lecce  @7.09 x0.142 | unibet_se h2h Draw  @4.75 x0.212
+2026-11-21T13:58:07Z,sea:26NOV21COMCAG,Como 1907 v Cagliari Calcio,sea,1.9,confirmation,11,-0.002883,0.007369,executed,,,smarkets h2h Cagliari  @12.5 x0.082 | coolbet h2h Como  @1.32 x0.763 | betfair_ex_eu h2h Draw  @6.8 x0.155
+2026-11-21T13:58:07Z,sea:26NOV21LAZLEC,SS Lazio v US Lecce,sea,1.9,confirmation,7,-0.002229,0.00746,executed,,,coolbet h2h Lazio  @1.56 x0.646 | onexbet h2h Lecce  @7.09 x0.142 | unibet_se h2h Draw  @4.75 x0.212
+2026-11-21T14:00:27Z,epl:26NOV21AVLSUN,Aston Villa FC v Sunderland AFC,epl,59.5,scheduled,7,-0.002981,0.009772,seen,,epl:26NOV21AVLSUN|2026-11-21T14:00:27Z|with_books,pinnacle h2h Aston Villa  @1.85 x0.546 | coolbet h2h Sunderland  @4.9 x0.206 | onexbet h2h Draw  @4.07 x0.248
+2026-11-21T14:00:27Z,epl:26NOV21COVCRY,Coventry City FC v Crystal Palace FC,epl,59.5,scheduled,7,-0.000448,0.014008,seen,,epl:26NOV21COVCRY|2026-11-21T14:00:25Z|with_books,onexbet totals Over 2.5 @1.87 x0.542 | matchbook totals Under 2.5 @2.24 x0.458
+2026-11-21T14:00:27Z,epl:26NOV21TOTIPS,Tottenham Hotspur FC v Ipswich Town FC,epl,59.5,scheduled,9,0.005115,0.010941,seen,,epl:26NOV21TOTIPS|2026-11-21T14:00:27Z|with_books,boylesports h2h Ipswich Town  @6.0 x0.168 | coolbet h2h Tottenham Hotspur  @1.65 x0.613 | onexbet h2h Draw  @4.62 x0.219
+2026-11-21T14:00:27Z,epl:26NOV21CFCLEE,Chelsea FC v Leeds United FC,epl,59.5,scheduled,5,-0.001398,-0.0006,no gap,,,
+2026-11-21T14:00:27Z,epl:26NOV21BOUNFO,AFC Bournemouth v Nottingham Forest FC,epl,59.5,scheduled,7,-0.000632,0.004135,seen,,epl:26NOV21BOUNFO|2026-11-21T14:00:25Z|with_books,matchbook totals Over 2.5 @2.14 x0.474 | unibet_se totals Under 2.5 @1.91 x0.526
+2026-11-21T14:00:29Z,sea:26NOV21PARROM,Parma Calcio 1913 v AS Roma,sea,179.5,scheduled,9,-0.002264,-0.002264,no gap,,,
+2026-11-21T14:00:29Z,bun:26NOV21BMGBVB,Borussia Mönchengladbach v BV Borussia 09 Dortmund,bun,29.5,scheduled,11,-0.001398,0.001359,no gap,,bun:26NOV21BMGBVB|2026-11-21T14:00:27Z|with_books,
+2026-11-21T14:00:34Z,bun:26NOV21SGETSG,Eintracht Frankfurt v TSG 1899 Hoffenheim,bun,29.4,scheduled,9,-0.000448,-8.3e-05,no gap,,,
+2026-11-21T14:00:40Z,bun:26NOV21LEVPAD,Bayer 04 Leverkusen v SC Paderborn 07,bun,29.3,scheduled,9,-0.001937,0.005857,seen,,bun:26NOV21LEVPAD|2026-11-21T14:00:40Z|with_books,ladbrokes_uk h2h Bayer Leverkusen  @1.33 x0.756 | unibet_se h2h SC Paderborn  @10.5 x0.096 | betonlineag h2h Draw  @6.8 x0.148
+2026-11-21T14:00:40Z,bun:26NOV21UNIRBL,1. FC Union Berlin v RB Leipzig,bun,29.3,scheduled,11,-0.002423,-0.002423,no gap,,,
+2026-11-21T14:00:40Z,bun:26NOV21SVESCF,SV 07 Elversberg v SC Freiburg,bun,29.3,scheduled,9,-0.003562,-0.000912,no gap,,,
+2026-11-21T14:00:40Z,elc:26NOV21STKBC,Stoke City FC v Birmingham City FC,elc,59.3,scheduled,7,-0.003925,-0.003925,no gap,,,
+2026-11-21T14:00:40Z,elc:26NOV21SHUWAT,Sheffield United FC v Watford FC,elc,59.3,scheduled,7,-0.003828,-0.003364,no gap,,,
+2026-11-21T14:00:40Z,elc:26NOV21SWAWBA,Swansea City AFC v West Bromwich Albion FC,elc,59.3,scheduled,5,-0.005158,-0.005158,no gap,,,
+2026-11-21T14:00:42Z,elc:26NOV21WOLCHA,Wolverhampton Wanderers FC v Charlton Athletic FC,elc,59.3,scheduled,9,-0.004023,0.013908,seen,,elc:26NOV21WOLCHA|2026-11-21T14:00:42Z|with_books,matchbook h2h Charlton Athletic  @12.5 x0.083 | leovegas_se h2h Wolverhampton Wanderers  @1.35 x0.751 | matchbook h2h Draw  @6.2 x0.166
+2026-11-21T14:00:44Z,elc:26NOV21MIDBRC,Middlesbrough FC v Bristol City FC,elc,59.3,scheduled,9,-0.003078,-0.003078,no gap,,,
+2026-11-21T14:00:46Z,elc:26NOV21LICWRE,Lincoln City FC v Wrexham AFC,elc,59.2,scheduled,7,-0.002786,0.007859,seen,,elc:26NOV21LICWRE|2026-11-21T14:00:46Z|with_books,smarkets h2h Lincoln City  @2.82 x0.362 | pinnacle h2h Wrexham AFC  @2.99 x0.337 | leovegas_se h2h Draw  @3.35 x0.301
+2026-11-21T14:00:46Z,elc:26NOV21BOLPOR,Bolton Wanderers FC v Portsmouth FC,elc,59.2,scheduled,5,-0.004409,-0.004409,no gap,,,
+2026-11-21T14:00:46Z,elc:26NOV21WHUPNE,West Ham United FC v Preston North End FC,elc,59.2,scheduled,9,-0.002883,0.003431,seen,,elc:26NOV21WHUPNE|2026-11-21T14:00:46Z|with_books,betus totals Over 3.5 @2.3 x0.436 | betrivers totals Under 3.5 @1.78 x0.564
+2026-11-21T14:00:46Z,scop:26NOV21KILABE,Kilmarnock FC v Aberdeen FC,scop,59.2,scheduled,9,-0.004792,-0.004792,no gap,,,
+2026-11-21T14:00:48Z,scop:26NOV21FALJOH,Falkirk FC v St Johnstone FC,scop,59.2,scheduled,5,-0.004023,-0.004023,no gap,,,
+2026-11-21T14:00:48Z,scop:26NOV21HIBDUU,Hibernian FC v Dundee United FC,scop,59.2,scheduled,11,-0.004313,-0.004313,no gap,,,
+2026-11-21T14:00:49Z,scop:26NOV21CELMIR,Celtic FC v St Mirren FC,scop,59.2,scheduled,9,-0.004573,-0.004395,no gap,,,

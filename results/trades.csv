@@ -245,3 +245,7 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 244,2026-11-21T13:33:20Z,sea:26NOV21LAZLEC,SS Lazio v US Lecce,sea,2026-11-21T14:00:00Z,26.7,0.009055,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.99,2522.6208,22.6308,open,,,,,3
 245,2026-11-21T13:33:44Z,bun:26NOV21BMGBVB,Borussia Mönchengladbach v BV Borussia 09 Dortmund,bun,2026-11-21T14:30:00Z,56.3,0.010117,True,"['betmgm', 'onexbet', 'skybet']",False,2499.99,2525.27,25.28,open,,,,,3
 246,2026-11-21T13:33:44Z,bun:26NOV21SGETSG,Eintracht Frankfurt v TSG 1899 Hoffenheim,bun,2026-11-21T14:30:00Z,56.3,0.007107,True,"['coolbet', 'onexbet', 'smarkets']",False,2499.98,2517.7392,17.7592,open,,,,,3
+247,2026-11-21T13:47:50Z,sea:26NOV21COMCAG,Como 1907 v Cagliari Calcio,sea,2026-11-21T14:00:00Z,12.2,0.01115,True,"['matchbook', 'onexbet', 'smarkets']",False,2499.99,2527.831,27.841,open,,,,,3
+248,2026-11-21T13:47:50Z,sea:26NOV21LAZLEC,SS Lazio v US Lecce,sea,2026-11-21T14:00:00Z,12.2,0.009595,True,"['betonlineag', 'onexbet', 'unibet_se']",False,2499.98,2523.956,23.976,open,,,,,3
+249,2026-11-21T13:58:07Z,sea:26NOV21COMCAG,Como 1907 v Cagliari Calcio,sea,2026-11-21T14:00:00Z,1.9,0.007369,True,"['betfair_ex_eu', 'coolbet', 'smarkets']",False,2499.99,2518.3935,18.4035,open,,,,,3
+250,2026-11-21T13:58:07Z,sea:26NOV21LAZLEC,SS Lazio v US Lecce,sea,2026-11-21T14:00:00Z,1.9,0.00746,True,"['coolbet', 'onexbet', 'unibet_se']",False,2499.98,2518.5807,18.6007,open,,,,,3
