@@ -1,4 +1,4 @@
-# Paper-trading bot: status at 2026-11-21T13:38:07Z
+# Paper-trading bot: status at 2026-11-21T13:40:50Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
@@ -14,7 +14,7 @@ Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities):
 | Equity (cash + open at cost + in transit) | $-60,625.08 ≈ €-52,263.00 |
 | Return so far (realised / peak money in use) | -58.575% over 14.6 days |
 
-Polymarket/Kalshi gaps above the threshold: below_min_size 922, executed 36, rounding 90, seen 1138, vanished 69.
+Polymarket/Kalshi gaps above the threshold: below_min_size 922, executed 36, rounding 90, seen 1139, vanished 69.
 Gaps using bookmakers: below_min_size 4, executed 210, no_cash 41, rounding 3, seen 297, vanished 30 (snapshots combined with Polymarket/Kalshi: 1801).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
@@ -71,7 +71,7 @@ Transfers between accounts: 4 ($1,399.69 moved, $0.00 in fees; 0 still in transi
 
 ## Gaps followed: the same portfolio re-checked later, and order-book depth
 
-Gaps above 0.1% followed: 173 Polymarket/Kalshi and 325 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
+Gaps above 0.1% followed: 174 Polymarket/Kalshi and 325 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
 
 | re-check | measured | still profitable | above 0.2% | a leg no longer offered | censored |
 |---|---|---|---|---|---|
@@ -84,7 +84,7 @@ Gaps above 0.1% followed: 173 Polymarket/Kalshi and 325 with bookmakers. A re-ch
 
 Depth at detection (capacity = largest size still profitable after walking the order books):
 
-- Polymarket/Kalshi gaps (173): median capacity $0 (maximum $2,826); still profitable with a $50 stake: 31 of 171; median largest guaranteed profit $0.00.
+- Polymarket/Kalshi gaps (174): median capacity $0 (maximum $2,826); still profitable with a $50 stake: 31 of 172; median largest guaranteed profit $0.00.
 - Gaps with bookmakers (325): median capacity $20,000 (maximum $20,000); still profitable with a $50 stake: 312 of 325; median largest guaranteed profit $181.10. Bookmakers publish no order-book depth, so only the Polymarket/Kalshi legs limit these sizes and the capacity stops at the search limit of $20,000; the bot's bets with bookmakers are capped at $2,500.
 
 Details: `results/rechecks.csv`, `results/depth.csv`.
