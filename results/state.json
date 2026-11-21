@@ -21,7 +21,7 @@
   "BK:betfair_ex_eu": 453.07,
   "BK:betonlineag": -3111.3768,
   "BK:skybet": -375.10999999999996,
-  "BK:betrivers": 5854.9733,
+  "BK:betrivers": 8378.795699999999,
   "BK:lowvig": -4847.8305,
   "BK:mybookieag": -4546.4125,
   "BK:betmgm": 5098.2534000000005,
@@ -72,57 +72,6 @@
   "BK:ladbrokes_uk": 580.0
  },
  "open": [
-  {
-   "trade_id": 219,
-   "time": "2026-11-21T00:26:46Z",
-   "game": "nba:26NOV20TORDET",
-   "title": "TOR at DET",
-   "league": "nba",
-   "kickoff": "2026-11-21T00:30:00Z",
-   "min_to_ko": 3.2,
-   "t_lp": 0.009535,
-   "with_books": true,
-   "books": [
-    "betrivers"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "9051693857c6a0e5e1bc6bb2b4f6fe35",
-    "sport": "basketball_nba",
-    "home": "Detroit Pistons",
-    "away": "Toronto Raptors"
-   },
-   "cost": 2499.9878,
-   "guaranteed_payout": 2523.8224,
-   "guaranteed_profit": 23.8346,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x79f59c8adac672c651dc899bb7ad5c6b389ceeb47a7752bc13db3ccf8cbac3fe",
-     "label": "Raptors vs. Pistons: O/U 217.5",
-     "side": "YES",
-     "price": 0.46,
-     "shares": 2523.83,
-     "fee": 31.34597,
-     "cost": 1192.3078
-    },
-    {
-     "venue": "BK:betrivers",
-     "book": "betrivers",
-     "market": "totals",
-     "outcome": "Under",
-     "side": "under",
-     "point": 217.5,
-     "odds": 1.93,
-     "eff": 1.93,
-     "three_way": false,
-     "stake": 1307.68,
-     "cost": 1307.68,
-     "label": "totals Under 217.5 @1.93"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 220,
    "time": "2026-11-21T03:02:36Z",
@@ -260,11 +209,11 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 221,
- "n_settled": 218,
- "realized_pnl": -91391.59264800005,
+ "n_settled": 219,
+ "realized_pnl": -91367.75804800005,
  "runs": 67,
  "locked": {
-  "PM": 2068.179,
+  "PM": 875.8712,
   "KS": 49.5,
   "BK:smarkets": 2.8421709430404007e-13,
   "BK:pinnacle": 2.2737367544323206e-13,
@@ -285,7 +234,7 @@
   "BK:betfair_ex_eu": 0.0,
   "BK:betonlineag": 4.547473508864641e-13,
   "BK:skybet": 0.0,
-  "BK:betrivers": 1307.68,
+  "BK:betrivers": 0.0,
   "BK:lowvig": 0.0,
   "BK:mybookieag": 0.0,
   "BK:betmgm": 0.0,
@@ -389,7 +338,7 @@
    "7": 204,
    "8": 315,
    "9": 315,
-   "10": 318,
+   "10": 316,
    "11": 314,
    "12": 312,
    "13": 312
@@ -409,7 +358,7 @@
    "2026-11-18": 191,
    "2026-11-19": 300,
    "2026-11-20": 530,
-   "2026-11-21": 96
+   "2026-11-21": 98
   }
  },
  "book_slots": {

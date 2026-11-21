@@ -1,18 +1,18 @@
-# Paper-trading bot: status at 2026-11-21T03:22:27Z
+# Paper-trading bot: status at 2026-11-21T03:42:26Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 221 / 218 |
-| Realised profit | $-91,391.59 ≈ €-78,785.86 |
+| Trades executed / settled | 221 / 219 |
+| Realised profit | $-91,367.76 ≈ €-78,765.31 |
 | … Polymarket/Kalshi only | $45.76 |
-| … with bookmakers (all) | $-91,437.35 |
+| … with bookmakers (all) | $-91,413.51 |
 | … with bookmakers licensed in Spain only | $-2,285.19 |
-| Open positions (cost) | $3,425.36 |
+| Open positions (cost) | $925.37 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $-61,231.59 ≈ €-52,785.85 |
-| Return so far (realised / peak money in use) | -58.592% over 14.2 days |
+| Equity (cash + open at cost + in transit) | $-61,207.75 ≈ €-52,765.31 |
+| Return so far (realised / peak money in use) | -58.577% over 14.2 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 760, executed 36, rounding 86, seen 954, vanished 65.
 Gaps using bookmakers: below_min_size 4, executed 185, no_cash 41, rounding 3, seen 268, vanished 26 (snapshots combined with Polymarket/Kalshi: 1684).
@@ -21,7 +21,7 @@ Gaps using bookmakers: below_min_size 4, executed 185, no_cash 41, rounding 3, s
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 2,615 (about 6.0 days at the current pace).
+The Odds API credits left: 2,613 (about 6.1 days at the current pace).
 
 ## Capital by account
 
@@ -29,7 +29,7 @@ Peak in use = the most money that was tied up in open positions at the same time
 
 | account | start | cash now | in open positions | peak in use | lowest cash |
 |---|---|---|---|---|---|
-| Polymarket | $5,800.00 | $14,032.70 | $2,068.18 | $4,486.78 | $2,369.73 |
+| Polymarket | $5,800.00 | $14,032.70 | $875.87 | $4,486.78 | $2,369.73 |
 | Kalshi | $5,800.00 | $7,254.92 | $49.50 | $2,216.01 | $2,967.42 |
 | betanysports | $580.00 | $-894.59 | $0.00 | $4,190.72 | $-3,610.72 |
 | betfair_ex_eu (Spain) | $580.00 | $453.07 | $0.00 | $126.93 | $453.07 |
@@ -37,7 +37,7 @@ Peak in use = the most money that was tied up in open positions at the same time
 | betfred_uk | $580.00 | $-768.02 | $0.00 | $1,348.02 | $-768.02 |
 | betmgm | $580.00 | $5,098.25 | $0.00 | $5,577.36 | $-4,997.36 |
 | betonlineag | $580.00 | $-3,111.38 | $0.00 | $4,590.49 | $-4,391.48 |
-| betrivers | $580.00 | $5,854.97 | $1,307.68 | $2,248.46 | $-1,141.39 |
+| betrivers | $580.00 | $8,378.80 | $0.00 | $2,248.46 | $-1,141.39 |
 | betsson | $580.00 | $2,119.70 | $0.00 | $986.99 | $-406.99 |
 | bovada | $580.00 | $-244.12 | $0.00 | $824.12 | $-244.12 |
 | boylesports | $580.00 | $1,315.03 | $0.00 | $1,813.51 | $-1,233.51 |
@@ -94,7 +94,7 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 |---|---|---|---|---|---|---|---|---|---|
 | 221 | 11-21T03:03 | Club Tijuana v Atlante FC | 6.4 | no | 0.29% | $160.59 | $0.41 | open |  |
 | 220 | 11-21T03:02 | Club Tijuana v Atlante FC | 7.4 | no | 0.29% | $764.79 | $2.21 | open |  |
-| 219 | 11-21T00:26 | TOR at DET | 3.2 | betrivers | 0.95% | $2499.99 | $23.83 | open |  |
+| 219 | 11-21T00:26 | TOR at DET | 3.2 | betrivers | 0.95% | $2499.99 | $23.83 | settled | $+23.83 |
 | 218 | 11-20T19:46 | Athletic Club v RCD Espanyol de Barcelona | 13.1 | onexbet, smarkets, winamax_de | 0.47% | $2499.99 | $11.86 | settled | $+11.87 |
 | 217 | 11-20T19:41 | ES Troyes AC v Le Havre AC | 3.1 | marathonbet, pinnacle, unibet_se | 0.97% | $2499.98 | $24.20 | settled | $+24.22 |
 | 216 | 11-20T19:31 | ES Troyes AC v Le Havre AC | 13.1 | onexbet, pinnacle, unibet_se | 1.59% | $2499.99 | $39.73 | settled | $+39.73 |
