@@ -1,7 +1,7 @@
 {
- "run": 70,
- "run_started": "2026-11-21T16:44:09Z",
- "last_update": "2026-11-21T22:19:17Z",
+ "run": 71,
+ "run_started": "2026-11-21T22:20:14Z",
+ "last_update": "2026-11-21T22:20:56Z",
  "code_version": "e9425b1d03a8",
  "private_raw_storage": true,
  "odds_api_keys": {
@@ -32,43 +32,43 @@
   },
   "ODDS_API_KEY_6": {
    "valid": true,
-   "remaining": 201,
-   "used": 299
+   "remaining": 123,
+   "used": 377
   },
   "ODDS_API_KEY_7": {
    "valid": true,
-   "remaining": 198,
-   "used": 302
+   "remaining": 126,
+   "used": 374
   },
   "ODDS_API_KEY_8": {
    "valid": true,
-   "remaining": 199,
-   "used": 301
+   "remaining": 125,
+   "used": 375
   },
   "ODDS_API_KEY_9": {
    "valid": true,
-   "remaining": 195,
-   "used": 305
+   "remaining": 127,
+   "used": 373
   },
   "ODDS_API_KEY_10": {
    "valid": true,
-   "remaining": 200,
-   "used": 300
+   "remaining": 128,
+   "used": 372
   },
   "ODDS_API_KEY_11": {
    "valid": true,
-   "remaining": 200,
-   "used": 300
+   "remaining": 126,
+   "used": 374
   },
   "ODDS_API_KEY_12": {
    "valid": true,
-   "remaining": 200,
-   "used": 300
+   "remaining": 124,
+   "used": 376
   },
   "ODDS_API_KEY_13": {
    "valid": true,
-   "remaining": 198,
-   "used": 302
+   "remaining": 126,
+   "used": 374
   },
   "ODDS_API_KEY_14": "not set",
   "ODDS_API_KEY_15": "not set",
@@ -99,19 +99,19 @@
  "transfers_in_transit": 0,
  "games_tracked": 18,
  "games_in_window": 18,
- "checks": 7443,
+ "checks": 18,
  "errors": 0,
- "raw_snapshots": 4327,
- "results_pushes": 17,
- "raw_pushes": 17,
- "book_calls": 92,
- "book_games": 132,
- "book_confirm_calls": 30,
- "score_calls": 17,
- "watches": 39,
- "rechecks": 146,
- "depth_rows": 185,
- "ks_depth_calls": 38,
+ "raw_snapshots": 18,
+ "results_pushes": 0,
+ "raw_pushes": 0,
+ "book_calls": 0,
+ "book_games": 0,
+ "book_confirm_calls": 0,
+ "score_calls": 0,
+ "watches": 0,
+ "rechecks": 0,
+ "depth_rows": 0,
+ "ks_depth_calls": 0,
  "discover_errors": 0,
  "last_discover_error": null,
  "odds_credits_usable": 1323,
