@@ -3,7 +3,7 @@
   "PM": 14960.753400000003,
   "KS": 7254.919999999997,
   "BK:smarkets": -2423.9380879999985,
-  "BK:pinnacle": -10005.137199999997,
+  "BK:pinnacle": -10287.297199999997,
   "BK:onexbet": -98615.3993,
   "BK:matchbook": 3486.3162560000023,
   "BK:leovegas_se": -24122.686020000023,
@@ -13,9 +13,9 @@
   "BK:unibet_se": -14615.365300000009,
   "BK:tipico_de": -3229.0519999999997,
   "BK:coolbet": -1544.7732,
-  "BK:unibet_nl": -10978.64,
+  "BK:unibet_nl": -11135.76,
   "BK:marathonbet": -11633.1788,
-  "BK:coral": 829.1880000000003,
+  "BK:coral": -1231.5119999999995,
   "BK:betfair_ex_uk": 505.96,
   "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": 66.21999999999997,
@@ -3241,11 +3241,82 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 280,
+   "time": "2026-11-21T15:47:06Z",
+   "game": "ere:26NOV21FEYEXC",
+   "title": "Feyenoord Rotterdam v SBV Excelsior",
+   "league": "ere",
+   "kickoff": "2026-11-21T17:45:00Z",
+   "min_to_ko": 117.9,
+   "t_lp": 0.005626,
+   "with_books": true,
+   "books": [
+    "coral",
+    "pinnacle",
+    "unibet_nl"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "15c2074550c986e69e8b9831b596f37d",
+    "sport": "soccer_netherlands_eredivisie",
+    "home": "Feyenoord",
+    "away": "Excelsior"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2513.92,
+   "guaranteed_profit": 13.94,
+   "legs": [
+    {
+     "venue": "BK:unibet_nl",
+     "book": "unibet_nl",
+     "market": "h2h",
+     "outcome": "Excelsior",
+     "side": "away",
+     "point": null,
+     "odds": 16.0,
+     "eff": 16.0,
+     "three_way": true,
+     "stake": 157.12,
+     "cost": 157.12,
+     "label": "h2h Excelsior  @16.0"
+    },
+    {
+     "venue": "BK:coral",
+     "book": "coral",
+     "market": "h2h",
+     "outcome": "Feyenoord",
+     "side": "home",
+     "point": null,
+     "odds": 1.22,
+     "eff": 1.22,
+     "three_way": true,
+     "stake": 2060.7,
+     "cost": 2060.7,
+     "label": "h2h Feyenoord  @1.22"
+    },
+    {
+     "venue": "BK:pinnacle",
+     "book": "pinnacle",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 8.91,
+     "eff": 8.91,
+     "three_way": true,
+     "stake": 282.16,
+     "cost": 282.16,
+     "label": "h2h Draw  @8.91"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {},
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 279,
+ "n_trades": 280,
  "n_settled": 233,
  "realized_pnl": -90971.80515200003,
  "runs": 69,
@@ -3253,7 +3324,7 @@
   "PM": 8.526512829121202e-14,
   "KS": 3.552713678800501e-15,
   "BK:smarkets": 11173.16,
-  "BK:pinnacle": 7600.280000000002,
+  "BK:pinnacle": 7882.440000000001,
   "BK:onexbet": 26937.490000000005,
   "BK:matchbook": 6494.989999999999,
   "BK:leovegas_se": 11461.860000000017,
@@ -3263,9 +3334,9 @@
   "BK:unibet_se": 10411.41000000001,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 9763.130000000001,
-  "BK:unibet_nl": 1018.5600000000012,
+  "BK:unibet_nl": 1175.6800000000012,
   "BK:marathonbet": 1308.14,
-  "BK:coral": 2060.18,
+  "BK:coral": 4120.879999999999,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 386.85,
@@ -3302,7 +3373,7 @@
   "BK:coolbet": 11130.880000000001,
   "BK:unibet_nl": 4157.51,
   "BK:marathonbet": 8525.07,
-  "BK:coral": 3037.7599999999998,
+  "BK:coral": 4120.879999999999,
   "BK:betfair_ex_uk": 74.04,
   "BK:betfred_uk": 1348.02,
   "BK:betfair_ex_eu": 386.85,
@@ -3337,7 +3408,7 @@
   "BK:unibet_se": -28095.540000000008,
   "BK:tipico_de": -3229.0519999999997,
   "BK:coolbet": -8022.379999999999,
-  "BK:unibet_nl": -10978.64,
+  "BK:unibet_nl": -11135.76,
   "BK:marathonbet": -11633.1788,
   "BK:coral": -1699.0869999999998,
   "BK:betfair_ex_uk": 505.96,
@@ -3376,12 +3447,12 @@
    "5": 116,
    "6": 207,
    "7": 204,
-   "8": 213,
-   "9": 213,
-   "10": 212,
-   "11": 212,
-   "12": 212,
-   "13": 210
+   "8": 207,
+   "9": 201,
+   "10": 206,
+   "11": 206,
+   "12": 206,
+   "13": 204
   },
   "spent": {
    "2026-11-06": 27,
@@ -3398,7 +3469,7 @@
    "2026-11-18": 191,
    "2026-11-19": 300,
    "2026-11-20": 530,
-   "2026-11-21": 710
+   "2026-11-21": 752
   }
  },
  "book_slots": {
@@ -3592,6 +3663,13 @@
   "fl1|2026-11-21T16:15|60": "2026-11-21T15:15:24Z",
   "epl|2026-11-21T17:30|120": "2026-11-21T15:30:26Z",
   "lal|2026-11-21T17:30|120": "2026-11-21T15:30:27Z",
-  "bun|2026-11-21T17:30|120": "2026-11-21T15:30:27Z"
+  "bun|2026-11-21T17:30|120": "2026-11-21T15:30:27Z",
+  "fl1|2026-11-21T16:15|30": "2026-11-21T15:45:26Z",
+  "ere|2026-11-21T17:45|120": "2026-11-21T15:45:26Z",
+  "scop|2026-11-21T17:45|120": "2026-11-21T15:45:26Z",
+  "sea|2026-11-21T17:00|60": "2026-11-21T16:00:37Z",
+  "fl1|2026-11-21T16:15|15": "2026-11-21T16:00:39Z",
+  "nba|2026-11-21T18:00|120": "2026-11-21T16:00:39Z",
+  "nhl|2026-11-21T18:00|120": "2026-11-21T16:00:40Z"
  }
 }

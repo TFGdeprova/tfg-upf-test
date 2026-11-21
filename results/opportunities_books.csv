@@ -1942,3 +1942,10 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-21T15:30:47Z,epl:26NOV21NEWARS,Newcastle United FC v Arsenal FC,epl,119.2,scheduled,5,-0.002132,-0.000957,no gap,,,
 2026-11-21T15:30:47Z,lal:26NOV21SEVRBB,Sevilla FC v Real Betis Balompié,lal,119.2,scheduled,5,0.000505,0.001905,no gap,,lal:26NOV21SEVRBB|2026-11-21T15:30:45Z|with_books,
 2026-11-21T15:30:47Z,bun:26NOV21SCHVFB,FC Schalke 04 v VfB Stuttgart,bun,119.2,scheduled,11,-0.003641,-0.003641,no gap,,,
+2026-11-21T15:45:33Z,fl1:26NOV21NICPSG,OGC Nice v Paris Saint-Germain FC,fl1,29.4,scheduled,7,-0.002526,-0.000625,no gap,,,
+2026-11-21T15:45:45Z,ere:26NOV21FEYEXC,Feyenoord Rotterdam v SBV Excelsior,ere,119.2,scheduled,7,-0.00373,0.005626,seen,,ere:26NOV21FEYEXC|2026-11-21T15:45:40Z|with_books,unibet_nl h2h Excelsior  @16.0 x0.063 | coral h2h Feyenoord  @1.22 x0.824 | pinnacle h2h Draw  @8.91 x0.113
+2026-11-21T15:45:45Z,ere:26NOV21FCUCAM,FC Utrecht v SC Cambuur-Leeuwarden,ere,119.2,scheduled,9,-0.004313,-0.004313,no gap,,,
+2026-11-21T15:47:06Z,ere:26NOV21FEYEXC,Feyenoord Rotterdam v SBV Excelsior,ere,117.9,confirmation,7,-0.00373,0.005626,executed,,,unibet_nl h2h Excelsior  @16.0 x0.063 | coral h2h Feyenoord  @1.22 x0.824 | pinnacle h2h Draw  @8.91 x0.113
+2026-11-21T16:00:46Z,fl1:26NOV21NICPSG,OGC Nice v Paris Saint-Germain FC,fl1,14.2,scheduled,7,-0.002337,0.000342,no gap,,,
+2026-11-21T16:00:59Z,nba:26NOV21MILPHI,MIL at PHI,nba,119.0,scheduled,14,-0.008757,-0.008757,no gap,,,
+2026-11-21T16:00:59Z,nhl:26NOV21EDMCAR,EDM at CAR,nhl,119.0,scheduled,8,-0.010685,-0.004484,no gap,,,
