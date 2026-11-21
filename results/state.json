@@ -1,6 +1,6 @@
 {
  "cash": {
-  "PM": 14032.703400000004,
+  "PM": 14960.753400000003,
   "KS": 7254.919999999997,
   "BK:smarkets": 3834.6720399999995,
   "BK:pinnacle": -2369.9915999999985,
@@ -71,85 +71,8 @@
   "BK:williamhill": 580.0,
   "BK:ladbrokes_uk": 580.0
  },
- "open": [
-  {
-   "trade_id": 220,
-   "time": "2026-11-21T03:02:36Z",
-   "game": "lmx:26NOV20TIJALA",
-   "title": "Club Tijuana v Atlante FC",
-   "league": "lmx",
-   "kickoff": "2026-11-21T03:10:00Z",
-   "min_to_ko": 7.4,
-   "t_lp": 0.002907,
-   "cost": 764.7861,
-   "guaranteed_payout": 767.0,
-   "guaranteed_profit": 2.2139,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x8627ebe7f966b6e50785f98244f83f982708b87a2e71a5da24e4ec88144c9fa0",
-     "label": "Club Tijuana vs. Atlante FC: O/U 0.5",
-     "side": "YES",
-     "price": 0.941,
-     "shares": 767.0,
-     "fee": 2.12915,
-     "cost": 723.8761
-    },
-    {
-     "venue": "KS",
-     "id": "KXLIGAMXSCORE-26NOV20TIJALA-TIJ0ALA0",
-     "label": "Draw 0-0",
-     "side": "YES",
-     "price": 0.05,
-     "shares": 767,
-     "fee": 2.56,
-     "cost": 40.91
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 221,
-   "time": "2026-11-21T03:03:36Z",
-   "game": "lmx:26NOV20TIJALA",
-   "title": "Club Tijuana v Atlante FC",
-   "league": "lmx",
-   "kickoff": "2026-11-21T03:10:00Z",
-   "min_to_ko": 6.4,
-   "t_lp": 0.002907,
-   "cost": 160.5851,
-   "guaranteed_payout": 161.0,
-   "guaranteed_profit": 0.4149,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x8627ebe7f966b6e50785f98244f83f982708b87a2e71a5da24e4ec88144c9fa0",
-     "label": "Club Tijuana vs. Atlante FC: O/U 0.5",
-     "side": "YES",
-     "price": 0.941,
-     "shares": 161.05,
-     "fee": 0.44707,
-     "cost": 151.9951
-    },
-    {
-     "venue": "KS",
-     "id": "KXLIGAMXSCORE-26NOV20TIJALA-TIJ0ALA0",
-     "label": "Draw 0-0",
-     "side": "YES",
-     "price": 0.05,
-     "shares": 161,
-     "fee": 0.54,
-     "cost": 8.59
-    }
-   ],
-   "status": "open"
-  }
- ],
+ "open": [],
  "consumed": {
-  "KS|KXBUNDESLIGAGAME-26NOV20BMUKOE-BMU|NO|0.0900": {
-   "n": 2528.0,
-   "t": "2026-11-20T19:16:54Z"
-  },
   "PM|0x79f59c8adac672c651dc899bb7ad5c6b389ceeb47a7752bc13db3ccf8cbac3fe|YES|0.4600": {
    "n": 2523.83,
    "t": "2026-11-21T00:26:46Z"
@@ -165,12 +88,12 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 221,
- "n_settled": 219,
- "realized_pnl": -91367.75804800005,
+ "n_settled": 221,
+ "realized_pnl": -91365.07924800004,
  "runs": 67,
  "locked": {
-  "PM": 875.8712,
-  "KS": 49.5,
+  "PM": 8.526512829121202e-14,
+  "KS": 3.552713678800501e-15,
   "BK:smarkets": 2.8421709430404007e-13,
   "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 9.094947017729282e-13,
