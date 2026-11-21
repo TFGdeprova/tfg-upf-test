@@ -72,6 +72,10 @@ jobs:
         env:
           BOT_COMMIT: "1"
           MAX_RUNTIME_MIN: "335"
+          # 21 Nov: with up to ~70 games in the window at once, 8 parallel checks fell behind (main games every ~70 s
+          # instead of 30 s). 16 parallel checks, and the competitions outside the historical study every 90 s.
+          WORKERS: "16"
+          POLL_EXTRA: "90"
           # Bookmaker odds (The Odds API): each call costs markets x regions credits. From 18 Nov: European bookmakers
           # also for US sports, and US bookmakers also for football; credits only need to last until BOOK_END.
           BOOK_REGIONS_US: "us,eu"
