@@ -2,24 +2,24 @@
  "cash": {
   "PM": 14960.753400000003,
   "KS": 7254.919999999997,
-  "BK:smarkets": 912.2520399999997,
+  "BK:smarkets": -2387.1579600000005,
   "BK:pinnacle": -5154.481599999999,
-  "BK:onexbet": -76547.8297,
-  "BK:matchbook": 3069.999332000003,
+  "BK:onexbet": -78045.1197,
+  "BK:matchbook": 1731.019332000003,
   "BK:leovegas_se": -14327.396020000022,
-  "BK:gtbets": 5009.9357,
+  "BK:gtbets": 3229.4457,
   "BK:winamax_de": 1144.1699999999996,
   "BK:grosvenor": 580.0,
   "BK:unibet_se": -5323.005300000007,
   "BK:tipico_de": -3229.0519999999997,
   "BK:coolbet": 5688.0193,
-  "BK:unibet_nl": -8552.21,
+  "BK:unibet_nl": -9257.49,
   "BK:marathonbet": -10325.038799999998,
-  "BK:coral": 800.793,
+  "BK:coral": 361.093,
   "BK:betfair_ex_uk": 505.96,
   "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": 453.07,
-  "BK:betonlineag": -3463.9368,
+  "BK:betonlineag": -4402.7268,
   "BK:skybet": -691.6099999999999,
   "BK:betrivers": 6969.485699999999,
   "BK:lowvig": -4847.8305,
@@ -878,13 +878,293 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 234,
+   "time": "2026-11-21T12:27:32Z",
+   "game": "epl:26NOV21MCIFUL",
+   "title": "Manchester City FC v Fulham FC",
+   "league": "epl",
+   "kickoff": "2026-11-21T12:30:00Z",
+   "min_to_ko": 2.5,
+   "t_lp": 0.01132,
+   "with_books": true,
+   "books": [
+    "coral",
+    "gtbets",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "6ef39b0fd8839f6e93a3de32523e9807",
+    "sport": "soccer_epl",
+    "home": "Manchester City",
+    "away": "Fulham"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2528.2728,
+   "guaranteed_profit": 28.2828,
+   "legs": [
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Fulham",
+     "side": "away",
+     "point": null,
+     "odds": 9.2,
+     "eff": 9.036,
+     "three_way": true,
+     "stake": 279.8,
+     "cost": 279.8,
+     "label": "h2h Fulham  @9.2"
+    },
+    {
+     "venue": "BK:gtbets",
+     "book": "gtbets",
+     "market": "h2h",
+     "outcome": "Manchester City",
+     "side": "home",
+     "point": null,
+     "odds": 1.42,
+     "eff": 1.42,
+     "three_way": true,
+     "stake": 1780.49,
+     "cost": 1780.49,
+     "label": "h2h Manchester City  @1.42"
+    },
+    {
+     "venue": "BK:coral",
+     "book": "coral",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 5.75,
+     "eff": 5.75,
+     "three_way": true,
+     "stake": 439.7,
+     "cost": 439.7,
+     "label": "h2h Draw  @5.75"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 235,
+   "time": "2026-11-21T12:27:32Z",
+   "game": "elc:26NOV21MILQPR",
+   "title": "Millwall FC v Queens Park Rangers FC",
+   "league": "elc",
+   "kickoff": "2026-11-21T12:30:00Z",
+   "min_to_ko": 2.5,
+   "t_lp": 0.002638,
+   "with_books": true,
+   "books": [
+    "betonlineag",
+    "onexbet",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "063b1a482ff7c013b5c0e8e8af9a42ea",
+    "sport": "soccer_efl_champ",
+    "home": "Millwall",
+    "away": "Queens Park Rangers"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2506.5693,
+   "guaranteed_profit": 6.5893,
+   "legs": [
+    {
+     "venue": "BK:betonlineag",
+     "book": "betonlineag",
+     "market": "h2h",
+     "outcome": "Millwall",
+     "side": "home",
+     "point": null,
+     "odds": 2.67,
+     "eff": 2.67,
+     "three_way": true,
+     "stake": 938.79,
+     "cost": 938.79,
+     "label": "h2h Millwall  @2.67"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Queens Park Rangers",
+     "side": "away",
+     "point": null,
+     "odds": 2.9,
+     "eff": 2.9,
+     "three_way": true,
+     "stake": 864.34,
+     "cost": 864.34,
+     "label": "h2h Queens Park Rangers  @2.9"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.65,
+     "eff": 3.597,
+     "three_way": true,
+     "stake": 696.85,
+     "cost": 696.85,
+     "label": "h2h Draw  @3.65"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 236,
+   "time": "2026-11-21T12:32:26Z",
+   "game": "lal:26NOV21ALADEP",
+   "title": "Deportivo Alav\u00e9s v RC Deportivo A Coru\u00f1a",
+   "league": "lal",
+   "kickoff": "2026-11-21T13:00:00Z",
+   "min_to_ko": 27.6,
+   "t_lp": 0.015615,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "smarkets",
+    "unibet_nl"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "9881e56a732493272e688663b26cd37f",
+    "sport": "soccer_spain_la_liga",
+    "home": "Alav\u00e9s",
+    "away": "Deportivo La Coru\u00f1a"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2539.008,
+   "guaranteed_profit": 39.018,
+   "legs": [
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Alav\u00e9s",
+     "side": "home",
+     "point": null,
+     "odds": 2.3,
+     "eff": 2.274,
+     "three_way": true,
+     "stake": 1116.55,
+     "cost": 1116.55,
+     "label": "h2h Alav\u00e9s  @2.3"
+    },
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Deportivo La Coru\u00f1a",
+     "side": "away",
+     "point": null,
+     "odds": 3.8,
+     "eff": 3.7439999999999998,
+     "three_way": true,
+     "stake": 678.16,
+     "cost": 678.16,
+     "label": "h2h Deportivo La Coru\u00f1a  @3.8"
+    },
+    {
+     "venue": "BK:unibet_nl",
+     "book": "unibet_nl",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.6,
+     "eff": 3.6,
+     "three_way": true,
+     "stake": 705.28,
+     "cost": 705.28,
+     "label": "h2h Draw  @3.6"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 237,
+   "time": "2026-11-21T12:34:27Z",
+   "game": "bun:26NOV21SVESCF",
+   "title": "SV 07 Elversberg v SC Freiburg",
+   "league": "bun",
+   "kickoff": "2026-11-21T14:30:00Z",
+   "min_to_ko": 115.5,
+   "t_lp": 0.002606,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "onexbet",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "c8bcd407a7b987234c72c62ec37246ef",
+    "sport": "soccer_germany_bundesliga",
+    "home": "Elversberg",
+    "away": "SC Freiburg"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2506.482,
+   "guaranteed_profit": 6.502,
+   "legs": [
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Elversberg",
+     "side": "home",
+     "point": null,
+     "odds": 3.85,
+     "eff": 3.793,
+     "three_way": true,
+     "stake": 660.82,
+     "cost": 660.82,
+     "label": "h2h Elversberg  @3.85"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "SC Freiburg",
+     "side": "away",
+     "point": null,
+     "odds": 2.1,
+     "eff": 2.0780000000000003,
+     "three_way": true,
+     "stake": 1206.21,
+     "cost": 1206.21,
+     "label": "h2h SC Freiburg  @2.1"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.96,
+     "eff": 3.96,
+     "three_way": true,
+     "stake": 632.95,
+     "cost": 632.95,
+     "label": "h2h Draw  @3.96"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
-  "PM|0x79f59c8adac672c651dc899bb7ad5c6b389ceeb47a7752bc13db3ccf8cbac3fe|YES|0.4600": {
-   "n": 2523.83,
-   "t": "2026-11-21T00:26:46Z"
-  },
   "PM|0x8627ebe7f966b6e50785f98244f83f982708b87a2e71a5da24e4ec88144c9fa0|YES|0.9410": {
    "n": 928.05,
    "t": "2026-11-21T03:03:36Z"
@@ -895,31 +1175,31 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 233,
+ "n_trades": 237,
  "n_settled": 221,
  "realized_pnl": -91365.07924800004,
  "runs": 68,
  "locked": {
   "PM": 8.526512829121202e-14,
   "KS": 3.552713678800501e-15,
-  "BK:smarkets": 2922.42,
+  "BK:smarkets": 6221.83,
   "BK:pinnacle": 2784.4900000000002,
-  "BK:onexbet": 8491.740000000002,
-  "BK:matchbook": 5295.0,
+  "BK:onexbet": 9989.030000000002,
+  "BK:matchbook": 6633.98,
   "BK:leovegas_se": 1666.570000000018,
-  "BK:gtbets": 4.547473508864641e-13,
+  "BK:gtbets": 1780.4900000000005,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 1119.0500000000116,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 1367.7500000000002,
-  "BK:unibet_nl": 750.5300000000008,
+  "BK:unibet_nl": 1455.8100000000009,
   "BK:marathonbet": 0.0,
-  "BK:coral": 537.88,
+  "BK:coral": 977.5799999999999,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 0.0,
-  "BK:betonlineag": 352.56000000000046,
+  "BK:betonlineag": 1291.3500000000004,
   "BK:skybet": 316.5,
   "BK:betrivers": 1409.31,
   "BK:lowvig": 0.0,
@@ -939,10 +1219,10 @@
  "peak_locked": {
   "PM": 4486.7806,
   "KS": 2216.0099999999998,
-  "BK:smarkets": 4070.2799999999993,
+  "BK:smarkets": 6221.83,
   "BK:pinnacle": 3723.5699999999997,
   "BK:onexbet": 69050.37999999999,
-  "BK:matchbook": 5295.0,
+  "BK:matchbook": 6633.98,
   "BK:leovegas_se": 47555.970000000016,
   "BK:gtbets": 6720.040000000001,
   "BK:winamax_de": 805.8,
@@ -987,13 +1267,13 @@
   "BK:unibet_se": -28095.540000000008,
   "BK:tipico_de": -3229.0519999999997,
   "BK:coolbet": -8022.379999999999,
-  "BK:unibet_nl": -8552.21,
+  "BK:unibet_nl": -9257.49,
   "BK:marathonbet": -10325.038799999998,
   "BK:coral": -1194.91,
   "BK:betfair_ex_uk": 505.96,
   "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": 453.07,
-  "BK:betonlineag": -4391.482,
+  "BK:betonlineag": -4402.7268,
   "BK:skybet": -691.6099999999999,
   "BK:betrivers": -1141.39,
   "BK:lowvig": -4867.83,
@@ -1026,12 +1306,12 @@
    "5": 116,
    "6": 207,
    "7": 204,
-   "8": 285,
-   "9": 285,
-   "10": 286,
-   "11": 290,
-   "12": 288,
-   "13": 288
+   "8": 279,
+   "9": 279,
+   "10": 280,
+   "11": 278,
+   "12": 282,
+   "13": 276
   },
   "spent": {
    "2026-11-06": 27,
@@ -1048,7 +1328,7 @@
    "2026-11-18": 191,
    "2026-11-19": 300,
    "2026-11-20": 530,
-   "2026-11-21": 260
+   "2026-11-21": 308
   }
  },
  "book_slots": {
@@ -1193,6 +1473,10 @@
   "scop|2026-11-21T15:00|180": "2026-11-21T12:00:27Z",
   "epl|2026-11-21T12:30|15": "2026-11-21T12:15:28Z",
   "elc|2026-11-21T12:30|15": "2026-11-21T12:15:28Z",
-  "lal|2026-11-21T15:15|180": "2026-11-21T12:15:29Z"
+  "lal|2026-11-21T15:15|180": "2026-11-21T12:15:29Z",
+  "epl|2026-11-21T12:30|5": "2026-11-21T12:25:23Z",
+  "elc|2026-11-21T12:30|5": "2026-11-21T12:25:23Z",
+  "lal|2026-11-21T13:00|30": "2026-11-21T12:30:56Z",
+  "bun|2026-11-21T14:30|120": "2026-11-21T12:30:57Z"
  }
 }
