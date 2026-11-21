@@ -241,3 +241,7 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 240,2026-11-21T13:03:01Z,epl:26NOV21COVCRY,Coventry City FC v Crystal Palace FC,epl,2026-11-21T15:00:00Z,117.0,0.011965,True,"['onexbet', 'pinnacle', 'unibet_se']",False,2499.99,2529.8976,29.9076,open,,,,,3
 241,2026-11-21T13:03:06Z,elc:26NOV21LICWRE,Lincoln City FC v Wrexham AFC,elc,2026-11-21T15:00:00Z,116.9,0.00555,True,"['leovegas_se', 'smarkets']",False,2499.99,2513.8575,13.8675,open,,,,,3
 242,2026-11-21T13:03:06Z,elc:26NOV21WHUPNE,West Ham United FC v Preston North End FC,elc,2026-11-21T15:00:00Z,116.9,0.003431,True,"['betrivers', 'betus']",False,2499.99,2508.564,8.574,open,,,,,2
+243,2026-11-21T13:33:18Z,sea:26NOV21COMCAG,Como 1907 v Cagliari Calcio,sea,2026-11-21T14:00:00Z,26.7,0.002562,True,"['betonlineag', 'matchbook', 'onexbet']",False,2499.99,2506.371,6.381,open,,,,,3
+244,2026-11-21T13:33:20Z,sea:26NOV21LAZLEC,SS Lazio v US Lecce,sea,2026-11-21T14:00:00Z,26.7,0.009055,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.99,2522.6208,22.6308,open,,,,,3
+245,2026-11-21T13:33:44Z,bun:26NOV21BMGBVB,Borussia Mönchengladbach v BV Borussia 09 Dortmund,bun,2026-11-21T14:30:00Z,56.3,0.010117,True,"['betmgm', 'onexbet', 'skybet']",False,2499.99,2525.27,25.28,open,,,,,3
+246,2026-11-21T13:33:44Z,bun:26NOV21SGETSG,Eintracht Frankfurt v TSG 1899 Hoffenheim,bun,2026-11-21T14:30:00Z,56.3,0.007107,True,"['coolbet', 'onexbet', 'smarkets']",False,2499.98,2517.7392,17.7592,open,,,,,3
