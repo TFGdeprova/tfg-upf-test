@@ -2035,3 +2035,10 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-21T19:00:23Z,scop:26NOV21MOTRFC,Motherwell FC v Rangers FC,scop,59.6,scheduled,11,-0.003944,-0.002187,no gap,,,
 2026-11-21T19:01:49Z,lal:26NOV21RMARCC,Real Madrid CF v RC Celta de Vigo,lal,58.2,confirmation,7,-0.002616,0.014473,executed,,,matchbook h2h Celta Vigo  @20.0 x0.052 | onexbet h2h Real Madrid  @1.21 x0.838 | matchbook h2h Draw  @9.4 x0.110
 2026-11-21T19:01:49Z,ere:26NOV21GROHEE,FC Groningen v SC Heerenveen,ere,58.2,confirmation,9,-0.00422,0.004672,executed,,,unibet_nl h2h Groningen  @2.85 x0.353 | nordicbet h2h Heerenveen  @2.52 x0.399 | matchbook h2h Draw  @4.1 x0.249
+2026-11-21T19:15:26Z,sea:26NOV21NAPTOR,SSC Napoli v Torino FC,sea,29.6,scheduled,7,-0.002132,0.004129,seen,46780.76,sea:26NOV21NAPTOR|2026-11-21T19:15:24Z|with_books,PM NO 0.690 x0.186 SSC Napoli vs. Torino FC: O/U 3.5 | pinnacle totals Over 2.75 @2.12 x0.474 | coolbet totals Under 2.5 @2.17 x0.341
+2026-11-21T19:15:26Z,fl1:26NOV21LILOL,Lille OSC v Olympique Lyonnais,fl1,29.6,scheduled,7,-0.002883,-0.002883,no gap,,,
+2026-11-21T19:15:26Z,fl1:26NOV21RCSSTB,RC Strasbourg Alsace v Stade Brestois 29,fl1,29.6,scheduled,5,-0.002326,-0.0009,no gap,,,
+2026-11-21T19:15:26Z,fl1:26NOV21ASMAUX,AS Monaco FC v AJ Auxerre,fl1,29.6,scheduled,9,-0.001937,0.005475,seen,,fl1:26NOV21ASMAUX|2026-11-21T19:15:22Z|with_books,unibet_se h2h AS Monaco  @1.44 x0.698 | smarkets h2h Auxerre  @9.4 x0.109 | smarkets h2h Draw  @5.3 x0.193
+2026-11-21T19:15:26Z,fl1:26NOV21RCLTFC,Racing Club de Lens v Toulouse FC,fl1,29.6,scheduled,7,-0.002712,-0.002712,no gap,,,
+2026-11-21T19:16:52Z,sea:26NOV21NAPTOR,SSC Napoli v Torino FC,sea,28.1,confirmation,7,-0.002132,0.004129,executed,50550.91,,PM NO 0.690 x0.186 SSC Napoli vs. Torino FC: O/U 3.5 | pinnacle totals Over 2.75 @2.12 x0.474 | coolbet totals Under 2.5 @2.17 x0.341
+2026-11-21T19:16:52Z,fl1:26NOV21ASMAUX,AS Monaco FC v AJ Auxerre,fl1,28.1,confirmation,9,-0.001937,0.005475,executed,,,unibet_se h2h AS Monaco  @1.44 x0.698 | smarkets h2h Auxerre  @9.4 x0.109 | smarkets h2h Draw  @5.3 x0.193

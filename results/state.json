@@ -1,18 +1,18 @@
 {
  "cash": {
-  "PM": 12244.495500000003,
+  "PM": 11779.864600000003,
   "KS": 7254.919999999997,
-  "BK:smarkets": -190.11190599999793,
-  "BK:pinnacle": 117.25920000000247,
+  "BK:smarkets": -944.4819059999979,
+  "BK:pinnacle": -1066.8507999999974,
   "BK:onexbet": -85592.5454,
   "BK:matchbook": -514.077403999998,
   "BK:leovegas_se": -16543.034020000025,
   "BK:gtbets": -65.67649999999958,
   "BK:winamax_de": 1144.1699999999996,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -15586.50770000001,
+  "BK:unibet_se": -17332.11770000001,
   "BK:tipico_de": -3710.9519999999998,
-  "BK:coolbet": 8551.3791,
+  "BK:coolbet": 7700.1291,
   "BK:unibet_nl": -15329.190000000002,
   "BK:marathonbet": -9122.6778,
   "BK:coral": -3247.1319999999996,
@@ -1976,6 +1976,142 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 305,
+   "time": "2026-11-21T19:16:52Z",
+   "game": "sea:26NOV21NAPTOR",
+   "title": "SSC Napoli v Torino FC",
+   "league": "sea",
+   "kickoff": "2026-11-21T19:45:00Z",
+   "min_to_ko": 28.1,
+   "t_lp": 0.004129,
+   "with_books": true,
+   "books": [
+    "coolbet",
+    "pinnacle"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "e59809eb38340e3bca323cef070dfd34",
+    "sport": "soccer_italy_serie_a",
+    "home": "Napoli",
+    "away": "Torino"
+   },
+   "cost": 2499.9909,
+   "guaranteed_payout": 2510.3116,
+   "guaranteed_profit": 10.3207,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x09ac489873c27701bc3e88227c050159db07a4d2d8c6f90206dea281205c6c53",
+     "label": "SSC Napoli vs. Torino FC: O/U 3.5",
+     "side": "NO",
+     "price": 0.69,
+     "shares": 663.1,
+     "fee": 7.09185,
+     "cost": 464.6309
+    },
+    {
+     "venue": "BK:pinnacle",
+     "book": "pinnacle",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 2.75,
+     "odds": 2.12,
+     "eff": 2.12,
+     "three_way": true,
+     "stake": 1184.11,
+     "cost": 1184.11,
+     "label": "totals Over 2.75 @2.12"
+    },
+    {
+     "venue": "BK:coolbet",
+     "book": "coolbet",
+     "market": "totals",
+     "outcome": "Under",
+     "side": "under",
+     "point": 2.5,
+     "odds": 2.17,
+     "eff": 2.17,
+     "three_way": true,
+     "stake": 851.25,
+     "cost": 851.25,
+     "label": "totals Under 2.5 @2.17"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 306,
+   "time": "2026-11-21T19:16:52Z",
+   "game": "fl1:26NOV21ASMAUX",
+   "title": "AS Monaco FC v AJ Auxerre",
+   "league": "fl1",
+   "kickoff": "2026-11-21T19:45:00Z",
+   "min_to_ko": 28.1,
+   "t_lp": 0.005475,
+   "with_books": true,
+   "books": [
+    "smarkets",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "9130b46991ab991f808daf307f004469",
+    "sport": "soccer_france_ligue_one",
+    "home": "AS Monaco",
+    "away": "Auxerre"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2513.5966,
+   "guaranteed_profit": 13.6166,
+   "legs": [
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "AS Monaco",
+     "side": "home",
+     "point": null,
+     "odds": 1.44,
+     "eff": 1.44,
+     "three_way": true,
+     "stake": 1745.61,
+     "cost": 1745.61,
+     "label": "h2h AS Monaco  @1.44"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Auxerre",
+     "side": "away",
+     "point": null,
+     "odds": 9.4,
+     "eff": 9.232,
+     "three_way": true,
+     "stake": 272.27,
+     "cost": 272.27,
+     "label": "h2h Auxerre  @9.4"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 5.3,
+     "eff": 5.2139999999999995,
+     "three_way": true,
+     "stake": 482.1,
+     "cost": 482.1,
+     "label": "h2h Draw  @5.3"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1994,27 +2130,31 @@
   "PM|0xc28a385f1366bf8a11b562edf06e3b80cac087c685f56bab2943dd6285f32a15|YES|0.6200": {
    "n": 579.96,
    "t": "2026-11-21T17:41:59Z"
+  },
+  "PM|0x09ac489873c27701bc3e88227c050159db07a4d2d8c6f90206dea281205c6c53|NO|0.6900": {
+   "n": 663.1,
+   "t": "2026-11-21T19:16:52Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 304,
+ "n_trades": 306,
  "n_settled": 276,
  "realized_pnl": -90157.11763000005,
  "runs": 70,
  "locked": {
-  "PM": 2716.2579,
+  "PM": 3180.8888,
   "KS": 3.552713678800501e-15,
-  "BK:smarkets": 8204.789999999997,
-  "BK:pinnacle": 2760.370000000001,
+  "BK:smarkets": 8959.159999999998,
+  "BK:pinnacle": 3944.4800000000005,
   "BK:onexbet": 15571.370000000004,
   "BK:matchbook": 9037.98,
   "BK:leovegas_se": 1.7394086171407253e-11,
   "BK:gtbets": 4832.5,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 3493.880000000013,
+  "BK:unibet_se": 5239.4900000000125,
   "BK:tipico_de": 481.9,
-  "BK:coolbet": 1219.0500000000004,
+  "BK:coolbet": 2070.3,
   "BK:unibet_nl": 4507.630000000001,
   "BK:marathonbet": 0.0,
   "BK:coral": 6136.499999999999,
@@ -2135,10 +2275,10 @@
    "6": 151,
    "7": 148,
    "8": 151,
-   "9": 153,
-   "10": 152,
-   "11": 152,
-   "12": 154,
+   "9": 147,
+   "10": 146,
+   "11": 146,
+   "12": 148,
    "13": 148
   },
   "spent": {
@@ -2156,7 +2296,7 @@
    "2026-11-18": 191,
    "2026-11-19": 300,
    "2026-11-20": 530,
-   "2026-11-21": 1184
+   "2026-11-21": 1208
   }
  },
  "book_slots": {
@@ -2406,6 +2546,8 @@
   "fl1|2026-11-21T19:45|60": "2026-11-21T18:45:44Z",
   "lal|2026-11-21T20:00|60": "2026-11-21T19:00:09Z",
   "ere|2026-11-21T20:00|60": "2026-11-21T19:00:11Z",
-  "scop|2026-11-21T20:00|60": "2026-11-21T19:00:12Z"
+  "scop|2026-11-21T20:00|60": "2026-11-21T19:00:12Z",
+  "sea|2026-11-21T19:45|30": "2026-11-21T19:15:12Z",
+  "fl1|2026-11-21T19:45|30": "2026-11-21T19:15:13Z"
  }
 }

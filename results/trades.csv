@@ -303,3 +303,5 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 302,2026-11-21T18:02:06Z,ere:26NOV21GROHEE,FC Groningen v SC Heerenveen,ere,2026-11-21T20:00:00Z,117.9,0.004672,True,"['nordicbet', 'smarkets', 'unibet_nl']",False,2499.99,2511.6588,11.6688,open,,,,,3
 303,2026-11-21T19:01:49Z,lal:26NOV21RMARCC,Real Madrid CF v RC Celta de Vigo,lal,2026-11-21T20:00:00Z,58.2,0.014473,True,"['matchbook', 'onexbet']",False,2499.98,2536.0812,36.1012,open,,,,,3
 304,2026-11-21T19:01:49Z,ere:26NOV21GROHEE,FC Groningen v SC Heerenveen,ere,2026-11-21T20:00:00Z,58.2,0.004672,True,"['matchbook', 'nordicbet', 'unibet_nl']",False,2499.99,2511.6588,11.6688,open,,,,,3
+305,2026-11-21T19:16:52Z,sea:26NOV21NAPTOR,SSC Napoli v Torino FC,sea,2026-11-21T19:45:00Z,28.1,0.004129,True,"['coolbet', 'pinnacle']",False,2499.9909,2510.3116,10.3207,open,,,,,3
+306,2026-11-21T19:16:52Z,fl1:26NOV21ASMAUX,AS Monaco FC v AJ Auxerre,fl1,2026-11-21T19:45:00Z,28.1,0.005475,True,"['smarkets', 'unibet_se']",False,2499.98,2513.5966,13.6166,open,,,,,3
