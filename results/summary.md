@@ -1,27 +1,27 @@
-# Paper-trading bot: status at 2026-11-21T20:06:02Z
+# Paper-trading bot: status at 2026-11-21T20:26:03Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 312 / 288 |
-| Realised profit | $-89,841.55 ≈ €-77,449.61 |
+| Trades executed / settled | 312 / 293 |
+| Realised profit | $-89,694.67 ≈ €-77,322.99 |
 | … Polymarket/Kalshi only | $48.43 |
-| … with bookmakers (all) | $-89,889.98 |
+| … with bookmakers (all) | $-89,743.10 |
 | … with bookmakers licensed in Spain only | $-2,285.19 |
-| Open positions (cost) | $59,843.48 |
+| Open positions (cost) | $47,343.55 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $-57,941.54 ≈ €-49,949.61 |
-| Return so far (realised / peak money in use) | -57.598% over 14.9 days |
+| Equity (cash + open at cost + in transit) | $-57,794.67 ≈ €-49,822.99 |
+| Return so far (realised / peak money in use) | -57.504% over 14.9 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 971, executed 36, rounding 90, seen 1194, vanished 74.
-Gaps using bookmakers: below_min_size 4, executed 276, no_cash 41, rounding 3, seen 369, vanished 36 (snapshots combined with Polymarket/Kalshi: 2075).
+Gaps using bookmakers: below_min_size 4, executed 276, no_cash 41, rounding 3, seen 369, vanished 36 (snapshots combined with Polymarket/Kalshi: 2077).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 1,375 (about 1.8 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
+The Odds API credits left: 1,355 (about 1.8 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
 
 ## Capital by account
 
@@ -44,7 +44,7 @@ Peak in use = the most money that was tied up in open positions at the same time
 | boylesports | $580.00 | $1,315.03 | $0.00 | $1,813.51 | $-1,233.51 |
 | codere_it | $580.00 | $1,797.50 | $0.00 | $1,295.21 | $-715.21 |
 | coolbet | $580.00 | $10,223.56 | $851.25 | $11,130.88 | $-8,022.38 |
-| coral | $580.00 | $-727.61 | $4,120.88 | $6,136.50 | $-3,247.13 |
+| coral | $580.00 | $-727.61 | $0.00 | $6,136.50 | $-3,247.13 |
 | draftkings | $580.00 | $-2,698.54 | $0.00 | $3,278.54 | $-2,698.54 |
 | fanduel | $580.00 | $416.03 | $0.00 | $1,659.29 | $-2,247.51 |
 | grosvenor | $580.00 | $580.00 | $0.00 | $292.30 | $287.70 |
@@ -53,15 +53,15 @@ Peak in use = the most money that was tied up in open positions at the same time
 | leovegas_se | $580.00 | $-16,543.03 | $0.00 | $47,555.97 | $-55,331.30 |
 | lowvig | $580.00 | $-6,543.63 | $1,211.15 | $1,695.80 | $-6,543.63 |
 | marathonbet (Spain) | $580.00 | $-13,349.34 | $4,226.66 | $8,525.07 | $-13,349.34 |
-| matchbook | $580.00 | $-1,393.66 | $6,794.45 | $12,468.15 | $-4,103.15 |
+| matchbook | $580.00 | $3,720.03 | $4,620.47 | $12,468.15 | $-4,103.15 |
 | mybookieag | $580.00 | $-4,546.41 | $0.00 | $4,422.60 | $-7,124.16 |
 | nordicbet | $580.00 | $-1,413.38 | $1,993.38 | $1,993.38 | $-1,413.38 |
-| onexbet | $580.00 | $-77,646.42 | $11,526.64 | $69,050.38 | $-102,003.41 |
-| pinnacle | $580.00 | $-2,061.17 | $4,107.92 | $10,216.96 | $-12,586.95 |
+| onexbet | $580.00 | $-77,646.42 | $8,402.31 | $69,050.38 | $-102,003.41 |
+| pinnacle | $580.00 | $-2,061.17 | $3,543.04 | $10,216.96 | $-12,586.95 |
 | skybet | $580.00 | $-1,150.75 | $0.00 | $775.64 | $-1,150.75 |
-| smarkets | $580.00 | $-2,559.19 | $7,220.14 | $15,944.68 | $-12,057.08 |
+| smarkets | $580.00 | $-2,559.19 | $5,175.10 | $15,944.68 | $-12,057.08 |
 | tipico_de | $580.00 | $-3,710.95 | $481.90 | $5,851.05 | $-3,710.95 |
-| unibet_nl | $580.00 | $-13,686.03 | $4,668.64 | $5,390.31 | $-16,211.87 |
+| unibet_nl | $580.00 | $-6,152.91 | $4,197.82 | $5,390.31 | $-16,211.87 |
 | unibet_se | $580.00 | $-18,300.62 | $6,986.99 | $24,382.67 | $-28,095.54 |
 | unibet_uk | $580.00 | $-760.27 | $0.00 | $1,340.27 | $-760.27 |
 | williamhill (Spain) | $580.00 | $-3,383.02 | $1,686.02 | $1,686.02 | $-3,383.02 |
@@ -110,11 +110,11 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 | 300 | 11-21T17:56 | EDM at CAR | 3.0 | matchbook, williamhill | 1.16% | $2499.99 | $29.01 | open |  |
 | 299 | 11-21T17:47 | AS Monaco FC v AJ Auxerre | 117.9 | smarkets, tipico_de, unibet_se | 0.24% | $2499.98 | $5.83 | open |  |
 | 298 | 11-21T17:41 | FC Utrecht v SC Cambuur-Leeuwarden | 3.0 | matchbook, pinnacle | 0.98% | $2499.99 | $24.54 | open |  |
-| 297 | 11-21T17:31 | FC Utrecht v SC Cambuur-Leeuwarden | 13.1 | matchbook, onexbet | 1.70% | $2499.99 | $42.38 | open |  |
+| 297 | 11-21T17:31 | FC Utrecht v SC Cambuur-Leeuwarden | 13.1 | matchbook, onexbet | 1.70% | $2499.99 | $42.38 | settled | $+42.38 |
 | 296 | 11-21T17:31 | MIL at PHI | 28.1 | lowvig | 2.32% | $2343.79 | $54.28 | open |  |
 | 295 | 11-21T17:26 | Sevilla FC v Real Betis Balompié | 3.2 | smarkets, unibet_se | 1.79% | $2499.99 | $44.69 | settled | $+44.70 |
 | 294 | 11-21T17:26 | Newcastle United FC v Arsenal FC | 3.2 | betonlineag, gtbets | 2.02% | $2499.98 | $50.35 | settled | $+50.38 |
-| 293 | 11-21T17:17 | Feyenoord Rotterdam v SBV Excelsior | 27.8 | matchbook, onexbet | 2.85% | $2499.99 | $71.33 | open |  |
+| 293 | 11-21T17:17 | Feyenoord Rotterdam v SBV Excelsior | 27.8 | matchbook, onexbet | 2.85% | $2499.99 | $71.33 | settled | $+71.33 |
 | 292 | 11-21T17:17 | FC Schalke 04 v VfB Stuttgart | 12.8 | matchbook, onexbet, unibet_uk | 0.76% | $2499.99 | $19.03 | settled | $+19.03 |
 | 291 | 11-21T17:17 | Sevilla FC v Real Betis Balompié | 12.8 | matchbook, onexbet | 0.26% | $2499.98 | $6.40 | settled | $+6.41 |
 | 290 | 11-21T17:17 | Newcastle United FC v Arsenal FC | 12.8 | betonlineag, gtbets | 2.02% | $2499.98 | $50.35 | settled | $+50.38 |
