@@ -279,12 +279,12 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 278,2026-11-21T15:01:57Z,lal:26NOV21RVCVCF,Rayo Vallecano de Madrid v Valencia CF,lal,2026-11-21T15:15:00Z,13.0,0.003369,True,"['betus', 'onexbet', 'unibet_se']",False,2499.99,2508.408,8.418,settled,2026-11-21T17:45:43Z,2508.408,8.418,ok,3
 279,2026-11-21T15:17:01Z,fl1:26NOV21NICPSG,OGC Nice v Paris Saint-Germain FC,fl1,2026-11-21T16:15:00Z,58.0,0.002228,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.99,2505.51,5.52,settled,2026-11-21T18:46:03Z,2505.57,5.58,ok,3
 280,2026-11-21T15:47:06Z,ere:26NOV21FEYEXC,Feyenoord Rotterdam v SBV Excelsior,ere,2026-11-21T17:45:00Z,117.9,0.005626,True,"['coral', 'pinnacle', 'unibet_nl']",False,2499.98,2513.92,13.94,open,,,,,3
-281,2026-11-21T16:31:41Z,sea:26NOV21PARROM,Parma Calcio 1913 v AS Roma,sea,2026-11-21T17:00:00Z,28.3,0.007318,True,"['betmgm', 'smarkets', 'unibet_se']",False,2499.99,2518.18,18.19,open,,,,,3
+281,2026-11-21T16:31:41Z,sea:26NOV21PARROM,Parma Calcio 1913 v AS Roma,sea,2026-11-21T17:00:00Z,28.3,0.007318,True,"['betmgm', 'smarkets', 'unibet_se']",False,2499.99,2518.18,18.19,settled,2026-11-21T19:36:13Z,2518.2957,18.3057,ok,3
 282,2026-11-21T16:31:41Z,epl:26NOV21NEWARS,Newcastle United FC v Arsenal FC,epl,2026-11-21T17:30:00Z,58.3,0.013832,True,"['betonlineag', 'gtbets']",False,2499.99,2534.554,34.564,open,,,,,3
 283,2026-11-21T16:31:41Z,lal:26NOV21SEVRBB,Sevilla FC v Real Betis Balompié,lal,2026-11-21T17:30:00Z,58.3,0.010351,True,"['matchbook', 'pinnacle', 'unibet_nl']",False,2499.99,2525.845,25.855,open,,,,,3
 284,2026-11-21T16:47:09Z,ere:26NOV21FEYEXC,Feyenoord Rotterdam v SBV Excelsior,ere,2026-11-21T17:45:00Z,57.8,0.002398,True,"['onexbet', 'smarkets', 'unibet_nl']",False,2499.99,2505.92,5.93,open,,,,,3
 285,2026-11-21T16:47:09Z,ere:26NOV21FCUCAM,FC Utrecht v SC Cambuur-Leeuwarden,ere,2026-11-21T17:45:00Z,57.8,0.009182,True,"['smarkets', 'unibet_nl']",False,2499.9798,2522.9186,22.9388,open,,,,,3
-286,2026-11-21T16:57:14Z,sea:26NOV21PARROM,Parma Calcio 1913 v AS Roma,sea,2026-11-21T17:00:00Z,2.8,0.007814,True,"['coral', 'smarkets']",False,2499.98,2519.4634,19.4834,open,,,,,3
+286,2026-11-21T16:57:14Z,sea:26NOV21PARROM,Parma Calcio 1913 v AS Roma,sea,2026-11-21T17:00:00Z,2.8,0.007814,True,"['coral', 'smarkets']",False,2499.98,2519.4634,19.4834,settled,2026-11-21T19:36:13Z,2519.525,19.545,ok,3
 287,2026-11-21T17:02:17Z,lal:26NOV21RMARCC,Real Madrid CF v RC Celta de Vigo,lal,2026-11-21T20:00:00Z,177.7,0.019333,True,"['onexbet', 'smarkets']",False,2499.98,2548.1957,48.2157,open,,,,,3
 288,2026-11-21T17:02:17Z,bun:26NOV21SCHVFB,FC Schalke 04 v VfB Stuttgart,bun,2026-11-21T17:30:00Z,27.7,0.002801,True,"['onexbet', 'smarkets', 'unibet_uk']",False,2499.99,2506.9875,6.9975,open,,,,,3
 289,2026-11-21T17:02:17Z,ere:26NOV21GROHEE,FC Groningen v SC Heerenveen,ere,2026-11-21T20:00:00Z,177.7,0.002951,True,"['matchbook', 'smarkets', 'unibet_nl']",False,2499.99,2507.3557,7.3657,open,,,,,3
@@ -305,3 +305,7 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 304,2026-11-21T19:01:49Z,ere:26NOV21GROHEE,FC Groningen v SC Heerenveen,ere,2026-11-21T20:00:00Z,58.2,0.004672,True,"['matchbook', 'nordicbet', 'unibet_nl']",False,2499.99,2511.6588,11.6688,open,,,,,3
 305,2026-11-21T19:16:52Z,sea:26NOV21NAPTOR,SSC Napoli v Torino FC,sea,2026-11-21T19:45:00Z,28.1,0.004129,True,"['coolbet', 'pinnacle']",False,2499.9909,2510.3116,10.3207,open,,,,,3
 306,2026-11-21T19:16:52Z,fl1:26NOV21ASMAUX,AS Monaco FC v AJ Auxerre,fl1,2026-11-21T19:45:00Z,28.1,0.005475,True,"['smarkets', 'unibet_se']",False,2499.98,2513.5966,13.6166,open,,,,,3
+307,2026-11-21T19:31:52Z,lal:26NOV21RMARCC,Real Madrid CF v RC Celta de Vigo,lal,2026-11-21T20:00:00Z,28.1,0.017479,True,['onexbet'],False,2499.9895,2543.6862,43.6967,open,,,,,2
+308,2026-11-21T19:31:56Z,fl1:26NOV21ASMAUX,AS Monaco FC v AJ Auxerre,fl1,2026-11-21T19:45:00Z,13.1,0.010146,True,"['smarkets', 'unibet_se']",False,2499.98,2525.2909,25.3109,open,,,,,3
+309,2026-11-21T19:31:56Z,ere:26NOV21GROHEE,FC Groningen v SC Heerenveen,ere,2026-11-21T20:00:00Z,28.1,0.006257,True,"['matchbook', 'pinnacle', 'unibet_nl']",False,2499.99,2515.6296,15.6396,open,,,,,3
+310,2026-11-21T19:41:57Z,fl1:26NOV21ASMAUX,AS Monaco FC v AJ Auxerre,fl1,2026-11-21T19:45:00Z,3.0,0.00642,True,"['smarkets', 'unibet_se']",False,2499.99,2516.0288,16.0388,open,,,,,3

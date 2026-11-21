@@ -1,21 +1,21 @@
 {
  "cash": {
-  "PM": 11779.864600000003,
+  "PM": 11382.095100000002,
   "KS": 7254.919999999997,
-  "BK:smarkets": -944.4819059999979,
-  "BK:pinnacle": -1066.8507999999974,
-  "BK:onexbet": -85592.5454,
-  "BK:matchbook": -514.077403999998,
+  "BK:smarkets": -2431.261905999998,
+  "BK:pinnacle": -2061.1707999999976,
+  "BK:onexbet": -87694.7654,
+  "BK:matchbook": -1137.067403999998,
   "BK:leovegas_se": -16543.034020000025,
   "BK:gtbets": -65.67649999999958,
   "BK:winamax_de": 1144.1699999999996,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -17332.11770000001,
+  "BK:unibet_se": -20845.307700000012,
   "BK:tipico_de": -3710.9519999999998,
   "BK:coolbet": 7700.1291,
-  "BK:unibet_nl": -15329.190000000002,
+  "BK:unibet_nl": -16211.870000000003,
   "BK:marathonbet": -9122.6778,
-  "BK:coral": -3247.1319999999996,
+  "BK:coral": -727.607,
   "BK:betfair_ex_uk": 505.96,
   "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": 66.21999999999997,
@@ -24,7 +24,7 @@
   "BK:betrivers": 11676.5811,
   "BK:lowvig": -6543.630499999999,
   "BK:mybookieag": -4546.4125,
-  "BK:betmgm": 4769.2080000000005,
+  "BK:betmgm": 7287.503700000001,
   "BK:betanysports": -585.8006000000009,
   "BK:betsson": 2119.7043999999996,
   "BK:codere_it": 1797.4973999999997,
@@ -347,77 +347,6 @@
    "status": "open"
   },
   {
-   "trade_id": 281,
-   "time": "2026-11-21T16:31:41Z",
-   "game": "sea:26NOV21PARROM",
-   "title": "Parma Calcio 1913 v AS Roma",
-   "league": "sea",
-   "kickoff": "2026-11-21T17:00:00Z",
-   "min_to_ko": 28.3,
-   "t_lp": 0.007318,
-   "with_books": true,
-   "books": [
-    "betmgm",
-    "smarkets",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "cb513fd9869c9aa6ce506bb499bcd48b",
-    "sport": "soccer_italy_serie_a",
-    "home": "Parma",
-    "away": "AS Roma"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2518.18,
-   "guaranteed_profit": 18.19,
-   "legs": [
-    {
-     "venue": "BK:betmgm",
-     "book": "betmgm",
-     "market": "h2h",
-     "outcome": "AS Roma",
-     "side": "away",
-     "point": null,
-     "odds": 1.27,
-     "eff": 1.27,
-     "three_way": true,
-     "stake": 1982.91,
-     "cost": 1982.91,
-     "label": "h2h AS Roma  @1.27"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Parma",
-     "side": "home",
-     "point": null,
-     "odds": 14.0,
-     "eff": 14.0,
-     "three_way": true,
-     "stake": 179.87,
-     "cost": 179.87,
-     "label": "h2h Parma  @14.0"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 7.6,
-     "eff": 7.468,
-     "three_way": true,
-     "stake": 337.21,
-     "cost": 337.21,
-     "label": "h2h Draw  @7.6"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 282,
    "time": "2026-11-21T16:31:41Z",
    "game": "epl:26NOV21NEWARS",
@@ -691,76 +620,6 @@
      "stake": 609.99,
      "cost": 609.99,
      "label": "h2h Draw  @4.2"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 286,
-   "time": "2026-11-21T16:57:14Z",
-   "game": "sea:26NOV21PARROM",
-   "title": "Parma Calcio 1913 v AS Roma",
-   "league": "sea",
-   "kickoff": "2026-11-21T17:00:00Z",
-   "min_to_ko": 2.8,
-   "t_lp": 0.007814,
-   "with_books": true,
-   "books": [
-    "coral",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "cb513fd9869c9aa6ce506bb499bcd48b",
-    "sport": "soccer_italy_serie_a",
-    "home": "Parma",
-    "away": "AS Roma"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2519.4634,
-   "guaranteed_profit": 19.4834,
-   "legs": [
-    {
-     "venue": "BK:coral",
-     "book": "coral",
-     "market": "h2h",
-     "outcome": "AS Roma",
-     "side": "away",
-     "point": null,
-     "odds": 1.25,
-     "eff": 1.25,
-     "three_way": true,
-     "stake": 2015.62,
-     "cost": 2015.62,
-     "label": "h2h AS Roma  @1.25"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Parma",
-     "side": "home",
-     "point": null,
-     "odds": 16.5,
-     "eff": 16.189999999999998,
-     "three_way": true,
-     "stake": 155.62,
-     "cost": 155.62,
-     "label": "h2h Parma  @16.5"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 7.8,
-     "eff": 7.664,
-     "three_way": true,
-     "stake": 328.74,
-     "cost": 328.74,
-     "label": "h2h Draw  @7.8"
     }
    ],
    "status": "open"
@@ -2112,6 +1971,268 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 307,
+   "time": "2026-11-21T19:31:52Z",
+   "game": "lal:26NOV21RMARCC",
+   "title": "Real Madrid CF v RC Celta de Vigo",
+   "league": "lal",
+   "kickoff": "2026-11-21T20:00:00Z",
+   "min_to_ko": 28.1,
+   "t_lp": 0.017479,
+   "with_books": true,
+   "books": [
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "90af957b2f622a5cf805e60b151c54b9",
+    "sport": "soccer_spain_la_liga",
+    "home": "Real Madrid",
+    "away": "Celta Vigo"
+   },
+   "cost": 2499.9895,
+   "guaranteed_payout": 2543.6862,
+   "guaranteed_profit": 43.6967,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x2717d2d6259b48059d6a329e83fb390fe6ebbfabcaa856ea322e29ad959480c1",
+     "label": "Will Real Madrid CF win on 2026-11-21?",
+     "side": "NO",
+     "price": 0.15000000000000002,
+     "shares": 2543.69,
+     "fee": 16.21602,
+     "cost": 397.7695
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Real Madrid",
+     "side": "home",
+     "point": null,
+     "odds": 1.21,
+     "eff": 1.21,
+     "three_way": true,
+     "stake": 2102.22,
+     "cost": 2102.22,
+     "label": "h2h Real Madrid  @1.21"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 308,
+   "time": "2026-11-21T19:31:56Z",
+   "game": "fl1:26NOV21ASMAUX",
+   "title": "AS Monaco FC v AJ Auxerre",
+   "league": "fl1",
+   "kickoff": "2026-11-21T19:45:00Z",
+   "min_to_ko": 13.1,
+   "t_lp": 0.010146,
+   "with_books": true,
+   "books": [
+    "smarkets",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "9130b46991ab991f808daf307f004469",
+    "sport": "soccer_france_ligue_one",
+    "home": "AS Monaco",
+    "away": "Auxerre"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2525.2909,
+   "guaranteed_profit": 25.3109,
+   "legs": [
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "AS Monaco",
+     "side": "home",
+     "point": null,
+     "odds": 1.44,
+     "eff": 1.44,
+     "three_way": true,
+     "stake": 1753.72,
+     "cost": 1753.72,
+     "label": "h2h AS Monaco  @1.44"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Auxerre",
+     "side": "away",
+     "point": null,
+     "odds": 9.2,
+     "eff": 9.036,
+     "three_way": true,
+     "stake": 279.47,
+     "cost": 279.47,
+     "label": "h2h Auxerre  @9.2"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 5.5,
+     "eff": 5.41,
+     "three_way": true,
+     "stake": 466.79,
+     "cost": 466.79,
+     "label": "h2h Draw  @5.5"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 309,
+   "time": "2026-11-21T19:31:56Z",
+   "game": "ere:26NOV21GROHEE",
+   "title": "FC Groningen v SC Heerenveen",
+   "league": "ere",
+   "kickoff": "2026-11-21T20:00:00Z",
+   "min_to_ko": 28.1,
+   "t_lp": 0.006257,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "pinnacle",
+    "unibet_nl"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "cc8ea455586c0bdfcca464f1bf617843",
+    "sport": "soccer_netherlands_eredivisie",
+    "home": "Groningen",
+    "away": "Heerenveen"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2515.6296,
+   "guaranteed_profit": 15.6396,
+   "legs": [
+    {
+     "venue": "BK:unibet_nl",
+     "book": "unibet_nl",
+     "market": "h2h",
+     "outcome": "Groningen",
+     "side": "home",
+     "point": null,
+     "odds": 2.85,
+     "eff": 2.85,
+     "three_way": true,
+     "stake": 882.68,
+     "cost": 882.68,
+     "label": "h2h Groningen  @2.85"
+    },
+    {
+     "venue": "BK:pinnacle",
+     "book": "pinnacle",
+     "market": "h2h",
+     "outcome": "Heerenveen",
+     "side": "away",
+     "point": null,
+     "odds": 2.53,
+     "eff": 2.53,
+     "three_way": true,
+     "stake": 994.32,
+     "cost": 994.32,
+     "label": "h2h Heerenveen  @2.53"
+    },
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.1,
+     "eff": 4.038,
+     "three_way": true,
+     "stake": 622.99,
+     "cost": 622.99,
+     "label": "h2h Draw  @4.1"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 310,
+   "time": "2026-11-21T19:41:57Z",
+   "game": "fl1:26NOV21ASMAUX",
+   "title": "AS Monaco FC v AJ Auxerre",
+   "league": "fl1",
+   "kickoff": "2026-11-21T19:45:00Z",
+   "min_to_ko": 3.0,
+   "t_lp": 0.00642,
+   "with_books": true,
+   "books": [
+    "smarkets",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "9130b46991ab991f808daf307f004469",
+    "sport": "soccer_france_ligue_one",
+    "home": "AS Monaco",
+    "away": "Auxerre"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2516.0288,
+   "guaranteed_profit": 16.0388,
+   "legs": [
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "AS Monaco",
+     "side": "home",
+     "point": null,
+     "odds": 1.43,
+     "eff": 1.43,
+     "three_way": true,
+     "stake": 1759.47,
+     "cost": 1759.47,
+     "label": "h2h AS Monaco  @1.43"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Auxerre",
+     "side": "away",
+     "point": null,
+     "odds": 9.6,
+     "eff": 9.427999999999999,
+     "three_way": true,
+     "stake": 266.87,
+     "cost": 266.87,
+     "label": "h2h Auxerre  @9.6"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 5.4,
+     "eff": 5.312,
+     "three_way": true,
+     "stake": 473.65,
+     "cost": 473.65,
+     "label": "h2h Draw  @5.4"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -2134,30 +2255,34 @@
   "PM|0x09ac489873c27701bc3e88227c050159db07a4d2d8c6f90206dea281205c6c53|NO|0.6900": {
    "n": 663.1,
    "t": "2026-11-21T19:16:52Z"
+  },
+  "PM|0x2717d2d6259b48059d6a329e83fb390fe6ebbfabcaa856ea322e29ad959480c1|NO|0.1500": {
+   "n": 2543.69,
+   "t": "2026-11-21T19:31:52Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 306,
- "n_settled": 276,
- "realized_pnl": -90157.11763000005,
+ "n_trades": 310,
+ "n_settled": 278,
+ "realized_pnl": -90119.26693000006,
  "runs": 70,
  "locked": {
-  "PM": 3180.8888,
+  "PM": 3578.6583,
   "KS": 3.552713678800501e-15,
-  "BK:smarkets": 8959.159999999998,
-  "BK:pinnacle": 3944.4800000000005,
-  "BK:onexbet": 15571.370000000004,
-  "BK:matchbook": 9037.98,
+  "BK:smarkets": 9624.369999999999,
+  "BK:pinnacle": 4938.8,
+  "BK:onexbet": 17673.590000000004,
+  "BK:matchbook": 9660.97,
   "BK:leovegas_se": 1.7394086171407253e-11,
   "BK:gtbets": 4832.5,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 5239.4900000000125,
+  "BK:unibet_se": 8572.810000000012,
   "BK:tipico_de": 481.9,
   "BK:coolbet": 2070.3,
-  "BK:unibet_nl": 4507.630000000001,
+  "BK:unibet_nl": 5390.310000000001,
   "BK:marathonbet": 0.0,
-  "BK:coral": 6136.499999999999,
+  "BK:coral": 4120.879999999999,
   "BK:betfair_ex_uk": 0.0,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 0.0,
@@ -2166,7 +2291,7 @@
   "BK:betrivers": 4.547473508864641e-13,
   "BK:lowvig": 1211.15,
   "BK:mybookieag": 0.0,
-  "BK:betmgm": 1982.9099999999999,
+  "BK:betmgm": 0.0,
   "BK:betanysports": 0.0,
   "BK:betsson": 0.0,
   "BK:codere_it": 0.0,
@@ -2194,7 +2319,7 @@
   "BK:unibet_se": 24382.670000000006,
   "BK:tipico_de": 5851.049999999999,
   "BK:coolbet": 11130.880000000001,
-  "BK:unibet_nl": 4507.630000000001,
+  "BK:unibet_nl": 5390.310000000001,
   "BK:marathonbet": 8525.07,
   "BK:coral": 6136.499999999999,
   "BK:betfair_ex_uk": 74.04,
@@ -2233,7 +2358,7 @@
   "BK:unibet_se": -28095.540000000008,
   "BK:tipico_de": -3710.9519999999998,
   "BK:coolbet": -8022.379999999999,
-  "BK:unibet_nl": -15329.190000000002,
+  "BK:unibet_nl": -16211.870000000003,
   "BK:marathonbet": -11633.1788,
   "BK:coral": -3247.1319999999996,
   "BK:betfair_ex_uk": 505.96,
@@ -2272,14 +2397,14 @@
    "3": 115,
    "4": 114,
    "5": 116,
-   "6": 151,
-   "7": 148,
-   "8": 151,
-   "9": 147,
-   "10": 146,
-   "11": 146,
-   "12": 148,
-   "13": 148
+   "6": 137,
+   "7": 136,
+   "8": 139,
+   "9": 135,
+   "10": 140,
+   "11": 134,
+   "12": 136,
+   "13": 136
   },
   "spent": {
    "2026-11-06": 27,
@@ -2296,7 +2421,7 @@
    "2026-11-18": 191,
    "2026-11-19": 300,
    "2026-11-20": 530,
-   "2026-11-21": 1208
+   "2026-11-21": 1300
   }
  },
  "book_slots": {
@@ -2548,6 +2673,17 @@
   "ere|2026-11-21T20:00|60": "2026-11-21T19:00:11Z",
   "scop|2026-11-21T20:00|60": "2026-11-21T19:00:12Z",
   "sea|2026-11-21T19:45|30": "2026-11-21T19:15:12Z",
-  "fl1|2026-11-21T19:45|30": "2026-11-21T19:15:13Z"
+  "fl1|2026-11-21T19:45|30": "2026-11-21T19:15:13Z",
+  "lal|2026-11-21T20:00|30": "2026-11-21T19:30:14Z",
+  "sea|2026-11-21T19:45|15": "2026-11-21T19:30:15Z",
+  "fl1|2026-11-21T19:45|15": "2026-11-21T19:30:15Z",
+  "ere|2026-11-21T20:00|30": "2026-11-21T19:30:15Z",
+  "scop|2026-11-21T20:00|30": "2026-11-21T19:30:15Z",
+  "nhl|2026-11-21T20:30|60": "2026-11-21T19:30:16Z",
+  "sea|2026-11-21T19:45|5": "2026-11-21T19:40:15Z",
+  "fl1|2026-11-21T19:45|5": "2026-11-21T19:40:16Z",
+  "lal|2026-11-21T20:00|15": "2026-11-21T19:45:15Z",
+  "ere|2026-11-21T20:00|15": "2026-11-21T19:45:17Z",
+  "scop|2026-11-21T20:00|15": "2026-11-21T19:45:18Z"
  }
 }

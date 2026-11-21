@@ -2042,3 +2042,26 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-21T19:15:26Z,fl1:26NOV21RCLTFC,Racing Club de Lens v Toulouse FC,fl1,29.6,scheduled,7,-0.002712,-0.002712,no gap,,,
 2026-11-21T19:16:52Z,sea:26NOV21NAPTOR,SSC Napoli v Torino FC,sea,28.1,confirmation,7,-0.002132,0.004129,executed,50550.91,,PM NO 0.690 x0.186 SSC Napoli vs. Torino FC: O/U 3.5 | pinnacle totals Over 2.75 @2.12 x0.474 | coolbet totals Under 2.5 @2.17 x0.341
 2026-11-21T19:16:52Z,fl1:26NOV21ASMAUX,AS Monaco FC v AJ Auxerre,fl1,28.1,confirmation,9,-0.001937,0.005475,executed,,,unibet_se h2h AS Monaco  @1.44 x0.698 | smarkets h2h Auxerre  @9.4 x0.109 | smarkets h2h Draw  @5.3 x0.193
+2026-11-21T19:30:28Z,lal:26NOV21RMARCC,Real Madrid CF v RC Celta de Vigo,lal,29.5,scheduled,7,-0.002903,0.017479,seen,94147.56,lal:26NOV21RMARCC|2026-11-21T19:30:28Z|with_books,PM NO 0.150 x0.159 Will Real Madrid CF win on 2026-11-21? | onexbet h2h Real Madrid  @1.21 x0.841
+2026-11-21T19:30:28Z,sea:26NOV21NAPTOR,SSC Napoli v Torino FC,sea,14.5,scheduled,7,-0.002132,-0.001368,no gap,,,
+2026-11-21T19:30:28Z,fl1:26NOV21LILOL,Lille OSC v Olympique Lyonnais,fl1,14.5,scheduled,7,-0.002883,-0.000706,no gap,,,
+2026-11-21T19:30:28Z,fl1:26NOV21RCSSTB,RC Strasbourg Alsace v Stade Brestois 29,fl1,14.5,scheduled,5,-0.002326,0.001506,no gap,,fl1:26NOV21RCSSTB|2026-11-21T19:30:24Z|with_books,
+2026-11-21T19:30:28Z,fl1:26NOV21ASMAUX,AS Monaco FC v AJ Auxerre,fl1,14.5,scheduled,9,-0.002786,0.007649,seen,,fl1:26NOV21ASMAUX|2026-11-21T19:30:26Z|with_books,unibet_se h2h AS Monaco  @1.44 x0.700 | smarkets h2h Auxerre  @9.0 x0.114 | smarkets h2h Draw  @5.5 x0.186
+2026-11-21T19:30:28Z,fl1:26NOV21RCLTFC,Racing Club de Lens v Toulouse FC,fl1,14.5,scheduled,7,-0.002808,-0.002808,no gap,,,
+2026-11-21T19:30:28Z,ere:26NOV21TELZWO,Telstar 1963 v PEC Zwolle,ere,29.5,scheduled,9,-0.003661,-0.003661,no gap,,,
+2026-11-21T19:30:28Z,ere:26NOV21GROHEE,FC Groningen v SC Heerenveen,ere,29.5,scheduled,9,-0.00422,0.006257,seen,,ere:26NOV21GROHEE|2026-11-21T19:30:24Z|with_books,unibet_nl h2h Groningen  @2.85 x0.353 | pinnacle h2h Heerenveen  @2.53 x0.398 | matchbook h2h Draw  @4.1 x0.249
+2026-11-21T19:30:28Z,scop:26NOV21MOTRFC,Motherwell FC v Rangers FC,scop,29.5,scheduled,11,-0.000424,-0.000424,no gap,,,
+2026-11-21T19:30:28Z,nhl:26NOV21CHICGY,CHI at CGY,nhl,59.5,scheduled,8,-0.011921,-0.011353,no gap,,,
+2026-11-21T19:31:52Z,lal:26NOV21RMARCC,Real Madrid CF v RC Celta de Vigo,lal,28.1,confirmation,7,-0.002903,0.017479,executed,95491.38,,PM NO 0.150 x0.159 Will Real Madrid CF win on 2026-11-21? | onexbet h2h Real Madrid  @1.21 x0.841
+2026-11-21T19:31:56Z,fl1:26NOV21ASMAUX,AS Monaco FC v AJ Auxerre,fl1,13.1,confirmation,9,-0.002786,0.010146,executed,,,unibet_se h2h AS Monaco  @1.44 x0.701 | smarkets h2h Auxerre  @9.2 x0.112 | smarkets h2h Draw  @5.5 x0.187
+2026-11-21T19:31:56Z,ere:26NOV21GROHEE,FC Groningen v SC Heerenveen,ere,28.1,confirmation,9,-0.00422,0.006257,executed,,,unibet_nl h2h Groningen  @2.85 x0.353 | pinnacle h2h Heerenveen  @2.53 x0.398 | matchbook h2h Draw  @4.1 x0.249
+2026-11-21T19:40:29Z,sea:26NOV21NAPTOR,SSC Napoli v Torino FC,sea,4.5,scheduled,7,-0.002132,0.001538,no gap,,sea:26NOV21NAPTOR|2026-11-21T19:40:29Z|with_books,
+2026-11-21T19:40:29Z,fl1:26NOV21LILOL,Lille OSC v Olympique Lyonnais,fl1,4.5,scheduled,9,-0.003753,-0.00165,no gap,,,
+2026-11-21T19:40:29Z,fl1:26NOV21RCSSTB,RC Strasbourg Alsace v Stade Brestois 29,fl1,4.5,scheduled,5,-0.003272,0.001746,no gap,,fl1:26NOV21RCSSTB|2026-11-21T19:40:29Z|with_books,
+2026-11-21T19:40:29Z,fl1:26NOV21ASMAUX,AS Monaco FC v AJ Auxerre,fl1,4.5,scheduled,9,-0.002229,0.008613,seen,,fl1:26NOV21ASMAUX|2026-11-21T19:40:25Z|with_books,unibet_se h2h AS Monaco  @1.43 x0.705 | smarkets h2h Auxerre  @9.8 x0.105 | smarkets h2h Draw  @5.4 x0.190
+2026-11-21T19:40:29Z,fl1:26NOV21RCLTFC,Racing Club de Lens v Toulouse FC,fl1,4.5,scheduled,7,-0.002808,-0.002808,no gap,,,
+2026-11-21T19:41:57Z,fl1:26NOV21ASMAUX,AS Monaco FC v AJ Auxerre,fl1,3.0,confirmation,9,-0.001937,0.00642,executed,,,unibet_se h2h AS Monaco  @1.43 x0.704 | smarkets h2h Auxerre  @9.6 x0.107 | smarkets h2h Draw  @5.4 x0.189
+2026-11-21T19:45:23Z,lal:26NOV21RMARCC,Real Madrid CF v RC Celta de Vigo,lal,14.6,scheduled,7,-0.002229,0.020041,seen,,lal:26NOV21RMARCC|2026-11-21T19:45:23Z|with_books,betfair_ex_uk h2h Celta Vigo  @21.0 x0.051 | onexbet h2h Real Madrid  @1.21 x0.843 | smarkets h2h Draw  @9.8 x0.106
+2026-11-21T19:45:23Z,ere:26NOV21TELZWO,Telstar 1963 v PEC Zwolle,ere,14.6,scheduled,9,-0.003658,-0.003658,no gap,,,
+2026-11-21T19:45:23Z,ere:26NOV21GROHEE,FC Groningen v SC Heerenveen,ere,14.6,scheduled,9,-0.005549,-0.002391,no gap,,,
+2026-11-21T19:45:23Z,scop:26NOV21MOTRFC,Motherwell FC v Rangers FC,scop,14.6,scheduled,11,-0.003753,-0.003753,no gap,,,
