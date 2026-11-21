@@ -4,8 +4,8 @@
   "KS": 7254.919999999997,
   "BK:smarkets": 2807.1420399999997,
   "BK:pinnacle": -2369.9915999999985,
-  "BK:onexbet": -71589.32970000002,
-  "BK:matchbook": 7925.799332000003,
+  "BK:onexbet": -73047.75970000001,
+  "BK:matchbook": 6884.239332000003,
   "BK:leovegas_se": -12660.826020000022,
   "BK:gtbets": 5009.9357,
   "BK:winamax_de": 1144.1699999999996,
@@ -212,6 +212,62 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 224,
+   "time": "2026-11-21T11:02:22Z",
+   "game": "lal:26NOV21ALADEP",
+   "title": "Deportivo Alav\u00e9s v RC Deportivo A Coru\u00f1a",
+   "league": "lal",
+   "kickoff": "2026-11-21T13:00:00Z",
+   "min_to_ko": 117.6,
+   "t_lp": 0.020903,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "9881e56a732493272e688663b26cd37f",
+    "sport": "soccer_spain_la_liga",
+    "home": "Alav\u00e9s",
+    "away": "Deportivo La Coru\u00f1a"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2552.2386,
+   "guaranteed_profit": 52.2486,
+   "legs": [
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 2.5,
+     "odds": 2.48,
+     "eff": 2.4504,
+     "three_way": true,
+     "stake": 1041.56,
+     "cost": 1041.56,
+     "label": "totals Over 2.5 @2.48"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "totals",
+     "outcome": "Under",
+     "side": "under",
+     "point": 2.5,
+     "odds": 1.75,
+     "eff": 1.75,
+     "three_way": true,
+     "stake": 1458.43,
+     "cost": 1458.43,
+     "label": "totals Under 2.5 @1.75"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -229,7 +285,7 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 223,
+ "n_trades": 224,
  "n_settled": 221,
  "realized_pnl": -91365.07924800004,
  "runs": 68,
@@ -238,8 +294,8 @@
   "KS": 3.552713678800501e-15,
   "BK:smarkets": 1027.5300000000002,
   "BK:pinnacle": 2.2737367544323206e-13,
-  "BK:onexbet": 3533.2400000000007,
-  "BK:matchbook": 439.2,
+  "BK:onexbet": 4991.670000000001,
+  "BK:matchbook": 1480.76,
   "BK:leovegas_se": 1.77351466845721e-11,
   "BK:gtbets": 4.547473508864641e-13,
   "BK:winamax_de": 0.0,
@@ -360,7 +416,7 @@
    "8": 303,
    "9": 303,
    "10": 304,
-   "11": 308,
+   "11": 302,
    "12": 306,
    "13": 306
   },
@@ -379,7 +435,7 @@
    "2026-11-18": 191,
    "2026-11-19": 300,
    "2026-11-20": 530,
-   "2026-11-21": 152
+   "2026-11-21": 158
   }
  },
  "book_slots": {

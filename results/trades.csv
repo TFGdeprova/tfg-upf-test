@@ -222,3 +222,4 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 221,2026-11-21T03:03:36Z,lmx:26NOV20TIJALA,Club Tijuana v Atlante FC,lmx,2026-11-21T03:10:00Z,6.4,0.002907,,,,160.5851,161.0,0.4149,settled,2026-11-21T07:22:27Z,161.05,0.4649,ok,2
 222,2026-11-21T09:31:40Z,epl:26NOV21MCIFUL,Manchester City FC v Fulham FC,epl,2026-11-21T12:30:00Z,178.3,0.002092,True,"['matchbook', 'onexbet', 'smarkets']",False,2499.98,2505.1699,5.1899,open,,,,,3
 223,2026-11-21T10:31:59Z,epl:26NOV21MCIFUL,Manchester City FC v Fulham FC,epl,2026-11-21T12:30:00Z,118.0,0.004795,True,"['onexbet', 'smarkets']",False,2499.99,2511.9464,11.9564,open,,,,,3
+224,2026-11-21T11:02:22Z,lal:26NOV21ALADEP,Deportivo Alavés v RC Deportivo A Coruña,lal,2026-11-21T13:00:00Z,117.6,0.020903,True,"['matchbook', 'onexbet']",False,2499.99,2552.2386,52.2486,open,,,,,2
