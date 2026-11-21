@@ -1831,3 +1831,19 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-21T14:00:48Z,scop:26NOV21FALJOH,Falkirk FC v St Johnstone FC,scop,59.2,scheduled,5,-0.004023,-0.004023,no gap,,,
 2026-11-21T14:00:48Z,scop:26NOV21HIBDUU,Hibernian FC v Dundee United FC,scop,59.2,scheduled,11,-0.004313,-0.004313,no gap,,,
 2026-11-21T14:00:49Z,scop:26NOV21CELMIR,Celtic FC v St Mirren FC,scop,59.2,scheduled,9,-0.004573,-0.004395,no gap,,,
+2026-11-21T14:02:48Z,epl:26NOV21AVLSUN,Aston Villa FC v Sunderland AFC,epl,57.2,confirmation,7,-0.002035,0.007915,executed,,,pinnacle h2h Aston Villa  @1.85 x0.545 | coolbet h2h Sunderland  @4.9 x0.206 | onexbet h2h Draw  @4.04 x0.249
+2026-11-21T14:02:48Z,epl:26NOV21COVCRY,Coventry City FC v Crystal Palace FC,epl,57.2,confirmation,7,-0.000448,0.016548,executed,,,coolbet h2h Coventry City  @2.65 x0.384 | unibet_nl h2h Crystal Palace  @2.95 x0.345 | onexbet h2h Draw  @3.74 x0.272
+2026-11-21T14:02:52Z,epl:26NOV21TOTIPS,Tottenham Hotspur FC v Ipswich Town FC,epl,57.1,confirmation,9,0.005115,0.005115,vanished,0.99,,PM NO 0.961 x0.968 Exact Score: Tottenham Hotspur FC 0 - 1 Ipswich Town FC? | KS YES 0.030 x0.032 Ipswich Town wins 1-0
+2026-11-21T14:02:52Z,epl:26NOV21BOUNFO,AFC Bournemouth v Nottingham Forest FC,epl,57.1,confirmation,5,-0.000632,0.008058,executed,,,matchbook h2h Bournemouth  @2.08 x0.490 | unibet_se h2h Nottingham Forest  @4.2 x0.240 | onexbet h2h Draw  @3.73 x0.270
+2026-11-21T14:02:59Z,bun:26NOV21LEVPAD,Bayer 04 Leverkusen v SC Paderborn 07,bun,27.0,confirmation,9,-0.001937,0.005857,executed,,,ladbrokes_uk h2h Bayer Leverkusen  @1.33 x0.756 | unibet_se h2h SC Paderborn  @10.5 x0.096 | betonlineag h2h Draw  @6.8 x0.148
+2026-11-21T14:03:03Z,elc:26NOV21WOLCHA,Wolverhampton Wanderers FC v Charlton Athletic FC,elc,56.9,confirmation,9,-0.002981,0.019189,executed,,,smarkets h2h Charlton Athletic  @12.5 x0.083 | leovegas_se h2h Wolverhampton Wanderers  @1.35 x0.755 | matchbook h2h Draw  @6.4 x0.162
+2026-11-21T14:03:05Z,elc:26NOV21LICWRE,Lincoln City FC v Wrexham AFC,elc,56.9,confirmation,7,-0.002786,0.012952,executed,,,smarkets h2h Lincoln City  @2.86 x0.359 | pinnacle h2h Wrexham AFC  @2.99 x0.339 | leovegas_se h2h Draw  @3.35 x0.302
+2026-11-21T14:03:07Z,elc:26NOV21WHUPNE,West Ham United FC v Preston North End FC,elc,56.9,confirmation,9,-0.002883,0.003431,executed,,,betus totals Over 3.5 @2.3 x0.436 | betrivers totals Under 3.5 @1.78 x0.564
+2026-11-21T14:15:13Z,lal:26NOV21RVCVCF,Rayo Vallecano de Madrid v Valencia CF,lal,59.8,scheduled,7,0.002077,0.002077,no gap,,,
+2026-11-21T14:15:13Z,bun:26NOV21BMGBVB,Borussia Mönchengladbach v BV Borussia 09 Dortmund,bun,14.8,scheduled,11,-0.001398,0.011054,seen,,bun:26NOV21BMGBVB|2026-11-21T14:15:11Z|with_books,matchbook h2h Borussia Dortmund  @1.75 x0.583 | unibet_se h2h Borussia Monchengladbach  @5.25 x0.193 | unibet_se h2h Draw  @4.5 x0.225
+2026-11-21T14:15:22Z,bun:26NOV21SGETSG,Eintracht Frankfurt v TSG 1899 Hoffenheim,bun,14.6,scheduled,7,0.000505,0.001048,no gap,,bun:26NOV21SGETSG|2026-11-21T14:15:22Z|with_books,
+2026-11-21T14:15:22Z,bun:26NOV21LEVPAD,Bayer 04 Leverkusen v SC Paderborn 07,bun,14.6,scheduled,9,-0.001937,0.001063,no gap,,bun:26NOV21LEVPAD|2026-11-21T14:15:20Z|with_books,
+2026-11-21T14:15:22Z,bun:26NOV21UNIRBL,1. FC Union Berlin v RB Leipzig,bun,14.6,scheduled,11,-0.002423,-0.001901,no gap,,,
+2026-11-21T14:15:22Z,bun:26NOV21SVESCF,SV 07 Elversberg v SC Freiburg,bun,14.6,scheduled,9,-0.003562,-0.00156,no gap,,,
+2026-11-21T14:15:22Z,fl1:26NOV21NICPSG,OGC Nice v Paris Saint-Germain FC,fl1,119.6,scheduled,7,-0.003465,0.0018,no gap,,fl1:26NOV21NICPSG|2026-11-21T14:15:20Z|with_books,
+2026-11-21T14:16:43Z,bun:26NOV21BMGBVB,Borussia Mönchengladbach v BV Borussia 09 Dortmund,bun,13.3,confirmation,11,-0.001398,0.011054,executed,,,smarkets h2h Borussia Dortmund  @1.75 x0.583 | unibet_se h2h Borussia Monchengladbach  @5.25 x0.193 | unibet_se h2h Draw  @4.5 x0.225
