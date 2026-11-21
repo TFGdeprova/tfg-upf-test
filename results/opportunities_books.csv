@@ -1734,3 +1734,14 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-21T12:01:15Z,scop:26NOV21FALJOH,Falkirk FC v St Johnstone FC,scop,178.7,scheduled,5,-0.004023,-0.004023,no gap,,,
 2026-11-21T12:01:15Z,scop:26NOV21HIBDUU,Hibernian FC v Dundee United FC,scop,178.7,scheduled,11,-0.003369,-0.003369,no gap,,,
 2026-11-21T12:01:15Z,scop:26NOV21CELMIR,Celtic FC v St Mirren FC,scop,178.7,scheduled,9,-0.003739,-0.002812,no gap,,,
+2026-11-21T12:02:02Z,epl:26NOV21MCIFUL,Manchester City FC v Fulham FC,epl,28.0,confirmation,11,-0.001937,0.009791,executed,,,matchbook h2h Fulham  @8.8 x0.117 | onexbet h2h Manchester City  @1.43 x0.706 | smarkets h2h Draw  @5.8 x0.177
+2026-11-21T12:02:18Z,lal:26NOV21ALADEP,Deportivo Alavés v RC Deportivo A Coruña,lal,57.7,confirmation,7,-0.003369,0.02073,executed,,,onexbet h2h Alavés  @2.41 x0.424 | matchbook h2h Deportivo La Coruña  @3.75 x0.276 | unibet_nl h2h Draw  @3.4 x0.300
+2026-11-21T12:02:45Z,epl:26NOV21COVCRY,Coventry City FC v Crystal Palace FC,epl,177.2,confirmation,7,0.001766,0.005696,executed,,,smarkets h2h Coventry City  @2.66 x0.383 | unibet_se h2h Crystal Palace  @2.9 x0.347 | onexbet h2h Draw  @3.72 x0.270
+2026-11-21T12:04:04Z,elc:26NOV21LICWRE,Lincoln City FC v Wrexham AFC,elc,175.9,confirmation,7,-0.00373,0.006776,executed,,,leovegas_se h2h Lincoln City  @2.75 x0.366 | pinnacle h2h Wrexham AFC  @3.02 x0.333 | leovegas_se h2h Draw  @3.35 x0.301
+2026-11-21T12:04:06Z,elc:26NOV21WHUPNE,West Ham United FC v Preston North End FC,elc,175.9,confirmation,9,-0.002883,0.003431,executed,,,betus totals Over 3.5 @2.3 x0.436 | betrivers totals Under 3.5 @1.78 x0.564
+2026-11-21T12:15:38Z,epl:26NOV21MCIFUL,Manchester City FC v Fulham FC,epl,14.4,scheduled,11,-0.001937,0.001518,no gap,,epl:26NOV21MCIFUL|2026-11-21T12:15:38Z|with_books,
+2026-11-21T12:15:38Z,elc:26NOV21MILQPR,Millwall FC v Queens Park Rangers FC,elc,14.4,scheduled,7,-0.003465,-0.003465,no gap,,,
+2026-11-21T12:15:40Z,elc:26NOV21SOUDER,Southampton FC v Derby County FC,elc,14.3,scheduled,11,-0.002746,0.00504,seen,,elc:26NOV21SOUDER|2026-11-21T12:15:40Z|with_books,leovegas_se h2h Derby County  @7.0 x0.144 | matchbook h2h Southampton  @1.57 x0.645 | leovegas_se h2h Draw  @4.75 x0.212
+2026-11-21T12:15:40Z,elc:26NOV21NORCAR,Norwich City FC v Cardiff City FC,elc,14.3,scheduled,9,-0.001839,-0.001839,no gap,,,
+2026-11-21T12:16:42Z,lal:26NOV21RVCVCF,Rayo Vallecano de Madrid v Valencia CF,lal,178.3,scheduled,7,0.002077,0.002077,no gap,,,
+2026-11-21T12:16:55Z,elc:26NOV21SOUDER,Southampton FC v Derby County FC,elc,13.1,confirmation,11,-0.002746,0.000956,vanished,,,leovegas_se h2h Derby County  @7.0 x0.143 | matchbook h2h Southampton  @1.56 x0.646 | leovegas_se h2h Draw  @4.75 x0.211
