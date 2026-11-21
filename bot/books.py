@@ -120,12 +120,22 @@ def match_event(game, events, sim=None):
     return None, None
 
 
+def three_way_us(ev, bk):
+    """True when a bookmaker prices a US game's winner three-way (home / draw / away after regulation time), as many
+    European books do for the NHL. Its markets for that game are then settled on regulation time, which the US score
+    grid (official score including overtime) cannot represent, so the bookmaker is ignored for that game (fix of 21 Nov).
+    """
+    if str(ev.get("sport_key", "")).startswith("soccer"): return False
+    return any(mk.get("key") == "h2h" and any(str(o.get("name", "")).lower() == "draw" for o in mk.get("outcomes", []))
+               for mk in bk.get("markets", []))
+
+
 def best_lines(ev, side):
     """Best odds per (market, outcome, line) across bookmakers, after exchange commission.
     Returns [{"market", "outcome", "side", "point", "odds", "eff", "book"}]."""
     best = {}
     for bk in ev.get("bookmakers", []):
-        if any(s in bk["key"] for s in SKIP_BOOKS): continue
+        if any(s in bk["key"] for s in SKIP_BOOKS) or three_way_us(ev, bk): continue
         c = COMMISSION.get(bk["key"], 0.0)
         for mk in bk.get("markets", []):
             if mk["key"] not in ("h2h", "spreads", "totals"): continue
@@ -146,7 +156,7 @@ def best_lines(ev, side):
 def book_line(ev, side, book, market, sd, point):
     """Current odds of one bookmaker for one outcome, after exchange commission: {"odds", "eff"} or None."""
     for bk in ev.get("bookmakers", []):
-        if bk["key"] != book: continue
+        if bk["key"] != book or three_way_us(ev, bk): continue
         c = COMMISSION.get(bk["key"], 0.0)
         for mk in bk.get("markets", []):
             if mk["key"] != market: continue
@@ -172,6 +182,7 @@ def payoff_football(L):
 def payoff_us(L, g):
     """Gross return per 1 staked over a US score grid (official score; pushes return the stake)."""
     h, a = g.scores(True)
+    if L["side"] == "draw": return None              # a US winner bet never has a draw outcome (see three_way_us)
     if L["market"] == "totals":
         if L["point"] is None: return None
         diff = (h + a - float(L["point"])) * (1 if L["side"] == "over" else -1)
