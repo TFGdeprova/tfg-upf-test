@@ -2065,3 +2065,12 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-21T19:45:23Z,ere:26NOV21TELZWO,Telstar 1963 v PEC Zwolle,ere,14.6,scheduled,9,-0.003658,-0.003658,no gap,,,
 2026-11-21T19:45:23Z,ere:26NOV21GROHEE,FC Groningen v SC Heerenveen,ere,14.6,scheduled,9,-0.005549,-0.002391,no gap,,,
 2026-11-21T19:45:23Z,scop:26NOV21MOTRFC,Motherwell FC v Rangers FC,scop,14.6,scheduled,11,-0.003753,-0.003753,no gap,,,
+2026-11-21T19:46:49Z,lal:26NOV21RMARCC,Real Madrid CF v RC Celta de Vigo,lal,13.2,confirmation,7,-0.002229,0.003999,executed,,,smarkets h2h Celta Vigo  @20.0 x0.051 | marathonbet h2h Real Madrid  @1.19 x0.844 | betfair_ex_uk h2h Draw  @10.0 x0.105
+2026-11-21T19:55:20Z,lal:26NOV21RMARCC,Real Madrid CF v RC Celta de Vigo,lal,4.7,scheduled,7,-0.002229,0.007266,seen,,lal:26NOV21RMARCC|2026-11-21T19:55:20Z|with_books,matchbook h2h Celta Vigo  @21.0 x0.049 | marathonbet h2h Real Madrid  @1.19 x0.846 | matchbook h2h Draw  @9.8 x0.105
+2026-11-21T19:55:20Z,ere:26NOV21TELZWO,Telstar 1963 v PEC Zwolle,ere,4.7,scheduled,9,-0.00252,-0.00252,no gap,,,
+2026-11-21T19:55:20Z,ere:26NOV21GROHEE,FC Groningen v SC Heerenveen,ere,4.7,scheduled,9,-0.004229,-0.004229,no gap,,,
+2026-11-21T19:55:20Z,scop:26NOV21MOTRFC,Motherwell FC v Rangers FC,scop,4.7,scheduled,11,-0.003753,-0.003123,no gap,,,
+2026-11-21T19:56:49Z,lal:26NOV21RMARCC,Real Madrid CF v RC Celta de Vigo,lal,3.2,confirmation,7,-0.002229,0.007893,executed,,,betfair_ex_uk h2h Celta Vigo  @21.0 x0.050 | marathonbet h2h Real Madrid  @1.19 x0.847 | matchbook h2h Draw  @10.0 x0.103
+2026-11-21T20:00:15Z,nhl:26NOV21CHICGY,CHI at CGY,nhl,29.7,scheduled,8,-0.011921,-0.011921,no gap,,,
+2026-11-21T20:00:17Z,nhl:26NOV21PITNSH,PIT at NSH,nhl,179.7,scheduled,8,-0.011921,-0.008889,no gap,,,
+2026-11-21T20:00:17Z,nhl:26NOV21BUFFLA,BUF at FLA,nhl,179.7,scheduled,8,-0.011921,-0.011921,no gap,,,

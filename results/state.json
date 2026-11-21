@@ -2,24 +2,24 @@
  "cash": {
   "PM": 11382.095100000002,
   "KS": 7254.919999999997,
-  "BK:smarkets": -2431.261905999998,
+  "BK:smarkets": -2559.1919059999977,
   "BK:pinnacle": -2061.1707999999976,
-  "BK:onexbet": -87694.7654,
-  "BK:matchbook": -1137.067403999998,
+  "BK:onexbet": -77646.4194,
+  "BK:matchbook": -1393.657403999998,
   "BK:leovegas_se": -16543.034020000025,
   "BK:gtbets": -65.67649999999958,
   "BK:winamax_de": 1144.1699999999996,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -20845.307700000012,
+  "BK:unibet_se": -18300.622200000013,
   "BK:tipico_de": -3710.9519999999998,
-  "BK:coolbet": 7700.1291,
-  "BK:unibet_nl": -16211.870000000003,
-  "BK:marathonbet": -9122.6778,
+  "BK:coolbet": 10223.5626,
+  "BK:unibet_nl": -13686.025000000003,
+  "BK:marathonbet": -13349.3378,
   "BK:coral": -727.607,
-  "BK:betfair_ex_uk": 505.96,
+  "BK:betfair_ex_uk": 117.15999999999998,
   "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": 66.21999999999997,
-  "BK:betonlineag": -5182.742300000004,
+  "BK:betonlineag": 2452.5284999999953,
   "BK:skybet": -1150.75,
   "BK:betrivers": 11676.5811,
   "BK:lowvig": -6543.630499999999,
@@ -78,132 +78,6 @@
   "BK:nordicbet": 580.0
  },
  "open": [
-  {
-   "trade_id": 266,
-   "time": "2026-11-21T14:33:26Z",
-   "game": "epl:26NOV21NEWARS",
-   "title": "Newcastle United FC v Arsenal FC",
-   "league": "epl",
-   "kickoff": "2026-11-21T17:30:00Z",
-   "min_to_ko": 176.6,
-   "t_lp": 0.006388,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "71bf9fe98c3e3be39cd1d059f8d71ae8",
-    "sport": "soccer_epl",
-    "home": "Newcastle United",
-    "away": "Arsenal"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2515.9244,
-   "guaranteed_profit": 15.9444,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Arsenal",
-     "side": "away",
-     "point": null,
-     "odds": 1.62,
-     "eff": 1.62,
-     "three_way": true,
-     "stake": 1553.06,
-     "cost": 1553.06,
-     "label": "h2h Arsenal  @1.62"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Newcastle United",
-     "side": "home",
-     "point": null,
-     "odds": 6.8,
-     "eff": 6.684,
-     "three_way": true,
-     "stake": 376.41,
-     "cost": 376.41,
-     "label": "h2h Newcastle United  @6.8"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.41,
-     "eff": 4.41,
-     "three_way": true,
-     "stake": 570.51,
-     "cost": 570.51,
-     "label": "h2h Draw  @4.41"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 267,
-   "time": "2026-11-21T14:33:26Z",
-   "game": "lal:26NOV21SEVRBB",
-   "title": "Sevilla FC v Real Betis Balompi\u00e9",
-   "league": "lal",
-   "kickoff": "2026-11-21T17:30:00Z",
-   "min_to_ko": 176.6,
-   "t_lp": 0.009381,
-   "with_books": true,
-   "books": [
-    "coolbet",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "1bb4951d418dcb641c608e085b87a1c3",
-    "sport": "soccer_spain_la_liga",
-    "home": "Sevilla",
-    "away": "Real Betis"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2523.4335,
-   "guaranteed_profit": 23.4435,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "totals",
-     "outcome": "Over",
-     "side": "over",
-     "point": 2.5,
-     "odds": 1.97,
-     "eff": 1.97,
-     "three_way": true,
-     "stake": 1280.94,
-     "cost": 1280.94,
-     "label": "totals Over 2.5 @1.97"
-    },
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "totals",
-     "outcome": "Under",
-     "side": "under",
-     "point": 2.5,
-     "odds": 2.07,
-     "eff": 2.07,
-     "three_way": true,
-     "stake": 1219.05,
-     "cost": 1219.05,
-     "label": "totals Under 2.5 @2.07"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 272,
    "time": "2026-11-21T14:47:48Z",
@@ -342,147 +216,6 @@
      "stake": 282.16,
      "cost": 282.16,
      "label": "h2h Draw  @8.91"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 282,
-   "time": "2026-11-21T16:31:41Z",
-   "game": "epl:26NOV21NEWARS",
-   "title": "Newcastle United FC v Arsenal FC",
-   "league": "epl",
-   "kickoff": "2026-11-21T17:30:00Z",
-   "min_to_ko": 58.3,
-   "t_lp": 0.013832,
-   "with_books": true,
-   "books": [
-    "betonlineag",
-    "gtbets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "71bf9fe98c3e3be39cd1d059f8d71ae8",
-    "sport": "soccer_epl",
-    "home": "Newcastle United",
-    "away": "Arsenal"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2534.554,
-   "guaranteed_profit": 34.564,
-   "legs": [
-    {
-     "venue": "BK:gtbets",
-     "book": "gtbets",
-     "market": "h2h",
-     "outcome": "Arsenal",
-     "side": "away",
-     "point": null,
-     "odds": 1.58,
-     "eff": 1.58,
-     "three_way": true,
-     "stake": 1604.16,
-     "cost": 1604.16,
-     "label": "h2h Arsenal  @1.58"
-    },
-    {
-     "venue": "BK:betonlineag",
-     "book": "betonlineag",
-     "market": "h2h",
-     "outcome": "Newcastle United",
-     "side": "home",
-     "point": null,
-     "odds": 7.35,
-     "eff": 7.35,
-     "three_way": true,
-     "stake": 344.84,
-     "cost": 344.84,
-     "label": "h2h Newcastle United  @7.35"
-    },
-    {
-     "venue": "BK:betonlineag",
-     "book": "betonlineag",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.6,
-     "eff": 4.6,
-     "three_way": true,
-     "stake": 550.99,
-     "cost": 550.99,
-     "label": "h2h Draw  @4.6"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 283,
-   "time": "2026-11-21T16:31:41Z",
-   "game": "lal:26NOV21SEVRBB",
-   "title": "Sevilla FC v Real Betis Balompi\u00e9",
-   "league": "lal",
-   "kickoff": "2026-11-21T17:30:00Z",
-   "min_to_ko": 58.3,
-   "t_lp": 0.010351,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "pinnacle",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "1bb4951d418dcb641c608e085b87a1c3",
-    "sport": "soccer_spain_la_liga",
-    "home": "Sevilla",
-    "away": "Real Betis"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2525.845,
-   "guaranteed_profit": 25.855,
-   "legs": [
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Real Betis",
-     "side": "away",
-     "point": null,
-     "odds": 2.7,
-     "eff": 2.6660000000000004,
-     "three_way": true,
-     "stake": 947.44,
-     "cost": 947.44,
-     "label": "h2h Real Betis  @2.7"
-    },
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "h2h",
-     "outcome": "Sevilla",
-     "side": "home",
-     "point": null,
-     "odds": 3.04,
-     "eff": 3.04,
-     "three_way": true,
-     "stake": 830.88,
-     "cost": 830.88,
-     "label": "h2h Sevilla  @3.04"
-    },
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.5,
-     "eff": 3.5,
-     "three_way": true,
-     "stake": 721.67,
-     "cost": 721.67,
-     "label": "h2h Draw  @3.5"
     }
    ],
    "status": "open"
@@ -695,77 +428,6 @@
    "status": "open"
   },
   {
-   "trade_id": 288,
-   "time": "2026-11-21T17:02:17Z",
-   "game": "bun:26NOV21SCHVFB",
-   "title": "FC Schalke 04 v VfB Stuttgart",
-   "league": "bun",
-   "kickoff": "2026-11-21T17:30:00Z",
-   "min_to_ko": 27.7,
-   "t_lp": 0.002801,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "smarkets",
-    "unibet_uk"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "67846fc0359aeff2d0b6f3f8a2a674f4",
-    "sport": "soccer_germany_bundesliga",
-    "home": "FC Schalke 04",
-    "away": "VfB Stuttgart"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2506.9875,
-   "guaranteed_profit": 6.9975,
-   "legs": [
-    {
-     "venue": "BK:unibet_uk",
-     "book": "unibet_uk",
-     "market": "h2h",
-     "outcome": "FC Schalke 04",
-     "side": "home",
-     "point": null,
-     "odds": 3.75,
-     "eff": 3.75,
-     "three_way": true,
-     "stake": 668.53,
-     "cost": 668.53,
-     "label": "h2h FC Schalke 04  @3.75"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "VfB Stuttgart",
-     "side": "away",
-     "point": null,
-     "odds": 2.04,
-     "eff": 2.0192,
-     "three_way": true,
-     "stake": 1241.58,
-     "cost": 1241.58,
-     "label": "h2h VfB Stuttgart  @2.04"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.25,
-     "eff": 4.25,
-     "three_way": true,
-     "stake": 589.88,
-     "cost": 589.88,
-     "label": "h2h Draw  @4.25"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 289,
    "time": "2026-11-21T17:02:17Z",
    "game": "ere:26NOV21GROHEE",
@@ -837,217 +499,6 @@
    "status": "open"
   },
   {
-   "trade_id": 290,
-   "time": "2026-11-21T17:17:09Z",
-   "game": "epl:26NOV21NEWARS",
-   "title": "Newcastle United FC v Arsenal FC",
-   "league": "epl",
-   "kickoff": "2026-11-21T17:30:00Z",
-   "min_to_ko": 12.8,
-   "t_lp": 0.020158,
-   "with_books": true,
-   "books": [
-    "betonlineag",
-    "gtbets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "71bf9fe98c3e3be39cd1d059f8d71ae8",
-    "sport": "soccer_epl",
-    "home": "Newcastle United",
-    "away": "Arsenal"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2550.3335,
-   "guaranteed_profit": 50.3535,
-   "legs": [
-    {
-     "venue": "BK:gtbets",
-     "book": "gtbets",
-     "market": "h2h",
-     "outcome": "Arsenal",
-     "side": "away",
-     "point": null,
-     "odds": 1.58,
-     "eff": 1.58,
-     "three_way": true,
-     "stake": 1614.17,
-     "cost": 1614.17,
-     "label": "h2h Arsenal  @1.58"
-    },
-    {
-     "venue": "BK:betonlineag",
-     "book": "betonlineag",
-     "market": "h2h",
-     "outcome": "Newcastle United",
-     "side": "home",
-     "point": null,
-     "odds": 7.15,
-     "eff": 7.15,
-     "three_way": true,
-     "stake": 356.69,
-     "cost": 356.69,
-     "label": "h2h Newcastle United  @7.15"
-    },
-    {
-     "venue": "BK:betonlineag",
-     "book": "betonlineag",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.82,
-     "eff": 4.82,
-     "three_way": true,
-     "stake": 529.12,
-     "cost": 529.12,
-     "label": "h2h Draw  @4.82"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 291,
-   "time": "2026-11-21T17:17:09Z",
-   "game": "lal:26NOV21SEVRBB",
-   "title": "Sevilla FC v Real Betis Balompi\u00e9",
-   "league": "lal",
-   "kickoff": "2026-11-21T17:30:00Z",
-   "min_to_ko": 12.8,
-   "t_lp": 0.002562,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "1bb4951d418dcb641c608e085b87a1c3",
-    "sport": "soccer_spain_la_liga",
-    "home": "Sevilla",
-    "away": "Real Betis"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2506.38,
-   "guaranteed_profit": 6.4,
-   "legs": [
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Real Betis",
-     "side": "away",
-     "point": null,
-     "odds": 2.7,
-     "eff": 2.6660000000000004,
-     "three_way": true,
-     "stake": 940.13,
-     "cost": 940.13,
-     "label": "h2h Real Betis  @2.7"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Sevilla",
-     "side": "home",
-     "point": null,
-     "odds": 3.0,
-     "eff": 3.0,
-     "three_way": true,
-     "stake": 835.46,
-     "cost": 835.46,
-     "label": "h2h Sevilla  @3.0"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.46,
-     "eff": 3.46,
-     "three_way": true,
-     "stake": 724.39,
-     "cost": 724.39,
-     "label": "h2h Draw  @3.46"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 292,
-   "time": "2026-11-21T17:17:09Z",
-   "game": "bun:26NOV21SCHVFB",
-   "title": "FC Schalke 04 v VfB Stuttgart",
-   "league": "bun",
-   "kickoff": "2026-11-21T17:30:00Z",
-   "min_to_ko": 12.8,
-   "t_lp": 0.007612,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "onexbet",
-    "unibet_uk"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "67846fc0359aeff2d0b6f3f8a2a674f4",
-    "sport": "soccer_germany_bundesliga",
-    "home": "FC Schalke 04",
-    "away": "VfB Stuttgart"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2519.0175,
-   "guaranteed_profit": 19.0275,
-   "legs": [
-    {
-     "venue": "BK:unibet_uk",
-     "book": "unibet_uk",
-     "market": "h2h",
-     "outcome": "FC Schalke 04",
-     "side": "home",
-     "point": null,
-     "odds": 3.75,
-     "eff": 3.75,
-     "three_way": true,
-     "stake": 671.74,
-     "cost": 671.74,
-     "label": "h2h FC Schalke 04  @3.75"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "VfB Stuttgart",
-     "side": "away",
-     "point": null,
-     "odds": 2.06,
-     "eff": 2.0388,
-     "three_way": true,
-     "stake": 1235.54,
-     "cost": 1235.54,
-     "label": "h2h VfB Stuttgart  @2.06"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.25,
-     "eff": 4.25,
-     "three_way": true,
-     "stake": 592.71,
-     "cost": 592.71,
-     "label": "h2h Draw  @4.25"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 293,
    "time": "2026-11-21T17:17:09Z",
    "game": "ere:26NOV21FEYEXC",
@@ -1099,146 +550,6 @@
      "stake": 1339.23,
      "cost": 1339.23,
      "label": "totals Under 3.5 @1.92"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 294,
-   "time": "2026-11-21T17:26:47Z",
-   "game": "epl:26NOV21NEWARS",
-   "title": "Newcastle United FC v Arsenal FC",
-   "league": "epl",
-   "kickoff": "2026-11-21T17:30:00Z",
-   "min_to_ko": 3.2,
-   "t_lp": 0.020158,
-   "with_books": true,
-   "books": [
-    "betonlineag",
-    "gtbets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "71bf9fe98c3e3be39cd1d059f8d71ae8",
-    "sport": "soccer_epl",
-    "home": "Newcastle United",
-    "away": "Arsenal"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2550.3335,
-   "guaranteed_profit": 50.3535,
-   "legs": [
-    {
-     "venue": "BK:gtbets",
-     "book": "gtbets",
-     "market": "h2h",
-     "outcome": "Arsenal",
-     "side": "away",
-     "point": null,
-     "odds": 1.58,
-     "eff": 1.58,
-     "three_way": true,
-     "stake": 1614.17,
-     "cost": 1614.17,
-     "label": "h2h Arsenal  @1.58"
-    },
-    {
-     "venue": "BK:betonlineag",
-     "book": "betonlineag",
-     "market": "h2h",
-     "outcome": "Newcastle United",
-     "side": "home",
-     "point": null,
-     "odds": 7.15,
-     "eff": 7.15,
-     "three_way": true,
-     "stake": 356.69,
-     "cost": 356.69,
-     "label": "h2h Newcastle United  @7.15"
-    },
-    {
-     "venue": "BK:betonlineag",
-     "book": "betonlineag",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.82,
-     "eff": 4.82,
-     "three_way": true,
-     "stake": 529.12,
-     "cost": 529.12,
-     "label": "h2h Draw  @4.82"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 295,
-   "time": "2026-11-21T17:26:47Z",
-   "game": "lal:26NOV21SEVRBB",
-   "title": "Sevilla FC v Real Betis Balompi\u00e9",
-   "league": "lal",
-   "kickoff": "2026-11-21T17:30:00Z",
-   "min_to_ko": 3.2,
-   "t_lp": 0.017879,
-   "with_books": true,
-   "books": [
-    "smarkets",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "1bb4951d418dcb641c608e085b87a1c3",
-    "sport": "soccer_spain_la_liga",
-    "home": "Sevilla",
-    "away": "Real Betis"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2544.6836,
-   "guaranteed_profit": 44.6936,
-   "legs": [
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Real Betis",
-     "side": "away",
-     "point": null,
-     "odds": 2.82,
-     "eff": 2.7836,
-     "three_way": true,
-     "stake": 914.17,
-     "cost": 914.17,
-     "label": "h2h Real Betis  @2.82"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Sevilla",
-     "side": "home",
-     "point": null,
-     "odds": 3.0,
-     "eff": 3.0,
-     "three_way": true,
-     "stake": 848.23,
-     "cost": 848.23,
-     "label": "h2h Sevilla  @3.0"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.45,
-     "eff": 3.45,
-     "three_way": true,
-     "stake": 737.59,
-     "cost": 737.59,
-     "label": "h2h Draw  @3.45"
     }
    ],
    "status": "open"
@@ -2233,6 +1544,148 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 311,
+   "time": "2026-11-21T19:46:49Z",
+   "game": "lal:26NOV21RMARCC",
+   "title": "Real Madrid CF v RC Celta de Vigo",
+   "league": "lal",
+   "kickoff": "2026-11-21T20:00:00Z",
+   "min_to_ko": 13.2,
+   "t_lp": 0.003999,
+   "with_books": true,
+   "books": [
+    "betfair_ex_uk",
+    "marathonbet",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "90af957b2f622a5cf805e60b151c54b9",
+    "sport": "soccer_spain_la_liga",
+    "home": "Real Madrid",
+    "away": "Celta Vigo"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2509.931,
+   "guaranteed_profit": 9.941,
+   "legs": [
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Celta Vigo",
+     "side": "away",
+     "point": null,
+     "odds": 20.0,
+     "eff": 19.62,
+     "three_way": true,
+     "stake": 127.93,
+     "cost": 127.93,
+     "label": "h2h Celta Vigo  @20.0"
+    },
+    {
+     "venue": "BK:marathonbet",
+     "book": "marathonbet",
+     "market": "h2h",
+     "outcome": "Real Madrid",
+     "side": "home",
+     "point": null,
+     "odds": 1.19,
+     "eff": 1.19,
+     "three_way": true,
+     "stake": 2109.24,
+     "cost": 2109.24,
+     "label": "h2h Real Madrid  @1.19"
+    },
+    {
+     "venue": "BK:betfair_ex_uk",
+     "book": "betfair_ex_uk",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 10.0,
+     "eff": 9.549999999999999,
+     "three_way": true,
+     "stake": 262.82,
+     "cost": 262.82,
+     "label": "h2h Draw  @10.0"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 312,
+   "time": "2026-11-21T19:56:49Z",
+   "game": "lal:26NOV21RMARCC",
+   "title": "Real Madrid CF v RC Celta de Vigo",
+   "league": "lal",
+   "kickoff": "2026-11-21T20:00:00Z",
+   "min_to_ko": 3.2,
+   "t_lp": 0.007893,
+   "with_books": true,
+   "books": [
+    "betfair_ex_uk",
+    "marathonbet",
+    "matchbook"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "90af957b2f622a5cf805e60b151c54b9",
+    "sport": "soccer_spain_la_liga",
+    "home": "Real Madrid",
+    "away": "Celta Vigo"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2519.6,
+   "guaranteed_profit": 19.61,
+   "legs": [
+    {
+     "venue": "BK:betfair_ex_uk",
+     "book": "betfair_ex_uk",
+     "market": "h2h",
+     "outcome": "Celta Vigo",
+     "side": "away",
+     "point": null,
+     "odds": 21.0,
+     "eff": 20.0,
+     "three_way": true,
+     "stake": 125.98,
+     "cost": 125.98,
+     "label": "h2h Celta Vigo  @21.0"
+    },
+    {
+     "venue": "BK:marathonbet",
+     "book": "marathonbet",
+     "market": "h2h",
+     "outcome": "Real Madrid",
+     "side": "home",
+     "point": null,
+     "odds": 1.19,
+     "eff": 1.19,
+     "three_way": true,
+     "stake": 2117.42,
+     "cost": 2117.42,
+     "label": "h2h Real Madrid  @1.19"
+    },
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 10.0,
+     "eff": 9.82,
+     "three_way": true,
+     "stake": 256.59,
+     "cost": 256.59,
+     "label": "h2h Draw  @10.0"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -2262,31 +1715,31 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 310,
- "n_settled": 278,
- "realized_pnl": -90119.26693000006,
+ "n_trades": 312,
+ "n_settled": 288,
+ "realized_pnl": -89841.54613000006,
  "runs": 70,
  "locked": {
   "PM": 3578.6583,
   "KS": 3.552713678800501e-15,
-  "BK:smarkets": 9624.369999999999,
-  "BK:pinnacle": 4938.8,
-  "BK:onexbet": 17673.590000000004,
-  "BK:matchbook": 9660.97,
+  "BK:smarkets": 7220.139999999999,
+  "BK:pinnacle": 4107.92,
+  "BK:onexbet": 11526.640000000007,
+  "BK:matchbook": 6794.449999999999,
   "BK:leovegas_se": 1.7394086171407253e-11,
-  "BK:gtbets": 4832.5,
+  "BK:gtbets": 0.0,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 8572.810000000012,
+  "BK:unibet_se": 6986.9900000000125,
   "BK:tipico_de": 481.9,
-  "BK:coolbet": 2070.3,
-  "BK:unibet_nl": 5390.310000000001,
-  "BK:marathonbet": 0.0,
+  "BK:coolbet": 851.2500000000002,
+  "BK:unibet_nl": 4668.640000000001,
+  "BK:marathonbet": 4226.66,
   "BK:coral": 4120.879999999999,
-  "BK:betfair_ex_uk": 0.0,
+  "BK:betfair_ex_uk": 388.8,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 0.0,
-  "BK:betonlineag": 2667.4500000000003,
+  "BK:betonlineag": 1.1368683772161603e-13,
   "BK:skybet": 0.0,
   "BK:betrivers": 4.547473508864641e-13,
   "BK:lowvig": 1211.15,
@@ -2302,7 +1755,7 @@
   "BK:williamhill": 1686.02,
   "BK:ladbrokes_uk": 2.2737367544323206e-13,
   "BK:betus": 0.0,
-  "BK:unibet_uk": 1340.27,
+  "BK:unibet_uk": 0.0,
   "BK:nordicbet": 1993.38
  },
  "peak_locked": {
@@ -2322,7 +1775,7 @@
   "BK:unibet_nl": 5390.310000000001,
   "BK:marathonbet": 8525.07,
   "BK:coral": 6136.499999999999,
-  "BK:betfair_ex_uk": 74.04,
+  "BK:betfair_ex_uk": 388.8,
   "BK:betfred_uk": 1348.02,
   "BK:betfair_ex_eu": 386.85,
   "BK:betonlineag": 4590.49,
@@ -2359,9 +1812,9 @@
   "BK:tipico_de": -3710.9519999999998,
   "BK:coolbet": -8022.379999999999,
   "BK:unibet_nl": -16211.870000000003,
-  "BK:marathonbet": -11633.1788,
+  "BK:marathonbet": -13349.3378,
   "BK:coral": -3247.1319999999996,
-  "BK:betfair_ex_uk": 505.96,
+  "BK:betfair_ex_uk": 117.15999999999998,
   "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": 66.21999999999997,
   "BK:betonlineag": -10211.756800000005,
@@ -2397,14 +1850,14 @@
    "3": 115,
    "4": 114,
    "5": 116,
-   "6": 137,
-   "7": 136,
-   "8": 139,
-   "9": 135,
-   "10": 140,
-   "11": 134,
-   "12": 136,
-   "13": 136
+   "6": 131,
+   "7": 130,
+   "8": 133,
+   "9": 133,
+   "10": 132,
+   "11": 132,
+   "12": 130,
+   "13": 130
   },
   "spent": {
    "2026-11-06": 27,
@@ -2421,7 +1874,7 @@
    "2026-11-18": 191,
    "2026-11-19": 300,
    "2026-11-20": 530,
-   "2026-11-21": 1300
+   "2026-11-21": 1342
   }
  },
  "book_slots": {
@@ -2684,6 +2137,11 @@
   "fl1|2026-11-21T19:45|5": "2026-11-21T19:40:16Z",
   "lal|2026-11-21T20:00|15": "2026-11-21T19:45:15Z",
   "ere|2026-11-21T20:00|15": "2026-11-21T19:45:17Z",
-  "scop|2026-11-21T20:00|15": "2026-11-21T19:45:18Z"
+  "scop|2026-11-21T20:00|15": "2026-11-21T19:45:18Z",
+  "lal|2026-11-21T20:00|5": "2026-11-21T19:55:15Z",
+  "ere|2026-11-21T20:00|5": "2026-11-21T19:55:15Z",
+  "scop|2026-11-21T20:00|5": "2026-11-21T19:55:15Z",
+  "nhl|2026-11-21T20:30|30": "2026-11-21T20:00:15Z",
+  "nhl|2026-11-21T23:00|180": "2026-11-21T20:00:15Z"
  }
 }
