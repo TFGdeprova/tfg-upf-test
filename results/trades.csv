@@ -236,3 +236,4 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 235,2026-11-21T12:27:32Z,elc:26NOV21MILQPR,Millwall FC v Queens Park Rangers FC,elc,2026-11-21T12:30:00Z,2.5,0.002638,True,"['betonlineag', 'onexbet', 'smarkets']",False,2499.98,2506.5693,6.5893,open,,,,,3
 236,2026-11-21T12:32:26Z,lal:26NOV21ALADEP,Deportivo Alavés v RC Deportivo A Coruña,lal,2026-11-21T13:00:00Z,27.6,0.015615,True,"['matchbook', 'smarkets', 'unibet_nl']",False,2499.99,2539.008,39.018,open,,,,,3
 237,2026-11-21T12:34:27Z,bun:26NOV21SVESCF,SV 07 Elversberg v SC Freiburg,bun,2026-11-21T14:30:00Z,115.5,0.002606,True,"['matchbook', 'onexbet', 'smarkets']",False,2499.98,2506.482,6.502,open,,,,,3
+238,2026-11-21T12:48:30Z,lal:26NOV21ALADEP,Deportivo Alavés v RC Deportivo A Coruña,lal,2026-11-21T13:00:00Z,11.5,0.011733,True,"['pinnacle', 'smarkets', 'unibet_nl']",False,2499.99,2529.318,29.328,open,,,,,3

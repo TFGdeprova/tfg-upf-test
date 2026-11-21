@@ -2,8 +2,8 @@
  "cash": {
   "PM": 14960.753400000003,
   "KS": 7254.919999999997,
-  "BK:smarkets": -2387.1579600000005,
-  "BK:pinnacle": -5154.481599999999,
+  "BK:smarkets": -3518.9479600000004,
+  "BK:pinnacle": -5820.091599999999,
   "BK:onexbet": -78045.1197,
   "BK:matchbook": 1731.019332000003,
   "BK:leovegas_se": -14327.396020000022,
@@ -13,7 +13,7 @@
   "BK:unibet_se": -5323.005300000007,
   "BK:tipico_de": -3229.0519999999997,
   "BK:coolbet": 5688.0193,
-  "BK:unibet_nl": -9257.49,
+  "BK:unibet_nl": -9960.08,
   "BK:marathonbet": -10325.038799999998,
   "BK:coral": 361.093,
   "BK:betfair_ex_uk": 505.96,
@@ -1162,6 +1162,77 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 238,
+   "time": "2026-11-21T12:48:30Z",
+   "game": "lal:26NOV21ALADEP",
+   "title": "Deportivo Alav\u00e9s v RC Deportivo A Coru\u00f1a",
+   "league": "lal",
+   "kickoff": "2026-11-21T13:00:00Z",
+   "min_to_ko": 11.5,
+   "t_lp": 0.011733,
+   "with_books": true,
+   "books": [
+    "pinnacle",
+    "smarkets",
+    "unibet_nl"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "9881e56a732493272e688663b26cd37f",
+    "sport": "soccer_spain_la_liga",
+    "home": "Alav\u00e9s",
+    "away": "Deportivo La Coru\u00f1a"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2529.318,
+   "guaranteed_profit": 29.328,
+   "legs": [
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Alav\u00e9s",
+     "side": "home",
+     "point": null,
+     "odds": 2.26,
+     "eff": 2.2348,
+     "three_way": true,
+     "stake": 1131.79,
+     "cost": 1131.79,
+     "label": "h2h Alav\u00e9s  @2.26"
+    },
+    {
+     "venue": "BK:pinnacle",
+     "book": "pinnacle",
+     "market": "h2h",
+     "outcome": "Deportivo La Coru\u00f1a",
+     "side": "away",
+     "point": null,
+     "odds": 3.8,
+     "eff": 3.8,
+     "three_way": true,
+     "stake": 665.61,
+     "cost": 665.61,
+     "label": "h2h Deportivo La Coru\u00f1a  @3.8"
+    },
+    {
+     "venue": "BK:unibet_nl",
+     "book": "unibet_nl",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.6,
+     "eff": 3.6,
+     "three_way": true,
+     "stake": 702.59,
+     "cost": 702.59,
+     "label": "h2h Draw  @3.6"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1175,15 +1246,15 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 237,
+ "n_trades": 238,
  "n_settled": 221,
  "realized_pnl": -91365.07924800004,
  "runs": 68,
  "locked": {
   "PM": 8.526512829121202e-14,
   "KS": 3.552713678800501e-15,
-  "BK:smarkets": 6221.83,
-  "BK:pinnacle": 2784.4900000000002,
+  "BK:smarkets": 7353.62,
+  "BK:pinnacle": 3450.1000000000004,
   "BK:onexbet": 9989.030000000002,
   "BK:matchbook": 6633.98,
   "BK:leovegas_se": 1666.570000000018,
@@ -1193,7 +1264,7 @@
   "BK:unibet_se": 1119.0500000000116,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 1367.7500000000002,
-  "BK:unibet_nl": 1455.8100000000009,
+  "BK:unibet_nl": 2158.400000000001,
   "BK:marathonbet": 0.0,
   "BK:coral": 977.5799999999999,
   "BK:betfair_ex_uk": 0.0,
@@ -1219,7 +1290,7 @@
  "peak_locked": {
   "PM": 4486.7806,
   "KS": 2216.0099999999998,
-  "BK:smarkets": 6221.83,
+  "BK:smarkets": 7353.62,
   "BK:pinnacle": 3723.5699999999997,
   "BK:onexbet": 69050.37999999999,
   "BK:matchbook": 6633.98,
@@ -1267,7 +1338,7 @@
   "BK:unibet_se": -28095.540000000008,
   "BK:tipico_de": -3229.0519999999997,
   "BK:coolbet": -8022.379999999999,
-  "BK:unibet_nl": -9257.49,
+  "BK:unibet_nl": -9960.08,
   "BK:marathonbet": -10325.038799999998,
   "BK:coral": -1194.91,
   "BK:betfair_ex_uk": 505.96,
@@ -1306,12 +1377,12 @@
    "5": 116,
    "6": 207,
    "7": 204,
-   "8": 279,
-   "9": 279,
-   "10": 280,
-   "11": 278,
-   "12": 282,
-   "13": 276
+   "8": 273,
+   "9": 273,
+   "10": 274,
+   "11": 272,
+   "12": 270,
+   "13": 270
   },
   "spent": {
    "2026-11-06": 27,
@@ -1328,7 +1399,7 @@
    "2026-11-18": 191,
    "2026-11-19": 300,
    "2026-11-20": 530,
-   "2026-11-21": 308
+   "2026-11-21": 350
   }
  },
  "book_slots": {
@@ -1477,6 +1548,12 @@
   "epl|2026-11-21T12:30|5": "2026-11-21T12:25:23Z",
   "elc|2026-11-21T12:30|5": "2026-11-21T12:25:23Z",
   "lal|2026-11-21T13:00|30": "2026-11-21T12:30:56Z",
-  "bun|2026-11-21T14:30|120": "2026-11-21T12:30:57Z"
+  "bun|2026-11-21T14:30|120": "2026-11-21T12:30:57Z",
+  "lal|2026-11-21T13:00|15": "2026-11-21T12:46:04Z",
+  "lal|2026-11-21T13:00|5": "2026-11-21T12:55:24Z",
+  "sea|2026-11-21T14:00|60": "2026-11-21T13:00:55Z",
+  "epl|2026-11-21T15:00|120": "2026-11-21T13:00:55Z",
+  "elc|2026-11-21T15:00|120": "2026-11-21T13:00:56Z",
+  "scop|2026-11-21T15:00|120": "2026-11-21T13:00:57Z"
  }
 }

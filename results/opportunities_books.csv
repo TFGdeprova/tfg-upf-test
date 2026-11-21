@@ -1761,3 +1761,25 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-21T12:34:27Z,bun:26NOV21BMGBVB,Borussia Mönchengladbach v BV Borussia 09 Dortmund,bun,115.5,confirmation,11,-0.002616,-0.000253,vanished,,,betmgm h2h Borussia Dortmund  @1.61 x0.621 | smarkets h2h Borussia Monchengladbach  @6.0 x0.169 | onexbet h2h Draw  @4.77 x0.210
 2026-11-21T12:34:27Z,bun:26NOV21LEVPAD,Bayer 04 Leverkusen v SC Paderborn 07,bun,115.5,confirmation,9,-0.001937,0.001063,vanished,,,pinnacle h2h Bayer Leverkusen  @1.33 x0.753 | unibet_se h2h SC Paderborn  @10.0 x0.100 | betonlineag h2h Draw  @6.8 x0.147
 2026-11-21T12:34:27Z,bun:26NOV21SVESCF,SV 07 Elversberg v SC Freiburg,bun,115.5,confirmation,9,-0.004505,0.002606,executed,,,matchbook h2h Elversberg  @3.85 x0.264 | smarkets h2h SC Freiburg  @2.1 x0.482 | onexbet h2h Draw  @3.96 x0.253
+2026-11-21T12:46:13Z,lal:26NOV21ALADEP,Deportivo Alavés v RC Deportivo A Coruña,lal,13.8,scheduled,7,0.002233,0.012797,seen,,lal:26NOV21ALADEP|2026-11-21T12:46:13Z|with_books,onexbet h2h Alavés  @2.24 x0.452 | pinnacle h2h Deportivo La Coruña  @3.8 x0.267 | unibet_nl h2h Draw  @3.6 x0.281
+2026-11-21T12:48:30Z,lal:26NOV21ALADEP,Deportivo Alavés v RC Deportivo A Coruña,lal,11.5,confirmation,7,0.002233,0.011733,executed,,,smarkets h2h Alavés  @2.26 x0.453 | pinnacle h2h Deportivo La Coruña  @3.8 x0.266 | unibet_nl h2h Draw  @3.6 x0.281
+2026-11-21T12:55:29Z,lal:26NOV21ALADEP,Deportivo Alavés v RC Deportivo A Coruña,lal,4.5,scheduled,7,0.003192,0.003192,no gap,,,
+2026-11-21T13:01:08Z,sea:26NOV21COMCAG,Como 1907 v Cagliari Calcio,sea,58.9,scheduled,11,-0.001839,0.003403,seen,,sea:26NOV21COMCAG|2026-11-21T13:01:08Z|with_books,unibet_se totals Over 3.5 @2.35 x0.186 | williamhill totals Over 2.5 @1.5 x0.378 | betanysports totals Under 3.0 @2.3 x0.436
+2026-11-21T13:01:11Z,sea:26NOV21LAZLEC,SS Lazio v US Lecce,sea,58.8,scheduled,7,-0.003078,0.000558,no gap,,,
+2026-11-21T13:01:11Z,epl:26NOV21AVLSUN,Aston Villa FC v Sunderland AFC,epl,118.8,scheduled,7,-0.001876,-0.001876,no gap,,,
+2026-11-21T13:01:11Z,epl:26NOV21COVCRY,Coventry City FC v Crystal Palace FC,epl,118.8,scheduled,7,-0.000448,0.011965,seen,,epl:26NOV21COVCRY|2026-11-21T13:01:08Z|with_books,pinnacle h2h Coventry City  @2.67 x0.379 | unibet_se h2h Crystal Palace  @2.9 x0.349 | onexbet h2h Draw  @3.72 x0.272
+2026-11-21T13:01:12Z,epl:26NOV21TOTIPS,Tottenham Hotspur FC v Ipswich Town FC,epl,118.8,scheduled,9,0.000321,0.000321,no gap,,,
+2026-11-21T13:01:20Z,epl:26NOV21CFCLEE,Chelsea FC v Leeds United FC,epl,118.7,scheduled,5,-0.002808,-0.002532,no gap,,,
+2026-11-21T13:01:20Z,epl:26NOV21BOUNFO,AFC Bournemouth v Nottingham Forest FC,epl,118.7,scheduled,5,-0.002132,-0.002132,no gap,,,
+2026-11-21T13:01:20Z,elc:26NOV21STKBC,Stoke City FC v Birmingham City FC,elc,118.7,scheduled,7,-0.003925,-0.003925,no gap,,,
+2026-11-21T13:01:22Z,elc:26NOV21SHUWAT,Sheffield United FC v Watford FC,elc,118.6,scheduled,7,-0.003828,-0.003364,no gap,,,
+2026-11-21T13:01:22Z,elc:26NOV21SWAWBA,Swansea City AFC v West Bromwich Albion FC,elc,118.6,scheduled,5,-0.005158,-0.005158,no gap,,,
+2026-11-21T13:01:22Z,elc:26NOV21WOLCHA,Wolverhampton Wanderers FC v Charlton Athletic FC,elc,118.6,scheduled,9,-0.004868,-0.004727,no gap,,,
+2026-11-21T13:01:22Z,elc:26NOV21MIDBRC,Middlesbrough FC v Bristol City FC,elc,118.6,scheduled,9,-0.003078,-0.003078,no gap,,,
+2026-11-21T13:01:22Z,elc:26NOV21LICWRE,Lincoln City FC v Wrexham AFC,elc,118.6,scheduled,7,-0.002786,0.00555,seen,,elc:26NOV21LICWRE|2026-11-21T13:01:13Z|with_books,leovegas_se h2h Lincoln City  @2.75 x0.366 | smarkets h2h Wrexham AFC  @3.05 x0.334 | leovegas_se h2h Draw  @3.35 x0.300
+2026-11-21T13:01:24Z,elc:26NOV21BOLPOR,Bolton Wanderers FC v Portsmouth FC,elc,118.6,scheduled,5,-0.004409,-0.003578,no gap,,,
+2026-11-21T13:01:29Z,elc:26NOV21WHUPNE,West Ham United FC v Preston North End FC,elc,118.5,scheduled,9,-0.002883,0.003431,seen,,elc:26NOV21WHUPNE|2026-11-21T13:01:29Z|with_books,betus totals Over 3.5 @2.3 x0.436 | betrivers totals Under 3.5 @1.78 x0.564
+2026-11-21T13:01:29Z,scop:26NOV21KILABE,Kilmarnock FC v Aberdeen FC,scop,118.5,scheduled,9,-0.004792,-0.004792,no gap,,,
+2026-11-21T13:01:29Z,scop:26NOV21FALJOH,Falkirk FC v St Johnstone FC,scop,118.5,scheduled,5,-0.004023,-0.004023,no gap,,,
+2026-11-21T13:01:35Z,scop:26NOV21HIBDUU,Hibernian FC v Dundee United FC,scop,118.4,scheduled,11,-0.003369,-0.003369,no gap,,,
+2026-11-21T13:01:35Z,scop:26NOV21CELMIR,Celtic FC v St Mirren FC,scop,118.4,scheduled,9,-0.003739,-0.002812,no gap,,,
