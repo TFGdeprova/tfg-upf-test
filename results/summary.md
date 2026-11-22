@@ -1,4 +1,4 @@
-# Paper-trading bot: status at 2026-11-22T20:05:12Z
+# Paper-trading bot: status at 2026-11-22T20:25:10Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
@@ -15,13 +15,13 @@ Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities):
 | Return so far (realised / peak money in use) | -56.483% over 15.9 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 1019, executed 39, rounding 95, seen 1268, vanished 92.
-Gaps using bookmakers: below_min_size 7, executed 329, no_cash 41, rounding 4, seen 429, vanished 39 (snapshots combined with Polymarket/Kalshi: 2346).
+Gaps using bookmakers: below_min_size 7, executed 329, no_cash 41, rounding 4, seen 429, vanished 39 (snapshots combined with Polymarket/Kalshi: 2348).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 303 (about 0.3 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
+The Odds API credits left: 289 (about 0.3 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
 
 ## Capital by account
 
@@ -80,7 +80,7 @@ Gaps above 0.1% followed: 240 Polymarket/Kalshi and 476 with bookmakers. A re-ch
 | +30 s | 239 | 183 | 119 | 1 | 0 |
 | +1 min | 237 | 168 | 108 | 2 | 1 |
 | +2 min | 232 | 153 | 95 | 5 | 3 |
-| +5 min | 222 | 118 | 75 | 5 | 12 |
+| +5 min | 223 | 118 | 75 | 5 | 12 |
 | bookmaker confirmation (~1 min) | 852 | 469 | 461 | 18 | 0 |
 | next bookmaker snapshot | 694 | 179 | 170 | 20 | 0 |
 
