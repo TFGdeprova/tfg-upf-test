@@ -10,7 +10,7 @@
   "BK:gtbets": -1124.5264999999995,
   "BK:winamax_de": 1144.1699999999996,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -16909.131800000014,
+  "BK:unibet_se": -9348.891800000016,
   "BK:tipico_de": -1205.0719999999997,
   "BK:coolbet": 13279.352200000001,
   "BK:unibet_nl": -5685.010000000003,
@@ -79,76 +79,6 @@
  },
  "open": [
   {
-   "trade_id": 364,
-   "time": "2026-11-22T19:16:31Z",
-   "game": "fl1:26NOV22OLMMAN",
-   "title": "Olympique de Marseille v Le Mans FC",
-   "league": "fl1",
-   "kickoff": "2026-11-22T19:45:00Z",
-   "min_to_ko": 28.5,
-   "t_lp": 0.016287,
-   "with_books": true,
-   "books": [
-    "codere_it",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "98fae24771271c96d5dd364e535405d2",
-    "sport": "soccer_france_ligue_one",
-    "home": "Marseille",
-    "away": "Le Mans FC"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2540.64,
-   "guaranteed_profit": 40.66,
-   "legs": [
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Le Mans FC",
-     "side": "away",
-     "point": null,
-     "odds": 8.0,
-     "eff": 8.0,
-     "three_way": true,
-     "stake": 317.58,
-     "cost": 317.58,
-     "label": "h2h Le Mans FC  @8.0"
-    },
-    {
-     "venue": "BK:codere_it",
-     "book": "codere_it",
-     "market": "h2h",
-     "outcome": "Marseille",
-     "side": "home",
-     "point": null,
-     "odds": 1.5,
-     "eff": 1.5,
-     "three_way": true,
-     "stake": 1693.81,
-     "cost": 1693.81,
-     "label": "h2h Marseille  @1.5"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 5.2,
-     "eff": 5.2,
-     "three_way": true,
-     "stake": 488.59,
-     "cost": 488.59,
-     "label": "h2h Draw  @5.2"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 365,
    "time": "2026-11-22T19:32:03Z",
    "game": "lal:26NOV22GETATM",
@@ -215,146 +145,6 @@
      "stake": 598.73,
      "cost": 598.73,
      "label": "h2h Draw  @4.3"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 366,
-   "time": "2026-11-22T19:32:03Z",
-   "game": "fl1:26NOV22OLMMAN",
-   "title": "Olympique de Marseille v Le Mans FC",
-   "league": "fl1",
-   "kickoff": "2026-11-22T19:45:00Z",
-   "min_to_ko": 12.9,
-   "t_lp": 0.003937,
-   "with_books": true,
-   "books": [
-    "coral",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "98fae24771271c96d5dd364e535405d2",
-    "sport": "soccer_france_ligue_one",
-    "home": "Marseille",
-    "away": "Le Mans FC"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2509.8,
-   "guaranteed_profit": 9.82,
-   "legs": [
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Le Mans FC",
-     "side": "away",
-     "point": null,
-     "odds": 7.5,
-     "eff": 7.5,
-     "three_way": true,
-     "stake": 334.64,
-     "cost": 334.64,
-     "label": "h2h Le Mans FC  @7.5"
-    },
-    {
-     "venue": "BK:coral",
-     "book": "coral",
-     "market": "h2h",
-     "outcome": "Marseille",
-     "side": "home",
-     "point": null,
-     "odds": 1.5,
-     "eff": 1.5,
-     "three_way": true,
-     "stake": 1673.22,
-     "cost": 1673.22,
-     "label": "h2h Marseille  @1.5"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 5.1,
-     "eff": 5.1,
-     "three_way": true,
-     "stake": 492.12,
-     "cost": 492.12,
-     "label": "h2h Draw  @5.1"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 367,
-   "time": "2026-11-22T19:42:01Z",
-   "game": "fl1:26NOV22OLMMAN",
-   "title": "Olympique de Marseille v Le Mans FC",
-   "league": "fl1",
-   "kickoff": "2026-11-22T19:45:00Z",
-   "min_to_ko": 3.0,
-   "t_lp": 0.003937,
-   "with_books": true,
-   "books": [
-    "coral",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "98fae24771271c96d5dd364e535405d2",
-    "sport": "soccer_france_ligue_one",
-    "home": "Marseille",
-    "away": "Le Mans FC"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2509.8,
-   "guaranteed_profit": 9.82,
-   "legs": [
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Le Mans FC",
-     "side": "away",
-     "point": null,
-     "odds": 7.5,
-     "eff": 7.5,
-     "three_way": true,
-     "stake": 334.64,
-     "cost": 334.64,
-     "label": "h2h Le Mans FC  @7.5"
-    },
-    {
-     "venue": "BK:coral",
-     "book": "coral",
-     "market": "h2h",
-     "outcome": "Marseille",
-     "side": "home",
-     "point": null,
-     "odds": 1.5,
-     "eff": 1.5,
-     "three_way": true,
-     "stake": 1673.22,
-     "cost": 1673.22,
-     "label": "h2h Marseille  @1.5"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 5.1,
-     "eff": 5.1,
-     "three_way": true,
-     "stake": 492.12,
-     "cost": 492.12,
-     "label": "h2h Draw  @5.1"
     }
    ],
    "status": "open"
@@ -837,8 +627,8 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 373,
- "n_settled": 363,
- "realized_pnl": -87714.34041000012,
+ "n_settled": 366,
+ "realized_pnl": -87654.0404100001,
  "runs": 75,
  "locked": {
   "PM": 5.542233338928781e-13,
@@ -851,12 +641,12 @@
   "BK:gtbets": 0.0,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 3090.9100000000126,
+  "BK:unibet_se": 631.2200000000129,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 2284.31,
   "BK:unibet_nl": 2.5011104298755527e-12,
   "BK:marathonbet": 1350.3099999999986,
-  "BK:coral": 3346.4400000000005,
+  "BK:coral": 4.547473508864641e-13,
   "BK:betfair_ex_uk": 1.4210854715202004e-14,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 2139.0,
@@ -868,7 +658,7 @@
   "BK:betmgm": 0.0,
   "BK:betanysports": 0.0,
   "BK:betsson": 0.0,
-  "BK:codere_it": 1693.81,
+  "BK:codere_it": 0.0,
   "BK:boylesports": 0.0,
   "BK:fanduel": 0.0,
   "BK:bovada": 0.0,
@@ -968,7 +758,7 @@
   "remaining": {
    "1": 37,
    "2": 34,
-   "3": 39,
+   "3": 37,
    "4": 36,
    "5": 36,
    "6": 37,
@@ -996,7 +786,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 1050
+   "2026-11-22": 1052
   }
  },
  "book_slots": {
