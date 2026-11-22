@@ -4,8 +4,8 @@
   "KS": 7249.749999999997,
   "BK:smarkets": -1396.8298059999988,
   "BK:pinnacle": -1545.5067999999983,
-  "BK:onexbet": -76275.82950000007,
-  "BK:matchbook": 4578.639542000003,
+  "BK:onexbet": -77667.83950000006,
+  "BK:matchbook": 3470.6595420000026,
   "BK:leovegas_se": -20519.714020000025,
   "BK:gtbets": -1124.5264999999995,
   "BK:winamax_de": 1144.1699999999996,
@@ -1607,6 +1607,62 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 351,
+   "time": "2026-11-22T16:27:11Z",
+   "game": "epl:26NOV22LFCMUN",
+   "title": "Liverpool FC v Manchester United FC",
+   "league": "epl",
+   "kickoff": "2026-11-22T16:30:00Z",
+   "min_to_ko": 2.8,
+   "t_lp": 0.007821,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "4c08b213ed416e8f41e038f42a42b962",
+    "sport": "soccer_epl",
+    "home": "Liverpool",
+    "away": "Manchester United"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2519.5381,
+   "guaranteed_profit": 19.5481,
+   "legs": [
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "totals",
+     "outcome": "Over",
+     "side": "over",
+     "point": 3.5,
+     "odds": 2.3,
+     "eff": 2.274,
+     "three_way": true,
+     "stake": 1107.98,
+     "cost": 1107.98,
+     "label": "totals Over 3.5 @2.3"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "totals",
+     "outcome": "Under",
+     "side": "under",
+     "point": 3.5,
+     "odds": 1.81,
+     "eff": 1.81,
+     "three_way": true,
+     "stake": 1392.01,
+     "cost": 1392.01,
+     "label": "totals Under 3.5 @1.81"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1652,7 +1708,7 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 350,
+ "n_trades": 351,
  "n_settled": 327,
  "realized_pnl": -88554.33268400008,
  "runs": 74,
@@ -1661,8 +1717,8 @@
   "KS": 3.6800000000000033,
   "BK:smarkets": 5422.1799999999985,
   "BK:pinnacle": 3233.0200000000004,
-  "BK:onexbet": 14090.800000000007,
-  "BK:matchbook": 2302.5300000000016,
+  "BK:onexbet": 15482.810000000007,
+  "BK:matchbook": 3410.5100000000016,
   "BK:leovegas_se": 1.7053025658242404e-11,
   "BK:gtbets": 1058.85,
   "BK:winamax_de": 0.0,
@@ -1787,14 +1843,14 @@
    "3": 61,
    "4": 60,
    "5": 62,
-   "6": 63,
-   "7": 64,
-   "8": 65,
+   "6": 57,
+   "7": 58,
+   "8": 59,
    "9": 61,
-   "10": 64,
-   "11": 64,
+   "10": 58,
+   "11": 58,
    "12": 62,
-   "13": 64
+   "13": 58
   },
   "spent": {
    "2026-11-06": 27,
@@ -1812,7 +1868,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 702
+   "2026-11-22": 738
   }
  },
  "book_slots": {
@@ -2149,6 +2205,11 @@
   "fl1|2026-11-22T16:15|30": "2026-11-22T15:45:22Z",
   "epl|2026-11-22T16:30|30": "2026-11-22T16:00:45Z",
   "bun|2026-11-22T16:30|30": "2026-11-22T16:00:47Z",
-  "fl1|2026-11-22T16:15|15": "2026-11-22T16:00:47Z"
+  "fl1|2026-11-22T16:15|15": "2026-11-22T16:00:47Z",
+  "fl1|2026-11-22T16:15|5": "2026-11-22T16:10:40Z",
+  "epl|2026-11-22T16:30|15": "2026-11-22T16:15:02Z",
+  "bun|2026-11-22T16:30|15": "2026-11-22T16:15:03Z",
+  "epl|2026-11-22T16:30|5": "2026-11-22T16:25:17Z",
+  "bun|2026-11-22T16:30|5": "2026-11-22T16:25:17Z"
  }
 }

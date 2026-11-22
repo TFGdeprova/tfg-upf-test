@@ -2280,3 +2280,8 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-22T15:42:15Z,ere:26NOV22GAEFOR,Go Ahead Eagles v Fortuna Sittard,ere,2.7,confirmation,9,-0.003189,0.004474,executed,,,matchbook h2h Fortuna Sittard  @5.0 x0.204 | unibet_nl h2h Go Ahead Eagles  @1.81 x0.555 | pinnacle h2h Draw  @4.17 x0.241
 2026-11-22T16:01:13Z,epl:26NOV22LFCMUN,Liverpool FC v Manchester United FC,epl,28.8,scheduled,11,-0.002232,-0.002232,no gap,,,
 2026-11-22T16:01:13Z,bun:26NOV22SVWHSV,SV Werder Bremen v Hamburger SV,bun,28.8,scheduled,11,-0.001194,-0.001194,no gap,,,
+2026-11-22T16:15:23Z,epl:26NOV22LFCMUN,Liverpool FC v Manchester United FC,epl,14.6,scheduled,11,-0.001839,-0.000787,no gap,,,
+2026-11-22T16:15:23Z,bun:26NOV22SVWHSV,SV Werder Bremen v Hamburger SV,bun,14.6,scheduled,11,-0.001194,-0.001194,no gap,,,
+2026-11-22T16:25:43Z,epl:26NOV22LFCMUN,Liverpool FC v Manchester United FC,epl,4.3,scheduled,11,-0.002232,0.003815,seen,,epl:26NOV22LFCMUN|2026-11-22T16:25:35Z|with_books,matchbook totals Over 3.5 @2.32 x0.190 | marathonbet totals Over 2.5 @1.52 x0.373 | betus totals Under 3.0 @2.3 x0.436
+2026-11-22T16:25:43Z,bun:26NOV22SVWHSV,SV Werder Bremen v Hamburger SV,bun,4.3,scheduled,11,-0.00252,0.000378,no gap,,,
+2026-11-22T16:27:11Z,epl:26NOV22LFCMUN,Liverpool FC v Manchester United FC,epl,2.8,confirmation,11,-0.002232,0.007821,executed,,,matchbook totals Over 3.5 @2.3 x0.443 | onexbet totals Under 3.5 @1.81 x0.557
