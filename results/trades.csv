@@ -336,7 +336,7 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 335,2026-11-22T13:32:02Z,epl:26NOV22HULBRI,Hull City AFC v Brighton & Hove Albion FC,epl,2026-11-22T14:00:00Z,28.0,0.002616,True,"['onexbet', 'smarkets', 'unibet_uk']",False,2499.99,2506.513,6.523,settled,2026-11-22T16:31:25Z,2506.513,6.523,BELOW_GUARANTEE,3
 336,2026-11-22T13:32:02Z,sea:26NOV22SASGEN,US Sassuolo Calcio v Genoa CFC,sea,2026-11-22T14:00:00Z,28.0,0.012515,True,"['coolbet', 'matchbook', 'onexbet']",False,2499.99,2531.2673,31.2773,settled,2026-11-22T16:31:25Z,2531.2673,31.2773,BELOW_GUARANTEE,3
 337,2026-11-22T13:32:02Z,bun:26NOV22FCAM05,FC Augsburg v 1. FSV Mainz 05,bun,2026-11-22T14:30:00Z,58.0,0.003799,True,"['betfair_ex_eu', 'gtbets', 'onexbet']",False,2499.98,2509.4745,9.4945,settled,2026-11-22T17:02:07Z,2509.4806,9.5006,ok,3
-338,2026-11-22T13:32:06Z,bun:26NOV22SVWHSV,SV Werder Bremen v Hamburger SV,bun,2026-11-22T16:30:00Z,177.9,0.003519,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.99,2508.7777,8.7877,open,,,,,3
+338,2026-11-22T13:32:06Z,bun:26NOV22SVWHSV,SV Werder Bremen v Hamburger SV,bun,2026-11-22T16:30:00Z,177.9,0.003519,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.99,2508.7777,8.7877,settled,2026-11-22T19:06:14Z,2508.7912,8.8012,ok,3
 339,2026-11-22T13:46:08Z,fl1:26NOV22PARANG,Paris FC v Angers SCO,fl1,2026-11-22T14:00:00Z,13.9,0.003036,,,,79.7532,79.99,0.2368,settled,2026-11-22T16:31:25Z,79.99,0.2368,ok,2
 340,2026-11-22T13:47:06Z,epl:26NOV22HULBRI,Hull City AFC v Brighton & Hove Albion FC,epl,2026-11-22T14:00:00Z,12.9,0.004825,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.99,2512.032,12.042,settled,2026-11-22T16:31:25Z,2512.0397,12.0497,ok,3
 341,2026-11-22T13:47:10Z,sea:26NOV22SASGEN,US Sassuolo Calcio v Genoa CFC,sea,2026-11-22T14:00:00Z,12.8,0.014957,True,"['coolbet', 'onexbet', 'smarkets']",False,2499.99,2537.3724,37.3824,settled,2026-11-22T16:31:25Z,2537.3929,37.4029,ok,3
@@ -349,7 +349,7 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 348,2026-11-22T15:05:46Z,nfl:26NOV22PITPHI,PIT at PHI,nfl,2026-11-22T18:00:00Z,174.2,0.00969,True,"['coolbet', 'marathonbet']",False,2499.99,2523.73,23.74,open,,,,,3
 349,2026-11-22T15:42:15Z,ere:26NOV22GAEFOR,Go Ahead Eagles v Fortuna Sittard,ere,2026-11-22T15:45:00Z,2.7,0.004474,True,"['matchbook', 'pinnacle', 'unibet_nl']",False,2499.99,2511.168,11.178,settled,2026-11-22T18:23:06Z,2511.168,11.178,ok,3
 350,2026-11-22T15:52:33Z,tur:26NOV22TRAEYU,Trabzonspor v Eyüpspor,tur,2026-11-22T16:00:00Z,7.4,0.005432,,,,26.7547,26.9,0.1453,open,,,,,5
-351,2026-11-22T16:27:11Z,epl:26NOV22LFCMUN,Liverpool FC v Manchester United FC,epl,2026-11-22T16:30:00Z,2.8,0.007821,True,"['matchbook', 'onexbet']",False,2499.99,2519.5381,19.5481,open,,,,,2
+351,2026-11-22T16:27:11Z,epl:26NOV22LFCMUN,Liverpool FC v Manchester United FC,epl,2026-11-22T16:30:00Z,2.8,0.007821,True,"['matchbook', 'onexbet']",False,2499.99,2519.5381,19.5481,settled,2026-11-22T19:06:14Z,2519.5465,19.5565,ok,2
 352,2026-11-22T16:32:13Z,sea:26NOV22ACMFRO,AC Milan v Frosinone Calcio,sea,2026-11-22T17:00:00Z,27.8,0.004111,True,"['matchbook', 'onexbet', 'unibet_se']",False,2499.99,2510.244,10.254,open,,,,,3
 353,2026-11-22T17:31:51Z,nfl:26NOV22MIABUF,MIA at BUF,nfl,2026-11-22T18:00:00Z,28.1,0.007382,True,"['coolbet', 'pinnacle']",False,2499.99,2517.79,17.8,open,,,,,3
 354,2026-11-22T17:31:52Z,nfl:26NOV22TBDET,TB at DET,nfl,2026-11-22T18:00:00Z,28.1,0.0178,True,"['marathonbet', 'mybookieag']",False,2499.98,2543.5,43.52,open,,,,,3
