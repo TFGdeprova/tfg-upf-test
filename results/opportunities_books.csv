@@ -2139,3 +2139,7 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-22T00:00:36Z,nhl:26NOV21MINVAN,MIN at VAN,nhl,179.4,scheduled,6,-0.011921,-0.006984,no gap,,,
 2026-11-22T00:00:36Z,nhl:26NOV21SEASJ,SEA at SJ,nhl,179.4,scheduled,6,-0.011921,-0.011408,no gap,,,
 2026-11-22T00:15:10Z,nba:26NOV21PORNYK,POR at NYK,nba,14.8,scheduled,12,-0.007834,-0.005813,no gap,,,
+2026-11-22T00:25:17Z,nba:26NOV21PORNYK,POR at NYK,nba,4.7,scheduled,16,-0.002935,-0.002935,no gap,,,
+2026-11-22T00:30:15Z,nba:26NOV21LACDAL,LAC at DAL,nba,29.7,scheduled,16,-0.012746,-0.00464,no gap,,,
+2026-11-22T00:30:15Z,nba:26NOV21MEMMIN,MEM at MIN,nba,29.7,scheduled,16,-0.011787,0.000914,no gap,,,
+2026-11-22T00:30:17Z,nba:26NOV21NOPSAS,NOP at SAS,nba,29.7,scheduled,12,-0.008812,-0.008497,no gap,,,
