@@ -367,3 +367,5 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 366,2026-11-22T19:32:03Z,fl1:26NOV22OLMMAN,Olympique de Marseille v Le Mans FC,fl1,2026-11-22T19:45:00Z,12.9,0.003937,True,"['coral', 'unibet_se']",False,2499.98,2509.8,9.82,open,,,,,3
 367,2026-11-22T19:42:01Z,fl1:26NOV22OLMMAN,Olympique de Marseille v Le Mans FC,fl1,2026-11-22T19:45:00Z,3.0,0.003937,True,"['coral', 'unibet_se']",False,2499.98,2509.8,9.82,open,,,,,3
 368,2026-11-22T19:46:27Z,lal:26NOV22GETATM,Getafe CF v Club Atlético de Madrid,lal,2026-11-22T20:00:00Z,13.5,0.00594,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.98,2514.8,14.82,open,,,,,3
+369,2026-11-22T20:51:57Z,nfl:26NOV22NYJLAC,NYJ at LAC,nfl,2026-11-22T21:05:00Z,13.0,0.002286,True,"['coolbet', 'matchbook']",False,2499.99,2504.93,4.94,open,,,,,3
+370,2026-11-22T21:02:03Z,nfl:26NOV22NYJLAC,NYJ at LAC,nfl,2026-11-22T21:05:00Z,2.9,0.005956,True,"['coolbet', 'matchbook']",False,2499.99,2514.82,14.83,open,,,,,3

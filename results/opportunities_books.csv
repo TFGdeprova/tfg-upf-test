@@ -2348,3 +2348,10 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-22T20:15:09Z,nba:26NOV22DETATL,DET at ATL,nba,14.8,scheduled,16,-0.010985,-0.002677,no gap,,,
 2026-11-22T20:25:07Z,nba:26NOV22DETATL,DET at ATL,nba,4.9,scheduled,16,-0.009198,-0.002677,no gap,,,
 2026-11-22T20:35:13Z,nfl:26NOV22NYJLAC,NYJ at LAC,nfl,29.8,scheduled,14,-0.011921,-0.001416,no gap,,,
+2026-11-22T20:50:25Z,nfl:26NOV22NYJLAC,NYJ at LAC,nfl,14.6,scheduled,14,-0.011921,0.002286,seen,22332036.8,nfl:26NOV22NYJLAC|2026-11-22T20:50:25Z|with_books,KS YES 0.010 x0.000 Game to end in a tie | matchbook h2h Los Angeles Chargers  @1.64 x0.616 | coolbet h2h New York Jets  @2.61 x0.384
+2026-11-22T20:51:57Z,nfl:26NOV22NYJLAC,NYJ at LAC,nfl,13.0,confirmation,16,-0.011921,0.002286,executed,22332036.8,,KS YES 0.010 x0.000 Game to end in a tie | matchbook h2h Los Angeles Chargers  @1.64 x0.616 | coolbet h2h New York Jets  @2.61 x0.384
+2026-11-22T20:55:09Z,nfl:26NOV22JACNYG,JAC at NYG,nfl,29.8,scheduled,18,-0.007959,-0.000947,no gap,,,
+2026-11-22T20:55:11Z,nfl:26NOV22LVDEN,LV at DEN,nfl,29.8,scheduled,14,-0.009208,0.007066,seen,7963609.73,nfl:26NOV22LVDEN|2026-11-22T20:55:11Z|with_books,KS YES 0.010 x0.000 Game to end in a tie | matchbook h2h Denver Broncos  @1.18 x0.856 | coolbet h2h Las Vegas Raiders  @7.0 x0.144
+2026-11-22T20:56:27Z,nfl:26NOV22LVDEN,LV at DEN,nfl,28.5,confirmation,14,-0.009486,-0.002406,vanished,57348.39,,KS NO 0.840 x0.847 Las Vegas | KS YES 0.010 x0.004 Game to end in a tie | coolbet h2h Las Vegas Raiders  @6.7 x0.149
+2026-11-22T21:00:34Z,nfl:26NOV22NYJLAC,NYJ at LAC,nfl,4.4,scheduled,16,-0.011921,0.003622,seen,159643.45,nfl:26NOV22NYJLAC|2026-11-22T21:00:33Z|with_books,PM NO 0.600 x0.614 Jets vs. Chargers | KS YES 0.010 x0.001 Game to end in a tie | coolbet h2h New York Jets  @2.61 x0.385
+2026-11-22T21:02:03Z,nfl:26NOV22NYJLAC,NYJ at LAC,nfl,2.9,confirmation,16,-0.004345,0.005956,executed,8565667.49,,KS YES 0.010 x0.000 Game to end in a tie | matchbook h2h Los Angeles Chargers  @1.65 x0.615 | coolbet h2h New York Jets  @2.61 x0.385
