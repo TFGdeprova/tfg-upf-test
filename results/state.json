@@ -1,16 +1,16 @@
 {
  "cash": {
-  "PM": 9185.850400000001,
+  "PM": 11697.0504,
   "KS": 7249.749999999997,
-  "BK:smarkets": -1396.8298059999988,
-  "BK:pinnacle": -1545.5067999999983,
-  "BK:onexbet": -77667.83950000006,
-  "BK:matchbook": 3470.6595420000026,
+  "BK:smarkets": 6159.1157140000005,
+  "BK:pinnacle": 971.0240000000017,
+  "BK:onexbet": -70617.59570000005,
+  "BK:matchbook": 7030.972706000002,
   "BK:leovegas_se": -20519.714020000025,
   "BK:gtbets": -1124.5264999999995,
   "BK:winamax_de": 1144.1699999999996,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -28469.932200000014,
+  "BK:unibet_se": -16327.013000000014,
   "BK:tipico_de": -1205.0719999999997,
   "BK:coolbet": 6667.1451000000025,
   "BK:unibet_nl": -5685.010000000003,
@@ -78,629 +78,6 @@
   "BK:nordicbet": 580.0
  },
  "open": [
-  {
-   "trade_id": 320,
-   "time": "2026-11-22T11:01:43Z",
-   "game": "sea:26NOV22BFCUDI",
-   "title": "Bologna FC 1909 v Udinese Calcio",
-   "league": "sea",
-   "kickoff": "2026-11-22T14:00:00Z",
-   "min_to_ko": 178.3,
-   "t_lp": 0.003013,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "5bc13c44b33981f3185400163388267e",
-    "sport": "soccer_italy_serie_a",
-    "home": "Bologna",
-    "away": "Udinese"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2507.5169,
-   "guaranteed_profit": 7.5269,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Bologna",
-     "side": "home",
-     "point": null,
-     "odds": 1.82,
-     "eff": 1.82,
-     "three_way": true,
-     "stake": 1377.76,
-     "cost": 1377.76,
-     "label": "h2h Bologna  @1.82"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Udinese",
-     "side": "away",
-     "point": null,
-     "odds": 5.3,
-     "eff": 5.2139999999999995,
-     "three_way": true,
-     "stake": 480.92,
-     "cost": 480.92,
-     "label": "h2h Udinese  @5.3"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.91,
-     "eff": 3.91,
-     "three_way": true,
-     "stake": 641.31,
-     "cost": 641.31,
-     "label": "h2h Draw  @3.91"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 321,
-   "time": "2026-11-22T11:01:45Z",
-   "game": "sea:26NOV22SASGEN",
-   "title": "US Sassuolo Calcio v Genoa CFC",
-   "league": "sea",
-   "kickoff": "2026-11-22T14:00:00Z",
-   "min_to_ko": 178.2,
-   "t_lp": 0.01317,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "pinnacle",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "76d4698a8417f32cb059f14a469939f3",
-    "sport": "soccer_italy_serie_a",
-    "home": "Sassuolo",
-    "away": "Genoa"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2532.9044,
-   "guaranteed_profit": 32.9144,
-   "legs": [
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Genoa",
-     "side": "away",
-     "point": null,
-     "odds": 2.75,
-     "eff": 2.75,
-     "three_way": true,
-     "stake": 921.06,
-     "cost": 921.06,
-     "label": "h2h Genoa  @2.75"
-    },
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "h2h",
-     "outcome": "Sassuolo",
-     "side": "home",
-     "point": null,
-     "odds": 2.92,
-     "eff": 2.92,
-     "three_way": true,
-     "stake": 867.44,
-     "cost": 867.44,
-     "label": "h2h Sassuolo  @2.92"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.56,
-     "eff": 3.56,
-     "three_way": true,
-     "stake": 711.49,
-     "cost": 711.49,
-     "label": "h2h Draw  @3.56"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 325,
-   "time": "2026-11-22T12:02:10Z",
-   "game": "sea:26NOV22SASGEN",
-   "title": "US Sassuolo Calcio v Genoa CFC",
-   "league": "sea",
-   "kickoff": "2026-11-22T14:00:00Z",
-   "min_to_ko": 117.8,
-   "t_lp": 0.007687,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "smarkets",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "76d4698a8417f32cb059f14a469939f3",
-    "sport": "soccer_italy_serie_a",
-    "home": "Sassuolo",
-    "away": "Genoa"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2519.1896,
-   "guaranteed_profit": 19.2096,
-   "legs": [
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Genoa",
-     "side": "away",
-     "point": null,
-     "odds": 2.75,
-     "eff": 2.75,
-     "three_way": true,
-     "stake": 916.07,
-     "cost": 916.07,
-     "label": "h2h Genoa  @2.75"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Sassuolo",
-     "side": "home",
-     "point": null,
-     "odds": 2.9,
-     "eff": 2.862,
-     "three_way": true,
-     "stake": 880.22,
-     "cost": 880.22,
-     "label": "h2h Sassuolo  @2.9"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.58,
-     "eff": 3.58,
-     "three_way": true,
-     "stake": 703.69,
-     "cost": 703.69,
-     "label": "h2h Draw  @3.58"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 326,
-   "time": "2026-11-22T12:02:10Z",
-   "game": "fl1:26NOV22PARANG",
-   "title": "Paris FC v Angers SCO",
-   "league": "fl1",
-   "kickoff": "2026-11-22T14:00:00Z",
-   "min_to_ko": 117.8,
-   "t_lp": 0.003921,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "smarkets",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "9e5d4a91e379ddffa179b02bf9e09530",
-    "sport": "soccer_france_ligue_one",
-    "home": "Paris FC",
-    "away": "Angers"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2509.704,
-   "guaranteed_profit": 9.724,
-   "legs": [
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Angers",
-     "side": "away",
-     "point": null,
-     "odds": 11.0,
-     "eff": 10.8,
-     "three_way": true,
-     "stake": 232.38,
-     "cost": 232.38,
-     "label": "h2h Angers  @11.0"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Paris FC",
-     "side": "home",
-     "point": null,
-     "odds": 1.34,
-     "eff": 1.34,
-     "three_way": true,
-     "stake": 1872.98,
-     "cost": 1872.98,
-     "label": "h2h Paris FC  @1.34"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 6.36,
-     "eff": 6.36,
-     "three_way": true,
-     "stake": 394.62,
-     "cost": 394.62,
-     "label": "h2h Draw  @6.36"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 331,
-   "time": "2026-11-22T13:01:48Z",
-   "game": "epl:26NOV22HULBRI",
-   "title": "Hull City AFC v Brighton & Hove Albion FC",
-   "league": "epl",
-   "kickoff": "2026-11-22T14:00:00Z",
-   "min_to_ko": 58.2,
-   "t_lp": 0.029257,
-   "with_books": true,
-   "books": [
-    "coolbet",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "230a356290e1a358e9dd2f7fa23de3b9",
-    "sport": "soccer_epl",
-    "home": "Hull City",
-    "away": "Brighton and Hove Albion"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2573.128,
-   "guaranteed_profit": 73.138,
-   "legs": [
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "totals",
-     "outcome": "Over",
-     "side": "over",
-     "point": 2.5,
-     "odds": 1.85,
-     "eff": 1.85,
-     "three_way": true,
-     "stake": 1390.88,
-     "cost": 1390.88,
-     "label": "totals Over 2.5 @1.85"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "totals",
-     "outcome": "Under",
-     "side": "under",
-     "point": 2.5,
-     "odds": 2.32,
-     "eff": 2.32,
-     "three_way": true,
-     "stake": 1109.11,
-     "cost": 1109.11,
-     "label": "totals Under 2.5 @2.32"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 332,
-   "time": "2026-11-22T13:01:50Z",
-   "game": "sea:26NOV22BFCUDI",
-   "title": "Bologna FC 1909 v Udinese Calcio",
-   "league": "sea",
-   "kickoff": "2026-11-22T14:00:00Z",
-   "min_to_ko": 58.2,
-   "t_lp": 0.002856,
-   "with_books": true,
-   "books": [
-    "coolbet",
-    "onexbet",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "5bc13c44b33981f3185400163388267e",
-    "sport": "soccer_italy_serie_a",
-    "home": "Bologna",
-    "away": "Udinese"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2507.1165,
-   "guaranteed_profit": 7.1265,
-   "legs": [
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "h2h",
-     "outcome": "Bologna",
-     "side": "home",
-     "point": null,
-     "odds": 1.77,
-     "eff": 1.77,
-     "three_way": true,
-     "stake": 1416.46,
-     "cost": 1416.46,
-     "label": "h2h Bologna  @1.77"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Udinese",
-     "side": "away",
-     "point": null,
-     "odds": 5.6,
-     "eff": 5.508,
-     "three_way": true,
-     "stake": 455.18,
-     "cost": 455.18,
-     "label": "h2h Udinese  @5.6"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.99,
-     "eff": 3.99,
-     "three_way": true,
-     "stake": 628.35,
-     "cost": 628.35,
-     "label": "h2h Draw  @3.99"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 333,
-   "time": "2026-11-22T13:01:50Z",
-   "game": "sea:26NOV22SASGEN",
-   "title": "US Sassuolo Calcio v Genoa CFC",
-   "league": "sea",
-   "kickoff": "2026-11-22T14:00:00Z",
-   "min_to_ko": 58.2,
-   "t_lp": 0.010659,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "onexbet",
-    "pinnacle"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "76d4698a8417f32cb059f14a469939f3",
-    "sport": "soccer_italy_serie_a",
-    "home": "Sassuolo",
-    "away": "Genoa"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2526.6208,
-   "guaranteed_profit": 26.6308,
-   "legs": [
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Genoa",
-     "side": "away",
-     "point": null,
-     "odds": 2.82,
-     "eff": 2.7836,
-     "three_way": true,
-     "stake": 907.69,
-     "cost": 907.69,
-     "label": "h2h Genoa  @2.82"
-    },
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "h2h",
-     "outcome": "Sassuolo",
-     "side": "home",
-     "point": null,
-     "odds": 2.85,
-     "eff": 2.85,
-     "three_way": true,
-     "stake": 886.54,
-     "cost": 886.54,
-     "label": "h2h Sassuolo  @2.85"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.58,
-     "eff": 3.58,
-     "three_way": true,
-     "stake": 705.76,
-     "cost": 705.76,
-     "label": "h2h Draw  @3.58"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 335,
-   "time": "2026-11-22T13:32:02Z",
-   "game": "epl:26NOV22HULBRI",
-   "title": "Hull City AFC v Brighton & Hove Albion FC",
-   "league": "epl",
-   "kickoff": "2026-11-22T14:00:00Z",
-   "min_to_ko": 28.0,
-   "t_lp": 0.002616,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "smarkets",
-    "unibet_uk"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "230a356290e1a358e9dd2f7fa23de3b9",
-    "sport": "soccer_epl",
-    "home": "Hull City",
-    "away": "Brighton and Hove Albion"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2506.513,
-   "guaranteed_profit": 6.523,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Brighton and Hove Albion",
-     "side": "away",
-     "point": null,
-     "odds": 1.54,
-     "eff": 1.54,
-     "three_way": true,
-     "stake": 1627.62,
-     "cost": 1627.62,
-     "label": "h2h Brighton and Hove Albion  @1.54"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Hull City",
-     "side": "home",
-     "point": null,
-     "odds": 7.4,
-     "eff": 7.272,
-     "three_way": true,
-     "stake": 344.68,
-     "cost": 344.68,
-     "label": "h2h Hull City  @7.4"
-    },
-    {
-     "venue": "BK:unibet_uk",
-     "book": "unibet_uk",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.75,
-     "eff": 4.75,
-     "three_way": true,
-     "stake": 527.69,
-     "cost": 527.69,
-     "label": "h2h Draw  @4.75"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 336,
-   "time": "2026-11-22T13:32:02Z",
-   "game": "sea:26NOV22SASGEN",
-   "title": "US Sassuolo Calcio v Genoa CFC",
-   "league": "sea",
-   "kickoff": "2026-11-22T14:00:00Z",
-   "min_to_ko": 28.0,
-   "t_lp": 0.012515,
-   "with_books": true,
-   "books": [
-    "coolbet",
-    "matchbook",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "76d4698a8417f32cb059f14a469939f3",
-    "sport": "soccer_italy_serie_a",
-    "home": "Sassuolo",
-    "away": "Genoa"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2531.2673,
-   "guaranteed_profit": 31.2773,
-   "legs": [
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Genoa",
-     "side": "away",
-     "point": null,
-     "odds": 2.9,
-     "eff": 2.862,
-     "three_way": true,
-     "stake": 884.44,
-     "cost": 884.44,
-     "label": "h2h Genoa  @2.9"
-    },
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "h2h",
-     "outcome": "Sassuolo",
-     "side": "home",
-     "point": null,
-     "odds": 2.85,
-     "eff": 2.85,
-     "three_way": true,
-     "stake": 888.17,
-     "cost": 888.17,
-     "label": "h2h Sassuolo  @2.85"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.48,
-     "eff": 3.48,
-     "three_way": true,
-     "stake": 727.38,
-     "cost": 727.38,
-     "label": "h2h Draw  @3.48"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 337,
    "time": "2026-11-22T13:32:02Z",
@@ -839,446 +216,6 @@
      "stake": 556.27,
      "cost": 556.27,
      "label": "h2h Draw  @4.51"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 339,
-   "time": "2026-11-22T13:46:08Z",
-   "game": "fl1:26NOV22PARANG",
-   "title": "Paris FC v Angers SCO",
-   "league": "fl1",
-   "kickoff": "2026-11-22T14:00:00Z",
-   "min_to_ko": 13.9,
-   "t_lp": 0.003036,
-   "cost": 79.7532,
-   "guaranteed_payout": 79.99,
-   "guaranteed_profit": 0.2368,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x37a3618cf50517b168d41c1127012a994682721abf58d53b2d4128bcbf8b33f6",
-     "label": "Paris FC vs. Angers SCO: O/U 0.5",
-     "side": "YES",
-     "price": 0.952,
-     "shares": 79.99,
-     "fee": 0.18276,
-     "cost": 76.3332
-    },
-    {
-     "venue": "KS",
-     "id": "KXLIGUE1SCORE-26NOV22PARANG-PAR0ANG0",
-     "label": "Draw 0-0",
-     "side": "YES",
-     "price": 0.04,
-     "shares": 80,
-     "fee": 0.22,
-     "cost": 3.42
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 340,
-   "time": "2026-11-22T13:47:06Z",
-   "game": "epl:26NOV22HULBRI",
-   "title": "Hull City AFC v Brighton & Hove Albion FC",
-   "league": "epl",
-   "kickoff": "2026-11-22T14:00:00Z",
-   "min_to_ko": 12.9,
-   "t_lp": 0.004825,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "smarkets",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "230a356290e1a358e9dd2f7fa23de3b9",
-    "sport": "soccer_epl",
-    "home": "Hull City",
-    "away": "Brighton and Hove Albion"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2512.032,
-   "guaranteed_profit": 12.042,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Brighton and Hove Albion",
-     "side": "away",
-     "point": null,
-     "odds": 1.54,
-     "eff": 1.54,
-     "three_way": true,
-     "stake": 1631.21,
-     "cost": 1631.21,
-     "label": "h2h Brighton and Hove Albion  @1.54"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Hull City",
-     "side": "home",
-     "point": null,
-     "odds": 7.4,
-     "eff": 7.272,
-     "three_way": true,
-     "stake": 345.44,
-     "cost": 345.44,
-     "label": "h2h Hull City  @7.4"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.8,
-     "eff": 4.8,
-     "three_way": true,
-     "stake": 523.34,
-     "cost": 523.34,
-     "label": "h2h Draw  @4.8"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 341,
-   "time": "2026-11-22T13:47:10Z",
-   "game": "sea:26NOV22SASGEN",
-   "title": "US Sassuolo Calcio v Genoa CFC",
-   "league": "sea",
-   "kickoff": "2026-11-22T14:00:00Z",
-   "min_to_ko": 12.8,
-   "t_lp": 0.014957,
-   "with_books": true,
-   "books": [
-    "coolbet",
-    "onexbet",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "76d4698a8417f32cb059f14a469939f3",
-    "sport": "soccer_italy_serie_a",
-    "home": "Sassuolo",
-    "away": "Genoa"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2537.3724,
-   "guaranteed_profit": 37.3824,
-   "legs": [
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Genoa",
-     "side": "away",
-     "point": null,
-     "odds": 2.92,
-     "eff": 2.8815999999999997,
-     "three_way": true,
-     "stake": 880.55,
-     "cost": 880.55,
-     "label": "h2h Genoa  @2.92"
-    },
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "h2h",
-     "outcome": "Sassuolo",
-     "side": "home",
-     "point": null,
-     "odds": 2.85,
-     "eff": 2.85,
-     "three_way": true,
-     "stake": 890.31,
-     "cost": 890.31,
-     "label": "h2h Sassuolo  @2.85"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.48,
-     "eff": 3.48,
-     "three_way": true,
-     "stake": 729.13,
-     "cost": 729.13,
-     "label": "h2h Draw  @3.48"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 342,
-   "time": "2026-11-22T13:47:10Z",
-   "game": "fl1:26NOV22PARANG",
-   "title": "Paris FC v Angers SCO",
-   "league": "fl1",
-   "kickoff": "2026-11-22T14:00:00Z",
-   "min_to_ko": 12.8,
-   "t_lp": 0.009968,
-   "with_books": true,
-   "books": [
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "9e5d4a91e379ddffa179b02bf9e09530",
-    "sport": "soccer_france_ligue_one",
-    "home": "Paris FC",
-    "away": "Angers"
-   },
-   "cost": 2407.2111,
-   "guaranteed_payout": 2431.204,
-   "guaranteed_profit": 23.9929,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x055b9115550df44295ac43823413c7a2acc471653f7bce079550fc46301ea527",
-     "label": "Paris FC vs. Angers SCO: O/U 3.5",
-     "side": "YES",
-     "price": 0.39,
-     "shares": 2431.21,
-     "fee": 28.91924,
-     "cost": 977.0911
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "totals",
-     "outcome": "Under",
-     "side": "under",
-     "point": 3.5,
-     "odds": 1.7,
-     "eff": 1.7,
-     "three_way": true,
-     "stake": 1430.12,
-     "cost": 1430.12,
-     "label": "totals Under 3.5 @1.7"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 343,
-   "time": "2026-11-22T13:56:51Z",
-   "game": "sea:26NOV22BFCUDI",
-   "title": "Bologna FC 1909 v Udinese Calcio",
-   "league": "sea",
-   "kickoff": "2026-11-22T14:00:00Z",
-   "min_to_ko": 3.1,
-   "t_lp": 0.01553,
-   "with_books": true,
-   "books": [
-    "smarkets",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "5bc13c44b33981f3185400163388267e",
-    "sport": "soccer_italy_serie_a",
-    "home": "Bologna",
-    "away": "Udinese"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2538.8055,
-   "guaranteed_profit": 38.8155,
-   "legs": [
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Bologna",
-     "side": "home",
-     "point": null,
-     "odds": 1.87,
-     "eff": 1.8526000000000002,
-     "three_way": true,
-     "stake": 1370.41,
-     "cost": 1370.41,
-     "label": "h2h Bologna  @1.87"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Udinese",
-     "side": "away",
-     "point": null,
-     "odds": 5.4,
-     "eff": 5.4,
-     "three_way": true,
-     "stake": 470.15,
-     "cost": 470.15,
-     "label": "h2h Udinese  @5.4"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.85,
-     "eff": 3.85,
-     "three_way": true,
-     "stake": 659.43,
-     "cost": 659.43,
-     "label": "h2h Draw  @3.85"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 344,
-   "time": "2026-11-22T13:56:51Z",
-   "game": "sea:26NOV22SASGEN",
-   "title": "US Sassuolo Calcio v Genoa CFC",
-   "league": "sea",
-   "kickoff": "2026-11-22T14:00:00Z",
-   "min_to_ko": 3.1,
-   "t_lp": 0.006617,
-   "with_books": true,
-   "books": [
-    "boylesports",
-    "coolbet",
-    "pinnacle"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "76d4698a8417f32cb059f14a469939f3",
-    "sport": "soccer_italy_serie_a",
-    "home": "Sassuolo",
-    "away": "Genoa"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2516.51,
-   "guaranteed_profit": 16.53,
-   "legs": [
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "h2h",
-     "outcome": "Genoa",
-     "side": "away",
-     "point": null,
-     "odds": 2.87,
-     "eff": 2.87,
-     "three_way": true,
-     "stake": 876.84,
-     "cost": 876.84,
-     "label": "h2h Genoa  @2.87"
-    },
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "h2h",
-     "outcome": "Sassuolo",
-     "side": "home",
-     "point": null,
-     "odds": 2.85,
-     "eff": 2.85,
-     "three_way": true,
-     "stake": 882.99,
-     "cost": 882.99,
-     "label": "h2h Sassuolo  @2.85"
-    },
-    {
-     "venue": "BK:boylesports",
-     "book": "boylesports",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 3.4,
-     "eff": 3.4,
-     "three_way": true,
-     "stake": 740.15,
-     "cost": 740.15,
-     "label": "h2h Draw  @3.4"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 345,
-   "time": "2026-11-22T13:56:51Z",
-   "game": "fl1:26NOV22PARANG",
-   "title": "Paris FC v Angers SCO",
-   "league": "fl1",
-   "kickoff": "2026-11-22T14:00:00Z",
-   "min_to_ko": 3.1,
-   "t_lp": 0.00283,
-   "with_books": true,
-   "books": [
-    "betonlineag",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "9e5d4a91e379ddffa179b02bf9e09530",
-    "sport": "soccer_france_ligue_one",
-    "home": "Paris FC",
-    "away": "Angers"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2507.01,
-   "guaranteed_profit": 7.02,
-   "legs": [
-    {
-     "venue": "BK:betonlineag",
-     "book": "betonlineag",
-     "market": "h2h",
-     "outcome": "Angers",
-     "side": "away",
-     "point": null,
-     "odds": 11.0,
-     "eff": 11.0,
-     "three_way": true,
-     "stake": 227.91,
-     "cost": 227.91,
-     "label": "h2h Angers  @11.0"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Paris FC",
-     "side": "home",
-     "point": null,
-     "odds": 1.34,
-     "eff": 1.34,
-     "three_way": true,
-     "stake": 1870.95,
-     "cost": 1870.95,
-     "label": "h2h Paris FC  @1.34"
-    },
-    {
-     "venue": "BK:betonlineag",
-     "book": "betonlineag",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 6.25,
-     "eff": 6.25,
-     "three_way": true,
-     "stake": 401.13,
-     "cost": 401.13,
-     "label": "h2h Draw  @6.25"
     }
    ],
    "status": "open"
@@ -1663,6 +600,77 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 352,
+   "time": "2026-11-22T16:32:13Z",
+   "game": "sea:26NOV22ACMFRO",
+   "title": "AC Milan v Frosinone Calcio",
+   "league": "sea",
+   "kickoff": "2026-11-22T17:00:00Z",
+   "min_to_ko": 27.8,
+   "t_lp": 0.004111,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "onexbet",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "5faf836ce6c0fd72af5d1fe258c63bc6",
+    "sport": "soccer_italy_serie_a",
+    "home": "AC Milan",
+    "away": "Frosinone"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2510.244,
+   "guaranteed_profit": 10.254,
+   "legs": [
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "AC Milan",
+     "side": "home",
+     "point": null,
+     "odds": 1.69,
+     "eff": 1.6762,
+     "three_way": true,
+     "stake": 1497.6,
+     "cost": 1497.6,
+     "label": "h2h AC Milan  @1.69"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Frosinone",
+     "side": "away",
+     "point": null,
+     "odds": 5.4,
+     "eff": 5.4,
+     "three_way": true,
+     "stake": 464.86,
+     "cost": 464.86,
+     "label": "h2h Frosinone  @5.4"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.67,
+     "eff": 4.67,
+     "three_way": true,
+     "stake": 537.53,
+     "cost": 537.53,
+     "label": "h2h Draw  @4.67"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1708,31 +716,31 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 351,
- "n_settled": 327,
- "realized_pnl": -88554.33268400008,
+ "n_trades": 352,
+ "n_settled": 343,
+ "realized_pnl": -88203.9845000001,
  "runs": 74,
  "locked": {
-  "PM": 2252.604700000001,
-  "KS": 3.6800000000000033,
-  "BK:smarkets": 5422.1799999999985,
-  "BK:pinnacle": 3233.0200000000004,
-  "BK:onexbet": 15482.810000000007,
-  "BK:matchbook": 3410.5100000000016,
+  "PM": 1199.1804000000006,
+  "KS": 0.26000000000000334,
+  "BK:smarkets": 432.3999999999983,
+  "BK:pinnacle": 602.2000000000004,
+  "BK:onexbet": 3602.7900000000045,
+  "BK:matchbook": 3115.9800000000014,
   "BK:leovegas_se": 1.7053025658242404e-11,
   "BK:gtbets": 1058.85,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 9405.050000000012,
+  "BK:unibet_se": 2635.9300000000135,
   "BK:tipico_de": 0.0,
-  "BK:coolbet": 7687.250000000001,
+  "BK:coolbet": 2218.4400000000005,
   "BK:unibet_nl": 1387.3900000000026,
   "BK:marathonbet": 1607.78,
   "BK:coral": 1327.5699999999997,
   "BK:betfair_ex_uk": 1.4210854715202004e-14,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 837.89,
-  "BK:betonlineag": 629.0400000000001,
+  "BK:betonlineag": 1.1368683772161603e-13,
   "BK:skybet": 0.0,
   "BK:betrivers": 4.547473508864641e-13,
   "BK:lowvig": 0.0,
@@ -1741,14 +749,14 @@
   "BK:betanysports": 0.0,
   "BK:betsson": 0.0,
   "BK:codere_it": 0.0,
-  "BK:boylesports": 740.15,
+  "BK:boylesports": 0.0,
   "BK:fanduel": 0.0,
   "BK:bovada": 0.0,
   "BK:draftkings": 0.0,
   "BK:williamhill": 0.0,
   "BK:ladbrokes_uk": 0.0,
   "BK:betus": 0.0,
-  "BK:unibet_uk": 527.69,
+  "BK:unibet_uk": 0.0,
   "BK:nordicbet": 0.0
  },
  "peak_locked": {
@@ -1838,18 +846,18 @@
  "peak_total_locked": 155979.6216,
  "odds": {
   "remaining": {
-   "1": 61,
-   "2": 60,
-   "3": 61,
-   "4": 60,
-   "5": 62,
+   "1": 55,
+   "2": 54,
+   "3": 59,
+   "4": 54,
+   "5": 56,
    "6": 57,
    "7": 58,
    "8": 59,
-   "9": 61,
+   "9": 59,
    "10": 58,
    "11": 58,
-   "12": 62,
+   "12": 60,
    "13": 58
   },
   "spent": {
@@ -1868,7 +876,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 738
+   "2026-11-22": 768
   }
  },
  "book_slots": {
@@ -2210,6 +1218,8 @@
   "epl|2026-11-22T16:30|15": "2026-11-22T16:15:02Z",
   "bun|2026-11-22T16:30|15": "2026-11-22T16:15:03Z",
   "epl|2026-11-22T16:30|5": "2026-11-22T16:25:17Z",
-  "bun|2026-11-22T16:30|5": "2026-11-22T16:25:17Z"
+  "bun|2026-11-22T16:30|5": "2026-11-22T16:25:17Z",
+  "sea|2026-11-22T17:00|30": "2026-11-22T16:30:17Z",
+  "sea|2026-11-22T17:00|15": "2026-11-22T16:45:08Z"
  }
 }
