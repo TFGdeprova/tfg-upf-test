@@ -369,3 +369,6 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 368,2026-11-22T19:46:27Z,lal:26NOV22GETATM,Getafe CF v Club Atlético de Madrid,lal,2026-11-22T20:00:00Z,13.5,0.00594,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.98,2514.8,14.82,open,,,,,3
 369,2026-11-22T20:51:57Z,nfl:26NOV22NYJLAC,NYJ at LAC,nfl,2026-11-22T21:05:00Z,13.0,0.002286,True,"['coolbet', 'matchbook']",False,2499.99,2504.93,4.94,open,,,,,3
 370,2026-11-22T21:02:03Z,nfl:26NOV22NYJLAC,NYJ at LAC,nfl,2026-11-22T21:05:00Z,2.9,0.005956,True,"['coolbet', 'matchbook']",False,2499.99,2514.82,14.83,open,,,,,3
+371,2026-11-22T21:11:59Z,nfl:26NOV22JACNYG,JAC at NYG,nfl,2026-11-22T21:25:00Z,13.0,0.010812,True,"['draftkings', 'marathonbet']",False,2499.99,2526.7,26.71,open,,,,,3
+372,2026-11-22T21:21:59Z,nfl:26NOV22JACNYG,JAC at NYG,nfl,2026-11-22T21:25:00Z,3.0,0.003597,True,"['marathonbet', 'pinnacle']",False,2500.0,2508.9,8.9,open,,,,,3
+373,2026-11-22T21:22:01Z,nfl:26NOV22LVDEN,LV at DEN,nfl,2026-11-22T21:25:00Z,3.0,0.010036,True,"['betfair_ex_eu', 'coolbet']",False,2499.99,2524.72,24.73,open,,,,,3
