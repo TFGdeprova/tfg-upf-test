@@ -2364,3 +2364,4 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-22T21:22:01Z,nfl:26NOV22LVDEN,LV at DEN,nfl,3.0,confirmation,24,-0.005078,0.010036,executed,5627932.12,,KS YES 0.010 x0.000 Game to end in a tie | betfair_ex_eu h2h Denver Broncos  @1.19 x0.856 | coolbet h2h Las Vegas Raiders  @7.0 x0.144
 2026-11-22T21:30:27Z,nhl:26NOV22BUFTB,BUF at TB,nhl,29.5,scheduled,6,-0.01698,-0.012959,no gap,,,
 2026-11-22T21:45:06Z,nhl:26NOV22BUFTB,BUF at TB,nhl,14.9,scheduled,6,-0.010703,-0.010703,no gap,,,
+2026-11-22T21:55:08Z,nhl:26NOV22BUFTB,BUF at TB,nhl,4.9,scheduled,6,-0.010703,-0.005346,no gap,,,
