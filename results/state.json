@@ -1,6 +1,6 @@
 {
  "cash": {
-  "PM": 10385.030800000002,
+  "PM": 9212.605000000003,
   "KS": 7250.0099999999975,
   "BK:smarkets": -1396.8298059999988,
   "BK:pinnacle": -943.3067999999981,
@@ -15,7 +15,7 @@
   "BK:coolbet": 7559.095100000002,
   "BK:unibet_nl": -4297.620000000003,
   "BK:marathonbet": -8319.612399999998,
-  "BK:coral": -4850.827,
+  "BK:coral": -6178.397,
   "BK:betfair_ex_uk": 117.15999999999998,
   "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": -771.6700000000001,
@@ -1849,6 +1849,57 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 347,
+   "time": "2026-11-22T14:47:51Z",
+   "game": "ere:26NOV22GAEFOR",
+   "title": "Go Ahead Eagles v Fortuna Sittard",
+   "league": "ere",
+   "kickoff": "2026-11-22T15:45:00Z",
+   "min_to_ko": 57.1,
+   "t_lp": 0.014265,
+   "with_books": true,
+   "books": [
+    "coral"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "f0c241457472f32fc55b90b2b95b665b",
+    "sport": "soccer_netherlands_eredivisie",
+    "home": "Go Ahead Eagles",
+    "away": "Fortuna Sittard"
+   },
+   "cost": 2499.9958,
+   "guaranteed_payout": 2535.6587,
+   "guaranteed_profit": 35.6629,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x97ec7fc4c21d2ff4e9d480b868ef0bd663888972c74416bcddb2c500d61ef2bd",
+     "label": "Will Go Ahead Eagles win on 2026-11-22?",
+     "side": "NO",
+     "price": 0.44999999999999996,
+     "shares": 2535.66,
+     "fee": 31.37879,
+     "cost": 1172.4258
+    },
+    {
+     "venue": "BK:coral",
+     "book": "coral",
+     "market": "h2h",
+     "outcome": "Go Ahead Eagles",
+     "side": "home",
+     "point": null,
+     "odds": 1.91,
+     "eff": 1.91,
+     "three_way": true,
+     "stake": 1327.57,
+     "cost": 1327.57,
+     "label": "h2h Go Ahead Eagles  @1.91"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1863,15 +1914,19 @@
   "PM|0x055b9115550df44295ac43823413c7a2acc471653f7bce079550fc46301ea527|YES|0.3900": {
    "n": 2431.21,
    "t": "2026-11-22T13:47:10Z"
+  },
+  "PM|0x97ec7fc4c21d2ff4e9d480b868ef0bd663888972c74416bcddb2c500d61ef2bd|NO|0.4500": {
+   "n": 2535.66,
+   "t": "2026-11-22T14:47:51Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 346,
+ "n_trades": 347,
  "n_settled": 320,
  "realized_pnl": -88909.17883400008,
  "runs": 73,
  "locked": {
-  "PM": 1053.4243000000004,
+  "PM": 2225.8501000000006,
   "KS": 3.4200000000000035,
   "BK:smarkets": 6392.669999999999,
   "BK:pinnacle": 2630.82,
@@ -1886,7 +1941,7 @@
   "BK:coolbet": 7308.16,
   "BK:unibet_nl": 667.6400000000021,
   "BK:marathonbet": 0.0,
-  "BK:coral": 4123.22,
+  "BK:coral": 5450.79,
   "BK:betfair_ex_uk": 1.4210854715202004e-14,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 837.89,
@@ -1964,7 +2019,7 @@
   "BK:coolbet": -8022.379999999999,
   "BK:unibet_nl": -16211.870000000003,
   "BK:marathonbet": -13349.3378,
-  "BK:coral": -4850.827,
+  "BK:coral": -6178.397,
   "BK:betfair_ex_uk": 117.15999999999998,
   "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": -771.6700000000001,
@@ -2003,9 +2058,9 @@
    "5": 68,
    "6": 69,
    "7": 70,
-   "8": 71,
+   "8": 65,
    "9": 67,
-   "10": 72,
+   "10": 66,
    "11": 70,
    "12": 68,
    "13": 70
@@ -2026,7 +2081,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 620
+   "2026-11-22": 632
   }
  },
  "book_slots": {
@@ -2353,6 +2408,7 @@
   "epl|2026-11-22T16:30|120": "2026-11-22T14:30:07Z",
   "bun|2026-11-22T16:30|120": "2026-11-22T14:30:07Z",
   "nhl|2026-11-22T17:30|180": "2026-11-22T14:30:07Z",
-  "lal|2026-11-22T17:30|180": "2026-11-22T14:30:09Z"
+  "lal|2026-11-22T17:30|180": "2026-11-22T14:30:09Z",
+  "ere|2026-11-22T15:45|60": "2026-11-22T14:46:09Z"
  }
 }
