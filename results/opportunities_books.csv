@@ -2278,3 +2278,5 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-22T15:30:34Z,ere:26NOV22GAEFOR,Go Ahead Eagles v Fortuna Sittard,ere,14.4,scheduled,9,-0.004229,-0.001646,no gap,,,
 2026-11-22T15:40:44Z,ere:26NOV22GAEFOR,Go Ahead Eagles v Fortuna Sittard,ere,4.3,scheduled,9,-0.003189,0.004474,seen,,ere:26NOV22GAEFOR|2026-11-22T15:40:35Z|with_books,matchbook h2h Fortuna Sittard  @5.0 x0.204 | unibet_nl h2h Go Ahead Eagles  @1.81 x0.555 | pinnacle h2h Draw  @4.17 x0.241
 2026-11-22T15:42:15Z,ere:26NOV22GAEFOR,Go Ahead Eagles v Fortuna Sittard,ere,2.7,confirmation,9,-0.003189,0.004474,executed,,,matchbook h2h Fortuna Sittard  @5.0 x0.204 | unibet_nl h2h Go Ahead Eagles  @1.81 x0.555 | pinnacle h2h Draw  @4.17 x0.241
+2026-11-22T16:01:13Z,epl:26NOV22LFCMUN,Liverpool FC v Manchester United FC,epl,28.8,scheduled,11,-0.002232,-0.002232,no gap,,,
+2026-11-22T16:01:13Z,bun:26NOV22SVWHSV,SV Werder Bremen v Hamburger SV,bun,28.8,scheduled,11,-0.001194,-0.001194,no gap,,,

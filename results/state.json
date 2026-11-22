@@ -1,11 +1,11 @@
 {
  "cash": {
-  "PM": 9212.605000000003,
+  "PM": 9185.850400000001,
   "KS": 7249.749999999997,
   "BK:smarkets": -1396.8298059999988,
   "BK:pinnacle": -1545.5067999999983,
   "BK:onexbet": -76275.82950000007,
-  "BK:matchbook": 2047.0689920000018,
+  "BK:matchbook": 4578.639542000003,
   "BK:leovegas_se": -20519.714020000025,
   "BK:gtbets": -1124.5264999999995,
   "BK:winamax_de": 1144.1699999999996,
@@ -24,7 +24,7 @@
   "BK:betrivers": 11676.5811,
   "BK:lowvig": -4145.553499999999,
   "BK:mybookieag": -4546.4125,
-  "BK:betmgm": 5308.693700000002,
+  "BK:betmgm": 7821.782400000002,
   "BK:betanysports": -585.8006000000009,
   "BK:betsson": 2119.7043999999996,
   "BK:codere_it": 1797.4973999999997,
@@ -362,76 +362,6 @@
    "status": "open"
   },
   {
-   "trade_id": 328,
-   "time": "2026-11-22T12:32:09Z",
-   "game": "ere:26NOV22AJAADO",
-   "title": "AFC Ajax v ADO Den Haag",
-   "league": "ere",
-   "kickoff": "2026-11-22T13:30:00Z",
-   "min_to_ko": 57.8,
-   "t_lp": 0.012631,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "b192dbcfd675d0ee75492948b7d2a35f",
-    "sport": "soccer_netherlands_eredivisie",
-    "home": "Ajax",
-    "away": "ADO Den Haag"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2531.55,
-   "guaranteed_profit": 31.56,
-   "legs": [
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "ADO Den Haag",
-     "side": "away",
-     "point": null,
-     "odds": 15.0,
-     "eff": 15.0,
-     "three_way": true,
-     "stake": 168.77,
-     "cost": 168.77,
-     "label": "h2h ADO Den Haag  @15.0"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Ajax",
-     "side": "home",
-     "point": null,
-     "odds": 1.25,
-     "eff": 1.245,
-     "three_way": true,
-     "stake": 2033.39,
-     "cost": 2033.39,
-     "label": "h2h Ajax  @1.25"
-    },
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 8.5,
-     "eff": 8.5,
-     "three_way": true,
-     "stake": 297.83,
-     "cost": 297.83,
-     "label": "h2h Draw  @8.5"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 331,
    "time": "2026-11-22T13:01:48Z",
    "game": "epl:26NOV22HULBRI",
@@ -625,77 +555,6 @@
      "stake": 705.76,
      "cost": 705.76,
      "label": "h2h Draw  @3.58"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 334,
-   "time": "2026-11-22T13:16:52Z",
-   "game": "ere:26NOV22AJAADO",
-   "title": "AFC Ajax v ADO Den Haag",
-   "league": "ere",
-   "kickoff": "2026-11-22T13:30:00Z",
-   "min_to_ko": 13.1,
-   "t_lp": 0.005237,
-   "with_books": true,
-   "books": [
-    "betmgm",
-    "onexbet",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "b192dbcfd675d0ee75492948b7d2a35f",
-    "sport": "soccer_netherlands_eredivisie",
-    "home": "Ajax",
-    "away": "ADO Den Haag"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2513.0,
-   "guaranteed_profit": 13.02,
-   "legs": [
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "ADO Den Haag",
-     "side": "away",
-     "point": null,
-     "odds": 12.5,
-     "eff": 12.5,
-     "three_way": true,
-     "stake": 201.04,
-     "cost": 201.04,
-     "label": "h2h ADO Den Haag  @12.5"
-    },
-    {
-     "venue": "BK:betmgm",
-     "book": "betmgm",
-     "market": "h2h",
-     "outcome": "Ajax",
-     "side": "home",
-     "point": null,
-     "odds": 1.27,
-     "eff": 1.27,
-     "three_way": true,
-     "stake": 1978.81,
-     "cost": 1978.81,
-     "label": "h2h Ajax  @1.27"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 7.85,
-     "eff": 7.85,
-     "three_way": true,
-     "stake": 320.13,
-     "cost": 320.13,
-     "label": "h2h Draw  @7.85"
     }
    ],
    "status": "open"
@@ -1682,6 +1541,72 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 350,
+   "time": "2026-11-22T15:52:33Z",
+   "game": "tur:26NOV22TRAEYU",
+   "title": "Trabzonspor v Ey\u00fcpspor",
+   "league": "tur",
+   "kickoff": "2026-11-22T16:00:00Z",
+   "min_to_ko": 7.4,
+   "t_lp": 0.005432,
+   "cost": 26.7547,
+   "guaranteed_payout": 26.9,
+   "guaranteed_profit": 0.1453,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x1b6726721f334ed6f6ceb2c5c9c3e17e8fe2206624362d172082513eda2af82d",
+     "label": "Trabzonspor vs. Ey\u00fcpspor: O/U 1.5",
+     "side": "NO",
+     "price": 0.07999999999999996,
+     "shares": 26.9,
+     "fee": 0.09899,
+     "cost": 2.251
+    },
+    {
+     "venue": "PM",
+     "id": "0x5c8e1633518f6bb8ad7aab4942357b828db8e67a698abb219413fcd931703c62",
+     "label": "Trabzonspor vs. Ey\u00fcpspor: Trabzonspor O/U 1.5",
+     "side": "YES",
+     "price": 0.85,
+     "shares": 26.9,
+     "fee": 0.17149,
+     "cost": 23.0365
+    },
+    {
+     "venue": "PM",
+     "id": "0x8d65a95c3d80be9df52f3fa0759583954f0af29363aece1d30b36c10e0f22b7a",
+     "label": "Spread: Ey\u00fcpspor (-1.5)",
+     "side": "YES",
+     "price": 0.01,
+     "shares": 26.9,
+     "fee": 0.01332,
+     "cost": 0.2823
+    },
+    {
+     "venue": "PM",
+     "id": "0xc0759402eb677fd6202312c2f5b4c39bc9f1c06b6a4ae3f8c0cd49181c232158",
+     "label": "Exact Score: Trabzonspor 1 - 1 Ey\u00fcpspor?",
+     "side": "YES",
+     "price": 0.03,
+     "shares": 26.9,
+     "fee": 0.03914,
+     "cost": 0.8461
+    },
+    {
+     "venue": "PM",
+     "id": "0xf9ffa00165247df3d7d76b2e16e5aebe4682b4c0cc60d04580a9417a21e9d759",
+     "label": "Exact Score: Trabzonspor 1 - 2 Ey\u00fcpspor?",
+     "side": "YES",
+     "price": 0.012,
+     "shares": 26.9,
+     "fee": 0.01595,
+     "cost": 0.3387
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1704,20 +1629,40 @@
   "KS|KXNFLTIE-26NOV22PITPHI-Y|YES|0.0100": {
    "n": 24.0,
    "t": "2026-11-22T15:05:46Z"
+  },
+  "PM|0x1b6726721f334ed6f6ceb2c5c9c3e17e8fe2206624362d172082513eda2af82d|NO|0.0800": {
+   "n": 26.9,
+   "t": "2026-11-22T15:52:33Z"
+  },
+  "PM|0x5c8e1633518f6bb8ad7aab4942357b828db8e67a698abb219413fcd931703c62|YES|0.8500": {
+   "n": 26.9,
+   "t": "2026-11-22T15:52:33Z"
+  },
+  "PM|0x8d65a95c3d80be9df52f3fa0759583954f0af29363aece1d30b36c10e0f22b7a|YES|0.0100": {
+   "n": 26.9,
+   "t": "2026-11-22T15:52:33Z"
+  },
+  "PM|0xc0759402eb677fd6202312c2f5b4c39bc9f1c06b6a4ae3f8c0cd49181c232158|YES|0.0300": {
+   "n": 26.9,
+   "t": "2026-11-22T15:52:33Z"
+  },
+  "PM|0xf9ffa00165247df3d7d76b2e16e5aebe4682b4c0cc60d04580a9417a21e9d759|YES|0.0120": {
+   "n": 26.9,
+   "t": "2026-11-22T15:52:33Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 349,
- "n_settled": 325,
- "realized_pnl": -88599.02193400008,
+ "n_trades": 350,
+ "n_settled": 327,
+ "realized_pnl": -88554.33268400008,
  "runs": 74,
  "locked": {
-  "PM": 2225.8501000000006,
+  "PM": 2252.604700000001,
   "KS": 3.6800000000000033,
   "BK:smarkets": 5422.1799999999985,
   "BK:pinnacle": 3233.0200000000004,
-  "BK:onexbet": 14410.930000000006,
-  "BK:matchbook": 4335.920000000002,
+  "BK:onexbet": 14090.800000000007,
+  "BK:matchbook": 2302.5300000000016,
   "BK:leovegas_se": 1.7053025658242404e-11,
   "BK:gtbets": 1058.85,
   "BK:winamax_de": 0.0,
@@ -1725,7 +1670,7 @@
   "BK:unibet_se": 9405.050000000012,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 7687.250000000001,
-  "BK:unibet_nl": 2055.0300000000025,
+  "BK:unibet_nl": 1387.3900000000026,
   "BK:marathonbet": 1607.78,
   "BK:coral": 1327.5699999999997,
   "BK:betfair_ex_uk": 1.4210854715202004e-14,
@@ -1736,7 +1681,7 @@
   "BK:betrivers": 4.547473508864641e-13,
   "BK:lowvig": 0.0,
   "BK:mybookieag": 0.0,
-  "BK:betmgm": 1978.81,
+  "BK:betmgm": 0.0,
   "BK:betanysports": 0.0,
   "BK:betsson": 0.0,
   "BK:codere_it": 0.0,
@@ -1837,16 +1782,16 @@
  "peak_total_locked": 155979.6216,
  "odds": {
   "remaining": {
-   "1": 67,
-   "2": 66,
+   "1": 61,
+   "2": 60,
    "3": 61,
-   "4": 66,
+   "4": 60,
    "5": 62,
    "6": 63,
    "7": 64,
    "8": 65,
    "9": 61,
-   "10": 66,
+   "10": 64,
    "11": 64,
    "12": 62,
    "13": 64
@@ -1867,7 +1812,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 682
+   "2026-11-22": 702
   }
  },
  "book_slots": {
@@ -2201,6 +2146,9 @@
   "ere|2026-11-22T15:45|30": "2026-11-22T15:15:28Z",
   "ere|2026-11-22T15:45|15": "2026-11-22T15:30:16Z",
   "ere|2026-11-22T15:45|5": "2026-11-22T15:40:16Z",
-  "fl1|2026-11-22T16:15|30": "2026-11-22T15:45:22Z"
+  "fl1|2026-11-22T16:15|30": "2026-11-22T15:45:22Z",
+  "epl|2026-11-22T16:30|30": "2026-11-22T16:00:45Z",
+  "bun|2026-11-22T16:30|30": "2026-11-22T16:00:47Z",
+  "fl1|2026-11-22T16:15|15": "2026-11-22T16:00:47Z"
  }
 }
