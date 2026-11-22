@@ -357,3 +357,8 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 356,2026-11-22T17:47:10Z,nfl:26NOV22MIABUF,MIA at BUF,nfl,2026-11-22T18:00:00Z,12.8,0.007382,True,"['coolbet', 'pinnacle']",False,2499.99,2517.79,17.8,open,,,,,3
 357,2026-11-22T17:47:14Z,nfl:26NOV22TBDET,TB at DET,nfl,2026-11-22T18:00:00Z,12.8,0.022001,True,"['marathonbet', 'mybookieag']",False,2499.99,2554.4,54.41,open,,,,,3
 358,2026-11-22T17:47:14Z,nfl:26NOV22PITPHI,PIT at PHI,nfl,2026-11-22T18:00:00Z,12.8,0.016299,True,"['coolbet', 'marathonbet']",False,2499.99,2540.55,40.56,open,,,,,3
+359,2026-11-22T17:56:47Z,nfl:26NOV22MIABUF,MIA at BUF,nfl,2026-11-22T18:00:00Z,3.2,0.007382,True,"['coolbet', 'pinnacle']",False,2499.99,2517.79,17.8,open,,,,,3
+360,2026-11-22T17:56:51Z,nfl:26NOV22NOCHI,NO at CHI,nfl,2026-11-22T18:00:00Z,3.1,0.009674,True,"['coolbet', 'pinnacle']",False,2499.99,2523.73,23.74,open,,,,,3
+361,2026-11-22T17:56:54Z,nfl:26NOV22TBDET,TB at DET,nfl,2026-11-22T18:00:00Z,3.1,0.020825,True,"['marathonbet', 'mybookieag']",False,2499.9889,2552.0494,52.0605,open,,,,,3
+362,2026-11-22T17:56:54Z,nfl:26NOV22ARIKC,ARI at KC,nfl,2026-11-22T18:00:00Z,3.1,0.003926,True,"['coolbet', 'pinnacle']",False,2499.98,2508.88,8.9,open,,,,,3
+363,2026-11-22T17:56:54Z,nfl:26NOV22PITPHI,PIT at PHI,nfl,2026-11-22T18:00:00Z,3.1,0.020383,True,"['coolbet', 'marathonbet']",False,2499.99,2550.44,50.45,open,,,,,3
