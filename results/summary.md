@@ -1,4 +1,4 @@
-# Paper-trading bot: status at 2026-11-22T15:07:50Z
+# Paper-trading bot: status at 2026-11-22T15:09:52Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
@@ -73,7 +73,7 @@ Transfers between accounts: 4 ($1,399.69 moved, $0.00 in fees; 0 still in transi
 
 ## Gaps followed: the same portfolio re-checked later, and order-book depth
 
-Gaps above 0.1% followed: 192 Polymarket/Kalshi and 452 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
+Gaps above 0.1% followed: 193 Polymarket/Kalshi and 452 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
 
 | re-check | measured | still profitable | above 0.2% | a leg no longer offered | censored |
 |---|---|---|---|---|---|
@@ -86,7 +86,7 @@ Gaps above 0.1% followed: 192 Polymarket/Kalshi and 452 with bookmakers. A re-ch
 
 Depth at detection (capacity = largest size still profitable after walking the order books):
 
-- Polymarket/Kalshi gaps (192): median capacity $0 (maximum $2,826); still profitable with a $50 stake: 32 of 190; median largest guaranteed profit $0.00.
+- Polymarket/Kalshi gaps (193): median capacity $0 (maximum $2,826); still profitable with a $50 stake: 32 of 191; median largest guaranteed profit $0.00.
 - Gaps with bookmakers (452): median capacity $20,000 (maximum $20,000); still profitable with a $50 stake: 439 of 452; median largest guaranteed profit $154.57. Bookmakers publish no order-book depth, so only the Polymarket/Kalshi legs limit these sizes and the capacity stops at the search limit of $20,000; the bot's bets with bookmakers are capped at $2,500.
 
 Details: `results/rechecks.csv`, `results/depth.csv`.
