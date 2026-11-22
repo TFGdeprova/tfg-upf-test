@@ -10,7 +10,7 @@
   "BK:gtbets": -1124.5264999999995,
   "BK:winamax_de": 1144.1699999999996,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -13818.221800000014,
+  "BK:unibet_se": -14624.391800000014,
   "BK:tipico_de": -1205.0719999999997,
   "BK:coolbet": 2910.1951000000013,
   "BK:unibet_nl": -5685.010000000003,
@@ -27,7 +27,7 @@
   "BK:betmgm": 7821.782400000002,
   "BK:betanysports": -585.8006000000009,
   "BK:betsson": 2119.7043999999996,
-  "BK:codere_it": 1797.4973999999997,
+  "BK:codere_it": 103.6873999999998,
   "BK:boylesports": 574.8779999999998,
   "BK:fanduel": 416.0315999999998,
   "BK:bovada": -244.12,
@@ -1128,6 +1128,76 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 364,
+   "time": "2026-11-22T19:16:31Z",
+   "game": "fl1:26NOV22OLMMAN",
+   "title": "Olympique de Marseille v Le Mans FC",
+   "league": "fl1",
+   "kickoff": "2026-11-22T19:45:00Z",
+   "min_to_ko": 28.5,
+   "t_lp": 0.016287,
+   "with_books": true,
+   "books": [
+    "codere_it",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "98fae24771271c96d5dd364e535405d2",
+    "sport": "soccer_france_ligue_one",
+    "home": "Marseille",
+    "away": "Le Mans FC"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2540.64,
+   "guaranteed_profit": 40.66,
+   "legs": [
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Le Mans FC",
+     "side": "away",
+     "point": null,
+     "odds": 8.0,
+     "eff": 8.0,
+     "three_way": true,
+     "stake": 317.58,
+     "cost": 317.58,
+     "label": "h2h Le Mans FC  @8.0"
+    },
+    {
+     "venue": "BK:codere_it",
+     "book": "codere_it",
+     "market": "h2h",
+     "outcome": "Marseille",
+     "side": "home",
+     "point": null,
+     "odds": 1.5,
+     "eff": 1.5,
+     "three_way": true,
+     "stake": 1693.81,
+     "cost": 1693.81,
+     "label": "h2h Marseille  @1.5"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 5.2,
+     "eff": 5.2,
+     "three_way": true,
+     "stake": 488.59,
+     "cost": 488.59,
+     "label": "h2h Draw  @5.2"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1193,7 +1263,7 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 363,
+ "n_trades": 364,
  "n_settled": 347,
  "realized_pnl": -88154.9482300001,
  "runs": 75,
@@ -1208,7 +1278,7 @@
   "BK:gtbets": 0.0,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 1124.6100000000135,
+  "BK:unibet_se": 1930.7800000000134,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 5975.39,
   "BK:unibet_nl": 2.5011104298755527e-12,
@@ -1225,7 +1295,7 @@
   "BK:betmgm": 0.0,
   "BK:betanysports": 0.0,
   "BK:betsson": 0.0,
-  "BK:codere_it": 0.0,
+  "BK:codere_it": 1693.81,
   "BK:boylesports": 0.0,
   "BK:fanduel": 0.0,
   "BK:bovada": 0.0,
@@ -1264,7 +1334,7 @@
   "BK:betmgm": 5577.36,
   "BK:betanysports": 4190.72,
   "BK:betsson": 986.99,
-  "BK:codere_it": 1295.21,
+  "BK:codere_it": 1693.81,
   "BK:boylesports": 1813.5100000000002,
   "BK:fanduel": 1659.29,
   "BK:bovada": 824.12,
@@ -1324,18 +1394,18 @@
  "odds": {
   "remaining": {
    "1": 49,
-   "2": 52,
+   "2": 46,
    "3": 51,
    "4": 48,
    "5": 50,
    "6": 51,
-   "7": 52,
+   "7": 46,
    "8": 51,
    "9": 51,
    "10": 52,
-   "11": 52,
-   "12": 52,
-   "13": 52
+   "11": 46,
+   "12": 46,
+   "13": 50
   },
   "spent": {
    "2026-11-06": 27,
@@ -1353,7 +1423,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 850
+   "2026-11-22": 876
   }
  },
  "book_slots": {
@@ -1707,6 +1777,8 @@
   "lal|2026-11-22T17:30|5": "2026-11-22T17:25:06Z",
   "nfl|2026-11-22T18:00|30": "2026-11-22T17:30:08Z",
   "nfl|2026-11-22T18:00|15": "2026-11-22T17:45:26Z",
-  "nfl|2026-11-22T18:00|5": "2026-11-22T17:55:06Z"
+  "nfl|2026-11-22T18:00|5": "2026-11-22T17:55:06Z",
+  "sea|2026-11-22T19:45|30": "2026-11-22T19:15:01Z",
+  "fl1|2026-11-22T19:45|30": "2026-11-22T19:15:01Z"
  }
 }
