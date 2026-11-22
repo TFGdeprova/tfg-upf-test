@@ -18,7 +18,7 @@
   "BK:coral": -1024.3719999999994,
   "BK:betfair_ex_uk": 117.15999999999998,
   "BK:betfred_uk": -768.02,
-  "BK:betfair_ex_eu": -771.6700000000001,
+  "BK:betfair_ex_eu": 1737.8105500000001,
   "BK:betonlineag": 1823.4884999999954,
   "BK:skybet": -1150.75,
   "BK:betrivers": 11676.5811,
@@ -78,77 +78,6 @@
   "BK:nordicbet": 580.0
  },
  "open": [
-  {
-   "trade_id": 337,
-   "time": "2026-11-22T13:32:02Z",
-   "game": "bun:26NOV22FCAM05",
-   "title": "FC Augsburg v 1. FSV Mainz 05",
-   "league": "bun",
-   "kickoff": "2026-11-22T14:30:00Z",
-   "min_to_ko": 58.0,
-   "t_lp": 0.003799,
-   "with_books": true,
-   "books": [
-    "betfair_ex_eu",
-    "gtbets",
-    "onexbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "4c2262eccc903b9b1792325d09451c0a",
-    "sport": "soccer_germany_bundesliga",
-    "home": "Augsburg",
-    "away": "FSV Mainz 05"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2509.4745,
-   "guaranteed_profit": 9.4945,
-   "legs": [
-    {
-     "venue": "BK:betfair_ex_eu",
-     "book": "betfair_ex_eu",
-     "market": "h2h",
-     "outcome": "Augsburg",
-     "side": "home",
-     "point": null,
-     "odds": 3.1,
-     "eff": 2.995,
-     "three_way": true,
-     "stake": 837.89,
-     "cost": 837.89,
-     "label": "h2h Augsburg  @3.1"
-    },
-    {
-     "venue": "BK:gtbets",
-     "book": "gtbets",
-     "market": "h2h",
-     "outcome": "FSV Mainz 05",
-     "side": "away",
-     "point": null,
-     "odds": 2.37,
-     "eff": 2.37,
-     "three_way": true,
-     "stake": 1058.85,
-     "cost": 1058.85,
-     "label": "h2h FSV Mainz 05  @2.37"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.16,
-     "eff": 4.16,
-     "three_way": true,
-     "stake": 603.24,
-     "cost": 603.24,
-     "label": "h2h Draw  @4.16"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 338,
    "time": "2026-11-22T13:32:06Z",
@@ -717,18 +646,18 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 352,
- "n_settled": 343,
- "realized_pnl": -88203.9845000001,
+ "n_settled": 344,
+ "realized_pnl": -88194.4839500001,
  "runs": 74,
  "locked": {
   "PM": 1199.1804000000006,
   "KS": 0.26000000000000334,
   "BK:smarkets": 432.3999999999983,
   "BK:pinnacle": 602.2000000000004,
-  "BK:onexbet": 3602.7900000000045,
+  "BK:onexbet": 2999.5500000000047,
   "BK:matchbook": 3115.9800000000014,
   "BK:leovegas_se": 1.7053025658242404e-11,
-  "BK:gtbets": 1058.85,
+  "BK:gtbets": 0.0,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 2635.9300000000135,
@@ -739,7 +668,7 @@
   "BK:coral": 1327.5699999999997,
   "BK:betfair_ex_uk": 1.4210854715202004e-14,
   "BK:betfred_uk": 0.0,
-  "BK:betfair_ex_eu": 837.89,
+  "BK:betfair_ex_eu": 0.0,
   "BK:betonlineag": 1.1368683772161603e-13,
   "BK:skybet": 0.0,
   "BK:betrivers": 4.547473508864641e-13,
@@ -853,11 +782,11 @@
    "5": 56,
    "6": 57,
    "7": 58,
-   "8": 59,
-   "9": 59,
+   "8": 57,
+   "9": 53,
    "10": 58,
    "11": 58,
-   "12": 60,
+   "12": 54,
    "13": 58
   },
   "spent": {
@@ -876,7 +805,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 768
+   "2026-11-22": 782
   }
  },
  "book_slots": {
@@ -1220,6 +1149,9 @@
   "epl|2026-11-22T16:30|5": "2026-11-22T16:25:17Z",
   "bun|2026-11-22T16:30|5": "2026-11-22T16:25:17Z",
   "sea|2026-11-22T17:00|30": "2026-11-22T16:30:17Z",
-  "sea|2026-11-22T17:00|15": "2026-11-22T16:45:08Z"
+  "sea|2026-11-22T17:00|15": "2026-11-22T16:45:08Z",
+  "sea|2026-11-22T17:00|5": "2026-11-22T16:55:25Z",
+  "nhl|2026-11-22T17:30|30": "2026-11-22T17:00:25Z",
+  "lal|2026-11-22T17:30|30": "2026-11-22T17:00:36Z"
  }
 }

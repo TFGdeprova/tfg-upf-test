@@ -2289,3 +2289,5 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-22T16:32:13Z,sea:26NOV22ACMFRO,AC Milan v Frosinone Calcio,sea,27.8,confirmation,9,-0.001839,0.004111,executed,,,matchbook h2h AC Milan  @1.69 x0.599 | unibet_se h2h Frosinone  @5.4 x0.186 | onexbet h2h Draw  @4.67 x0.215
 2026-11-22T16:45:32Z,sea:26NOV22ACMFRO,AC Milan v Frosinone Calcio,sea,14.5,scheduled,11,-0.001839,0.002366,seen,,sea:26NOV22ACMFRO|2026-11-22T16:45:23Z|with_books,lowvig h2h AC Milan  @1.69 x0.593 | smarkets h2h Frosinone  @5.3 x0.192 | onexbet h2h Draw  @4.67 x0.215
 2026-11-22T16:47:01Z,sea:26NOV22ACMFRO,AC Milan v Frosinone Calcio,sea,13.0,confirmation,11,-0.001839,-0.000898,vanished,,,lowvig h2h AC Milan  @1.69 x0.591 | smarkets h2h Frosinone  @5.3 x0.192 | marathonbet h2h Draw  @4.6 x0.217
+2026-11-22T16:55:43Z,sea:26NOV22ACMFRO,AC Milan v Frosinone Calcio,sea,4.3,scheduled,11,-0.002346,-0.002346,no gap,,,
+2026-11-22T17:00:56Z,nhl:26NOV22CARNYR,CAR at NYR,nhl,29.1,scheduled,8,-0.01339,-0.01339,no gap,,,
