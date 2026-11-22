@@ -5,7 +5,7 @@
   "BK:smarkets": 6159.1157140000005,
   "BK:pinnacle": -10445.455999999998,
   "BK:onexbet": -70617.59570000005,
-  "BK:matchbook": 7030.972706000002,
+  "BK:matchbook": 9542.140706000002,
   "BK:leovegas_se": -20519.714020000025,
   "BK:gtbets": -1124.5264999999995,
   "BK:winamax_de": 1144.1699999999996,
@@ -333,77 +333,6 @@
      "stake": 1607.78,
      "cost": 1607.78,
      "label": "h2h Pittsburgh Steelers  @1.57"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 349,
-   "time": "2026-11-22T15:42:15Z",
-   "game": "ere:26NOV22GAEFOR",
-   "title": "Go Ahead Eagles v Fortuna Sittard",
-   "league": "ere",
-   "kickoff": "2026-11-22T15:45:00Z",
-   "min_to_ko": 2.7,
-   "t_lp": 0.004474,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "pinnacle",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "f0c241457472f32fc55b90b2b95b665b",
-    "sport": "soccer_netherlands_eredivisie",
-    "home": "Go Ahead Eagles",
-    "away": "Fortuna Sittard"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2511.168,
-   "guaranteed_profit": 11.178,
-   "legs": [
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Fortuna Sittard",
-     "side": "away",
-     "point": null,
-     "odds": 5.0,
-     "eff": 4.92,
-     "three_way": true,
-     "stake": 510.4,
-     "cost": 510.4,
-     "label": "h2h Fortuna Sittard  @5.0"
-    },
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "Go Ahead Eagles",
-     "side": "home",
-     "point": null,
-     "odds": 1.81,
-     "eff": 1.81,
-     "three_way": true,
-     "stake": 1387.39,
-     "cost": 1387.39,
-     "label": "h2h Go Ahead Eagles  @1.81"
-    },
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.17,
-     "eff": 4.17,
-     "three_way": true,
-     "stake": 602.2,
-     "cost": 602.2,
-     "label": "h2h Draw  @4.17"
     }
    ],
    "status": "open"
@@ -1392,16 +1321,16 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 363,
- "n_settled": 344,
- "realized_pnl": -88194.4839500001,
+ "n_settled": 345,
+ "realized_pnl": -88183.3059500001,
  "runs": 74,
  "locked": {
   "PM": 1322.0793000000006,
   "KS": 3.610000000000004,
   "BK:smarkets": 432.3999999999983,
-  "BK:pinnacle": 12018.679999999998,
+  "BK:pinnacle": 11416.479999999998,
   "BK:onexbet": 2999.5500000000047,
-  "BK:matchbook": 3115.9800000000014,
+  "BK:matchbook": 2605.5800000000013,
   "BK:leovegas_se": 1.7053025658242404e-11,
   "BK:gtbets": 0.0,
   "BK:winamax_de": 0.0,
@@ -1409,7 +1338,7 @@
   "BK:unibet_se": 2635.9300000000135,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 5975.39,
-  "BK:unibet_nl": 1387.3900000000026,
+  "BK:unibet_nl": 2.5011104298755527e-12,
   "BK:marathonbet": 11315.96,
   "BK:coral": 1327.5699999999997,
   "BK:betfair_ex_uk": 1.4210854715202004e-14,
@@ -1522,7 +1451,7 @@
  "odds": {
   "remaining": {
    "1": 49,
-   "2": 54,
+   "2": 52,
    "3": 53,
    "4": 48,
    "5": 50,
@@ -1551,7 +1480,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 842
+   "2026-11-22": 844
   }
  },
  "book_slots": {
