@@ -2117,3 +2117,4 @@ time,watch,kind,game,title,league,min_to_ko,lag_s,detected,recheck,t_detected,t_
 2026-11-22T01:39:36Z,nba:26NOV21BOSSAC|2026-11-22T01:34:36Z|pm_ks,pm_ks,nba:26NOV21BOSSAC,BOS at SAC,nba,80.4,300.2,2026-11-22T01:34:36Z,300,0.004014,-0.006595,4/4,-0.005657,False,False,ok
 2026-11-22T02:56:42Z,nhl:26NOV21MINVAN|2026-11-22T02:55:12Z|with_books,with_books,nhl:26NOV21MINVAN,MIN at VAN,nhl,3.3,90.1,2026-11-22T02:55:12Z,confirmation,0.022384,0.022384,2/2,0.022384,True,True,ok
 2026-11-22T02:56:42Z,nhl:26NOV21SEASJ|2026-11-22T02:55:12Z|with_books,with_books,nhl:26NOV21SEASJ,SEA at SJ,nhl,3.3,90.0,2026-11-22T02:55:12Z,confirmation,0.028371,0.028371,2/2,0.028371,True,True,ok
+2026-11-22T10:02:04Z,lal:26NOV22BARVIL|2026-11-22T10:00:34Z|with_books,with_books,lal:26NOV22BARVIL,FC Barcelona v Villarreal CF,lal,177.9,89.7,2026-11-22T10:00:34Z,confirmation,0.015413,0.015413,3/3,0.015413,True,True,ok

@@ -315,3 +315,4 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 314,2026-11-22T00:07:43Z,nba:26NOV21BOSSAC,BOS at SAC,nba,2026-11-22T03:00:00Z,172.3,0.004876,,,,9.9487,9.99,0.0413,settled,2026-11-22T06:06:49Z,9.99,0.0413,ok,2
 315,2026-11-22T02:56:43Z,nhl:26NOV21MINVAN,MIN at VAN,nhl,2026-11-22T03:00:00Z,3.3,0.022384,True,"['coolbet', 'williamhill']",False,2499.99,2555.9429,55.9529,settled,2026-11-22T06:06:49Z,2555.96,55.97,ok,2
 316,2026-11-22T02:56:43Z,nhl:26NOV21SEASJ,SEA at SJ,nhl,2026-11-22T03:00:00Z,3.3,0.028371,True,"['coolbet', 'matchbook']",False,2499.99,2570.9141,70.9241,settled,2026-11-22T06:06:49Z,2570.92,70.93,ok,2
+317,2026-11-22T10:02:04Z,lal:26NOV22BARVIL,FC Barcelona v Villarreal CF,lal,2026-11-22T13:00:00Z,177.9,0.015413,True,"['matchbook', 'onexbet', 'smarkets']",False,2499.98,2538.3969,38.4169,open,,,,,3
