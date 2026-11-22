@@ -1,4 +1,4 @@
-# Paper-trading bot: status at 2026-11-22T21:25:11Z
+# Paper-trading bot: status at 2026-11-22T21:45:12Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
@@ -12,16 +12,16 @@ Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities):
 | Open positions (cost) | $54,999.73 |
 | Money in transit between accounts | $0.00 |
 | Equity (cash + open at cost + in transit) | $-56,201.76 ≈ €-48,449.79 |
-| Return so far (realised / peak money in use) | -56.483% over 15.9 days |
+| Return so far (realised / peak money in use) | -56.483% over 16.0 days |
 
-Polymarket/Kalshi gaps above the threshold: below_min_size 1019, executed 39, rounding 95, seen 1268, vanished 92.
-Gaps using bookmakers: below_min_size 7, executed 334, no_cash 41, rounding 4, seen 435, vanished 40 (snapshots combined with Polymarket/Kalshi: 2363).
+Polymarket/Kalshi gaps above the threshold: below_min_size 1019, executed 39, rounding 95, seen 1269, vanished 93.
+Gaps using bookmakers: below_min_size 7, executed 334, no_cash 41, rounding 4, seen 435, vanished 40 (snapshots combined with Polymarket/Kalshi: 2365).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 223 (about 0.2 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
+The Odds API credits left: 211 (about 0.2 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
 
 ## Capital by account
 
@@ -73,20 +73,20 @@ Transfers between accounts: 4 ($1,399.69 moved, $0.00 in fees; 0 still in transi
 
 ## Gaps followed: the same portfolio re-checked later, and order-book depth
 
-Gaps above 0.1% followed: 241 Polymarket/Kalshi and 482 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
+Gaps above 0.1% followed: 243 Polymarket/Kalshi and 482 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
 
 | re-check | measured | still profitable | above 0.2% | a leg no longer offered | censored |
 |---|---|---|---|---|---|
-| +30 s | 240 | 183 | 119 | 1 | 0 |
-| +1 min | 238 | 168 | 108 | 2 | 1 |
-| +2 min | 233 | 153 | 95 | 5 | 3 |
-| +5 min | 224 | 118 | 75 | 5 | 12 |
+| +30 s | 242 | 183 | 119 | 1 | 0 |
+| +1 min | 240 | 168 | 108 | 2 | 1 |
+| +2 min | 235 | 153 | 95 | 5 | 3 |
+| +5 min | 226 | 118 | 75 | 5 | 12 |
 | bookmaker confirmation (~1 min) | 860 | 474 | 466 | 19 | 0 |
 | next bookmaker snapshot | 698 | 180 | 171 | 20 | 0 |
 
 Depth at detection (capacity = largest size still profitable after walking the order books):
 
-- Polymarket/Kalshi gaps (241): median capacity $0 (maximum $2,826); still profitable with a $50 stake: 39 of 239; median largest guaranteed profit $0.00.
+- Polymarket/Kalshi gaps (243): median capacity $0 (maximum $2,826); still profitable with a $50 stake: 39 of 241; median largest guaranteed profit $0.00.
 - Gaps with bookmakers (482): median capacity $20,000 (maximum $20,000); still profitable with a $50 stake: 467 of 482; median largest guaranteed profit $152.02. Bookmakers publish no order-book depth, so only the Polymarket/Kalshi legs limit these sizes and the capacity stops at the search limit of $20,000; the bot's bets with bookmakers are capped at $2,500.
 
 Details: `results/rechecks.csv`, `results/depth.csv`.

@@ -2362,3 +2362,5 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-22T21:20:31Z,nfl:26NOV22LVDEN,LV at DEN,nfl,4.5,scheduled,16,-0.008272,0.007694,seen,7377154.67,nfl:26NOV22LVDEN|2026-11-22T21:20:31Z|with_books,KS YES 0.010 x0.000 Game to end in a tie | matchbook h2h Denver Broncos  @1.19 x0.850 | coolbet h2h Las Vegas Raiders  @6.7 x0.150
 2026-11-22T21:21:59Z,nfl:26NOV22JACNYG,JAC at NYG,nfl,3.0,confirmation,16,-0.007959,0.003597,executed,21606732.12,,KS YES 0.010 x0.000 Game to end in a tie | pinnacle h2h Jacksonville Jaguars  @1.38 x0.727 | marathonbet h2h New York Giants  @3.68 x0.273
 2026-11-22T21:22:01Z,nfl:26NOV22LVDEN,LV at DEN,nfl,3.0,confirmation,24,-0.005078,0.010036,executed,5627932.12,,KS YES 0.010 x0.000 Game to end in a tie | betfair_ex_eu h2h Denver Broncos  @1.19 x0.856 | coolbet h2h Las Vegas Raiders  @7.0 x0.144
+2026-11-22T21:30:27Z,nhl:26NOV22BUFTB,BUF at TB,nhl,29.5,scheduled,6,-0.01698,-0.012959,no gap,,,
+2026-11-22T21:45:06Z,nhl:26NOV22BUFTB,BUF at TB,nhl,14.9,scheduled,6,-0.010703,-0.010703,no gap,,,
