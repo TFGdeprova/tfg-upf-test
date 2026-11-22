@@ -2,15 +2,15 @@
  "cash": {
   "PM": 11438.455100000001,
   "KS": 7253.429999999998,
-  "BK:smarkets": 3981.5701940000017,
+  "BK:smarkets": 2868.9701940000014,
   "BK:pinnacle": 820.0732000000019,
-  "BK:onexbet": -76696.64430000001,
-  "BK:matchbook": 4934.089392000002,
-  "BK:leovegas_se": -19182.944020000024,
+  "BK:onexbet": -78417.69430000002,
+  "BK:matchbook": 4393.609392000002,
+  "BK:leovegas_se": -20519.714020000025,
   "BK:gtbets": -65.67649999999958,
   "BK:winamax_de": 1144.1699999999996,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -19985.942200000012,
+  "BK:unibet_se": -22774.99220000001,
   "BK:tipico_de": -1205.0719999999997,
   "BK:coolbet": 14697.8151,
   "BK:unibet_nl": -3629.9800000000027,
@@ -571,35 +571,239 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 324,
+   "time": "2026-11-22T11:57:06Z",
+   "game": "elc:26NOV22BURBLA",
+   "title": "Burnley FC v Blackburn Rovers FC",
+   "league": "elc",
+   "kickoff": "2026-11-22T12:00:00Z",
+   "min_to_ko": 2.9,
+   "t_lp": 0.021296,
+   "with_books": true,
+   "books": [
+    "leovegas_se",
+    "matchbook",
+    "onexbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "9176cbaec3565e688e603baec257e246",
+    "sport": "soccer_efl_champ",
+    "home": "Burnley",
+    "away": "Blackburn Rovers"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2553.2275,
+   "guaranteed_profit": 53.2375,
+   "legs": [
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Blackburn Rovers",
+     "side": "away",
+     "point": null,
+     "odds": 4.8,
+     "eff": 4.724,
+     "three_way": true,
+     "stake": 540.48,
+     "cost": 540.48,
+     "label": "h2h Blackburn Rovers  @4.8"
+    },
+    {
+     "venue": "BK:leovegas_se",
+     "book": "leovegas_se",
+     "market": "h2h",
+     "outcome": "Burnley",
+     "side": "home",
+     "point": null,
+     "odds": 1.91,
+     "eff": 1.91,
+     "three_way": true,
+     "stake": 1336.77,
+     "cost": 1336.77,
+     "label": "h2h Burnley  @1.91"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.1,
+     "eff": 4.1,
+     "three_way": true,
+     "stake": 622.74,
+     "cost": 622.74,
+     "label": "h2h Draw  @4.1"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 325,
+   "time": "2026-11-22T12:02:10Z",
+   "game": "sea:26NOV22SASGEN",
+   "title": "US Sassuolo Calcio v Genoa CFC",
+   "league": "sea",
+   "kickoff": "2026-11-22T14:00:00Z",
+   "min_to_ko": 117.8,
+   "t_lp": 0.007687,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "smarkets",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "76d4698a8417f32cb059f14a469939f3",
+    "sport": "soccer_italy_serie_a",
+    "home": "Sassuolo",
+    "away": "Genoa"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2519.1896,
+   "guaranteed_profit": 19.2096,
+   "legs": [
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Genoa",
+     "side": "away",
+     "point": null,
+     "odds": 2.75,
+     "eff": 2.75,
+     "three_way": true,
+     "stake": 916.07,
+     "cost": 916.07,
+     "label": "h2h Genoa  @2.75"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Sassuolo",
+     "side": "home",
+     "point": null,
+     "odds": 2.9,
+     "eff": 2.862,
+     "three_way": true,
+     "stake": 880.22,
+     "cost": 880.22,
+     "label": "h2h Sassuolo  @2.9"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.58,
+     "eff": 3.58,
+     "three_way": true,
+     "stake": 703.69,
+     "cost": 703.69,
+     "label": "h2h Draw  @3.58"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 326,
+   "time": "2026-11-22T12:02:10Z",
+   "game": "fl1:26NOV22PARANG",
+   "title": "Paris FC v Angers SCO",
+   "league": "fl1",
+   "kickoff": "2026-11-22T14:00:00Z",
+   "min_to_ko": 117.8,
+   "t_lp": 0.003921,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "smarkets",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "9e5d4a91e379ddffa179b02bf9e09530",
+    "sport": "soccer_france_ligue_one",
+    "home": "Paris FC",
+    "away": "Angers"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2509.704,
+   "guaranteed_profit": 9.724,
+   "legs": [
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Angers",
+     "side": "away",
+     "point": null,
+     "odds": 11.0,
+     "eff": 10.8,
+     "three_way": true,
+     "stake": 232.38,
+     "cost": 232.38,
+     "label": "h2h Angers  @11.0"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Paris FC",
+     "side": "home",
+     "point": null,
+     "odds": 1.34,
+     "eff": 1.34,
+     "three_way": true,
+     "stake": 1872.98,
+     "cost": 1872.98,
+     "label": "h2h Paris FC  @1.34"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 6.36,
+     "eff": 6.36,
+     "three_way": true,
+     "stake": 394.62,
+     "cost": 394.62,
+     "label": "h2h Draw  @6.36"
+    }
+   ],
+   "status": "open"
   }
  ],
- "consumed": {
-  "PM|0xa8b70c836a5c2e14065f2d9422e152b2da7d1534fb7adea5d5c60568ab28b79a|NO|0.8400": {
-   "n": 9.99,
-   "t": "2026-11-22T00:07:43Z"
-  },
-  "KS|KXNBAWINMARGIN-26NOV21BOSSAC-BOS26PLUS|YES|0.1400": {
-   "n": 10.0,
-   "t": "2026-11-22T00:07:43Z"
-  }
- },
+ "consumed": {},
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 323,
+ "n_trades": 326,
  "n_settled": 316,
  "realized_pnl": -89077.82883400007,
  "runs": 73,
  "locked": {
   "PM": 3.623767952376511e-13,
   "KS": 3.552713678800501e-15,
-  "BK:smarkets": 1014.27,
+  "BK:smarkets": 2126.87,
   "BK:pinnacle": 867.4400000000003,
-  "BK:onexbet": 9217.020000000008,
-  "BK:matchbook": 1906.4900000000002,
-  "BK:leovegas_se": 2639.910000000017,
+  "BK:onexbet": 10938.070000000009,
+  "BK:matchbook": 2446.9700000000003,
+  "BK:leovegas_se": 3976.680000000017,
   "BK:gtbets": 0.0,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 1685.3200000000122,
+  "BK:unibet_se": 4474.370000000012,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 169.44000000000023,
   "BK:unibet_nl": 2.1600499167107046e-12,
@@ -714,17 +918,17 @@
  "peak_total_locked": 155979.6216,
  "odds": {
   "remaining": {
-   "1": 99,
-   "2": 96,
-   "3": 97,
-   "4": 96,
-   "5": 98,
+   "1": 93,
+   "2": 90,
+   "3": 91,
+   "4": 90,
+   "5": 92,
    "6": 93,
    "7": 94,
-   "8": 95,
-   "9": 97,
-   "10": 96,
-   "11": 96,
+   "8": 89,
+   "9": 91,
+   "10": 90,
+   "11": 90,
    "12": 94,
    "13": 94
   },
@@ -744,7 +948,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 268
+   "2026-11-22": 322
   }
  },
  "book_slots": {
@@ -1031,6 +1235,11 @@
   "elc|2026-11-22T12:00|30": "2026-11-22T11:30:09Z",
   "ere|2026-11-22T13:30|120": "2026-11-22T11:30:09Z",
   "bun|2026-11-22T14:30|180": "2026-11-22T11:30:09Z",
-  "elc|2026-11-22T12:00|15": "2026-11-22T11:45:14Z"
+  "elc|2026-11-22T12:00|15": "2026-11-22T11:45:14Z",
+  "elc|2026-11-22T12:00|5": "2026-11-22T11:55:21Z",
+  "lal|2026-11-22T13:00|60": "2026-11-22T12:00:22Z",
+  "epl|2026-11-22T14:00|120": "2026-11-22T12:00:24Z",
+  "sea|2026-11-22T14:00|120": "2026-11-22T12:00:25Z",
+  "fl1|2026-11-22T14:00|120": "2026-11-22T12:00:26Z"
  }
 }

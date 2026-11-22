@@ -322,3 +322,6 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 321,2026-11-22T11:01:45Z,sea:26NOV22SASGEN,US Sassuolo Calcio v Genoa CFC,sea,2026-11-22T14:00:00Z,178.2,0.01317,True,"['onexbet', 'pinnacle', 'unibet_se']",False,2499.99,2532.9044,32.9144,open,,,,,3
 322,2026-11-22T11:31:53Z,elc:26NOV22BURBLA,Burnley FC v Blackburn Rovers FC,elc,2026-11-22T12:00:00Z,28.1,0.00998,True,"['leovegas_se', 'matchbook']",False,2499.99,2524.9096,24.9196,open,,,,,3
 323,2026-11-22T11:46:59Z,elc:26NOV22BURBLA,Burnley FC v Blackburn Rovers FC,elc,2026-11-22T12:00:00Z,13.0,0.022533,True,"['leovegas_se', 'matchbook', 'onexbet']",False,2499.98,2556.2952,56.3152,open,,,,,3
+324,2026-11-22T11:57:06Z,elc:26NOV22BURBLA,Burnley FC v Blackburn Rovers FC,elc,2026-11-22T12:00:00Z,2.9,0.021296,True,"['leovegas_se', 'matchbook', 'onexbet']",False,2499.99,2553.2275,53.2375,open,,,,,3
+325,2026-11-22T12:02:10Z,sea:26NOV22SASGEN,US Sassuolo Calcio v Genoa CFC,sea,2026-11-22T14:00:00Z,117.8,0.007687,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.98,2519.1896,19.2096,open,,,,,3
+326,2026-11-22T12:02:10Z,fl1:26NOV22PARANG,Paris FC v Angers SCO,fl1,2026-11-22T14:00:00Z,117.8,0.003921,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.98,2509.704,9.724,open,,,,,3
