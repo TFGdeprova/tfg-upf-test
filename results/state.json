@@ -3,9 +3,9 @@
   "PM": 9212.605000000003,
   "KS": 7249.749999999997,
   "BK:smarkets": -1396.8298059999988,
-  "BK:pinnacle": -943.3067999999981,
-  "BK:onexbet": -81356.07390000006,
-  "BK:matchbook": 2557.468992000002,
+  "BK:pinnacle": -1545.5067999999983,
+  "BK:onexbet": -76275.82950000007,
+  "BK:matchbook": 2047.0689920000018,
   "BK:leovegas_se": -20519.714020000025,
   "BK:gtbets": -1124.5264999999995,
   "BK:winamax_de": 1144.1699999999996,
@@ -13,9 +13,9 @@
   "BK:unibet_se": -28469.932200000014,
   "BK:tipico_de": -1205.0719999999997,
   "BK:coolbet": 6667.1451000000025,
-  "BK:unibet_nl": -4297.620000000003,
+  "BK:unibet_nl": -5685.010000000003,
   "BK:marathonbet": -9927.392399999999,
-  "BK:coral": -6178.397,
+  "BK:coral": -1024.3719999999994,
   "BK:betfair_ex_uk": 117.15999999999998,
   "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": -771.6700000000001,
@@ -33,7 +33,7 @@
   "BK:bovada": -244.12,
   "BK:draftkings": -2698.54,
   "BK:williamhill": -2192.1800000000003,
-  "BK:ladbrokes_uk": -4760.1435,
+  "BK:ladbrokes_uk": -2184.3559999999998,
   "BK:betus": -780.8719999999994,
   "BK:unibet_uk": -1287.96,
   "BK:nordicbet": 3609.9376
@@ -78,148 +78,6 @@
   "BK:nordicbet": 580.0
  },
  "open": [
-  {
-   "trade_id": 317,
-   "time": "2026-11-22T10:02:04Z",
-   "game": "lal:26NOV22BARVIL",
-   "title": "FC Barcelona v Villarreal CF",
-   "league": "lal",
-   "kickoff": "2026-11-22T13:00:00Z",
-   "min_to_ko": 177.9,
-   "t_lp": 0.015413,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "onexbet",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "214a79b6e08dbe3f508844936158c038",
-    "sport": "soccer_spain_la_liga",
-    "home": "Barcelona",
-    "away": "Villarreal"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2538.3969,
-   "guaranteed_profit": 38.4169,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Barcelona",
-     "side": "home",
-     "point": null,
-     "odds": 1.23,
-     "eff": 1.23,
-     "three_way": true,
-     "stake": 2063.84,
-     "cost": 2063.84,
-     "label": "h2h Barcelona  @1.23"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Villarreal",
-     "side": "away",
-     "point": null,
-     "odds": 15.5,
-     "eff": 15.209999999999999,
-     "three_way": true,
-     "stake": 166.89,
-     "cost": 166.89,
-     "label": "h2h Villarreal  @15.5"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 9.6,
-     "eff": 9.427999999999999,
-     "three_way": true,
-     "stake": 269.25,
-     "cost": 269.25,
-     "label": "h2h Draw  @9.6"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 318,
-   "time": "2026-11-22T11:01:43Z",
-   "game": "lal:26NOV22BARVIL",
-   "title": "FC Barcelona v Villarreal CF",
-   "league": "lal",
-   "kickoff": "2026-11-22T13:00:00Z",
-   "min_to_ko": 118.3,
-   "t_lp": 0.016692,
-   "with_books": true,
-   "books": [
-    "coolbet",
-    "onexbet",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "214a79b6e08dbe3f508844936158c038",
-    "sport": "soccer_spain_la_liga",
-    "home": "Barcelona",
-    "away": "Villarreal"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2541.6,
-   "guaranteed_profit": 41.62,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Barcelona",
-     "side": "home",
-     "point": null,
-     "odds": 1.23,
-     "eff": 1.23,
-     "three_way": true,
-     "stake": 2066.44,
-     "cost": 2066.44,
-     "label": "h2h Barcelona  @1.23"
-    },
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "h2h",
-     "outcome": "Villarreal",
-     "side": "away",
-     "point": null,
-     "odds": 15.0,
-     "eff": 15.0,
-     "three_way": true,
-     "stake": 169.44,
-     "cost": 169.44,
-     "label": "h2h Villarreal  @15.0"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 9.8,
-     "eff": 9.624,
-     "three_way": true,
-     "stake": 264.1,
-     "cost": 264.1,
-     "label": "h2h Draw  @9.8"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 320,
    "time": "2026-11-22T11:01:43Z",
@@ -504,77 +362,6 @@
    "status": "open"
   },
   {
-   "trade_id": 327,
-   "time": "2026-11-22T12:32:07Z",
-   "game": "lal:26NOV22BARVIL",
-   "title": "FC Barcelona v Villarreal CF",
-   "league": "lal",
-   "kickoff": "2026-11-22T13:00:00Z",
-   "min_to_ko": 27.9,
-   "t_lp": 0.030319,
-   "with_books": true,
-   "books": [
-    "coolbet",
-    "ladbrokes_uk",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "214a79b6e08dbe3f508844936158c038",
-    "sport": "soccer_spain_la_liga",
-    "home": "Barcelona",
-    "away": "Villarreal"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2575.65,
-   "guaranteed_profit": 75.67,
-   "legs": [
-    {
-     "venue": "BK:ladbrokes_uk",
-     "book": "ladbrokes_uk",
-     "market": "h2h",
-     "outcome": "Barcelona",
-     "side": "home",
-     "point": null,
-     "odds": 1.25,
-     "eff": 1.25,
-     "three_way": true,
-     "stake": 2060.63,
-     "cost": 2060.63,
-     "label": "h2h Barcelona  @1.25"
-    },
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "h2h",
-     "outcome": "Villarreal",
-     "side": "away",
-     "point": null,
-     "odds": 15.0,
-     "eff": 15.0,
-     "three_way": true,
-     "stake": 171.71,
-     "cost": 171.71,
-     "label": "h2h Villarreal  @15.0"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 9.8,
-     "eff": 9.624,
-     "three_way": true,
-     "stake": 267.64,
-     "cost": 267.64,
-     "label": "h2h Draw  @9.8"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 328,
    "time": "2026-11-22T12:32:09Z",
    "game": "ere:26NOV22AJAADO",
@@ -640,148 +427,6 @@
      "stake": 297.83,
      "cost": 297.83,
      "label": "h2h Draw  @8.5"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 329,
-   "time": "2026-11-22T12:46:35Z",
-   "game": "lal:26NOV22BARVIL",
-   "title": "FC Barcelona v Villarreal CF",
-   "league": "lal",
-   "kickoff": "2026-11-22T13:00:00Z",
-   "min_to_ko": 13.4,
-   "t_lp": 0.030319,
-   "with_books": true,
-   "books": [
-    "coolbet",
-    "coral",
-    "matchbook"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "214a79b6e08dbe3f508844936158c038",
-    "sport": "soccer_spain_la_liga",
-    "home": "Barcelona",
-    "away": "Villarreal"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2575.65,
-   "guaranteed_profit": 75.67,
-   "legs": [
-    {
-     "venue": "BK:coral",
-     "book": "coral",
-     "market": "h2h",
-     "outcome": "Barcelona",
-     "side": "home",
-     "point": null,
-     "odds": 1.25,
-     "eff": 1.25,
-     "three_way": true,
-     "stake": 2060.63,
-     "cost": 2060.63,
-     "label": "h2h Barcelona  @1.25"
-    },
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "h2h",
-     "outcome": "Villarreal",
-     "side": "away",
-     "point": null,
-     "odds": 15.0,
-     "eff": 15.0,
-     "three_way": true,
-     "stake": 171.71,
-     "cost": 171.71,
-     "label": "h2h Villarreal  @15.0"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 9.8,
-     "eff": 9.624,
-     "three_way": true,
-     "stake": 267.64,
-     "cost": 267.64,
-     "label": "h2h Draw  @9.8"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 330,
-   "time": "2026-11-22T12:56:52Z",
-   "game": "lal:26NOV22BARVIL",
-   "title": "FC Barcelona v Villarreal CF",
-   "league": "lal",
-   "kickoff": "2026-11-22T13:00:00Z",
-   "min_to_ko": 3.1,
-   "t_lp": 0.031297,
-   "with_books": true,
-   "books": [
-    "coral",
-    "matchbook",
-    "smarkets"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "214a79b6e08dbe3f508844936158c038",
-    "sport": "soccer_spain_la_liga",
-    "home": "Barcelona",
-    "away": "Villarreal"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2578.095,
-   "guaranteed_profit": 78.115,
-   "legs": [
-    {
-     "venue": "BK:coral",
-     "book": "coral",
-     "market": "h2h",
-     "outcome": "Barcelona",
-     "side": "home",
-     "point": null,
-     "odds": 1.25,
-     "eff": 1.25,
-     "three_way": true,
-     "stake": 2062.59,
-     "cost": 2062.59,
-     "label": "h2h Barcelona  @1.25"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Villarreal",
-     "side": "away",
-     "point": null,
-     "odds": 15.5,
-     "eff": 15.209999999999999,
-     "three_way": true,
-     "stake": 169.5,
-     "cost": 169.5,
-     "label": "h2h Villarreal  @15.5"
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 9.8,
-     "eff": 9.624,
-     "three_way": true,
-     "stake": 267.89,
-     "cost": 267.89,
-     "label": "h2h Draw  @9.8"
     }
    ],
    "status": "open"
@@ -1966,6 +1611,77 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 349,
+   "time": "2026-11-22T15:42:15Z",
+   "game": "ere:26NOV22GAEFOR",
+   "title": "Go Ahead Eagles v Fortuna Sittard",
+   "league": "ere",
+   "kickoff": "2026-11-22T15:45:00Z",
+   "min_to_ko": 2.7,
+   "t_lp": 0.004474,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "pinnacle",
+    "unibet_nl"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "f0c241457472f32fc55b90b2b95b665b",
+    "sport": "soccer_netherlands_eredivisie",
+    "home": "Go Ahead Eagles",
+    "away": "Fortuna Sittard"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2511.168,
+   "guaranteed_profit": 11.178,
+   "legs": [
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Fortuna Sittard",
+     "side": "away",
+     "point": null,
+     "odds": 5.0,
+     "eff": 4.92,
+     "three_way": true,
+     "stake": 510.4,
+     "cost": 510.4,
+     "label": "h2h Fortuna Sittard  @5.0"
+    },
+    {
+     "venue": "BK:unibet_nl",
+     "book": "unibet_nl",
+     "market": "h2h",
+     "outcome": "Go Ahead Eagles",
+     "side": "home",
+     "point": null,
+     "odds": 1.81,
+     "eff": 1.81,
+     "three_way": true,
+     "stake": 1387.39,
+     "cost": 1387.39,
+     "label": "h2h Go Ahead Eagles  @1.81"
+    },
+    {
+     "venue": "BK:pinnacle",
+     "book": "pinnacle",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.17,
+     "eff": 4.17,
+     "three_way": true,
+     "stake": 602.2,
+     "cost": 602.2,
+     "label": "h2h Draw  @4.17"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1991,27 +1707,27 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 348,
- "n_settled": 320,
- "realized_pnl": -88909.17883400008,
+ "n_trades": 349,
+ "n_settled": 325,
+ "realized_pnl": -88599.02193400008,
  "runs": 74,
  "locked": {
   "PM": 2225.8501000000006,
   "KS": 3.6800000000000033,
-  "BK:smarkets": 6392.669999999999,
-  "BK:pinnacle": 2630.82,
-  "BK:onexbet": 18541.210000000006,
-  "BK:matchbook": 4527.940000000002,
+  "BK:smarkets": 5422.1799999999985,
+  "BK:pinnacle": 3233.0200000000004,
+  "BK:onexbet": 14410.930000000006,
+  "BK:matchbook": 4335.920000000002,
   "BK:leovegas_se": 1.7053025658242404e-11,
   "BK:gtbets": 1058.85,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 9405.050000000012,
   "BK:tipico_de": 0.0,
-  "BK:coolbet": 8200.11,
-  "BK:unibet_nl": 667.6400000000021,
+  "BK:coolbet": 7687.250000000001,
+  "BK:unibet_nl": 2055.0300000000025,
   "BK:marathonbet": 1607.78,
-  "BK:coral": 5450.79,
+  "BK:coral": 1327.5699999999997,
   "BK:betfair_ex_uk": 1.4210854715202004e-14,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 837.89,
@@ -2029,7 +1745,7 @@
   "BK:bovada": 0.0,
   "BK:draftkings": 0.0,
   "BK:williamhill": 0.0,
-  "BK:ladbrokes_uk": 2060.63,
+  "BK:ladbrokes_uk": 0.0,
   "BK:betus": 0.0,
   "BK:unibet_uk": 527.69,
   "BK:nordicbet": 0.0
@@ -2121,18 +1837,18 @@
  "peak_total_locked": 155979.6216,
  "odds": {
   "remaining": {
-   "1": 69,
+   "1": 67,
    "2": 66,
-   "3": 67,
+   "3": 61,
    "4": 66,
-   "5": 68,
+   "5": 62,
    "6": 63,
    "7": 64,
    "8": 65,
-   "9": 67,
+   "9": 61,
    "10": 66,
    "11": 64,
-   "12": 68,
+   "12": 62,
    "13": 64
   },
   "spent": {
@@ -2151,7 +1867,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 656
+   "2026-11-22": 682
   }
  },
  "book_slots": {
@@ -2482,6 +2198,9 @@
   "ere|2026-11-22T15:45|60": "2026-11-22T14:46:09Z",
   "sea|2026-11-22T17:00|120": "2026-11-22T15:03:55Z",
   "nfl|2026-11-22T18:00|180": "2026-11-22T15:03:55Z",
-  "ere|2026-11-22T15:45|30": "2026-11-22T15:15:28Z"
+  "ere|2026-11-22T15:45|30": "2026-11-22T15:15:28Z",
+  "ere|2026-11-22T15:45|15": "2026-11-22T15:30:16Z",
+  "ere|2026-11-22T15:45|5": "2026-11-22T15:40:16Z",
+  "fl1|2026-11-22T16:15|30": "2026-11-22T15:45:22Z"
  }
 }
