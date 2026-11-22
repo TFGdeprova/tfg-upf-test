@@ -2160,3 +2160,11 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-22T02:30:12Z,nba:26NOV21BOSSAC,BOS at SAC,nba,29.8,scheduled,12,-0.01323,-0.01203,no gap,,,
 2026-11-22T02:30:12Z,nhl:26NOV21MINVAN,MIN at VAN,nhl,29.8,scheduled,6,-0.011921,-0.008917,no gap,,,
 2026-11-22T02:30:12Z,nhl:26NOV21SEASJ,SEA at SJ,nhl,29.8,scheduled,6,-0.011921,-0.011408,no gap,,,
+2026-11-22T02:45:14Z,nba:26NOV21BOSSAC,BOS at SAC,nba,14.8,scheduled,12,-0.013232,-0.01125,no gap,,,
+2026-11-22T02:45:14Z,nhl:26NOV21MINVAN,MIN at VAN,nhl,14.8,scheduled,6,-0.011921,-0.008917,no gap,,,
+2026-11-22T02:45:14Z,nhl:26NOV21SEASJ,SEA at SJ,nhl,14.8,scheduled,6,-0.011921,-0.011408,no gap,,,
+2026-11-22T02:55:14Z,nba:26NOV21BOSSAC,BOS at SAC,nba,4.8,scheduled,12,-0.004587,-0.002952,no gap,,,
+2026-11-22T02:55:14Z,nhl:26NOV21MINVAN,MIN at VAN,nhl,4.8,scheduled,6,-0.011921,0.022384,seen,,nhl:26NOV21MINVAN|2026-11-22T02:55:12Z|with_books,coolbet totals Over 6.5 @2.2 x0.465 | williamhill totals Under 6.5 @1.91 x0.535
+2026-11-22T02:55:14Z,nhl:26NOV21SEASJ,SEA at SJ,nhl,4.8,scheduled,6,-0.011921,0.028371,seen,,nhl:26NOV21SEASJ|2026-11-22T02:55:12Z|with_books,coolbet totals Over 6.5 @2.2 x0.467 | matchbook totals Under 6.5 @1.95 x0.533
+2026-11-22T02:56:43Z,nhl:26NOV21MINVAN,MIN at VAN,nhl,3.3,confirmation,6,-0.011921,0.022384,executed,,,coolbet totals Over 6.5 @2.2 x0.465 | williamhill totals Under 6.5 @1.91 x0.535
+2026-11-22T02:56:43Z,nhl:26NOV21SEASJ,SEA at SJ,nhl,3.3,confirmation,6,-0.011921,0.028371,executed,,,coolbet totals Over 6.5 @2.2 x0.467 | matchbook totals Under 6.5 @1.95 x0.533

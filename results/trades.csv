@@ -313,3 +313,5 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 312,2026-11-21T19:56:49Z,lal:26NOV21RMARCC,Real Madrid CF v RC Celta de Vigo,lal,2026-11-21T20:00:00Z,3.2,0.007893,True,"['betfair_ex_uk', 'marathonbet', 'matchbook']",False,2499.99,2519.6,19.61,settled,2026-11-21T22:31:10Z,2519.7298,19.7398,ok,3
 313,2026-11-21T22:31:54Z,nba:26NOV21PORNYK,POR at NYK,nba,2026-11-22T00:30:00Z,118.1,0.01793,True,['pinnacle'],False,2499.9912,2544.8144,44.8232,open,,,,,3
 314,2026-11-22T00:07:43Z,nba:26NOV21BOSSAC,BOS at SAC,nba,2026-11-22T03:00:00Z,172.3,0.004876,,,,9.9487,9.99,0.0413,open,,,,,2
+315,2026-11-22T02:56:43Z,nhl:26NOV21MINVAN,MIN at VAN,nhl,2026-11-22T03:00:00Z,3.3,0.022384,True,"['coolbet', 'williamhill']",False,2499.99,2555.9429,55.9529,open,,,,,2
+316,2026-11-22T02:56:43Z,nhl:26NOV21SEASJ,SEA at SJ,nhl,2026-11-22T03:00:00Z,3.3,0.028371,True,"['coolbet', 'matchbook']",False,2499.99,2570.9141,70.9241,open,,,,,2
