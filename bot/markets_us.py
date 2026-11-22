@@ -76,7 +76,10 @@ def pm_contracts(game):
         fs = m.get("feeSchedule") or {}
         c = {"venue": "PM", "id": m["conditionId"], "token": toks[0], "label": q,
              "fee": float(fs.get("rate") or 0.0) if m.get("feesEnabled") else 0.0,
-             "min_size": float(m.get("orderMinSize") or 5), "counts_so": game["sport"] != "nhl"}
+             "min_size": float(m.get("orderMinSize") or 5),
+             # NHL: how a shoot-out goal counts is unclear only for Polymarket's goal lines (both readings kept, see
+             # grid_us); its moneyline always pays the shoot-out winner, as Kalshi's does (fix of 22 Nov)
+             "counts_so": game["sport"] != "nhl" or t == "moneyline"}
         if t == "moneyline": c.update(kind="win", side=side(outs[0]))
         elif t == "spreads":
             r = re.match(r"Spread:\s*(.+?)\s*\(([-+]?[\d.]+)\)", q)

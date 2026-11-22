@@ -124,10 +124,11 @@ def three_way_us(ev, bk):
     """True when a bookmaker prices a US game's winner three-way (home / draw / away after regulation time), as many
     European books do for the NHL. Its markets for that game are then settled on regulation time, which the US score
     grid (official score including overtime) cannot represent, so the bookmaker is ignored for that game (fix of 21 Nov).
+    A bookmaker with no winner market in the snapshot is ignored too, since its convention cannot be checked (22 Nov).
     """
     if str(ev.get("sport_key", "")).startswith("soccer"): return False
-    return any(mk.get("key") == "h2h" and any(str(o.get("name", "")).lower() == "draw" for o in mk.get("outcomes", []))
-               for mk in bk.get("markets", []))
+    h2h = [mk for mk in bk.get("markets", []) if mk.get("key") == "h2h"]
+    return not h2h or any(str(o.get("name", "")).lower() == "draw" for mk in h2h for o in mk.get("outcomes", []))
 
 
 def best_lines(ev, side):
