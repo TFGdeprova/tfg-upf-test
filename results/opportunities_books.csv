@@ -2154,3 +2154,6 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-22T01:00:35Z,nhl:26NOV21MINVAN,MIN at VAN,nhl,119.4,scheduled,6,-0.011921,-0.006984,no gap,,,
 2026-11-22T01:00:35Z,nhl:26NOV21SEASJ,SEA at SJ,nhl,119.4,scheduled,6,-0.011921,-0.011408,no gap,,,
 2026-11-22T01:30:03Z,nhl:26NOV21ANAUTA,ANA at UTA,nhl,29.9,scheduled,8,-0.009208,-0.003716,no gap,,,
+2026-11-22T01:45:06Z,nhl:26NOV21ANAUTA,ANA at UTA,nhl,14.9,scheduled,8,-0.009208,-0.001896,no gap,,,
+2026-11-22T01:55:06Z,nhl:26NOV21ANAUTA,ANA at UTA,nhl,4.9,scheduled,8,-0.010235,-0.000426,no gap,,,
+2026-11-22T02:00:17Z,nba:26NOV21BOSSAC,BOS at SAC,nba,59.7,scheduled,12,-0.002427,-0.002427,no gap,,,
