@@ -337,3 +337,7 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 336,2026-11-22T13:32:02Z,sea:26NOV22SASGEN,US Sassuolo Calcio v Genoa CFC,sea,2026-11-22T14:00:00Z,28.0,0.012515,True,"['coolbet', 'matchbook', 'onexbet']",False,2499.99,2531.2673,31.2773,open,,,,,3
 337,2026-11-22T13:32:02Z,bun:26NOV22FCAM05,FC Augsburg v 1. FSV Mainz 05,bun,2026-11-22T14:30:00Z,58.0,0.003799,True,"['betfair_ex_eu', 'gtbets', 'onexbet']",False,2499.98,2509.4745,9.4945,open,,,,,3
 338,2026-11-22T13:32:06Z,bun:26NOV22SVWHSV,SV Werder Bremen v Hamburger SV,bun,2026-11-22T16:30:00Z,177.9,0.003519,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.99,2508.7777,8.7877,open,,,,,3
+339,2026-11-22T13:46:08Z,fl1:26NOV22PARANG,Paris FC v Angers SCO,fl1,2026-11-22T14:00:00Z,13.9,0.003036,,,,79.7532,79.99,0.2368,open,,,,,2
+340,2026-11-22T13:47:06Z,epl:26NOV22HULBRI,Hull City AFC v Brighton & Hove Albion FC,epl,2026-11-22T14:00:00Z,12.9,0.004825,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.99,2512.032,12.042,open,,,,,3
+341,2026-11-22T13:47:10Z,sea:26NOV22SASGEN,US Sassuolo Calcio v Genoa CFC,sea,2026-11-22T14:00:00Z,12.8,0.014957,True,"['coolbet', 'onexbet', 'smarkets']",False,2499.99,2537.3724,37.3824,open,,,,,3
+342,2026-11-22T13:47:10Z,fl1:26NOV22PARANG,Paris FC v Angers SCO,fl1,2026-11-22T14:00:00Z,12.8,0.009968,True,['onexbet'],False,2407.2111,2431.204,23.9929,open,,,,,2
