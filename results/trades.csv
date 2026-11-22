@@ -316,3 +316,7 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 315,2026-11-22T02:56:43Z,nhl:26NOV21MINVAN,MIN at VAN,nhl,2026-11-22T03:00:00Z,3.3,0.022384,True,"['coolbet', 'williamhill']",False,2499.99,2555.9429,55.9529,settled,2026-11-22T06:06:49Z,2555.96,55.97,ok,2
 316,2026-11-22T02:56:43Z,nhl:26NOV21SEASJ,SEA at SJ,nhl,2026-11-22T03:00:00Z,3.3,0.028371,True,"['coolbet', 'matchbook']",False,2499.99,2570.9141,70.9241,settled,2026-11-22T06:06:49Z,2570.92,70.93,ok,2
 317,2026-11-22T10:02:04Z,lal:26NOV22BARVIL,FC Barcelona v Villarreal CF,lal,2026-11-22T13:00:00Z,177.9,0.015413,True,"['matchbook', 'onexbet', 'smarkets']",False,2499.98,2538.3969,38.4169,open,,,,,3
+318,2026-11-22T11:01:43Z,lal:26NOV22BARVIL,FC Barcelona v Villarreal CF,lal,2026-11-22T13:00:00Z,118.3,0.016692,True,"['coolbet', 'onexbet', 'smarkets']",False,2499.98,2541.6,41.62,open,,,,,3
+319,2026-11-22T11:01:43Z,sea:26NOV22JUVVEN,Juventus FC v Venezia FC,sea,2026-11-22T11:30:00Z,28.3,0.013665,True,"['onexbet', 'unibet_se']",False,2499.98,2534.1225,34.1425,open,,,,,3
+320,2026-11-22T11:01:43Z,sea:26NOV22BFCUDI,Bologna FC 1909 v Udinese Calcio,sea,2026-11-22T14:00:00Z,178.3,0.003013,True,"['onexbet', 'smarkets']",False,2499.99,2507.5169,7.5269,open,,,,,3
+321,2026-11-22T11:01:45Z,sea:26NOV22SASGEN,US Sassuolo Calcio v Genoa CFC,sea,2026-11-22T14:00:00Z,178.2,0.01317,True,"['onexbet', 'pinnacle', 'unibet_se']",False,2499.99,2532.9044,32.9144,open,,,,,3

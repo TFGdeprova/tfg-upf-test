@@ -2,17 +2,17 @@
  "cash": {
   "PM": 11438.455100000001,
   "KS": 7253.429999999998,
-  "BK:smarkets": 4726.590194000002,
-  "BK:pinnacle": 1687.513200000002,
-  "BK:onexbet": -69543.4643,
+  "BK:smarkets": 3981.5701940000017,
+  "BK:pinnacle": 820.0732000000019,
+  "BK:onexbet": -76076.18430000001,
   "BK:matchbook": 6673.689392000002,
   "BK:leovegas_se": -16543.034020000025,
   "BK:gtbets": -65.67649999999958,
   "BK:winamax_de": 1144.1699999999996,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -18300.622200000013,
+  "BK:unibet_se": -19985.942200000012,
   "BK:tipico_de": -1205.0719999999997,
-  "BK:coolbet": 14867.2551,
+  "BK:coolbet": 14697.8151,
   "BK:unibet_nl": -3629.9800000000027,
   "BK:marathonbet": -8319.612399999998,
   "BK:coral": -727.607,
@@ -148,6 +148,288 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 318,
+   "time": "2026-11-22T11:01:43Z",
+   "game": "lal:26NOV22BARVIL",
+   "title": "FC Barcelona v Villarreal CF",
+   "league": "lal",
+   "kickoff": "2026-11-22T13:00:00Z",
+   "min_to_ko": 118.3,
+   "t_lp": 0.016692,
+   "with_books": true,
+   "books": [
+    "coolbet",
+    "onexbet",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "214a79b6e08dbe3f508844936158c038",
+    "sport": "soccer_spain_la_liga",
+    "home": "Barcelona",
+    "away": "Villarreal"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2541.6,
+   "guaranteed_profit": 41.62,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Barcelona",
+     "side": "home",
+     "point": null,
+     "odds": 1.23,
+     "eff": 1.23,
+     "three_way": true,
+     "stake": 2066.44,
+     "cost": 2066.44,
+     "label": "h2h Barcelona  @1.23"
+    },
+    {
+     "venue": "BK:coolbet",
+     "book": "coolbet",
+     "market": "h2h",
+     "outcome": "Villarreal",
+     "side": "away",
+     "point": null,
+     "odds": 15.0,
+     "eff": 15.0,
+     "three_way": true,
+     "stake": 169.44,
+     "cost": 169.44,
+     "label": "h2h Villarreal  @15.0"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 9.8,
+     "eff": 9.624,
+     "three_way": true,
+     "stake": 264.1,
+     "cost": 264.1,
+     "label": "h2h Draw  @9.8"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 319,
+   "time": "2026-11-22T11:01:43Z",
+   "game": "sea:26NOV22JUVVEN",
+   "title": "Juventus FC v Venezia FC",
+   "league": "sea",
+   "kickoff": "2026-11-22T11:30:00Z",
+   "min_to_ko": 28.3,
+   "t_lp": 0.013665,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "be2fcabc408be29ca01ce92ab266f8b7",
+    "sport": "soccer_italy_serie_a",
+    "home": "Juventus",
+    "away": "Venezia"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2534.1225,
+   "guaranteed_profit": 34.1425,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Juventus",
+     "side": "home",
+     "point": null,
+     "odds": 1.46,
+     "eff": 1.46,
+     "three_way": true,
+     "stake": 1735.72,
+     "cost": 1735.72,
+     "label": "h2h Juventus  @1.46"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Venezia",
+     "side": "away",
+     "point": null,
+     "odds": 9.0,
+     "eff": 9.0,
+     "three_way": true,
+     "stake": 281.57,
+     "cost": 281.57,
+     "label": "h2h Venezia  @9.0"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 5.25,
+     "eff": 5.25,
+     "three_way": true,
+     "stake": 482.69,
+     "cost": 482.69,
+     "label": "h2h Draw  @5.25"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 320,
+   "time": "2026-11-22T11:01:43Z",
+   "game": "sea:26NOV22BFCUDI",
+   "title": "Bologna FC 1909 v Udinese Calcio",
+   "league": "sea",
+   "kickoff": "2026-11-22T14:00:00Z",
+   "min_to_ko": 178.3,
+   "t_lp": 0.003013,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "5bc13c44b33981f3185400163388267e",
+    "sport": "soccer_italy_serie_a",
+    "home": "Bologna",
+    "away": "Udinese"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2507.5169,
+   "guaranteed_profit": 7.5269,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Bologna",
+     "side": "home",
+     "point": null,
+     "odds": 1.82,
+     "eff": 1.82,
+     "three_way": true,
+     "stake": 1377.76,
+     "cost": 1377.76,
+     "label": "h2h Bologna  @1.82"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Udinese",
+     "side": "away",
+     "point": null,
+     "odds": 5.3,
+     "eff": 5.2139999999999995,
+     "three_way": true,
+     "stake": 480.92,
+     "cost": 480.92,
+     "label": "h2h Udinese  @5.3"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.91,
+     "eff": 3.91,
+     "three_way": true,
+     "stake": 641.31,
+     "cost": 641.31,
+     "label": "h2h Draw  @3.91"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 321,
+   "time": "2026-11-22T11:01:45Z",
+   "game": "sea:26NOV22SASGEN",
+   "title": "US Sassuolo Calcio v Genoa CFC",
+   "league": "sea",
+   "kickoff": "2026-11-22T14:00:00Z",
+   "min_to_ko": 178.2,
+   "t_lp": 0.01317,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "pinnacle",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "76d4698a8417f32cb059f14a469939f3",
+    "sport": "soccer_italy_serie_a",
+    "home": "Sassuolo",
+    "away": "Genoa"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2532.9044,
+   "guaranteed_profit": 32.9144,
+   "legs": [
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Genoa",
+     "side": "away",
+     "point": null,
+     "odds": 2.75,
+     "eff": 2.75,
+     "three_way": true,
+     "stake": 921.06,
+     "cost": 921.06,
+     "label": "h2h Genoa  @2.75"
+    },
+    {
+     "venue": "BK:pinnacle",
+     "book": "pinnacle",
+     "market": "h2h",
+     "outcome": "Sassuolo",
+     "side": "home",
+     "point": null,
+     "odds": 2.92,
+     "eff": 2.92,
+     "three_way": true,
+     "stake": 867.44,
+     "cost": 867.44,
+     "label": "h2h Sassuolo  @2.92"
+    },
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.56,
+     "eff": 3.56,
+     "three_way": true,
+     "stake": 711.49,
+     "cost": 711.49,
+     "label": "h2h Draw  @3.56"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -161,24 +443,24 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 317,
+ "n_trades": 321,
  "n_settled": 316,
  "realized_pnl": -89077.82883400007,
  "runs": 73,
  "locked": {
   "PM": 3.623767952376511e-13,
   "KS": 3.552713678800501e-15,
-  "BK:smarkets": 269.25,
-  "BK:pinnacle": 2.2737367544323206e-13,
-  "BK:onexbet": 2063.840000000007,
+  "BK:smarkets": 1014.27,
+  "BK:pinnacle": 867.4400000000003,
+  "BK:onexbet": 8596.560000000007,
   "BK:matchbook": 166.89,
   "BK:leovegas_se": 1.7394086171407253e-11,
   "BK:gtbets": 0.0,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 1.2278178473934531e-11,
+  "BK:unibet_se": 1685.3200000000122,
   "BK:tipico_de": 0.0,
-  "BK:coolbet": 2.2737367544323206e-13,
+  "BK:coolbet": 169.44000000000023,
   "BK:unibet_nl": 2.1600499167107046e-12,
   "BK:marathonbet": 0.0,
   "BK:coral": 0.0,
@@ -291,19 +573,19 @@
  "peak_total_locked": 155979.6216,
  "odds": {
   "remaining": {
-   "1": 105,
+   "1": 99,
    "2": 102,
-   "3": 103,
+   "3": 97,
    "4": 102,
-   "5": 104,
-   "6": 105,
+   "5": 98,
+   "6": 99,
    "7": 100,
    "8": 101,
-   "9": 103,
+   "9": 97,
    "10": 102,
    "11": 102,
-   "12": 106,
-   "13": 106
+   "12": 100,
+   "13": 100
   },
   "spent": {
    "2026-11-06": 27,
@@ -321,7 +603,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 172
+   "2026-11-22": 214
   }
  },
  "book_slots": {
@@ -596,6 +878,12 @@
   "lal|2026-11-22T13:00|180": "2026-11-22T10:00:27Z",
   "elc|2026-11-22T12:00|120": "2026-11-22T10:00:27Z",
   "sea|2026-11-22T11:30|60": "2026-11-22T10:30:27Z",
-  "ere|2026-11-22T13:30|180": "2026-11-22T10:30:27Z"
+  "ere|2026-11-22T13:30|180": "2026-11-22T10:30:27Z",
+  "lal|2026-11-22T13:00|120": "2026-11-22T11:00:00Z",
+  "sea|2026-11-22T11:30|30": "2026-11-22T11:00:00Z",
+  "sea|2026-11-22T14:00|180": "2026-11-22T11:00:00Z",
+  "elc|2026-11-22T12:00|60": "2026-11-22T11:00:01Z",
+  "epl|2026-11-22T14:00|180": "2026-11-22T11:00:01Z",
+  "fl1|2026-11-22T14:00|180": "2026-11-22T11:00:02Z"
  }
 }

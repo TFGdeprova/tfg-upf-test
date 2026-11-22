@@ -2176,3 +2176,14 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-22T10:02:04Z,lal:26NOV22BARVIL,FC Barcelona v Villarreal CF,lal,177.9,confirmation,7,0.000754,0.015413,executed,,,onexbet h2h Barcelona  @1.23 x0.826 | matchbook h2h Villarreal  @15.5 x0.067 | smarkets h2h Draw  @9.6 x0.108
 2026-11-22T10:30:36Z,sea:26NOV22JUVVEN,Juventus FC v Venezia FC,sea,59.4,scheduled,9,-0.002786,6e-05,no gap,,,
 2026-11-22T10:30:36Z,ere:26NOV22AJAADO,AFC Ajax v ADO Den Haag,ere,179.4,scheduled,11,-0.00391,-0.002872,no gap,,,
+2026-11-22T11:00:04Z,lal:26NOV22BARVIL,FC Barcelona v Villarreal CF,lal,119.9,scheduled,7,0.000754,0.016692,seen,,lal:26NOV22BARVIL|2026-11-22T11:00:04Z|with_books,onexbet h2h Barcelona  @1.23 x0.827 | coolbet h2h Villarreal  @15.0 x0.068 | smarkets h2h Draw  @9.8 x0.106
+2026-11-22T11:00:06Z,sea:26NOV22JUVVEN,Juventus FC v Venezia FC,sea,29.9,scheduled,7,-0.002035,0.013665,seen,,sea:26NOV22JUVVEN|2026-11-22T11:00:06Z|with_books,onexbet h2h Juventus  @1.46 x0.694 | unibet_se h2h Venezia  @9.0 x0.113 | unibet_se h2h Draw  @5.25 x0.193
+2026-11-22T11:00:06Z,elc:26NOV22BURBLA,Burnley FC v Blackburn Rovers FC,elc,59.9,scheduled,7,-0.002132,-0.002132,no gap,,,
+2026-11-22T11:00:17Z,epl:26NOV22HULBRI,Hull City AFC v Brighton & Hove Albion FC,epl,179.7,scheduled,7,-0.002132,0.001961,no gap,,epl:26NOV22HULBRI|2026-11-22T11:00:17Z|with_books,
+2026-11-22T11:00:17Z,sea:26NOV22BFCUDI,Bologna FC 1909 v Udinese Calcio,sea,179.7,scheduled,5,-0.002423,0.003013,seen,,sea:26NOV22BFCUDI|2026-11-22T11:00:13Z|with_books,onexbet h2h Bologna  @1.82 x0.551 | smarkets h2h Udinese  @5.3 x0.192 | onexbet h2h Draw  @3.91 x0.257
+2026-11-22T11:00:17Z,sea:26NOV22SASGEN,US Sassuolo Calcio v Genoa CFC,sea,179.7,scheduled,5,-0.000448,0.01317,seen,,sea:26NOV22SASGEN|2026-11-22T11:00:13Z|with_books,unibet_se h2h Genoa  @2.75 x0.368 | pinnacle h2h Sassuolo  @2.92 x0.347 | onexbet h2h Draw  @3.56 x0.285
+2026-11-22T11:00:17Z,fl1:26NOV22PARANG,Paris FC v Angers SCO,fl1,179.7,scheduled,11,-0.002981,-0.000494,no gap,,,
+2026-11-22T11:01:43Z,lal:26NOV22BARVIL,FC Barcelona v Villarreal CF,lal,118.3,confirmation,7,0.000754,0.016692,executed,,,onexbet h2h Barcelona  @1.23 x0.827 | coolbet h2h Villarreal  @15.0 x0.068 | smarkets h2h Draw  @9.8 x0.106
+2026-11-22T11:01:43Z,sea:26NOV22JUVVEN,Juventus FC v Venezia FC,sea,28.3,confirmation,7,-0.002035,0.013665,executed,,,onexbet h2h Juventus  @1.46 x0.694 | unibet_se h2h Venezia  @9.0 x0.113 | unibet_se h2h Draw  @5.25 x0.193
+2026-11-22T11:01:43Z,sea:26NOV22BFCUDI,Bologna FC 1909 v Udinese Calcio,sea,178.3,confirmation,5,-0.002423,0.003013,executed,,,onexbet h2h Bologna  @1.82 x0.551 | smarkets h2h Udinese  @5.3 x0.192 | onexbet h2h Draw  @3.91 x0.257
+2026-11-22T11:01:45Z,sea:26NOV22SASGEN,US Sassuolo Calcio v Genoa CFC,sea,178.2,confirmation,5,-0.000448,0.01317,executed,,,unibet_se h2h Genoa  @2.75 x0.368 | pinnacle h2h Sassuolo  @2.92 x0.347 | onexbet h2h Draw  @3.56 x0.285
