@@ -1,9 +1,9 @@
 {
  "cash": {
   "PM": 11697.0504,
-  "KS": 7249.749999999997,
+  "KS": 7247.509999999998,
   "BK:smarkets": 6159.1157140000005,
-  "BK:pinnacle": 971.0240000000017,
+  "BK:pinnacle": -3692.7759999999985,
   "BK:onexbet": -70617.59570000005,
   "BK:matchbook": 7030.972706000002,
   "BK:leovegas_se": -20519.714020000025,
@@ -12,9 +12,9 @@
   "BK:grosvenor": 580.0,
   "BK:unibet_se": -16327.013000000014,
   "BK:tipico_de": -1205.0719999999997,
-  "BK:coolbet": 6667.1451000000025,
+  "BK:coolbet": 4551.985100000002,
   "BK:unibet_nl": -5685.010000000003,
-  "BK:marathonbet": -9927.392399999999,
+  "BK:marathonbet": -16405.6924,
   "BK:coral": -1024.3719999999994,
   "BK:betfair_ex_uk": 117.15999999999998,
   "BK:betfred_uk": -768.02,
@@ -23,7 +23,7 @@
   "BK:skybet": -1150.75,
   "BK:betrivers": 11676.5811,
   "BK:lowvig": -4145.553499999999,
-  "BK:mybookieag": -4546.4125,
+  "BK:mybookieag": -6286.842500000001,
   "BK:betmgm": 7821.782400000002,
   "BK:betanysports": -585.8006000000009,
   "BK:betsson": 2119.7043999999996,
@@ -600,6 +600,402 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 353,
+   "time": "2026-11-22T17:31:51Z",
+   "game": "nfl:26NOV22MIABUF",
+   "title": "MIA at BUF",
+   "league": "nfl",
+   "kickoff": "2026-11-22T18:00:00Z",
+   "min_to_ko": 28.1,
+   "t_lp": 0.007382,
+   "with_books": true,
+   "books": [
+    "coolbet",
+    "pinnacle"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "4c5b1c0843a260278e95eb93e7787576",
+    "sport": "americanfootball_nfl",
+    "home": "Buffalo Bills",
+    "away": "Miami Dolphins"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2517.79,
+   "guaranteed_profit": 17.8,
+   "legs": [
+    {
+     "venue": "KS",
+     "id": "KXNFLTIE-26NOV22MIABUF-Y",
+     "label": "Game to end in a tie",
+     "side": "YES",
+     "price": 0.01,
+     "shares": 18,
+     "fee": 0.02,
+     "cost": 0.2
+    },
+    {
+     "venue": "BK:pinnacle",
+     "book": "pinnacle",
+     "market": "h2h",
+     "outcome": "Buffalo Bills",
+     "side": "home",
+     "point": null,
+     "odds": 1.08,
+     "eff": 1.08,
+     "three_way": false,
+     "stake": 2331.9,
+     "cost": 2331.9,
+     "label": "h2h Buffalo Bills  @1.08"
+    },
+    {
+     "venue": "BK:coolbet",
+     "book": "coolbet",
+     "market": "h2h",
+     "outcome": "Miami Dolphins",
+     "side": "away",
+     "point": null,
+     "odds": 15.0,
+     "eff": 15.0,
+     "three_way": false,
+     "stake": 167.89,
+     "cost": 167.89,
+     "label": "h2h Miami Dolphins  @15.0"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 354,
+   "time": "2026-11-22T17:31:52Z",
+   "game": "nfl:26NOV22TBDET",
+   "title": "TB at DET",
+   "league": "nfl",
+   "kickoff": "2026-11-22T18:00:00Z",
+   "min_to_ko": 28.1,
+   "t_lp": 0.0178,
+   "with_books": true,
+   "books": [
+    "marathonbet",
+    "mybookieag"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "41e2dd69bddd65d7e823d9ed61cc2afc",
+    "sport": "americanfootball_nfl",
+    "home": "Detroit Lions",
+    "away": "Tampa Bay Buccaneers"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2543.5,
+   "guaranteed_profit": 43.52,
+   "legs": [
+    {
+     "venue": "KS",
+     "id": "KXNFLTIE-26NOV22TBDET-Y",
+     "label": "Game to end in a tie",
+     "side": "YES",
+     "price": 0.01,
+     "shares": 44,
+     "fee": 0.04,
+     "cost": 0.48
+    },
+    {
+     "venue": "BK:marathonbet",
+     "book": "marathonbet",
+     "market": "h2h",
+     "outcome": "Detroit Lions",
+     "side": "home",
+     "point": null,
+     "odds": 1.56,
+     "eff": 1.56,
+     "three_way": false,
+     "stake": 1631.08,
+     "cost": 1631.08,
+     "label": "h2h Detroit Lions  @1.56"
+    },
+    {
+     "venue": "BK:mybookieag",
+     "book": "mybookieag",
+     "market": "h2h",
+     "outcome": "Tampa Bay Buccaneers",
+     "side": "away",
+     "point": null,
+     "odds": 2.93,
+     "eff": 2.93,
+     "three_way": false,
+     "stake": 868.42,
+     "cost": 868.42,
+     "label": "h2h Tampa Bay Buccaneers  @2.93"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 355,
+   "time": "2026-11-22T17:31:55Z",
+   "game": "nfl:26NOV22PITPHI",
+   "title": "PIT at PHI",
+   "league": "nfl",
+   "kickoff": "2026-11-22T18:00:00Z",
+   "min_to_ko": 28.1,
+   "t_lp": 0.012197,
+   "with_books": true,
+   "books": [
+    "coolbet",
+    "marathonbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "cbe45bafcc2615fc1d96cbc12840377a",
+    "sport": "americanfootball_nfl",
+    "home": "Philadelphia Eagles",
+    "away": "Pittsburgh Steelers"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2529.66,
+   "guaranteed_profit": 29.67,
+   "legs": [
+    {
+     "venue": "KS",
+     "id": "KXNFLTIE-26NOV22PITPHI-Y",
+     "label": "Game to end in a tie",
+     "side": "YES",
+     "price": 0.01,
+     "shares": 30,
+     "fee": 0.03,
+     "cost": 0.33
+    },
+    {
+     "venue": "BK:coolbet",
+     "book": "coolbet",
+     "market": "h2h",
+     "outcome": "Philadelphia Eagles",
+     "side": "home",
+     "point": null,
+     "odds": 2.85,
+     "eff": 2.85,
+     "three_way": false,
+     "stake": 887.89,
+     "cost": 887.89,
+     "label": "h2h Philadelphia Eagles  @2.85"
+    },
+    {
+     "venue": "BK:marathonbet",
+     "book": "marathonbet",
+     "market": "h2h",
+     "outcome": "Pittsburgh Steelers",
+     "side": "away",
+     "point": null,
+     "odds": 1.57,
+     "eff": 1.57,
+     "three_way": false,
+     "stake": 1611.77,
+     "cost": 1611.77,
+     "label": "h2h Pittsburgh Steelers  @1.57"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 356,
+   "time": "2026-11-22T17:47:10Z",
+   "game": "nfl:26NOV22MIABUF",
+   "title": "MIA at BUF",
+   "league": "nfl",
+   "kickoff": "2026-11-22T18:00:00Z",
+   "min_to_ko": 12.8,
+   "t_lp": 0.007382,
+   "with_books": true,
+   "books": [
+    "coolbet",
+    "pinnacle"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "4c5b1c0843a260278e95eb93e7787576",
+    "sport": "americanfootball_nfl",
+    "home": "Buffalo Bills",
+    "away": "Miami Dolphins"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2517.79,
+   "guaranteed_profit": 17.8,
+   "legs": [
+    {
+     "venue": "KS",
+     "id": "KXNFLTIE-26NOV22MIABUF-Y",
+     "label": "Game to end in a tie",
+     "side": "YES",
+     "price": 0.01,
+     "shares": 18,
+     "fee": 0.02,
+     "cost": 0.2
+    },
+    {
+     "venue": "BK:pinnacle",
+     "book": "pinnacle",
+     "market": "h2h",
+     "outcome": "Buffalo Bills",
+     "side": "home",
+     "point": null,
+     "odds": 1.08,
+     "eff": 1.08,
+     "three_way": false,
+     "stake": 2331.9,
+     "cost": 2331.9,
+     "label": "h2h Buffalo Bills  @1.08"
+    },
+    {
+     "venue": "BK:coolbet",
+     "book": "coolbet",
+     "market": "h2h",
+     "outcome": "Miami Dolphins",
+     "side": "away",
+     "point": null,
+     "odds": 15.0,
+     "eff": 15.0,
+     "three_way": false,
+     "stake": 167.89,
+     "cost": 167.89,
+     "label": "h2h Miami Dolphins  @15.0"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 357,
+   "time": "2026-11-22T17:47:14Z",
+   "game": "nfl:26NOV22TBDET",
+   "title": "TB at DET",
+   "league": "nfl",
+   "kickoff": "2026-11-22T18:00:00Z",
+   "min_to_ko": 12.8,
+   "t_lp": 0.022001,
+   "with_books": true,
+   "books": [
+    "marathonbet",
+    "mybookieag"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "41e2dd69bddd65d7e823d9ed61cc2afc",
+    "sport": "americanfootball_nfl",
+    "home": "Detroit Lions",
+    "away": "Tampa Bay Buccaneers"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2554.4,
+   "guaranteed_profit": 54.41,
+   "legs": [
+    {
+     "venue": "KS",
+     "id": "KXNFLTIE-26NOV22TBDET-Y",
+     "label": "Game to end in a tie",
+     "side": "YES",
+     "price": 0.01,
+     "shares": 55,
+     "fee": 0.04,
+     "cost": 0.59
+    },
+    {
+     "venue": "BK:marathonbet",
+     "book": "marathonbet",
+     "market": "h2h",
+     "outcome": "Detroit Lions",
+     "side": "home",
+     "point": null,
+     "odds": 1.57,
+     "eff": 1.57,
+     "three_way": false,
+     "stake": 1627.39,
+     "cost": 1627.39,
+     "label": "h2h Detroit Lions  @1.57"
+    },
+    {
+     "venue": "BK:mybookieag",
+     "book": "mybookieag",
+     "market": "h2h",
+     "outcome": "Tampa Bay Buccaneers",
+     "side": "away",
+     "point": null,
+     "odds": 2.93,
+     "eff": 2.93,
+     "three_way": false,
+     "stake": 872.01,
+     "cost": 872.01,
+     "label": "h2h Tampa Bay Buccaneers  @2.93"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 358,
+   "time": "2026-11-22T17:47:14Z",
+   "game": "nfl:26NOV22PITPHI",
+   "title": "PIT at PHI",
+   "league": "nfl",
+   "kickoff": "2026-11-22T18:00:00Z",
+   "min_to_ko": 12.8,
+   "t_lp": 0.016299,
+   "with_books": true,
+   "books": [
+    "coolbet",
+    "marathonbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "cbe45bafcc2615fc1d96cbc12840377a",
+    "sport": "americanfootball_nfl",
+    "home": "Philadelphia Eagles",
+    "away": "Pittsburgh Steelers"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2540.55,
+   "guaranteed_profit": 40.56,
+   "legs": [
+    {
+     "venue": "KS",
+     "id": "KXNFLTIE-26NOV22PITPHI-Y",
+     "label": "Game to end in a tie",
+     "side": "YES",
+     "price": 0.01,
+     "shares": 41,
+     "fee": 0.03,
+     "cost": 0.44
+    },
+    {
+     "venue": "BK:coolbet",
+     "book": "coolbet",
+     "market": "h2h",
+     "outcome": "Philadelphia Eagles",
+     "side": "home",
+     "point": null,
+     "odds": 2.85,
+     "eff": 2.85,
+     "three_way": false,
+     "stake": 891.49,
+     "cost": 891.49,
+     "label": "h2h Philadelphia Eagles  @2.85"
+    },
+    {
+     "venue": "BK:marathonbet",
+     "book": "marathonbet",
+     "market": "h2h",
+     "outcome": "Pittsburgh Steelers",
+     "side": "away",
+     "point": null,
+     "odds": 1.58,
+     "eff": 1.58,
+     "three_way": false,
+     "stake": 1608.06,
+     "cost": 1608.06,
+     "label": "h2h Pittsburgh Steelers  @1.58"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -620,8 +1016,8 @@
    "t": "2026-11-22T14:47:51Z"
   },
   "KS|KXNFLTIE-26NOV22PITPHI-Y|YES|0.0100": {
-   "n": 24.0,
-   "t": "2026-11-22T15:05:46Z"
+   "n": 95.0,
+   "t": "2026-11-22T17:47:14Z"
   },
   "PM|0x1b6726721f334ed6f6ceb2c5c9c3e17e8fe2206624362d172082513eda2af82d|NO|0.0800": {
    "n": 26.9,
@@ -642,18 +1038,26 @@
   "PM|0xf9ffa00165247df3d7d76b2e16e5aebe4682b4c0cc60d04580a9417a21e9d759|YES|0.0120": {
    "n": 26.9,
    "t": "2026-11-22T15:52:33Z"
+  },
+  "KS|KXNFLTIE-26NOV22MIABUF-Y|YES|0.0100": {
+   "n": 36.0,
+   "t": "2026-11-22T17:47:10Z"
+  },
+  "KS|KXNFLTIE-26NOV22TBDET-Y|YES|0.0100": {
+   "n": 99.0,
+   "t": "2026-11-22T17:47:14Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 352,
+ "n_trades": 358,
  "n_settled": 344,
  "realized_pnl": -88194.4839500001,
  "runs": 74,
  "locked": {
   "PM": 1199.1804000000006,
-  "KS": 0.26000000000000334,
+  "KS": 2.500000000000003,
   "BK:smarkets": 432.3999999999983,
-  "BK:pinnacle": 602.2000000000004,
+  "BK:pinnacle": 5266.0,
   "BK:onexbet": 2999.5500000000047,
   "BK:matchbook": 3115.9800000000014,
   "BK:leovegas_se": 1.7053025658242404e-11,
@@ -662,9 +1066,9 @@
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 2635.9300000000135,
   "BK:tipico_de": 0.0,
-  "BK:coolbet": 2218.4400000000005,
+  "BK:coolbet": 4333.6,
   "BK:unibet_nl": 1387.3900000000026,
-  "BK:marathonbet": 1607.78,
+  "BK:marathonbet": 8086.08,
   "BK:coral": 1327.5699999999997,
   "BK:betfair_ex_uk": 1.4210854715202004e-14,
   "BK:betfred_uk": 0.0,
@@ -673,7 +1077,7 @@
   "BK:skybet": 0.0,
   "BK:betrivers": 4.547473508864641e-13,
   "BK:lowvig": 0.0,
-  "BK:mybookieag": 0.0,
+  "BK:mybookieag": 1740.4299999999998,
   "BK:betmgm": 0.0,
   "BK:betanysports": 0.0,
   "BK:betsson": 0.0,
@@ -742,7 +1146,7 @@
   "BK:tipico_de": -3710.9519999999998,
   "BK:coolbet": -8022.379999999999,
   "BK:unibet_nl": -16211.870000000003,
-  "BK:marathonbet": -13349.3378,
+  "BK:marathonbet": -16405.6924,
   "BK:coral": -6178.397,
   "BK:betfair_ex_uk": 117.15999999999998,
   "BK:betfred_uk": -768.02,
@@ -779,10 +1183,10 @@
    "2": 54,
    "3": 53,
    "4": 54,
-   "5": 56,
-   "6": 57,
+   "5": 50,
+   "6": 51,
    "7": 52,
-   "8": 57,
+   "8": 51,
    "9": 53,
    "10": 52,
    "11": 52,
@@ -805,7 +1209,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 812
+   "2026-11-22": 830
   }
  },
  "book_slots": {
@@ -1157,6 +1561,7 @@
   "lal|2026-11-22T17:30|15": "2026-11-22T17:15:21Z",
   "nhl|2026-11-22T17:30|5": "2026-11-22T17:25:06Z",
   "lal|2026-11-22T17:30|5": "2026-11-22T17:25:06Z",
-  "nfl|2026-11-22T18:00|30": "2026-11-22T17:30:08Z"
+  "nfl|2026-11-22T18:00|30": "2026-11-22T17:30:08Z",
+  "nfl|2026-11-22T18:00|15": "2026-11-22T17:45:26Z"
  }
 }
