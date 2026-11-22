@@ -1,27 +1,27 @@
-# Paper-trading bot: status at 2026-11-22T12:53:34Z
+# Paper-trading bot: status at 2026-11-22T13:13:36Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 329 / 316 |
+| Trades executed / settled | 333 / 316 |
 | Realised profit | $-89,077.83 ≈ €-76,791.23 |
 | … Polymarket/Kalshi only | $48.48 |
 | … with bookmakers (all) | $-89,126.30 |
 | … with bookmakers licensed in Spain only | $-2,285.19 |
-| Open positions (cost) | $32,499.79 |
+| Open positions (cost) | $42,499.74 |
 | Money in transit between accounts | $0.00 |
 | Equity (cash + open at cost + in transit) | $-57,177.83 ≈ €-49,291.23 |
 | Return so far (realised / peak money in use) | -57.109% over 15.6 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 989, executed 37, rounding 95, seen 1221, vanished 77.
-Gaps using bookmakers: below_min_size 4, executed 292, no_cash 41, rounding 4, seen 387, vanished 37 (snapshots combined with Polymarket/Kalshi: 2215).
+Gaps using bookmakers: below_min_size 4, executed 296, no_cash 41, rounding 4, seen 391, vanished 37 (snapshots combined with Polymarket/Kalshi: 2225).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 883 (about 0.9 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
+The Odds API credits left: 835 (about 0.9 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
 
 ## Capital by account
 
@@ -43,8 +43,8 @@ Peak in use = the most money that was tied up in open positions at the same time
 | bovada | $580.00 | $-244.12 | $0.00 | $824.12 | $-244.12 |
 | boylesports | $580.00 | $1,315.03 | $0.00 | $1,813.51 | $-1,233.51 |
 | codere_it | $580.00 | $1,797.50 | $0.00 | $1,295.21 | $-715.21 |
-| coolbet | $580.00 | $14,354.40 | $512.86 | $11,130.88 | $-8,022.38 |
-| coral | $580.00 | $-2,788.24 | $2,060.63 | $6,136.50 | $-3,247.13 |
+| coolbet | $580.00 | $11,547.06 | $3,320.20 | $11,130.88 | $-8,022.38 |
+| coral | $580.00 | $-4,850.83 | $4,123.22 | $6,136.50 | $-4,850.83 |
 | draftkings | $580.00 | $-2,698.54 | $0.00 | $3,278.54 | $-2,698.54 |
 | fanduel | $580.00 | $416.03 | $0.00 | $1,659.29 | $-2,247.51 |
 | grosvenor | $580.00 | $580.00 | $0.00 | $292.30 | $287.70 |
@@ -53,13 +53,13 @@ Peak in use = the most money that was tied up in open positions at the same time
 | leovegas_se | $580.00 | $-20,519.71 | $3,976.68 | $47,555.97 | $-55,331.30 |
 | lowvig | $580.00 | $-4,145.55 | $0.00 | $1,695.80 | $-6,543.63 |
 | marathonbet (Spain) | $580.00 | $-8,319.61 | $0.00 | $8,525.07 | $-13,349.34 |
-| matchbook | $580.00 | $2,092.58 | $4,748.00 | $12,468.15 | $-4,103.15 |
+| matchbook | $580.00 | $917.00 | $5,923.58 | $12,468.15 | $-4,103.15 |
 | mybookieag | $580.00 | $-4,546.41 | $0.00 | $4,422.60 | $-7,124.16 |
 | nordicbet | $580.00 | $3,609.94 | $0.00 | $1,993.38 | $-1,413.38 |
-| onexbet | $580.00 | $-78,417.69 | $10,938.07 | $69,050.38 | $-102,003.41 |
-| pinnacle | $580.00 | $820.07 | $867.44 | $10,216.96 | $-12,586.95 |
+| onexbet | $580.00 | $-80,860.91 | $13,381.29 | $69,050.38 | $-102,003.41 |
+| pinnacle | $580.00 | $-66.47 | $1,753.98 | $10,216.96 | $-12,586.95 |
 | skybet | $580.00 | $-1,150.75 | $0.00 | $775.64 | $-1,150.75 |
-| smarkets | $580.00 | $2,601.33 | $2,394.51 | $15,944.68 | $-12,057.08 |
+| smarkets | $580.00 | $1,976.65 | $3,019.19 | $15,944.68 | $-12,057.08 |
 | tipico_de | $580.00 | $-1,205.07 | $0.00 | $5,851.05 | $-3,710.95 |
 | unibet_nl | $580.00 | $-4,096.58 | $466.60 | $5,390.31 | $-16,211.87 |
 | unibet_se | $580.00 | $-22,774.99 | $4,474.37 | $24,382.67 | $-28,095.54 |
@@ -73,7 +73,7 @@ Transfers between accounts: 4 ($1,399.69 moved, $0.00 in fees; 0 still in transi
 
 ## Gaps followed: the same portfolio re-checked later, and order-book depth
 
-Gaps above 0.1% followed: 190 Polymarket/Kalshi and 432 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
+Gaps above 0.1% followed: 190 Polymarket/Kalshi and 436 with bookmakers. A re-check prices the same shares and stakes at the later prices (ex-ante test); `censored` = the game started or the run ended before the re-check.
 
 | re-check | measured | still profitable | above 0.2% | a leg no longer offered | censored |
 |---|---|---|---|---|---|
@@ -81,13 +81,13 @@ Gaps above 0.1% followed: 190 Polymarket/Kalshi and 432 with bookmakers. A re-ch
 | +1 min | 188 | 141 | 103 | 1 | 1 |
 | +2 min | 185 | 124 | 85 | 2 | 3 |
 | +5 min | 175 | 90 | 65 | 4 | 11 |
-| bookmaker confirmation (~1 min) | 763 | 423 | 417 | 15 | 0 |
-| next bookmaker snapshot | 619 | 162 | 154 | 19 | 0 |
+| bookmaker confirmation (~1 min) | 776 | 428 | 422 | 15 | 0 |
+| next bookmaker snapshot | 629 | 164 | 155 | 20 | 0 |
 
 Depth at detection (capacity = largest size still profitable after walking the order books):
 
 - Polymarket/Kalshi gaps (190): median capacity $0 (maximum $2,826); still profitable with a $50 stake: 31 of 188; median largest guaranteed profit $0.00.
-- Gaps with bookmakers (432): median capacity $20,000 (maximum $20,000); still profitable with a $50 stake: 419 of 432; median largest guaranteed profit $157.19. Bookmakers publish no order-book depth, so only the Polymarket/Kalshi legs limit these sizes and the capacity stops at the search limit of $20,000; the bot's bets with bookmakers are capped at $2,500.
+- Gaps with bookmakers (436): median capacity $20,000 (maximum $20,000); still profitable with a $50 stake: 423 of 436; median largest guaranteed profit $157.17. Bookmakers publish no order-book depth, so only the Polymarket/Kalshi legs limit these sizes and the capacity stops at the search limit of $20,000; the bot's bets with bookmakers are capped at $2,500.
 
 Details: `results/rechecks.csv`, `results/depth.csv`.
 
@@ -95,6 +95,10 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 
 | # | time (UTC) | game | min to KO | with bookmakers | gap | cost | guaranteed profit | status | P&L |
 |---|---|---|---|---|---|---|---|---|---|
+| 333 | 11-22T13:01 | US Sassuolo Calcio v Genoa CFC | 58.2 | matchbook, onexbet, pinnacle | 1.07% | $2499.99 | $26.63 | open |  |
+| 332 | 11-22T13:01 | Bologna FC 1909 v Udinese Calcio | 58.2 | coolbet, onexbet, smarkets | 0.29% | $2499.99 | $7.13 | open |  |
+| 331 | 11-22T13:01 | Hull City AFC v Brighton & Hove Albion FC | 58.2 | coolbet, onexbet | 2.93% | $2499.99 | $73.14 | open |  |
+| 330 | 11-22T12:56 | FC Barcelona v Villarreal CF | 3.1 | coral, matchbook, smarkets | 3.13% | $2499.98 | $78.11 | open |  |
 | 329 | 11-22T12:46 | FC Barcelona v Villarreal CF | 13.4 | coolbet, coral, matchbook | 3.03% | $2499.98 | $75.67 | open |  |
 | 328 | 11-22T12:32 | AFC Ajax v ADO Den Haag | 57.8 | matchbook, unibet_nl | 1.26% | $2499.99 | $31.56 | open |  |
 | 327 | 11-22T12:32 | FC Barcelona v Villarreal CF | 27.9 | coolbet, ladbrokes_uk, smarkets | 3.03% | $2499.98 | $75.67 | open |  |
@@ -116,7 +120,3 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 | 311 | 11-21T19:46 | Real Madrid CF v RC Celta de Vigo | 13.2 | betfair_ex_uk, marathonbet, smarkets | 0.40% | $2499.99 | $9.94 | settled | $+10.01 |
 | 310 | 11-21T19:41 | AS Monaco FC v AJ Auxerre | 3.0 | smarkets, unibet_se | 0.64% | $2499.99 | $16.04 | settled | $+16.04 |
 | 309 | 11-21T19:31 | FC Groningen v SC Heerenveen | 28.1 | matchbook, pinnacle, unibet_nl | 0.63% | $2499.99 | $15.64 | settled | $+15.64 |
-| 308 | 11-21T19:31 | AS Monaco FC v AJ Auxerre | 13.1 | smarkets, unibet_se | 1.01% | $2499.98 | $25.31 | settled | $+25.35 |
-| 307 | 11-21T19:31 | Real Madrid CF v RC Celta de Vigo | 28.1 | onexbet | 1.75% | $2499.99 | $43.70 | settled | $+43.70 |
-| 306 | 11-21T19:16 | AS Monaco FC v AJ Auxerre | 28.1 | smarkets, unibet_se | 0.55% | $2499.98 | $13.62 | settled | $+13.69 |
-| 305 | 11-21T19:16 | SSC Napoli v Torino FC | 28.1 | coolbet, pinnacle | 0.41% | $2499.99 | $10.32 | settled | $+10.32 |
