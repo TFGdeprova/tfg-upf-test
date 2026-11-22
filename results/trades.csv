@@ -363,10 +363,10 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 362,2026-11-22T17:56:54Z,nfl:26NOV22ARIKC,ARI at KC,nfl,2026-11-22T18:00:00Z,3.1,0.003926,True,"['coolbet', 'pinnacle']",False,2499.98,2508.88,8.9,settled,2026-11-22T22:05:17Z,2509.804,9.824,ok,3
 363,2026-11-22T17:56:54Z,nfl:26NOV22PITPHI,PIT at PHI,nfl,2026-11-22T18:00:00Z,3.1,0.020383,True,"['coolbet', 'marathonbet']",False,2499.99,2550.44,50.45,settled,2026-11-22T22:05:17Z,2550.9495,50.9595,ok,3
 364,2026-11-22T19:16:31Z,fl1:26NOV22OLMMAN,Olympique de Marseille v Le Mans FC,fl1,2026-11-22T19:45:00Z,28.5,0.016287,True,"['codere_it', 'unibet_se']",False,2499.98,2540.64,40.66,settled,2026-11-22T22:15:15Z,2540.64,40.66,ok,3
-365,2026-11-22T19:32:03Z,lal:26NOV22GETATM,Getafe CF v Club Atlético de Madrid,lal,2026-11-22T20:00:00Z,27.9,0.01401,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.99,2534.96,34.97,open,,,,,3
+365,2026-11-22T19:32:03Z,lal:26NOV22GETATM,Getafe CF v Club Atlético de Madrid,lal,2026-11-22T20:00:00Z,27.9,0.01401,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.99,2534.96,34.97,settled,2026-11-22T22:35:18Z,2535.024,35.034,ok,3
 366,2026-11-22T19:32:03Z,fl1:26NOV22OLMMAN,Olympique de Marseille v Le Mans FC,fl1,2026-11-22T19:45:00Z,12.9,0.003937,True,"['coral', 'unibet_se']",False,2499.98,2509.8,9.82,settled,2026-11-22T22:15:15Z,2509.8,9.82,ok,3
 367,2026-11-22T19:42:01Z,fl1:26NOV22OLMMAN,Olympique de Marseille v Le Mans FC,fl1,2026-11-22T19:45:00Z,3.0,0.003937,True,"['coral', 'unibet_se']",False,2499.98,2509.8,9.82,settled,2026-11-22T22:15:15Z,2509.8,9.82,ok,3
-368,2026-11-22T19:46:27Z,lal:26NOV22GETATM,Getafe CF v Club Atlético de Madrid,lal,2026-11-22T20:00:00Z,13.5,0.00594,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.98,2514.8,14.82,open,,,,,3
+368,2026-11-22T19:46:27Z,lal:26NOV22GETATM,Getafe CF v Club Atlético de Madrid,lal,2026-11-22T20:00:00Z,13.5,0.00594,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.98,2514.8,14.82,settled,2026-11-22T22:35:18Z,2514.8386,14.8586,ok,3
 369,2026-11-22T20:51:57Z,nfl:26NOV22NYJLAC,NYJ at LAC,nfl,2026-11-22T21:05:00Z,13.0,0.002286,True,"['coolbet', 'matchbook']",False,2499.99,2504.93,4.94,open,,,,,3
 370,2026-11-22T21:02:03Z,nfl:26NOV22NYJLAC,NYJ at LAC,nfl,2026-11-22T21:05:00Z,2.9,0.005956,True,"['coolbet', 'matchbook']",False,2499.99,2514.82,14.83,open,,,,,3
 371,2026-11-22T21:11:59Z,nfl:26NOV22JACNYG,JAC at NYG,nfl,2026-11-22T21:25:00Z,13.0,0.010812,True,"['draftkings', 'marathonbet']",False,2499.99,2526.7,26.71,open,,,,,3

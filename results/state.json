@@ -4,7 +4,7 @@
   "KS": 7245.509999999997,
   "BK:smarkets": 4966.425714,
   "BK:pinnacle": 325.7792000000027,
-  "BK:onexbet": -73793.65570000005,
+  "BK:onexbet": -68743.79310000004,
   "BK:matchbook": 11495.804346,
   "BK:leovegas_se": -20519.714020000025,
   "BK:gtbets": -1124.5264999999995,
@@ -78,148 +78,6 @@
   "BK:nordicbet": 580.0
  },
  "open": [
-  {
-   "trade_id": 365,
-   "time": "2026-11-22T19:32:03Z",
-   "game": "lal:26NOV22GETATM",
-   "title": "Getafe CF v Club Atl\u00e9tico de Madrid",
-   "league": "lal",
-   "kickoff": "2026-11-22T20:00:00Z",
-   "min_to_ko": 27.9,
-   "t_lp": 0.01401,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "smarkets",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "7a62fe738bd20cfff6027c52fec05d51",
-    "sport": "soccer_spain_la_liga",
-    "home": "Getafe",
-    "away": "Atl\u00e9tico Madrid"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2534.96,
-   "guaranteed_profit": 34.97,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Atl\u00e9tico Madrid",
-     "side": "away",
-     "point": null,
-     "odds": 1.6,
-     "eff": 1.6,
-     "three_way": true,
-     "stake": 1584.39,
-     "cost": 1584.39,
-     "label": "h2h Atl\u00e9tico Madrid  @1.6"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Getafe",
-     "side": "home",
-     "point": null,
-     "odds": 8.0,
-     "eff": 8.0,
-     "three_way": true,
-     "stake": 316.87,
-     "cost": 316.87,
-     "label": "h2h Getafe  @8.0"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.3,
-     "eff": 4.234,
-     "three_way": true,
-     "stake": 598.73,
-     "cost": 598.73,
-     "label": "h2h Draw  @4.3"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 368,
-   "time": "2026-11-22T19:46:27Z",
-   "game": "lal:26NOV22GETATM",
-   "title": "Getafe CF v Club Atl\u00e9tico de Madrid",
-   "league": "lal",
-   "kickoff": "2026-11-22T20:00:00Z",
-   "min_to_ko": 13.5,
-   "t_lp": 0.00594,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "smarkets",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "7a62fe738bd20cfff6027c52fec05d51",
-    "sport": "soccer_spain_la_liga",
-    "home": "Getafe",
-    "away": "Atl\u00e9tico Madrid"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2514.8,
-   "guaranteed_profit": 14.82,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Atl\u00e9tico Madrid",
-     "side": "away",
-     "point": null,
-     "odds": 1.58,
-     "eff": 1.58,
-     "three_way": true,
-     "stake": 1591.67,
-     "cost": 1591.67,
-     "label": "h2h Atl\u00e9tico Madrid  @1.58"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Getafe",
-     "side": "home",
-     "point": null,
-     "odds": 8.0,
-     "eff": 8.0,
-     "three_way": true,
-     "stake": 314.35,
-     "cost": 314.35,
-     "label": "h2h Getafe  @8.0"
-    },
-    {
-     "venue": "BK:smarkets",
-     "book": "smarkets",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.3,
-     "eff": 4.234,
-     "three_way": true,
-     "stake": 593.96,
-     "cost": 593.96,
-     "label": "h2h Draw  @4.3"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 369,
    "time": "2026-11-22T20:51:57Z",
@@ -627,21 +485,21 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 373,
- "n_settled": 366,
- "realized_pnl": -87654.0404100001,
+ "n_settled": 368,
+ "realized_pnl": -87604.1478100001,
  "runs": 75,
  "locked": {
   "PM": 5.542233338928781e-13,
   "KS": 0.8900000000000035,
-  "BK:smarkets": 1192.69,
+  "BK:smarkets": 0.0,
   "BK:pinnacle": 1818.1100000000001,
-  "BK:onexbet": 3176.060000000005,
+  "BK:onexbet": 4.774847184307873e-12,
   "BK:matchbook": 3076.1600000000017,
   "BK:leovegas_se": 1.7053025658242404e-11,
   "BK:gtbets": 0.0,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 631.2200000000129,
+  "BK:unibet_se": 1.2846612662542611e-11,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 2284.31,
   "BK:unibet_nl": 2.5011104298755527e-12,
@@ -761,14 +619,14 @@
    "3": 37,
    "4": 36,
    "5": 36,
-   "6": 37,
+   "6": 31,
    "7": 34,
    "8": 33,
    "9": 33,
    "10": 34,
-   "11": 38,
+   "11": 36,
    "12": 34,
-   "13": 38
+   "13": 32
   },
   "spent": {
    "2026-11-06": 27,
@@ -786,7 +644,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 1052
+   "2026-11-22": 1066
   }
  },
  "book_slots": {
@@ -1161,6 +1019,8 @@
   "nfl|2026-11-22T21:25|5": "2026-11-22T21:20:20Z",
   "nhl|2026-11-22T22:00|30": "2026-11-22T21:30:20Z",
   "nhl|2026-11-22T22:00|15": "2026-11-22T21:45:01Z",
-  "nhl|2026-11-22T22:00|5": "2026-11-22T21:55:01Z"
+  "nhl|2026-11-22T22:00|5": "2026-11-22T21:55:01Z",
+  "nba|2026-11-22T23:00|30": "2026-11-22T22:30:22Z",
+  "nba|2026-11-22T23:00|15": "2026-11-22T22:45:03Z"
  }
 }
