@@ -1,7 +1,7 @@
 {
  "cash": {
   "PM": 9212.605000000003,
-  "KS": 7250.0099999999975,
+  "KS": 7249.749999999997,
   "BK:smarkets": -1396.8298059999988,
   "BK:pinnacle": -943.3067999999981,
   "BK:onexbet": -81356.07390000006,
@@ -12,9 +12,9 @@
   "BK:grosvenor": 580.0,
   "BK:unibet_se": -28469.932200000014,
   "BK:tipico_de": -1205.0719999999997,
-  "BK:coolbet": 7559.095100000002,
+  "BK:coolbet": 6667.1451000000025,
   "BK:unibet_nl": -4297.620000000003,
-  "BK:marathonbet": -8319.612399999998,
+  "BK:marathonbet": -9927.392399999999,
   "BK:coral": -6178.397,
   "BK:betfair_ex_uk": 117.15999999999998,
   "BK:betfred_uk": -768.02,
@@ -1900,6 +1900,72 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 348,
+   "time": "2026-11-22T15:05:46Z",
+   "game": "nfl:26NOV22PITPHI",
+   "title": "PIT at PHI",
+   "league": "nfl",
+   "kickoff": "2026-11-22T18:00:00Z",
+   "min_to_ko": 174.2,
+   "t_lp": 0.00969,
+   "with_books": true,
+   "books": [
+    "coolbet",
+    "marathonbet"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "cbe45bafcc2615fc1d96cbc12840377a",
+    "sport": "americanfootball_nfl",
+    "home": "Philadelphia Eagles",
+    "away": "Pittsburgh Steelers"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2523.73,
+   "guaranteed_profit": 23.74,
+   "legs": [
+    {
+     "venue": "KS",
+     "id": "KXNFLTIE-26NOV22PITPHI-Y",
+     "label": "Game to end in a tie",
+     "side": "YES",
+     "price": 0.01,
+     "shares": 24,
+     "fee": 0.02,
+     "cost": 0.26
+    },
+    {
+     "venue": "BK:coolbet",
+     "book": "coolbet",
+     "market": "h2h",
+     "outcome": "Philadelphia Eagles",
+     "side": "home",
+     "point": null,
+     "odds": 2.83,
+     "eff": 2.83,
+     "three_way": false,
+     "stake": 891.95,
+     "cost": 891.95,
+     "label": "h2h Philadelphia Eagles  @2.83"
+    },
+    {
+     "venue": "BK:marathonbet",
+     "book": "marathonbet",
+     "market": "h2h",
+     "outcome": "Pittsburgh Steelers",
+     "side": "away",
+     "point": null,
+     "odds": 1.57,
+     "eff": 1.57,
+     "three_way": false,
+     "stake": 1607.78,
+     "cost": 1607.78,
+     "label": "h2h Pittsburgh Steelers  @1.57"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1918,16 +1984,20 @@
   "PM|0x97ec7fc4c21d2ff4e9d480b868ef0bd663888972c74416bcddb2c500d61ef2bd|NO|0.4500": {
    "n": 2535.66,
    "t": "2026-11-22T14:47:51Z"
+  },
+  "KS|KXNFLTIE-26NOV22PITPHI-Y|YES|0.0100": {
+   "n": 24.0,
+   "t": "2026-11-22T15:05:46Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 347,
+ "n_trades": 348,
  "n_settled": 320,
  "realized_pnl": -88909.17883400008,
  "runs": 73,
  "locked": {
   "PM": 2225.8501000000006,
-  "KS": 3.4200000000000035,
+  "KS": 3.6800000000000033,
   "BK:smarkets": 6392.669999999999,
   "BK:pinnacle": 2630.82,
   "BK:onexbet": 18541.210000000006,
@@ -1938,9 +2008,9 @@
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 9405.050000000012,
   "BK:tipico_de": 0.0,
-  "BK:coolbet": 7308.16,
+  "BK:coolbet": 8200.11,
   "BK:unibet_nl": 667.6400000000021,
-  "BK:marathonbet": 0.0,
+  "BK:marathonbet": 1607.78,
   "BK:coral": 5450.79,
   "BK:betfair_ex_uk": 1.4210854715202004e-14,
   "BK:betfred_uk": 0.0,
@@ -2057,13 +2127,13 @@
    "4": 66,
    "5": 68,
    "6": 69,
-   "7": 70,
+   "7": 64,
    "8": 65,
    "9": 67,
    "10": 66,
-   "11": 70,
+   "11": 64,
    "12": 68,
-   "13": 70
+   "13": 64
   },
   "spent": {
    "2026-11-06": 27,
@@ -2081,7 +2151,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 632
+   "2026-11-22": 650
   }
  },
  "book_slots": {
@@ -2409,6 +2479,8 @@
   "bun|2026-11-22T16:30|120": "2026-11-22T14:30:07Z",
   "nhl|2026-11-22T17:30|180": "2026-11-22T14:30:07Z",
   "lal|2026-11-22T17:30|180": "2026-11-22T14:30:09Z",
-  "ere|2026-11-22T15:45|60": "2026-11-22T14:46:09Z"
+  "ere|2026-11-22T15:45|60": "2026-11-22T14:46:09Z",
+  "sea|2026-11-22T17:00|120": "2026-11-22T15:03:55Z",
+  "nfl|2026-11-22T18:00|180": "2026-11-22T15:03:55Z"
  }
 }

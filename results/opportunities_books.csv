@@ -2264,3 +2264,13 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-22T14:31:53Z,lal:26NOV22OSAMCF,CA Osasuna v Málaga CF,lal,178.1,confirmation,5,-0.002786,0.002832,executed,,,coolbet h2h CA Osasuna  @1.89 x0.531 | onexbet h2h Málaga  @4.88 x0.205 | unibet_se h2h Draw  @3.8 x0.264
 2026-11-22T14:46:19Z,ere:26NOV22GAEFOR,Go Ahead Eagles v Fortuna Sittard,ere,58.7,scheduled,9,-0.005158,0.004036,seen,12299.83,ere:26NOV22GAEFOR|2026-11-22T14:46:17Z|with_books,PM NO 0.460 x0.474 Will Go Ahead Eagles win on 2026-11-22? | coral h2h Go Ahead Eagles  @1.91 x0.526
 2026-11-22T14:47:51Z,ere:26NOV22GAEFOR,Go Ahead Eagles v Fortuna Sittard,ere,57.1,confirmation,9,-0.006527,0.014265,executed,2662.3,,PM NO 0.450 x0.469 Will Go Ahead Eagles win on 2026-11-22? | coral h2h Go Ahead Eagles  @1.91 x0.531
+2026-11-22T15:04:16Z,sea:26NOV22ACMFRO,AC Milan v Frosinone Calcio,sea,115.7,scheduled,9,-0.002346,-0.002346,no gap,,,
+2026-11-22T15:04:16Z,nfl:26NOV22MIABUF,MIA at BUF,nfl,175.7,scheduled,16,-0.001187,-0.001187,no gap,,,
+2026-11-22T15:04:16Z,nfl:26NOV22BALCAR,BAL at CAR,nfl,175.7,scheduled,14,-0.013219,-0.00513,no gap,,,
+2026-11-22T15:04:16Z,nfl:26NOV22NOCHI,NO at CHI,nfl,175.7,scheduled,16,-0.008456,-0.008456,no gap,,,
+2026-11-22T15:04:17Z,nfl:26NOV22TENDAL,TEN at DAL,nfl,175.7,scheduled,14,-0.002581,-0.002581,no gap,,,
+2026-11-22T15:04:17Z,nfl:26NOV22TBDET,TB at DET,nfl,175.7,scheduled,16,-0.004723,0.019922,seen,0.98,nfl:26NOV22TBDET|2026-11-22T15:04:17Z|with_books,KS YES 0.010 x0.004 Game to end in a tie | KS YES 0.050 x0.054 Tampa Bay by 15 or more | KS YES 0.150 x0.162 Tampa Bay by 1 to 6 | KS YES 0.120 x0.130 Tampa Bay by 7 to 14 | marathonbet h2h Detroit Lions  @1.57 x0.650
+2026-11-22T15:04:19Z,nfl:26NOV22ARIKC,ARI at KC,nfl,175.7,scheduled,14,0.001446,0.001446,no gap,,,
+2026-11-22T15:04:19Z,nfl:26NOV22PITPHI,PIT at PHI,nfl,175.7,scheduled,12,-0.010983,0.00969,seen,6127051.63,nfl:26NOV22PITPHI|2026-11-22T15:04:19Z|with_books,KS YES 0.010 x0.000 Game to end in a tie | coolbet h2h Philadelphia Eagles  @2.83 x0.357 | marathonbet h2h Pittsburgh Steelers  @1.57 x0.643
+2026-11-22T15:05:44Z,nfl:26NOV22TBDET,TB at DET,nfl,174.3,confirmation,16,-0.004723,0.019922,below_min_size,0.98,,KS YES 0.010 x0.004 Game to end in a tie | KS YES 0.050 x0.054 Tampa Bay by 15 or more | KS YES 0.150 x0.162 Tampa Bay by 1 to 6 | KS YES 0.120 x0.130 Tampa Bay by 7 to 14 | marathonbet h2h Detroit Lions  @1.57 x0.650
+2026-11-22T15:05:46Z,nfl:26NOV22PITPHI,PIT at PHI,nfl,174.2,confirmation,12,-0.011847,0.00969,executed,6127051.63,,KS YES 0.010 x0.000 Game to end in a tie | coolbet h2h Philadelphia Eagles  @2.83 x0.357 | marathonbet h2h Pittsburgh Steelers  @1.57 x0.643
