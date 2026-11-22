@@ -2291,3 +2291,14 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-22T16:47:01Z,sea:26NOV22ACMFRO,AC Milan v Frosinone Calcio,sea,13.0,confirmation,11,-0.001839,-0.000898,vanished,,,lowvig h2h AC Milan  @1.69 x0.591 | smarkets h2h Frosinone  @5.3 x0.192 | marathonbet h2h Draw  @4.6 x0.217
 2026-11-22T16:55:43Z,sea:26NOV22ACMFRO,AC Milan v Frosinone Calcio,sea,4.3,scheduled,11,-0.002346,-0.002346,no gap,,,
 2026-11-22T17:00:56Z,nhl:26NOV22CARNYR,CAR at NYR,nhl,29.1,scheduled,8,-0.01339,-0.01339,no gap,,,
+2026-11-22T17:15:39Z,nhl:26NOV22CARNYR,CAR at NYR,nhl,14.3,scheduled,8,-0.01339,-0.010862,no gap,,,
+2026-11-22T17:15:39Z,lal:26NOV22OSAMCF,CA Osasuna v Málaga CF,lal,14.3,scheduled,5,-0.00252,-0.00252,no gap,,,
+2026-11-22T17:25:27Z,nhl:26NOV22CARNYR,CAR at NYR,nhl,4.5,scheduled,8,-0.013232,-0.008244,no gap,,,
+2026-11-22T17:25:27Z,lal:26NOV22OSAMCF,CA Osasuna v Málaga CF,lal,4.5,scheduled,5,-0.001839,0.001482,no gap,,lal:26NOV22OSAMCF|2026-11-22T17:25:26Z|with_books,
+2026-11-22T17:30:24Z,nfl:26NOV22MIABUF,MIA at BUF,nfl,29.6,scheduled,16,-0.007323,0.007382,seen,25733707.53,nfl:26NOV22MIABUF|2026-11-22T17:30:24Z|with_books,KS YES 0.010 x0.000 Game to end in a tie | pinnacle h2h Buffalo Bills  @1.08 x0.933 | coolbet h2h Miami Dolphins  @15.0 x0.067
+2026-11-22T17:30:24Z,nfl:26NOV22BALCAR,BAL at CAR,nfl,29.6,scheduled,12,-0.013232,-0.002457,no gap,,,
+2026-11-22T17:30:26Z,nfl:26NOV22NOCHI,NO at CHI,nfl,29.6,scheduled,16,-0.006391,-0.003214,no gap,,,
+2026-11-22T17:30:26Z,nfl:26NOV22TENDAL,TEN at DAL,nfl,29.6,scheduled,12,-0.003775,-0.001786,no gap,,,
+2026-11-22T17:30:26Z,nfl:26NOV22TBDET,TB at DET,nfl,29.6,scheduled,12,-0.004723,0.022001,seen,2698873.72,nfl:26NOV22TBDET|2026-11-22T17:30:24Z|with_books,KS YES 0.010 x0.000 Game to end in a tie | marathonbet h2h Detroit Lions  @1.57 x0.651 | mybookieag h2h Tampa Bay Buccaneers  @2.93 x0.349
+2026-11-22T17:30:26Z,nfl:26NOV22ARIKC,ARI at KC,nfl,29.6,scheduled,12,-0.001187,0.004587,seen,1.0,nfl:26NOV22ARIKC|2026-11-22T17:30:22Z|with_books,PM YES 0.029 x0.031 Spread: Cardinals (-6.5) | KS YES 0.010 x0.001 Game to end in a tie | KS YES 0.050 x0.054 Arizona by 1 to 6 | matchbook h2h Kansas City Chiefs  @1.1 x0.915
+2026-11-22T17:30:26Z,nfl:26NOV22PITPHI,PIT at PHI,nfl,29.6,scheduled,12,-0.011847,0.012197,seen,4819492.91,nfl:26NOV22PITPHI|2026-11-22T17:30:26Z|with_books,KS YES 0.010 x0.000 Game to end in a tie | coolbet h2h Philadelphia Eagles  @2.85 x0.355 | marathonbet h2h Pittsburgh Steelers  @1.57 x0.645
