@@ -2,18 +2,18 @@
  "cash": {
   "PM": 11438.455100000001,
   "KS": 7253.429999999998,
-  "BK:smarkets": 2868.9701940000014,
+  "BK:smarkets": 2601.3301940000015,
   "BK:pinnacle": 820.0732000000019,
   "BK:onexbet": -78417.69430000002,
-  "BK:matchbook": 4393.609392000002,
+  "BK:matchbook": 2360.219392000002,
   "BK:leovegas_se": -20519.714020000025,
   "BK:gtbets": -65.67649999999958,
   "BK:winamax_de": 1144.1699999999996,
   "BK:grosvenor": 580.0,
   "BK:unibet_se": -22774.99220000001,
   "BK:tipico_de": -1205.0719999999997,
-  "BK:coolbet": 14697.8151,
-  "BK:unibet_nl": -3629.9800000000027,
+  "BK:coolbet": 14526.1051,
+  "BK:unibet_nl": -4096.580000000003,
   "BK:marathonbet": -8319.612399999998,
   "BK:coral": -727.607,
   "BK:betfair_ex_uk": 117.15999999999998,
@@ -33,7 +33,7 @@
   "BK:bovada": -244.12,
   "BK:draftkings": -2698.54,
   "BK:williamhill": -2192.1800000000003,
-  "BK:ladbrokes_uk": -2699.5135,
+  "BK:ladbrokes_uk": -4760.1435,
   "BK:betus": -780.8719999999994,
   "BK:unibet_uk": -760.27,
   "BK:nordicbet": 3609.9376
@@ -784,29 +784,170 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 327,
+   "time": "2026-11-22T12:32:07Z",
+   "game": "lal:26NOV22BARVIL",
+   "title": "FC Barcelona v Villarreal CF",
+   "league": "lal",
+   "kickoff": "2026-11-22T13:00:00Z",
+   "min_to_ko": 27.9,
+   "t_lp": 0.030319,
+   "with_books": true,
+   "books": [
+    "coolbet",
+    "ladbrokes_uk",
+    "smarkets"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "214a79b6e08dbe3f508844936158c038",
+    "sport": "soccer_spain_la_liga",
+    "home": "Barcelona",
+    "away": "Villarreal"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2575.65,
+   "guaranteed_profit": 75.67,
+   "legs": [
+    {
+     "venue": "BK:ladbrokes_uk",
+     "book": "ladbrokes_uk",
+     "market": "h2h",
+     "outcome": "Barcelona",
+     "side": "home",
+     "point": null,
+     "odds": 1.25,
+     "eff": 1.25,
+     "three_way": true,
+     "stake": 2060.63,
+     "cost": 2060.63,
+     "label": "h2h Barcelona  @1.25"
+    },
+    {
+     "venue": "BK:coolbet",
+     "book": "coolbet",
+     "market": "h2h",
+     "outcome": "Villarreal",
+     "side": "away",
+     "point": null,
+     "odds": 15.0,
+     "eff": 15.0,
+     "three_way": true,
+     "stake": 171.71,
+     "cost": 171.71,
+     "label": "h2h Villarreal  @15.0"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 9.8,
+     "eff": 9.624,
+     "three_way": true,
+     "stake": 267.64,
+     "cost": 267.64,
+     "label": "h2h Draw  @9.8"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 328,
+   "time": "2026-11-22T12:32:09Z",
+   "game": "ere:26NOV22AJAADO",
+   "title": "AFC Ajax v ADO Den Haag",
+   "league": "ere",
+   "kickoff": "2026-11-22T13:30:00Z",
+   "min_to_ko": 57.8,
+   "t_lp": 0.012631,
+   "with_books": true,
+   "books": [
+    "matchbook",
+    "unibet_nl"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "b192dbcfd675d0ee75492948b7d2a35f",
+    "sport": "soccer_netherlands_eredivisie",
+    "home": "Ajax",
+    "away": "ADO Den Haag"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2531.55,
+   "guaranteed_profit": 31.56,
+   "legs": [
+    {
+     "venue": "BK:unibet_nl",
+     "book": "unibet_nl",
+     "market": "h2h",
+     "outcome": "ADO Den Haag",
+     "side": "away",
+     "point": null,
+     "odds": 15.0,
+     "eff": 15.0,
+     "three_way": true,
+     "stake": 168.77,
+     "cost": 168.77,
+     "label": "h2h ADO Den Haag  @15.0"
+    },
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "Ajax",
+     "side": "home",
+     "point": null,
+     "odds": 1.25,
+     "eff": 1.245,
+     "three_way": true,
+     "stake": 2033.39,
+     "cost": 2033.39,
+     "label": "h2h Ajax  @1.25"
+    },
+    {
+     "venue": "BK:unibet_nl",
+     "book": "unibet_nl",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 8.5,
+     "eff": 8.5,
+     "three_way": true,
+     "stake": 297.83,
+     "cost": 297.83,
+     "label": "h2h Draw  @8.5"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {},
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 326,
+ "n_trades": 328,
  "n_settled": 316,
  "realized_pnl": -89077.82883400007,
  "runs": 73,
  "locked": {
   "PM": 3.623767952376511e-13,
   "KS": 3.552713678800501e-15,
-  "BK:smarkets": 2126.87,
+  "BK:smarkets": 2394.5099999999998,
   "BK:pinnacle": 867.4400000000003,
   "BK:onexbet": 10938.070000000009,
-  "BK:matchbook": 2446.9700000000003,
+  "BK:matchbook": 4480.360000000001,
   "BK:leovegas_se": 3976.680000000017,
   "BK:gtbets": 0.0,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 4474.370000000012,
   "BK:tipico_de": 0.0,
-  "BK:coolbet": 169.44000000000023,
-  "BK:unibet_nl": 2.1600499167107046e-12,
+  "BK:coolbet": 341.1500000000002,
+  "BK:unibet_nl": 466.6000000000022,
   "BK:marathonbet": 0.0,
   "BK:coral": 0.0,
   "BK:betfair_ex_uk": 1.4210854715202004e-14,
@@ -826,7 +967,7 @@
   "BK:bovada": 0.0,
   "BK:draftkings": 0.0,
   "BK:williamhill": 0.0,
-  "BK:ladbrokes_uk": 2.2737367544323206e-13,
+  "BK:ladbrokes_uk": 2060.63,
   "BK:betus": 0.0,
   "BK:unibet_uk": 0.0,
   "BK:nordicbet": 0.0
@@ -918,19 +1059,19 @@
  "peak_total_locked": 155979.6216,
  "odds": {
   "remaining": {
-   "1": 93,
+   "1": 87,
    "2": 90,
    "3": 91,
    "4": 90,
    "5": 92,
-   "6": 93,
-   "7": 94,
+   "6": 87,
+   "7": 88,
    "8": 89,
    "9": 91,
    "10": 90,
    "11": 90,
-   "12": 94,
-   "13": 94
+   "12": 88,
+   "13": 88
   },
   "spent": {
    "2026-11-06": 27,
@@ -948,7 +1089,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 322
+   "2026-11-22": 352
   }
  },
  "book_slots": {
@@ -1240,6 +1381,9 @@
   "lal|2026-11-22T13:00|60": "2026-11-22T12:00:22Z",
   "epl|2026-11-22T14:00|120": "2026-11-22T12:00:24Z",
   "sea|2026-11-22T14:00|120": "2026-11-22T12:00:25Z",
-  "fl1|2026-11-22T14:00|120": "2026-11-22T12:00:26Z"
+  "fl1|2026-11-22T14:00|120": "2026-11-22T12:00:26Z",
+  "lal|2026-11-22T13:00|30": "2026-11-22T12:30:29Z",
+  "ere|2026-11-22T13:30|60": "2026-11-22T12:30:29Z",
+  "bun|2026-11-22T14:30|120": "2026-11-22T12:30:29Z"
  }
 }
