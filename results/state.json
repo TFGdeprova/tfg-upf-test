@@ -2,24 +2,24 @@
  "cash": {
   "PM": 10385.030800000002,
   "KS": 7250.0099999999975,
-  "BK:smarkets": -26.419805999998744,
-  "BK:pinnacle": -66.4667999999981,
-  "BK:onexbet": -88486.01430000004,
+  "BK:smarkets": -1396.8298059999988,
+  "BK:pinnacle": -943.3067999999981,
+  "BK:onexbet": -85951.86310000005,
   "BK:matchbook": 32.559392000001935,
   "BK:leovegas_se": -20519.714020000025,
   "BK:gtbets": -1124.5264999999995,
   "BK:winamax_de": 1144.1699999999996,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -24809.65220000001,
+  "BK:unibet_se": -27810.182200000014,
   "BK:tipico_de": -1205.0719999999997,
-  "BK:coolbet": 9768.575100000002,
+  "BK:coolbet": 8885.585100000002,
   "BK:unibet_nl": -4297.620000000003,
   "BK:marathonbet": -8319.612399999998,
   "BK:coral": -4850.827,
   "BK:betfair_ex_uk": 117.15999999999998,
   "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": -771.6700000000001,
-  "BK:betonlineag": 2452.5284999999953,
+  "BK:betonlineag": 1823.4884999999954,
   "BK:skybet": -1150.75,
   "BK:betrivers": 11676.5811,
   "BK:lowvig": -4145.553499999999,
@@ -28,7 +28,7 @@
   "BK:betanysports": -585.8006000000009,
   "BK:betsson": 2119.7043999999996,
   "BK:codere_it": 1797.4973999999997,
-  "BK:boylesports": 1315.0279999999998,
+  "BK:boylesports": 574.8779999999998,
   "BK:fanduel": 416.0315999999998,
   "BK:bovada": -244.12,
   "BK:draftkings": -2698.54,
@@ -216,76 +216,6 @@
      "stake": 264.1,
      "cost": 264.1,
      "label": "h2h Draw  @9.8"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 319,
-   "time": "2026-11-22T11:01:43Z",
-   "game": "sea:26NOV22JUVVEN",
-   "title": "Juventus FC v Venezia FC",
-   "league": "sea",
-   "kickoff": "2026-11-22T11:30:00Z",
-   "min_to_ko": 28.3,
-   "t_lp": 0.013665,
-   "with_books": true,
-   "books": [
-    "onexbet",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "be2fcabc408be29ca01ce92ab266f8b7",
-    "sport": "soccer_italy_serie_a",
-    "home": "Juventus",
-    "away": "Venezia"
-   },
-   "cost": 2499.98,
-   "guaranteed_payout": 2534.1225,
-   "guaranteed_profit": 34.1425,
-   "legs": [
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Juventus",
-     "side": "home",
-     "point": null,
-     "odds": 1.46,
-     "eff": 1.46,
-     "three_way": true,
-     "stake": 1735.72,
-     "cost": 1735.72,
-     "label": "h2h Juventus  @1.46"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Venezia",
-     "side": "away",
-     "point": null,
-     "odds": 9.0,
-     "eff": 9.0,
-     "three_way": true,
-     "stake": 281.57,
-     "cost": 281.57,
-     "label": "h2h Venezia  @9.0"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 5.25,
-     "eff": 5.25,
-     "three_way": true,
-     "stake": 482.69,
-     "cost": 482.69,
-     "label": "h2h Draw  @5.25"
     }
    ],
    "status": "open"
@@ -1849,6 +1779,217 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 343,
+   "time": "2026-11-22T13:56:51Z",
+   "game": "sea:26NOV22BFCUDI",
+   "title": "Bologna FC 1909 v Udinese Calcio",
+   "league": "sea",
+   "kickoff": "2026-11-22T14:00:00Z",
+   "min_to_ko": 3.1,
+   "t_lp": 0.01553,
+   "with_books": true,
+   "books": [
+    "smarkets",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "5bc13c44b33981f3185400163388267e",
+    "sport": "soccer_italy_serie_a",
+    "home": "Bologna",
+    "away": "Udinese"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2538.8055,
+   "guaranteed_profit": 38.8155,
+   "legs": [
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Bologna",
+     "side": "home",
+     "point": null,
+     "odds": 1.87,
+     "eff": 1.8526000000000002,
+     "three_way": true,
+     "stake": 1370.41,
+     "cost": 1370.41,
+     "label": "h2h Bologna  @1.87"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Udinese",
+     "side": "away",
+     "point": null,
+     "odds": 5.4,
+     "eff": 5.4,
+     "three_way": true,
+     "stake": 470.15,
+     "cost": 470.15,
+     "label": "h2h Udinese  @5.4"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.85,
+     "eff": 3.85,
+     "three_way": true,
+     "stake": 659.43,
+     "cost": 659.43,
+     "label": "h2h Draw  @3.85"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 344,
+   "time": "2026-11-22T13:56:51Z",
+   "game": "sea:26NOV22SASGEN",
+   "title": "US Sassuolo Calcio v Genoa CFC",
+   "league": "sea",
+   "kickoff": "2026-11-22T14:00:00Z",
+   "min_to_ko": 3.1,
+   "t_lp": 0.006617,
+   "with_books": true,
+   "books": [
+    "boylesports",
+    "coolbet",
+    "pinnacle"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "76d4698a8417f32cb059f14a469939f3",
+    "sport": "soccer_italy_serie_a",
+    "home": "Sassuolo",
+    "away": "Genoa"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2516.51,
+   "guaranteed_profit": 16.53,
+   "legs": [
+    {
+     "venue": "BK:pinnacle",
+     "book": "pinnacle",
+     "market": "h2h",
+     "outcome": "Genoa",
+     "side": "away",
+     "point": null,
+     "odds": 2.87,
+     "eff": 2.87,
+     "three_way": true,
+     "stake": 876.84,
+     "cost": 876.84,
+     "label": "h2h Genoa  @2.87"
+    },
+    {
+     "venue": "BK:coolbet",
+     "book": "coolbet",
+     "market": "h2h",
+     "outcome": "Sassuolo",
+     "side": "home",
+     "point": null,
+     "odds": 2.85,
+     "eff": 2.85,
+     "three_way": true,
+     "stake": 882.99,
+     "cost": 882.99,
+     "label": "h2h Sassuolo  @2.85"
+    },
+    {
+     "venue": "BK:boylesports",
+     "book": "boylesports",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 3.4,
+     "eff": 3.4,
+     "three_way": true,
+     "stake": 740.15,
+     "cost": 740.15,
+     "label": "h2h Draw  @3.4"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 345,
+   "time": "2026-11-22T13:56:51Z",
+   "game": "fl1:26NOV22PARANG",
+   "title": "Paris FC v Angers SCO",
+   "league": "fl1",
+   "kickoff": "2026-11-22T14:00:00Z",
+   "min_to_ko": 3.1,
+   "t_lp": 0.00283,
+   "with_books": true,
+   "books": [
+    "betonlineag",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "9e5d4a91e379ddffa179b02bf9e09530",
+    "sport": "soccer_france_ligue_one",
+    "home": "Paris FC",
+    "away": "Angers"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2507.01,
+   "guaranteed_profit": 7.02,
+   "legs": [
+    {
+     "venue": "BK:betonlineag",
+     "book": "betonlineag",
+     "market": "h2h",
+     "outcome": "Angers",
+     "side": "away",
+     "point": null,
+     "odds": 11.0,
+     "eff": 11.0,
+     "three_way": true,
+     "stake": 227.91,
+     "cost": 227.91,
+     "label": "h2h Angers  @11.0"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Paris FC",
+     "side": "home",
+     "point": null,
+     "odds": 1.34,
+     "eff": 1.34,
+     "three_way": true,
+     "stake": 1870.95,
+     "cost": 1870.95,
+     "label": "h2h Paris FC  @1.34"
+    },
+    {
+     "venue": "BK:betonlineag",
+     "book": "betonlineag",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 6.25,
+     "eff": 6.25,
+     "three_way": true,
+     "stake": 401.13,
+     "cost": 401.13,
+     "label": "h2h Draw  @6.25"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1866,31 +2007,31 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 342,
- "n_settled": 316,
- "realized_pnl": -89077.82883400007,
+ "n_trades": 345,
+ "n_settled": 317,
+ "realized_pnl": -89043.65763400008,
  "runs": 73,
  "locked": {
   "PM": 1053.4243000000004,
   "KS": 3.4200000000000035,
-  "BK:smarkets": 5022.259999999999,
-  "BK:pinnacle": 1753.9800000000002,
-  "BK:onexbet": 21006.390000000007,
+  "BK:smarkets": 6392.669999999999,
+  "BK:pinnacle": 2630.82,
+  "BK:onexbet": 19270.670000000006,
   "BK:matchbook": 6808.020000000002,
   "BK:leovegas_se": 3976.680000000017,
   "BK:gtbets": 1058.85,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 6509.030000000012,
+  "BK:unibet_se": 8745.300000000012,
   "BK:tipico_de": 0.0,
-  "BK:coolbet": 5098.68,
+  "BK:coolbet": 5981.67,
   "BK:unibet_nl": 667.6400000000021,
   "BK:marathonbet": 0.0,
   "BK:coral": 4123.22,
   "BK:betfair_ex_uk": 1.4210854715202004e-14,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 837.89,
-  "BK:betonlineag": 1.1368683772161603e-13,
+  "BK:betonlineag": 629.0400000000001,
   "BK:skybet": 0.0,
   "BK:betrivers": 4.547473508864641e-13,
   "BK:lowvig": 0.0,
@@ -1899,7 +2040,7 @@
   "BK:betanysports": 0.0,
   "BK:betsson": 0.0,
   "BK:codere_it": 0.0,
-  "BK:boylesports": 0.0,
+  "BK:boylesports": 740.15,
   "BK:fanduel": 0.0,
   "BK:bovada": 0.0,
   "BK:draftkings": 0.0,
@@ -1997,18 +2138,18 @@
  "odds": {
   "remaining": {
    "1": 75,
-   "2": 78,
+   "2": 72,
    "3": 73,
-   "4": 78,
+   "4": 72,
    "5": 74,
    "6": 75,
-   "7": 76,
-   "8": 77,
+   "7": 70,
+   "8": 71,
    "9": 73,
-   "10": 78,
-   "11": 78,
-   "12": 76,
-   "13": 76
+   "10": 72,
+   "11": 72,
+   "12": 74,
+   "13": 70
   },
   "spent": {
    "2026-11-06": 27,
@@ -2026,7 +2167,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 526
+   "2026-11-22": 570
   }
  },
  "book_slots": {
@@ -2341,6 +2482,11 @@
   "epl|2026-11-22T14:00|15": "2026-11-22T13:45:23Z",
   "sea|2026-11-22T14:00|15": "2026-11-22T13:45:24Z",
   "fl1|2026-11-22T14:00|15": "2026-11-22T13:45:24Z",
-  "ere|2026-11-22T15:45|120": "2026-11-22T13:45:24Z"
+  "ere|2026-11-22T15:45|120": "2026-11-22T13:45:24Z",
+  "epl|2026-11-22T14:00|5": "2026-11-22T13:55:05Z",
+  "sea|2026-11-22T14:00|5": "2026-11-22T13:55:05Z",
+  "fl1|2026-11-22T14:00|5": "2026-11-22T13:55:05Z",
+  "bun|2026-11-22T14:30|30": "2026-11-22T14:00:06Z",
+  "sea|2026-11-22T17:00|180": "2026-11-22T14:00:07Z"
  }
 }
