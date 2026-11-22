@@ -2580,3 +2580,5 @@ time,watch,kind,game,title,league,min_to_ko,lag_s,detected,recheck,t_detected,t_
 2026-11-22T22:39:06Z,mls:26NOV22CHICLT|2026-11-22T22:38:05Z|pm_ks,pm_ks,mls:26NOV22CHICLT,Chicago Fire FC v Charlotte FC,mls,50.9,61.8,2026-11-22T22:38:05Z,60,0.001415,-0.028209,2/2,-0.002439,False,False,ok
 2026-11-22T22:40:05Z,mls:26NOV22CHICLT|2026-11-22T22:38:05Z|pm_ks,pm_ks,mls:26NOV22CHICLT,Chicago Fire FC v Charlotte FC,mls,49.9,119.8,2026-11-22T22:38:05Z,120,0.001415,-0.028209,2/2,-0.002688,False,False,ok
 2026-11-22T22:43:05Z,mls:26NOV22CHICLT|2026-11-22T22:38:05Z|pm_ks,pm_ks,mls:26NOV22CHICLT,Chicago Fire FC v Charlotte FC,mls,46.9,299.9,2026-11-22T22:38:05Z,300,0.001415,-0.028209,2/2,-0.002688,False,False,ok
+2026-11-22T23:32:05Z,nba:26NOV22DENCHI|2026-11-22T23:30:35Z|with_books,with_books,nba:26NOV22DENCHI,DEN at CHI,nba,27.9,89.7,2026-11-22T23:30:35Z,confirmation,0.012265,,1/2,-0.009593,,,leg_not_quoted
+2026-11-22T23:45:18Z,nba:26NOV22DENCHI|2026-11-22T23:30:35Z|with_books,with_books,nba:26NOV22DENCHI,DEN at CHI,nba,14.7,882.5,2026-11-22T23:30:35Z,scheduled,0.012265,,1/2,-0.011726,,,leg_not_quoted

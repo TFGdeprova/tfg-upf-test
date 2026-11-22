@@ -2368,3 +2368,14 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-22T22:30:36Z,nba:26NOV22OKCMIA,OKC at MIA,nba,29.4,scheduled,14,-0.009593,-0.009593,no gap,,,
 2026-11-22T22:45:15Z,nba:26NOV22OKCMIA,OKC at MIA,nba,14.7,scheduled,14,-0.008757,-0.005911,no gap,,,
 2026-11-22T22:55:19Z,nba:26NOV22OKCMIA,OKC at MIA,nba,4.7,scheduled,14,-0.006792,-0.006792,no gap,,,
+2026-11-22T23:30:35Z,nba:26NOV22ORLWAS,ORL at WAS,nba,29.4,scheduled,12,-0.013066,-0.01082,no gap,,,
+2026-11-22T23:30:35Z,nba:26NOV22DENCHI,DEN at CHI,nba,29.4,scheduled,18,-0.009593,0.012265,seen,19266.51,nba:26NOV22DENCHI|2026-11-22T23:30:35Z|with_books,PM NO 0.460 x0.478 Nuggets vs. Bulls: O/U 236.5 | onexbet totals Over 236.5 @1.94 x0.522
+2026-11-22T23:30:35Z,nba:26NOV22DALUTA,DAL at UTA,nba,29.4,scheduled,14,-0.009859,-0.002677,no gap,,,
+2026-11-22T23:30:35Z,nhl:26NOV22EDMSTL,EDM at STL,nhl,29.4,scheduled,10,-0.018074,-0.006897,no gap,,,
+2026-11-22T23:30:35Z,nhl:26NOV22PITDAL,PIT at DAL,nhl,29.4,scheduled,8,-0.008755,-0.008746,no gap,,,
+2026-11-22T23:32:05Z,nba:26NOV22DENCHI,DEN at CHI,nba,27.9,confirmation,18,-0.009593,-0.009593,vanished,1.01,,PM YES 0.027 x0.028 Spread: Bulls (-17.5) | KS NO 0.980 x0.972 Chicago wins by 21+ points
+2026-11-22T23:45:19Z,nba:26NOV22ORLWAS,ORL at WAS,nba,14.7,scheduled,16,-0.011787,-0.011535,no gap,,,
+2026-11-22T23:45:19Z,nba:26NOV22DENCHI,DEN at CHI,nba,14.7,scheduled,16,-0.011726,-0.011726,no gap,,,
+2026-11-22T23:45:19Z,nba:26NOV22DALUTA,DAL at UTA,nba,14.7,scheduled,14,-0.005347,-0.005347,no gap,,,
+2026-11-22T23:45:19Z,nhl:26NOV22EDMSTL,EDM at STL,nhl,14.7,scheduled,8,-0.014242,0.014239,seen,774.99,nhl:26NOV22EDMSTL|2026-11-22T23:45:14Z|with_books,KS YES 0.410 x0.220 Over 6.5 goals scored | matchbook totals Over 5.5 @1.9 x0.265 | pinnacle totals Under 6.0 @1.97 x0.515
+2026-11-22T23:45:19Z,nhl:26NOV22PITDAL,PIT at DAL,nhl,14.7,scheduled,8,-0.008755,-0.008746,no gap,,,
