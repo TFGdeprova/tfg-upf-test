@@ -1,27 +1,27 @@
-# Paper-trading bot: status at 2026-11-22T00:02:26Z
+# Paper-trading bot: status at 2026-11-22T00:22:32Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 313 / 312 |
+| Trades executed / settled | 314 / 312 |
 | Realised profit | $-89,249.59 ≈ €-76,939.30 |
 | … Polymarket/Kalshi only | $48.43 |
 | … with bookmakers (all) | $-89,298.03 |
 | … with bookmakers licensed in Spain only | $-2,285.19 |
-| Open positions (cost) | $2,499.99 |
+| Open positions (cost) | $2,509.94 |
 | Money in transit between accounts | $0.00 |
 | Equity (cash + open at cost + in transit) | $-57,349.59 ≈ €-49,439.30 |
-| Return so far (realised / peak money in use) | -57.219% over 15.0 days |
+| Return so far (realised / peak money in use) | -57.219% over 15.1 days |
 
-Polymarket/Kalshi gaps above the threshold: below_min_size 971, executed 36, rounding 90, seen 1196, vanished 75.
-Gaps using bookmakers: below_min_size 4, executed 277, no_cash 41, rounding 3, seen 370, vanished 36 (snapshots combined with Polymarket/Kalshi: 2139).
+Polymarket/Kalshi gaps above the threshold: below_min_size 976, executed 37, rounding 95, seen 1206, vanished 75.
+Gaps using bookmakers: below_min_size 4, executed 277, no_cash 41, rounding 3, seen 370, vanished 36 (snapshots combined with Polymarket/Kalshi: 2140).
 
 `seen` = first sighting; `executed` = still there at the next check (Polymarket/Kalshi) or in the confirmation
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 1,241 (about 1.2 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
+The Odds API credits left: 1,235 (about 1.2 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
 
 ## Capital by account
 
@@ -29,8 +29,8 @@ Peak in use = the most money that was tied up in open positions at the same time
 
 | account | start | cash now | in open positions | peak in use | lowest cash |
 |---|---|---|---|---|---|
-| Polymarket | $5,800.00 | $11,436.92 | $1,188.23 | $4,486.78 | $2,369.73 |
-| Kalshi | $5,800.00 | $7,254.92 | $0.00 | $2,216.01 | $2,967.42 |
+| Polymarket | $5,800.00 | $11,428.47 | $1,196.69 | $4,486.78 | $2,369.73 |
+| Kalshi | $5,800.00 | $7,253.43 | $1.49 | $2,216.01 | $2,967.42 |
 | betanysports | $580.00 | $-585.80 | $0.00 | $4,190.72 | $-3,610.72 |
 | betfair_ex_eu (Spain) | $580.00 | $66.22 | $0.00 | $386.85 | $66.22 |
 | betfair_ex_uk (Spain) | $580.00 | $117.16 | $0.00 | $388.80 | $117.16 |
@@ -77,12 +77,12 @@ Gaps above 0.1% followed: 185 Polymarket/Kalshi and 411 with bookmakers. A re-ch
 
 | re-check | measured | still profitable | above 0.2% | a leg no longer offered | censored |
 |---|---|---|---|---|---|
-| +30 s | 183 | 146 | 107 | 1 | 0 |
-| +1 min | 182 | 137 | 99 | 1 | 1 |
-| +2 min | 179 | 120 | 81 | 2 | 3 |
-| +5 min | 169 | 87 | 62 | 4 | 11 |
+| +30 s | 184 | 147 | 108 | 1 | 0 |
+| +1 min | 183 | 138 | 100 | 1 | 1 |
+| +2 min | 180 | 121 | 82 | 2 | 3 |
+| +5 min | 170 | 88 | 63 | 4 | 11 |
 | bookmaker confirmation (~1 min) | 731 | 402 | 396 | 15 | 0 |
-| next bookmaker snapshot | 597 | 157 | 149 | 19 | 0 |
+| next bookmaker snapshot | 598 | 157 | 149 | 19 | 0 |
 
 Depth at detection (capacity = largest size still profitable after walking the order books):
 
@@ -95,6 +95,7 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 
 | # | time (UTC) | game | min to KO | with bookmakers | gap | cost | guaranteed profit | status | P&L |
 |---|---|---|---|---|---|---|---|---|---|
+| 314 | 11-22T00:07 | BOS at SAC | 172.3 | no | 0.49% | $9.95 | $0.04 | open |  |
 | 313 | 11-21T22:31 | POR at NYK | 118.1 | pinnacle | 1.79% | $2499.99 | $44.82 | open |  |
 | 312 | 11-21T19:56 | Real Madrid CF v RC Celta de Vigo | 3.2 | betfair_ex_uk, marathonbet, matchbook | 0.79% | $2499.99 | $19.61 | settled | $+19.74 |
 | 311 | 11-21T19:46 | Real Madrid CF v RC Celta de Vigo | 13.2 | betfair_ex_uk, marathonbet, smarkets | 0.40% | $2499.99 | $9.94 | settled | $+10.01 |
@@ -119,4 +120,3 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 | 292 | 11-21T17:17 | FC Schalke 04 v VfB Stuttgart | 12.8 | matchbook, onexbet, unibet_uk | 0.76% | $2499.99 | $19.03 | settled | $+19.03 |
 | 291 | 11-21T17:17 | Sevilla FC v Real Betis Balompié | 12.8 | matchbook, onexbet | 0.26% | $2499.98 | $6.40 | settled | $+6.41 |
 | 290 | 11-21T17:17 | Newcastle United FC v Arsenal FC | 12.8 | betonlineag, gtbets | 2.02% | $2499.98 | $50.35 | settled | $+50.38 |
-| 289 | 11-21T17:02 | FC Groningen v SC Heerenveen | 177.7 | matchbook, smarkets, unibet_nl | 0.30% | $2499.99 | $7.37 | settled | $+7.38 |
