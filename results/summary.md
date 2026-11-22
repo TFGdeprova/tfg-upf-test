@@ -1,18 +1,18 @@
-# Paper-trading bot: status at 2026-11-22T03:23:03Z
+# Paper-trading bot: status at 2026-11-22T03:43:01Z
 
 Started 2026-11-06T22:51:30Z. **Unlimited capital** (test of the opportunities): cash never limits a trade; Polymarket/Kalshi trades take the full size shown at the best prices and trades that use bookmakers (which publish no depth) are capped at $2,500.00. The capital the strategy needed is the peak money in use (table below). Balances start from the earlier reference amounts (Polymarket and Kalshi $5,800.00 each, €500 per bookmaker) and may go below zero. Euro amounts at 1.16 USD/EUR.
 
 | | |
 |---|---|
-| Trades executed / settled | 316 / 312 |
-| Realised profit | $-89,249.59 ≈ €-76,939.30 |
+| Trades executed / settled | 316 / 313 |
+| Realised profit | $-89,204.77 ≈ €-76,900.66 |
 | … Polymarket/Kalshi only | $48.43 |
-| … with bookmakers (all) | $-89,298.03 |
+| … with bookmakers (all) | $-89,253.20 |
 | … with bookmakers licensed in Spain only | $-2,285.19 |
-| Open positions (cost) | $7,509.92 |
+| Open positions (cost) | $5,009.93 |
 | Money in transit between accounts | $0.00 |
-| Equity (cash + open at cost + in transit) | $-57,349.59 ≈ €-49,439.30 |
-| Return so far (realised / peak money in use) | -57.219% over 15.2 days |
+| Equity (cash + open at cost + in transit) | $-57,304.77 ≈ €-49,400.66 |
+| Return so far (realised / peak money in use) | -57.190% over 15.2 days |
 
 Polymarket/Kalshi gaps above the threshold: below_min_size 982, executed 37, rounding 95, seen 1213, vanished 76.
 Gaps using bookmakers: below_min_size 4, executed 279, no_cash 41, rounding 3, seen 372, vanished 36 (snapshots combined with Polymarket/Kalshi: 2169).
@@ -21,7 +21,7 @@ Gaps using bookmakers: below_min_size 4, executed 279, no_cash 41, rounding 3, s
 snapshot (bookmakers) and filled; `vanished` = gone by then; `below_min_size` / `rounding` / `no_cash` = too small to
 fill, or not enough cash on an account.
 
-The Odds API credits left: 1,133 (about 1.2 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
+The Odds API credits left: 1,131 (about 1.2 days at the current pace). **Add keys soon: below 3 days only the last 3 snapshots per kick-off are taken.**
 
 ## Capital by account
 
@@ -29,7 +29,7 @@ Peak in use = the most money that was tied up in open positions at the same time
 
 | account | start | cash now | in open positions | peak in use | lowest cash |
 |---|---|---|---|---|---|
-| Polymarket | $5,800.00 | $11,428.47 | $1,196.69 | $4,486.78 | $2,369.73 |
+| Polymarket | $5,800.00 | $11,428.47 | $8.46 | $4,486.78 | $2,369.73 |
 | Kalshi | $5,800.00 | $7,253.43 | $1.49 | $2,216.01 | $2,967.42 |
 | betanysports | $580.00 | $-585.80 | $0.00 | $4,190.72 | $-3,610.72 |
 | betfair_ex_eu (Spain) | $580.00 | $66.22 | $0.00 | $386.85 | $66.22 |
@@ -57,7 +57,7 @@ Peak in use = the most money that was tied up in open positions at the same time
 | mybookieag | $580.00 | $-4,546.41 | $0.00 | $4,422.60 | $-7,124.16 |
 | nordicbet | $580.00 | $3,609.94 | $0.00 | $1,993.38 | $-1,413.38 |
 | onexbet | $580.00 | $-67,479.62 | $0.00 | $69,050.38 | $-102,003.41 |
-| pinnacle | $580.00 | $-857.30 | $1,311.76 | $10,216.96 | $-12,586.95 |
+| pinnacle | $580.00 | $1,687.51 | $0.00 | $10,216.96 | $-12,586.95 |
 | skybet | $580.00 | $-1,150.75 | $0.00 | $775.64 | $-1,150.75 |
 | smarkets | $580.00 | $4,995.84 | $0.00 | $15,944.68 | $-12,057.08 |
 | tipico_de | $580.00 | $-1,205.07 | $0.00 | $5,851.05 | $-3,710.95 |
@@ -98,7 +98,7 @@ Details: `results/rechecks.csv`, `results/depth.csv`.
 | 316 | 11-22T02:56 | SEA at SJ | 3.3 | coolbet, matchbook | 2.84% | $2499.99 | $70.92 | open |  |
 | 315 | 11-22T02:56 | MIN at VAN | 3.3 | coolbet, williamhill | 2.24% | $2499.99 | $55.95 | open |  |
 | 314 | 11-22T00:07 | BOS at SAC | 172.3 | no | 0.49% | $9.95 | $0.04 | open |  |
-| 313 | 11-21T22:31 | POR at NYK | 118.1 | pinnacle | 1.79% | $2499.99 | $44.82 | open |  |
+| 313 | 11-21T22:31 | POR at NYK | 118.1 | pinnacle | 1.79% | $2499.99 | $44.82 | settled | $+44.82 |
 | 312 | 11-21T19:56 | Real Madrid CF v RC Celta de Vigo | 3.2 | betfair_ex_uk, marathonbet, matchbook | 0.79% | $2499.99 | $19.61 | settled | $+19.74 |
 | 311 | 11-21T19:46 | Real Madrid CF v RC Celta de Vigo | 13.2 | betfair_ex_uk, marathonbet, smarkets | 0.40% | $2499.99 | $9.94 | settled | $+10.01 |
 | 310 | 11-21T19:41 | AS Monaco FC v AJ Auxerre | 3.0 | smarkets, unibet_se | 0.64% | $2499.99 | $16.04 | settled | $+16.04 |

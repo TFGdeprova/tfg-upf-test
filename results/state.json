@@ -3,7 +3,7 @@
   "PM": 11428.465100000001,
   "KS": 7253.429999999998,
   "BK:smarkets": 4995.840194000002,
-  "BK:pinnacle": -857.3011999999978,
+  "BK:pinnacle": 1687.513200000002,
   "BK:onexbet": -67479.62430000001,
   "BK:matchbook": 6840.579392000002,
   "BK:leovegas_se": -16543.034020000025,
@@ -78,67 +78,6 @@
   "BK:nordicbet": 580.0
  },
  "open": [
-  {
-   "trade_id": 313,
-   "time": "2026-11-21T22:31:54Z",
-   "game": "nba:26NOV21PORNYK",
-   "title": "POR at NYK",
-   "league": "nba",
-   "kickoff": "2026-11-22T00:30:00Z",
-   "min_to_ko": 118.1,
-   "t_lp": 0.01793,
-   "with_books": true,
-   "books": [
-    "pinnacle"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "232f705eea406644ff14ad17bcf9aea6",
-    "sport": "basketball_nba",
-    "home": "New York Knicks",
-    "away": "Portland Trail Blazers"
-   },
-   "cost": 2499.9912,
-   "guaranteed_payout": 2544.8144,
-   "guaranteed_profit": 44.8232,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x185cb1f15b108d50d5cecfb00fdd906d65087cd8679995825d4ae88ba24dd751",
-     "label": "Trail Blazers vs. Knicks: O/U 216.5",
-     "side": "YES",
-     "price": 0.44,
-     "shares": 1311.76,
-     "fee": 16.16088,
-     "cost": 593.3353
-    },
-    {
-     "venue": "PM",
-     "id": "0x502fcf8b2a2fe089e9c8db1b506595136d5b998ee3346b25e9bf4f433202935d",
-     "label": "Trail Blazers vs. Knicks: O/U 215.5",
-     "side": "YES",
-     "price": 0.47,
-     "shares": 1233.06,
-     "fee": 15.35776,
-     "cost": 594.896
-    },
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "totals",
-     "outcome": "Under",
-     "side": "under",
-     "point": 216.0,
-     "odds": 1.94,
-     "eff": 1.94,
-     "three_way": false,
-     "stake": 1311.76,
-     "cost": 1311.76,
-     "label": "totals Under 216.0 @1.94"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 314,
    "time": "2026-11-22T00:07:43Z",
@@ -332,14 +271,14 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 316,
- "n_settled": 312,
- "realized_pnl": -89249.59333400006,
+ "n_settled": 313,
+ "realized_pnl": -89204.77013400006,
  "runs": 71,
  "locked": {
-  "PM": 1196.6900000000003,
+  "PM": 8.458700000000363,
   "KS": 1.4900000000000035,
   "BK:smarkets": 0.0,
-  "BK:pinnacle": 1311.7600000000002,
+  "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 6.821210263296962e-12,
   "BK:matchbook": 1331.39,
   "BK:leovegas_se": 1.7394086171407253e-11,
@@ -462,7 +401,7 @@
  "odds": {
   "remaining": {
    "1": 105,
-   "2": 110,
+   "2": 108,
    "3": 109,
    "4": 108,
    "5": 104,
@@ -491,7 +430,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 120
+   "2026-11-22": 122
   }
  },
  "book_slots": {
