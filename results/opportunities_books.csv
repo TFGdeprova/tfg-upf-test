@@ -2194,3 +2194,5 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-22T11:30:24Z,ere:26NOV22AJAADO,AFC Ajax v ADO Den Haag,ere,119.6,scheduled,11,-0.003369,-0.003108,no gap,,,
 2026-11-22T11:30:24Z,bun:26NOV22FCAM05,FC Augsburg v 1. FSV Mainz 05,bun,179.6,scheduled,9,-0.003378,0.001064,no gap,,bun:26NOV22FCAM05|2026-11-22T11:30:24Z|with_books,
 2026-11-22T11:31:53Z,elc:26NOV22BURBLA,Burnley FC v Blackburn Rovers FC,elc,28.1,confirmation,7,-0.003078,0.00998,executed,,,matchbook h2h Blackburn Rovers  @4.6 x0.223 | leovegas_se h2h Burnley  @1.94 x0.521 | matchbook h2h Draw  @4.0 x0.256
+2026-11-22T11:45:27Z,elc:26NOV22BURBLA,Burnley FC v Blackburn Rovers FC,elc,14.5,scheduled,7,-0.002981,0.007806,seen,,elc:26NOV22BURBLA|2026-11-22T11:45:25Z|with_books,matchbook h2h Blackburn Rovers  @4.7 x0.218 | leovegas_se h2h Burnley  @1.91 x0.528 | pinnacle h2h Draw  @3.96 x0.254
+2026-11-22T11:46:59Z,elc:26NOV22BURBLA,Burnley FC v Blackburn Rovers FC,elc,13.0,confirmation,7,-0.001937,0.022533,executed,,,matchbook h2h Blackburn Rovers  @4.8 x0.216 | leovegas_se h2h Burnley  @1.91 x0.535 | onexbet h2h Draw  @4.12 x0.248
