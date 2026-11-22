@@ -345,12 +345,12 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 344,2026-11-22T13:56:51Z,sea:26NOV22SASGEN,US Sassuolo Calcio v Genoa CFC,sea,2026-11-22T14:00:00Z,3.1,0.006617,True,"['boylesports', 'coolbet', 'pinnacle']",False,2499.98,2516.51,16.53,settled,2026-11-22T16:31:25Z,2516.5308,16.5508,ok,3
 345,2026-11-22T13:56:51Z,fl1:26NOV22PARANG,Paris FC v Angers SCO,fl1,2026-11-22T14:00:00Z,3.1,0.00283,True,"['betonlineag', 'unibet_se']",False,2499.99,2507.01,7.02,settled,2026-11-22T16:31:25Z,2507.073,7.083,ok,3
 346,2026-11-22T14:31:53Z,lal:26NOV22OSAMCF,CA Osasuna v Málaga CF,lal,2026-11-22T17:30:00Z,178.1,0.002832,True,"['coolbet', 'onexbet', 'unibet_se']",False,2499.98,2507.05,7.07,open,,,,,3
-347,2026-11-22T14:47:51Z,ere:26NOV22GAEFOR,Go Ahead Eagles v Fortuna Sittard,ere,2026-11-22T15:45:00Z,57.1,0.014265,True,['coral'],False,2499.9958,2535.6587,35.6629,open,,,,,2
+347,2026-11-22T14:47:51Z,ere:26NOV22GAEFOR,Go Ahead Eagles v Fortuna Sittard,ere,2026-11-22T15:45:00Z,57.1,0.014265,True,['coral'],False,2499.9958,2535.6587,35.6629,settled,2026-11-22T19:45:12Z,2535.66,35.6642,ok,2
 348,2026-11-22T15:05:46Z,nfl:26NOV22PITPHI,PIT at PHI,nfl,2026-11-22T18:00:00Z,174.2,0.00969,True,"['coolbet', 'marathonbet']",False,2499.99,2523.73,23.74,open,,,,,3
 349,2026-11-22T15:42:15Z,ere:26NOV22GAEFOR,Go Ahead Eagles v Fortuna Sittard,ere,2026-11-22T15:45:00Z,2.7,0.004474,True,"['matchbook', 'pinnacle', 'unibet_nl']",False,2499.99,2511.168,11.178,settled,2026-11-22T18:23:06Z,2511.168,11.178,ok,3
 350,2026-11-22T15:52:33Z,tur:26NOV22TRAEYU,Trabzonspor v Eyüpspor,tur,2026-11-22T16:00:00Z,7.4,0.005432,,,,26.7547,26.9,0.1453,open,,,,,5
 351,2026-11-22T16:27:11Z,epl:26NOV22LFCMUN,Liverpool FC v Manchester United FC,epl,2026-11-22T16:30:00Z,2.8,0.007821,True,"['matchbook', 'onexbet']",False,2499.99,2519.5381,19.5481,settled,2026-11-22T19:06:14Z,2519.5465,19.5565,ok,2
-352,2026-11-22T16:32:13Z,sea:26NOV22ACMFRO,AC Milan v Frosinone Calcio,sea,2026-11-22T17:00:00Z,27.8,0.004111,True,"['matchbook', 'onexbet', 'unibet_se']",False,2499.99,2510.244,10.254,open,,,,,3
+352,2026-11-22T16:32:13Z,sea:26NOV22ACMFRO,AC Milan v Frosinone Calcio,sea,2026-11-22T17:00:00Z,27.8,0.004111,True,"['matchbook', 'onexbet', 'unibet_se']",False,2499.99,2510.244,10.254,settled,2026-11-22T19:35:18Z,2510.2771,10.2871,ok,3
 353,2026-11-22T17:31:51Z,nfl:26NOV22MIABUF,MIA at BUF,nfl,2026-11-22T18:00:00Z,28.1,0.007382,True,"['coolbet', 'pinnacle']",False,2499.99,2517.79,17.8,open,,,,,3
 354,2026-11-22T17:31:52Z,nfl:26NOV22TBDET,TB at DET,nfl,2026-11-22T18:00:00Z,28.1,0.0178,True,"['marathonbet', 'mybookieag']",False,2499.98,2543.5,43.52,open,,,,,3
 355,2026-11-22T17:31:55Z,nfl:26NOV22PITPHI,PIT at PHI,nfl,2026-11-22T18:00:00Z,28.1,0.012197,True,"['coolbet', 'marathonbet']",False,2499.99,2529.66,29.67,open,,,,,3
@@ -363,3 +363,6 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 362,2026-11-22T17:56:54Z,nfl:26NOV22ARIKC,ARI at KC,nfl,2026-11-22T18:00:00Z,3.1,0.003926,True,"['coolbet', 'pinnacle']",False,2499.98,2508.88,8.9,open,,,,,3
 363,2026-11-22T17:56:54Z,nfl:26NOV22PITPHI,PIT at PHI,nfl,2026-11-22T18:00:00Z,3.1,0.020383,True,"['coolbet', 'marathonbet']",False,2499.99,2550.44,50.45,open,,,,,3
 364,2026-11-22T19:16:31Z,fl1:26NOV22OLMMAN,Olympique de Marseille v Le Mans FC,fl1,2026-11-22T19:45:00Z,28.5,0.016287,True,"['codere_it', 'unibet_se']",False,2499.98,2540.64,40.66,open,,,,,3
+365,2026-11-22T19:32:03Z,lal:26NOV22GETATM,Getafe CF v Club Atlético de Madrid,lal,2026-11-22T20:00:00Z,27.9,0.01401,True,"['onexbet', 'smarkets', 'unibet_se']",False,2499.99,2534.96,34.97,open,,,,,3
+366,2026-11-22T19:32:03Z,fl1:26NOV22OLMMAN,Olympique de Marseille v Le Mans FC,fl1,2026-11-22T19:45:00Z,12.9,0.003937,True,"['coral', 'unibet_se']",False,2499.98,2509.8,9.82,open,,,,,3
+367,2026-11-22T19:42:01Z,fl1:26NOV22OLMMAN,Olympique de Marseille v Le Mans FC,fl1,2026-11-22T19:45:00Z,3.0,0.003937,True,"['coral', 'unibet_se']",False,2499.98,2509.8,9.82,open,,,,,3

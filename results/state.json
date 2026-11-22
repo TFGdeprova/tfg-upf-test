@@ -1,21 +1,21 @@
 {
  "cash": {
-  "PM": 11574.1515,
+  "PM": 14109.8115,
   "KS": 7246.399999999998,
-  "BK:smarkets": 6159.1157140000005,
+  "BK:smarkets": 5560.385714,
   "BK:pinnacle": -10445.455999999998,
-  "BK:onexbet": -70617.59570000005,
-  "BK:matchbook": 12061.687226000002,
+  "BK:onexbet": -72201.98570000005,
+  "BK:matchbook": 14571.964346,
   "BK:leovegas_se": -20519.714020000025,
   "BK:gtbets": -1124.5264999999995,
   "BK:winamax_de": 1144.1699999999996,
   "BK:grosvenor": 580.0,
-  "BK:unibet_se": -14624.391800000014,
+  "BK:unibet_se": -16594.781800000015,
   "BK:tipico_de": -1205.0719999999997,
   "BK:coolbet": 2910.1951000000013,
   "BK:unibet_nl": -5685.010000000003,
   "BK:marathonbet": -19635.572399999997,
-  "BK:coral": -1024.3719999999994,
+  "BK:coral": -4370.812,
   "BK:betfair_ex_uk": 117.15999999999998,
   "BK:betfred_uk": -768.02,
   "BK:betfair_ex_eu": 1737.8105500000001,
@@ -150,57 +150,6 @@
    "status": "open"
   },
   {
-   "trade_id": 347,
-   "time": "2026-11-22T14:47:51Z",
-   "game": "ere:26NOV22GAEFOR",
-   "title": "Go Ahead Eagles v Fortuna Sittard",
-   "league": "ere",
-   "kickoff": "2026-11-22T15:45:00Z",
-   "min_to_ko": 57.1,
-   "t_lp": 0.014265,
-   "with_books": true,
-   "books": [
-    "coral"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "f0c241457472f32fc55b90b2b95b665b",
-    "sport": "soccer_netherlands_eredivisie",
-    "home": "Go Ahead Eagles",
-    "away": "Fortuna Sittard"
-   },
-   "cost": 2499.9958,
-   "guaranteed_payout": 2535.6587,
-   "guaranteed_profit": 35.6629,
-   "legs": [
-    {
-     "venue": "PM",
-     "id": "0x97ec7fc4c21d2ff4e9d480b868ef0bd663888972c74416bcddb2c500d61ef2bd",
-     "label": "Will Go Ahead Eagles win on 2026-11-22?",
-     "side": "NO",
-     "price": 0.44999999999999996,
-     "shares": 2535.66,
-     "fee": 31.37879,
-     "cost": 1172.4258
-    },
-    {
-     "venue": "BK:coral",
-     "book": "coral",
-     "market": "h2h",
-     "outcome": "Go Ahead Eagles",
-     "side": "home",
-     "point": null,
-     "odds": 1.91,
-     "eff": 1.91,
-     "three_way": true,
-     "stake": 1327.57,
-     "cost": 1327.57,
-     "label": "h2h Go Ahead Eagles  @1.91"
-    }
-   ],
-   "status": "open"
-  },
-  {
    "trade_id": 348,
    "time": "2026-11-22T15:05:46Z",
    "game": "nfl:26NOV22PITPHI",
@@ -328,77 +277,6 @@
      "shares": 26.9,
      "fee": 0.01595,
      "cost": 0.3387
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 352,
-   "time": "2026-11-22T16:32:13Z",
-   "game": "sea:26NOV22ACMFRO",
-   "title": "AC Milan v Frosinone Calcio",
-   "league": "sea",
-   "kickoff": "2026-11-22T17:00:00Z",
-   "min_to_ko": 27.8,
-   "t_lp": 0.004111,
-   "with_books": true,
-   "books": [
-    "matchbook",
-    "onexbet",
-    "unibet_se"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "5faf836ce6c0fd72af5d1fe258c63bc6",
-    "sport": "soccer_italy_serie_a",
-    "home": "AC Milan",
-    "away": "Frosinone"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2510.244,
-   "guaranteed_profit": 10.254,
-   "legs": [
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "AC Milan",
-     "side": "home",
-     "point": null,
-     "odds": 1.69,
-     "eff": 1.6762,
-     "three_way": true,
-     "stake": 1497.6,
-     "cost": 1497.6,
-     "label": "h2h AC Milan  @1.69"
-    },
-    {
-     "venue": "BK:unibet_se",
-     "book": "unibet_se",
-     "market": "h2h",
-     "outcome": "Frosinone",
-     "side": "away",
-     "point": null,
-     "odds": 5.4,
-     "eff": 5.4,
-     "three_way": true,
-     "stake": 464.86,
-     "cost": 464.86,
-     "label": "h2h Frosinone  @5.4"
-    },
-    {
-     "venue": "BK:onexbet",
-     "book": "onexbet",
-     "market": "h2h",
-     "outcome": "Draw",
-     "side": "draw",
-     "point": null,
-     "odds": 4.67,
-     "eff": 4.67,
-     "three_way": true,
-     "stake": 537.53,
-     "cost": 537.53,
-     "label": "h2h Draw  @4.67"
     }
    ],
    "status": "open"
@@ -1198,6 +1076,217 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 365,
+   "time": "2026-11-22T19:32:03Z",
+   "game": "lal:26NOV22GETATM",
+   "title": "Getafe CF v Club Atl\u00e9tico de Madrid",
+   "league": "lal",
+   "kickoff": "2026-11-22T20:00:00Z",
+   "min_to_ko": 27.9,
+   "t_lp": 0.01401,
+   "with_books": true,
+   "books": [
+    "onexbet",
+    "smarkets",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "7a62fe738bd20cfff6027c52fec05d51",
+    "sport": "soccer_spain_la_liga",
+    "home": "Getafe",
+    "away": "Atl\u00e9tico Madrid"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2534.96,
+   "guaranteed_profit": 34.97,
+   "legs": [
+    {
+     "venue": "BK:onexbet",
+     "book": "onexbet",
+     "market": "h2h",
+     "outcome": "Atl\u00e9tico Madrid",
+     "side": "away",
+     "point": null,
+     "odds": 1.6,
+     "eff": 1.6,
+     "three_way": true,
+     "stake": 1584.39,
+     "cost": 1584.39,
+     "label": "h2h Atl\u00e9tico Madrid  @1.6"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Getafe",
+     "side": "home",
+     "point": null,
+     "odds": 8.0,
+     "eff": 8.0,
+     "three_way": true,
+     "stake": 316.87,
+     "cost": 316.87,
+     "label": "h2h Getafe  @8.0"
+    },
+    {
+     "venue": "BK:smarkets",
+     "book": "smarkets",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 4.3,
+     "eff": 4.234,
+     "three_way": true,
+     "stake": 598.73,
+     "cost": 598.73,
+     "label": "h2h Draw  @4.3"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 366,
+   "time": "2026-11-22T19:32:03Z",
+   "game": "fl1:26NOV22OLMMAN",
+   "title": "Olympique de Marseille v Le Mans FC",
+   "league": "fl1",
+   "kickoff": "2026-11-22T19:45:00Z",
+   "min_to_ko": 12.9,
+   "t_lp": 0.003937,
+   "with_books": true,
+   "books": [
+    "coral",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "98fae24771271c96d5dd364e535405d2",
+    "sport": "soccer_france_ligue_one",
+    "home": "Marseille",
+    "away": "Le Mans FC"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2509.8,
+   "guaranteed_profit": 9.82,
+   "legs": [
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Le Mans FC",
+     "side": "away",
+     "point": null,
+     "odds": 7.5,
+     "eff": 7.5,
+     "three_way": true,
+     "stake": 334.64,
+     "cost": 334.64,
+     "label": "h2h Le Mans FC  @7.5"
+    },
+    {
+     "venue": "BK:coral",
+     "book": "coral",
+     "market": "h2h",
+     "outcome": "Marseille",
+     "side": "home",
+     "point": null,
+     "odds": 1.5,
+     "eff": 1.5,
+     "three_way": true,
+     "stake": 1673.22,
+     "cost": 1673.22,
+     "label": "h2h Marseille  @1.5"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 5.1,
+     "eff": 5.1,
+     "three_way": true,
+     "stake": 492.12,
+     "cost": 492.12,
+     "label": "h2h Draw  @5.1"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 367,
+   "time": "2026-11-22T19:42:01Z",
+   "game": "fl1:26NOV22OLMMAN",
+   "title": "Olympique de Marseille v Le Mans FC",
+   "league": "fl1",
+   "kickoff": "2026-11-22T19:45:00Z",
+   "min_to_ko": 3.0,
+   "t_lp": 0.003937,
+   "with_books": true,
+   "books": [
+    "coral",
+    "unibet_se"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "98fae24771271c96d5dd364e535405d2",
+    "sport": "soccer_france_ligue_one",
+    "home": "Marseille",
+    "away": "Le Mans FC"
+   },
+   "cost": 2499.98,
+   "guaranteed_payout": 2509.8,
+   "guaranteed_profit": 9.82,
+   "legs": [
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Le Mans FC",
+     "side": "away",
+     "point": null,
+     "odds": 7.5,
+     "eff": 7.5,
+     "three_way": true,
+     "stake": 334.64,
+     "cost": 334.64,
+     "label": "h2h Le Mans FC  @7.5"
+    },
+    {
+     "venue": "BK:coral",
+     "book": "coral",
+     "market": "h2h",
+     "outcome": "Marseille",
+     "side": "home",
+     "point": null,
+     "odds": 1.5,
+     "eff": 1.5,
+     "three_way": true,
+     "stake": 1673.22,
+     "cost": 1673.22,
+     "label": "h2h Marseille  @1.5"
+    },
+    {
+     "venue": "BK:unibet_se",
+     "book": "unibet_se",
+     "market": "h2h",
+     "outcome": "Draw",
+     "side": "draw",
+     "point": null,
+     "odds": 5.1,
+     "eff": 5.1,
+     "three_way": true,
+     "stake": 492.12,
+     "cost": 492.12,
+     "label": "h2h Draw  @5.1"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -1263,27 +1352,27 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 364,
- "n_settled": 347,
- "realized_pnl": -88154.9482300001,
+ "n_trades": 367,
+ "n_settled": 349,
+ "realized_pnl": -88108.9969100001,
  "runs": 75,
  "locked": {
-  "PM": 1322.0793000000006,
+  "PM": 149.65350000000058,
   "KS": 3.610000000000004,
-  "BK:smarkets": 0.0,
+  "BK:smarkets": 598.73,
   "BK:pinnacle": 11416.479999999998,
-  "BK:onexbet": 1051.2700000000048,
-  "BK:matchbook": 1497.6000000000013,
+  "BK:onexbet": 2098.1300000000047,
+  "BK:matchbook": 1.3642420526593924e-12,
   "BK:leovegas_se": 1.7053025658242404e-11,
   "BK:gtbets": 0.0,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
-  "BK:unibet_se": 1930.7800000000134,
+  "BK:unibet_se": 3436.3100000000127,
   "BK:tipico_de": 0.0,
   "BK:coolbet": 5975.39,
   "BK:unibet_nl": 2.5011104298755527e-12,
   "BK:marathonbet": 11315.96,
-  "BK:coral": 1327.5699999999997,
+  "BK:coral": 3346.4400000000005,
   "BK:betfair_ex_uk": 1.4210854715202004e-14,
   "BK:betfred_uk": 0.0,
   "BK:betfair_ex_eu": 0.0,
@@ -1393,19 +1482,19 @@
  "peak_total_locked": 155979.6216,
  "odds": {
   "remaining": {
-   "1": 49,
+   "1": 43,
    "2": 46,
-   "3": 51,
-   "4": 48,
-   "5": 50,
-   "6": 51,
+   "3": 45,
+   "4": 42,
+   "5": 42,
+   "6": 45,
    "7": 46,
-   "8": 51,
-   "9": 51,
-   "10": 52,
+   "8": 45,
+   "9": 45,
+   "10": 46,
    "11": 46,
    "12": 46,
-   "13": 50
+   "13": 44
   },
   "spent": {
    "2026-11-06": 27,
@@ -1423,7 +1512,7 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 876
+   "2026-11-22": 932
   }
  },
  "book_slots": {
@@ -1779,6 +1868,12 @@
   "nfl|2026-11-22T18:00|15": "2026-11-22T17:45:26Z",
   "nfl|2026-11-22T18:00|5": "2026-11-22T17:55:06Z",
   "sea|2026-11-22T19:45|30": "2026-11-22T19:15:01Z",
-  "fl1|2026-11-22T19:45|30": "2026-11-22T19:15:01Z"
+  "fl1|2026-11-22T19:45|30": "2026-11-22T19:15:01Z",
+  "lal|2026-11-22T20:00|30": "2026-11-22T19:30:20Z",
+  "sea|2026-11-22T19:45|15": "2026-11-22T19:30:21Z",
+  "fl1|2026-11-22T19:45|15": "2026-11-22T19:30:21Z",
+  "sea|2026-11-22T19:45|5": "2026-11-22T19:40:20Z",
+  "fl1|2026-11-22T19:45|5": "2026-11-22T19:40:20Z",
+  "lal|2026-11-22T20:00|15": "2026-11-22T19:45:01Z"
  }
 }
