@@ -2379,3 +2379,9 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-22T23:45:19Z,nba:26NOV22DALUTA,DAL at UTA,nba,14.7,scheduled,14,-0.005347,-0.005347,no gap,,,
 2026-11-22T23:45:19Z,nhl:26NOV22EDMSTL,EDM at STL,nhl,14.7,scheduled,8,-0.014242,0.014239,seen,774.99,nhl:26NOV22EDMSTL|2026-11-22T23:45:14Z|with_books,KS YES 0.410 x0.220 Over 6.5 goals scored | matchbook totals Over 5.5 @1.9 x0.265 | pinnacle totals Under 6.0 @1.97 x0.515
 2026-11-22T23:45:19Z,nhl:26NOV22PITDAL,PIT at DAL,nhl,14.7,scheduled,8,-0.008755,-0.008746,no gap,,,
+2026-11-22T23:46:34Z,nhl:26NOV22EDMSTL,EDM at STL,nhl,13.4,confirmation,6,-0.011787,-0.003038,vanished,,,matchbook totals Over 5.5 @1.9 x0.530 | betrivers totals Under 5.5 @2.12 x0.470
+2026-11-22T23:55:16Z,nba:26NOV22ORLWAS,ORL at WAS,nba,4.7,scheduled,14,-0.008353,-0.008353,no gap,,,
+2026-11-22T23:55:16Z,nba:26NOV22DENCHI,DEN at CHI,nba,4.7,scheduled,18,-0.008262,-0.006858,no gap,,,
+2026-11-22T23:55:16Z,nba:26NOV22DALUTA,DAL at UTA,nba,4.7,scheduled,16,-0.004587,-0.004587,no gap,,,
+2026-11-22T23:55:16Z,nhl:26NOV22EDMSTL,EDM at STL,nhl,4.7,scheduled,6,-0.011787,-0.0036,no gap,,,
+2026-11-22T23:55:16Z,nhl:26NOV22PITDAL,PIT at DAL,nhl,4.7,scheduled,8,-0.004518,-0.004518,no gap,,,
