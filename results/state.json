@@ -14,11 +14,11 @@
   "BK:tipico_de": -1205.0719999999997,
   "BK:coolbet": 16585.2221,
   "BK:unibet_nl": -8969.670000000002,
-  "BK:marathonbet": -13334.344599999997,
+  "BK:marathonbet": -8298.351799999997,
   "BK:coral": -4370.812,
   "BK:betfair_ex_uk": 117.15999999999998,
   "BK:betfred_uk": -768.02,
-  "BK:betfair_ex_eu": -401.18944999999985,
+  "BK:betfair_ex_eu": 2123.9000499999997,
   "BK:betonlineag": 1823.4884999999954,
   "BK:skybet": -1150.75,
   "BK:betrivers": 11676.5811,
@@ -80,204 +80,6 @@
   "BK:sport888": 580.0
  },
  "open": [
-  {
-   "trade_id": 371,
-   "time": "2026-11-22T21:11:59Z",
-   "game": "nfl:26NOV22JACNYG",
-   "title": "JAC at NYG",
-   "league": "nfl",
-   "kickoff": "2026-11-22T21:25:00Z",
-   "min_to_ko": 13.0,
-   "t_lp": 0.010812,
-   "with_books": true,
-   "books": [
-    "draftkings",
-    "marathonbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "8ba112fabf4e87639338a5f437c5abfe",
-    "sport": "americanfootball_nfl",
-    "home": "New York Giants",
-    "away": "Jacksonville Jaguars"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2526.7,
-   "guaranteed_profit": 26.71,
-   "legs": [
-    {
-     "venue": "KS",
-     "id": "KXNFLTIE-26NOV22JACNYG-Y",
-     "label": "Game to end in a tie",
-     "side": "YES",
-     "price": 0.01,
-     "shares": 27,
-     "fee": 0.02,
-     "cost": 0.29
-    },
-    {
-     "venue": "BK:draftkings",
-     "book": "draftkings",
-     "market": "h2h",
-     "outcome": "Jacksonville Jaguars",
-     "side": "away",
-     "point": null,
-     "odds": 1.38,
-     "eff": 1.38,
-     "three_way": false,
-     "stake": 1831.18,
-     "cost": 1831.18,
-     "label": "h2h Jacksonville Jaguars  @1.38"
-    },
-    {
-     "venue": "BK:marathonbet",
-     "book": "marathonbet",
-     "market": "h2h",
-     "outcome": "New York Giants",
-     "side": "home",
-     "point": null,
-     "odds": 3.78,
-     "eff": 3.78,
-     "three_way": false,
-     "stake": 668.52,
-     "cost": 668.52,
-     "label": "h2h New York Giants  @3.78"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 372,
-   "time": "2026-11-22T21:21:59Z",
-   "game": "nfl:26NOV22JACNYG",
-   "title": "JAC at NYG",
-   "league": "nfl",
-   "kickoff": "2026-11-22T21:25:00Z",
-   "min_to_ko": 3.0,
-   "t_lp": 0.003597,
-   "with_books": true,
-   "books": [
-    "marathonbet",
-    "pinnacle"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "8ba112fabf4e87639338a5f437c5abfe",
-    "sport": "americanfootball_nfl",
-    "home": "New York Giants",
-    "away": "Jacksonville Jaguars"
-   },
-   "cost": 2500.0,
-   "guaranteed_payout": 2508.9,
-   "guaranteed_profit": 8.9,
-   "legs": [
-    {
-     "venue": "KS",
-     "id": "KXNFLTIE-26NOV22JACNYG-Y",
-     "label": "Game to end in a tie",
-     "side": "YES",
-     "price": 0.01,
-     "shares": 9,
-     "fee": 0.01,
-     "cost": 0.1
-    },
-    {
-     "venue": "BK:pinnacle",
-     "book": "pinnacle",
-     "market": "h2h",
-     "outcome": "Jacksonville Jaguars",
-     "side": "away",
-     "point": null,
-     "odds": 1.38,
-     "eff": 1.38,
-     "three_way": false,
-     "stake": 1818.11,
-     "cost": 1818.11,
-     "label": "h2h Jacksonville Jaguars  @1.38"
-    },
-    {
-     "venue": "BK:marathonbet",
-     "book": "marathonbet",
-     "market": "h2h",
-     "outcome": "New York Giants",
-     "side": "home",
-     "point": null,
-     "odds": 3.68,
-     "eff": 3.68,
-     "three_way": false,
-     "stake": 681.79,
-     "cost": 681.79,
-     "label": "h2h New York Giants  @3.68"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 373,
-   "time": "2026-11-22T21:22:01Z",
-   "game": "nfl:26NOV22LVDEN",
-   "title": "LV at DEN",
-   "league": "nfl",
-   "kickoff": "2026-11-22T21:25:00Z",
-   "min_to_ko": 3.0,
-   "t_lp": 0.010036,
-   "with_books": true,
-   "books": [
-    "betfair_ex_eu",
-    "coolbet"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "1940706a79cbcbafacdcbf231069716b",
-    "sport": "americanfootball_nfl",
-    "home": "Denver Broncos",
-    "away": "Las Vegas Raiders"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2524.72,
-   "guaranteed_profit": 24.73,
-   "legs": [
-    {
-     "venue": "KS",
-     "id": "KXNFLTIE-26NOV22LVDEN-Y",
-     "label": "Game to end in a tie",
-     "side": "YES",
-     "price": 0.01,
-     "shares": 25,
-     "fee": 0.02,
-     "cost": 0.27
-    },
-    {
-     "venue": "BK:betfair_ex_eu",
-     "book": "betfair_ex_eu",
-     "market": "h2h",
-     "outcome": "Denver Broncos",
-     "side": "home",
-     "point": null,
-     "odds": 1.19,
-     "eff": 1.1804999999999999,
-     "three_way": false,
-     "stake": 2139.0,
-     "cost": 2139.0,
-     "label": "h2h Denver Broncos  @1.19"
-    },
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "h2h",
-     "outcome": "Las Vegas Raiders",
-     "side": "away",
-     "point": null,
-     "odds": 7.0,
-     "eff": 7.0,
-     "three_way": false,
-     "stake": 360.72,
-     "cost": 360.72,
-     "label": "h2h Las Vegas Raiders  @7.0"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 374,
    "time": "2026-11-23T00:30:51Z",
@@ -725,14 +527,14 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 379,
- "n_settled": 370,
- "realized_pnl": -87583.5579100001,
+ "n_settled": 373,
+ "realized_pnl": -87522.4556100001,
  "runs": 76,
  "locked": {
   "PM": 3324.2938000000004,
-  "KS": 118.17999999999999,
+  "KS": 117.52,
   "BK:smarkets": 0.0,
-  "BK:pinnacle": 1818.1100000000001,
+  "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 4.774847184307873e-12,
   "BK:matchbook": 1774.7100000000014,
   "BK:leovegas_se": 1.7053025658242404e-11,
@@ -741,13 +543,13 @@
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 1.2846612662542611e-11,
   "BK:tipico_de": 0.0,
-  "BK:coolbet": 2075.42,
+  "BK:coolbet": 1714.7,
   "BK:unibet_nl": 3284.6600000000026,
-  "BK:marathonbet": 1350.3099999999986,
+  "BK:marathonbet": 0.0,
   "BK:coral": 4.547473508864641e-13,
   "BK:betfair_ex_uk": 1.4210854715202004e-14,
   "BK:betfred_uk": 0.0,
-  "BK:betfair_ex_eu": 2139.0,
+  "BK:betfair_ex_eu": 0.0,
   "BK:betonlineag": 1.1368683772161603e-13,
   "BK:skybet": 0.0,
   "BK:betrivers": 4.547473508864641e-13,
@@ -760,7 +562,7 @@
   "BK:boylesports": 0.0,
   "BK:fanduel": 0.0,
   "BK:bovada": 0.0,
-  "BK:draftkings": 1831.18,
+  "BK:draftkings": 0.0,
   "BK:williamhill": 650.7,
   "BK:ladbrokes_uk": 0.0,
   "BK:betus": 725.28,
@@ -1222,6 +1024,7 @@
   "nba|2026-11-23T01:30|30": "2026-11-23T01:00:01Z",
   "nfl|2026-11-23T01:20|15": "2026-11-23T01:05:01Z",
   "nba|2026-11-23T01:30|15": "2026-11-23T01:15:01Z",
-  "nfl|2026-11-23T01:20|5": "2026-11-23T01:15:01Z"
+  "nfl|2026-11-23T01:20|5": "2026-11-23T01:15:01Z",
+  "nba|2026-11-23T01:30|5": "2026-11-23T01:25:01Z"
  }
 }
