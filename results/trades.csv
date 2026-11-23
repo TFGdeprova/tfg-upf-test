@@ -372,3 +372,5 @@ trade_id,time,game,title,league,kickoff,min_to_ko,t_lp,with_books,books,spain_on
 371,2026-11-22T21:11:59Z,nfl:26NOV22JACNYG,JAC at NYG,nfl,2026-11-22T21:25:00Z,13.0,0.010812,True,"['draftkings', 'marathonbet']",False,2499.99,2526.7,26.71,open,,,,,3
 372,2026-11-22T21:21:59Z,nfl:26NOV22JACNYG,JAC at NYG,nfl,2026-11-22T21:25:00Z,3.0,0.003597,True,"['marathonbet', 'pinnacle']",False,2500.0,2508.9,8.9,open,,,,,3
 373,2026-11-22T21:22:01Z,nfl:26NOV22LVDEN,LV at DEN,nfl,2026-11-22T21:25:00Z,3.0,0.010036,True,"['betfair_ex_eu', 'coolbet']",False,2499.99,2524.72,24.73,open,,,,,3
+374,2026-11-23T00:30:51Z,nba:26NOV22INDNYK,IND at NYK,nba,2026-11-23T01:00:00Z,29.1,0.002363,,,,406.0606,407.0,0.9394,open,,,,,4
+375,2026-11-23T00:31:36Z,nba:26NOV22INDNYK,IND at NYK,nba,2026-11-23T01:00:00Z,28.4,0.041124,True,['williamhill'],True,2499.9965,2602.8,102.8035,open,,,,,2

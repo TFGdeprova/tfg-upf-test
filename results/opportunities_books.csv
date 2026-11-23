@@ -2385,3 +2385,6 @@ time,game,title,league,min_to_ko,snapshot,book_lines,t_pm_ks,t_with_books,action
 2026-11-22T23:55:16Z,nba:26NOV22DALUTA,DAL at UTA,nba,4.7,scheduled,16,-0.004587,-0.004587,no gap,,,
 2026-11-22T23:55:16Z,nhl:26NOV22EDMSTL,EDM at STL,nhl,4.7,scheduled,6,-0.011787,-0.0036,no gap,,,
 2026-11-22T23:55:16Z,nhl:26NOV22PITDAL,PIT at DAL,nhl,4.7,scheduled,8,-0.004518,-0.004518,no gap,,,
+2026-11-23T00:30:11Z,nba:26NOV22INDNYK,IND at NYK,nba,29.8,scheduled,22,0.00325,0.041124,seen,798145.17,nba:26NOV22INDNYK|2026-11-23T00:30:11Z|with_books,PM NO 0.700 x0.740 Pacers vs. Knicks | sport888 h2h Indiana Pacers  @4.0 x0.260
+2026-11-23T00:30:11Z,nhl:26NOV22CHIVAN,CHI at VAN,nhl,29.8,scheduled,6,-0.010703,-0.010388,no gap,,,
+2026-11-23T00:31:36Z,nba:26NOV22INDNYK,IND at NYK,nba,28.4,confirmation,22,-0.010292,0.041124,executed,746340.79,,PM NO 0.700 x0.740 Pacers vs. Knicks | williamhill h2h Indiana Pacers  @4.0 x0.260

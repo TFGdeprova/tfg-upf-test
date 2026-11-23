@@ -1,7 +1,7 @@
 {
  "cash": {
-  "PM": 14136.7115,
-  "KS": 7245.509999999997,
+  "PM": 11998.2344,
+  "KS": 7128.629999999996,
   "BK:smarkets": 4966.425714,
   "BK:pinnacle": 325.7792000000027,
   "BK:onexbet": -68743.79310000004,
@@ -32,7 +32,7 @@
   "BK:fanduel": 416.0315999999998,
   "BK:bovada": -244.12,
   "BK:draftkings": -4529.72,
-  "BK:williamhill": -2192.1800000000003,
+  "BK:williamhill": -2842.88,
   "BK:ladbrokes_uk": -2184.3559999999998,
   "BK:betus": -780.8719999999994,
   "BK:unibet_uk": -1287.96,
@@ -407,6 +407,113 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 374,
+   "time": "2026-11-23T00:30:51Z",
+   "game": "nba:26NOV22INDNYK",
+   "title": "IND at NYK",
+   "league": "nba",
+   "kickoff": "2026-11-23T01:00:00Z",
+   "min_to_ko": 29.1,
+   "t_lp": 0.002363,
+   "cost": 406.0606,
+   "guaranteed_payout": 407.0,
+   "guaranteed_profit": 0.9394,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x3b3748b734fb393de1e14f5c3fe9ef400e123faaf9a3595361378564f8e33a7d",
+     "label": "Pacers vs. Knicks",
+     "side": "NO",
+     "price": 0.7,
+     "shares": 407.01,
+     "fee": 4.2736,
+     "cost": 289.1806
+    },
+    {
+     "venue": "KS",
+     "id": "KXNBAWINMARGIN-26NOV22INDNYK-IND11PLUS",
+     "label": "Indiana wins by 11+ points",
+     "side": "YES",
+     "price": 0.09,
+     "shares": 407,
+     "fee": 2.34,
+     "cost": 38.97
+    },
+    {
+     "venue": "KS",
+     "id": "KXNBAWINMARGIN-26NOV22INDNYK-IND1TO5",
+     "label": "Indiana wins by 1-5 points",
+     "side": "YES",
+     "price": 0.11,
+     "shares": 407,
+     "fee": 2.79,
+     "cost": 47.56
+    },
+    {
+     "venue": "KS",
+     "id": "KXNBAWINMARGIN-26NOV22INDNYK-IND6TO10",
+     "label": "Indiana wins by 6-10 points",
+     "side": "YES",
+     "price": 0.07,
+     "shares": 407,
+     "fee": 1.86,
+     "cost": 30.35
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 375,
+   "time": "2026-11-23T00:31:36Z",
+   "game": "nba:26NOV22INDNYK",
+   "title": "IND at NYK",
+   "league": "nba",
+   "kickoff": "2026-11-23T01:00:00Z",
+   "min_to_ko": 28.4,
+   "t_lp": 0.041124,
+   "with_books": true,
+   "books": [
+    "williamhill"
+   ],
+   "spain_only": true,
+   "event": {
+    "id": "031fa761cc38e1b5afd9309b731b38b2",
+    "sport": "basketball_nba",
+    "home": "New York Knicks",
+    "away": "Indiana Pacers"
+   },
+   "cost": 2499.9965,
+   "guaranteed_payout": 2602.8,
+   "guaranteed_profit": 102.8035,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0x3b3748b734fb393de1e14f5c3fe9ef400e123faaf9a3595361378564f8e33a7d",
+     "label": "Pacers vs. Knicks",
+     "side": "NO",
+     "price": 0.7,
+     "shares": 2602.81,
+     "fee": 27.32951,
+     "cost": 1849.2965
+    },
+    {
+     "venue": "BK:williamhill",
+     "book": "williamhill",
+     "market": "h2h",
+     "outcome": "Indiana Pacers",
+     "side": "away",
+     "point": null,
+     "odds": 4.0,
+     "eff": 4.0,
+     "three_way": false,
+     "stake": 650.7,
+     "cost": 650.7,
+     "label": "h2h Indiana Pacers  @4.0"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -481,16 +588,32 @@
   "KS|KXNFLTIE-26NOV22LVDEN-Y|YES|0.0100": {
    "n": 25.0,
    "t": "2026-11-22T21:22:01Z"
+  },
+  "PM|0x3b3748b734fb393de1e14f5c3fe9ef400e123faaf9a3595361378564f8e33a7d|NO|0.7000": {
+   "n": 3009.8199999999997,
+   "t": "2026-11-23T00:31:36Z"
+  },
+  "KS|KXNBAWINMARGIN-26NOV22INDNYK-IND11PLUS|YES|0.0900": {
+   "n": 407.0,
+   "t": "2026-11-23T00:30:51Z"
+  },
+  "KS|KXNBAWINMARGIN-26NOV22INDNYK-IND1TO5|YES|0.1100": {
+   "n": 407.0,
+   "t": "2026-11-23T00:30:51Z"
+  },
+  "KS|KXNBAWINMARGIN-26NOV22INDNYK-IND6TO10|YES|0.0700": {
+   "n": 407.0,
+   "t": "2026-11-23T00:30:51Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 373,
+ "n_trades": 375,
  "n_settled": 368,
  "realized_pnl": -87604.1478100001,
  "runs": 76,
  "locked": {
-  "PM": 5.542233338928781e-13,
-  "KS": 0.8900000000000035,
+  "PM": 2138.4771000000005,
+  "KS": 117.77000000000001,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 1818.1100000000001,
   "BK:onexbet": 4.774847184307873e-12,
@@ -521,7 +644,7 @@
   "BK:fanduel": 0.0,
   "BK:bovada": 0.0,
   "BK:draftkings": 1831.18,
-  "BK:williamhill": 0.0,
+  "BK:williamhill": 650.7,
   "BK:ladbrokes_uk": 0.0,
   "BK:betus": 0.0,
   "BK:unibet_uk": 0.0,
@@ -621,12 +744,12 @@
    "5": 30,
    "6": 31,
    "7": 28,
-   "8": 33,
-   "9": 33,
+   "8": 27,
+   "9": 27,
    "10": 28,
    "11": 30,
    "12": 28,
-   "13": 32
+   "13": 26
   },
   "spent": {
    "2026-11-06": 27,
@@ -644,7 +767,8 @@
    "2026-11-19": 300,
    "2026-11-20": 530,
    "2026-11-21": 1458,
-   "2026-11-22": 1120
+   "2026-11-22": 1120,
+   "2026-11-23": 18
   }
  },
  "book_slots": {
@@ -967,6 +1091,8 @@
   "nba|2026-11-23T00:00|15": "2026-11-22T23:45:07Z",
   "nhl|2026-11-23T00:00|15": "2026-11-22T23:45:08Z",
   "nba|2026-11-23T00:00|5": "2026-11-22T23:55:06Z",
-  "nhl|2026-11-23T00:00|5": "2026-11-22T23:55:06Z"
+  "nhl|2026-11-23T00:00|5": "2026-11-22T23:55:06Z",
+  "nba|2026-11-23T01:00|30": "2026-11-23T00:30:01Z",
+  "nhl|2026-11-23T01:00|30": "2026-11-23T00:30:06Z"
  }
 }
