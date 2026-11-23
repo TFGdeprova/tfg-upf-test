@@ -1,7 +1,7 @@
 {
  "run": 76,
  "run_started": "2026-11-23T00:20:29Z",
- "last_update": "2026-11-23T05:27:18Z",
+ "last_update": "2026-11-23T05:47:51Z",
  "code_version": "84834381c214",
  "private_raw_storage": true,
  "odds_api_keys": {
@@ -102,7 +102,7 @@
  "checks": 487,
  "errors": 0,
  "raw_snapshots": 265,
- "results_pushes": 15,
+ "results_pushes": 16,
  "raw_pushes": 5,
  "book_calls": 15,
  "book_games": 15,
@@ -114,6 +114,6 @@
  "ks_depth_calls": 243,
  "discover_errors": 0,
  "last_discover_error": null,
- "odds_credits_usable": 39,
+ "odds_credits_usable": 37,
  "odds_days_left": 0.0
 }
