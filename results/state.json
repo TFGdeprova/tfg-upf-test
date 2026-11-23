@@ -1,19 +1,19 @@
 {
  "cash": {
-  "PM": 11998.2344,
-  "KS": 7128.629999999996,
+  "PM": 10812.4177,
+  "KS": 7128.309999999996,
   "BK:smarkets": 4966.425714,
   "BK:pinnacle": 325.7792000000027,
   "BK:onexbet": -68743.79310000004,
-  "BK:matchbook": 11495.804346,
+  "BK:matchbook": 9721.094346000002,
   "BK:leovegas_se": -20519.714020000025,
   "BK:gtbets": -1124.5264999999995,
   "BK:winamax_de": 1144.1699999999996,
   "BK:grosvenor": 580.0,
   "BK:unibet_se": -9348.891800000016,
   "BK:tipico_de": -1205.0719999999997,
-  "BK:coolbet": 13279.352200000001,
-  "BK:unibet_nl": -5685.010000000003,
+  "BK:coolbet": 12422.0022,
+  "BK:unibet_nl": -7327.340000000003,
   "BK:marathonbet": -13334.344599999997,
   "BK:coral": -4370.812,
   "BK:betfair_ex_uk": 117.15999999999998,
@@ -34,9 +34,10 @@
   "BK:draftkings": -4529.72,
   "BK:williamhill": -2842.88,
   "BK:ladbrokes_uk": -2184.3559999999998,
-  "BK:betus": -780.8719999999994,
+  "BK:betus": -1506.1519999999994,
   "BK:unibet_uk": -1287.96,
-  "BK:nordicbet": 3609.9376
+  "BK:nordicbet": 3609.9376,
+  "BK:sport888": -734.1800000000001
  },
  "start_cash": {
   "PM": 5800.0,
@@ -75,7 +76,8 @@
   "BK:ladbrokes_uk": 580.0,
   "BK:betus": 580.0,
   "BK:unibet_uk": 580.0,
-  "BK:nordicbet": 580.0
+  "BK:nordicbet": 580.0,
+  "BK:sport888": 580.0
  },
  "open": [
   {
@@ -514,6 +516,179 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 376,
+   "time": "2026-11-23T00:46:36Z",
+   "game": "nba:26NOV22INDNYK",
+   "title": "IND at NYK",
+   "league": "nba",
+   "kickoff": "2026-11-23T01:00:00Z",
+   "min_to_ko": 13.4,
+   "t_lp": 0.029903,
+   "with_books": true,
+   "books": [
+    "betus",
+    "matchbook"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "031fa761cc38e1b5afd9309b731b38b2",
+    "sport": "basketball_nba",
+    "home": "New York Knicks",
+    "away": "Indiana Pacers"
+   },
+   "cost": 2499.99,
+   "guaranteed_payout": 2574.744,
+   "guaranteed_profit": 74.754,
+   "legs": [
+    {
+     "venue": "BK:betus",
+     "book": "betus",
+     "market": "h2h",
+     "outcome": "Indiana Pacers",
+     "side": "away",
+     "point": null,
+     "odds": 3.55,
+     "eff": 3.55,
+     "three_way": false,
+     "stake": 725.28,
+     "cost": 725.28,
+     "label": "h2h Indiana Pacers  @3.55"
+    },
+    {
+     "venue": "BK:matchbook",
+     "book": "matchbook",
+     "market": "h2h",
+     "outcome": "New York Knicks",
+     "side": "home",
+     "point": null,
+     "odds": 1.46,
+     "eff": 1.4508,
+     "three_way": false,
+     "stake": 1774.71,
+     "cost": 1774.71,
+     "label": "h2h New York Knicks  @1.46"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 377,
+   "time": "2026-11-23T00:51:35Z",
+   "game": "nfl:26NOV22MINSF",
+   "title": "MIN at SF",
+   "league": "nfl",
+   "kickoff": "2026-11-23T01:20:00Z",
+   "min_to_ko": 28.4,
+   "t_lp": 0.011676,
+   "with_books": true,
+   "books": [
+    "coolbet",
+    "unibet_nl"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "60e1d27b083a335b722c2c852ea85612",
+    "sport": "americanfootball_nfl",
+    "home": "San Francisco 49ers",
+    "away": "Minnesota Vikings"
+   },
+   "cost": 2500.0,
+   "guaranteed_payout": 2528.68,
+   "guaranteed_profit": 28.68,
+   "legs": [
+    {
+     "venue": "KS",
+     "id": "KXNFLTIE-26NOV22MINSF-Y",
+     "label": "Game to end in a tie",
+     "side": "YES",
+     "price": 0.01,
+     "shares": 29,
+     "fee": 0.03,
+     "cost": 0.32
+    },
+    {
+     "venue": "BK:coolbet",
+     "book": "coolbet",
+     "market": "h2h",
+     "outcome": "Minnesota Vikings",
+     "side": "away",
+     "point": null,
+     "odds": 2.95,
+     "eff": 2.95,
+     "three_way": false,
+     "stake": 857.35,
+     "cost": 857.35,
+     "label": "h2h Minnesota Vikings  @2.95"
+    },
+    {
+     "venue": "BK:unibet_nl",
+     "book": "unibet_nl",
+     "market": "h2h",
+     "outcome": "San Francisco 49ers",
+     "side": "home",
+     "point": null,
+     "odds": 1.54,
+     "eff": 1.54,
+     "three_way": false,
+     "stake": 1642.33,
+     "cost": 1642.33,
+     "label": "h2h San Francisco 49ers  @1.54"
+    }
+   ],
+   "status": "open"
+  },
+  {
+   "trade_id": 378,
+   "time": "2026-11-23T00:56:38Z",
+   "game": "nba:26NOV22INDNYK",
+   "title": "IND at NYK",
+   "league": "nba",
+   "kickoff": "2026-11-23T01:00:00Z",
+   "min_to_ko": 3.4,
+   "t_lp": 0.004036,
+   "with_books": true,
+   "books": [
+    "sport888"
+   ],
+   "spain_only": true,
+   "event": {
+    "id": "031fa761cc38e1b5afd9309b731b38b2",
+    "sport": "basketball_nba",
+    "home": "New York Knicks",
+    "away": "Indiana Pacers"
+   },
+   "cost": 2499.9967,
+   "guaranteed_payout": 2510.0838,
+   "guaranteed_profit": 10.0871,
+   "legs": [
+    {
+     "venue": "PM",
+     "id": "0xf8d4ad35c8c5eb5d8de52596c8ca24c2e5e14f4eab3b6759ffe2c0cbb6d741dc",
+     "label": "Spread: Knicks (-7.5)",
+     "side": "YES",
+     "price": 0.46,
+     "shares": 2510.09,
+     "fee": 31.17532,
+     "cost": 1185.8167
+    },
+    {
+     "venue": "BK:sport888",
+     "book": "sport888",
+     "market": "spreads",
+     "outcome": "Indiana Pacers",
+     "side": "away",
+     "point": 7.5,
+     "odds": 1.91,
+     "eff": 1.91,
+     "three_way": false,
+     "stake": 1314.18,
+     "cost": 1314.18,
+     "label": "spreads Indiana Pacers 7.5 @1.91"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -604,28 +779,36 @@
   "KS|KXNBAWINMARGIN-26NOV22INDNYK-IND6TO10|YES|0.0700": {
    "n": 407.0,
    "t": "2026-11-23T00:30:51Z"
+  },
+  "KS|KXNFLTIE-26NOV22MINSF-Y|YES|0.0100": {
+   "n": 29.0,
+   "t": "2026-11-23T00:51:35Z"
+  },
+  "PM|0xf8d4ad35c8c5eb5d8de52596c8ca24c2e5e14f4eab3b6759ffe2c0cbb6d741dc|YES|0.4600": {
+   "n": 2510.09,
+   "t": "2026-11-23T00:56:38Z"
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 375,
+ "n_trades": 378,
  "n_settled": 368,
  "realized_pnl": -87604.1478100001,
  "runs": 76,
  "locked": {
-  "PM": 2138.4771000000005,
-  "KS": 117.77000000000001,
+  "PM": 3324.2938000000004,
+  "KS": 118.09,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 1818.1100000000001,
   "BK:onexbet": 4.774847184307873e-12,
-  "BK:matchbook": 3076.1600000000017,
+  "BK:matchbook": 4850.870000000002,
   "BK:leovegas_se": 1.7053025658242404e-11,
   "BK:gtbets": 0.0,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 1.2846612662542611e-11,
   "BK:tipico_de": 0.0,
-  "BK:coolbet": 2284.31,
-  "BK:unibet_nl": 2.5011104298755527e-12,
+  "BK:coolbet": 3141.66,
+  "BK:unibet_nl": 1642.3300000000024,
   "BK:marathonbet": 1350.3099999999986,
   "BK:coral": 4.547473508864641e-13,
   "BK:betfair_ex_uk": 1.4210854715202004e-14,
@@ -646,9 +829,10 @@
   "BK:draftkings": 1831.18,
   "BK:williamhill": 650.7,
   "BK:ladbrokes_uk": 0.0,
-  "BK:betus": 0.0,
+  "BK:betus": 725.28,
   "BK:unibet_uk": 0.0,
-  "BK:nordicbet": 0.0
+  "BK:nordicbet": 0.0,
+  "BK:sport888": 1314.18
  },
  "peak_locked": {
   "PM": 4486.7806,
@@ -687,7 +871,8 @@
   "BK:ladbrokes_uk": 4528.91,
   "BK:betus": 3869.2799999999997,
   "BK:unibet_uk": 1340.27,
-  "BK:nordicbet": 1993.38
+  "BK:nordicbet": 1993.38,
+  "BK:sport888": 1314.18
  },
  "min_cash": {
   "PM": 2369.7283000000007,
@@ -726,7 +911,8 @@
   "BK:ladbrokes_uk": -7734.96,
   "BK:betus": -3289.2799999999997,
   "BK:unibet_uk": -1287.96,
-  "BK:nordicbet": -1413.38
+  "BK:nordicbet": -1413.38,
+  "BK:sport888": -734.1800000000001
  },
  "transfers": [],
  "transfer_stats": {
@@ -737,18 +923,18 @@
  "peak_total_locked": 155979.6216,
  "odds": {
   "remaining": {
-   "1": 31,
-   "2": 28,
-   "3": 31,
-   "4": 30,
-   "5": 30,
-   "6": 31,
-   "7": 28,
+   "1": 25,
+   "2": 22,
+   "3": 25,
+   "4": 24,
+   "5": 24,
+   "6": 25,
+   "7": 22,
    "8": 27,
    "9": 27,
    "10": 28,
-   "11": 30,
-   "12": 28,
+   "11": 24,
+   "12": 22,
    "13": 26
   },
   "spent": {
@@ -768,7 +954,7 @@
    "2026-11-20": 530,
    "2026-11-21": 1458,
    "2026-11-22": 1120,
-   "2026-11-23": 18
+   "2026-11-23": 72
   }
  },
  "book_slots": {
@@ -1093,6 +1279,12 @@
   "nba|2026-11-23T00:00|5": "2026-11-22T23:55:06Z",
   "nhl|2026-11-23T00:00|5": "2026-11-22T23:55:06Z",
   "nba|2026-11-23T01:00|30": "2026-11-23T00:30:01Z",
-  "nhl|2026-11-23T01:00|30": "2026-11-23T00:30:06Z"
+  "nhl|2026-11-23T01:00|30": "2026-11-23T00:30:06Z",
+  "nba|2026-11-23T01:00|15": "2026-11-23T00:45:01Z",
+  "nhl|2026-11-23T01:00|15": "2026-11-23T00:45:01Z",
+  "nfl|2026-11-23T01:20|30": "2026-11-23T00:50:01Z",
+  "nba|2026-11-23T01:00|5": "2026-11-23T00:55:01Z",
+  "nhl|2026-11-23T01:00|5": "2026-11-23T00:55:01Z",
+  "nba|2026-11-23T01:30|30": "2026-11-23T01:00:01Z"
  }
 }
