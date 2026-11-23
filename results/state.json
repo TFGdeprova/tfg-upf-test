@@ -13,7 +13,7 @@
   "BK:unibet_se": -9348.891800000016,
   "BK:tipico_de": -1205.0719999999997,
   "BK:coolbet": 16585.2221,
-  "BK:unibet_nl": -8969.670000000002,
+  "BK:unibet_nl": -3911.2936000000013,
   "BK:marathonbet": -8298.351799999997,
   "BK:coral": -4370.812,
   "BK:betfair_ex_uk": 117.15999999999998,
@@ -79,140 +79,7 @@
   "BK:nordicbet": 580.0,
   "BK:sport888": 580.0
  },
- "open": [
-  {
-   "trade_id": 377,
-   "time": "2026-11-23T00:51:35Z",
-   "game": "nfl:26NOV22MINSF",
-   "title": "MIN at SF",
-   "league": "nfl",
-   "kickoff": "2026-11-23T01:20:00Z",
-   "min_to_ko": 28.4,
-   "t_lp": 0.011676,
-   "with_books": true,
-   "books": [
-    "coolbet",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "60e1d27b083a335b722c2c852ea85612",
-    "sport": "americanfootball_nfl",
-    "home": "San Francisco 49ers",
-    "away": "Minnesota Vikings"
-   },
-   "cost": 2500.0,
-   "guaranteed_payout": 2528.68,
-   "guaranteed_profit": 28.68,
-   "legs": [
-    {
-     "venue": "KS",
-     "id": "KXNFLTIE-26NOV22MINSF-Y",
-     "label": "Game to end in a tie",
-     "side": "YES",
-     "price": 0.01,
-     "shares": 29,
-     "fee": 0.03,
-     "cost": 0.32
-    },
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "h2h",
-     "outcome": "Minnesota Vikings",
-     "side": "away",
-     "point": null,
-     "odds": 2.95,
-     "eff": 2.95,
-     "three_way": false,
-     "stake": 857.35,
-     "cost": 857.35,
-     "label": "h2h Minnesota Vikings  @2.95"
-    },
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "San Francisco 49ers",
-     "side": "home",
-     "point": null,
-     "odds": 1.54,
-     "eff": 1.54,
-     "three_way": false,
-     "stake": 1642.33,
-     "cost": 1642.33,
-     "label": "h2h San Francisco 49ers  @1.54"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 379,
-   "time": "2026-11-23T01:06:33Z",
-   "game": "nfl:26NOV22MINSF",
-   "title": "MIN at SF",
-   "league": "nfl",
-   "kickoff": "2026-11-23T01:20:00Z",
-   "min_to_ko": 13.4,
-   "t_lp": 0.011676,
-   "with_books": true,
-   "books": [
-    "coolbet",
-    "unibet_nl"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "60e1d27b083a335b722c2c852ea85612",
-    "sport": "americanfootball_nfl",
-    "home": "San Francisco 49ers",
-    "away": "Minnesota Vikings"
-   },
-   "cost": 2500.0,
-   "guaranteed_payout": 2528.68,
-   "guaranteed_profit": 28.68,
-   "legs": [
-    {
-     "venue": "KS",
-     "id": "KXNFLTIE-26NOV22MINSF-Y",
-     "label": "Game to end in a tie",
-     "side": "YES",
-     "price": 0.01,
-     "shares": 29,
-     "fee": 0.03,
-     "cost": 0.32
-    },
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "h2h",
-     "outcome": "Minnesota Vikings",
-     "side": "away",
-     "point": null,
-     "odds": 2.95,
-     "eff": 2.95,
-     "three_way": false,
-     "stake": 857.35,
-     "cost": 857.35,
-     "label": "h2h Minnesota Vikings  @2.95"
-    },
-    {
-     "venue": "BK:unibet_nl",
-     "book": "unibet_nl",
-     "market": "h2h",
-     "outcome": "San Francisco 49ers",
-     "side": "home",
-     "point": null,
-     "odds": 1.54,
-     "eff": 1.54,
-     "three_way": false,
-     "stake": 1642.33,
-     "cost": 1642.33,
-     "label": "h2h San Francisco 49ers  @1.54"
-    }
-   ],
-   "status": "open"
-  }
- ],
+ "open": [],
  "consumed": {
   "KS|KXNFLTIE-26NOV22PITPHI-Y|YES|0.0100": {
    "n": 146.0,
@@ -277,12 +144,12 @@
  },
  "started": "2026-11-06T22:51:30Z",
  "n_trades": 379,
- "n_settled": 377,
- "realized_pnl": -87333.8463420001,
+ "n_settled": 379,
+ "realized_pnl": -87275.4699420001,
  "runs": 76,
  "locked": {
   "PM": 2.2737367544323206e-13,
-  "KS": 0.6399999999999935,
+  "KS": 0.0,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 2.2737367544323206e-13,
   "BK:onexbet": 4.774847184307873e-12,
@@ -293,8 +160,8 @@
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 1.2846612662542611e-11,
   "BK:tipico_de": 0.0,
-  "BK:coolbet": 1714.7,
-  "BK:unibet_nl": 3284.6600000000026,
+  "BK:coolbet": 0.0,
+  "BK:unibet_nl": 2.7284841053187847e-12,
   "BK:marathonbet": 0.0,
   "BK:coral": 4.547473508864641e-13,
   "BK:betfair_ex_uk": 1.4210854715202004e-14,
@@ -411,7 +278,7 @@
   "remaining": {
    "1": 25,
    "2": 22,
-   "3": 25,
+   "3": 23,
    "4": 24,
    "5": 24,
    "6": 23,
@@ -440,7 +307,7 @@
    "2026-11-20": 530,
    "2026-11-21": 1458,
    "2026-11-22": 1120,
-   "2026-11-23": 94
+   "2026-11-23": 96
   }
  },
  "book_slots": {
