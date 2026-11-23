@@ -81,26 +81,6 @@
  },
  "open": [],
  "consumed": {
-  "KS|KXNFLTIE-26NOV22PITPHI-Y|YES|0.0100": {
-   "n": 146.0,
-   "t": "2026-11-22T17:56:54Z"
-  },
-  "KS|KXNFLTIE-26NOV22MIABUF-Y|YES|0.0100": {
-   "n": 54.0,
-   "t": "2026-11-22T17:56:47Z"
-  },
-  "KS|KXNFLTIE-26NOV22NOCHI-Y|YES|0.0100": {
-   "n": 24.0,
-   "t": "2026-11-22T17:56:51Z"
-  },
-  "PM|0x8c9d3ab12a472949eb6852326bfe6004883b2670884035c6c5d2b8a05c0dd99b|YES|0.3400": {
-   "n": 349.92,
-   "t": "2026-11-22T17:56:54Z"
-  },
-  "KS|KXNFLTIE-26NOV22ARIKC-Y|YES|0.0100": {
-   "n": 9.0,
-   "t": "2026-11-22T17:56:54Z"
-  },
   "KS|KXNFLTIE-26NOV22NYJLAC-Y|YES|0.0100": {
    "n": 20.0,
    "t": "2026-11-22T21:02:03Z"
@@ -142,7 +122,7 @@
  "n_trades": 379,
  "n_settled": 379,
  "realized_pnl": -87275.4699420001,
- "runs": 76,
+ "runs": 77,
  "locked": {
   "PM": 2.2737367544323206e-13,
   "KS": 0.0,
