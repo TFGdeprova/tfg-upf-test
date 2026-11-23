@@ -1,7 +1,7 @@
 {
  "cash": {
   "PM": 10812.4177,
-  "KS": 7128.309999999996,
+  "KS": 7127.989999999996,
   "BK:smarkets": 4966.425714,
   "BK:pinnacle": 325.7792000000027,
   "BK:onexbet": -68743.79310000004,
@@ -12,8 +12,8 @@
   "BK:grosvenor": 580.0,
   "BK:unibet_se": -9348.891800000016,
   "BK:tipico_de": -1205.0719999999997,
-  "BK:coolbet": 12422.0022,
-  "BK:unibet_nl": -7327.340000000003,
+  "BK:coolbet": 16585.2221,
+  "BK:unibet_nl": -8969.670000000002,
   "BK:marathonbet": -13334.344599999997,
   "BK:coral": -4370.812,
   "BK:betfair_ex_uk": 117.15999999999998,
@@ -80,138 +80,6 @@
   "BK:sport888": 580.0
  },
  "open": [
-  {
-   "trade_id": 369,
-   "time": "2026-11-22T20:51:57Z",
-   "game": "nfl:26NOV22NYJLAC",
-   "title": "NYJ at LAC",
-   "league": "nfl",
-   "kickoff": "2026-11-22T21:05:00Z",
-   "min_to_ko": 13.0,
-   "t_lp": 0.002286,
-   "with_books": true,
-   "books": [
-    "coolbet",
-    "matchbook"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "4b20b742b6168aaca4f25d87f11b1526",
-    "sport": "americanfootball_nfl",
-    "home": "Los Angeles Chargers",
-    "away": "New York Jets"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2504.93,
-   "guaranteed_profit": 4.94,
-   "legs": [
-    {
-     "venue": "KS",
-     "id": "KXNFLTIE-26NOV22NYJLAC-Y",
-     "label": "Game to end in a tie",
-     "side": "YES",
-     "price": 0.01,
-     "shares": 5,
-     "fee": 0.01,
-     "cost": 0.06
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Los Angeles Chargers",
-     "side": "home",
-     "point": null,
-     "odds": 1.64,
-     "eff": 1.6271999999999998,
-     "three_way": false,
-     "stake": 1539.89,
-     "cost": 1539.89,
-     "label": "h2h Los Angeles Chargers  @1.64"
-    },
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "h2h",
-     "outcome": "New York Jets",
-     "side": "away",
-     "point": null,
-     "odds": 2.61,
-     "eff": 2.61,
-     "three_way": false,
-     "stake": 960.04,
-     "cost": 960.04,
-     "label": "h2h New York Jets  @2.61"
-    }
-   ],
-   "status": "open"
-  },
-  {
-   "trade_id": 370,
-   "time": "2026-11-22T21:02:03Z",
-   "game": "nfl:26NOV22NYJLAC",
-   "title": "NYJ at LAC",
-   "league": "nfl",
-   "kickoff": "2026-11-22T21:05:00Z",
-   "min_to_ko": 2.9,
-   "t_lp": 0.005956,
-   "with_books": true,
-   "books": [
-    "coolbet",
-    "matchbook"
-   ],
-   "spain_only": false,
-   "event": {
-    "id": "4b20b742b6168aaca4f25d87f11b1526",
-    "sport": "americanfootball_nfl",
-    "home": "Los Angeles Chargers",
-    "away": "New York Jets"
-   },
-   "cost": 2499.99,
-   "guaranteed_payout": 2514.82,
-   "guaranteed_profit": 14.83,
-   "legs": [
-    {
-     "venue": "KS",
-     "id": "KXNFLTIE-26NOV22NYJLAC-Y",
-     "label": "Game to end in a tie",
-     "side": "YES",
-     "price": 0.01,
-     "shares": 15,
-     "fee": 0.02,
-     "cost": 0.17
-    },
-    {
-     "venue": "BK:matchbook",
-     "book": "matchbook",
-     "market": "h2h",
-     "outcome": "Los Angeles Chargers",
-     "side": "home",
-     "point": null,
-     "odds": 1.65,
-     "eff": 1.637,
-     "three_way": false,
-     "stake": 1536.27,
-     "cost": 1536.27,
-     "label": "h2h Los Angeles Chargers  @1.65"
-    },
-    {
-     "venue": "BK:coolbet",
-     "book": "coolbet",
-     "market": "h2h",
-     "outcome": "New York Jets",
-     "side": "away",
-     "point": null,
-     "odds": 2.61,
-     "eff": 2.61,
-     "three_way": false,
-     "stake": 963.55,
-     "cost": 963.55,
-     "label": "h2h New York Jets  @2.61"
-    }
-   ],
-   "status": "open"
-  },
   {
    "trade_id": 371,
    "time": "2026-11-22T21:11:59Z",
@@ -689,6 +557,72 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "trade_id": 379,
+   "time": "2026-11-23T01:06:33Z",
+   "game": "nfl:26NOV22MINSF",
+   "title": "MIN at SF",
+   "league": "nfl",
+   "kickoff": "2026-11-23T01:20:00Z",
+   "min_to_ko": 13.4,
+   "t_lp": 0.011676,
+   "with_books": true,
+   "books": [
+    "coolbet",
+    "unibet_nl"
+   ],
+   "spain_only": false,
+   "event": {
+    "id": "60e1d27b083a335b722c2c852ea85612",
+    "sport": "americanfootball_nfl",
+    "home": "San Francisco 49ers",
+    "away": "Minnesota Vikings"
+   },
+   "cost": 2500.0,
+   "guaranteed_payout": 2528.68,
+   "guaranteed_profit": 28.68,
+   "legs": [
+    {
+     "venue": "KS",
+     "id": "KXNFLTIE-26NOV22MINSF-Y",
+     "label": "Game to end in a tie",
+     "side": "YES",
+     "price": 0.01,
+     "shares": 29,
+     "fee": 0.03,
+     "cost": 0.32
+    },
+    {
+     "venue": "BK:coolbet",
+     "book": "coolbet",
+     "market": "h2h",
+     "outcome": "Minnesota Vikings",
+     "side": "away",
+     "point": null,
+     "odds": 2.95,
+     "eff": 2.95,
+     "three_way": false,
+     "stake": 857.35,
+     "cost": 857.35,
+     "label": "h2h Minnesota Vikings  @2.95"
+    },
+    {
+     "venue": "BK:unibet_nl",
+     "book": "unibet_nl",
+     "market": "h2h",
+     "outcome": "San Francisco 49ers",
+     "side": "home",
+     "point": null,
+     "odds": 1.54,
+     "eff": 1.54,
+     "three_way": false,
+     "stake": 1642.33,
+     "cost": 1642.33,
+     "label": "h2h San Francisco 49ers  @1.54"
+    }
+   ],
+   "status": "open"
   }
  ],
  "consumed": {
@@ -781,8 +715,8 @@
    "t": "2026-11-23T00:30:51Z"
   },
   "KS|KXNFLTIE-26NOV22MINSF-Y|YES|0.0100": {
-   "n": 29.0,
-   "t": "2026-11-23T00:51:35Z"
+   "n": 58.0,
+   "t": "2026-11-23T01:06:33Z"
   },
   "PM|0xf8d4ad35c8c5eb5d8de52596c8ca24c2e5e14f4eab3b6759ffe2c0cbb6d741dc|YES|0.4600": {
    "n": 2510.09,
@@ -790,25 +724,25 @@
   }
  },
  "started": "2026-11-06T22:51:30Z",
- "n_trades": 378,
- "n_settled": 368,
- "realized_pnl": -87604.1478100001,
+ "n_trades": 379,
+ "n_settled": 370,
+ "realized_pnl": -87583.5579100001,
  "runs": 76,
  "locked": {
   "PM": 3324.2938000000004,
-  "KS": 118.09,
+  "KS": 118.17999999999999,
   "BK:smarkets": 0.0,
   "BK:pinnacle": 1818.1100000000001,
   "BK:onexbet": 4.774847184307873e-12,
-  "BK:matchbook": 4850.870000000002,
+  "BK:matchbook": 1774.7100000000014,
   "BK:leovegas_se": 1.7053025658242404e-11,
   "BK:gtbets": 0.0,
   "BK:winamax_de": 0.0,
   "BK:grosvenor": 0.0,
   "BK:unibet_se": 1.2846612662542611e-11,
   "BK:tipico_de": 0.0,
-  "BK:coolbet": 3141.66,
-  "BK:unibet_nl": 1642.3300000000024,
+  "BK:coolbet": 2075.42,
+  "BK:unibet_nl": 3284.6600000000026,
   "BK:marathonbet": 1350.3099999999986,
   "BK:coral": 4.547473508864641e-13,
   "BK:betfair_ex_uk": 1.4210854715202004e-14,
@@ -930,12 +864,12 @@
    "5": 24,
    "6": 25,
    "7": 22,
-   "8": 27,
-   "9": 27,
-   "10": 28,
+   "8": 21,
+   "9": 21,
+   "10": 22,
    "11": 24,
    "12": 22,
-   "13": 26
+   "13": 24
   },
   "spent": {
    "2026-11-06": 27,
@@ -954,7 +888,7 @@
    "2026-11-20": 530,
    "2026-11-21": 1458,
    "2026-11-22": 1120,
-   "2026-11-23": 72
+   "2026-11-23": 92
   }
  },
  "book_slots": {
@@ -1285,6 +1219,9 @@
   "nfl|2026-11-23T01:20|30": "2026-11-23T00:50:01Z",
   "nba|2026-11-23T01:00|5": "2026-11-23T00:55:01Z",
   "nhl|2026-11-23T01:00|5": "2026-11-23T00:55:01Z",
-  "nba|2026-11-23T01:30|30": "2026-11-23T01:00:01Z"
+  "nba|2026-11-23T01:30|30": "2026-11-23T01:00:01Z",
+  "nfl|2026-11-23T01:20|15": "2026-11-23T01:05:01Z",
+  "nba|2026-11-23T01:30|15": "2026-11-23T01:15:01Z",
+  "nfl|2026-11-23T01:20|5": "2026-11-23T01:15:01Z"
  }
 }
