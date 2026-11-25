@@ -1,0 +1,62 @@
+name: In-sample rebuild (football)
+
+# Rebuilds the historical (in-sample) football data of the thesis from complete public downloads (Polymarket, Kalshi,
+# football-data.co.uk), one league per job, on GitHub's machines instead of the analysis session (25 Nov 2026).
+# The programs and every result live in the private data repository: each job checks it out, runs
+# scripts/gha_rebuild_league.sh and pushes its outputs there on its own branch (rebuild-gha/<league>), so nothing on
+# its main branch is changed. Nothing is written to this public repository, and the logs show only step names.
+on:
+  workflow_dispatch:
+    inputs:
+      leagues:
+        description: "JSON list of leagues to rebuild"
+        default: '["elc","epl","sea","lal","bun","tur","ere","fl1","por","scop","bel1"]'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: insample-rebuild
+  cancel-in-progress: false
+
+jobs:
+  league:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        lg: ${{ fromJSON(inputs.leagues) }}
+    steps:
+      - name: Check out the private data repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ secrets.PRIVATE_REPO }}
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
+          path: tfg
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install the package versions used in the analysis
+        run: pip install -q numpy==2.5.5 scipy==1.18.1 pandas==2.3.3 highspy==1.16.0 tabulate > /dev/null 2>&1
+
+      - name: Rebuild the league
+        run: |
+          sudo mkdir -p /home/user && sudo ln -sfn "$GITHUB_WORKSPACE/tfg" /home/user/tfg
+          mkdir -p "tfg/data/results/rebuild_gha/${{ matrix.lg }}"
+          bash tfg/scripts/gha_rebuild_league.sh "${{ matrix.lg }}" > "tfg/data/results/rebuild_gha/${{ matrix.lg }}/run_log.txt" 2>&1 || true
+          if [ -f "tfg/data/results/rebuild_gha/${{ matrix.lg }}/check.md" ]; then echo "check report written"; else echo "no check report"; fi
+
+      - name: Push the outputs to the private repository (own branch)
+        if: always()
+        run: |
+          cd tfg
+          git config user.name "TFGdeprova"
+          git config user.email "344081106+TFGdeprova@users.noreply.github.com"
+          git checkout -q -b "rebuild-gha/${{ matrix.lg }}"
+          git add -f "data/results/rebuild_gha/${{ matrix.lg }}"
+          git commit -q -m "In-sample rebuild: ${{ matrix.lg }} (run ${{ github.run_id }})" || echo "nothing to commit"
+          for i in 1 2 3 4; do git push -q -f origin "rebuild-gha/${{ matrix.lg }}" > /dev/null 2>&1 && echo "pushed" && break; sleep $((10 * i)); done
