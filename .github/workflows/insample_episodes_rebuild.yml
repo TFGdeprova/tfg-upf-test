@@ -1,0 +1,76 @@
+name: In-sample rebuild, second pass (football)
+
+# Second pass of the football rebuild (26 Nov 2026). For each league it computes the measures that need the raw price
+# and trade files (episode measures and per-minute trading activity) on the machine that downloads them. Same set-up as
+# insample_rebuild.yml: the programs and every result live in the private data repository. Each job reads the
+# first-pass outputs of its league (branch rebuild-gha/<league>), runs scripts/gha_episodes_league.sh, and pushes its
+# outputs to branch rebuild-gha2/<league> and the downloaded prices and trades to branch rebuild-raw/<league>. Nothing
+# is written to this public repository or to the main branch of the private one, and the logs show only step names.
+on:
+  workflow_dispatch:
+    inputs:
+      leagues:
+        description: "JSON list of leagues"
+        default: '["elc","epl","sea","lal","bun","tur","ere","fl1","por","scop","bel1"]'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: insample-rebuild2
+  cancel-in-progress: false
+
+jobs:
+  league:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        lg: ${{ fromJSON(inputs.leagues) }}
+    steps:
+      - name: Check out the private data repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ secrets.PRIVATE_REPO }}
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
+          path: tfg
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install the package versions used in the analysis
+        run: pip install -q numpy==2.5.5 scipy==1.18.1 pandas==2.3.3 highspy==1.16.0 tabulate > /dev/null 2>&1
+
+      - name: Read the first-pass outputs of the league
+        run: |
+          cd tfg
+          git fetch -q --depth 1 origin "rebuild-gha/${{ matrix.lg }}" > /dev/null 2>&1
+          git checkout -q FETCH_HEAD -- "data/results/rebuild_gha/${{ matrix.lg }}"
+          git reset -q
+          echo "first-pass files: $(ls data/results/rebuild_gha/${{ matrix.lg }} | wc -l)"
+
+      - name: Episode measures and minute features
+        run: |
+          sudo mkdir -p /home/user && sudo ln -sfn "$GITHUB_WORKSPACE/tfg" /home/user/tfg
+          mkdir -p "tfg/data/results/rebuild_gha2/${{ matrix.lg }}"
+          bash tfg/scripts/gha_episodes_league.sh "${{ matrix.lg }}" > "tfg/data/results/rebuild_gha2/${{ matrix.lg }}/run_log.txt" 2>&1 || true
+          if [ -f "tfg/data/results/rebuild_gha2/${{ matrix.lg }}/check2.md" ]; then echo "check report written"; else echo "no check report"; fi
+
+      - name: Push the outputs to the private repository (own branches)
+        if: always()
+        run: |
+          cd tfg
+          git config user.name "TFGdeprova"
+          git config user.email "344081106+TFGdeprova@users.noreply.github.com"
+          base=$(git rev-parse HEAD)
+          git checkout -q -b "rebuild-gha2/${{ matrix.lg }}"
+          git add -f "data/results/rebuild_gha2/${{ matrix.lg }}"
+          git commit -q -m "In-sample rebuild, second pass: ${{ matrix.lg }} (run ${{ github.run_id }})" || echo "nothing to commit"
+          for i in 1 2 3 4; do git push -q -f origin "rebuild-gha2/${{ matrix.lg }}" > /dev/null 2>&1 && echo "pushed outputs" && break; sleep $((10 * i)); done
+          git checkout -q -b "rebuild-raw/${{ matrix.lg }}" "$base"
+          git add -f "data/results/rebuild_raw/${{ matrix.lg }}"
+          git commit -q -m "In-sample rebuild, raw prices and trades: ${{ matrix.lg }} (run ${{ github.run_id }})" || echo "nothing to commit"
+          for i in 1 2 3 4; do git push -q -f origin "rebuild-raw/${{ matrix.lg }}" > /dev/null 2>&1 && echo "pushed raw data" && break; sleep $((10 * i)); done
